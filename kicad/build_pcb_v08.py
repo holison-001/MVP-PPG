@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Build ppg_pcb_v08.kicad_pcb (placement + planes) with the KiCad 10 pcbnew API and export a Specctra DSN.
+"""Build an UNROUTED placement study, not the authoritative release PCB.
+Use export_v08.py to validate/export the committed routed board.
   "...\\KiCad\\10.0\\bin\\python.exe" build_pcb_v08.py <out.kicad_pcb>            -> placement, planes, DSN
   "...\\KiCad\\10.0\\bin\\python.exe" build_pcb_v08.py <out.kicad_pcb> --ses x.ses -> import routed SES, fill, save
 """
@@ -30,6 +31,7 @@ if ses_path:
 board = pcbnew.BOARD()
 ds = board.GetDesignSettings()
 ds.SetCopperLayerCount(D.LAYERS)
+ds.SetBoardThickness(FromMM(D.THICKNESS))
 ds.m_MinClearance = FromMM(D.RULES["clearance"]); ds.m_TrackMinWidth = FromMM(0.1)
 ds.m_ViasMinSize = FromMM(D.RULES["via_dia"]); ds.m_MinThroughDrill = FromMM(D.RULES["via_drill"])
 ds.m_CopperEdgeClearance = FromMM(D.RULES["edge_clearance"]); ds.m_HoleClearance = FromMM(0.2)
@@ -96,7 +98,10 @@ def fp_cablepad(dia):
 fps = {}
 for ref, c in D.COMPONENTS.items():
     if c["lib"] == "custom":
-        if c["fp"].startswith("MAXM"):
+        local_fp = Path(__file__).with_name("SleepBud.pretty") / (c["fp"] + ".kicad_mod")
+        if local_fp.is_file():
+            fp = pcbnew.FootprintLoad(str(local_fp.parent), c["fp"])
+        elif c["fp"].startswith("MAXM"):
             fp = fp_maxm86161()
         elif c["fp"].startswith("THVD"):
             fp = fp_thvd_drl8()
@@ -107,6 +112,7 @@ for ref, c in D.COMPONENTS.items():
             assert fp is not None, (ref, c["fp"])
     else:
         fp = pcbnew.FootprintLoad(os.path.join(KICAD_FP, c["lib"] + ".pretty"), c["fp"]); assert fp is not None, (ref, c["fp"])
+    fp.SetFPID(pcbnew.LIB_ID("SleepBud" if c["lib"] == "custom" else c["lib"], c["fp"]))
     fp.SetReference(ref); fp.SetValue(c["value"]); board.Add(fp); fp.SetPosition(MM(*c["pos"]))
     if c["side"] == "B":
         fp.SetLayerAndFlip(pcbnew.B_Cu)
@@ -173,10 +179,7 @@ t.SetTextSize(MM(0.5, 0.5)); t.SetTextThickness(FromMM(0.08)); board.Add(t)
 
 pcbnew.ZONE_FILLER(board).Fill(board.Zones())
 pcbnew.SaveBoard(out_path, board)
-libdir = os.path.join(os.path.dirname(out_path), "SleepBud.pretty"); os.makedirs(libdir, exist_ok=True)
-io = pcbnew.PCB_IO_KICAD_SEXPR()
-for ref in ("U1", "J1", "J7"):
-    io.FootprintSave(libdir, fps[ref])
+# Read local footprint definitions; never overwrite reviewed library sources.
 dsn = os.path.splitext(out_path)[0] + ".dsn"
 print("DSN export:", pcbnew.ExportSpecctraDSN(board, dsn), dsn)
 print("saved", out_path, "pads:", sum(len(fp.Pads()) for fp in board.GetFootprints()))

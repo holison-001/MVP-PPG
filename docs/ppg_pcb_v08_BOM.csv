@@ -1,14 +1,15 @@
-﻿Refs,Qty,Value,Footprint,Side,Part / note
-U1,1,MAXM86161EFD+,MAXM86161_OLGA-14,Top(F),ADI MAXM86161EFD+ (consigned)
-U2,1,STM32C011F6U6,ST_UFQFPN-20_3x3mm_P0.5mm,Bottom(B),ST STM32C011F6U6 UFQFPN-20
-U3,1,SN65LVDS1DBVR,SOT-23-5,Bottom(B),TI SN65LVDS1DBVR LVDS driver SOT-23-5
-U6,1,SN65LVDT2DBVR,SOT-23-5,Bottom(B),"TI SN65LVDT2DBVR LVDS receiver, 110 R termination, SOT-23-5"
-U4,1,MCP1703A-5002E/MC,DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,Bottom(B),Microchip MCP1703A-5002E/MC (2x3 DFN)
-U5,1,MCP1703A-3302E/MC,DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,Bottom(B),Microchip MCP1703A-3302E/MC (2x3 DFN)
-C1,1,10uF 6.3V X5R,C_0402_1005Metric,Bottom(B),0402 X5R 6.3V 10uF e.g. GRM155R60J106ME47
-"C4, C5, C12, C14",4,1uF 6.3V,C_0201_0603Metric,Bottom(B),0201 X5R 6.3V 1uF e.g. GRM033R60J105MEA2
-"R1, R2",2,4.7k,R_0201_0603Metric,Bottom(B),0201 1% 4.7k
-"C6, C7, C11",3,100nF,C_0201_0603Metric,Bottom(B),0201 X7R 16V 100nF e.g. GRM033R71C104KE14
-C13,1,1uF 25V X7R,C_0402_1005Metric,Bottom(B),0402 X7R 25V 1uF e.g. GRM155R61E105KA12
-J1-J6,6,"cable solder pads (12V, GND, TXP, TXN, RXP, RXN)",CablePad_D1.2,Bottom(B),hand-soldered cable (LVDS pairs twisted); piezo coax not on PCB
-J7-J9,3,"SWD test pads (SWDIO, SWCLK, NRST)",CablePad_D0.8,Bottom(B),debug; GND/3V3 from cable pads
+﻿Refs,Qty,Value / required specification,Footprint,Side,MPN (explicit design field),Datasheet,Notes
+C1,1,10uF 6.3V X5R,Capacitor_SMD:C_0402_1005Metric,Bottom(B),,,C1: VLED bulk / LDO1 output; MPN not specified in design; select a part meeting the stated value/package/rating
+"C4, C5, C12, C14",4,1uF 6.3V,Capacitor_SMD:C_0201_0603Metric,Bottom(B),,,C4: U1 VLDO bypass; C5: U1 VREF bypass; C12: U2 VDD bulk; C14: LDO2 output; MPN not specified in design; select a part meeting the stated value/package/rating
+"C6, C7, C11",3,100nF,Capacitor_SMD:C_0201_0603Metric,Bottom(B),,,C6: U3 VCC bypass; C7: U6 VCC bypass; C11: U2 VDD bypass; MPN not specified in design; select a part meeting the stated value/package/rating
+C13,1,1uF 25V X7R,Capacitor_SMD:C_0402_1005Metric,Bottom(B),,,C13: LDO1 input; MPN not specified in design; select a part meeting the stated value/package/rating
+D1,1,SPHV15-01ETG,SleepBud:TVS_SOD882_1x0.6,Top(F),SPHV15-01ETG,https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c,"D1: Littelfuse 15 V unidirectional input ESD TVS; K=1, A=2; 1.0x0.6 mm; transient residual at U4 VIN requires validation"
+"D2, D3, D4, D5, D6, D7, D8",7,ESD351DPYR,SleepBud:TI_DPY0002A_1x0.6,Top(F),ESD351DPYR,https://www.ti.com/lit/ds/symlink/esd351.pdf,"D2: TI unidirectional low-capacitance ESD TVS for TXP; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006; D3: TI unidirectional low-capacitance ESD TVS for TXN; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006; D4: TI unidirectional low-capacitance ESD TVS for RXP; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006; D5: TI unidirectional low-capacitance ESD TVS for RXN; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006; D6: TI unidirectional low-capacitance ESD TVS for SWDIO; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006; D7: TI unidirectional low-capacitance ESD TVS for SWCLK; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006; D8: TI unidirectional low-capacitance ESD TVS for NRST; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006"
+FB1,1,BLM15PX601SN1D,Inductor_SMD:L_0402_1005Metric,Top(F),BLM15PX601SN1D,https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23,"FB1: Murata ferrite bead 600 ohm at 100 MHz, 0.9 A at 85C, DCR 0.23 ohm max; metric 1005; C13 remains on filtered side"
+"R1, R2",2,4.7k,Resistor_SMD:R_0201_0603Metric,Bottom(B),,,R1: I2C SDA pull-up; R2: I2C SCL pull-up; MPN not specified in design; select a part meeting the stated value/package/rating
+U1,1,MAXM86161EFD+,SleepBud:MAXM86161_OLGA-14,Top(F),,,"U1: PPG optical module (G/R/IR LED + PD + AFE), single supply, internal 1.8 V LDO, I2C 0x62; MPN not specified in design; select a part meeting the stated value/package/rating"
+U2,1,STM32C011F6U6,Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm,Bottom(B),,,"U2: MCU, USART1 (PA9/PA10) <-> LVDS driver/receiver, I2C1 (PB6/PB7) -> PPG; USART bootloader over the link; MPN not specified in design; select a part meeting the stated value/package/rating"
+U3,1,SN65LVDS1DBVR,Package_TO_SOT_SMD:SOT-23-5,Bottom(B),,,"U3: LVDS driver (TTL->LVDS): 1 VCC, 2 GND, 3 Z, 4 Y, 5 D; MPN not specified in design; select a part meeting the stated value/package/rating"
+U4,1,MCP1703A-5002E/MC,Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,Bottom(B),,,U4: LDO 12 V -> 5 V (VLED); MPN not specified in design; select a part meeting the stated value/package/rating
+U5,1,MCP1703A-3302E/MC,Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,Bottom(B),,,U5: LDO 5 V -> 3.3 V; MPN not specified in design; select a part meeting the stated value/package/rating
+U6,1,SN65LVDT2DBVR,Package_TO_SOT_SMD:SOT-23-5,Bottom(B),,,"U6: LVDS receiver (LVDS->TTL) with 110 R termination: 1 VCC, 2 GND, 3 A, 4 B, 5 R; MPN not specified in design; select a part meeting the stated value/package/rating"

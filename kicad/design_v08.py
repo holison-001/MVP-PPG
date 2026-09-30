@@ -6,7 +6,7 @@ U6 SN65LVDT2 (SOT-23-5, 110 R termination built in): A/B = cable RXP/RXN (contro
   Receiver open-circuit fail-safe -> R high (UART idle) when the controller is off / cable open.
 No direction control, no external termination, works with the STM32 USART bootloader.
 Cable: +12V, GND, TXP, TXN, RXP, RXN (6 wires) + piezo coax direct to PZT. Ground offset between ends must stay < 1 V (common GND wire).
-MCU STM32C011F6U6, LDO1 12->5 V (VLED), LDO2 5->3.3 V. 4-layer 0.8 mm. Front: U1 only.
+MCU STM32C011F6U6, LDO1 12->5 V (VLED), LDO2 5->3.3 V. 4-layer 0.8 mm. Front: U1, D1-D8, FB1.
 Coordinates: centre (0,0), x right, y DOWN, mm.
 """
 
@@ -56,36 +56,37 @@ COMPONENTS = {
     "J4": dict(value="TXN", lib="custom", fp="CablePad_D1.2", side="B", pos=(5.7, -1.0), rot=0, pins={"1": "TXN"}, desc="cable LVDS TX-"),
     "J5": dict(value="RXP", lib="custom", fp="CablePad_D1.2", side="B", pos=(-5.6, 1.3), rot=0, pins={"1": "RXP"}, desc="cable LVDS RX+ (controller -> earbud)"),
     "J6": dict(value="RXN", lib="custom", fp="CablePad_D1.2", side="B", pos=(-5.7, -1.0), rot=0, pins={"1": "RXN"}, desc="cable LVDS RX-"),
-    # ---- SWD debug test pads Ø0.8 (r <= 6.05; GND/3V3 via cable pads)
+    # ---- SWD debug test pads Ø0.8 (GND from J2; 3V3 sense at C11/C12 pin 1)
     "J7": dict(value="SWDIO", lib="custom", fp="CablePad_D0.8", side="B", pos=(2.6, -2.6), rot=0, pins={"1": "SWDIO"}, desc="SWD test pad PA13"),
-    "J8": dict(value="SWCLK", lib="custom", fp="CablePad_D0.8", side="B", pos=(3.7, -2.6), rot=0, pins={"1": "SWCLK"}, desc="SWD test pad PA14"),
+    "J8": dict(value="SWCLK", lib="custom", fp="CablePad_D0.8", side="B", pos=(3.7, -2.85), rot=0, pins={"1": "SWCLK"}, desc="SWD test pad PA14"),
     "J9": dict(value="NRST", lib="custom", fp="CablePad_D0.8", side="B", pos=(-4.7, -2.6), rot=0, pins={"1": "NRST"}, desc="reset test pad"),
 }
 
 # 2026-09-30 ESD / input EMI filtering update.
 # User-approved sizes: FB1 = metric 1005 (1.0 x 0.5 mm);
 # ESD suppressors = DFN1006 (1.0 x 0.6 mm).
-# New F-side coordinates are a placement proposal until PCB placement is finalized.
+# Final ESD placement: measured in the validated routed PCB. Bare SWD pads
+# have plated 0.25 mm access vias; J8 moved 0.25 mm upwards for local clearance.
 COMPONENTS.update({
     "D1": dict(value="SPHV15-01ETG", mpn="SPHV15-01ETG", lib="custom",
-               fp="TVS_SOD882_1x0.6", side="F", pos=(-4.2, 3.2), rot=0,
+               fp="TVS_SOD882_1x0.6", side="F", pos=(-3.95, 4.15), rot=0,
                pins={"1": "12V_IN", "2": "GND"},
                desc="Littelfuse 15 V unidirectional input ESD TVS; K=1, A=2; 1.0x0.6 mm; transient residual at U4 VIN requires validation",
                datasheet="https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c"),
     "FB1": dict(value="BLM15PX601SN1D", mpn="BLM15PX601SN1D", lib="Inductor_SMD",
-                fp="L_0402_1005Metric", side="F", pos=(-2.2, 3.5), rot=0,
+                fp="L_0402_1005Metric", side="F", pos=(-1.3, 3.9), rot=0,
                 pins={"1": "12V_IN", "2": "12V"},
                 desc="Murata ferrite bead 600 ohm at 100 MHz, 0.9 A at 85C, DCR 0.23 ohm max; metric 1005; C13 remains on filtered side",
                 datasheet="https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23"),
 })
 for ref, net, pos, rot in [
-    ("D2", "TXP", (4.8, 1.3), 180),
-    ("D3", "TXN", (4.8, -1.0), 180),
-    ("D4", "RXP", (-4.8, 1.3), 0),
-    ("D5", "RXN", (-4.8, -1.0), 0),
-    ("D6", "SWDIO", (2.85, -2.25), 180),
-    ("D7", "SWCLK", (4.35, -3.0), 90),
-    ("D8", "NRST", (-4.3, -2.9), 90),
+    ("D2", "TXP", (4.85, 0.45), 90),
+    ("D3", "TXN", (5.15, -1.65), 0),
+    ("D4", "RXP", (-4.85, 0.45), 90),
+    ("D5", "RXN", (-5.15, -1.65), 180),
+    ("D6", "SWDIO", (2.6, -2.05), -90),
+    ("D7", "SWCLK", (4.35, -3.1), 90),
+    ("D8", "NRST", (-4.4, -3.1), 90),
 ]:
     COMPONENTS[ref] = dict(value="ESD351DPYR", mpn="ESD351DPYR", lib="custom",
         fp="TI_DPY0002A_1x0.6", side="F", pos=pos, rot=rot,

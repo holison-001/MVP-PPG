@@ -1,0 +1,296 @@
+
+KiCad version
+10.0.6
+
+Exit: 0
+
+Export schematic connectivity
+
+Exit: 0
+
+Check schematic (all severities)
+0 개의 위반 발견
+ERC 보고서를 C:/Users/LAPTOP-065/Documents/Codex/2026-09-30/mvp-ppg/work/export-release/ppg-export-1dx1r_88/docs/ppg_pcb_v08_ERC.json에 저장함.
+
+Exit: 0
+
+Refill and check PCB, including schematic parity
+17 개의 위반 발견
+0개의 미연결 항목 발견
+0 회로도 패리티 문제 발견
+DRC 보고서를 C:/Users/LAPTOP-065/Documents/Codex/2026-09-30/mvp-ppg/work/export-release/ppg-export-1dx1r_88/docs/ppg_pcb_v08_DRC.json에 저장함
+기판 저장 완료
+
+Exit: 0
+
+Export Gerbers
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-F_Cu.gtl'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-In1_Cu.g1'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-In2_Cu.g2'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-B_Cu.gbl'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-F_Paste.gtp'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-B_Paste.gbp'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-F_Silkscreen.gto'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-B_Silkscreen.gbo'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-F_Mask.gts'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-B_Mask.gbs'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-Edge_Cuts.gm1'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-F_Fab.gbr'에 플롯됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-B_Fab.gbr'에 플롯됨.
+
+Exit: 0
+
+Export drill files and maps
+생성된 파일 'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-PTH.drl'
+생성된 파일 'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-NPTH.drl'
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-PTH-drl_map.pdf' 파일 생성됨.
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\gerber\ppg_pcb_v08-NPTH-drl_map.pdf' 파일 생성됨.
+완료.
+
+Exit: 0
+
+Export placement coordinates
+Wrote position data to 'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\ppg_pcb_v08_positions.csv'.
+
+Exit: 0
+
+Export PCB layers PDF
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\ppg_pcb_v08_layers.pdf'에 플롯됨.
+완료.
+
+Exit: 0
+
+Export schematic PDF
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\ppg_pcb_v08_schematic.pdf'에 플롯됨.
+완료.
+
+Exit: 0
+
+Export STEP
+STEP file 'C:/Users/LAPTOP-065/Documents/Codex/2026-09-30/mvp-ppg/work/export-release/ppg-export-1dx1r_88/docs/ppg_pcb_v08.step' created.
+
+Export time 0.239 s
+
+Exit: 0
+
+Export front assembly PDF
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\ppg_pcb_v08_assembly_front.pdf'에 플롯됨.
+완료.
+
+Exit: 0
+
+Render front
+불러오는 중...
+기판 외곽선 생성
+
+레이어 생성
+배선 및 비아 생성
+영역 만들기
+기술 레이어 생성
+기술 레이어 생성 11
+기술 레이어 생성 9
+기술 레이어 생성 15
+기술 레이어 생성 13
+기술 레이어 생성 7
+기술 레이어 생성 5
+기술 레이어 생성 3
+기술 레이어 생성 1
+기술 레이어 생성 17
+기술 레이어 생성 19
+기술 레이어 생성 21
+기술 레이어 생성 23
+기술 레이어 생성 39
+기술 레이어 생성 41
+기술 레이어 생성 43
+기술 레이어 생성 45
+기술 레이어 생성 47
+기술 레이어 생성 49
+기술 레이어 생성 51
+기술 레이어 생성 53
+기술 레이어 생성 55
+기술 레이어 생성 57
+기술 레이어 생성 59
+기술 레이어 생성 61
+기술 레이어 생성 63
+기술 레이어 생성 65
+기술 레이어 생성 67
+기술 레이어 생성 69
+기술 레이어 생성 71
+기술 레이어 생성 73
+기술 레이어 생성 75
+기술 레이어 생성 77
+기술 레이어 생성 79
+기술 레이어 생성 81
+기술 레이어 생성 83
+기술 레이어 생성 85
+기술 레이어 생성 87
+기술 레이어 생성 89
+기술 레이어 생성 91
+기술 레이어 생성 93
+기술 레이어 생성 95
+기술 레이어 생성 97
+기술 레이어 생성 99
+기술 레이어 생성 101
+기술 레이어 생성 103
+기술 레이어 생성 105
+기술 레이어 생성 107
+기술 레이어 생성 109
+기술 레이어 생성 111
+기술 레이어 생성 113
+기술 레이어 생성 115
+기술 레이어 생성 117
+기술 레이어 생성 119
+기술 레이어 생성 121
+기술 레이어 생성 123
+기술 레이어 생성 125
+기술 레이어 생성 127
+동박층 다각형 단순화
+동도금 계산
+홀 윤곽 단순화
+홀과 비아용 BVH 생성
+레이트레이싱 불러오기: 기판
+레이트레이싱 불러오기: 레이어
+3D 모델을 불러오는 중입니다...
+다시 불러오기 시간 0.091 s
+렌더링: 6 
+렌더링: 10 
+렌더링: 15 
+렌더링: 20 
+렌더링: 25 
+렌더링: 32 
+렌더링: 37 
+렌더링: 42 
+렌더링: 46 
+렌더링: 50 
+렌더링: 55 
+렌더링: 61 
+렌더링: 65 
+렌더링: 71 
+렌더링: 76 
+렌더링: 81 
+렌더링: 86 
+렌더링: 90 
+렌더링: 95 
+렌더링: 99 
+렌더링: 100 
+렌더링: 후 처리 셰이더
+렌더링 시간 8.505 s
+3D 렌더링 이미지 생성 성공
+
+Exit: 0
+
+Export front SVG
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\layout_front.svg'에 플롯됨.
+완료.
+
+Exit: 0
+
+Export back assembly PDF
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\ppg_pcb_v08_assembly_back.pdf'에 플롯됨.
+완료.
+
+Exit: 0
+
+Render back
+불러오는 중...
+기판 외곽선 생성
+
+레이어 생성
+배선 및 비아 생성
+영역 만들기
+기술 레이어 생성
+기술 레이어 생성 11
+기술 레이어 생성 9
+기술 레이어 생성 15
+기술 레이어 생성 13
+기술 레이어 생성 7
+기술 레이어 생성 5
+기술 레이어 생성 3
+기술 레이어 생성 1
+기술 레이어 생성 17
+기술 레이어 생성 19
+기술 레이어 생성 21
+기술 레이어 생성 23
+기술 레이어 생성 39
+기술 레이어 생성 41
+기술 레이어 생성 43
+기술 레이어 생성 45
+기술 레이어 생성 47
+기술 레이어 생성 49
+기술 레이어 생성 51
+기술 레이어 생성 53
+기술 레이어 생성 55
+기술 레이어 생성 57
+기술 레이어 생성 59
+기술 레이어 생성 61
+기술 레이어 생성 63
+기술 레이어 생성 65
+기술 레이어 생성 67
+기술 레이어 생성 69
+기술 레이어 생성 71
+기술 레이어 생성 73
+기술 레이어 생성 75
+기술 레이어 생성 77
+기술 레이어 생성 79
+기술 레이어 생성 81
+기술 레이어 생성 83
+기술 레이어 생성 85
+기술 레이어 생성 87
+기술 레이어 생성 89
+기술 레이어 생성 91
+기술 레이어 생성 93
+기술 레이어 생성 95
+기술 레이어 생성 97
+기술 레이어 생성 99
+기술 레이어 생성 101
+기술 레이어 생성 103
+기술 레이어 생성 105
+기술 레이어 생성 107
+기술 레이어 생성 109
+기술 레이어 생성 111
+기술 레이어 생성 113
+기술 레이어 생성 115
+기술 레이어 생성 117
+기술 레이어 생성 119
+기술 레이어 생성 121
+기술 레이어 생성 123
+기술 레이어 생성 125
+기술 레이어 생성 127
+동박층 다각형 단순화
+동도금 계산
+홀 윤곽 단순화
+홀과 비아용 BVH 생성
+레이트레이싱 불러오기: 기판
+레이트레이싱 불러오기: 레이어
+3D 모델을 불러오는 중입니다...
+다시 불러오기 시간 0.086 s
+렌더링: 5 
+렌더링: 9 
+렌더링: 16 
+렌더링: 23 
+렌더링: 28 
+렌더링: 32 
+렌더링: 37 
+렌더링: 43 
+렌더링: 49 
+렌더링: 54 
+렌더링: 59 
+렌더링: 64 
+렌더링: 70 
+렌더링: 76 
+렌더링: 81 
+렌더링: 86 
+렌더링: 93 
+렌더링: 98 
+렌더링: 100 
+렌더링: 후 처리 셰이더
+렌더링 시간 7.716 s
+3D 렌더링 이미지 생성 성공
+
+Exit: 0
+
+Export back SVG
+'C:\Users\LAPTOP-065\Documents\Codex\2026-09-30\mvp-ppg\work\export-release\ppg-export-1dx1r_88\docs\layout_back.svg'에 플롯됨.
+완료.
+
+Exit: 0

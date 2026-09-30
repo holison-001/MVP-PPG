@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "PCB_references": 35,
+  "design_references": 35,
+  "board_sha256": "e3d903a3db61928aa1721328507d15f12792ed97b1fb39c6200d0aa3864da830",
+  "design_sha256": "6b68154db3c7f3a8cb063d25b1cc18acb70ec452543012cf83d918724e68104c",
+  "assembled_components": 26,
+  "nonplaced_copper_features": 9,
+  "BOM_line_items": 14,
+  "copper_feature_refs": [
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9"
+  ],
+  "coordinate_system": "PCB origin at centre; x right; y down; native KiCad rotation, actual PCB side",
+  "unspecified_MPN_refs": [
+    "U1",
+    "U2",
+    "U3",
+    "U6",
+    "U4",
+    "U5",
+    "C1",
+    "C4",
+    "C5",
+    "R1",
+    "R2",
+    "C6",
+    "C7",
+    "C11",
+    "C12",
+    "C13",
+    "C14"
+  ],
+  "archive_file_count": 18
+}

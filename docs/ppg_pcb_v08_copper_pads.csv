@@ -1,0 +1,10 @@
+﻿Ref,Value,Footprint,Side,X_mm (right),Y_mm (down),Rotation_deg (KiCad),Net,Assembly classification,Description
+J1,12V,SleepBud:CablePad_D1.2,Bottom(B),-4.400000,3.850000,180.000000,12V_IN,Copper feature; no component to purchase/place,"cable +12 V input, before ESD suppressor and FB1"
+J2,GND,SleepBud:CablePad_D1.2,Bottom(B),0.000000,5.850000,180.000000,GND,Copper feature; no component to purchase/place,cable GND
+J3,TXP,SleepBud:CablePad_D1.2,Bottom(B),5.600000,1.300000,180.000000,TXP,Copper feature; no component to purchase/place,cable LVDS TX+ (earbud -> controller)
+J4,TXN,SleepBud:CablePad_D1.2,Bottom(B),5.700000,-1.000000,180.000000,TXN,Copper feature; no component to purchase/place,cable LVDS TX-
+J5,RXP,SleepBud:CablePad_D1.2,Bottom(B),-5.600000,1.300000,180.000000,RXP,Copper feature; no component to purchase/place,cable LVDS RX+ (controller -> earbud)
+J6,RXN,SleepBud:CablePad_D1.2,Bottom(B),-5.700000,-1.000000,180.000000,RXN,Copper feature; no component to purchase/place,cable LVDS RX-
+J7,SWDIO,SleepBud:CablePad_D0.8,Bottom(B),2.600000,-2.600000,180.000000,SWDIO,Copper feature; no component to purchase/place,SWD test pad PA13
+J8,SWCLK,SleepBud:CablePad_D0.8,Bottom(B),3.700000,-2.850000,180.000000,SWCLK,Copper feature; no component to purchase/place,SWD test pad PA14
+J9,NRST,SleepBud:CablePad_D0.8,Bottom(B),-4.700000,-2.600000,180.000000,NRST,Copper feature; no component to purchase/place,reset test pad
