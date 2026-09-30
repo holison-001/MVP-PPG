@@ -1,0 +1,158 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-15T12:42:50",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "풋프린트 'CablePad_D0.8'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J8",
+                    "pos": {
+                        "x": 3.7,
+                        "y": -2.6
+                    },
+                    "uuid": "1f11f4bf-6e7d-447d-a998-93b22b7f0390"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "풋프린트 'CablePad_D0.8'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J9",
+                    "pos": {
+                        "x": -4.7,
+                        "y": -2.6
+                    },
+                    "uuid": "7983ae3b-2253-4d87-92a9-445881c2f783"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "풋프린트 'CablePad_D0.8'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 J7",
+                    "pos": {
+                        "x": 2.6,
+                        "y": -2.6
+                    },
+                    "uuid": "f849c2b2-5102-47e2-a7f7-73dcc2b24088"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": -0.28,
+                        "y": 5.48
+                    },
+                    "uuid": "9bafa4a7-2d24-4f84-88de-f128c040a6d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": -0.24,
+                        "y": 5.48
+                    },
+                    "uuid": "be86e719-b518-416a-b5db-6cc9e9d96e0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "다각형 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": -0.71,
+                        "y": 5.63
+                    },
+                    "uuid": "2533da33-2a07-4167-8677-576299fe6d59"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 0.24,
+                        "y": 3.26
+                    },
+                    "uuid": "8c2f848a-6dc0-41c5-bd66-8b3c41ca4653"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 0.24,
+                        "y": 5.48
+                    },
+                    "uuid": "15c2f630-d995-419b-9e23-43770f51ac65"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

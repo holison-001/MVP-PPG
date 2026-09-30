@@ -1,0 +1,12 @@
+{
+  "schematic_components": 35,
+  "schematic_vs_design_mismatches": [],
+  "erc": {
+    "warning": 11
+  },
+  "warning_types": {
+    "footprint_link_issues": 11
+  },
+  "pcb_status": "Original 26-component routed board; ESD and FB1 not implemented",
+  "manufacturing_outputs": "Pre-ESD baseline only; do not manufacture the ESD revision from these files"
+}
