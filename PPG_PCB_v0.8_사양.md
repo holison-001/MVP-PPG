@@ -75,3 +75,5 @@ SPHV15의 클램핑 전압은 U4 입력 절대최대값을 초과할 수 있습�
 [앞면 조립도](docs/ppg_pcb_v08_assembly_front.pdf)와 [뒷면 조립도](docs/ppg_pcb_v08_assembly_back.pdf)를 제공합니다. 뒷면 조립도는 실제 뒷면을 보는 시점으로 좌우 반전했으며, 전체 레이어 PDF의 B.Fab은 앞면 좌표 기준으로 반전하지 않았습니다. 조립도의 중복 부품번호를 정리하고 D1–D8·J1–J9를 표시했습니다. 케이블·시험 패드의 신호는 위 J1–J9 표를 참조합니다.
 
 검증과 제조 자료 생성에는 현재 배선본을 검사하는 `kicad/export_v08.py`를 사용합니다. `build_pcb_v08.py`와 이전 DSN/SES는 현재 배선된 PCB를 복원하는 도구가 아닙니다. 파일 목록·실행 방법·경고 내역은 [README](README.md)에 정리되어 있습니다.
+
+부품별 제조사 PDF, 적용 참조번호와 보관 문서 버전은 [데이터시트 목록](docs/datasheets/README.md)을 참조합니다.

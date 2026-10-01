@@ -34,6 +34,7 @@
 | 제조 출력 | [Gerber·드릴 ZIP](ppg_pcb_v08_gerber.zip), [개별 파일](gerber/) |
 | 기구 검토 | [STEP](docs/ppg_pcb_v08.step), [앞면 렌더](docs/render_front.png), [뒷면 렌더](docs/render_back.png) |
 | 검사 원문 | [DRC](docs/ppg_pcb_v08_DRC.json), [ERC](docs/ppg_pcb_v08_ERC.json) |
+| 부품 자료 | [데이터시트 목록 및 원본 PDF](docs/datasheets/README.md) — 참조번호·품번·문서 버전·출처 포함 |
 
 실장 부품 26개에 모두 3D 모델을 연결했습니다. U1은 **2.9 × 4.3 × 1.4 mm 명목 외형 모델**, U2는 단순화한 패키지 외형이며, TVS는 일반 모델을 패키지 외형에 맞춘 시각화용 모델입니다. 센서의 내부 광학 구조·창·커버나 하우징을 나타내지 않습니다.
 
