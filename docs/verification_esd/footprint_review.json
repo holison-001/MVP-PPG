@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-30",
+  "kicad": "10.0.6",
+  "files_added": [
+    "kicad/SleepBud.pretty/TVS_SOD882_1x0.6.kicad_mod",
+    "kicad/SleepBud.pretty/TI_DPY0002A_1x0.6.kicad_mod",
+    "kicad/SleepBud.pretty/CablePad_D0.8.kicad_mod"
+  ],
+  "SPHV15-01ETG": {
+    "source": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c",
+    "revision": "GD. 09/16/22",
+    "source_pages": [1, 6],
+    "pad1": "cathode, x=-0.325 mm",
+    "pad2": "anode, x=+0.325 mm",
+    "copper_mm": [0.325, 0.650],
+    "pitch_mm": 0.650,
+    "package_max_mm": [1.1, 0.7, 0.6],
+    "source_access": "Official indexed manufacturer table retrieved; fresh direct PDF download denied, no fresh visual review of SPHV diagrams in this task"
+  },
+  "ESD351DPYR": {
+    "source": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+    "package_drawing": "DPY0002A, 4224561/C 07/2024",
+    "source_pages": [3, 17, 18, 19],
+    "pad1": "IO/cathode, x=-0.350 mm",
+    "pad2": "GND/anode, x=+0.350 mm",
+    "copper_mm": [0.30, 0.50],
+    "corner_radius_mm": 0.05,
+    "pitch_mm": 0.70,
+    "package_max_mm": [1.1, 0.7, 0.45],
+    "source_access": "Official PDF downloaded, package and board layout drawings rendered and visually inspected",
+    "mask_note": "Uses documented NSMD alternative with +0.05mm expansion (manufacturer allows <=0.07mm). Manufacturer labels SMD as preferred, not NSMD."
+  },
+  "common": {
+    "courtyard_mm": [1.6, 1.2],
+    "courtyard_basis": "Project choice: maximum package body plus0.25mm on each edge, not a manufacturer recommendation",
+    "mask_expansion_mm": 0.05,
+    "SPHV_mask_basis": "Project process choice; SPHV table does not specify mask expansion",
+    "silk": "Left cathode bar; hidden reference field to support dense board labeling",
+    "model": "KiCad generic D_SOD-882.step, illustrative, scaled to maximum package envelope; not manufacturer-certified",
+    "model_original_xyz_extent_mm": [[-0.5, 0.5], [-0.3, 0.3], [0.0, 0.49]]
+  },
+  "CablePad_D0.8": {
+    "basis": "Existing PCB J7-J9 footprint copies",
+    "pad": "One circular 0.8mm pad at0,0, F.Cu/F.Mask/F.Paste; no new courtyard; geometry and paste convention preserved"
+  },
+  "verification": {
+    "native_footprint_load": "All three pass",
+    "native_svg_export": "All three pass; TI visual render inspected",
+    "isolated_footprint_drc": "Zero violations, zero unconnected pads, zero footprint errors; this is not board-level clearance verification",
+    "drc_courtyard_warning": "Missing courtyard check disabled by stock default; CablePad intentionally remains bare pad to preserve geometry"
+  }
+}

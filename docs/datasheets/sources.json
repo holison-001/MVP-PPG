@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-01",
+  "document_count": 7,
+  "covered_component_count": 15,
+  "documents": [
+    {
+      "file": "MAXM86161.pdf",
+      "references": [
+        "U1"
+      ],
+      "parts": [
+        "MAXM86161EFD+"
+      ],
+      "manufacturer": "Analog Devices",
+      "revision": "19-100523 Rev 1, 2023-04",
+      "official_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/maxm86161.pdf",
+      "download_url": "https://datasheet4u.com/pdf/1569506/MAXM86161.pdf",
+      "source_kind": "public_archive",
+      "provider": "Datasheet4U",
+      "verification": "Exact order code on PDF page 64; title, revision and 65-page count match the official indexed PDF. Official-host byte comparison was unavailable.",
+      "bytes": 1204957,
+      "sha256": "c512ea35290241b839c482b0a6f6ff6526c04e890af32b47fb78642127ad24da",
+      "pages": 65,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    },
+    {
+      "file": "STM32C011x4_x6.pdf",
+      "references": [
+        "U2"
+      ],
+      "parts": [
+        "STM32C011F6U6"
+      ],
+      "manufacturer": "STMicroelectronics",
+      "revision": "DS13866 Rev 3, 2022-12",
+      "official_url": "https://www.st.com/resource/en/datasheet/stm32c011f6.pdf",
+      "download_url": "https://www1.futureelectronics.com/doc/STMicroelectronics/STM32C011D6Y6TR.pdf",
+      "source_kind": "distributor_archive",
+      "provider": "Future Electronics",
+      "verification": "Family document covers STM32C011F6 and UFQFPN20; URL names a different family member, not a substitute design part.",
+      "limitations": "Archived Rev 3. Official indexed PDF is Rev 5, 2026-02, 97 pages; direct download timed out. Check the official current revision for changes before design sign-off.",
+      "bytes": 1356316,
+      "sha256": "97d1f69827068b3fa7896d9477e3ef3b5e217d195fa96ffa738d0e674d7de266",
+      "pages": 94,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    },
+    {
+      "file": "SN65LVDS1_SN65LVDT2.pdf",
+      "references": [
+        "U3",
+        "U6"
+      ],
+      "parts": [
+        "SN65LVDS1DBVR",
+        "SN65LVDT2DBVR"
+      ],
+      "manufacturer": "Texas Instruments",
+      "revision": "SLLS373M, 2024-03",
+      "official_url": "https://www.ti.com/lit/ds/symlink/sn65lvds1.pdf",
+      "download_url": "https://www.ti.com/lit/ds/symlink/sn65lvds1.pdf",
+      "source_kind": "manufacturer",
+      "provider": "TI",
+      "verification": "Both exact order codes and DBV five-pin package on PDF page 33.",
+      "bytes": 1549453,
+      "sha256": "2830b1f2b732d16f46bd45a1626e1aa25b308bb4220a5f476d780deff15d4dce",
+      "pages": 44,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    },
+    {
+      "file": "MCP1703A.pdf",
+      "references": [
+        "U4",
+        "U5"
+      ],
+      "parts": [
+        "MCP1703A-5002E/MC",
+        "MCP1703A-3302E/MC"
+      ],
+      "manufacturer": "Microchip",
+      "revision": "DS20005122C, 2023-02",
+      "official_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1703-Data-Sheet-DS20005122.pdf",
+      "download_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1703-Data-Sheet-DS20005122.pdf",
+      "source_kind": "manufacturer",
+      "provider": "Microchip",
+      "verification": "Ordering-code elements for 5.0 V / 3.3 V and MC eight-pin 2x3 mm DFN are present on PDF page 35; full non-T codes are not printed contiguously.",
+      "bytes": 2296306,
+      "sha256": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f",
+      "pages": 38,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    },
+    {
+      "file": "SPHV.pdf",
+      "references": [
+        "D1"
+      ],
+      "parts": [
+        "SPHV15-01ETG"
+      ],
+      "manufacturer": "Littelfuse",
+      "revision": "GD. 04/15/21",
+      "official_url": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c",
+      "download_url": "https://www.ic-components.nl/files/80/SPHV12-01ETG.pdf",
+      "source_kind": "third_party_archive",
+      "provider": "IC-Components",
+      "verification": "Manufacturer-authored SPHV unidirectional family document includes SPHV15-01ETG and SOD882 land pattern.",
+      "limitations": "Archived 2021 revision. Official indexed PDF is GD. 09/16/22 and was unavailable for direct download. This is a third-party-hosted original document, not a manufacturer-hosted download.",
+      "bytes": 672142,
+      "sha256": "2d299ff40632d6e7bb4ab4a78d0f95336e5f04c53b1e006f8c08aa1702217a7e",
+      "pages": 6,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    },
+    {
+      "file": "ESD351.pdf",
+      "references": [
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8"
+      ],
+      "parts": [
+        "ESD351DPYR"
+      ],
+      "manufacturer": "Texas Instruments",
+      "revision": "SLVSEO3, 2018-07",
+      "official_url": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "download_url": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "source_kind": "manufacturer",
+      "provider": "TI",
+      "verification": "Exact ordering code on PDF page 13; 20-page manufacturer PDF including packaging addenda.",
+      "bytes": 1081855,
+      "sha256": "7d64dcf41d179e28715e9b542f90dc6602224a91ebb7a2055663937c0757083e",
+      "pages": 20,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    },
+    {
+      "file": "BLM15PX601SN1D.pdf",
+      "references": [
+        "FB1"
+      ],
+      "parts": [
+        "BLM15PX601SN1D"
+      ],
+      "manufacturer": "Murata",
+      "revision": "JENF243A-0018AJ-01",
+      "official_url": "https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23",
+      "official_pdf_url": "https://www.murata.com/products/productdata/8796740059166/ENFA0018.pdf",
+      "download_url": "https://www.farnell.com/datasheets/2575526.pdf",
+      "source_kind": "distributor_archive",
+      "provider": "Farnell",
+      "verification": "Exact part and its rating row verified on PDF page 3.",
+      "limitations": "Archived reference specification AJ-01; official indexed version is AP-01. Manufacturer PDF endpoints were unavailable. Revision date is not stated in the document.",
+      "bytes": 213790,
+      "sha256": "72584e2b0fad42b4fd0fc45b175151fa42acab38f373431d3f726f55317918aa",
+      "pages": 11,
+      "retrieved_on": "2026-10-01",
+      "original_download_preserved": true
+    }
+  ],
+  "not_selected_passives": [
+    "C1",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "R1",
+    "R2"
+  ],
+  "pcb_copper_features_without_commercial_datasheets": [
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9"
+  ]
+}

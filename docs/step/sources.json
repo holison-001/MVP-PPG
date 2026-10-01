@@ -1,0 +1,264 @@
+{
+  "verified_on": "2026-10-01T02:18:49.387813+00:00",
+  "units": "mm",
+  "standalone_model_count": 6,
+  "component_references": [
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "validation_engine": [
+    "1",
+    "1",
+    "3"
+  ],
+  "models": [
+    {
+      "file": "MAXM86161_nominal_envelope.step",
+      "refs": [
+        "U1"
+      ],
+      "parts": [
+        "MAXM86161EFD+"
+      ],
+      "model_type": "project_generated_nominal_envelope",
+      "source_reference": "kicad/SleepBud.3dshapes/MAXM86161_envelope.step",
+      "source_url": "https://mds.analog.com/api/public/content/21-100309.pdf",
+      "note": "Nominal 2.9 x 4.3 x 1.4 mm box; no pads, optical apertures, or tolerance allowance.",
+      "bytes": 7099,
+      "sha256": "37138f98938929cf630a19a9ada182fe53063770d5fb7040076632e3ca6b8007",
+      "valid_solid_geometry": true,
+      "solid_count": 1,
+      "volume_mm3": 17.457999999999995,
+      "bounding_box_mm": {
+        "min": [
+          -1.45,
+          -2.15,
+          0.0
+        ],
+        "max": [
+          1.45,
+          2.15,
+          1.4
+        ],
+        "size": [
+          2.9,
+          4.3,
+          1.4
+        ]
+      },
+      "applied_to_current_pcb": false
+    },
+    {
+      "file": "STM32C011_UFQFPN20_envelope.step",
+      "refs": [
+        "U2"
+      ],
+      "parts": [
+        "STM32C011F6U6"
+      ],
+      "model_type": "project_generated_nominal_xy_max_height_envelope",
+      "source_reference": "kicad/SleepBud.3dshapes/STM32C011_UFQFPN20_envelope.step",
+      "source_url": "https://www.st.com/resource/en/datasheet/stm32c011f6.pdf",
+      "note": "Nominal 3 x 3 mm XY with maximum 0.6 mm height; box only, no terminals or pin-1 cue.",
+      "bytes": 7244,
+      "sha256": "f2fbd62be796005b6f68ef55854d41c86ecc260aace1e880b152c27648a30dbd",
+      "valid_solid_geometry": true,
+      "solid_count": 1,
+      "volume_mm3": 5.3999999999999995,
+      "bounding_box_mm": {
+        "min": [
+          -1.5,
+          -1.5,
+          0.0
+        ],
+        "max": [
+          1.5,
+          1.5,
+          0.6
+        ],
+        "size": [
+          3.0,
+          3.0,
+          0.6
+        ]
+      },
+      "applied_to_current_pcb": false
+    },
+    {
+      "file": "TI_DBV0005A.stp",
+      "refs": [
+        "U3",
+        "U6"
+      ],
+      "parts": [
+        "SN65LVDS1DBVR",
+        "SN65LVDT2DBVR"
+      ],
+      "model_type": "manufacturer_package_model",
+      "source_url": "https://webench.ti.com/cad/newstep/DBV0005A.stp",
+      "source_catalog_url": "https://webench.ti.com/cad/",
+      "note": "Unmodified TI DBV0005A package assembly shared by both DBV-5 devices; not a device-marking model or maximum-tolerance envelope.",
+      "bytes": 160160,
+      "sha256": "bce7b25e52a74ac515dc5236a6d5ee863c57e039a3a1aeaf26babdde195066c0",
+      "valid_solid_geometry": true,
+      "solid_count": 7,
+      "volume_mm3": 5.162545653221903,
+      "bounding_box_mm": {
+        "min": [
+          -1.4,
+          -1.450226584398224,
+          0.0
+        ],
+        "max": [
+          1.4,
+          1.450226584398224,
+          1.2000000000000002
+        ],
+        "size": [
+          2.8,
+          2.900453168796448,
+          1.2000000000000002
+        ]
+      },
+      "applied_to_current_pcb": false
+    },
+    {
+      "file": "MCP1703A_MC_datasheet_reference.step",
+      "refs": [
+        "U4",
+        "U5"
+      ],
+      "parts": [
+        "MCP1703A-5002E/MC",
+        "MCP1703A-3302E/MC"
+      ],
+      "model_type": "project_generated_datasheet_package_reference",
+      "source_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1703-Data-Sheet-DS20005122.pdf",
+      "source_reference": "docs/datasheets/MCP1703A.pdf, DS20005122C pp.29-30, C04-123 Rev E",
+      "generator": "generate_MCP1703A_reference.py",
+      "dimensions_mm": {
+        "body_x": 3.0,
+        "body_y": 2.0,
+        "height": 0.9,
+        "standoff": 0.02,
+        "terminal_thickness_ref": 0.2,
+        "terminal_pitch": 0.5,
+        "terminal_width": 0.25,
+        "terminal_length": 0.4,
+        "exposed_pad_x": 1.625,
+        "exposed_pad_y": 1.425
+      },
+      "coordinate_convention": "E along X and D along Y; pin 1 at negative X / positive Y; Z=0 at seating plane.",
+      "note": "Independent simplified MC model. EP uses range midpoints, not published nominal dimensions. No tie bars, marking or detailed edge rounding. Not manufacturer CAD, not a maximum-tolerance envelope. Current PCB has a different incompatible DDB-style footprint; model is archived separately pending correction.",
+      "bytes": 104781,
+      "sha256": "727919d2686ed0e583724ec33345a882a818a7affaae37d8421f00dc2e296f25",
+      "valid_solid_geometry": true,
+      "solid_count": 10,
+      "volume_mm3": 5.3423125,
+      "bounding_box_mm": {
+        "min": [
+          -1.5,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          1.5,
+          1.0,
+          0.9
+        ],
+        "size": [
+          3.0,
+          2.0,
+          0.9
+        ]
+      },
+      "applied_to_current_pcb": false
+    },
+    {
+      "file": "MAXM86161_max_clearance.step",
+      "refs": [
+        "U1"
+      ],
+      "parts": [
+        "MAXM86161EFD+"
+      ],
+      "model_type": "project_generated_maximum_clearance_envelope",
+      "source_url": "https://mds.analog.com/api/public/content/21-100309.pdf",
+      "dimension_evidence": "ADI 21-100309 Rev B: E max 3.0, D max 4.4, A max 1.5 mm",
+      "note": "Centered XY; Z=0 at package seating plane. Overall height includes package standoff. Box has no optical/terminal details; excludes solder and assembly tolerances.",
+      "bytes": 7039,
+      "sha256": "cf659495428816579c607a007d3e33e17d20ffa8913f6a855661eab4b81883d0",
+      "valid_solid_geometry": true,
+      "solid_count": 1,
+      "volume_mm3": 19.8,
+      "bounding_box_mm": {
+        "min": [
+          -1.5,
+          -2.2,
+          0.0
+        ],
+        "max": [
+          1.5,
+          2.2,
+          1.5
+        ],
+        "size": [
+          3.0,
+          4.4,
+          1.5
+        ]
+      },
+      "applied_to_current_pcb": false
+    },
+    {
+      "file": "STM32C011_max_clearance.step",
+      "refs": [
+        "U2"
+      ],
+      "parts": [
+        "STM32C011F6U6"
+      ],
+      "model_type": "project_generated_maximum_clearance_envelope",
+      "source_url": "https://www.st.com/resource/en/datasheet/stm32c011f6.pdf",
+      "dimension_evidence": "Archived DS13866 Rev 3, pp.88-89 Figure 36/Table 68: D/E max 3.1, A max 0.6 mm",
+      "note": "Centered XY; Z=0 at package seating plane. Overall height includes package standoff. Box has no optical/terminal details; excludes solder and assembly tolerances.",
+      "bytes": 7091,
+      "sha256": "54b60cffd422fcba3f1b53d1a955045419127ffcfbfd8c4085a9bee2c4210ace",
+      "valid_solid_geometry": true,
+      "solid_count": 1,
+      "volume_mm3": 5.766,
+      "bounding_box_mm": {
+        "min": [
+          -1.55,
+          -1.55,
+          0.0
+        ],
+        "max": [
+          1.55,
+          1.55,
+          0.6
+        ],
+        "size": [
+          3.1,
+          3.1,
+          0.6
+        ]
+      },
+      "applied_to_current_pcb": false
+    }
+  ],
+  "pcb_integration": "Standalone archive only. Existing board/Gerber/assembled STEP are not regenerated by this addition.",
+  "fabrication_blocker": "U4/U5 existing DDB-style footprint is incompatible with Microchip MC exposed-pad geometry; footprint correction and DRC/ERC revalidation required before fabrication.",
+  "reference_documents": [
+    {
+      "file": "references/ADI_21-100309_MAXM86161_package.pdf",
+      "source_url": "https://mds.analog.com/api/public/content/21-100309.pdf",
+      "revision": "21-100309 Rev B",
+      "sha256": "8acca149ec8bba25dbcd741926cbd3b7b8069a0864c9fe594339382e0f2095dd"
+    }
+  ]
+}

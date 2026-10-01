@@ -1,0 +1,292 @@
+{
+  "status": "PASS",
+  "created_at": "2026-09-30T14:41:07.183154+00:00",
+  "kicad_version": "10.0.6",
+  "authoritative_input_hashes": {
+    "ppg_pcb_v08.kicad_pcb": "e3d903a3db61928aa1721328507d15f12792ed97b1fb39c6200d0aa3864da830",
+    "ppg_pcb_v08.kicad_sch": "cacd4a8d676d97b61cb60be985126533673ead4233c0b91e2fb304bb89bcadf3",
+    "ppg_pcb_v08.kicad_pro": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "design_v08.py": "6b68154db3c7f3a8cb063d25b1cc18acb70ec452543012cf83d918724e68104c"
+  },
+  "checked_board_sha256": "e3d903a3db61928aa1721328507d15f12792ed97b1fb39c6200d0aa3864da830",
+  "libraries": {
+    "KICAD10_FOOTPRINT_DIR": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints",
+    "KICAD10_3DMODEL_DIR": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels",
+    "KICAD10_SYMBOL_DIR": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\symbols"
+  },
+  "checks": {
+    "ERC": {
+      "errors": 0,
+      "warnings": 0,
+      "exclusions": 0,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "ignored_checks": [],
+      "issue_types": {},
+      "passed": true
+    },
+    "DRC": {
+      "errors": 0,
+      "warnings": 17,
+      "exclusions": 0,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "ignored_checks": [],
+      "issue_types": {
+        "track_not_centered_on_via": 2,
+        "missing_courtyard": 9,
+        "lib_footprint_mismatch": 1,
+        "silk_over_copper": 5
+      },
+      "passed": true
+    },
+    "identity_and_connectivity": "PASS"
+  },
+  "checks_restored_in_staging": [
+    {
+      "check": "DRC",
+      "rule": "footprint_filters_mismatch",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "DRC",
+      "rule": "footprint_type_mismatch",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "DRC",
+      "rule": "missing_courtyard",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "DRC",
+      "rule": "track_not_centered_on_via",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "DRC",
+      "rule": "tuning_profile_track_geometries",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "ERC",
+      "rule": "footprint_filter",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "ERC",
+      "rule": "four_way_junction",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "ERC",
+      "rule": "simulation_model_issue",
+      "previous": "ignore",
+      "checked_as": "warning"
+    },
+    {
+      "check": "ERC",
+      "rule": "single_global_label",
+      "previous": "ignore",
+      "checked_as": "warning"
+    }
+  ],
+  "component_counts": {
+    "status": "PASS",
+    "PCB_references": 35,
+    "design_references": 35,
+    "board_sha256": "e3d903a3db61928aa1721328507d15f12792ed97b1fb39c6200d0aa3864da830",
+    "design_sha256": "6b68154db3c7f3a8cb063d25b1cc18acb70ec452543012cf83d918724e68104c",
+    "assembled_components": 26,
+    "nonplaced_copper_features": 9,
+    "BOM_line_items": 14,
+    "copper_feature_refs": [
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8",
+      "J9"
+    ],
+    "coordinate_system": "PCB origin at centre; x right; y down; native KiCad rotation, actual PCB side",
+    "unspecified_MPN_refs": [
+      "U1",
+      "U2",
+      "U3",
+      "U6",
+      "U4",
+      "U5",
+      "C1",
+      "C4",
+      "C5",
+      "R1",
+      "R2",
+      "C6",
+      "C7",
+      "C11",
+      "C12",
+      "C13",
+      "C14"
+    ],
+    "archive_file_count": 18
+  },
+  "components_without_3D_models": [],
+  "board_thickness_mm": 0.8,
+  "stackup_status": "Nominal 0.8 mm board thickness; fabricator layer/material stackup remains unconfirmed.",
+  "files": {
+    "docs\\layout_back.svg": {
+      "bytes": 127309,
+      "sha256": "587c21340fce1754f67dab6b02120febe3e0d316355adbf7d05d1df4a1b49468"
+    },
+    "docs\\layout_front.svg": {
+      "bytes": 83190,
+      "sha256": "ffab6ec2d4f3d38e76121787b57da5ca5d7a5c27753580156ac1704b03fe2b5e"
+    },
+    "docs\\ppg_pcb_v08.step": {
+      "bytes": 606608,
+      "sha256": "0be48ac1b84507d334f50783ab9f64421206de47aeea5f733fe1dd3cc46dd1ea"
+    },
+    "docs\\ppg_pcb_v08_assembly_back.pdf": {
+      "bytes": 22322,
+      "sha256": "cc4ad4e65b4702253c95d58a24cb174ead13573329f50ead705b2483628cd8a4"
+    },
+    "docs\\ppg_pcb_v08_assembly_front.pdf": {
+      "bytes": 10718,
+      "sha256": "e357493b5a5ae6fc364b6088b66db703a621cf80e377d8b7a072e96b4e0212e2"
+    },
+    "docs\\ppg_pcb_v08_assembly_positions.csv": {
+      "bytes": 2281,
+      "sha256": "bb1508241685776f3617b810ce5cef0ed3b42b2d30a60e0e67fd04fa99c6f380"
+    },
+    "docs\\ppg_pcb_v08_BOM.csv": {
+      "bytes": 3864,
+      "sha256": "7f9a88795ff8b8f9b9b7a7f88812a721aeeae81f675504e6c83fe876f97269ee"
+    },
+    "docs\\ppg_pcb_v08_BOM_summary.json": {
+      "bytes": 836,
+      "sha256": "8a78dac0132b7ce8dfb232adfea8d2ed8b06225ab18b6ba825948328c29bf798"
+    },
+    "docs\\ppg_pcb_v08_copper_pads.csv": {
+      "bytes": 1444,
+      "sha256": "cf151a767de39893352d9fa261a351728d12c528d24e0c4b96f5b6cb8b1ad0fa"
+    },
+    "docs\\ppg_pcb_v08_DRC.json": {
+      "bytes": 9611,
+      "sha256": "f04f135a2e5f59b9711a3bcbff57cbba53d7ba70bd0bbce298d20a9bef1c3af0"
+    },
+    "docs\\ppg_pcb_v08_ERC.json": {
+      "bytes": 495,
+      "sha256": "383703b69c85f58eab8fa8781c910fe8630a546dc06132d5c3c2241bebc91f5f"
+    },
+    "docs\\ppg_pcb_v08_layers.pdf": {
+      "bytes": 83497,
+      "sha256": "8e61270b248ba004a5b5e581b57bb0cb3c784ed317212c6ae9487b0384600e8c"
+    },
+    "docs\\ppg_pcb_v08_positions.csv": {
+      "bytes": 2578,
+      "sha256": "0d3c05f4da9267212e237cce2a6eefd87483b360c6974890d439c9c84cb7b173"
+    },
+    "docs\\ppg_pcb_v08_schematic.pdf": {
+      "bytes": 156009,
+      "sha256": "dc0032ae9ac12644fc1e46a25d0f45e490cf7a6a8038551d6fb68e94c5d435c3"
+    },
+    "docs\\ppg_pcb_v08_verification.json": {
+      "bytes": 6280,
+      "sha256": "2ec2b3d574b63dd6711f694f80fa0354159fb41c6ad568c648b0ab2ec886d0b5"
+    },
+    "docs\\render_back.png": {
+      "bytes": 416867,
+      "sha256": "b4f1a3c45e1eacea8a835811910ee0fc81ea5d1f76e4757388091c67a231f8c8"
+    },
+    "docs\\render_front.png": {
+      "bytes": 245291,
+      "sha256": "1bc74b4763ec3f7a7cc2833688ae2238f1de6423bbc1784389d8807461103247"
+    },
+    "gerber\\ppg_pcb_v08-B_Cu.gbl": {
+      "bytes": 19261,
+      "sha256": "3977c7064963917669beda3519e93caedc381a4649ddfffd78bbb149899a3e5c"
+    },
+    "gerber\\ppg_pcb_v08-B_Fab.gbr": {
+      "bytes": 36025,
+      "sha256": "0dbf2260a67be82409a0d9cfab5e35b603ff5f5bc29642bff813addffd82cca0"
+    },
+    "gerber\\ppg_pcb_v08-B_Mask.gbs": {
+      "bytes": 46568,
+      "sha256": "3df1fee9bc07a83efda687e1ead26ed76c1bd9179d587c963d134b74e4874ec9"
+    },
+    "gerber\\ppg_pcb_v08-B_Paste.gbp": {
+      "bytes": 6255,
+      "sha256": "c09e582079576e353e80cd24d788b568e1e18ba66f67fe3695cf840c1b01980b"
+    },
+    "gerber\\ppg_pcb_v08-B_Silkscreen.gbo": {
+      "bytes": 48904,
+      "sha256": "477ee2e4b9adfc0a74b794395918f416c71c88e1c2f056856ffbf6e56f2b6082"
+    },
+    "gerber\\ppg_pcb_v08-Edge_Cuts.gm1": {
+      "bytes": 669,
+      "sha256": "9131bf6ca315a421fc3f5e1e45f281a3dd1a4708efebb803c5c02ee75f9ad955"
+    },
+    "gerber\\ppg_pcb_v08-F_Cu.gtl": {
+      "bytes": 9187,
+      "sha256": "7e88ee40cebd0a1ac730e51ab01bf8981dfd8a66aae2274a63e9e938e2aadc40"
+    },
+    "gerber\\ppg_pcb_v08-F_Fab.gbr": {
+      "bytes": 14042,
+      "sha256": "c517a385c0d560126b624654b533141c14b5c1c3fce4e0713cef1537247a82cf"
+    },
+    "gerber\\ppg_pcb_v08-F_Mask.gts": {
+      "bytes": 16829,
+      "sha256": "b924abb6f5fcd861723217866cda17e5814e9960998efb297abdbb1eea217275"
+    },
+    "gerber\\ppg_pcb_v08-F_Paste.gtp": {
+      "bytes": 2800,
+      "sha256": "dab05d66fd53e2cc3c14d192527ebf021bfbc0a02324b3bf02b8e2551ae38f0d"
+    },
+    "gerber\\ppg_pcb_v08-F_Silkscreen.gto": {
+      "bytes": 17585,
+      "sha256": "bd72b1659019f39f37a9b6c4dbaed627d1800d2313660afb3aabb6a9d3a53261"
+    },
+    "gerber\\ppg_pcb_v08-In1_Cu.g1": {
+      "bytes": 31462,
+      "sha256": "9cfecf9daf52fbded86727748ac94104f825c6a8c97e3acdd2be9cebcaf64474"
+    },
+    "gerber\\ppg_pcb_v08-In2_Cu.g2": {
+      "bytes": 36581,
+      "sha256": "126c644ba8ff5e32815000df0eb889b83914a5c1619b51d3a61759b27f76d7fb"
+    },
+    "gerber\\ppg_pcb_v08-job.gbrjob": {
+      "bytes": 4103,
+      "sha256": "eb3b9d3c83db4100b2abb10d8070d26c757de8d9595c22150079dc7847bc0e90"
+    },
+    "gerber\\ppg_pcb_v08-NPTH-drl_map.pdf": {
+      "bytes": 6141,
+      "sha256": "809624c71b155a104bb3edac9dc3fdaef5df140e02a723189f877fb3f0874d79"
+    },
+    "gerber\\ppg_pcb_v08-NPTH.drl": {
+      "bytes": 276,
+      "sha256": "9858f820cca560650eada9387d90a69ecb730237117b011d7ec16f11ed88336b"
+    },
+    "gerber\\ppg_pcb_v08-PTH-drl_map.pdf": {
+      "bytes": 12811,
+      "sha256": "ab262cec7d788f39a65f47dff9a644898cffe329f854ed920d47b9c585f28dc5"
+    },
+    "gerber\\ppg_pcb_v08-PTH.drl": {
+      "bytes": 816,
+      "sha256": "d9bf7391ab4546145d136c51a8886db8c41015a470be7c0b041a660e264b9518"
+    },
+    "ppg_pcb_v08_gerber.zip": {
+      "bytes": 73298,
+      "sha256": "52cafbe2d689847c70163d8710ce960208f0daca30ebb026a43de06536dd1b48"
+    }
+  }
+}

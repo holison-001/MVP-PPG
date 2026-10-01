@@ -1,0 +1,14 @@
+{
+  "routing_note": "Peripheral TVS shunts; LVDS incoming/outgoing route retained. front_length_mm + 0.8mm via barrel + back_length_mm is a geometric branch-length estimate, not inductance or ESD qualification. GND return through plane not included. D6 ground leg is longer than others due underside constraints. J7-J9 access via barrels are intentionally in bare probe pads; J7 offset 0.05mm.",
+  "mechanical_models": {
+    "U1": "nominal 2.9x4.3x1.4mm envelope, no optical window or tolerances",
+    "U2": "nominal 3x3mm XY, maximum height0.6mm envelope; maxXY3.1 not modeled",
+    "D1-D8": "generic SOD882 models scaled to package envelope; no vendor-certified detail"
+  },
+  "sources": {
+    "TI_ESD351": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+    "Littelfuse_SPHV": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c",
+    "MAXM86161": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAXM86161.pdf",
+    "STM32C011": "https://www.st.com.cn/resource/en/datasheet/stm32c011f6.pdf"
+  }
+}
