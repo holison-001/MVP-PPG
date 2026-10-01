@@ -1,0 +1,21 @@
+{
+  "erc": {
+    "restored": {
+      "footprint_filter": "ignore",
+      "four_way_junction": "ignore",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore"
+    },
+    "removed_exclusions": []
+  },
+  "drc": {
+    "restored": {
+      "footprint_filters_mismatch": "ignore",
+      "footprint_type_mismatch": "ignore",
+      "missing_courtyard": "ignore",
+      "track_not_centered_on_via": "ignore",
+      "tuning_profile_track_geometries": "ignore"
+    },
+    "removed_exclusions": []
+  }
+}

@@ -1,0 +1,2 @@
+PCB/schematic: PASS; 37 footprints, 117 numbered pads, 48 schematic nets; top=['U1']
+routing: {'F.Cu': 28, 'via': 59, 'B.Cu': 202, 'In1.Cu': 42, 'In2.Cu': 39}

@@ -1,5 +1,7 @@
 # PPG PCB v0.8 – UART over LVDS (TTL→LVDS / LVDS→TTL 변환칩) (2026-09-15)
 
+**이전 LVDS 설계의 사양 이력입니다.** 아래 부품·통신·핀 수 설명은 현재 RS-422 작업본에 적용되지 않습니다. 현재 회로는 [RS-422 변경 문서](docs/RS422_update_20261001.md), 제조 전 문제와 재검사는 [가져오기 검토](docs/import_review_20261001/README.md)를 참조하세요.
+
 > 사용자 요청: RS-485 대신 **TTL↔LVDS 소형 변환칩**으로 UART 링크를 구현할 것.
 > 총괄 기록: 상위 `Device_design.md` 3.16절.
 
