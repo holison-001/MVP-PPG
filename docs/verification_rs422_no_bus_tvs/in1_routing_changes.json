@@ -1,0 +1,4041 @@
+{
+  "baseline": {
+    "path": "/workspace/MVP-PPG/docs/legacy_before_in1_routing/kicad/ppg_pcb_v08.kicad_pcb",
+    "source_hash_verified": true,
+    "board_sha256": "dd0f934c1c54937acf0e3f05e72852dc92abfc70ec31f0b02e00c6d742b3d746",
+    "project_sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "track_count": 310,
+    "via_count": 59,
+    "layers": {
+      "F.Cu": {
+        "segments": 69,
+        "length_mm": 60.90211501655465,
+        "nets": {
+          "/SDA": {
+            "segments": 8,
+            "length_mm": 7.610604609729366,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/SCL": {
+            "segments": 8,
+            "length_mm": 5.207358859832528,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 9.754139530866619,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/VREF": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "In2.Cu": {
+        "segments": 39,
+        "length_mm": 53.141927097763926,
+        "nets": {
+          "3V3": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "/RXN": {
+            "segments": 1,
+            "length_mm": 1.675,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "/SWDIO": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 5,
+            "length_mm": 3.3330903641946312,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 1,
+            "length_mm": 4.628242106891125,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "B.Cu": {
+        "segments": 202,
+        "length_mm": 72.74874962834788,
+        "nets": {
+          "/SDA": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SCL": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VREF": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWCLK": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/TXP": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/12V_IN": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWDIO": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN_RCV": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 4,
+            "length_mm": 2.0472388127990166,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      }
+    },
+    "F_GND": {
+      "filled_union_area_mm2": 86.5706214726595,
+      "zones": [
+        {
+          "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+          "layer": "F.Cu",
+          "net": "GND",
+          "filled": true,
+          "filled_area_mm2": 86.5706214726595,
+          "filled_component_count": 4,
+          "largest_filled_component_mm2": 63.65602555306998,
+          "local_clearance_mm": 0.15,
+          "minimum_thickness_mm": 0.15,
+          "pad_connection": 2,
+          "island_removal": 0
+        }
+      ]
+    },
+    "GND_zones": [
+      {
+        "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+        "layer": "F.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 86.5706214726595,
+        "filled_component_count": 4,
+        "largest_filled_component_mm2": 63.65602555306998,
+        "local_clearance_mm": 0.15,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 2,
+        "island_removal": 0
+      },
+      {
+        "uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+        "layer": "In1.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 104.80224132484977,
+        "filled_component_count": 1,
+        "largest_filled_component_mm2": 104.80224132484977,
+        "local_clearance_mm": 0.2,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 1,
+        "island_removal": 0
+      }
+    ]
+  },
+  "preservation": {
+    "footprint_count_before": 37,
+    "footprint_count_after": 37,
+    "all_component_placement_fields_values_and_pad_nets_identical": true,
+    "footprint_differences": {},
+    "top_component_references_before": [
+      "U1"
+    ],
+    "top_component_references_after": [
+      "U1"
+    ],
+    "In2_3V3_tracks_identical_including_UUIDs": true,
+    "In2_3V3_track_count": 21,
+    "In2_3V3_widths_mm": [
+      0.4
+    ],
+    "matching_project_bytes_identical": true,
+    "all_vias_identical_including_UUIDs": true,
+    "all_existing_track_widths_unchanged": true,
+    "existing_tracks_only_layer_changes": true
+  },
+  "layer_and_net_deltas": {
+    "B.Cu": {
+      "segments_delta": 0,
+      "length_delta_mm": 0.0,
+      "nets": {
+        "/12V_IN": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/NRST": {
+          "before": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXN": {
+          "before": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXN_RCV": {
+          "before": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXP": {
+          "before": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXP_RCV": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.0472388127990166,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.0472388127990166,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SCL": {
+          "before": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SDA": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SWCLK": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SWDIO": {
+          "before": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXN": {
+          "before": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXN_DRV": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXP": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXP_DRV": {
+          "before": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/UART_RX": {
+          "before": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/UART_TX": {
+          "before": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VLDO": {
+          "before": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VREF": {
+          "before": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "12V": {
+          "before": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "3V3": {
+          "before": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "after": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "5V_LED": {
+          "before": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "GND": {
+          "before": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "after": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        }
+      }
+    },
+    "F.Cu": {
+      "segments_delta": -41,
+      "length_delta_mm": -42.102916071781856,
+      "nets": {
+        "/SCL": {
+          "before": {
+            "segments": 8,
+            "length_mm": 5.207358859832528,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 1.007197776700735,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": -6,
+          "length_delta_mm": -4.200161083131793
+        },
+        "/SDA": {
+          "before": {
+            "segments": 8,
+            "length_mm": 7.610604609729366,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 0.9905806378079475,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": -7,
+          "length_delta_mm": -6.620023971921419
+        },
+        "/TXN_DRV": {
+          "before": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -2,
+          "length_delta_mm": -5.4204764179125355
+        },
+        "/TXP": {
+          "before": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -2,
+          "length_delta_mm": -2.594503822593717
+        },
+        "/TXP_DRV": {
+          "before": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -5,
+          "length_delta_mm": -3.3707700314588
+        },
+        "/UART_RX": {
+          "before": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -6,
+          "length_delta_mm": -5.167660849506067
+        },
+        "/UART_TX": {
+          "before": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -9,
+          "length_delta_mm": -8.435030324670816
+        },
+        "/VLDO": {
+          "before": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VREF": {
+          "before": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "3V3": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "5V_LED": {
+          "before": {
+            "segments": 8,
+            "length_mm": 9.754139530866619,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 3.4598499602799144,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": -4,
+          "length_delta_mm": -6.294289570586704
+        },
+        "GND": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        }
+      }
+    },
+    "In1.Cu": {
+      "segments_delta": 42,
+      "length_delta_mm": 43.971424294937435,
+      "nets": {
+        "/SCL": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 4.200161083131793,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 6,
+          "length_delta_mm": 4.200161083131793
+        },
+        "/SDA": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 8,
+            "length_mm": 8.488532195076996,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 8,
+          "length_delta_mm": 8.488532195076996
+        },
+        "/TXN_DRV": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 2,
+          "length_delta_mm": 5.4204764179125355
+        },
+        "/TXP": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 2,
+          "length_delta_mm": 2.594503822593717
+        },
+        "/TXP_DRV": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 5,
+          "length_delta_mm": 3.3707700314588
+        },
+        "/UART_RX": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 6,
+          "length_delta_mm": 5.167660849506067
+        },
+        "/UART_TX": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 9,
+          "length_delta_mm": 8.435030324670816
+        },
+        "5V_LED": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 6.294289570586704,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 4,
+          "length_delta_mm": 6.294289570586704
+        }
+      }
+    },
+    "In2.Cu": {
+      "segments_delta": 0,
+      "length_delta_mm": 0.0,
+      "nets": {
+        "/NRST": {
+          "before": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXN": {
+          "before": {
+            "segments": 1,
+            "length_mm": 1.675,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 1.675,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXP": {
+          "before": {
+            "segments": 1,
+            "length_mm": 4.628242106891125,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 4.628242106891125,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXP_RCV": {
+          "before": {
+            "segments": 5,
+            "length_mm": 3.3330903641946312,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 3.3330903641946312,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SWDIO": {
+          "before": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "12V": {
+          "before": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "after": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "3V3": {
+          "before": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "after": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        }
+      }
+    }
+  },
+  "tracks": {
+    "removed": {},
+    "added": {
+      "0cf2821c-77fa-4914-ad0f-c5ba442ca2d6": {
+        "net": "/SDA",
+        "layer": "In1.Cu",
+        "start_mm": [
+          -2.0977,
+          -0.7637
+        ],
+        "end_mm": [
+          -0.675,
+          -1.975
+        ],
+        "width_mm": 0.1,
+        "length_mm": 1.868508223155574
+      }
+    },
+    "changed": {
+      "2cf6437b-e91d-4f27-a6eb-8e15e572085a": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.7,
+            -1.2
+          ],
+          "end_mm": [
+            1.525,
+            -2.375
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.661700935788387
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.7,
+            -1.2
+          ],
+          "end_mm": [
+            1.525,
+            -2.375
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.661700935788387
+        }
+      },
+      "353cb33f-bf6d-4cde-8edb-80b2da4ce6c9": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.7,
+            -0.675
+          ],
+          "end_mm": [
+            2.7,
+            -1.2
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5249999999999999
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.7,
+            -0.675
+          ],
+          "end_mm": [
+            2.7,
+            -1.2
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5249999999999999
+        }
+      },
+      "5990517c-64a3-4e16-acd5-cca906588fcd": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.475,
+            1.275
+          ],
+          "end_mm": [
+            2.5,
+            -0.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.5002083188677497
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.475,
+            1.275
+          ],
+          "end_mm": [
+            2.5,
+            -0.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.5002083188677497
+        }
+      },
+      "75a1cfbe-7171-494b-b626-1bc860d720fe": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            -0.15,
+            -2.5
+          ],
+          "end_mm": [
+            -0.675,
+            -1.975
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.7424621202458749
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            -0.15,
+            -2.5
+          ],
+          "end_mm": [
+            -0.675,
+            -1.975
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.7424621202458749
+        }
+      },
+      "7700893a-2820-4403-a3e7-93cf4ea0bec6": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.2,
+            -2.5
+          ],
+          "end_mm": [
+            -0.15,
+            -2.5
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.3499999999999999
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.2,
+            -2.5
+          ],
+          "end_mm": [
+            -0.15,
+            -2.5
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.3499999999999999
+        }
+      },
+      "a6345313-c33a-42d1-9620-3e22b55b3f6d": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.5,
+            -0.225
+          ],
+          "end_mm": [
+            2.7,
+            -0.675
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.49244289008980535
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.5,
+            -0.225
+          ],
+          "end_mm": [
+            2.7,
+            -0.675
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.49244289008980535
+        }
+      },
+      "cb81d5c3-ac68-42b0-890a-4e8ca911df71": {
+        "before": {
+          "net": "/SDA",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.525,
+            -2.375
+          ],
+          "end_mm": [
+            1.2,
+            -2.5
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.34820970692960296
+        },
+        "after": {
+          "net": "/SDA",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.525,
+            -2.375
+          ],
+          "end_mm": [
+            1.2,
+            -2.5
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.34820970692960296
+        }
+      },
+      "45e67fdd-79f5-496c-ac33-948408236980": {
+        "before": {
+          "net": "/SCL",
+          "layer": "F.Cu",
+          "start_mm": [
+            0.425,
+            -2.225
+          ],
+          "end_mm": [
+            0.05,
+            -1.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5303300858899106
+        },
+        "after": {
+          "net": "/SCL",
+          "layer": "In1.Cu",
+          "start_mm": [
+            0.425,
+            -2.225
+          ],
+          "end_mm": [
+            0.05,
+            -1.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5303300858899106
+        }
+      },
+      "47d6edec-263c-491a-97ba-4b924218d04e": {
+        "before": {
+          "net": "/SCL",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.425,
+            -0.675
+          ],
+          "end_mm": [
+            2.425,
+            -1.1
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.42500000000000004
+        },
+        "after": {
+          "net": "/SCL",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.425,
+            -0.675
+          ],
+          "end_mm": [
+            2.425,
+            -1.1
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.42500000000000004
+        }
+      },
+      "4f29e4a4-49f8-428c-b868-45d59284d28f": {
+        "before": {
+          "net": "/SCL",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.1,
+            0.05
+          ],
+          "end_mm": [
+            2.425,
+            -0.675
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.7945124291035351
+        },
+        "after": {
+          "net": "/SCL",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.1,
+            0.05
+          ],
+          "end_mm": [
+            2.425,
+            -0.675
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.7945124291035351
+        }
+      },
+      "70b11fa9-b891-4911-8bf2-caff01fe23d7": {
+        "before": {
+          "net": "/SCL",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.425,
+            -1.1
+          ],
+          "end_mm": [
+            1.375,
+            -2.15
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.4849242404917495
+        },
+        "after": {
+          "net": "/SCL",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.425,
+            -1.1
+          ],
+          "end_mm": [
+            1.375,
+            -2.15
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.4849242404917495
+        }
+      },
+      "7f4b8764-6e66-4a8d-9fb3-796012392563": {
+        "before": {
+          "net": "/SCL",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.2,
+            -2.225
+          ],
+          "end_mm": [
+            0.425,
+            -2.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.7749999999999999
+        },
+        "after": {
+          "net": "/SCL",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.2,
+            -2.225
+          ],
+          "end_mm": [
+            0.425,
+            -2.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.7749999999999999
+        }
+      },
+      "9f034c55-4335-4700-9247-6aa0ae770d3b": {
+        "before": {
+          "net": "/SCL",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.375,
+            -2.15
+          ],
+          "end_mm": [
+            1.2,
+            -2.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.1903943276465978
+        },
+        "after": {
+          "net": "/SCL",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.375,
+            -2.15
+          ],
+          "end_mm": [
+            1.2,
+            -2.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.1903943276465978
+        }
+      },
+      "3a0014a3-663f-4031-9818-6cf29b41bfd5": {
+        "before": {
+          "net": "5V_LED",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.0901,
+            4.2901
+          ],
+          "end_mm": [
+            3.705,
+            4.6752
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5446136428698789
+        },
+        "after": {
+          "net": "5V_LED",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.0901,
+            4.2901
+          ],
+          "end_mm": [
+            3.705,
+            4.6752
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5446136428698789
+        }
+      },
+      "989f0240-234d-4e03-91d1-6b5960cbada0": {
+        "before": {
+          "net": "5V_LED",
+          "layer": "F.Cu",
+          "start_mm": [
+            0.4144,
+            4.6752
+          ],
+          "end_mm": [
+            -1.226,
+            3.0348
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.3198759277168253
+        },
+        "after": {
+          "net": "5V_LED",
+          "layer": "In1.Cu",
+          "start_mm": [
+            0.4144,
+            4.6752
+          ],
+          "end_mm": [
+            -1.226,
+            3.0348
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.3198759277168253
+        }
+      },
+      "e13054e0-e1cc-47bd-b6c2-d8ab5a1546db": {
+        "before": {
+          "net": "5V_LED",
+          "layer": "F.Cu",
+          "start_mm": [
+            -1.226,
+            3.0348
+          ],
+          "end_mm": [
+            -1.3652,
+            3.0348
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.1392
+        },
+        "after": {
+          "net": "5V_LED",
+          "layer": "In1.Cu",
+          "start_mm": [
+            -1.226,
+            3.0348
+          ],
+          "end_mm": [
+            -1.3652,
+            3.0348
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.1392
+        }
+      },
+      "faa4cb11-c293-421d-9b05-d7b97bbef935": {
+        "before": {
+          "net": "5V_LED",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.705,
+            4.6752
+          ],
+          "end_mm": [
+            0.4144,
+            4.6752
+          ],
+          "width_mm": 0.1,
+          "length_mm": 3.2906
+        },
+        "after": {
+          "net": "5V_LED",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.705,
+            4.6752
+          ],
+          "end_mm": [
+            0.4144,
+            4.6752
+          ],
+          "width_mm": 0.1,
+          "length_mm": 3.2906
+        }
+      },
+      "4cad91a9-34af-41ce-a0c5-8e8a20263844": {
+        "before": {
+          "net": "/TXP_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.075,
+            1.6
+          ],
+          "end_mm": [
+            4.55,
+            1.6
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.47499999999999964
+        },
+        "after": {
+          "net": "/TXP_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.075,
+            1.6
+          ],
+          "end_mm": [
+            4.55,
+            1.6
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.47499999999999964
+        }
+      },
+      "77af104f-8235-4580-bed1-864124247a55": {
+        "before": {
+          "net": "/TXP_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.05,
+            0.675
+          ],
+          "end_mm": [
+            3.925,
+            1.55
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.2374368670764582
+        },
+        "after": {
+          "net": "/TXP_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.05,
+            0.675
+          ],
+          "end_mm": [
+            3.925,
+            1.55
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.2374368670764582
+        }
+      },
+      "9a7f77fa-ae85-485f-a35a-16ef284f1b27": {
+        "before": {
+          "net": "/TXP_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.925,
+            1.55
+          ],
+          "end_mm": [
+            4.075,
+            1.6
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.15811388300841933
+        },
+        "after": {
+          "net": "/TXP_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.925,
+            1.55
+          ],
+          "end_mm": [
+            4.075,
+            1.6
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.15811388300841933
+        }
+      },
+      "d0351480-e520-4ef2-9ccb-7df2d900ae2e": {
+        "before": {
+          "net": "/TXP_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.05,
+            0.6
+          ],
+          "end_mm": [
+            3.05,
+            0.675
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.07500000000000007
+        },
+        "after": {
+          "net": "/TXP_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.05,
+            0.6
+          ],
+          "end_mm": [
+            3.05,
+            0.675
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.07500000000000007
+        }
+      },
+      "fa1b9ccd-e6d6-4496-81ae-991d1d5c63e5": {
+        "before": {
+          "net": "/TXP_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.55,
+            1.6
+          ],
+          "end_mm": [
+            5.675,
+            0.725
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.4252192813739226
+        },
+        "after": {
+          "net": "/TXP_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.55,
+            1.6
+          ],
+          "end_mm": [
+            5.675,
+            0.725
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.4252192813739226
+        }
+      },
+      "0d22190f-4a4d-45cf-af46-92ef96fe4456": {
+        "before": {
+          "net": "/TXP",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.2434,
+            0.852
+          ],
+          "end_mm": [
+            4.9824,
+            0.113
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.0451038225937173
+        },
+        "after": {
+          "net": "/TXP",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.2434,
+            0.852
+          ],
+          "end_mm": [
+            4.9824,
+            0.113
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.0451038225937173
+        }
+      },
+      "58983044-ab7c-46f0-9b1b-9f8e31a6c00c": {
+        "before": {
+          "net": "/TXP",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.9824,
+            0.113
+          ],
+          "end_mm": [
+            4.9824,
+            -1.4364
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.5493999999999999
+        },
+        "after": {
+          "net": "/TXP",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.9824,
+            0.113
+          ],
+          "end_mm": [
+            4.9824,
+            -1.4364
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.5493999999999999
+        }
+      },
+      "2350cd5d-c4ad-4542-8f09-cf202d5b6e76": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.1,
+            -1.175
+          ],
+          "end_mm": [
+            1.675,
+            -2.6
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.0152543263816605
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.1,
+            -1.175
+          ],
+          "end_mm": [
+            1.675,
+            -2.6
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.0152543263816605
+        }
+      },
+      "247efe0f-4c27-4577-99f2-9c828c2e09d7": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.85,
+            1.1
+          ],
+          "end_mm": [
+            3.125,
+            -0.35
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.6211492836873478
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.85,
+            1.1
+          ],
+          "end_mm": [
+            3.125,
+            -0.35
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.6211492836873478
+        }
+      },
+      "440c536e-4bde-488f-839c-2468e42932cf": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.675,
+            -2.6
+          ],
+          "end_mm": [
+            1.2,
+            -2.775
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5062114182829147
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.675,
+            -2.6
+          ],
+          "end_mm": [
+            1.2,
+            -2.775
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.5062114182829147
+        }
+      },
+      "565f55ba-4be5-49ed-8f92-6e82632274fb": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.375,
+            1.3
+          ],
+          "end_mm": [
+            4.075,
+            1.325
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.3010398644698072
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.375,
+            1.3
+          ],
+          "end_mm": [
+            4.075,
+            1.325
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.3010398644698072
+        }
+      },
+      "7a2d9fab-f5c0-48b4-9e7e-dd048f3c57d8": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            3.125,
+            -0.35
+          ],
+          "end_mm": [
+            3.1,
+            -1.175
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.825378700960959
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            3.125,
+            -0.35
+          ],
+          "end_mm": [
+            3.1,
+            -1.175
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.825378700960959
+        }
+      },
+      "a00d37f0-f8ff-437c-9123-781561a3febd": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.525,
+            1.225
+          ],
+          "end_mm": [
+            4.375,
+            1.3
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.16770509831248454
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.525,
+            1.225
+          ],
+          "end_mm": [
+            4.375,
+            1.3
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.16770509831248454
+        }
+      },
+      "afc5e14f-7f0d-4137-9cab-cadf7607952f": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.075,
+            1.325
+          ],
+          "end_mm": [
+            3.85,
+            1.1
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.31819805153394637
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.075,
+            1.325
+          ],
+          "end_mm": [
+            3.85,
+            1.1
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.31819805153394637
+        }
+      },
+      "b6073a18-785d-4bfa-b0c2-c485b8848fe6": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            5.975,
+            -0.225
+          ],
+          "end_mm": [
+            4.525,
+            1.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.0506096654409873
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            5.975,
+            -0.225
+          ],
+          "end_mm": [
+            4.525,
+            1.225
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.0506096654409873
+        }
+      },
+      "e7a0e3b9-2339-4b5b-bf83-1c1b9d6daf5a": {
+        "before": {
+          "net": "/UART_TX",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.2,
+            -2.775
+          ],
+          "end_mm": [
+            0.575,
+            -2.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.6294839156007086
+        },
+        "after": {
+          "net": "/UART_TX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.2,
+            -2.775
+          ],
+          "end_mm": [
+            0.575,
+            -2.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.6294839156007086
+        }
+      },
+      "4c07be81-2120-41bf-9434-fd72285c2e6e": {
+        "before": {
+          "net": "/TXN_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            4.3413,
+            -2.7276
+          ],
+          "end_mm": [
+            4.3413,
+            0.0466
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.7742
+        },
+        "after": {
+          "net": "/TXN_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            4.3413,
+            -2.7276
+          ],
+          "end_mm": [
+            4.3413,
+            0.0466
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.7742
+        }
+      },
+      "e3bc939a-dc58-4963-9572-c817b1c8d104": {
+        "before": {
+          "net": "/TXN_DRV",
+          "layer": "F.Cu",
+          "start_mm": [
+            2.4701,
+            -4.5988
+          ],
+          "end_mm": [
+            4.3413,
+            -2.7276
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.6462764179125355
+        },
+        "after": {
+          "net": "/TXN_DRV",
+          "layer": "In1.Cu",
+          "start_mm": [
+            2.4701,
+            -4.5988
+          ],
+          "end_mm": [
+            4.3413,
+            -2.7276
+          ],
+          "width_mm": 0.1,
+          "length_mm": 2.6462764179125355
+        }
+      },
+      "5b5bb439-7158-427a-9510-58d5a3dc3d27": {
+        "before": {
+          "net": "/UART_RX",
+          "layer": "F.Cu",
+          "start_mm": [
+            0.725,
+            -3.85
+          ],
+          "end_mm": [
+            1.525,
+            -3.05
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.1313708498984762
+        },
+        "after": {
+          "net": "/UART_RX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            0.725,
+            -3.85
+          ],
+          "end_mm": [
+            1.525,
+            -3.05
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.1313708498984762
+        }
+      },
+      "b73eb4d7-1a9e-429f-a3a4-088b1d5b5f4b": {
+        "before": {
+          "net": "/UART_RX",
+          "layer": "F.Cu",
+          "start_mm": [
+            -0.45,
+            -3.75
+          ],
+          "end_mm": [
+            -0.225,
+            -3.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.24622144504490265
+        },
+        "after": {
+          "net": "/UART_RX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            -0.45,
+            -3.75
+          ],
+          "end_mm": [
+            -0.225,
+            -3.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.24622144504490265
+        }
+      },
+      "cc1b70bc-385b-41c3-97e0-d44e56c8ecc3": {
+        "before": {
+          "net": "/UART_RX",
+          "layer": "F.Cu",
+          "start_mm": [
+            -1.625,
+            -2.575
+          ],
+          "end_mm": [
+            -0.45,
+            -3.75
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.6617009357883865
+        },
+        "after": {
+          "net": "/UART_RX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            -1.625,
+            -2.575
+          ],
+          "end_mm": [
+            -0.45,
+            -3.75
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.6617009357883865
+        }
+      },
+      "d305d58c-35e5-4e40-83b7-01500db9eb4c": {
+        "before": {
+          "net": "/UART_RX",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.65,
+            -2.975
+          ],
+          "end_mm": [
+            2.675,
+            -3.1
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.0325938214031691
+        },
+        "after": {
+          "net": "/UART_RX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.65,
+            -2.975
+          ],
+          "end_mm": [
+            2.675,
+            -3.1
+          ],
+          "width_mm": 0.1,
+          "length_mm": 1.0325938214031691
+        }
+      },
+      "e1a32d09-afae-40de-a380-01b5c90e7baa": {
+        "before": {
+          "net": "/UART_RX",
+          "layer": "F.Cu",
+          "start_mm": [
+            -0.225,
+            -3.85
+          ],
+          "end_mm": [
+            0.725,
+            -3.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.95
+        },
+        "after": {
+          "net": "/UART_RX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            -0.225,
+            -3.85
+          ],
+          "end_mm": [
+            0.725,
+            -3.85
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.95
+        }
+      },
+      "e6895b57-3dab-4cc2-a32f-ff9991a45bf9": {
+        "before": {
+          "net": "/UART_RX",
+          "layer": "F.Cu",
+          "start_mm": [
+            1.525,
+            -3.05
+          ],
+          "end_mm": [
+            1.65,
+            -2.975
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.14577379737113239
+        },
+        "after": {
+          "net": "/UART_RX",
+          "layer": "In1.Cu",
+          "start_mm": [
+            1.525,
+            -3.05
+          ],
+          "end_mm": [
+            1.65,
+            -2.975
+          ],
+          "width_mm": 0.1,
+          "length_mm": 0.14577379737113239
+        }
+      }
+    }
+  },
+  "vias": {
+    "removed": {},
+    "added": {},
+    "changed": {}
+  },
+  "F_GND_area_delta_mm2": 16.065707280481163,
+  "F_GND_area_increase_percent": 18.557920697791214,
+  "method": "Read-only KiCad saved geometry. Track lengths are centerline lengths; vias excluded from track length. Filled GND polygon union subtracts polygon holes. No refill/save was performed. Ground-area changes result from moving F signal copper to In1 and refilling the existing zones. Existing zone settings and project edge rules are preserved.",
+  "limits": [
+    "No new vias or placement changes. PPG pad-to-first-via fanouts remain on F; redundant copper wholly inside a PPG pad is preserved on F.",
+    "DRC checks complete global connectivity, including GND; filled polygon components describe planar regions, which may be electrically connected through GND vias and other copper layers."
+  ],
+  "DRC": {
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T12:52:10",
+    "ignored_checks": [
+      {
+        "description": "Footprint has no courtyard defined",
+        "key": "missing_courtyard"
+      },
+      {
+        "description": "Track endpoint not centered on via",
+        "key": "track_not_centered_on_via"
+      },
+      {
+        "description": "Tuning profile track geometries",
+        "key": "tuning_profile_track_geometries"
+      },
+      {
+        "description": "Footprint doesn't match symbol's footprint filters",
+        "key": "footprint_filters_mismatch"
+      },
+      {
+        "description": "Footprint component type doesn't match footprint pads",
+        "key": "footprint_type_mismatch"
+      }
+    ],
+    "included_severities": [
+      "error",
+      "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+      {
+        "description": "Silkscreen clipped by board edge",
+        "items": [
+          {
+            "description": "Circle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+          },
+          {
+            "description": "Segment of U4 on B.Silkscreen",
+            "pos": {
+              "x": -2.7843,
+              "y": 5.6789
+            },
+            "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_edge_clearance"
+      },
+      {
+        "description": "Silkscreen clipped by board edge",
+        "items": [
+          {
+            "description": "Circle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+          },
+          {
+            "description": "Segment of U4 on B.Silkscreen",
+            "pos": {
+              "x": -2.7843,
+              "y": 6.1539
+            },
+            "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_edge_clearance"
+      },
+      {
+        "description": "Silkscreen clipped by board edge",
+        "items": [
+          {
+            "description": "Circle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+          },
+          {
+            "description": "Segment of U5 on B.Silkscreen",
+            "pos": {
+              "x": 3.110069,
+              "y": 6.029846
+            },
+            "uuid": "46fadab4-36cc-44d3-ba2b-58c960c0500b"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_edge_clearance"
+      },
+      {
+        "description": "Silkscreen clipped by board edge",
+        "items": [
+          {
+            "description": "Circle on Edge.Cuts",
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+          },
+          {
+            "description": "Segment of U5 on B.Silkscreen",
+            "pos": {
+              "x": 3.138353,
+              "y": 6.05813
+            },
+            "uuid": "0f7234a8-e9b0-409a-adea-446db553fc04"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_edge_clearance"
+      },
+      {
+        "description": "Footprint 'ST_UFQFPN-20_3x3mm_P0.5mm' does not match copy in library 'Package_DFN_QFN'",
+        "items": [
+          {
+            "description": "Footprint U2",
+            "pos": {
+              "x": 0.1419,
+              "y": 0.2749
+            },
+            "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+          }
+        ],
+        "severity": "warning",
+        "type": "lib_footprint_mismatch"
+      }
+    ]
+  },
+  "ground_connectivity": {
+    "baseline": {
+      "copper_graph_components": 1,
+      "GND_pad_count": 25,
+      "GND_via_count": 18,
+      "all_GND_pads_connected": true,
+      "all_filled_regions_electrically_connected": true,
+      "floating_filled_regions": [],
+      "filled_regions": [
+        {
+          "id": "F.Cu:region:0",
+          "layer": "F.Cu",
+          "area_mm2": 3.932190808665499,
+          "GND_via_contacts": [
+            "bc76e89f-9edc-40b5-b8af-db6f11fa159d"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "id": "F.Cu:region:1",
+          "layer": "F.Cu",
+          "area_mm2": 63.65602555306998,
+          "GND_via_contacts": [
+            "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+            "20c04e43-1175-4aed-9d8d-6f1004e36622",
+            "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+            "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+            "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+            "6afcebf3-1127-453f-9bad-8430d4659d52",
+            "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+            "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+            "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+            "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+            "fe883c48-7a35-4659-9976-e7dec80feb2f"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "id": "F.Cu:region:2",
+          "layer": "F.Cu",
+          "area_mm2": 6.252152777070503,
+          "GND_via_contacts": [
+            "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+            "bd9d5774-5014-4735-9041-fa644e39e5f9",
+            "c2e79e30-a27a-47f1-bc52-25768a926ce3"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "id": "F.Cu:region:3",
+          "layer": "F.Cu",
+          "area_mm2": 12.73025233385351,
+          "GND_via_contacts": [
+            "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+            "e58b3d7e-9073-4e69-804f-f5c42195c56c"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "id": "In1.Cu:region:0",
+          "layer": "In1.Cu",
+          "area_mm2": 104.80224132484977,
+          "GND_via_contacts": [
+            "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+            "20c04e43-1175-4aed-9d8d-6f1004e36622",
+            "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+            "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+            "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+            "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+            "6afcebf3-1127-453f-9bad-8430d4659d52",
+            "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+            "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+            "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+            "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+            "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+            "bd9d5774-5014-4735-9041-fa644e39e5f9",
+            "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+            "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+            "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+            "fe883c48-7a35-4659-9976-e7dec80feb2f"
+          ],
+          "connected_to_main_GND_network": true
+        }
+      ],
+      "vias": [
+        {
+          "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+          "position_mm": [
+            -5.775,
+            -2.25
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+          "position_mm": [
+            -4.1,
+            1.625
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+          "position_mm": [
+            -2.8234,
+            -3.225
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "position_mm": [
+            0.15,
+            0.95
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:2",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "position_mm": [
+            -0.5,
+            5.575
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+          "position_mm": [
+            0.525,
+            -5.2
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "position_mm": [
+            -3.875,
+            0.825
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "6afcebf3-1127-453f-9bad-8430d4659d52",
+          "position_mm": [
+            -1.5489,
+            -3.3886
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+          "position_mm": [
+            -2.2,
+            -3.3
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+          "position_mm": [
+            5.725,
+            -2.2
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "position_mm": [
+            0.625,
+            4.2234
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:3",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "position_mm": [
+            -4.25,
+            4.325
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+          "position_mm": [
+            3.575,
+            -0.5
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9",
+          "position_mm": [
+            1.525,
+            2.275
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:2",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+          "position_mm": [
+            -2.875,
+            -5.475
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+          "position_mm": [
+            -1.7984,
+            1.95
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:2",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+          "position_mm": [
+            5.1,
+            3.15
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:3",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "fe883c48-7a35-4659-9976-e7dec80feb2f",
+          "position_mm": [
+            3.75,
+            -4.925
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:1",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        }
+      ]
+    },
+    "candidate": {
+      "copper_graph_components": 1,
+      "GND_pad_count": 25,
+      "GND_via_count": 18,
+      "all_GND_pads_connected": true,
+      "all_filled_regions_electrically_connected": true,
+      "floating_filled_regions": [],
+      "filled_regions": [
+        {
+          "id": "F.Cu:region:0",
+          "layer": "F.Cu",
+          "area_mm2": 102.63632875314066,
+          "GND_via_contacts": [
+            "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+            "20c04e43-1175-4aed-9d8d-6f1004e36622",
+            "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+            "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+            "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+            "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+            "6afcebf3-1127-453f-9bad-8430d4659d52",
+            "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+            "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+            "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+            "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+            "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+            "bd9d5774-5014-4735-9041-fa644e39e5f9",
+            "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+            "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+            "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+            "fe883c48-7a35-4659-9976-e7dec80feb2f"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "id": "In1.Cu:region:0",
+          "layer": "In1.Cu",
+          "area_mm2": 3.3897096840099996,
+          "GND_via_contacts": [
+            "bc76e89f-9edc-40b5-b8af-db6f11fa159d"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "id": "In1.Cu:region:1",
+          "layer": "In1.Cu",
+          "area_mm2": 84.6426903193799,
+          "GND_via_contacts": [
+            "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+            "20c04e43-1175-4aed-9d8d-6f1004e36622",
+            "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+            "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+            "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+            "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+            "6afcebf3-1127-453f-9bad-8430d4659d52",
+            "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+            "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+            "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+            "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+            "bd9d5774-5014-4735-9041-fa644e39e5f9",
+            "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+            "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+            "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+            "fe883c48-7a35-4659-9976-e7dec80feb2f"
+          ],
+          "connected_to_main_GND_network": true
+        }
+      ],
+      "vias": [
+        {
+          "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+          "position_mm": [
+            -5.775,
+            -2.25
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+          "position_mm": [
+            -4.1,
+            1.625
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+          "position_mm": [
+            -2.8234,
+            -3.225
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "position_mm": [
+            0.15,
+            0.95
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "position_mm": [
+            -0.5,
+            5.575
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+          "position_mm": [
+            0.525,
+            -5.2
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "position_mm": [
+            -3.875,
+            0.825
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "6afcebf3-1127-453f-9bad-8430d4659d52",
+          "position_mm": [
+            -1.5489,
+            -3.3886
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+          "position_mm": [
+            -2.2,
+            -3.3
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+          "position_mm": [
+            5.725,
+            -2.2
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "position_mm": [
+            0.625,
+            4.2234
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "position_mm": [
+            -4.25,
+            4.325
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+          "position_mm": [
+            3.575,
+            -0.5
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:0"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9",
+          "position_mm": [
+            1.525,
+            2.275
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+          "position_mm": [
+            -2.875,
+            -5.475
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+          "position_mm": [
+            -1.7984,
+            1.95
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+          "position_mm": [
+            5.1,
+            3.15
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        },
+        {
+          "uuid": "fe883c48-7a35-4659-9976-e7dec80feb2f",
+          "position_mm": [
+            3.75,
+            -4.925
+          ],
+          "filled_region_contacts": [
+            "F.Cu:region:0",
+            "In1.Cu:region:1"
+          ],
+          "connected_to_main_GND_network": true
+        }
+      ]
+    },
+    "existing_GND_via_comparison": [
+      {
+        "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+        "position_mm": [
+          -5.775,
+          -2.25
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+        "position_mm": [
+          -4.1,
+          1.625
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+        "position_mm": [
+          -2.8234,
+          -3.225
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+        "position_mm": [
+          0.15,
+          0.95
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "position_mm": [
+          -0.5,
+          5.575
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+        "position_mm": [
+          0.525,
+          -5.2
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+        "position_mm": [
+          -3.875,
+          0.825
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "6afcebf3-1127-453f-9bad-8430d4659d52",
+        "position_mm": [
+          -1.5489,
+          -3.3886
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+        "position_mm": [
+          -2.2,
+          -3.3
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+        "position_mm": [
+          5.725,
+          -2.2
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+        "position_mm": [
+          0.625,
+          4.2234
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+        "position_mm": [
+          -4.25,
+          4.325
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+        "position_mm": [
+          3.575,
+          -0.5
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:0"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9",
+        "position_mm": [
+          1.525,
+          2.275
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+        "position_mm": [
+          -2.875,
+          -5.475
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+        "position_mm": [
+          -1.7984,
+          1.95
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+        "position_mm": [
+          5.1,
+          3.15
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "fe883c48-7a35-4659-9976-e7dec80feb2f",
+        "position_mm": [
+          3.75,
+          -4.925
+        ],
+        "In1_before": [
+          "In1.Cu:region:0"
+        ],
+        "In1_after": [
+          "In1.Cu:region:1"
+        ],
+        "In1_connection_preserved": true,
+        "F_after": [
+          "F.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      }
+    ],
+    "all_existing_In1_GND_via_contacts_preserved": true,
+    "method": "Saved copper polygons, pads and tracks on all four copper layers; through-via nodes bridge all layers. Two objects connect when same-layer copper distance is below 0.00001 mm. No refill/save or board mutation. A geometric polygon split is distinguished from electrical isolation by the cross-layer GND graph."
+  },
+  "routing_candidate": {
+    "path": "/workspace/ppg-rs422-no-tvs-work/in1-routing/candidate/kicad/ppg_pcb_v08.kicad_pcb",
+    "board_sha256": "6596d7bdd598beb90f3e9d574f50ae3f80457d58c76c389f2d2b7d634abc4182",
+    "project_sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "track_count": 311,
+    "via_count": 59,
+    "layers": {
+      "F.Cu": {
+        "segments": 28,
+        "length_mm": 18.799198944772797,
+        "nets": {
+          "/SDA": {
+            "segments": 1,
+            "length_mm": 0.9905806378079475,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/SCL": {
+            "segments": 2,
+            "length_mm": 1.007197776700735,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 4,
+            "length_mm": 3.4598499602799144,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/VREF": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "In2.Cu": {
+        "segments": 39,
+        "length_mm": 53.141927097763926,
+        "nets": {
+          "3V3": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "/RXN": {
+            "segments": 1,
+            "length_mm": 1.675,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "/SWDIO": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 5,
+            "length_mm": 3.3330903641946312,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 1,
+            "length_mm": 4.628242106891125,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "B.Cu": {
+        "segments": 202,
+        "length_mm": 72.74874962834788,
+        "nets": {
+          "/SDA": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SCL": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VREF": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWCLK": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/TXP": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/12V_IN": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWDIO": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN_RCV": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 4,
+            "length_mm": 2.0472388127990166,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "In1.Cu": {
+        "segments": 42,
+        "length_mm": 43.971424294937435,
+        "nets": {
+          "/SDA": {
+            "segments": 8,
+            "length_mm": 8.488532195076996,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/SCL": {
+            "segments": 6,
+            "length_mm": 4.200161083131793,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 4,
+            "length_mm": 6.294289570586704,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      }
+    },
+    "F_GND": {
+      "filled_union_area_mm2": 102.63632875314066,
+      "zones": [
+        {
+          "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+          "layer": "F.Cu",
+          "net": "GND",
+          "filled": true,
+          "filled_area_mm2": 102.63632875314066,
+          "filled_component_count": 1,
+          "largest_filled_component_mm2": 102.63632875314066,
+          "local_clearance_mm": 0.15,
+          "minimum_thickness_mm": 0.15,
+          "pad_connection": 2,
+          "island_removal": 0
+        }
+      ]
+    },
+    "GND_zones": [
+      {
+        "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+        "layer": "F.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 102.63632875314066,
+        "filled_component_count": 1,
+        "largest_filled_component_mm2": 102.63632875314066,
+        "local_clearance_mm": 0.15,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 2,
+        "island_removal": 0
+      },
+      {
+        "uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+        "layer": "In1.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 88.0324000033899,
+        "filled_component_count": 2,
+        "largest_filled_component_mm2": 84.6426903193799,
+        "local_clearance_mm": 0.2,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 1,
+        "island_removal": 0
+      }
+    ]
+  },
+  "applied_board": {
+    "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+    "sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238",
+    "board_center_on_sheet_mm": [
+      20,
+      17
+    ],
+    "filled_zones": [
+      {
+        "layer": 0,
+        "layer_name": "F.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 102.63635313379474,
+        "minimum_edge_clearance_mm": 0.2006112725048146,
+        "required_edge_clearance_mm": 0.2,
+        "local_clearance_mm": 0.15
+      },
+      {
+        "layer": 4,
+        "layer_name": "In1.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 88.03241082289539,
+        "minimum_edge_clearance_mm": 0.30061144641757576,
+        "required_edge_clearance_mm": 0.3,
+        "local_clearance_mm": 0.2
+      }
+    ]
+  },
+  "status": "Applied and independently audited; sheet translation preserves routing geometry; Gerber/BOM held for approval"
+}

@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "components_before": 39,
+  "components_after": 37,
+  "removed_references": [
+    "D2",
+    "D4"
+  ],
+  "removed_net_nodes": [
+    [
+      "D2",
+      "1"
+    ],
+    [
+      "D2",
+      "2"
+    ],
+    [
+      "D2",
+      "3"
+    ],
+    [
+      "D4",
+      "1"
+    ],
+    [
+      "D4",
+      "2"
+    ],
+    [
+      "D4",
+      "3"
+    ]
+  ],
+  "remaining_model_dicts_exactly_unchanged": true,
+  "remaining_component_xml_exactly_unchanged": true,
+  "nets_equal_baseline_minus_removed_nodes": true,
+  "model_netlist_pin_parity": true,
+  "remaining_component_and_pin_uuids_preserved": true,
+  "root_schematic_uuid_preserved": true,
+  "erc_violations": 0,
+  "net_count": 48,
+  "sha256": {
+    "design_v08.py": "fb00d8c74922d64af6d9eee6cc835a47db313129928655cd084e1d98589ecab2",
+    "build_sch_v08.py": "5d9fbfbb9211e4bc0375d2fa8e2122812e4e46aca0ecdcc582d51bccca1c53f9",
+    "layout_schematic_v08.py": "07d23d253363cbb2da07e1bf53e9e9b01000529bc7cd3c3f7597051bd0702e76",
+    "SleepBud.kicad_sym": "8e8c696027ff420843baad690075bcb3c9a6a7dbb85ab02bb0541fcbc0e51292",
+    "ppg_pcb_v08.kicad_sch": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527"
+  }
+}

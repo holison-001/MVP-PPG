@@ -1,0 +1,346 @@
+{
+  "source_board": {
+    "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+    "sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238"
+  },
+  "board_center_on_sheet_mm": [
+    20.0,
+    17.0
+  ],
+  "status": "Placement extracted read-only from an independently audited PCB; traces omitted",
+  "placement": {
+    "C1": {
+      "pos": [
+        -2.1664,
+        1.1102
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "C_0402_1005Metric"
+    },
+    "C11": {
+      "pos": [
+        0.3169,
+        3.6249
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C12": {
+      "pos": [
+        -4.74,
+        -1.9337
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C13": {
+      "pos": [
+        -3.8434,
+        4.1624
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "C_0402_1005Metric"
+    },
+    "C14": {
+      "pos": [
+        4.6687,
+        3.2314
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C4": {
+      "pos": [
+        -3.906,
+        2.2718
+      ],
+      "rot": 135,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C5": {
+      "pos": [
+        -0.8753,
+        2.4258
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C6": {
+      "pos": [
+        5.3296,
+        -2.7978
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C7": {
+      "pos": [
+        0.5088,
+        -4.67
+      ],
+      "rot": 45,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "D1": {
+      "pos": [
+        -2.2302,
+        -5.4989
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "TVS_SOD882_1x0.6"
+    },
+    "D6": {
+      "pos": [
+        0.8545,
+        2.4786
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    "D7": {
+      "pos": [
+        3.5284,
+        -1.1382
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    "D8": {
+      "pos": [
+        -3.5023,
+        0.4077
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    "FB1": {
+      "pos": [
+        0.9197,
+        -5.9319
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "L_0402_1005Metric"
+    },
+    "J1": {
+      "pos": [
+        -0.7828,
+        -5.791
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J2": {
+      "pos": [
+        0.6976,
+        5.711
+      ],
+      "rot": 225,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J3": {
+      "pos": [
+        4.4813,
+        -2.0101
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J4": {
+      "pos": [
+        5.1031,
+        1.6808
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J5": {
+      "pos": [
+        -4.9345,
+        -3.0503
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J6": {
+      "pos": [
+        -5.1819,
+        2.6172
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J7": {
+      "pos": [
+        3.7418,
+        1.7708
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "CablePad_D0.8"
+    },
+    "J8": {
+      "pos": [
+        2.7537,
+        -0.4194
+      ],
+      "rot": 135,
+      "side": "B",
+      "footprint": "CablePad_D0.8"
+    },
+    "J9": {
+      "pos": [
+        -3.2955,
+        1.4062
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "CablePad_D0.8"
+    },
+    "R1": {
+      "pos": [
+        -2.4331,
+        -0.4076
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "R_0201_0603Metric"
+    },
+    "R2": {
+      "pos": [
+        -3.1466,
+        -1.1173
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "R_0201_0603Metric"
+    },
+    "R3": {
+      "pos": [
+        -5.8971,
+        0.8676
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R4": {
+      "pos": [
+        5.8267,
+        -0.9976
+      ],
+      "rot": 45,
+      "side": "B",
+      "footprint": "R_0201_0603Metric"
+    },
+    "R5": {
+      "pos": [
+        3.1141,
+        0.756
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R6": {
+      "pos": [
+        4.7408,
+        -0.1086
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R7": {
+      "pos": [
+        -4.7197,
+        0.6526
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R8": {
+      "pos": [
+        -4.885,
+        -0.8278
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "U1": {
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "rot": 0,
+      "side": "F",
+      "footprint": "MAXM86161_OLGA-14"
+    },
+    "U2": {
+      "pos": [
+        0.1419,
+        0.2749
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "ST_UFQFPN-20_3x3mm_P0.5mm"
+    },
+    "U3": {
+      "pos": [
+        2.5563,
+        -3.6325
+      ],
+      "rot": 45,
+      "side": "B",
+      "footprint": "TSOT23-6_MaxLinear"
+    },
+    "U4": {
+      "pos": [
+        -1.6743,
+        4.5439
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+    },
+    "U5": {
+      "pos": [
+        2.7848,
+        4.1348
+      ],
+      "rot": 45,
+      "side": "B",
+      "footprint": "DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+    },
+    "U6": {
+      "pos": [
+        -2.19,
+        -3.2337
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "TSOT23-6_MaxLinear"
+    }
+  }
+}

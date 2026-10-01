@@ -210,8 +210,20 @@ def tidy(source, target):
                     wire(ax, ay, ax-7.62, ay)
                     label(net, ax-7.62, ay, True)
                 elif angle == 180:
-                    wire(ax, ay, ax+7.62, ay)
-                    label(net, ax+7.62, ay)
+                    if ref in ('U3', 'U6') and num in ('4', '6') and 'R5' in original:
+                        series = {('U3', '6'): 'R5', ('U3', '4'): 'R6', ('U6', '6'): 'R7', ('U6', '4'): 'R8'}[ref, num]
+                        sx = 368.3
+                        placed = move(original[series], sx, ay, 90,
+                                      ref_at=(sx-3.81, ay-4.445), val_at=(sx+1.27, ay-4.445))
+                        for field_name in ('Reference', 'Value'):
+                            get(prop(placed, field_name), 'at')[3] = 90
+                        wire(ax, ay, sx-3.81, ay)
+                        label(net, ax+1.27, ay)
+                        wire(sx+3.81, ay, sx+11.43, ay)
+                        label(D.COMPONENTS[series]['pins']['2'], sx+11.43, ay)
+                    else:
+                        wire(ax, ay, ax+7.62, ay)
+                        label(net, ax+7.62, ay)
                 else:
                     raise ValueError('Unexpected connected bottom pin')
 
@@ -257,12 +269,12 @@ def tidy(source, target):
             tvs(protection, x-19.05, y+drop, rail_y=y)
 
     text('SleepBud | PPG sensor board', 15.24, 15.24, 3.0, True)
-    text('v0.8  /  MAXM86161 + STM32C011  /  full-duplex UART over LVDS', 15.24, 22.86, 1.5)
+    text('v0.8  /  MAXM86161 + STM32C011  /  full-duplex UART over RS-422', 15.24, 22.86, 1.5)
     text('A3  |  FUNCTIONAL SCHEMATIC', 327.66, 19.05, 1.5)
 
     heading('01  PPG SENSOR', 15.24, 31.75, 116.84)
     heading('02  MCU + I2C PULL-UPS', 144.78, 31.75, 125.73)
-    heading('03  UART / LVDS LINK', 283.21, 31.75, 120.65)
+    heading('03  UART / RS-422 LINK', 283.21, 31.75, 120.65)
 
     ic('U1', 68.58, 76.2)
     passive('C1', 30.48, 134.62)
@@ -280,17 +292,20 @@ def tidy(source, target):
 
     text('TX  /  earbud to controller', 285.75, 42.545)
     ic('U3', 335.28, 66.04)
-    passive('C6', 387.35, 66.04)
+    passive('C6', 289.56, 66.04)
+    passive('R4', 387.35, 90.17)
     text('RX  /  controller to earbud', 285.75, 93.98)
     ic('U6', 335.28, 116.84)
-    passive('C7', 387.35, 116.84)
-    text('U6: 110 ohm termination integrated.', 285.75, 141.605)
-    text('Open-input fail-safe: UART_RX high.', 285.75, 146.685)
+    passive('C7', 289.56, 116.84)
+    passive('R3', 387.35, 144.78)
+    text('U3: DE = 3V3. U6: /EN = GND.', 285.75, 139.065)
+    text('R3: 120/1% at the local RX cable pair.', 285.75, 144.145)
+    text('Enhanced fail-safe: UART_RX high.', 285.75, 149.225)
 
     protected = 'FB1' in original
     if protected:
-        required = {f'D{i}' for i in range(1, 9)}
-        assert required.issubset(original), 'Protection layout requires D1-D8'
+        required = {'D1', 'D6', 'D7', 'D8'}
+        assert required.issubset(original), 'Protection layout requires supply and SWD TVS'
         heading('04  INPUT PROTECTION + POWER', 15.24, 165.1, 125.73)
 
         # The raw pad rail is visibly clamped before the series ferrite bead.
@@ -318,13 +333,13 @@ def tidy(source, target):
             wire(x, y, x+15.24, y)
             power(net, x+15.24, y)
 
-        heading('05  CABLE PADS + ESD', 153.67, 165.1, 142.24)
+        heading('05  RS-422 CABLE PADS', 153.67, 165.1, 142.24)
         pad('J1', 187.96, 184.15)
         pad('J2', 264.16, 184.15)
         text('J1 raw supply -> D1 / FB1 (section 04)', 157.48, 193.04)
-        for ref, diode, x, y in [('J3', 'D2', 187.96, 205.74), ('J4', 'D3', 264.16, 205.74),
-                                  ('J5', 'D4', 187.96, 238.76), ('J6', 'D5', 264.16, 238.76)]:
-            pad(ref, x, y, protection=diode)
+        for ref, x, y in [('J3', 187.96, 205.74), ('J4', 264.16, 205.74),
+                          ('J5', 187.96, 238.76), ('J6', 264.16, 238.76)]:
+            pad(ref, x, y)
 
         heading('06  SWD TEST PADS + ESD', 309.88, 165.1, 93.98)
         for ref, diode, y in [('J7', 'D6', 179.07), ('J8', 'D7', 204.47), ('J9', 'D8', 229.87)]:
@@ -333,7 +348,7 @@ def tidy(source, target):
         rule(15.24, 269.24, 289.56)
         text('C1: 5V_LED / U4 output bulk capacitor (section 01). D1 clamps raw 12V_IN; FB1 feeds filtered 12V.', 15.24, 273.05)
         text('Cable: 12V, GND, TXP, TXN, RXP, RXN. Piezo coax bypasses this PCB. Matching net labels are connected.', 15.24, 278.13)
-        text('D1-D8: shunt TVS protection to GND. Crosses mark intentionally unused pins.', 15.24, 283.21)
+        text('RS-422 bus TVS omitted; 22 ohm series retained. D1 protects supply, D6-D8 protect SWD. IEC immunity requires physical validation.', 15.24, 283.21)
     else:
         # Continue to support the original 26-part design for archived builds.
         heading('04  POWER SUPPLIES', 15.24, 165.1, 229.87)

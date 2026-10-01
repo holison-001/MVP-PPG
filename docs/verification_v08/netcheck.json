@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "footprints": 35,
+  "schematic_components": 35,
+  "numbered_pads": 111,
+  "schematic_nets": 44,
+  "top_references": [
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 4,
+  "outline_radius_mm": 6.75,
+  "routing": {
+    "F.Cu": 30,
+    "via": 34,
+    "B.Cu": 153
+  },
+  "errors": [],
+  "board": "/tmp/ppg-v08.TcqFcV/input/ppg_pcb_v08.kicad_pcb",
+  "schematic": "/tmp/ppg-v08.TcqFcV/input/ppg_pcb_v08.kicad_sch"
+}

@@ -1,0 +1,50 @@
+PCB/schematic: FAIL; 35 footprints, 107 numbered pads, 48 schematic nets; top=['U1']
+routing: {'F.Cu': 30, 'via': 34, 'B.Cu': 153}
+ERROR: Missing footprint: R3
+ERROR: Missing footprint: R4
+ERROR: Missing footprint: R5
+ERROR: Missing footprint: R6
+ERROR: Missing footprint: R7
+ERROR: Missing footprint: R8
+ERROR: Unexpected footprint: D3
+ERROR: Unexpected footprint: D5
+ERROR: U6 footprint: expected 'SleepBud:TSOT23-6_MaxLinear', got 'Package_TO_SOT_SMD:SOT-23-5'
+ERROR: U6 value: expected 'XR33183', got 'SN65LVDT2DBVR'
+ERROR: U6 MPN: expected 'XR33183ESBTR', got ''
+ERROR: U6 Datasheet: expected '${KIPRJMOD}/../datasheet/pdf/XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf', got ''
+ERROR: U6 Description: expected 'RS-422 receiver, 52 Mbps, enhanced open/short/idle fail-safe RO high; VCC 3.0-5.5 V; pin 2 GND and active-low EN pin 5 tied to GND; external R3 120 ohm receive termination; TSOT-23-6', got 'LVDS receiver (LVDS->TTL) with 110 R termination: 1 VCC, 2 GND, 3 A, 4 B, 5 R'
+ERROR: U6.3 net: expected '/UART_RX', got '/RXP'
+ERROR: U6.4 net: expected '/RXN_RCV', got '/RXN'
+ERROR: U6.5 net: expected 'GND', got '/UART_RX'
+ERROR: U6.6: schematic pin has no matching PCB pad
+ERROR: J3 Description: expected 'cable RS-422 TX+ (earbud -> controller)', got 'cable LVDS TX+ (earbud -> controller)'
+ERROR: J4 Description: expected 'cable RS-422 TX-', got 'cable LVDS TX-'
+ERROR: D2 footprint: expected 'Package_TO_SOT_SMD:SOT-23', got 'SleepBud:TI_DPY0002A_1x0.6'
+ERROR: D2 value: expected 'SM712', got 'ESD351DPYR'
+ERROR: D2 MPN: expected 'CDSOT23-SM712', got 'ESD351DPYR'
+ERROR: D2 Datasheet: expected '${KIPRJMOD}/../datasheet/pdf/Bourns_CDSOT23-SM712.pdf', got 'https://www.ti.com/lit/ds/symlink/esd351.pdf'
+ERROR: D2 Description: expected 'Two-line asymmetric RS-422 TVS array, -7/+12 V working range; pins 1/2 cable lines, pin 3 GND; prototype IEC immunity requires physical validation', got 'TI unidirectional low-capacitance ESD TVS for TXP; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006'
+ERROR: D2.2 net: expected '/TXN', got 'GND'
+ERROR: D2.3: schematic pin has no matching PCB pad
+ERROR: D4 footprint: expected 'Package_TO_SOT_SMD:SOT-23', got 'SleepBud:TI_DPY0002A_1x0.6'
+ERROR: D4 value: expected 'SM712', got 'ESD351DPYR'
+ERROR: D4 MPN: expected 'CDSOT23-SM712', got 'ESD351DPYR'
+ERROR: D4 Datasheet: expected '${KIPRJMOD}/../datasheet/pdf/Bourns_CDSOT23-SM712.pdf', got 'https://www.ti.com/lit/ds/symlink/esd351.pdf'
+ERROR: D4 Description: expected 'Two-line asymmetric RS-422 TVS array, -7/+12 V working range; pins 1/2 cable lines, pin 3 GND; prototype IEC immunity requires physical validation', got 'TI unidirectional low-capacitance ESD TVS for RXP; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006'
+ERROR: D4.2 net: expected '/RXN', got 'GND'
+ERROR: D4.3: schematic pin has no matching PCB pad
+ERROR: U3 footprint: expected 'SleepBud:TSOT23-6_MaxLinear', got 'Package_TO_SOT_SMD:SOT-23-5'
+ERROR: U3 value: expected 'XR33194', got 'SN65LVDS1DBVR'
+ERROR: U3 MPN: expected 'XR33194ESBTR', got ''
+ERROR: U3 Datasheet: expected '${KIPRJMOD}/../datasheet/pdf/XR33193_XR33194_XR33195_MaxLinear.pdf', got ''
+ERROR: U3 Description: expected 'RS-422 driver, 2.5 Mbps slew-rate limited, VCC 3.3 V +/-5%; pin 2 VCC and pin 3 DE tied to 3V3; TSOT-23-6', got 'LVDS driver (TTL->LVDS): 1 VCC, 2 GND, 3 Z, 4 Y, 5 D'
+ERROR: U3.1 net: expected '/UART_TX', got '3V3'
+ERROR: U3.2 net: expected '3V3', got 'GND'
+ERROR: U3.3 net: expected '3V3', got '/TXN'
+ERROR: U3.4 net: expected '/TXN_DRV', got '/TXP'
+ERROR: U3.5 net: expected 'GND', got '/UART_TX'
+ERROR: U3.6: schematic pin has no matching PCB pad
+ERROR: U2 Description: expected 'MCU, USART1 (PA9/PA10) <-> RS-422 driver/receiver, I2C1 (PB6/PB7) -> PPG; USART bootloader over the link', got 'MCU, USART1 (PA9/PA10) <-> LVDS driver/receiver, I2C1 (PB6/PB7) -> PPG; USART bootloader over the link'
+ERROR: J5 Description: expected 'cable RS-422 RX+ (controller -> earbud)', got 'cable LVDS RX+ (controller -> earbud)'
+ERROR: J6 Description: expected 'cable RS-422 RX-', got 'cable LVDS RX-'
+Stopped (exit 1); no exports published. Diagnostics: /tmp/ppg-v08.HwasTl

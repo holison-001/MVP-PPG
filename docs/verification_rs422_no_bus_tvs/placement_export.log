@@ -1,0 +1,13 @@
+{
+  "feasible": true,
+  "source_board": {
+    "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+    "sha256": "17bf69cb48d1f19284d32166c5118f5c18d9e9635bd63689b366ecf269ea78ba"
+  },
+  "total_components": 37,
+  "top_refs": [
+    "U1"
+  ],
+  "bottom_count": 36,
+  "minimum_copper_edge_clearance_mm": 0.30533329295455314
+}

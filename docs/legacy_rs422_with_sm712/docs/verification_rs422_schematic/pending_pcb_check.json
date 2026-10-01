@@ -1,0 +1,10 @@
+{
+  "exit": 1,
+  "expected_failure": true,
+  "reason": "RS422 schematic and retained LVDS PCB differ",
+  "outputs_unchanged": {
+    "ppg_pcb_v08_gerber.zip": "ec434287e52468121c60ce390df73bed8e4d1185ce8a3295e8a440f45f4c4c60",
+    "kicad/ppg_pcb_v08.kicad_pcb": "03709b49341c3901012be2a3edece03c8007b1238ee3284406bd707d44844c5a",
+    "docs/ppg_pcb_v08_positions.csv": "a29055dbc8d04c8789830821bd9be85474a4647e73b8a6999ae7c19cb35eba2f"
+  }
+}

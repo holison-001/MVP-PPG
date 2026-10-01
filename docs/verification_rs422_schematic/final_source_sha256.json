@@ -1,0 +1,12 @@
+{
+  "kicad/ppg_pcb_v08.kicad_sch": "8da52f8836ed38a992bb81c3dac533ed13456d98dff2146c7e0e05e2801b83ac",
+  "kicad/design_v08.py": "efcb217dbbe5dfada2540007e173c90ad0ebc1329dde3cd2a61fb4882e87ba75",
+  "kicad/build_sch_v08.py": "0a47b02e09c41eee433d18d24ae85eaa8b6925c7c63355f3348a456c59afe9bf",
+  "kicad/SleepBud.kicad_sym": "442d836e9772364138b9ab5877259fbe735b40d037e8fae97d839fffd30f1df9",
+  "kicad/SleepBud.pretty/TSOT23-6_MaxLinear.kicad_mod": "5c6a0f86a6ac78d203fce612122ebfc465a1ef4d7a1566864ce00853de65b84a",
+  "kicad/bom_v08.py": "dc905be410c7aca13a98cda3c83982312e8bca528118a1b2d90752d82c4a5866",
+  "bom/MVP-PPG_BOM_부품별통합_DNP제외_값표준화_v2.xlsx": "66f0c7e6386fe1fdcb140c8062577e8a0808c48cd85be8734f75c76d2ab731ec",
+  "docs/ppg_pcb_v08_schematic.pdf": "91551889fb675aa5922e6ef1625ad7d655620ed6eaf80a965cbf7a4479308002",
+  "docs/rs422_schematic_preview.png": "44eebd56825e979ca8789d48dfa185921f41e014154ff892706ac9b3bda0d22a",
+  "docs/RS422_update_20261001.md": "3a91b769bedd45d978863ec8ec24c74f3130d309970d4d7f4fd305e345d7792d"
+}

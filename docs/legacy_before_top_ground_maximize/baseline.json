@@ -1,0 +1,134 @@
+{
+  "board_sha256": "17bf69cb48d1f19284d32166c5118f5c18d9e9635bd63689b366ecf269ea78ba",
+  "F_nets": {
+    "/SDA": {
+      "segments": 8,
+      "length_mm": 7.610604609729366,
+      "F_pads": [
+        "U1.1"
+      ]
+    },
+    "/SCL": {
+      "segments": 8,
+      "length_mm": 5.207358859832528,
+      "F_pads": [
+        "U1.2"
+      ]
+    },
+    "3V3": {
+      "segments": 4,
+      "length_mm": 1.0252907270562273,
+      "F_pads": [
+        "U1.3"
+      ]
+    },
+    "/VLDO": {
+      "segments": 3,
+      "length_mm": 3.5193969522011015,
+      "F_pads": [
+        "U1.4"
+      ]
+    },
+    "5V_LED": {
+      "segments": 8,
+      "length_mm": 9.754139530866619,
+      "F_pads": [
+        "U1.5"
+      ]
+    },
+    "GND": {
+      "segments": 4,
+      "length_mm": 2.0107356227525717,
+      "F_pads": [
+        "U1.9",
+        "U1.10",
+        "U1.11"
+      ]
+    },
+    "/VREF": {
+      "segments": 10,
+      "length_mm": 6.7861472679742985,
+      "F_pads": [
+        "U1.12"
+      ]
+    },
+    "/RXN": {
+      "segments": 2,
+      "length_mm": 2.1405806378079473,
+      "F_pads": []
+    },
+    "/TXP_DRV": {
+      "segments": 5,
+      "length_mm": 3.3707700314588,
+      "F_pads": []
+    },
+    "/TXP": {
+      "segments": 2,
+      "length_mm": 2.594503822593717,
+      "F_pads": []
+    },
+    "/UART_TX": {
+      "segments": 9,
+      "length_mm": 8.435030324670816,
+      "F_pads": []
+    },
+    "/TXN_DRV": {
+      "segments": 2,
+      "length_mm": 5.4204764179125355,
+      "F_pads": []
+    },
+    "/RXP_RCV": {
+      "segments": 2,
+      "length_mm": 3.869249318216946,
+      "F_pads": []
+    },
+    "/RXP": {
+      "segments": 2,
+      "length_mm": 5.38628590027727,
+      "F_pads": []
+    },
+    "/UART_RX": {
+      "segments": 6,
+      "length_mm": 5.167660849506067,
+      "F_pads": []
+    },
+    "unconnected-(U1-NC-Pad6)": {
+      "segments": 0,
+      "length_mm": 0.0,
+      "F_pads": [
+        "U1.6"
+      ]
+    },
+    "unconnected-(U1-NC-Pad7)": {
+      "segments": 0,
+      "length_mm": 0.0,
+      "F_pads": [
+        "U1.7"
+      ]
+    },
+    "unconnected-(U1-NC-Pad8)": {
+      "segments": 0,
+      "length_mm": 0.0,
+      "F_pads": [
+        "U1.8"
+      ]
+    },
+    "unconnected-(U1-GPIO-Pad13)": {
+      "segments": 0,
+      "length_mm": 0.0,
+      "F_pads": [
+        "U1.13"
+      ]
+    },
+    "unconnected-(U1-INTB-Pad14)": {
+      "segments": 0,
+      "length_mm": 0.0,
+      "F_pads": [
+        "U1.14"
+      ]
+    }
+  },
+  "F_count": 75,
+  "F_length_mm": 72.2982308728568,
+  "ground_area_mm2": 70.19814934282796
+}

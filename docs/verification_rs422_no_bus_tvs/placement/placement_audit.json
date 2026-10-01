@@ -1,0 +1,241 @@
+{
+  "feasible": true,
+  "status": "Actual PCB placement geometry only; rendered preview omits tracks and vias",
+  "source_board": {
+    "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+    "sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238"
+  },
+  "source_independent_audit": {
+    "path": "/workspace/MVP-PPG/docs/verification_rs422_no_bus_tvs/independent_final_audit.json",
+    "sha256": "04dd2a89143188ec220ce2c9744f79314fee85b686bccb9502e998002aff93b1"
+  },
+  "independent_pcb_audit_passed": true,
+  "candidate_sha256": "91442bc73ea1920f4b2f7c88016a980afaa5ec46335862f72ed447e012cbcd74",
+  "geometry_sha256": "63d03c412879acd666fc74a9c00622660b6d7b8aec6d24d148f3a6ac3bd49c17",
+  "total_components": 37,
+  "total_count": 37,
+  "top_refs": [
+    "U1"
+  ],
+  "bottom_count": 36,
+  "removed_refs": [
+    "D2",
+    "D4"
+  ],
+  "courtyard_overlap_pairs": [],
+  "courtyard_overlaps": [],
+  "body_overlaps": [],
+  "copper_clearance_violations": [],
+  "edge_violations": [],
+  "minimum_copper_edge_clearance_mm": 0.30533329295455314,
+  "minimum_pad_copper_gap_mm": 0.29822200000000004,
+  "minimum_courtyard_gap_mm": 0.0009187312012640977,
+  "maximum_body_radius_mm": 6.609130631179868,
+  "maximum_courtyard_radius_mm": 6.992844832753843,
+  "bottom_courtyard_sum_mm2": 100.01083400631695,
+  "per_ref_radii_mm": {
+    "J2": {
+      "courtyard": 6.503419322048997,
+      "copper": 6.3534245760341355,
+      "body": 0.0
+    },
+    "C14": {
+      "courtyard": 6.427041112355332,
+      "copper": 6.236930837806117,
+      "body": 6.000652597193987
+    },
+    "R1": {
+      "courtyard": 3.217361709537801,
+      "copper": 3.025978084851244,
+      "body": 2.789400181042512
+    },
+    "J6": {
+      "courtyard": 6.553508677251463,
+      "copper": 6.40379878229196,
+      "body": 0.0
+    },
+    "C6": {
+      "courtyard": 6.579377703052317,
+      "copper": 6.361389053333602,
+      "body": 6.256441054240784
+    },
+    "J8": {
+      "courtyard": 3.335360967719176,
+      "copper": 3.185383410368488,
+      "body": 0.0
+    },
+    "R5": {
+      "courtyard": 4.21961725870961,
+      "copper": 4.008673934011097,
+      "body": 3.7809687660704103
+    },
+    "D1": {
+      "courtyard": 6.6478276338966555,
+      "copper": 6.426795819068784,
+      "body": 6.40946434969413
+    },
+    "J1": {
+      "courtyard": 6.59366423695581,
+      "copper": 6.443664959256107,
+      "body": 0.0
+    },
+    "C4": {
+      "courtyard": 5.0636303687932,
+      "copper": 4.847949230227895,
+      "body": 4.747025685935701
+    },
+    "C13": {
+      "courtyard": 6.644906720188027,
+      "copper": 6.3827744580276375,
+      "body": 6.204345035537595
+    },
+    "J7": {
+      "courtyard": 4.689071447983329,
+      "copper": 4.5392182793993285,
+      "body": 0.0
+    },
+    "R4": {
+      "courtyard": 6.679167728682419,
+      "copper": 6.437221614164303,
+      "body": 6.243224386582561
+    },
+    "U3": {
+      "courtyard": 6.706906201852624,
+      "copper": 6.310222437919536,
+      "body": 5.628580636163906
+    },
+    "D8": {
+      "courtyard": 4.2340517923143075,
+      "copper": 4.055980101036,
+      "body": 4.064387356047649
+    },
+    "R8": {
+      "courtyard": 5.95209474386959,
+      "copper": 5.754823093718867,
+      "body": 5.520259490277608
+    },
+    "J4": {
+      "courtyard": 6.120979477292214,
+      "copper": 5.971277747960147,
+      "body": 0.0
+    },
+    "J9": {
+      "courtyard": 4.1329494143630265,
+      "copper": 3.9829560020826675,
+      "body": 0.0
+    },
+    "D6": {
+      "courtyard": 3.285717153073283,
+      "copper": 3.046297459211756,
+      "body": 3.091162921943779
+    },
+    "R7": {
+      "courtyard": 5.419403643391032,
+      "copper": 5.207265473971919,
+      "body": 5.126777530769205
+    },
+    "R3": {
+      "courtyard": 6.609820812245972,
+      "copper": 6.400904605727225,
+      "body": 6.322377493475061
+    },
+    "J5": {
+      "courtyard": 6.548297152288559,
+      "copper": 6.398411499926603,
+      "body": 0.0
+    },
+    "C7": {
+      "courtyard": 5.458042050123931,
+      "copper": 5.214049728266543,
+      "body": 5.025950658373734
+    },
+    "C1": {
+      "courtyard": 3.3064738014991137,
+      "copper": 3.045833737098924,
+      "body": 2.903744651308031
+    },
+    "R2": {
+      "courtyard": 4.11050019462352,
+      "copper": 3.896804263337844,
+      "body": 3.6722065369475065
+    },
+    "C12": {
+      "courtyard": 5.893360559986128,
+      "copper": 5.674211343928599,
+      "body": 5.453751524409597
+    },
+    "C5": {
+      "courtyard": 3.1848351181811596,
+      "copper": 2.9519868045043833,
+      "body": 2.8312675129701184
+    },
+    "D7": {
+      "courtyard": 4.413187890873395,
+      "copper": 4.17104599362494,
+      "body": 4.213680473344315
+    },
+    "U2": {
+      "courtyard": 2.7641251093248296,
+      "copper": 2.3182419243901182,
+      "body": 2.2348838045858224
+    },
+    "U4": {
+      "courtyard": 6.933438951919891,
+      "copper": 6.194946042677692,
+      "body": 6.609130631179868
+    },
+    "U6": {
+      "courtyard": 6.408484898164308,
+      "copper": 5.882380614173142,
+      "body": 5.556720767683041
+    },
+    "C11": {
+      "courtyard": 4.370314361690701,
+      "copper": 4.1956639069401165,
+      "body": 3.9525732909080884
+    },
+    "FB1": {
+      "courtyard": 6.657570705595247,
+      "copper": 6.444666707045447,
+      "body": 6.3428255296831235
+    },
+    "U5": {
+      "courtyard": 6.992844832753843,
+      "copper": 6.201814029571739,
+      "body": 6.556291976711924
+    },
+    "R6": {
+      "courtyard": 5.727777948717184,
+      "copper": 5.466993268024489,
+      "body": 5.303434754075269
+    },
+    "J3": {
+      "courtyard": 5.661199017021525,
+      "copper": 5.511247611792089,
+      "body": 0.0
+    }
+  },
+  "constraints": {
+    "body_radius_mm": 6.75,
+    "copper_radius_mm": 6.45,
+    "courtyard_radius_mm": 7.0,
+    "pad_to_pad_clearance_mm": 0.15,
+    "courtyard_overlap_mm2": 0
+  },
+  "coordinates": {
+    "origin": "PCB center",
+    "board_center_on_sheet_mm": [
+      20.0,
+      17.0
+    ],
+    "units": "mm",
+    "y_positive": "down",
+    "rotation": "Actual KiCad orientation; board-side flip already represented in geometry"
+  },
+  "notes": [
+    "The original PCB is not modified.",
+    "Placement uses saved PCB coordinates relative to its center on the drawing sheet.",
+    "The PCB hash and independent audit hash bind this placement to a fixed verified source.",
+    "These placement-only metrics omit copper tracks, vias and zones; see the complete PCB audit."
+  ]
+}

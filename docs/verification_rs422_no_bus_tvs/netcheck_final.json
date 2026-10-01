@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "footprints": 37,
+  "schematic_components": 37,
+  "numbered_pads": 117,
+  "schematic_nets": 48,
+  "top_references": [
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 4,
+  "outline_radius_mm": 6.75,
+  "board_center_on_sheet_mm": [
+    20.0,
+    17.0
+  ],
+  "sheet_size_mm": [
+    40.0,
+    40.0
+  ],
+  "routing": {
+    "F.Cu": 28,
+    "via": 59,
+    "B.Cu": 202,
+    "In1.Cu": 42,
+    "In2.Cu": 39
+  },
+  "inner_layer_track_count": 81,
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 81,
+    "in1_track_count": 42,
+    "in1_routed_nets": [
+      "/SCL",
+      "/SDA",
+      "/TXN_DRV",
+      "/TXP",
+      "/TXP_DRV",
+      "/UART_RX",
+      "/UART_TX",
+      "5V_LED"
+    ],
+    "in2_3V3_track_count": 21,
+    "in2_3V3_widths_mm": [
+      0.4
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "schematic": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_sch"
+}

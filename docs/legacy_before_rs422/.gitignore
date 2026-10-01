@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*-backups/
+*.kicad_prl
+*.lck
+~*.lck
+_autosave-*
+.DS_Store
+Thumbs.db
+kicad/esd_1005_work/

@@ -1,0 +1,79 @@
+{
+  "board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238",
+  "baseline": {
+    "path": "/workspace/MVP-PPG/docs/legacy_before_compact_sheet/kicad/ppg_pcb_v08.kicad_pcb",
+    "sha256": "c97e93d95bb8b2447578e796edd8947faa053d12bd98192f97d93aa5d910f429",
+    "center_mm": [
+      150.0,
+      100.0
+    ],
+    "paper": "(paper \"A4\")"
+  },
+  "current": {
+    "center_mm": [
+      20.0,
+      17.0
+    ],
+    "paper": "(paper \"User\" 40 40)",
+    "outline_radius_mm": 6.75,
+    "thickness_mm": 0.8
+  },
+  "translation_mm": [
+    -130.0,
+    -83.0
+  ],
+  "counts": {
+    "tracks": 311,
+    "vias": 59,
+    "footprints": 37,
+    "pads": 141,
+    "footprint_graphics": 396
+  },
+  "checks": {
+    "all_tracks_relative_geometry_net_layer_width_UUID_identical": true,
+    "all_vias_relative_geometry_drill_tenting_UUID_identical": true,
+    "all_footprint_relative_placement_values_fields_pad_nets_identical": true,
+    "all_pads_relative_geometry_shapes_dimensions_identical": true,
+    "all_footprint_graphics_relative_geometry_identical": true,
+    "board_outline_radius_identical": true,
+    "board_thickness_identical": true,
+    "project_settings_identical_except_pcbnew_page_layout_descr_file": true,
+    "GND_connectivity_identical": true
+  },
+  "differences": {
+    "tracks": {
+      "removed": [],
+      "added": [],
+      "changed": []
+    },
+    "vias": {
+      "removed": [],
+      "added": [],
+      "changed": []
+    },
+    "footprints": {
+      "removed": [],
+      "added": [],
+      "changed": []
+    },
+    "pads": {
+      "removed": [],
+      "added": [],
+      "changed": []
+    },
+    "footprint_graphics": {
+      "removed": [],
+      "added": [],
+      "changed": []
+    }
+  },
+  "project": {
+    "baseline_sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "current_sha256": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "page_layout_descr_file_before": "",
+    "page_layout_descr_file_after": "${KIPRJMOD}/ppg_compact.kicad_wks"
+  },
+  "method": "Read-only KiCad PCB loads. Track/via/footprint positions normalized in memory by subtracting circular Edge.Cuts centers; pad and footprint graphic positions compared as integer nanometer offsets. No board save or refill. Polygon footprint graphics compare actual polygon vertices; unused zero start/end fields on polygons are excluded.",
+  "ok": true
+}

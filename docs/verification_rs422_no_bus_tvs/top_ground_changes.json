@@ -1,0 +1,1842 @@
+{
+  "baseline": {
+    "path": "/workspace/MVP-PPG/docs/legacy_before_top_ground_maximize/kicad/ppg_pcb_v08.kicad_pcb",
+    "archive_manifest_hash_verified": true,
+    "board_sha256": "17bf69cb48d1f19284d32166c5118f5c18d9e9635bd63689b366ecf269ea78ba",
+    "project_sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "track_count": 307,
+    "via_count": 59,
+    "layers": {
+      "F.Cu": {
+        "segments": 75,
+        "length_mm": 72.29823087285682,
+        "nets": {
+          "/SDA": {
+            "segments": 8,
+            "length_mm": 7.610604609729366,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/SCL": {
+            "segments": 8,
+            "length_mm": 5.207358859832528,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 9.754139530866619,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/VREF": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN": {
+            "segments": 2,
+            "length_mm": 2.1405806378079473,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 2,
+            "length_mm": 3.869249318216946,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 2,
+            "length_mm": 5.38628590027727,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "In2.Cu": {
+        "segments": 32,
+        "length_mm": 43.505594626678175,
+        "nets": {
+          "3V3": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "/SWDIO": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "B.Cu": {
+        "segments": 200,
+        "length_mm": 71.46174581108484,
+        "nets": {
+          "/SDA": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SCL": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VREF": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWCLK": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/TXP": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/12V_IN": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWDIO": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN_RCV": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 2,
+            "length_mm": 0.7602349955359814,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      }
+    },
+    "F_GND": {
+      "filled_union_area_mm2": 70.19814934282796,
+      "zones": [
+        {
+          "uuid": "89aa10b4-7480-4572-b9bf-46df0ad22bdc",
+          "layer": "F.Cu",
+          "net": "GND",
+          "filled": true,
+          "filled_area_mm2": 70.19814934282796,
+          "local_clearance_mm": 0.2,
+          "minimum_thickness_mm": 0.15,
+          "pad_connection": 2,
+          "island_removal": 0
+        }
+      ]
+    },
+    "GND_zones": [
+      {
+        "uuid": "89aa10b4-7480-4572-b9bf-46df0ad22bdc",
+        "layer": "F.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 70.19814934282796,
+        "local_clearance_mm": 0.2,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 2,
+        "island_removal": 0
+      },
+      {
+        "uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+        "layer": "In1.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 104.84545910603026,
+        "local_clearance_mm": 0.2,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 1,
+        "island_removal": 0
+      }
+    ]
+  },
+  "candidate": {
+    "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+    "board_sha256": "9f7c6bddc2acd093bdf96e702ea95a1da7c04eb3a37ad897c7c2432dd62eafd8",
+    "project_sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "track_count": 310,
+    "via_count": 59,
+    "layers": {
+      "F.Cu": {
+        "segments": 69,
+        "length_mm": 60.90211501655465,
+        "nets": {
+          "/SDA": {
+            "segments": 8,
+            "length_mm": 7.610604609729366,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/SCL": {
+            "segments": 8,
+            "length_mm": 5.207358859832528,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 9.754139530866619,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/VREF": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "In2.Cu": {
+        "segments": 39,
+        "length_mm": 53.141927097763926,
+        "nets": {
+          "3V3": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "/RXN": {
+            "segments": 1,
+            "length_mm": 1.675,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "/SWDIO": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 5,
+            "length_mm": 3.3330903641946312,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 1,
+            "length_mm": 4.628242106891125,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      },
+      "B.Cu": {
+        "segments": 202,
+        "length_mm": 72.74874962834788,
+        "nets": {
+          "/SDA": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SCL": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "3V3": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VLDO": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "5V_LED": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "GND": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "/VREF": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWCLK": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXP_DRV": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/TXP": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/12V_IN": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "12V": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "/SWDIO": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_TX": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN_DRV": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/NRST": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXN_RCV": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/TXN": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP_RCV": {
+            "segments": 4,
+            "length_mm": 2.0472388127990166,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/RXP": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "/UART_RX": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          }
+        }
+      }
+    },
+    "F_GND": {
+      "filled_union_area_mm2": 82.30877327139497,
+      "zones": [
+        {
+          "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+          "layer": "F.Cu",
+          "net": "GND",
+          "filled": true,
+          "filled_area_mm2": 82.30877327139497,
+          "local_clearance_mm": 0.15,
+          "minimum_thickness_mm": 0.15,
+          "pad_connection": 2,
+          "island_removal": 0
+        }
+      ]
+    },
+    "GND_zones": [
+      {
+        "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+        "layer": "F.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 82.30877327139497,
+        "local_clearance_mm": 0.15,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 2,
+        "island_removal": 0
+      },
+      {
+        "uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+        "layer": "In1.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 104.80224132484977,
+        "local_clearance_mm": 0.2,
+        "minimum_thickness_mm": 0.15,
+        "pad_connection": 1,
+        "island_removal": 0
+      }
+    ]
+  },
+  "preservation": {
+    "footprint_count_before": 37,
+    "footprint_count_after": 37,
+    "all_component_placement_fields_values_and_pad_nets_identical": true,
+    "footprint_differences": {},
+    "top_component_references_before": [
+      "U1"
+    ],
+    "top_component_references_after": [
+      "U1"
+    ],
+    "In2_3V3_tracks_identical_including_UUIDs": true,
+    "In2_3V3_track_count": 21,
+    "In2_3V3_widths_mm": [
+      0.4
+    ],
+    "matching_project_bytes_identical": true
+  },
+  "layer_and_net_deltas": {
+    "B.Cu": {
+      "segments_delta": 2,
+      "length_delta_mm": 1.2870038172630416,
+      "nets": {
+        "/12V_IN": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.51925447250755,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/NRST": {
+          "before": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 2.5658153821318272,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXN": {
+          "before": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 3,
+            "length_mm": 1.5534547356033528,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXN_RCV": {
+          "before": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 0.9394147114027969,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXP": {
+          "before": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 2.0699673652161854,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXP_RCV": {
+          "before": {
+            "segments": 2,
+            "length_mm": 0.7602349955359814,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.0472388127990166,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 2,
+          "length_delta_mm": 1.2870038172630354
+        },
+        "/SCL": {
+          "before": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 3.471211825992709,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SDA": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.3117432764336974,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SWCLK": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.5769550852521883,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SWDIO": {
+          "before": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 3.258006389962803,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXN": {
+          "before": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 1.4295041630560346,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXN_DRV": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.1948510744804377,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXP": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.4403269180929756,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXP_DRV": {
+          "before": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 11,
+            "length_mm": 5.347754923105641,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/UART_RX": {
+          "before": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 3.9062912994109187,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/UART_TX": {
+          "before": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 3.8605923305470253,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VLDO": {
+          "before": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 0.9221046173579948,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VREF": {
+          "before": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 0.5525396462005387,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "12V": {
+          "before": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 7,
+            "length_mm": 4.622332211273823,
+            "widths_mm": [
+              0.1,
+              0.15
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "3V3": {
+          "before": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "after": {
+            "segments": 28,
+            "length_mm": 6.951083987406416,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "5V_LED": {
+          "before": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 8,
+            "length_mm": 4.737687917979933,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "GND": {
+          "before": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "after": {
+            "segments": 81,
+            "length_mm": 15.470618482134002,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        }
+      }
+    },
+    "F.Cu": {
+      "segments_delta": -6,
+      "length_delta_mm": -11.396115856302167,
+      "nets": {
+        "/RXN": {
+          "before": {
+            "segments": 2,
+            "length_mm": 2.1405806378079473,
+            "widths_mm": [
+              0.15
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -2,
+          "length_delta_mm": -2.1405806378079473
+        },
+        "/RXP": {
+          "before": {
+            "segments": 2,
+            "length_mm": 5.38628590027727,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -2,
+          "length_delta_mm": -5.38628590027727
+        },
+        "/RXP_RCV": {
+          "before": {
+            "segments": 2,
+            "length_mm": 3.869249318216946,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "segments_delta": -2,
+          "length_delta_mm": -3.869249318216946
+        },
+        "/SCL": {
+          "before": {
+            "segments": 8,
+            "length_mm": 5.207358859832528,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 8,
+            "length_mm": 5.207358859832528,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/SDA": {
+          "before": {
+            "segments": 8,
+            "length_mm": 7.610604609729366,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 8,
+            "length_mm": 7.610604609729366,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXN_DRV": {
+          "before": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 5.4204764179125355,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXP": {
+          "before": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 2,
+            "length_mm": 2.594503822593717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/TXP_DRV": {
+          "before": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 3.3707700314588,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/UART_RX": {
+          "before": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 6,
+            "length_mm": 5.167660849506067,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/UART_TX": {
+          "before": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 9,
+            "length_mm": 8.435030324670816,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VLDO": {
+          "before": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 3,
+            "length_mm": 3.5193969522011015,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/VREF": {
+          "before": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 10,
+            "length_mm": 6.7861472679742985,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "3V3": {
+          "before": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 1.0252907270562273,
+            "widths_mm": [
+              0.1,
+              0.2
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "5V_LED": {
+          "before": {
+            "segments": 8,
+            "length_mm": 9.754139530866619,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 8,
+            "length_mm": 9.754139530866619,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "GND": {
+          "before": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 4,
+            "length_mm": 2.0107356227525717,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        }
+      }
+    },
+    "In2.Cu": {
+      "segments_delta": 7,
+      "length_delta_mm": 9.636332471085751,
+      "nets": {
+        "/NRST": {
+          "before": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 2.4250000000000003,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "/RXN": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 1.675,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 1,
+          "length_delta_mm": 1.675
+        },
+        "/RXP": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 1,
+            "length_mm": 4.628242106891125,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 1,
+          "length_delta_mm": 4.628242106891125
+        },
+        "/RXP_RCV": {
+          "before": {
+            "segments": 0,
+            "length_mm": 0.0,
+            "widths_mm": []
+          },
+          "after": {
+            "segments": 5,
+            "length_mm": 3.3330903641946312,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 5,
+          "length_delta_mm": 3.3330903641946312
+        },
+        "/SWDIO": {
+          "before": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "after": {
+            "segments": 3,
+            "length_mm": 4.461730898744991,
+            "widths_mm": [
+              0.1
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "12V": {
+          "before": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "after": {
+            "segments": 7,
+            "length_mm": 9.540333722878083,
+            "widths_mm": [
+              0.3
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        },
+        "3V3": {
+          "before": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "after": {
+            "segments": 21,
+            "length_mm": 27.0785300050551,
+            "widths_mm": [
+              0.4
+            ]
+          },
+          "segments_delta": 0,
+          "length_delta_mm": 0.0
+        }
+      }
+    }
+  },
+  "tracks": {
+    "removed": {
+      "a606636b-91bb-49e4-9438-2082b9f82e7c": {
+        "net": "/RXN",
+        "layer": "F.Cu",
+        "start_mm": [
+          -5.675,
+          2.05
+        ],
+        "end_mm": [
+          -5.85,
+          1.075
+        ],
+        "width_mm": 0.15,
+        "length_mm": 0.9905806378079473
+      },
+      "fb85a496-fd3f-4cd6-80ce-b54d01d2feb5": {
+        "net": "/RXN",
+        "layer": "F.Cu",
+        "start_mm": [
+          -5.85,
+          1.075
+        ],
+        "end_mm": [
+          -5.85,
+          -0.075
+        ],
+        "width_mm": 0.15,
+        "length_mm": 1.15
+      },
+      "bfd18104-e414-4651-9c74-7d7b4242fd35": {
+        "net": "/RXP_RCV",
+        "layer": "F.Cu",
+        "start_mm": [
+          -3.725,
+          -2.25
+        ],
+        "end_mm": [
+          -3.95,
+          -4.1
+        ],
+        "width_mm": 0.1,
+        "length_mm": 1.8636322062037882
+      },
+      "f60be85b-a79a-4759-985f-b330e5b61da8": {
+        "net": "/RXP_RCV",
+        "layer": "F.Cu",
+        "start_mm": [
+          -3.875,
+          -0.25
+        ],
+        "end_mm": [
+          -3.725,
+          -2.25
+        ],
+        "width_mm": 0.1,
+        "length_mm": 2.005617112013158
+      },
+      "c5c308db-6687-4c19-afb5-2c5fa19cae89": {
+        "net": "/RXP_RCV",
+        "layer": "B.Cu",
+        "start_mm": [
+          -4.425,
+          -0.05
+        ],
+        "end_mm": [
+          -3.875,
+          -0.25
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.5852349955359811
+      },
+      "868f8426-61d0-4f28-9cf2-e2b078d0323c": {
+        "net": "/RXP",
+        "layer": "F.Cu",
+        "start_mm": [
+          -5.3084,
+          -2.7803
+        ],
+        "end_mm": [
+          -5.3084,
+          1.3776
+        ],
+        "width_mm": 0.1,
+        "length_mm": 4.1579
+      },
+      "986e045d-2a16-4c20-a473-818c674b64c3": {
+        "net": "/RXP",
+        "layer": "F.Cu",
+        "start_mm": [
+          -4.4398,
+          -3.6489
+        ],
+        "end_mm": [
+          -5.3084,
+          -2.7803
+        ],
+        "width_mm": 0.1,
+        "length_mm": 1.2283859002772701
+      }
+    },
+    "added": {
+      "136f199c-5ea8-4241-9a7a-85135614ced2": {
+        "net": "/RXN",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -5.775,
+          1.825
+        ],
+        "end_mm": [
+          -5.775,
+          0.15
+        ],
+        "width_mm": 0.1,
+        "length_mm": 1.675
+      },
+      "182f7094-6118-4cb2-9fff-fec0cf475572": {
+        "net": "/RXP_RCV",
+        "layer": "B.Cu",
+        "start_mm": [
+          -4.9,
+          -1.15
+        ],
+        "end_mm": [
+          -5.1,
+          -1.325
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.2657536453183657
+      },
+      "4f6f7e03-5ae5-4990-afa5-711f9f0c3cd1": {
+        "net": "/RXP_RCV",
+        "layer": "B.Cu",
+        "start_mm": [
+          -4.9,
+          -0.125
+        ],
+        "end_mm": [
+          -4.9,
+          -1.15
+        ],
+        "width_mm": 0.1,
+        "length_mm": 1.025
+      },
+      "565b9273-5017-4764-a806-659e511f483a": {
+        "net": "/RXP_RCV",
+        "layer": "B.Cu",
+        "start_mm": [
+          -5.1,
+          -1.325
+        ],
+        "end_mm": [
+          -5.625,
+          -1.575
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.5814851674806507
+      },
+      "53d8b510-7575-49a0-bdc9-26483faf3193": {
+        "net": "/RXP_RCV",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -5.3,
+          -3.45
+        ],
+        "end_mm": [
+          -4.675,
+          -4.05
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.8663861725581725
+      },
+      "7c297369-5c69-4270-8740-7e956ef467c1": {
+        "net": "/RXP_RCV",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -5.325,
+          -2.1
+        ],
+        "end_mm": [
+          -5.3,
+          -3.45
+        ],
+        "width_mm": 0.1,
+        "length_mm": 1.3502314616390778
+      },
+      "9ce4aeef-d204-4732-81d2-26cea316d785": {
+        "net": "/RXP_RCV",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -4.575,
+          -4.1
+        ],
+        "end_mm": [
+          -4.175,
+          -4.1
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.40000000000000036
+      },
+      "cc456daf-929f-4bee-875c-85a8839a7302": {
+        "net": "/RXP_RCV",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -5.625,
+          -1.575
+        ],
+        "end_mm": [
+          -5.325,
+          -2.1
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.6046693311223913
+      },
+      "d2788d1e-7df8-4fc9-be33-17192de00fde": {
+        "net": "/RXP_RCV",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -4.675,
+          -4.05
+        ],
+        "end_mm": [
+          -4.575,
+          -4.1
+        ],
+        "width_mm": 0.1,
+        "length_mm": 0.1118033988749891
+      },
+      "1da6d8f8-20c4-45f6-b845-4207f65f06d1": {
+        "net": "/RXP",
+        "layer": "In2.Cu",
+        "start_mm": [
+          -4.525,
+          -3.425
+        ],
+        "end_mm": [
+          -5.225,
+          1.15
+        ],
+        "width_mm": 0.1,
+        "length_mm": 4.628242106891125
+      }
+    },
+    "changed": {}
+  },
+  "vias": {
+    "removed": {
+      "0b91f08a-1e0f-42a8-b69b-3a5c1d3d9b15": {
+        "net": "/RXP_RCV",
+        "position_mm": [
+          -3.875,
+          -0.25
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "via_type": 4,
+        "front_tenting_mode": 1,
+        "back_tenting_mode": 1
+      }
+    },
+    "added": {
+      "0a586513-a19a-41a3-9fb4-a63efdb30cf0": {
+        "net": "/RXP_RCV",
+        "position_mm": [
+          -5.625,
+          -1.575
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "via_type": 4,
+        "front_tenting_mode": 1,
+        "back_tenting_mode": 1
+      }
+    },
+    "changed": {}
+  },
+  "F_GND_area_delta_mm2": 12.110623928567009,
+  "F_GND_area_increase_percent": 17.252055847543982,
+  "method": "Read-only KiCad saved geometry. Track lengths are centerline lengths; vias excluded from track length. Filled GND polygon union subtracts polygon holes. No refill/save was performed. F ground-area gain includes both route movement and clearance change from 0.20 to 0.15 mm.",
+  "limits": [
+    "Candidate 2 preserves placement, through-via constraints and all existing 0.40 mm In2 3V3 tracks.",
+    "The finite In2-only and B/In2 routing attempts could not relocate the remaining tested nets or split the PPG fanout branches while preserving those constraints. This is a bounded-search outcome, not a proof of global optimum.",
+    "Candidate 1 removed more front copper but broad In2 3V3 reconnection failed; it was not adopted."
+  ],
+  "status": "Applied to the main PCB; CAD checks passed; Gerber and BOM held for approval"
+}

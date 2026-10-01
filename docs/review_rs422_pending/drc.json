@@ -1,0 +1,199 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T11:25:15",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ppg_rs422_review.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/NRST] on B.Cu, length 0.2025 mm",
+                    "pos": {
+                        "x": -3.2955,
+                        "y": 1.4062
+                    },
+                    "uuid": "5a536b62-4ea8-414c-a1b3-e0496533c6a6"
+                },
+                {
+                    "description": "Pad 4 [/NRST] of U2 on B.Cu",
+                    "pos": {
+                        "x": -0.3581,
+                        "y": 1.5749
+                    },
+                    "uuid": "0b0a7f87-bc9b-4bb6-84cd-468a024e3739"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/TXP_DRV] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 3.55,
+                        "y": -2.875
+                    },
+                    "uuid": "934af374-9448-495f-925c-c5f338b8706a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 2.35,
+                        "y": -3.9
+                    },
+                    "uuid": "555ebfe9-7f5a-4032-9b36-a2c88a7c2e0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Circle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "Segment of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": -2.7843,
+                        "y": 5.6789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Circle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "Segment of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": -2.7843,
+                        "y": 6.1539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Circle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "Segment of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 3.110069,
+                        "y": 6.029846
+                    },
+                    "uuid": "46fadab4-36cc-44d3-ba2b-58c960c0500b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Circle on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "Segment of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 3.138353,
+                        "y": 6.05813
+                    },
+                    "uuid": "0f7234a8-e9b0-409a-adea-446db553fc04"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'ST_UFQFPN-20_3x3mm_P0.5mm' does not match copy in library 'Package_DFN_QFN'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 0.1419,
+                        "y": 0.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

@@ -3,33 +3,53 @@
   "...\\KiCad\\10.0\\bin\\python.exe" build_pcb_v08.py <out.kicad_pcb>            -> placement, planes, DSN
   "...\\KiCad\\10.0\\bin\\python.exe" build_pcb_v08.py <out.kicad_pcb> --ses x.ses -> import routed SES, fill, save
 """
-import os, sys, math
+import os, sys, math, gc, shutil
 from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pcbnew
+# Retain SWIG wrappers through save/export: KiCad 10 may invalidate detached
+# graphics during cyclic collection while a board operation still uses them.
+gc.disable()
+_removed_graphics = []
 from pcbnew import VECTOR2I_MM as MM, FromMM
 import design_v08 as D
+from schematic_metadata import sync_schematic_metadata, validate_placement
+from board_coordinates_v08 import place_in_sheet, set_saved_sheet_size
 
 _fp_candidates = [os.environ.get("KICAD10_FOOTPRINT_DIR", ""),
                   r"C:\Program Files\KiCad\10.0\share\kicad\footprints",
                   r"C:\Users\LAPTOP\AppData\Local\Programs\KiCad\10.0\share\kicad\footprints"]
 KICAD_FP = next(p for p in _fp_candidates if p and Path(p).is_dir())
 out_path = sys.argv[1]
+rules_source = Path(__file__).with_name('ppg_pcb_v08.kicad_dru')
+rules_target = Path(out_path).with_suffix('.kicad_dru')
+if rules_source.resolve() != rules_target.resolve():
+    shutil.copy2(rules_source, rules_target)
+sheet_source = Path(__file__).with_name('ppg_compact.kicad_wks')
+sheet_target = Path(out_path).parent / sheet_source.name
+if sheet_source.resolve() != sheet_target.resolve():
+    shutil.copy2(sheet_source, sheet_target)
 ses_path = sys.argv[sys.argv.index("--ses") + 1] if "--ses" in sys.argv else None
 
 # ------------------------------------------------------------------ SES import mode
 if ses_path:
     board = pcbnew.LoadBoard(out_path)
+    validate_placement(board, D.COMPONENTS)
     ok = pcbnew.ImportSpecctraSES(board, ses_path)
     print("SES import:", ok)
+    if not ok:
+        raise RuntimeError("Specctra SES import failed; PCB was not saved")
+    print("schematic metadata:", sync_schematic_metadata(board, expected_refs=D.COMPONENTS))
     pcbnew.ZONE_FILLER(board).Fill(board.Zones())
     pcbnew.SaveBoard(out_path, board)
+    set_saved_sheet_size(out_path)
     print("routed board saved; tracks:", len(board.GetTracks()))
     sys.exit(0)
 
 board = pcbnew.BOARD()
 ds = board.GetDesignSettings()
 ds.SetCopperLayerCount(D.LAYERS)
+ds.SetBoardThickness(FromMM(D.THICKNESS))
 ds.m_MinClearance = FromMM(D.RULES["clearance"]); ds.m_TrackMinWidth = FromMM(0.1)
 ds.m_ViasMinSize = FromMM(D.RULES["via_dia"]); ds.m_MinThroughDrill = FromMM(D.RULES["via_drill"])
 ds.m_CopperEdgeClearance = FromMM(D.RULES["edge_clearance"]); ds.m_HoleClearance = FromMM(0.2)
@@ -107,10 +127,11 @@ for ref, c in D.COMPONENTS.items():
             assert fp is not None, (ref, c["fp"])
     else:
         fp = pcbnew.FootprintLoad(os.path.join(KICAD_FP, c["lib"] + ".pretty"), c["fp"]); assert fp is not None, (ref, c["fp"])
+    fp.SetFPID(pcbnew.LIB_ID("SleepBud" if c["lib"] == "custom" else c["lib"], c["fp"]))
     fp.SetReference(ref); fp.SetValue(c["value"]); board.Add(fp); fp.SetPosition(MM(*c["pos"]))
     if c["side"] == "B":
         fp.SetLayerAndFlip(pcbnew.B_Cu)
-    if c.get("rot"):
+    if c.get("rot") is not None:
         fp.SetOrientationDegrees(c["rot"])
     fps[ref] = fp
     for num, net in c["pins"].items():
@@ -122,6 +143,8 @@ def pp(ref, num):
 
 def orient(ref, rule):
     fp = fps[ref]
+    if D.COMPONENTS[ref].get("rot") is not None:
+        return fp.GetOrientationDegrees()
     for rot in (0, 90, 180, 270):
         fp.SetOrientationDegrees(rot)
         if rule(): return rot
@@ -132,11 +155,12 @@ r = orient("U2", lambda: pp("U2", "18")[1] > my + 1 and pp("U2", "19")[1] > my +
 print("U2 rot", r, "SCL", pp("U2", "18"), "SDA", pp("U2", "19"), "TX", pp("U2", "14"), "RX", pp("U2", "15"), "VDD", pp("U2", "2"))
 for ref in ("U4", "U5"):
     print(ref, "VOUT", pp(ref, "1"), "GND", pp(ref, "4"), "VIN", pp(ref, "8"))
-# LVDS chips: differential pins 3/4 face the rim (outward), pins 1/5 face the centre
+# RS-422 bus pins 6 (+) and 4 (-) share the outward package edge.
+# Explicit reviewed rotations take priority over this fallback.
 for ref, sgn in (("U3", 1), ("U6", -1)):
     cx, cy = D.COMPONENTS[ref]["pos"]
-    r = orient(ref, lambda: sgn * (pp(ref, "3")[0] - cx) > 0.5 and sgn * (pp(ref, "4")[0] - cx) > 0.5 and sgn * (pp(ref, "1")[0] - cx) < -0.5 and (ref == "U3" or pp(ref, "5")[1] < cy))  # U6: R pin at the top end (towards the MCU); U3 is the mirror case (D at the bottom, VCC top)
-    print(ref, "rot", r, "p1", pp(ref, "1"), "p2", pp(ref, "2"), "p3", pp(ref, "3"), "p4", pp(ref, "4"), "p5", pp(ref, "5"))
+    r = orient(ref, lambda: all(sgn * (pp(ref, pin)[0] - cx) > 0.5 for pin in ("6", "4")))
+    print(ref, "rot", r, "bus+", pp(ref, "6"), "bus-", pp(ref, "4"))
 
 for ref, fp in fps.items():
     bb = fp.GetCourtyard(pcbnew.B_CrtYd if D.COMPONENTS[ref]["side"] == "B" else pcbnew.F_CrtYd).BBox()
@@ -151,6 +175,7 @@ for ref, fp in fps.items():
         lt.SetTextSize(MM(0.5, 0.5)); lt.SetTextThickness(FromMM(0.08)); lt.SetPosition(pcbnew.VECTOR2I(pos.x, pos.y - FromMM(1.0))); board.Add(lt)
 for it in list(fps["U2"].GraphicalItems()):
     if it.GetLayer() in (pcbnew.B_SilkS, pcbnew.F_SilkS):
+        _removed_graphics.append(it)
         it.GetParent().Remove(it)
 
 # ------------------------------------------------------------------ outline + planes
@@ -161,22 +186,27 @@ def zone(layer, net, prio, clearance=0.2):
     z = pcbnew.ZONE(board); z.SetLayer(layer); z.SetNet(nets[net]); z.SetAssignedPriority(prio)
     z.SetLocalClearance(FromMM(clearance)); z.SetMinThickness(FromMM(0.15))
     z.SetPadConnection(pcbnew.ZONE_CONNECTION_THERMAL); z.SetThermalReliefGap(FromMM(0.2)); z.SetThermalReliefSpokeWidth(FromMM(0.25))
+    z.SetIslandRemovalMode(pcbnew.ISLAND_REMOVAL_MODE_ALWAYS)
+    if layer == pcbnew.F_Cu:
+        z.SetPadConnection(pcbnew.ZONE_CONNECTION_FULL)
     for i in range(64):
         a = 2 * math.pi * i / 64; z.AppendCorner(MM(D.BOARD_R * math.cos(a), D.BOARD_R * math.sin(a)), -1)
     board.Add(z); return z
 
+zone(pcbnew.F_Cu, "GND", 0, clearance=0.15)
 zone(pcbnew.In1_Cu, "GND", 0)
-zone(pcbnew.In2_Cu, "3V3", 0)
+# In2.Cu carries broad 3V3 traces and signal routing, not a power pour.
 
 t = pcbnew.PCB_TEXT(board); t.SetText("SleepBud PPG v0.8"); t.SetPosition(MM(0, 6.6)); t.SetLayer(pcbnew.B_Fab); t.SetMirrored(True)
 t.SetTextSize(MM(0.5, 0.5)); t.SetTextThickness(FromMM(0.08)); board.Add(t)
 
+print("schematic metadata:", sync_schematic_metadata(board, expected_refs=D.COMPONENTS))
+place_in_sheet(board)
 pcbnew.ZONE_FILLER(board).Fill(board.Zones())
 pcbnew.SaveBoard(out_path, board)
-libdir = os.path.join(os.path.dirname(out_path), "SleepBud.pretty"); os.makedirs(libdir, exist_ok=True)
-io = pcbnew.PCB_IO_KICAD_SEXPR()
-for ref in ("U1", "J1", "J7"):
-    io.FootprintSave(libdir, fps[ref])
+set_saved_sheet_size(out_path)
+# Library footprints are maintained source files. Board generation must not
+# overwrite them with placed instances (references, fields and net assignments).
 dsn = os.path.splitext(out_path)[0] + ".dsn"
 print("DSN export:", pcbnew.ExportSpecctraDSN(board, dsn), dsn)
 print("saved", out_path, "pads:", sum(len(fp.Pads()) for fp in board.GetFootprints()))

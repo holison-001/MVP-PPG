@@ -1,0 +1,202 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T23:05:36",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/49500282-0369-4cac-b640-45971f28f30c",
+            "violations": [
+                {
+                    "description": "풋프린트 'TVS_SOD882_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D1 [TVS_Uni]",
+                            "pos": {
+                                "x": 0.3048,
+                                "y": 1.9304
+                            },
+                            "uuid": "24de5337-0126-4e49-93ab-892852030d3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D2 [TVS_Uni]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 2.159
+                            },
+                            "uuid": "03e3dbf8-b893-4a06-8a68-f444298e324e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D4 [TVS_Uni]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 2.4892
+                            },
+                            "uuid": "a6cebf13-ad84-4fa4-a12f-97841061eba9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D3 [TVS_Uni]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 2.159
+                            },
+                            "uuid": "0ba8bd96-7314-45a7-b3a0-41b6f44b7f60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D5 [TVS_Uni]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 2.4892
+                            },
+                            "uuid": "f2edb41f-f577-47ec-9c33-4d1944cc38fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D6 [TVS_Uni]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 1.8669
+                            },
+                            "uuid": "55b9aafb-2a2f-4f1d-9e8b-44af5bb2641d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D7 [TVS_Uni]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 2.1209
+                            },
+                            "uuid": "f6e0516b-f7b0-4072-8594-2d6095e720b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'TI_DPY0002A_1x0.6'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 D8 [TVS_Uni]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 2.3749
+                            },
+                            "uuid": "a1ed592d-f7eb-4e3c-b1aa-5a037d5f27a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'CablePad_D0.8'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 J7 [PAD]",
+                            "pos": {
+                                "x": 3.7719,
+                                "y": 1.7907
+                            },
+                            "uuid": "5e36594c-91d5-4c32-9a12-aa86378c52fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'CablePad_D0.8'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 J8 [PAD]",
+                            "pos": {
+                                "x": 3.7719,
+                                "y": 2.0447
+                            },
+                            "uuid": "671cd6b5-421b-40e7-a09d-3976e9d4843a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "풋프린트 'CablePad_D0.8'을(를) 라이브러리 'SleepBud'에서 찾을 수 없습니다",
+                    "items": [
+                        {
+                            "description": "심볼 J9 [PAD]",
+                            "pos": {
+                                "x": 3.7719,
+                                "y": 2.2987
+                            },
+                            "uuid": "d0e9c977-1591-4c6a-a8f0-92b7d7668190"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "ppg_pcb_v08.kicad_sch"
+}

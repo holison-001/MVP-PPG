@@ -1,0 +1,10 @@
+{
+  "kicad/ppg_pcb_v08.kicad_pcb": "9f7c6bddc2acd093bdf96e702ea95a1da7c04eb3a37ad897c7c2432dd62eafd8",
+  "kicad/ppg_pcb_v08.kicad_pro": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+  "kicad/ppg_pcb_v08.kicad_sch": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527",
+  "docs/layers_png/01_F_Cu_TOP.png": "15d520c6f30048fd1c45e1a55d840de50cf203129dd571550a40e502c1f39082",
+  "docs/layers_png/source_manifest.json": "38f17402621906297589007bdaf681f45e355a183ddb42fb612ffa342e786b50",
+  "docs/verification_rs422_no_bus_tvs/top_ground_changes.json": "51cf2aaa56303e87d75193fd85a1c2e62f2e69946a995870748b3097daa6abf3",
+  "docs/verification_rs422_no_bus_tvs/independent_final_audit.json": "b92d355cd364997439181ada5e47a3ce355afce909ed720e3b8575695c46dad4",
+  "docs/verification_rs422_no_bus_tvs/drc_final.json": "bef92ac151e461ac2c216001450fb7e997e644fa79fd4d444c5b675a54b831f2"
+}

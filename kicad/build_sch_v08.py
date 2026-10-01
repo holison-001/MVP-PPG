@@ -145,12 +145,16 @@ U2_RIGHT = [("1", "PC15", "bidirectional", 15.24), ("20", "PC14", "bidirectional
             ("9", "PA4", "bidirectional", 0), ("10", "PA5", "bidirectional", -2.54), ("11", "PA6", "bidirectional", -5.08),
             ("12", "PA7", "bidirectional", -7.62), ("13", "PA8", "bidirectional", -10.16), ("16", "PA13/SWDIO", "bidirectional", -12.7),
             ("17", "PA14/SWCLK/BOOT0", "bidirectional", -15.24)]
-# SN65LVDS1 LVDS driver SOT-23-5: 1 VCC, 2 GND, 3 Z, 4 Y, 5 D
-U3_LEFT = [("1", "VCC", "power_in", 5.08), ("5", "D", "input", 0), ("2", "GND", "power_in", -5.08)]
-U3_RIGHT = [("4", "Y", "output", 2.54), ("3", "Z", "output", -2.54)]
-# SN65LVDT2 LVDS receiver (110 R termination) SOT-23-5: 1 VCC, 2 GND, 3 A, 4 B, 5 R
-U6_LEFT = [("1", "VCC", "power_in", 5.08), ("3", "A", "input", 2.54), ("4", "B", "input", -2.54), ("2", "GND", "power_in", -5.08)]
-U6_RIGHT = [("5", "R", "output", 0)]
+# XR33194 TSOT-23-6: DI=1, VCC=2, DE=3, Z=4, GND=5, Y=6.
+# DE is high for always-enabled full-duplex operation.
+U3_LEFT = [("2", "VCC", "power_in", 7.62), ("3", "DE", "input", 2.54),
+           ("1", "DI", "input", -2.54), ("5", "GND", "power_in", -7.62)]
+U3_RIGHT = [("6", "Y", "output", 5.08), ("4", "Z", "output", -5.08)]
+# XR33183 TSOT-23-6: VCC=1, GND=2, RO=3, B=4, active-low EN=5, A=6.
+# Active-low EN is grounded; R3 provides the external receive termination.
+U6_LEFT = [("1", "VCC", "power_in", 7.62), ("5", "~{EN}", "input", 2.54),
+           ("3", "RO", "output", -2.54), ("2", "GND", "power_in", -7.62)]
+U6_RIGHT = [("6", "A", "input", 5.08), ("4", "B", "input", -5.08)]
 # MCP1703A 2x3 DFN-8
 LDO_LEFT = [("8", "VIN", "power_in", 2.54), ("4", "GND", "power_in", -2.54)]
 LDO_RIGHT = [("1", "VOUT", "power_out", 2.54), ("9", "EP", "passive", -2.54)]
@@ -160,8 +164,8 @@ LDO_BOTTOM = [("2", "NC", "no_connect", -5.08), ("3", "NC", "no_connect", -2.54)
 LIB = "\n".join([
     sym_ic("SleepBud:MAXM86161", "MAXM86161", "U", U1_LEFT, U1_RIGHT, U1_BOTTOM, 12.7, 12.7, "PPG optical module, single supply 3.0-5.5 V, I2C 0x62"),
     sym_ic("SleepBud:STM32C011F6U6", "STM32C011F6U6", "U", U2_LEFT, U2_RIGHT, [], 15.24, 17.78, "STM32C0 MCU, UFQFPN-20 3x3"),
-    sym_ic("SleepBud:SN65LVDS1", "SN65LVDS1", "U", U3_LEFT, U3_RIGHT, [], 10.16, 8.89, "LVDS driver (LVTTL in), 2.4-3.6 V, SOT-23-5"),
-    sym_ic("SleepBud:SN65LVDT2", "SN65LVDT2", "U", U6_LEFT, U6_RIGHT, [], 10.16, 8.89, "LVDS receiver with 110 R termination, open-input fail-safe high, SOT-23-5"),
+    sym_ic("SleepBud:XR33194", "XR33194", "U", U3_LEFT, U3_RIGHT, [], 10.16, 10.16, "RS-422 driver, 2.5 Mbps, 3.3 V +/-5%, TSOT-23-6; DE high"),
+    sym_ic("SleepBud:XR33183", "XR33183", "U", U6_LEFT, U6_RIGHT, [], 10.16, 10.16, "RS-422 receiver, 52 Mbps, enhanced fail-safe high, TSOT-23-6; active-low EN low; external R3 termination"),
     sym_ic("SleepBud:MCP1703A_DFN", "MCP1703A_DFN", "U", LDO_LEFT, LDO_RIGHT, LDO_BOTTOM, 10.16, 7.62, "LDO 16 V in, 250 mA, 2x3 DFN"),
     sym_passive("SleepBud:R", "R", "Resistor", "R_*"),
     sym_passive("SleepBud:C", "C", "Unpolarized capacitor", "C_*"),
@@ -214,6 +218,7 @@ def place_symbol(ref, libid, x, y, value, footprint, pins, ref_at, val_at):
     {prop("Reference", ref, *ref_at, justify="left")} {prop("Value", value, *val_at, justify="left")}
     {prop("Footprint", footprint, x, y, True)} {prop("Datasheet", D.COMPONENTS[ref].get("datasheet", ""), x, y, True)} {prop("Description", D.COMPONENTS[ref]["desc"], x, y, True)}
     {prop("MPN", D.COMPONENTS[ref].get("mpn", ""), x, y, True)}
+    {prop("Manufacturer", D.COMPONENTS[ref].get("manufacturer", ""), x, y, True)}
     {pin_uuids}
     (instances (project "{PROJECT}" (path "/{ROOT_UUID}" (reference "{ref}") (unit 1)))))''')
 
@@ -251,8 +256,8 @@ def place_ic(ref, libid, x, y, w, h, left, right, bottom):
 
 place_ic("U1", "SleepBud:MAXM86161", 60.96, 63.5, 12.7, 12.7, U1_LEFT, U1_RIGHT, U1_BOTTOM)
 place_ic("U2", "SleepBud:STM32C011F6U6", 152.4, 66.04, 15.24, 17.78, U2_LEFT, U2_RIGHT, [])
-place_ic("U3", "SleepBud:SN65LVDS1", 233.68, 50.8, 10.16, 8.89, U3_LEFT, U3_RIGHT, [])
-place_ic("U6", "SleepBud:SN65LVDT2", 233.68, 83.82, 10.16, 8.89, U6_LEFT, U6_RIGHT, [])
+place_ic("U3", "SleepBud:XR33194", 233.68, 50.8, 10.16, 10.16, U3_LEFT, U3_RIGHT, [])
+place_ic("U6", "SleepBud:XR33183", 233.68, 83.82, 10.16, 10.16, U6_LEFT, U6_RIGHT, [])
 place_ic("U4", "SleepBud:MCP1703A_DFN", 45.72, 121.92, 10.16, 7.62, LDO_LEFT, LDO_RIGHT, LDO_BOTTOM)
 place_ic("U5", "SleepBud:MCP1703A_DFN", 45.72, 152.4, 10.16, 7.62, LDO_LEFT, LDO_RIGHT, LDO_BOTTOM)
 
@@ -270,7 +275,7 @@ def place_passive(ref, x, y):
     else:
         wire(x, y + 3.81, x, y + 8.89); label(bot, x, y + 8.89, 0)
 
-for i, ref in enumerate(["R1", "R2", "C1", "C4", "C5"]):
+for i, ref in enumerate(["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "C1", "C4", "C5"]):
     place_passive(ref, 88.9 + i * 15.24, 121.92)
 for i, ref in enumerate(["C6", "C7", "C11", "C12", "C13", "C14"]):
     place_passive(ref, 88.9 + i * 15.24, 152.4)
@@ -311,7 +316,7 @@ for i, net in enumerate(["GND", "12V"]):
     else:
         wire(x, y, x, y - 5.08); power_symbol(net, x, y - 5.08)
 
-items.append(f'''(text "SleepBud PPG PCB v0.8 - MAXM86161 + STM32C011 + UART over LVDS, 4-layer 13.5 mm disc.\\nU3 SN65LVDS1: UART_TX -> TXP/TXN (to controller LVDS receiver). U6 SN65LVDT2 (110 R term.): RXP/RXN (from controller LVDS driver) -> UART_RX.\\nCable: 12V, GND, TXP, TXN, RXP, RXN + piezo coax (not on PCB). J7-J9 SWD test pads. 3V3/5V_LED planes from U5/U4 LDOs."
+items.append(f'''(text "SleepBud PPG PCB v0.8 - MAXM86161 + STM32C011 + UART over RS-422, 4-layer 13.5 mm disc.\\nU3 XR33194: UART_TX -> TXP/TXN (to AMP RS-422 receiver). U6 XR33183: RXP/RXN (from AMP RS-422 driver) -> UART_RX; R3 120 ohm at the receiving end. DE high, active-low EN low; R4 holds UART_TX high during reset.\\nCable: 12V, GND, TXP, TXN, RXP, RXN + piezo coax (not on PCB). J7-J9 SWD test pads. 3V3/5V_LED planes from U5/U4 LDOs."
     (exclude_from_sim no) (at 25.4 190.5 0) (effects (font (size 1.6 1.6)) (justify left bottom)) (uuid "{U()}"))''')
 
 sch = f'''(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0") (uuid "{ROOT_UUID}") (paper "A4")

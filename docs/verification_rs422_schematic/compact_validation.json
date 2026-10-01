@@ -1,0 +1,24 @@
+{
+  "components": 39,
+  "retained_core_component_UUIDs": 35,
+  "removed": [
+    "D3",
+    "D5"
+  ],
+  "added": [
+    "R5",
+    "R6",
+    "R7",
+    "R8"
+  ],
+  "erc_violations": 0,
+  "pin_net_parity": "all 39 component pins match design model",
+  "R3": "cable-side RXP/RXN, 120/1%, CRCW0402120RFKEDHP 0402 0.2W",
+  "R4": "10k, 0201, MPN unset",
+  "series_R5_R8": "22, 5%, CRCW040222R0JNEDHP, 0402 0.2W",
+  "D2_D4": "CDSOT23-SM712, pins1/2 pair lines, pin3 GND",
+  "U1": "unchanged, only top-side component",
+  "prototype_note": "Physical IEC testing needed; 0402 HP does not imply 0805 pulse equivalence",
+  "PCB": "copied baseline only; not regenerated or edited; all changed/additional placements provisional",
+  "core_draft_37": "preserved separately without edits"
+}

@@ -1,0 +1,13 @@
+{
+  "view": "Each side viewed directly; bottom horizontally mirrored from board coordinates",
+  "status": "Placement preview only; not routed or approved",
+  "files": {
+    "verification_rs422_schematic/placement_feasibility/packing_strict_best.json": "95d9c8068b0f0b0511ca408d00d770494a73f921b54c0765b2f53cc1873843b5",
+    "verification_rs422_schematic/placement_feasibility/packing_geometry_physical.json": "decd3631b51500bb6cff86787ae325c2378f71cdacd3383167c65e1842ca838c",
+    "verification_rs422_schematic/placement_feasibility/mechanical_candidate_assessment.json": "7dceeba5049f16bf28d55058b715d1363ec693571d221dfd32ab530460c45f85",
+    "placement_preview_rs422/legacy_lvds_geometry.json": "e4a1613e46c84c70f7f5bb2dd1837dd2c004c11b5a2f472ae9b90e8dbcc94508",
+    "placement_preview_rs422/render.py": "ba793c52a884c23006ae9874b4c7cbe037095b06198f45a7413bf806b2872f85",
+    "placement_preview_rs422/rs422_top_bottom.png": "3730fcbfd87091202e138d2d2bd9791e8048e72c14408a02464ac3f4cd5b77ef",
+    "placement_preview_rs422/bottom_before_after.png": "362bfc416d3847b4116fbc9d63ad1daa436b5034add1c0a3a19610e103b1c632"
+  }
+}
