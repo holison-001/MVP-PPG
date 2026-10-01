@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "footprints": 37,
+  "schematic_components": 37,
+  "numbered_pads": 117,
+  "schematic_nets": 48,
+  "top_references": [
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 4,
+  "outline_radius_mm": 6.75,
+  "board_center_on_sheet_mm": [
+    20.0,
+    17.0
+  ],
+  "sheet_size_mm": [
+    40.0,
+    40.0
+  ],
+  "routing": {
+    "F.Cu": 20,
+    "via": 62,
+    "B.Cu": 126,
+    "In1.Cu": 58,
+    "In2.Cu": 45
+  },
+  "inner_layer_track_count": 103,
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 103,
+    "in1_track_count": 58,
+    "in1_routed_nets": [
+      "/SDA",
+      "/SWDIO",
+      "/TXN_DRV",
+      "/TXP",
+      "/TXP_DRV",
+      "/UART_RX",
+      "/UART_TX",
+      "12V",
+      "3V3"
+    ],
+    "in2_3V3_track_count": 4,
+    "in2_3V3_widths_mm": [
+      0.4
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "board": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "schematic": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_sch"
+}

@@ -1,0 +1,417 @@
+{
+  "ok": true,
+  "source": "DS20005122C pp.29-31, C04-123/C04-2123 Rev E",
+  "expected_fpid": "SleepBud:MCP1703A_MC_DFN8_3x2mm_P0.5mm",
+  "mode": "board_and_schematic",
+  "errors": [],
+  "library_sha256": "d66ca8f723c98ffeea088cf62b78aba843eb3b2bda31467395c509fe88d3e623",
+  "source_footprint": {
+    "pads": [
+      {
+        "pin": "1",
+        "position_mm": [
+          -1.5,
+          -0.75
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "2",
+        "position_mm": [
+          -1.5,
+          -0.25
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "3",
+        "position_mm": [
+          -1.5,
+          0.25
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "4",
+        "position_mm": [
+          -1.5,
+          0.75
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "5",
+        "position_mm": [
+          1.5,
+          0.75
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "6",
+        "position_mm": [
+          1.5,
+          0.25
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "7",
+        "position_mm": [
+          1.5,
+          -0.25
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "8",
+        "position_mm": [
+          1.5,
+          -0.75
+        ],
+        "size_mm": [
+          0.85,
+          0.3
+        ],
+        "orientation_deg": 0.0,
+        "shape": 2
+      },
+      {
+        "pin": "9",
+        "position_mm": [
+          0.0,
+          0.0
+        ],
+        "size_mm": [
+          1.75,
+          1.55
+        ],
+        "orientation_deg": 0.0,
+        "shape": 1
+      }
+    ],
+    "body_bounds_mm": [
+      -1.5,
+      -1.0,
+      1.5,
+      1.0
+    ],
+    "paste_aperture_count": 4,
+    "row_center_spacing_mm": 3.0,
+    "pitch_mm": 0.5,
+    "ep_copper_mm": [
+      1.75,
+      1.55
+    ]
+  },
+  "components": {
+    "U4": {
+      "pads": [
+        {
+          "pin": "1",
+          "position_mm": [
+            -1.5,
+            -0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "2",
+          "position_mm": [
+            -1.5,
+            -0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "3",
+          "position_mm": [
+            -1.5,
+            0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "4",
+          "position_mm": [
+            -1.5,
+            0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "5",
+          "position_mm": [
+            1.5,
+            0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "6",
+          "position_mm": [
+            1.5,
+            0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "7",
+          "position_mm": [
+            1.5,
+            -0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "8",
+          "position_mm": [
+            1.5,
+            -0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "9",
+          "position_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.75,
+            1.55
+          ],
+          "orientation_deg": 0.0,
+          "shape": 1
+        }
+      ],
+      "body_bounds_mm": [
+        -1.5,
+        -1.0,
+        1.5,
+        1.0
+      ],
+      "paste_aperture_count": 4,
+      "row_center_spacing_mm": 3.0,
+      "pitch_mm": 0.5,
+      "ep_copper_mm": [
+        1.75,
+        1.55
+      ]
+    },
+    "U5": {
+      "pads": [
+        {
+          "pin": "1",
+          "position_mm": [
+            -1.5,
+            -0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "2",
+          "position_mm": [
+            -1.5,
+            -0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "3",
+          "position_mm": [
+            -1.5,
+            0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "4",
+          "position_mm": [
+            -1.5,
+            0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "5",
+          "position_mm": [
+            1.5,
+            0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "6",
+          "position_mm": [
+            1.5,
+            0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "7",
+          "position_mm": [
+            1.5,
+            -0.25
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "8",
+          "position_mm": [
+            1.5,
+            -0.75
+          ],
+          "size_mm": [
+            0.85,
+            0.3
+          ],
+          "orientation_deg": 0.0,
+          "shape": 2
+        },
+        {
+          "pin": "9",
+          "position_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.75,
+            1.55
+          ],
+          "orientation_deg": 0.0,
+          "shape": 1
+        }
+      ],
+      "body_bounds_mm": [
+        -1.5,
+        -1.0,
+        1.5,
+        1.0
+      ],
+      "paste_aperture_count": 4,
+      "row_center_spacing_mm": 3.0,
+      "pitch_mm": 0.5,
+      "ep_copper_mm": [
+        1.75,
+        1.55
+      ]
+    }
+  },
+  "board_sha256": "fe4fedb17c883859ff32d6b832b4597503495e0944457dd1095dcca32a195165",
+  "schematic_sha256": "7bf915b613f4261651fa05a7ed240d80a060b91fc8e9959bb2b95b01d109cf2b",
+  "references": 37,
+  "numbered_pads": 117,
+  "schematic_nets": 48
+}

@@ -1,0 +1,242 @@
+{
+  "ok": true,
+  "mode": "--check-only",
+  "wrapper_return_code": 0,
+  "shell": "Git Bash on Windows",
+  "kicad_version": "10.0.6",
+  "board_sha256": "fe4fedb17c883859ff32d6b832b4597503495e0944457dd1095dcca32a195165",
+  "schematic_sha256": "7bf915b613f4261651fa05a7ed240d80a060b91fc8e9959bb2b95b01d109cf2b",
+  "project_sha256_before_and_after": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+  "custom_rules_sha256_before_and_after": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+  "wrapper_sha256": "bf67feba96a06d4a896cdf10687a4c5d532785e8c663e2e48539a32c4176a639",
+  "wrapper_counts": {
+    "erc_errors": 0,
+    "erc_findings": 0,
+    "drc_errors": 0,
+    "drc_warnings": 2,
+    "unconnected": 0,
+    "parity": 0
+  },
+  "independent_audit_pass": true,
+  "authoritative_report_sha256": {
+    "independent_final_audit.json": "c5638b7970dc560efb8360c7a4a42a92b0509f55251cf4f5ce572eda0e4d3144",
+    "netcheck.json": "fa71dc6a630fb60ef4621d5c26ae4ee1def18e130fec2eb7a329c8da5ed5d715",
+    "manufacturer_check.json": "ddcfde891c43ede54fa1f736f1b24d90728cfc4b882d17c8a239b8f99d534f6e",
+    "erc.json": "cd945fb0ba1f045f86d7ad25b427dc8de9b64023151ab39f122be10e25bcec29",
+    "drc_project.json": "0d328a14c51c3659bb81327dfbb18c7d43de32156471f46b68792ab258f0d292",
+    "drc_strict.json": "066ae2a6e9d055ef855e5695b29b40f021fadc5abf5e5b7ff28dad5a71749ce2"
+  },
+  "native_checks": {
+    "drc_project": {
+      "errors": 0,
+      "warnings": 2,
+      "unconnected": 0,
+      "parity": 0
+    },
+    "drc_strict": {
+      "errors": 0,
+      "warnings": 25,
+      "unconnected": 0,
+      "parity": 0
+    },
+    "erc": {
+      "findings": 0,
+      "errors": 0
+    }
+  },
+  "all_source_files_unchanged": true,
+  "source_file_count": 38,
+  "all_staged_source_dependencies_unchanged": true,
+  "staged_dependency_count": 21,
+  "staged_project_bytes_preserved": true,
+  "local_model_count_staged": 1,
+  "local_pdf_count_staged": 4,
+  "manufacturing_or_BOM_files_generated": [],
+  "strict_diagnostic_policy": {
+    "scope": "scratch clone only",
+    "restore_ignored_checks_to": "warning",
+    "cleared_exclusions": true,
+    "restored_rule_paths": [
+      "/board/design_settings/rule_severities/footprint_filters_mismatch",
+      "/board/design_settings/rule_severities/footprint_type_mismatch",
+      "/board/design_settings/rule_severities/missing_courtyard",
+      "/board/design_settings/rule_severities/track_not_centered_on_via",
+      "/board/design_settings/rule_severities/tuning_profile_track_geometries",
+      "/erc/rule_severities/footprint_filter",
+      "/erc/rule_severities/four_way_junction",
+      "/erc/rule_severities/simulation_model_issue",
+      "/erc/rule_severities/single_global_label"
+    ]
+  },
+  "commands": [
+    {
+      "label": "erc",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--output",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\erc.json",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\mc-fix\\validation\\final-validation\\strict\\ppg_pcb_v08.kicad_sch"
+      ],
+      "return_code": 0
+    },
+    {
+      "label": "drc_strict",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--schematic-parity",
+        "--refill-zones",
+        "--output",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\drc_strict.json",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\mc-fix\\validation\\final-validation\\strict\\ppg_pcb_v08.kicad_pcb"
+      ],
+      "return_code": 0
+    },
+    {
+      "label": "drc_project",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--schematic-parity",
+        "--refill-zones",
+        "--output",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\drc_project.json",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\mc-fix\\validation\\final-validation\\project\\ppg_pcb_v08.kicad_pcb"
+      ],
+      "return_code": 0
+    },
+    {
+      "label": "netcheck",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\netcheck_v08.py",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb",
+        "--schematic",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_sch",
+        "--json",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\netcheck.json"
+      ],
+      "return_code": 0
+    },
+    {
+      "label": "manufacturer",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\verify_mcp1703a_v08.py",
+        "--board",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb",
+        "--schematic",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_sch",
+        "--json",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\manufacturer_check.json"
+      ],
+      "return_code": 0
+    },
+    {
+      "label": "independent_audit",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\mc-fix\\validation\\run_current_audit.py",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb",
+        "--drc",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\drc_strict.json",
+        "--output",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\independent_final_audit.json"
+      ],
+      "return_code": 0
+    },
+    {
+      "label": "wrapper_check",
+      "argv": [
+        "C:/Program Files/Git/bin/bash.exe",
+        "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\run_v08.sh",
+        "--check-only"
+      ],
+      "return_code": 0
+    }
+  ],
+  "harness_note": "Checked-in wrapper and validation gates ran unchanged. The scratch launcher retained the wrapper temporary stage instead of deleting it so dependency and project bytes could be checked afterward. No exports were requested.",
+  "source_sha256_before_and_after": {
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\board_coordinates_v08.py": "18aef8ac444b95abd1ac9c69341ad28da218fae508f41329bcd053418bf90a19",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\bom_v08.py": "70f2f91fb024f27569d0b67b12dbff719c8357e090ce0173c73f00b4d62a36a3",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\build_pcb_v08.py": "7806b0b9e94502b2d443d19ad9be9d1436a9a2b169611244d1d3575ad226a795",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\build_sch_v08.py": "5d9fbfbb9211e4bc0375d2fa8e2122812e4e46aca0ecdcc582d51bccca1c53f9",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\design_v08.py": "85c1ac12110aa3a96610d872ae1436f2fabfa0bb755cf33cdad57f84cf59264b",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\drc.json": "fdefe370ddfac9f48d44998f47b088d1b2561b0efb74b57b4b047d610e0ac9dc",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\drc_summary.py": "ad3427b35c4d8b1a80de2cd65270eda5e0553e2b54f67d462203f8d75409d748",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\export_placement_review_v08.py": "dce7e6bc701e22b9b2aadbaa48a6e4d05ad9c660ef2f4e4fd512e16ca2dfb0b9",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\export_review_v08.py": "16ec67cc70bde4a30ef013fc96c091c2e3e4cbff03738f7c9773a56f08dd7621",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\fp-lib-table": "5774eace97161e66bb831d198d52584262777f2ac54944f7210754484c271762",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\layer_policy_v08.py": "76b50a463196cfe484daf3288f274c00fb1107d24387f72b428098a7b2d3cbdf",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\layout_schematic_v08.py": "07d23d253363cbb2da07e1bf53e9e9b01000529bc7cd3c3f7597051bd0702e76",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\netcheck_v08.py": "b42fb13d3497c1cc02b9a0cfd809913c4fd22abea06e6e71650533f8ad5b5520",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\postroute_v08.py": "7020faa9139e135402b7b1a67018ad6acc5c39451b253090667652751fbc41fd",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_compact.kicad_wks": "7db2c46b2ad23e421c66bac78a86d1f752c7ecd050b2cbd626563a7502e62a15",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.dsn": "922ccded8f4dab55c6aa1044cf0a0b3b5bfdd42f9ac182a998d47915ea4c8dc3",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_dru": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb": "fe4fedb17c883859ff32d6b832b4597503495e0944457dd1095dcca32a195165",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_sch": "7bf915b613f4261651fa05a7ed240d80a060b91fc8e9959bb2b95b01d109cf2b",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_rs422_review.kicad_pcb": "765a0ff8a6644feb98d36e592b2b0e61950056b49c3725b3d1e12be50677f663",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_rs422_review.kicad_pro": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_rs422_review.kicad_sch": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\route_in2_power_v08.py": "e8d66aed3ea0dea84f1c664f5aef11adbee2b8b9a4272597367ea100cb637701",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\run_v08.sh": "bf67feba96a06d4a896cdf10687a4c5d532785e8c663e2e48539a32c4176a639",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\schematic_metadata.py": "fcdfac56aab298e79c52f1799dd8d29bfeed1f811488c5661452cfa26d71c2f5",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.kicad_sym": "8e8c696027ff420843baad690075bcb3c9a6a7dbb85ab02bb0541fcbc0e51292",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\sym-lib-table": "5c7b0854d368b8ef24506fcccf64adddcc31aa886b25718ac46c0e3374e37aab",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\verify_mcp1703a_v08.py": "dbdaf935f0e3be8c02a58d2ff3328fb8cec7409768f912206ed9659149284117",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.3dshapes\\MCP1703A_MC_datasheet_reference.step": "727919d2686ed0e583724ec33345a882a818a7affaae37d8421f00dc2e296f25",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\CablePad_D0.8.kicad_mod": "5374fdb505aea787a495a458c9455a8ba4533bf818ff5e3e3f882041421b6bb6",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\CablePad_D1.2.kicad_mod": "5067a62a8a8d09f45a6b93fbb098a3a2524b71eb1dd164b6562439427f47e262",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\MAXM86161_OLGA-14.kicad_mod": "f8936eb6c1fe894aeaae0fb3a143bc2b293d6cad762dcbf9bfb3bdb7a8e68297",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\MCP1703A_MC_DFN8_3x2mm_P0.5mm.kicad_mod": "d66ca8f723c98ffeea088cf62b78aba843eb3b2bda31467395c509fe88d3e623",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\ST_UFQFPN-20_3x3mm_P0.5mm_NoSilk.kicad_mod": "d444630a16120bef46dfcb3b4addcb685ea2d16577f422813c3385296e6eccd9",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\TI_DPY0002A_1x0.6.kicad_mod": "d92c2cb67579f0745008cdf556641f892c83d52ed94e208c2f3e77f831854263",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\TSOT23-6_MaxLinear.kicad_mod": "5c6a0f86a6ac78d203fce612122ebfc465a1ef4d7a1566864ce00853de65b84a",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\TVS_SOD882_1x0.6.kicad_mod": "bfbda34dc00a6aa55ae6fe6ef75ba75d6dd3a9e4c4e54126dee19b65790693ab"
+  },
+  "staged_dependency_sha256_before_and_after": {
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb": "fe4fedb17c883859ff32d6b832b4597503495e0944457dd1095dcca32a195165",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_sch": "7bf915b613f4261651fa05a7ed240d80a060b91fc8e9959bb2b95b01d109cf2b",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_dru": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\fp-lib-table": "5774eace97161e66bb831d198d52584262777f2ac54944f7210754484c271762",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_compact.kicad_wks": "7db2c46b2ad23e421c66bac78a86d1f752c7ecd050b2cbd626563a7502e62a15",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.3dshapes\\MCP1703A_MC_datasheet_reference.step": "727919d2686ed0e583724ec33345a882a818a7affaae37d8421f00dc2e296f25",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.kicad_sym": "8e8c696027ff420843baad690075bcb3c9a6a7dbb85ab02bb0541fcbc0e51292",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\CablePad_D0.8.kicad_mod": "5374fdb505aea787a495a458c9455a8ba4533bf818ff5e3e3f882041421b6bb6",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\CablePad_D1.2.kicad_mod": "5067a62a8a8d09f45a6b93fbb098a3a2524b71eb1dd164b6562439427f47e262",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\MAXM86161_OLGA-14.kicad_mod": "f8936eb6c1fe894aeaae0fb3a143bc2b293d6cad762dcbf9bfb3bdb7a8e68297",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\MCP1703A_MC_DFN8_3x2mm_P0.5mm.kicad_mod": "d66ca8f723c98ffeea088cf62b78aba843eb3b2bda31467395c509fe88d3e623",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\ST_UFQFPN-20_3x3mm_P0.5mm_NoSilk.kicad_mod": "d444630a16120bef46dfcb3b4addcb685ea2d16577f422813c3385296e6eccd9",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\TI_DPY0002A_1x0.6.kicad_mod": "d92c2cb67579f0745008cdf556641f892c83d52ed94e208c2f3e77f831854263",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\TSOT23-6_MaxLinear.kicad_mod": "5c6a0f86a6ac78d203fce612122ebfc465a1ef4d7a1566864ce00853de65b84a",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\TVS_SOD882_1x0.6.kicad_mod": "bfbda34dc00a6aa55ae6fe6ef75ba75d6dd3a9e4c4e54126dee19b65790693ab",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\sym-lib-table": "5c7b0854d368b8ef24506fcccf64adddcc31aa886b25718ac46c0e3374e37aab",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\datasheet\\pdf\\MCP1703A.pdf": "6fdfc2f20167c7292c92c9c4c8003fd4d8615e0f2f90e224e1e10dce6ed65b5f",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\datasheet\\pdf\\Vishay_CRCW-HP_e3.pdf": "d76b4839a999ba1e5d0e2ece80bab8aa6056cc48bd0ce6923be3a1f6801852e6",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\datasheet\\pdf\\XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf": "a444cd1dddcaa40c120b9f088f623adb3ba02bf392c71365c64c78fb6bb56bab",
+    "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\datasheet\\pdf\\XR33193_XR33194_XR33195_MaxLinear.pdf": "a06a598663910b7c559a1fcba75c066119532e70b47b577d4009be98ad17ad72"
+  },
+  "source_hash_scope": "Engineering inputs, source scripts, library/model files, and existing engineering artifacts under kicad/. Markdown documentation is excluded because it was being updated concurrently by the documentation task; caches and local UI state are excluded.",
+  "excluded_concurrent_documentation": [
+    {
+      "path": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\RS422_PCB_STATUS.md",
+      "changed_during_validation": true
+    }
+  ]
+}

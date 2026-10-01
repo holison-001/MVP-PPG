@@ -24,6 +24,8 @@ REPO = Path(__file__).resolve().parent.parent
 STEM = "MVP-PPG_BOM_부품별통합_DNP제외_값표준화_v2"
 HEADERS = ["No.", "레퍼런스", "수량", "값", "MPN", "제조사", "패키지", "참고 데이터시트", "비고"]
 PACKAGE = {
+    "SleepBud:MCP1703A_MC_DFN8_3x2mm_P0.5mm": "DFN-8 MC, 3 × 2 mm, P0.5 mm (노출패드)",
+    "SleepBud:ST_UFQFPN-20_3x3mm_P0.5mm_NoSilk": "UFQFPN-20, 3 × 3 mm, P0.5 mm",
     "SleepBud:MAXM86161_OLGA-14": "OLGA-14, 2.9 × 4.3 mm",
     "Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm": "UFQFPN-20, 3 × 3 mm, P0.5 mm",
     "Package_TO_SOT_SMD:SOT-23-5": "SOT-23-5",
@@ -69,7 +71,7 @@ SUPPLEMENT_REFS = {
     "1uF 6.3V": {"C4", "C5", "C12", "C14"},
     "100nF": {"C6", "C7", "C11"}, "1uF 25V X7R": {"C13"},
 }
-LDO_DATASHEET = "https://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
+LDO_DATASHEET = "${KIPRJMOD}/../datasheet/pdf/MCP1703A.pdf"
 
 
 def ref_key(ref):
@@ -179,7 +181,7 @@ def group_parts(parts):
                 notes.append("기존 BOM: 지급품(consigned)")
             if original.startswith("MCP1703A-") and not source:
                 source = LDO_DATASHEET
-                notes.append("데이터시트: 저장소 README 링크 기준")
+                notes.append("데이터시트: 저장소의 Microchip DS20005122C 원본")
         if mpn in {"CRCW0402120RFKEDHP", "CRCW040222R0JNEDHP"}:
             notes.append("HP 펄스 대응 저항, 0.2W (P70). 실제 PCB 열·펄스·ESD 성능 검증 필요")
             notes.append("주문형번은 제조사 코드 규칙 기준; 재고·수급 확인 전")

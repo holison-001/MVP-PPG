@@ -1,11 +1,11 @@
 # Current RS-422 PCB
 
-`ppg_pcb_v08.kicad_pcb` is the routed 37-reference design without D2/D4. DRC errors, unrouted connections and schematic-parity differences are zero. Five existing advisory warnings remain documented in `../docs/verification_rs422_no_bus_tvs/`.
+Updated 2026-10-02. U4/U5 now use the Microchip MCP1703A /MC land pattern; U2 uses the matching project NoSilk variant. The 37-reference board was rearranged and rerouted. ERC errors/warnings, DRC errors, unrouted connections and schematic parity differences are zero. Full DRC restores ignored checks in a temporary copy and reports 25 advisory warnings.
 
-F.Cu contains U1, 18.799 mm of local routing and 102.636 mm² GND fill. In1.Cu contains 43.971 mm of selected routing and 88.032 mm² GND fill. Its two filled regions connect through the existing ground network. In2.Cu retains the 0.40 mm 3V3 tracks and selected routing, without a pour. All other components remain on B.Cu. There are 59 existing vias; no new vias were added.
+See [current review](../docs/footprint_correction_20261001/README.md) for exact hashes, warnings, placement, layer totals and independent physical checks. The previous 59-via/18.799-mm front-routing figures are historical, not this board's metrics. Current via count: 62.
 
-The board center is at (20,17) mm inside the custom 40×40 mm sheet, with the auxiliary and grid origins at that point. Design-model placement and preview geometry remain relative to the PCB center. `board_coordinates_v08.py` handles translation for generation and read-only inspection.
+The board remains diameter13.5 mm, 4 layers, thickness0.8 mm, U1 alone on F.Cu. F.Cu and In1.Cu contain GND pours; In2 retains minimum0.40-mm 3V3 distribution without a pour. Keep the .kicad_dru file. F.Cu ground uses0.20-mm edge setback and0.15-mm signal clearance; other copper uses0.30-mm edge setback.
 
-F.Cu ground-to-signal clearance is 0.15 mm and ground-to-edge setback is 0.20 mm. Keep `ppg_pcb_v08.kicad_dru` beside the PCB/project. Other copper retains the 0.30 mm edge rule.
+PCB center is (20,17) mm in the40×40-mm sheet. All design-model placements match the PCB and are relative to this center. Cable pads and labels have moved; old coordinate CSVs are stale.
 
-`ppg_rs422_review.*` is an earlier incomplete snapshot. Gerber/BOM payloads remain frozen until explicit user approval. See `../docs/PCB_layers_20261001.md` and `../docs/verification_rs422_no_bus_tvs/in1_routing_changes.json`.
+Existing Gerber/BOM/position/board-STEP/schematic-PDF/old render outputs do not include this correction. No new Gerber or BOM was produced. Current review PNGs are in the linked review folder. Hardware and assembly validation remain required.

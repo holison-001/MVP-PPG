@@ -101,33 +101,47 @@ mkdir -p "$stage/input" "$stage/output/docs/verification_v08" "$stage/output/ger
 # Use one immutable snapshot for all checks and outputs, with a matching sibling
 # schematic so KiCad's --schematic-parity cannot silently check an unrelated file.
 "$BOM_PYTHON" - "$board" "$schematic" "$stage/input" <<'PY'
-import json, hashlib, shutil, sys
+import json, hashlib, re, shutil, sys
 from pathlib import Path
 board, schematic, target = map(lambda x: Path(x).resolve(), sys.argv[1:])
+manifest = {}
+
+def copy_dependency(source, dest):
+    if source.is_dir():
+        shutil.copytree(source, dest)
+        files = sorted(p for p in source.rglob('*') if p.is_file())
+    else:
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, dest)
+        files = [source]
+    for path in files:
+        manifest[str(path)] = hashlib.sha256(path.read_bytes()).hexdigest()
+
 for source, name in [(board, 'ppg_pcb_v08.kicad_pcb'), (schematic, 'ppg_pcb_v08.kicad_sch')]:
-    shutil.copy2(source, target / name)
+    copy_dependency(source, target / name)
 project = board.with_suffix('.kicad_pro')
 if not project.is_file():
     project = schematic.with_suffix('.kicad_pro')
 if project.is_file():
-    shutil.copy2(project, target / 'ppg_pcb_v08.kicad_pro')
+    copy_dependency(project, target / 'ppg_pcb_v08.kicad_pro')
 custom_rules = board.with_suffix('.kicad_dru')
 if custom_rules.is_file():
-    shutil.copy2(custom_rules, target / 'ppg_pcb_v08.kicad_dru')
-for directory in {board.parent, schematic.parent}:
+    copy_dependency(custom_rules, target / 'ppg_pcb_v08.kicad_dru')
+for directory in dict.fromkeys((board.parent, schematic.parent)):
     for source in directory.iterdir():
-        if source.name in {'fp-lib-table', 'sym-lib-table'} or source.suffix in {'.pretty', '.kicad_sym', '.kicad_wks'}:
+        if source.name in {'fp-lib-table', 'sym-lib-table'} or source.suffix in {'.pretty', '.3dshapes', '.kicad_sym', '.kicad_wks'}:
             dest = target / source.name
             if not dest.exists():
-                if source.is_dir():
-                    shutil.copytree(source, dest)
-                else:
-                    shutil.copy2(source, dest)
-manifest = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in (board, schematic)}
-if project.is_file():
-    manifest[str(project)] = hashlib.sha256(project.read_bytes()).hexdigest()
-if custom_rules.is_file():
-    manifest[str(custom_rules)] = hashlib.sha256(custom_rules.read_bytes()).hexdigest()
+                copy_dependency(source, dest)
+# Keep project-relative datasheets valid beside both the snapshot and rebuilt PCB.
+for relative in sorted(set(re.findall(
+        r'\(property\s+"Datasheet"\s+"\$\{KIPRJMOD\}/(\.\./datasheet/[^"\r\n]+\.pdf)"',
+        schematic.read_text(encoding='utf-8')))):
+    source = (schematic.parent / relative).resolve()
+    dest = (target / relative).resolve()
+    if not dest.is_relative_to(target.parent / 'datasheet'):
+        raise SystemExit(f'Unsupported local datasheet path: {relative}')
+    copy_dependency(source, dest)
 (target / 'source_sha256.json').write_text(json.dumps(manifest, indent=2) + '\n')
 PY
 work_board="$stage/input/ppg_pcb_v08.kicad_pcb"
@@ -149,14 +163,38 @@ fi
 # Refill the staged board once; checks and exports use this same final input.
 "$KICAD_PYTHON" - "$work_board" <<'PY'
 import pcbnew, sys
+from pathlib import Path
+project = Path(sys.argv[1]).with_suffix('.kicad_pro')
+project_bytes = project.read_bytes() if project.is_file() else None
 board = pcbnew.LoadBoard(sys.argv[1])
 if any(zone.GetLayer() == pcbnew.In2_Cu for zone in board.Zones()):
     raise SystemExit('In2.Cu must use broad 3V3 traces, without a pour')
 pcbnew.ZONE_FILLER(board).Fill(board.Zones())
-pcbnew.SaveBoard(sys.argv[1], board)
+try:
+    pcbnew.SaveBoard(sys.argv[1], board)
+finally:
+    # pcbnew may rewrite project defaults while saving the board.
+    if project_bytes is not None:
+        project.write_bytes(project_bytes)
+PY
+"$KICAD_CLI" sch erc --severity-all --format json -o "$reports/erc.json" "$work_schematic"
+"$BOM_PYTHON" - "$reports/erc.json" <<'PY'
+import json, sys
+from pathlib import Path
+report = json.loads(Path(sys.argv[1]).read_text())
+if 'sheets' not in report:
+    raise SystemExit('ERC report is incomplete')
+violations = [item for sheet in report['sheets'] for item in sheet.get('violations', [])]
+errors = [item for item in violations if item.get('severity') == 'error']
+print(f'ERC: {len(errors)} errors, {len(violations) - len(errors)} other findings')
+if errors:
+    raise SystemExit(1)
 PY
 "$KICAD_PYTHON" "$script_dir/netcheck_v08.py" "$work_board" \
     --schematic "$work_schematic" --json "$reports/netcheck.json"
+"$KICAD_PYTHON" "$script_dir/verify_mcp1703a_v08.py" \
+    --board "$work_board" --schematic "$work_schematic" \
+    --library "$stage/input/SleepBud.pretty" --json "$reports/mcp1703a.json"
 # Report warnings, but fail on errors, any missing connection, or any parity
 # issue. KiCad exit 5 can reflect warnings only, so inspect the complete JSON.
 drc_status=0
@@ -221,8 +259,16 @@ if sys.argv[3] == '1':
     candidate = artifacts / 'rebuilt'
     candidate.mkdir()
     for path in (stage / 'input').iterdir():
-        if path.suffix in {'.kicad_pcb', '.kicad_sch', '.kicad_pro', '.kicad_dru', '.kicad_wks', '.dsn', '.ses'}:
-            shutil.copy2(path, candidate / path.name)
+        if path.name in {'fp-lib-table', 'sym-lib-table'} or path.suffix in {
+            '.kicad_pcb', '.kicad_sch', '.kicad_pro', '.kicad_dru', '.kicad_wks',
+            '.dsn', '.ses', '.pretty', '.3dshapes', '.kicad_sym',
+        }:
+            if path.is_dir():
+                shutil.copytree(path, candidate / path.name)
+            else:
+                shutil.copy2(path, candidate / path.name)
+    if (stage / 'datasheet').is_dir():
+        shutil.copytree(stage / 'datasheet', artifacts / 'datasheet')
 manifest = {str(path.relative_to(artifacts)): hashlib.sha256(path.read_bytes()).hexdigest()
             for path in sorted(artifacts.rglob('*')) if path.is_file()}
 (artifacts / 'docs' / 'verification_v08' / 'output_sha256.json').write_text(json.dumps(manifest, indent=2) + '\n')

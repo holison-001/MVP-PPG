@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "source_file": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\verification_rs422_no_bus_tvs\\placement\\geometry.json",
+  "source_sha256": "63d03c412879acd666fc74a9c00622660b6d7b8aec6d24d148f3a6ac3bd49c17",
+  "output_file": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\mc-fix\\validation\\geometry_mc_reference.json",
+  "output_sha256": "ebd81dda6a8f7d2e738a5efe1d7a8f8bbe5eaf74ee2eace08e42754e3845d26b",
+  "changed_references": [
+    "U4",
+    "U5"
+  ],
+  "other_reference_count_preserved": 34,
+  "approved_source_library": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\SleepBud.pretty\\MCP1703A_MC_DFN8_3x2mm_P0.5mm.kicad_mod",
+  "library_sha256": "d66ca8f723c98ffeea088cf62b78aba843eb3b2bda31467395c509fe88d3e623",
+  "manufacturer_geometry_check": "pass",
+  "copper_area_mm2": 4.584914236672,
+  "body_area_mm2": 6.0,
+  "courtyard_area_mm2": 11.0,
+  "body_model": "full 3.00x2.00 mm manufacturer rectangle, including the decorative Fab chamfer corner",
+  "board_geometry_used_as_reference": false
+}
