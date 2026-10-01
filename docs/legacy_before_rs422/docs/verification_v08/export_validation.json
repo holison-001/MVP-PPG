@@ -1,0 +1,41 @@
+{
+  "gerber_zip_files": 18,
+  "position_rows": 35,
+  "top_references": [
+    "U1"
+  ],
+  "bom_groups": 16,
+  "bom_references": 35,
+  "output_checksums_verified": 33,
+  "source_hashes_unchanged": 3,
+  "result": "PASS for fabrication outputs; STEP nominal KiCad representation has 0.809999 mm measured outer Z span",
+  "nominal_board_thickness_mm": 0.8,
+  "gerber_job_board_thickness_mm": 0.8,
+  "step_file": "docs/ppg_pcb_v08_board_only.step",
+  "step_export_options": [
+    "--no-components",
+    "--include-tracks",
+    "--include-pads",
+    "--include-zones",
+    "--include-soldermask",
+    "--cut-vias-in-body",
+    "--no-extra-pad-thickness",
+    "--force"
+  ],
+  "step_brep_vertex_z_min_mm": -0.05,
+  "step_brep_vertex_z_max_mm": 0.759999,
+  "step_note": "No component models. KiCad default board body, outer copper/pads/vias, zones and soldermask exported, with visual extra pad thickness disabled. Measured STEP all-solid vertex Z span is 0.809999 mm; source PCB and Gerber job nominal thickness are 0.8 mm. The STEP uses KiCad default layer/coating representation and is not a verified 0.8 mm finished-board envelope or vendor production stackup.",
+  "drc_errors": 0,
+  "drc_unconnected": 0,
+  "drc_schematic_parity": 0,
+  "drc_warnings": 6,
+  "step_all_solids_z_span_mm": 0.809999,
+  "step_solid_count": 220,
+  "step_nominal_thickness_matches": false,
+  "routing": {
+    "F.Cu": 30,
+    "via": 34,
+    "B.Cu": 153
+  },
+  "inner_layer_track_count": 0
+}

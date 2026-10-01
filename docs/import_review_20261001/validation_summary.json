@@ -1,0 +1,237 @@
+{
+  "checked_at_utc": "2026-10-01T13:56:10.399472+00:00",
+  "scope": "Independent validation of ZIP 1fee929 snapshot; preservation/import review, not fabrication approval",
+  "input_directory": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-1fee929\\MVP-PPG",
+  "input_files": 375,
+  "source_files_unchanged": true,
+  "source_changed_files": [],
+  "runs": {
+    "baseline": {
+      "freshly_rerun": true,
+      "kicad_version": "10.0.6",
+      "ERC": {
+        "error_count": 0,
+        "warning_count": 0,
+        "violation_types": {}
+      },
+      "DRC": {
+        "error_count": 0,
+        "warning_count": 5,
+        "unconnected_count": 0,
+        "schematic_parity_count": 0,
+        "violation_types": {
+          "silk_edge_clearance": 4,
+          "lib_footprint_mismatch": 1
+        }
+      },
+      "refill_zones": true,
+      "custom_rules_preserved": true,
+      "cli_exit_codes": {
+        "erc": 0,
+        "drc": 0
+      }
+    },
+    "strict": {
+      "freshly_rerun": true,
+      "kicad_version": "10.0.6",
+      "ERC": {
+        "error_count": 0,
+        "warning_count": 0,
+        "violation_types": {}
+      },
+      "DRC": {
+        "error_count": 0,
+        "warning_count": 48,
+        "unconnected_count": 0,
+        "schematic_parity_count": 0,
+        "violation_types": {
+          "track_not_centered_on_via": 34,
+          "missing_courtyard": 9,
+          "silk_edge_clearance": 4,
+          "lib_footprint_mismatch": 1
+        }
+      },
+      "refill_zones": true,
+      "custom_rules_preserved": true,
+      "cli_exit_codes": {
+        "erc": 0,
+        "drc": 0
+      }
+    }
+  },
+  "strict_settings_changes": {
+    "erc": {
+      "restored": {
+        "footprint_filter": "ignore",
+        "four_way_junction": "ignore",
+        "simulation_model_issue": "ignore",
+        "single_global_label": "ignore"
+      },
+      "removed_exclusions": []
+    },
+    "drc": {
+      "restored": {
+        "footprint_filters_mismatch": "ignore",
+        "footprint_type_mismatch": "ignore",
+        "missing_courtyard": "ignore",
+        "track_not_centered_on_via": "ignore",
+        "tuning_profile_track_geometries": "ignore"
+      },
+      "removed_exclusions": []
+    }
+  },
+  "netcheck": {
+    "freshly_rerun": true,
+    "ok": true,
+    "footprints": 37,
+    "schematic_components": 37,
+    "numbered_pads": 117,
+    "schematic_nets": 48,
+    "top_references": [
+      "U1"
+    ],
+    "board_thickness_mm": 0.8,
+    "copper_layers": 4,
+    "outline_radius_mm": 6.75,
+    "board_center_on_sheet_mm": [
+      20.0,
+      17.0
+    ],
+    "sheet_size_mm": [
+      40.0,
+      40.0
+    ],
+    "routing": {
+      "F.Cu": 28,
+      "via": 59,
+      "B.Cu": 202,
+      "In1.Cu": 42,
+      "In2.Cu": 39
+    },
+    "errors": []
+  },
+  "independent_geometry_audit": {
+    "freshly_rerun": true,
+    "ok": true,
+    "errors": [],
+    "observations": [
+      "U3/C6 supply-pad separation exceeds 2 mm; assess loop using routed supply and ground-via locations"
+    ],
+    "track_count": 311,
+    "via_count": 59,
+    "minimum_copper_edge": {
+      "item": "via17",
+      "clearance_mm": 0.3021677176612787
+    },
+    "minimum_different_net_clearance_nominal": {
+      "items": [
+        "via47",
+        "track10"
+      ],
+      "nets": [
+        "/UART_TX",
+        "/SDA"
+      ],
+      "gap_mm": 0.1500000000000002
+    },
+    "zones": [
+      {
+        "layer": 0,
+        "layer_name": "F.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 102.63635313379474,
+        "minimum_edge_clearance_mm": 0.2006112725048146,
+        "required_edge_clearance_mm": 0.2,
+        "local_clearance_mm": 0.15
+      },
+      {
+        "layer": 4,
+        "layer_name": "In1.Cu",
+        "net": "GND",
+        "filled": true,
+        "filled_area_mm2": 88.03241082289547,
+        "minimum_edge_clearance_mm": 0.30061144641757576,
+        "required_edge_clearance_mm": 0.3,
+        "local_clearance_mm": 0.2
+      }
+    ],
+    "courtyard_overlap_count": 0,
+    "body_overlap_count": 0,
+    "limitation": "Re-execution of supplied audit algorithm against frozen placement geometry does not establish component package compatibility or fabrication readiness."
+  },
+  "known_fabrication_blockers": [
+    "U4/U5 MCP1703A /MC remain assigned to DDB-style DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm footprint, inconsistent with Microchip MC package geometry. No design correction was made in this review."
+  ],
+  "not_generated": [
+    "Gerber",
+    "drill",
+    "BOM",
+    "positions",
+    "STEP",
+    "renders"
+  ],
+  "historical_reports_used_as_authority": false,
+  "artifacts": {
+    "baseline_erc.json": {
+      "sha256": "ddafb76b7f9637b696ff490c33a0e40aae4f456b4ad81bd525f8b6c458c4b06f",
+      "bytes": 1042
+    },
+    "baseline_erc.log": {
+      "sha256": "4b599777cb6f45fd8c442271979d6417ae49a3ea688eb33bfecace13ce85291c",
+      "bytes": 77
+    },
+    "baseline_drc.json": {
+      "sha256": "4aed88f363c654d6bc01b6d982d7936418e0d73af1aee9c661a3ff4d0055ee0d",
+      "bytes": 4944
+    },
+    "baseline_drc.log": {
+      "sha256": "c57ec1353a08389fc9529255e9a5613bab1276c859828c2fd20c698a77a337ce",
+      "bytes": 146
+    },
+    "strict_erc.json": {
+      "sha256": "5772c72c6578865e2d1a6963f55c3dfbef4bd6d760ce8da7b68bd04b7e2d9a11",
+      "bytes": 495
+    },
+    "strict_erc.log": {
+      "sha256": "e57e4554adaa113521070d569e5054eba29e8a87c599efef736fe85145b4d6d8",
+      "bytes": 75
+    },
+    "strict_drc.json": {
+      "sha256": "8c8ec7a73df4543258b9289fc2469626c0ca7ee4a198a4f1709a16ae98f441c3",
+      "bytes": 37015
+    },
+    "strict_drc.log": {
+      "sha256": "489c69511327b08b6764c25436d32210953b700e97a6f6fa1d73d87b20820e05",
+      "bytes": 145
+    },
+    "netcheck.json": {
+      "sha256": "9aa6f19a61c71c87dd324302ec791e795838633b283633ec5027197e6c5df164",
+      "bytes": 1186
+    },
+    "netcheck.log": {
+      "sha256": "18f8eba14c228b19de61a80fc70743996a8ceb108089f02de0af10acace413b0",
+      "bytes": 161
+    },
+    "independent_audit.json": {
+      "sha256": "2fd68f36399b369c4b464eaf27451f226aaa252039e4cbe3fe598c0dc50bcc4f",
+      "bytes": 153487
+    },
+    "independent_audit.log": {
+      "sha256": "e5436649693940886f7cd204f0fa720a057e16f26be354ca5b78e472000cc377",
+      "bytes": 5043
+    },
+    "strict_settings_changes.json": {
+      "sha256": "a69d9ca1efb506389beb43d62c43e33e1ccf6a727d4c8f63d35812b8e0ac0b72",
+      "bytes": 538
+    },
+    "source_sha256_before.json": {
+      "sha256": "18dbfa1f86db37a8c14b7b8bb0ef45affdfe8f4d826389d20fc64eb01293362e",
+      "bytes": 48201
+    },
+    "commands.json": {
+      "sha256": "fdba7b9a1aba888e1bf3bc0517b4e58b21bf2d3d3210e49456dda21a4f384099",
+      "bytes": 3404
+    }
+  }
+}

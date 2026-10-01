@@ -1,0 +1,884 @@
+[
+  {
+    "ref": "U1",
+    "value": "MAXM86161EFD+",
+    "library": "MAXM86161_OLGA-14",
+    "layer": "F.Cu",
+    "angle": 0.0,
+    "pads": [
+      {
+        "number": "1",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          15.2
+        ],
+        "net": "/SDA"
+      },
+      {
+        "number": "2",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          15.8
+        ],
+        "net": "/SCL"
+      },
+      {
+        "number": "3",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          16.4
+        ],
+        "net": "3V3"
+      },
+      {
+        "number": "4",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          17.0
+        ],
+        "net": "/VLDO"
+      },
+      {
+        "number": "5",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          17.599999
+        ],
+        "net": "5V_LED"
+      },
+      {
+        "number": "6",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          18.2
+        ],
+        "net": "unconnected-(U1-NC-Pad6)"
+      },
+      {
+        "number": "7",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          19.05,
+          18.799999
+        ],
+        "net": "unconnected-(U1-NC-Pad7)"
+      },
+      {
+        "number": "8",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          18.799999
+        ],
+        "net": "unconnected-(U1-NC-Pad8)"
+      },
+      {
+        "number": "9",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          18.2
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "10",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          17.599999
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "11",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          17.0
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "12",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          16.4
+        ],
+        "net": "/VREF"
+      },
+      {
+        "number": "13",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          15.8
+        ],
+        "net": "unconnected-(U1-GPIO-Pad13)"
+      },
+      {
+        "number": "14",
+        "size_mm": [
+          0.66,
+          0.4
+        ],
+        "xy_mm": [
+          20.95,
+          15.2
+        ],
+        "net": "unconnected-(U1-INTB-Pad14)"
+      }
+    ],
+    "models": []
+  },
+  {
+    "ref": "U3",
+    "value": "XR33194",
+    "library": "TSOT23-6_MaxLinear",
+    "layer": "B.Cu",
+    "angle": 45.0,
+    "pads": [
+      {
+        "number": "1",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          22.379523,
+          14.88778
+        ],
+        "net": "/UART_TX"
+      },
+      {
+        "number": "2",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          21.707772,
+          14.216028
+        ],
+        "net": "3V3"
+      },
+      {
+        "number": "3",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          21.03602,
+          13.544277
+        ],
+        "net": "3V3"
+      },
+      {
+        "number": "4",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          22.733077,
+          11.84722
+        ],
+        "net": "/TXN_DRV"
+      },
+      {
+        "number": "5",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          23.404828,
+          12.518972
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "6",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          24.07658,
+          13.190723
+        ],
+        "net": "/TXP_DRV"
+      }
+    ],
+    "models": []
+  },
+  {
+    "ref": "U2",
+    "value": "STM32C011F6U6",
+    "library": "ST_UFQFPN-20_3x3mm_P0.5mm",
+    "layer": "B.Cu",
+    "angle": 90.0,
+    "pads": [
+      {
+        "number": "1",
+        "size_mm": [
+          0.35,
+          0.3
+        ],
+        "xy_mm": [
+          21.1419,
+          18.7499
+        ],
+        "net": "unconnected-(U2-PC15-Pad1)"
+      },
+      {
+        "number": "2",
+        "size_mm": [
+          0.7,
+          0.3
+        ],
+        "xy_mm": [
+          20.6419,
+          18.5749
+        ],
+        "net": "3V3"
+      },
+      {
+        "number": "3",
+        "size_mm": [
+          0.7,
+          0.3
+        ],
+        "xy_mm": [
+          20.1419,
+          18.5749
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "4",
+        "size_mm": [
+          0.7,
+          0.3
+        ],
+        "xy_mm": [
+          19.6419,
+          18.5749
+        ],
+        "net": "/NRST"
+      },
+      {
+        "number": "5",
+        "size_mm": [
+          0.35,
+          0.3
+        ],
+        "xy_mm": [
+          19.1419,
+          18.7499
+        ],
+        "net": "unconnected-(U2-PA0-Pad5)"
+      },
+      {
+        "number": "6",
+        "size_mm": [
+          0.3,
+          0.35
+        ],
+        "xy_mm": [
+          18.6669,
+          18.2749
+        ],
+        "net": "unconnected-(U2-PA1-Pad6)"
+      },
+      {
+        "number": "7",
+        "size_mm": [
+          0.3,
+          0.7
+        ],
+        "xy_mm": [
+          18.8419,
+          17.7749
+        ],
+        "net": "unconnected-(U2-PA2-Pad7)"
+      },
+      {
+        "number": "8",
+        "size_mm": [
+          0.3,
+          0.7
+        ],
+        "xy_mm": [
+          18.8419,
+          17.2749
+        ],
+        "net": "unconnected-(U2-PA3-Pad8)"
+      },
+      {
+        "number": "9",
+        "size_mm": [
+          0.3,
+          0.7
+        ],
+        "xy_mm": [
+          18.8419,
+          16.7749
+        ],
+        "net": "unconnected-(U2-PA4-Pad9)"
+      },
+      {
+        "number": "10",
+        "size_mm": [
+          0.3,
+          0.35
+        ],
+        "xy_mm": [
+          18.6669,
+          16.2749
+        ],
+        "net": "unconnected-(U2-PA5-Pad10)"
+      },
+      {
+        "number": "11",
+        "size_mm": [
+          0.35,
+          0.3
+        ],
+        "xy_mm": [
+          19.1419,
+          15.7999
+        ],
+        "net": "unconnected-(U2-PA6-Pad11)"
+      },
+      {
+        "number": "12",
+        "size_mm": [
+          0.7,
+          0.3
+        ],
+        "xy_mm": [
+          19.6419,
+          15.9749
+        ],
+        "net": "unconnected-(U2-PA7-Pad12)"
+      },
+      {
+        "number": "13",
+        "size_mm": [
+          0.7,
+          0.3
+        ],
+        "xy_mm": [
+          20.1419,
+          15.9749
+        ],
+        "net": "unconnected-(U2-PA8-Pad13)"
+      },
+      {
+        "number": "14",
+        "size_mm": [
+          0.7,
+          0.3
+        ],
+        "xy_mm": [
+          20.6419,
+          15.9749
+        ],
+        "net": "/UART_TX"
+      },
+      {
+        "number": "15",
+        "size_mm": [
+          0.35,
+          0.3
+        ],
+        "xy_mm": [
+          21.1419,
+          15.7999
+        ],
+        "net": "/UART_RX"
+      },
+      {
+        "number": "16",
+        "size_mm": [
+          0.3,
+          0.35
+        ],
+        "xy_mm": [
+          21.6169,
+          16.2749
+        ],
+        "net": "/SWDIO"
+      },
+      {
+        "number": "17",
+        "size_mm": [
+          0.3,
+          0.7
+        ],
+        "xy_mm": [
+          21.4419,
+          16.7749
+        ],
+        "net": "/SWCLK"
+      },
+      {
+        "number": "18",
+        "size_mm": [
+          0.3,
+          0.7
+        ],
+        "xy_mm": [
+          21.4419,
+          17.2749
+        ],
+        "net": "/SCL"
+      },
+      {
+        "number": "19",
+        "size_mm": [
+          0.3,
+          0.7
+        ],
+        "xy_mm": [
+          21.4419,
+          17.7749
+        ],
+        "net": "/SDA"
+      },
+      {
+        "number": "20",
+        "size_mm": [
+          0.3,
+          0.35
+        ],
+        "xy_mm": [
+          21.6169,
+          18.2749
+        ],
+        "net": "unconnected-(U2-PC14-Pad20)"
+      }
+    ],
+    "models": [
+      "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/ST_UFQFPN-20_3x3mm_P0.5mm.step"
+    ]
+  },
+  {
+    "ref": "U4",
+    "value": "MCP1703A-5002E/MC",
+    "library": "DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm",
+    "layer": "B.Cu",
+    "angle": 180.0,
+    "pads": [
+      {
+        "number": "",
+        "size_mm": [
+          0.49,
+          0.89
+        ],
+        "xy_mm": [
+          18.3257,
+          22.0939
+        ],
+        "net": ""
+      },
+      {
+        "number": "",
+        "size_mm": [
+          0.49,
+          0.89
+        ],
+        "xy_mm": [
+          18.3257,
+          20.9939
+        ],
+        "net": ""
+      },
+      {
+        "number": "1",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          19.2657,
+          20.7939
+        ],
+        "net": "5V_LED"
+      },
+      {
+        "number": "2",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          19.2657,
+          21.2939
+        ],
+        "net": "unconnected-(U4-NC-Pad2)"
+      },
+      {
+        "number": "3",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          19.2657,
+          21.7939
+        ],
+        "net": "unconnected-(U4-NC-Pad3)"
+      },
+      {
+        "number": "4",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          19.2657,
+          22.2939
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "5",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          17.3857,
+          22.2939
+        ],
+        "net": "unconnected-(U4-NC-Pad5)"
+      },
+      {
+        "number": "6",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          17.3857,
+          21.7939
+        ],
+        "net": "unconnected-(U4-NC-Pad6)"
+      },
+      {
+        "number": "7",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          17.3857,
+          21.2939
+        ],
+        "net": "unconnected-(U4-NC-Pad7)"
+      },
+      {
+        "number": "8",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          17.3857,
+          20.7939
+        ],
+        "net": "12V"
+      },
+      {
+        "number": "9",
+        "size_mm": [
+          0.61,
+          2.2
+        ],
+        "xy_mm": [
+          18.3257,
+          21.5439
+        ],
+        "net": "GND"
+      }
+    ],
+    "models": [
+      "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm.step"
+    ]
+  },
+  {
+    "ref": "U6",
+    "value": "XR33183",
+    "library": "TSOT23-6_MaxLinear",
+    "layer": "B.Cu",
+    "angle": 180.0,
+    "pads": [
+      {
+        "number": "1",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          19.01,
+          12.8163
+        ],
+        "net": "3V3"
+      },
+      {
+        "number": "2",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          19.01,
+          13.7663
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "3",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          19.01,
+          14.7163
+        ],
+        "net": "/UART_RX"
+      },
+      {
+        "number": "4",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          16.61,
+          14.7163
+        ],
+        "net": "/RXN_RCV"
+      },
+      {
+        "number": "5",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          16.61,
+          13.7663
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "6",
+        "size_mm": [
+          0.8,
+          0.63
+        ],
+        "xy_mm": [
+          16.61,
+          12.8163
+        ],
+        "net": "/RXP_RCV"
+      }
+    ],
+    "models": []
+  },
+  {
+    "ref": "U5",
+    "value": "MCP1703A-3302E/MC",
+    "library": "DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm",
+    "layer": "B.Cu",
+    "angle": 45.0,
+    "pads": [
+      {
+        "number": "",
+        "size_mm": [
+          0.49,
+          0.89
+        ],
+        "xy_mm": [
+          22.395891,
+          20.745891
+        ],
+        "net": ""
+      },
+      {
+        "number": "",
+        "size_mm": [
+          0.49,
+          0.89
+        ],
+        "xy_mm": [
+          23.173709,
+          21.523709
+        ],
+        "net": ""
+      },
+      {
+        "number": "1",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          22.65045,
+          22.32981
+        ],
+        "net": "3V3"
+      },
+      {
+        "number": "2",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          22.296896,
+          21.976257
+        ],
+        "net": "unconnected-(U5-NC-Pad2)"
+      },
+      {
+        "number": "3",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          21.943343,
+          21.622704
+        ],
+        "net": "unconnected-(U5-NC-Pad3)"
+      },
+      {
+        "number": "4",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          21.58979,
+          21.26915
+        ],
+        "net": "GND"
+      },
+      {
+        "number": "5",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          22.91915,
+          19.93979
+        ],
+        "net": "unconnected-(U5-NC-Pad5)"
+      },
+      {
+        "number": "6",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          23.272704,
+          20.293343
+        ],
+        "net": "unconnected-(U5-NC-Pad6)"
+      },
+      {
+        "number": "7",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          23.626257,
+          20.646896
+        ],
+        "net": "unconnected-(U5-NC-Pad7)"
+      },
+      {
+        "number": "8",
+        "size_mm": [
+          0.87,
+          0.25
+        ],
+        "xy_mm": [
+          23.97981,
+          21.00045
+        ],
+        "net": "5V_LED"
+      },
+      {
+        "number": "9",
+        "size_mm": [
+          0.61,
+          2.2
+        ],
+        "xy_mm": [
+          22.7848,
+          21.1348
+        ],
+        "net": "GND"
+      }
+    ],
+    "models": [
+      "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm.step"
+    ]
+  }
+]

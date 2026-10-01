@@ -1,0 +1,29 @@
+﻿No.,레퍼런스,수량,값,MPN,제조사,패키지,참고 데이터시트,비고
+1,C1,1,10u/6.3V/X5R,,,0402 (1005),,"MPN 미확정. 기존 BOM 예시: GRM155R60J106ME47
+데이터시트 미연결"
+2,"C4, C5, C12, C14",4,1u/6.3V/X5R,,,0201 (0603),,"기존 v0.8 BOM의 X5R
+MPN 미확정. 기존 BOM 예시: GRM033R60J105MEA2
+데이터시트 미연결"
+3,"C6, C7, C11",3,100n/16V/X7R,,,0201 (0603),,"기존 v0.8 BOM의 16V/X7R
+MPN 미확정. 기존 BOM 예시: GRM033R71C104KE14
+데이터시트 미연결"
+4,C13,1,1u/25V/X7R,,,0402 (1005),,"MPN 미확정. 기존 예시 GRM155R61E105KA12는 X7R 적합성 확인 필요
+데이터시트 미연결"
+5,D1,1,SPHV15-01ETG,SPHV15-01ETG,Littelfuse,"SOD-882, 1.0 × 0.6 mm",littelfuse_tvs_diode_array_sphv_datasheet.pdf,
+6,"D2, D3, D4, D5, D6, D7, D8",7,ESD351DPYR,ESD351DPYR,Texas Instruments,"DFN1006-2 (DPY), 1.0 × 0.6 mm",esd351.pdf,
+7,FB1,1,600Ω@100MHz/0.9A,BLM15PX601SN1D,Murata,0402 (1005),,"정격 0.9A @85°C, DCR 최대 0.23Ω
+PDF 미연결(제조사 제품 페이지)"
+8,"J1, J2, J3, J4, J5, J6",6,케이블 납땜 패드,,,구리 납땜 패드 Ø1.2 mm,,"구리 패드 — 구매 부품 아님
+J1=12V; J2=GND; J3=TXP; J4=TXN; J5=RXP; J6=RXN"
+9,"J7, J8, J9",3,SWD 테스트패드,,,구리 테스트패드 Ø0.8 mm,,"구리 패드 — 구매 부품 아님
+J7=SWDIO; J8=SWCLK; J9=NRST"
+10,"R1, R2",2,4.7k/1%,,,0201 (0603),,"기존 v0.8 BOM의 1%
+MPN 미확정
+데이터시트 미연결"
+11,U1,1,MAXM86161EFD+,MAXM86161EFD+,Analog Devices (Maxim),"OLGA-14, 2.9 × 4.3 mm",,"기존 BOM: 지급품(consigned)
+데이터시트 미연결"
+12,U2,1,STM32C011F6U6,STM32C011F6U6,STMicroelectronics,"UFQFPN-20, 3 × 3 mm, P0.5 mm",,데이터시트 미연결
+13,U3,1,SN65LVDS1DBVR,SN65LVDS1DBVR,Texas Instruments,SOT-23-5,,데이터시트 미연결
+14,U4,1,MCP1703A-5002E/MC,MCP1703A-5002E/MC,Microchip,"DFN-8, 2 × 3 mm, P0.5 mm (노출패드)",20005122B.pdf,데이터시트: 저장소 README 링크 기준
+15,U5,1,MCP1703A-3302E/MC,MCP1703A-3302E/MC,Microchip,"DFN-8, 2 × 3 mm, P0.5 mm (노출패드)",20005122B.pdf,데이터시트: 저장소 README 링크 기준
+16,U6,1,SN65LVDT2DBVR,SN65LVDT2DBVR,Texas Instruments,SOT-23-5,,데이터시트 미연결

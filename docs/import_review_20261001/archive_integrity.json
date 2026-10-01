@@ -1,0 +1,18 @@
+{
+  "manifests": [
+    {
+      "manifest": "docs/verification_rs422_no_bus_tvs/final_source_manifest.json",
+      "checked": 36,
+      "mismatches": []
+    },
+    {
+      "manifest": "docs/verification_rs422_no_bus_tvs/output_approval_status.json",
+      "checked": 23,
+      "mismatches": []
+    }
+  ],
+  "current_python_files": 14,
+  "python_syntax_errors": [],
+  "json_files": 113,
+  "json_errors": []
+}

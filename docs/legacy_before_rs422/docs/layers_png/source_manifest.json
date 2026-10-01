@@ -1,0 +1,28 @@
+{
+  "pcb": "../../kicad/ppg_pcb_v08.kicad_pcb",
+  "pcb_sha256": "03709b49341c3901012be2a3edece03c8007b1238ee3284406bd707d44844c5a",
+  "orientation": "top_view_not_mirrored",
+  "files": {
+    "01_F_Cu_TOP.png": {
+      "size": [
+        1800,
+        1800
+      ],
+      "sha256": "eab8e3a2bd347abf6e7f06a59e77c833043ae7699de4b311d9063d12f63b59f0"
+    },
+    "02_In1_Cu_GND.png": {
+      "size": [
+        1800,
+        1800
+      ],
+      "sha256": "3c9f2f227a4da042d0cf1a5c8a6327de171bd8500965a13325ca108964d36c38"
+    },
+    "03_In2_Cu_3V3.png": {
+      "size": [
+        1800,
+        1800
+      ],
+      "sha256": "bd65c77a9a14cc32080eb4558d046a0c3afa1da20ccd7f518a160691c2c4c4c3"
+    }
+  }
+}

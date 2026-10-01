@@ -1,0 +1,8 @@
+{
+  "kicad/design_v08.py": "efcb217dbbe5dfada2540007e173c90ad0ebc1329dde3cd2a61fb4882e87ba75",
+  "kicad/build_sch_v08.py": "0a47b02e09c41eee433d18d24ae85eaa8b6925c7c63355f3348a456c59afe9bf",
+  "kicad/layout_schematic_v08.py": "48fe8f6ba16676e9b293fc2ac24e95a8924fafbbcbd6fef7b5a26e8b15d1dab2",
+  "kicad/SleepBud.kicad_sym": "442d836e9772364138b9ab5877259fbe735b40d037e8fae97d839fffd30f1df9",
+  "kicad/ppg_pcb_v08.kicad_sch": "8da52f8836ed38a992bb81c3dac533ed13456d98dff2146c7e0e05e2801b83ac",
+  "docs/verification_rs422_schematic/netlist.xml": "d99e8f96900aa48ec29e51bfb6a61c456b3472cc183d1494cbbca6e6ba0412f3"
+}

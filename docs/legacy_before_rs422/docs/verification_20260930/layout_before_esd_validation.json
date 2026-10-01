@@ -1,0 +1,21 @@
+{
+  "page": "A3 landscape",
+  "page_count": 1,
+  "component_count": 26,
+  "net_count_including_nc": 43,
+  "real_signal_and_power_nets": 17,
+  "all_net_memberships_preserved": true,
+  "component_and_pin_uuids_preserved": true,
+  "pcb_file_unchanged": true,
+  "erc_errors": 0,
+  "existing_footprint_warnings": 3,
+  "out_of_page_objects": 0,
+  "text_bounds_mm": [
+    10.22,
+    10.69,
+    409.51,
+    286.99
+  ],
+  "overlapping_pdf_words": [],
+  "generator_rebuild_preserves_layout_and_connectivity": true
+}

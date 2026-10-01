@@ -1,0 +1,8077 @@
+{
+  "ok": true,
+  "board": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "fe4fedb17c883859ff32d6b832b4597503495e0944457dd1095dcca32a195165",
+  "schematic": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_sch",
+  "schematic_sha256": "7bf915b613f4261651fa05a7ed240d80a060b91fc8e9959bb2b95b01d109cf2b",
+  "netcheck": {
+    "ok": true,
+    "footprints": 37,
+    "schematic_components": 37,
+    "numbered_pads": 117,
+    "schematic_nets": 48,
+    "top_references": [
+      "U1"
+    ],
+    "board_thickness_mm": 0.8,
+    "copper_layers": 4,
+    "outline_radius_mm": 6.75,
+    "board_center_on_sheet_mm": [
+      20.0,
+      17.0
+    ],
+    "sheet_size_mm": [
+      40.0,
+      40.0
+    ],
+    "routing": {
+      "F.Cu": 20,
+      "via": 62,
+      "B.Cu": 126,
+      "In1.Cu": 58,
+      "In2.Cu": 45
+    },
+    "inner_layer_track_count": 103,
+    "layer_policy": {
+      "ok": true,
+      "inner_layer_track_count": 103,
+      "in1_track_count": 58,
+      "in1_routed_nets": [
+        "/SDA",
+        "/SWDIO",
+        "/TXN_DRV",
+        "/TXP",
+        "/TXP_DRV",
+        "/UART_RX",
+        "/UART_TX",
+        "12V",
+        "3V3"
+      ],
+      "in2_3V3_track_count": 4,
+      "in2_3V3_widths_mm": [
+        0.4
+      ],
+      "errors": []
+    },
+    "errors": []
+  },
+  "u1": {
+    "position": [
+      0.0,
+      0.0
+    ],
+    "rotation": 0.0,
+    "layer": "F.Cu"
+  },
+  "track_count": 249,
+  "via_count": 62,
+  "track_width_min_mm": 0.1,
+  "via_diameter_drill_mm": [
+    [
+      0.5,
+      0.25
+    ]
+  ],
+  "zones": [
+    {
+      "layer": 0,
+      "layer_name": "F.Cu",
+      "net": "GND",
+      "filled": true,
+      "filled_area_mm2": 99.50536922168754,
+      "minimum_edge_clearance_mm": 0.2006112725048146,
+      "required_edge_clearance_mm": 0.2,
+      "local_clearance_mm": 0.15
+    },
+    {
+      "layer": 4,
+      "layer_name": "In1.Cu",
+      "net": "GND",
+      "filled": true,
+      "filled_area_mm2": 68.71203466715143,
+      "minimum_edge_clearance_mm": 0.30061144641757576,
+      "required_edge_clearance_mm": 0.3,
+      "local_clearance_mm": 0.2
+    }
+  ],
+  "minimum_copper_edge": {
+    "item": "FB1.2",
+    "clearance_mm": 0.30384742980691115
+  },
+  "minimum_different_net_clearance_nominal": {
+    "items": [
+      "track94",
+      "C4.1"
+    ],
+    "nets": [
+      "GND",
+      "/VLDO"
+    ],
+    "gap_mm": 0.14999999999999983
+  },
+  "via_drill_overlaps": [],
+  "same_net_via_overlaps": [],
+  "mechanical": {
+    "geometry_path": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\placement\\geometry.json",
+    "geometry_sha256": "ebd81dda6a8f7d2e738a5efe1d7a8f8bbe5eaf74ee2eace08e42754e3845d26b",
+    "copper_shape_changes": [],
+    "courtyard_overlap_pairs": [],
+    "body_overlap_pairs": [],
+    "body_edge_violations": []
+  },
+  "esd_ground_returns": {
+    "D1": {
+      "pad": "D1.2",
+      "net": "GND",
+      "pad_pos": [
+        -2.5552,
+        -5.4989
+      ],
+      "destination": "In1 ground plane",
+      "nearest_distribution_via_geometric_mm": 0.3206918302670025,
+      "target": [
+        "via",
+        22
+      ],
+      "length_mm": 0.3206918302670025,
+      "minimum_track_width_mm": null,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D1",
+            "2",
+            26
+          ],
+          "to": [
+            "via",
+            22
+          ],
+          "length_mm": 0.3206918302670025,
+          "width_mm": null,
+          "kind": "pad_via_copper_contact"
+        }
+      ],
+      "via_pos": [
+        -2.875,
+        -5.475
+      ],
+      "via_index": 22,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "via_in2_power_tracks": [],
+      "straight_distance_mm": 0.3206918302670025,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          22
+        ],
+        "length_mm": 0.32175915644347386,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D1",
+              "2",
+              26
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.7,
+              -5.475
+            ],
+            "length_mm": 0.14675915644347384,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.7,
+              -5.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.875,
+              -5.475
+            ],
+            "length_mm": 0.175,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.875,
+              -5.475
+            ],
+            "to": [
+              "via",
+              22
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          }
+        ]
+      }
+    },
+    "D6": {
+      "pad": "D6.2",
+      "net": "GND",
+      "pad_pos": [
+        -2.15,
+        5.45
+      ],
+      "destination": "In1 ground plane",
+      "nearest_distribution_via_geometric_mm": 0.8732124598286488,
+      "target": [
+        "via",
+        18
+      ],
+      "length_mm": 0.87321246,
+      "minimum_track_width_mm": 0.2,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D6",
+            "2",
+            48
+          ],
+          "to": [
+            "xy",
+            2,
+            -2.15,
+            5.45
+          ],
+          "length_mm": 0.0,
+          "width_mm": null,
+          "kind": "within_pad"
+        },
+        {
+          "from": [
+            "xy",
+            2,
+            -2.15,
+            5.45
+          ],
+          "to": [
+            "xy",
+            2,
+            -1.8,
+            4.65
+          ],
+          "length_mm": 0.87321246,
+          "width_mm": 0.2,
+          "kind": "track"
+        },
+        {
+          "from": [
+            "xy",
+            2,
+            -1.8,
+            4.65
+          ],
+          "to": [
+            "via",
+            18
+          ],
+          "length_mm": 0.0,
+          "width_mm": 0.2,
+          "kind": "within_via"
+        }
+      ],
+      "via_pos": [
+        -1.8,
+        4.65
+      ],
+      "via_index": 18,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "via_in2_power_tracks": [],
+      "straight_distance_mm": 0.8732124598286488,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          18
+        ],
+        "length_mm": 0.87321246,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D6",
+              "2",
+              48
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.15,
+              5.45
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.15,
+              5.45
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.8,
+              4.65
+            ],
+            "length_mm": 0.87321246,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.8,
+              4.65
+            ],
+            "to": [
+              "via",
+              18
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ]
+      }
+    },
+    "D7": {
+      "pad": "D7.2",
+      "net": "GND",
+      "pad_pos": [
+        3.775887,
+        -0.890713
+      ],
+      "destination": "In1 ground plane",
+      "nearest_distribution_via_geometric_mm": 0.7323136521586908,
+      "target": [
+        "via",
+        17
+      ],
+      "length_mm": 0.7386433429263739,
+      "minimum_track_width_mm": 0.2,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D7",
+            "2",
+            65
+          ],
+          "to": [
+            "xy",
+            2,
+            4.025,
+            -0.975
+          ],
+          "length_mm": 0.2629859029263739,
+          "width_mm": null,
+          "kind": "within_pad"
+        },
+        {
+          "from": [
+            "xy",
+            2,
+            4.025,
+            -0.975
+          ],
+          "to": [
+            "xy",
+            2,
+            4.5,
+            -1.0
+          ],
+          "length_mm": 0.47565744,
+          "width_mm": 0.2,
+          "kind": "track"
+        },
+        {
+          "from": [
+            "xy",
+            2,
+            4.5,
+            -1.0
+          ],
+          "to": [
+            "via",
+            17
+          ],
+          "length_mm": 0.0,
+          "width_mm": 0.2,
+          "kind": "within_via"
+        }
+      ],
+      "via_pos": [
+        4.5,
+        -1.0
+      ],
+      "via_index": 17,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "via_in2_power_tracks": [],
+      "straight_distance_mm": 0.7323136521586908,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          17
+        ],
+        "length_mm": 0.7386433429263739,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D7",
+              "2",
+              65
+            ],
+            "to": [
+              "xy",
+              2,
+              4.025,
+              -0.975
+            ],
+            "length_mm": 0.2629859029263739,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.025,
+              -0.975
+            ],
+            "to": [
+              "xy",
+              2,
+              4.5,
+              -1.0
+            ],
+            "length_mm": 0.47565744,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.5,
+              -1.0
+            ],
+            "to": [
+              "via",
+              17
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ]
+      }
+    },
+    "D8": {
+      "pad": "D8.2",
+      "net": "GND",
+      "pad_pos": [
+        -3.8523,
+        0.4077
+      ],
+      "destination": "In1 ground plane",
+      "nearest_distribution_via_geometric_mm": 0.4349650330773727,
+      "target": [
+        "via",
+        31
+      ],
+      "length_mm": 0.4349650330773727,
+      "minimum_track_width_mm": null,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D8",
+            "2",
+            42
+          ],
+          "to": [
+            "via",
+            31
+          ],
+          "length_mm": 0.4349650330773727,
+          "width_mm": null,
+          "kind": "pad_via_copper_contact"
+        }
+      ],
+      "via_pos": [
+        -3.975,
+        0.825
+      ],
+      "via_index": 31,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "via_in2_power_tracks": [],
+      "straight_distance_mm": 0.4349650330773727,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          31
+        ],
+        "length_mm": 0.446596354909266,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D8",
+              "2",
+              42
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.975,
+              0.65
+            ],
+            "length_mm": 0.27159635490926604,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.975,
+              0.65
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.975,
+              0.825
+            ],
+            "length_mm": 0.175,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.975,
+              0.825
+            ],
+            "to": [
+              "via",
+              31
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          }
+        ]
+      }
+    }
+  },
+  "decoupling": {
+    "U3": {
+      "capacitor": "C6",
+      "supply_pad_center_distance_mm": 3.404032305563506,
+      "routed_supply_path_including_In2": {
+        "target": [
+          "pad",
+          "C6",
+          "1",
+          20
+        ],
+        "length_mm": 4.008581025076898,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "2",
+              36
+            ],
+            "to": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "length_mm": 0.38348624586548097,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "to": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.989949494,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "via",
+              10
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              10
+            ],
+            "to": [
+              "xy",
+              6,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "xy",
+              6,
+              2.95,
+              -3.825
+            ],
+            "length_mm": 0.32596012,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.95,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              6,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 1.685415379,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "via",
+              11
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              11
+            ],
+            "to": [
+              "xy",
+              2,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "xy",
+              2,
+              4.85,
+              -3.05
+            ],
+            "length_mm": 0.369120577,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.85,
+              -3.05
+            ],
+            "to": [
+              "pad",
+              "C6",
+              "1",
+              20
+            ],
+            "length_mm": 0.2546492092114173,
+            "width_mm": null,
+            "kind": "within_pad"
+          }
+        ]
+      },
+      "ic_supply_to_distribution": {
+        "pad": "U3.2",
+        "net": "3V3",
+        "pad_pos": [
+          1.707772,
+          -2.783972
+        ],
+        "destination": "In2 broad 3V3 distribution",
+        "nearest_distribution_via_geometric_mm": 1.3688024330662185,
+        "target": [
+          "via",
+          10
+        ],
+        "length_mm": 1.373435739865481,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "2",
+              36
+            ],
+            "to": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "length_mm": 0.38348624586548097,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "to": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.989949494,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "via",
+              10
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          2.625,
+          -3.8
+        ],
+        "via_index": 10,
+        "via_plane_connections": [],
+        "via_in2_power_tracks": [
+          66,
+          67,
+          68
+        ],
+        "straight_distance_mm": 1.3688024330662185,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            10
+          ],
+          "length_mm": 1.373435739865481,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U3",
+                "2",
+                36
+              ],
+              "to": [
+                "xy",
+                2,
+                1.925,
+                -3.1
+              ],
+              "length_mm": 0.38348624586548097,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                1.925,
+                -3.1
+              ],
+              "to": [
+                "xy",
+                2,
+                2.625,
+                -3.8
+              ],
+              "length_mm": 0.989949494,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.625,
+                -3.8
+              ],
+              "to": [
+                "via",
+                10
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_supply_to_distribution": {
+        "pad": "C6.1",
+        "net": "3V3",
+        "pad_pos": [
+          5.103326,
+          -3.024074
+        ],
+        "destination": "In2 broad 3V3 distribution",
+        "nearest_distribution_via_geometric_mm": 0.6122354283704918,
+        "target": [
+          "via",
+          11
+        ],
+        "length_mm": 0.6237697862114173,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C6",
+              "1",
+              20
+            ],
+            "to": [
+              "xy",
+              2,
+              4.85,
+              -3.05
+            ],
+            "length_mm": 0.2546492092114173,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.85,
+              -3.05
+            ],
+            "to": [
+              "xy",
+              2,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 0.369120577,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "via",
+              11
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          4.525,
+          -3.225
+        ],
+        "via_index": 11,
+        "via_plane_connections": [],
+        "via_in2_power_tracks": [
+          66
+        ],
+        "straight_distance_mm": 0.6122354283704918,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            11
+          ],
+          "length_mm": 0.6237697862114173,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C6",
+                "1",
+                20
+              ],
+              "to": [
+                "xy",
+                2,
+                4.85,
+                -3.05
+              ],
+              "length_mm": 0.2546492092114173,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                4.85,
+                -3.05
+              ],
+              "to": [
+                "xy",
+                2,
+                4.525,
+                -3.225
+              ],
+              "length_mm": 0.369120577,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                4.525,
+                -3.225
+              ],
+              "to": [
+                "via",
+                11
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_ground_to_plane": {
+        "pad": "C6.2",
+        "net": "GND",
+        "pad_pos": [
+          5.555874,
+          -2.571526
+        ],
+        "destination": "In1 ground plane",
+        "nearest_distribution_via_geometric_mm": 0.4414949292483437,
+        "target": [
+          "via",
+          23
+        ],
+        "length_mm": 0.4414949292483437,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C6",
+              "2",
+              21
+            ],
+            "to": [
+              "via",
+              23
+            ],
+            "length_mm": 0.4414949292483437,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          5.75,
+          -2.175
+        ],
+        "via_index": 23,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "via_in2_power_tracks": [],
+        "straight_distance_mm": 0.4414949292483437,
+        "explicit_track_path": null
+      },
+      "ic_ground_to_plane": {
+        "pad": "U3.5",
+        "net": "GND",
+        "pad_pos": [
+          3.404828,
+          -4.481028
+        ],
+        "destination": "In1 ground plane",
+        "nearest_distribution_via_geometric_mm": 0.5678422724383946,
+        "target": [
+          "via",
+          28
+        ],
+        "length_mm": 0.5678422724383946,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "5",
+              39
+            ],
+            "to": [
+              "via",
+              28
+            ],
+            "length_mm": 0.5678422724383946,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          3.725,
+          -4.95
+        ],
+        "via_index": 28,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "via_in2_power_tracks": [],
+        "straight_distance_mm": 0.5678422724383946,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            28
+          ],
+          "length_mm": 0.5722622780090396,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U3",
+                "5",
+                39
+              ],
+              "to": [
+                "xy",
+                2,
+                3.6,
+                -4.825
+              ],
+              "length_mm": 0.3954855830090396,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                3.6,
+                -4.825
+              ],
+              "to": [
+                "xy",
+                2,
+                3.725,
+                -4.95
+              ],
+              "length_mm": 0.176776695,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                3.725,
+                -4.95
+              ],
+              "to": [
+                "via",
+                28
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      }
+    },
+    "U6": {
+      "capacitor": "C7",
+      "supply_pad_center_distance_mm": 1.2988209812564624,
+      "routed_supply_path_including_In2": {
+        "target": [
+          "pad",
+          "C7",
+          "1",
+          54
+        ],
+        "length_mm": 1.3714006468920121,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.125,
+              -4.475
+            ],
+            "length_mm": 0.0050000000000000044,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.125,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              0.05,
+              -4.475
+            ],
+            "length_mm": 0.175,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.05,
+              -4.475
+            ],
+            "to": [
+              "pad",
+              "C7",
+              "1",
+              54
+            ],
+            "length_mm": 0.23461970026406562,
+            "width_mm": null,
+            "kind": "within_pad"
+          }
+        ]
+      },
+      "ic_supply_to_distribution": {
+        "pad": "U6.1",
+        "net": "3V3",
+        "pad_pos": [
+          -0.99,
+          -4.1837
+        ],
+        "destination": "In2 broad 3V3 distribution",
+        "nearest_distribution_via_geometric_mm": 0.8810196876347316,
+        "target": [
+          "via",
+          9
+        ],
+        "length_mm": 1.0567809466279463,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "via",
+              9
+            ],
+            "length_mm": 0.09999999999999964,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          -0.13,
+          -4.375
+        ],
+        "via_index": 9,
+        "via_plane_connections": [],
+        "via_in2_power_tracks": [
+          68
+        ],
+        "straight_distance_mm": 0.8810196876347316,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            9
+          ],
+          "length_mm": 1.0567809466279463,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U6",
+                "1",
+                95
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.6,
+                -4.475
+              ],
+              "length_mm": 0.48678094662794663,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.6,
+                -4.475
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.13,
+                -4.475
+              ],
+              "length_mm": 0.47000000000000003,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.13,
+                -4.475
+              ],
+              "to": [
+                "via",
+                9
+              ],
+              "length_mm": 0.09999999999999964,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_supply_to_distribution": {
+        "pad": "C7.1",
+        "net": "3V3",
+        "pad_pos": [
+          0.282526,
+          -4.443726
+        ],
+        "destination": "In2 broad 3V3 distribution",
+        "nearest_distribution_via_geometric_mm": 0.4182116255581616,
+        "target": [
+          "via",
+          9
+        ],
+        "length_mm": 0.4182116255581616,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C7",
+              "1",
+              54
+            ],
+            "to": [
+              "via",
+              9
+            ],
+            "length_mm": 0.4182116255581616,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          -0.13,
+          -4.375
+        ],
+        "via_index": 9,
+        "via_plane_connections": [],
+        "via_in2_power_tracks": [
+          68
+        ],
+        "straight_distance_mm": 0.4182116255581616,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            9
+          ],
+          "length_mm": 0.5101147982640649,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C7",
+                "1",
+                54
+              ],
+              "to": [
+                "xy",
+                2,
+                0.05,
+                -4.475
+              ],
+              "length_mm": 0.23461970026406562,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.05,
+                -4.475
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.125,
+                -4.475
+              ],
+              "length_mm": 0.175,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.125,
+                -4.475
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.125,
+                -4.4
+              ],
+              "length_mm": 0.07499999999999929,
+              "width_mm": 0.2,
+              "kind": "copper_contact"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.125,
+                -4.4
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.13,
+                -4.375
+              ],
+              "length_mm": 0.025495098,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.13,
+                -4.375
+              ],
+              "to": [
+                "via",
+                9
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_ground_to_plane": {
+        "pad": "C7.2",
+        "net": "GND",
+        "pad_pos": [
+          0.735074,
+          -4.896274
+        ],
+        "destination": "In1 ground plane",
+        "nearest_distribution_via_geometric_mm": 0.3633391921497049,
+        "target": [
+          "via",
+          25
+        ],
+        "length_mm": 0.3633391921497049,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C7",
+              "2",
+              55
+            ],
+            "to": [
+              "via",
+              25
+            ],
+            "length_mm": 0.3633391921497049,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          0.475,
+          -5.15
+        ],
+        "via_index": 25,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "via_in2_power_tracks": [],
+        "straight_distance_mm": 0.3633391921497049,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            25
+          ],
+          "length_mm": 0.3633654635580247,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C7",
+                "2",
+                55
+              ],
+              "to": [
+                "xy",
+                2,
+                0.6,
+                -5.025
+              ],
+              "length_mm": 0.18658876855802467,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.6,
+                -5.025
+              ],
+              "to": [
+                "xy",
+                2,
+                0.475,
+                -5.15
+              ],
+              "length_mm": 0.176776695,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.475,
+                -5.15
+              ],
+              "to": [
+                "via",
+                25
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "ic_ground_to_plane": {
+        "pad": "U6.2",
+        "net": "GND",
+        "pad_pos": [
+          -0.99,
+          -3.2337
+        ],
+        "destination": "In1 ground plane",
+        "nearest_distribution_via_geometric_mm": 0.6602012496201441,
+        "target": [
+          "via",
+          30
+        ],
+        "length_mm": 0.66020125,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "2",
+              96
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.99,
+              -3.2337
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.99,
+              -3.2337
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.65,
+              -3.25
+            ],
+            "length_mm": 0.66020125,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.65,
+              -3.25
+            ],
+            "to": [
+              "via",
+              30
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          -1.65,
+          -3.25
+        ],
+        "via_index": 30,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "via_in2_power_tracks": [],
+        "straight_distance_mm": 0.6602012496201441,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            30
+          ],
+          "length_mm": 0.66020125,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U6",
+                "2",
+                96
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.99,
+                -3.2337
+              ],
+              "length_mm": 0.0,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.99,
+                -3.2337
+              ],
+              "to": [
+                "xy",
+                2,
+                -1.65,
+                -3.25
+              ],
+              "length_mm": 0.66020125,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -1.65,
+                -3.25
+              ],
+              "to": [
+                "via",
+                30
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      }
+    },
+    "U2": {
+      "capacitor": "C11",
+      "supply_pad_center_distance_mm": 1.9143770840667726,
+      "routed_supply_path_including_In2": {
+        "target": [
+          "pad",
+          "C11",
+          "1",
+          101
+        ],
+        "length_mm": 3.777039252400731,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U2",
+              "2",
+              67
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              1.9
+            ],
+            "length_mm": 0.3378396365141307,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              1.9
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "length_mm": 0.125,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "to": [
+              "xy",
+              2,
+              0.625,
+              2.075
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.625,
+              2.075
+            ],
+            "to": [
+              "xy",
+              2,
+              1.025,
+              2.2
+            ],
+            "length_mm": 0.419076365,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.025,
+              2.2
+            ],
+            "to": [
+              "xy",
+              2,
+              1.05,
+              2.575
+            ],
+            "length_mm": 0.375832409,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.05,
+              2.575
+            ],
+            "to": [
+              "xy",
+              2,
+              2.16,
+              2.6
+            ],
+            "length_mm": 1.110281496,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.16,
+              2.6
+            ],
+            "to": [
+              "xy",
+              2,
+              2.16,
+              1.95
+            ],
+            "length_mm": 0.65,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.16,
+              1.95
+            ],
+            "to": [
+              "xy",
+              2,
+              2.325,
+              1.625
+            ],
+            "length_mm": 0.364485939,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.325,
+              1.625
+            ],
+            "to": [
+              "xy",
+              2,
+              2.55,
+              1.42
+            ],
+            "length_mm": 0.304384625,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.55,
+              1.42
+            ],
+            "to": [
+              "pad",
+              "C11",
+              "1",
+              101
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          }
+        ]
+      },
+      "ic_supply_to_distribution": {
+        "pad": "U2.2",
+        "net": "3V3",
+        "pad_pos": [
+          0.6419,
+          1.5749
+        ],
+        "destination": "In2 broad 3V3 distribution",
+        "nearest_distribution_via_geometric_mm": 5.729069350252273,
+        "target": [
+          "via",
+          8
+        ],
+        "length_mm": 7.900635369938617,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U2",
+              "2",
+              67
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              1.9
+            ],
+            "length_mm": 0.3378396365141307,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              1.9
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "length_mm": 0.125,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "to": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "length_mm": 0.44229515,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          -4.2,
+          -2.275
+        ],
+        "via_index": 8,
+        "via_plane_connections": [],
+        "via_in2_power_tracks": [
+          65
+        ],
+        "straight_distance_mm": 6.185929648807849,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            8
+          ],
+          "length_mm": 7.900635369938617,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U2",
+                "2",
+                67
+              ],
+              "to": [
+                "xy",
+                2,
+                0.55,
+                1.9
+              ],
+              "length_mm": 0.3378396365141307,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.55,
+                1.9
+              ],
+              "to": [
+                "xy",
+                2,
+                0.55,
+                2.025
+              ],
+              "length_mm": 0.125,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.55,
+                2.025
+              ],
+              "to": [
+                "xy",
+                2,
+                0.25,
+                2.35
+              ],
+              "length_mm": 0.44229515,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.25,
+                2.35
+              ],
+              "to": [
+                "via",
+                4
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "via",
+                4
+              ],
+              "to": [
+                "xy",
+                4,
+                0.25,
+                2.35
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                0.25,
+                2.35
+              ],
+              "to": [
+                "xy",
+                4,
+                -1.5625,
+                0.5375
+              ],
+              "length_mm": 2.563262082,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -1.5625,
+                0.5375
+              ],
+              "to": [
+                "xy",
+                4,
+                -2.6,
+                -0.5
+              ],
+              "length_mm": 1.467246571,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -2.6,
+                -0.5
+              ],
+              "to": [
+                "xy",
+                4,
+                -2.675,
+                -0.45
+              ],
+              "length_mm": 0.0901387818865995,
+              "width_mm": 0.2,
+              "kind": "copper_contact"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -2.675,
+                -0.45
+              ],
+              "to": [
+                "xy",
+                4,
+                -3.175,
+                -0.375
+              ],
+              "length_mm": 0.50559371,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -3.175,
+                -0.375
+              ],
+              "to": [
+                "via",
+                12
+              ],
+              "length_mm": 0.23717082451262853,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "via",
+                12
+              ],
+              "to": [
+                "xy",
+                4,
+                -3.475,
+                -0.525
+              ],
+              "length_mm": 0.23717082451262855,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -3.475,
+                -0.525
+              ],
+              "to": [
+                "xy",
+                4,
+                -4.125,
+                -2.05
+              ],
+              "length_mm": 1.657746965,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -4.125,
+                -2.05
+              ],
+              "to": [
+                "via",
+                8
+              ],
+              "length_mm": 0.23717082451262858,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_supply_to_distribution": {
+        "pad": "C11.1",
+        "net": "3V3",
+        "pad_pos": [
+          2.55,
+          1.42
+        ],
+        "destination": "In2 broad 3V3 distribution",
+        "nearest_distribution_via_geometric_mm": 5.047439945160319,
+        "target": [
+          "via",
+          8
+        ],
+        "length_mm": 10.751995349311082,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C11",
+              "1",
+              101
+            ],
+            "to": [
+              "xy",
+              2,
+              2.55,
+              1.42
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.55,
+              1.42
+            ],
+            "to": [
+              "xy",
+              2,
+              2.325,
+              1.625
+            ],
+            "length_mm": 0.304384625,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.325,
+              1.625
+            ],
+            "to": [
+              "xy",
+              2,
+              2.16,
+              1.95
+            ],
+            "length_mm": 0.364485939,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.16,
+              1.95
+            ],
+            "to": [
+              "xy",
+              2,
+              2.16,
+              2.6
+            ],
+            "length_mm": 0.65,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.16,
+              2.6
+            ],
+            "to": [
+              "xy",
+              2,
+              1.05,
+              2.575
+            ],
+            "length_mm": 1.110281496,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.05,
+              2.575
+            ],
+            "to": [
+              "xy",
+              2,
+              1.025,
+              2.2
+            ],
+            "length_mm": 0.375832409,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.025,
+              2.2
+            ],
+            "to": [
+              "xy",
+              2,
+              0.625,
+              2.075
+            ],
+            "length_mm": 0.419076365,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.625,
+              2.075
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "to": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "length_mm": 0.44229515,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          -4.2,
+          -2.275
+        ],
+        "via_index": 8,
+        "via_plane_connections": [],
+        "via_in2_power_tracks": [
+          65
+        ],
+        "straight_distance_mm": 7.69516244143033,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            8
+          ],
+          "length_mm": 10.751995349311082,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C11",
+                "1",
+                101
+              ],
+              "to": [
+                "xy",
+                2,
+                2.55,
+                1.42
+              ],
+              "length_mm": 0.0,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.55,
+                1.42
+              ],
+              "to": [
+                "xy",
+                2,
+                2.325,
+                1.625
+              ],
+              "length_mm": 0.304384625,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.325,
+                1.625
+              ],
+              "to": [
+                "xy",
+                2,
+                2.16,
+                1.95
+              ],
+              "length_mm": 0.364485939,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.16,
+                1.95
+              ],
+              "to": [
+                "xy",
+                2,
+                2.16,
+                2.6
+              ],
+              "length_mm": 0.65,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.16,
+                2.6
+              ],
+              "to": [
+                "xy",
+                2,
+                1.05,
+                2.575
+              ],
+              "length_mm": 1.110281496,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                1.05,
+                2.575
+              ],
+              "to": [
+                "xy",
+                2,
+                1.025,
+                2.2
+              ],
+              "length_mm": 0.375832409,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                1.025,
+                2.2
+              ],
+              "to": [
+                "xy",
+                2,
+                0.625,
+                2.075
+              ],
+              "length_mm": 0.419076365,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.625,
+                2.075
+              ],
+              "to": [
+                "xy",
+                2,
+                0.55,
+                2.025
+              ],
+              "length_mm": 0.09013878188659985,
+              "width_mm": 0.2,
+              "kind": "copper_contact"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.55,
+                2.025
+              ],
+              "to": [
+                "xy",
+                2,
+                0.25,
+                2.35
+              ],
+              "length_mm": 0.44229515,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.25,
+                2.35
+              ],
+              "to": [
+                "via",
+                4
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "via",
+                4
+              ],
+              "to": [
+                "xy",
+                4,
+                0.25,
+                2.35
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                0.25,
+                2.35
+              ],
+              "to": [
+                "xy",
+                4,
+                -1.5625,
+                0.5375
+              ],
+              "length_mm": 2.563262082,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -1.5625,
+                0.5375
+              ],
+              "to": [
+                "xy",
+                4,
+                -2.6,
+                -0.5
+              ],
+              "length_mm": 1.467246571,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -2.6,
+                -0.5
+              ],
+              "to": [
+                "xy",
+                4,
+                -2.675,
+                -0.45
+              ],
+              "length_mm": 0.0901387818865995,
+              "width_mm": 0.2,
+              "kind": "copper_contact"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -2.675,
+                -0.45
+              ],
+              "to": [
+                "xy",
+                4,
+                -3.175,
+                -0.375
+              ],
+              "length_mm": 0.50559371,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -3.175,
+                -0.375
+              ],
+              "to": [
+                "via",
+                12
+              ],
+              "length_mm": 0.23717082451262853,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "via",
+                12
+              ],
+              "to": [
+                "xy",
+                4,
+                -3.475,
+                -0.525
+              ],
+              "length_mm": 0.23717082451262855,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -3.475,
+                -0.525
+              ],
+              "to": [
+                "xy",
+                4,
+                -4.125,
+                -2.05
+              ],
+              "length_mm": 1.657746965,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                4,
+                -4.125,
+                -2.05
+              ],
+              "to": [
+                "via",
+                8
+              ],
+              "length_mm": 0.23717082451262858,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_ground_to_plane": {
+        "pad": "C11.2",
+        "net": "GND",
+        "pad_pos": [
+          2.55,
+          0.78
+        ],
+        "destination": "In1 ground plane",
+        "nearest_distribution_via_geometric_mm": 0.4841487374764081,
+        "target": [
+          "via",
+          27
+        ],
+        "length_mm": 0.4841487374764081,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C11",
+              "2",
+              102
+            ],
+            "to": [
+              "via",
+              27
+            ],
+            "length_mm": 0.4841487374764081,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          2.25,
+          0.4
+        ],
+        "via_index": 27,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "via_in2_power_tracks": [],
+        "straight_distance_mm": 0.4841487374764081,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            27
+          ],
+          "length_mm": 0.5790177159176106,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C11",
+                "2",
+                102
+              ],
+              "to": [
+                "xy",
+                2,
+                2.4,
+                0.575
+              ],
+              "length_mm": 0.25401771591761074,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.4,
+                0.575
+              ],
+              "to": [
+                "xy",
+                2,
+                2.4,
+                0.4
+              ],
+              "length_mm": 0.175,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                2.4,
+                0.4
+              ],
+              "to": [
+                "via",
+                27
+              ],
+              "length_mm": 0.1499999999999999,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "ic_ground_to_plane": {
+        "pad": "U2.3",
+        "net": "GND",
+        "pad_pos": [
+          0.1419,
+          1.5749
+        ],
+        "destination": "In1 ground plane",
+        "nearest_distribution_via_geometric_mm": 0.7930735274865754,
+        "target": [
+          "via",
+          21
+        ],
+        "length_mm": 0.7941074092058659,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U2",
+              "3",
+              68
+            ],
+            "to": [
+              "xy",
+              2,
+              0.275,
+              1.25
+            ],
+            "length_mm": 0.3511062802058659,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.275,
+              1.25
+            ],
+            "to": [
+              "xy",
+              2,
+              0.4,
+              0.825
+            ],
+            "length_mm": 0.443001129,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.4,
+              0.825
+            ],
+            "to": [
+              "via",
+              21
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          0.4,
+          0.825
+        ],
+        "via_index": 21,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "via_in2_power_tracks": [],
+        "straight_distance_mm": 0.7930735274865754,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            21
+          ],
+          "length_mm": 0.7941074092058659,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U2",
+                "3",
+                68
+              ],
+              "to": [
+                "xy",
+                2,
+                0.275,
+                1.25
+              ],
+              "length_mm": 0.3511062802058659,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.275,
+                1.25
+              ],
+              "to": [
+                "xy",
+                2,
+                0.4,
+                0.825
+              ],
+              "length_mm": 0.443001129,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.4,
+                0.825
+              ],
+              "to": [
+                "via",
+                21
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "drc": {
+    "path": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\docs\\footprint_correction_20261001\\drc_strict.json",
+    "sha256": "066ae2a6e9d055ef855e5695b29b40f021fadc5abf5e5b7ff28dad5a71749ce2",
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "date": "2026-10-02T00:42:33",
+    "violations": {
+      "warning": 25
+    },
+    "unconnected_count": 0,
+    "schematic_parity_count": 0,
+    "violation_types": {
+      "track_dangling": 2,
+      "track_not_centered_on_via": 14,
+      "missing_courtyard": 9
+    }
+  },
+  "errors": [],
+  "observations": [
+    "U3/C6 supply-pad separation exceeds 2 mm; assess loop using routed supply and ground-via locations"
+  ],
+  "method_notes": [
+    "Read-only pcbnew analysis; current actual schematic netlist freshly exported by KiCad.",
+    "Path lengths follow copper track centerlines, with pad/via center-to-contact distances; inner planes excluded until reaching a plane-connected via.",
+    "Plane connection requires via annulus overlap with same-net filled inner-layer polygon.",
+    "Nominal copper clearances use analytic rounded primitives and polygonal custom pads. Zones are checked by the supplied KiCad DRC.",
+    "Observations on ESD/decoupling are engineering review prompts, not standalone proof of EMC or transient performance.",
+    "Drill-to-pad distances use analytic circle/rectangle/roundrect boundaries and polygon geometry for custom MCU pads; nominal 0.025 mm minimum is enforced with 0.000001 mm numerical tolerance.",
+    "Same-net via annulus overlaps are informational. Nominal drill-to-drill spacing of at least 0.25 mm is required for every via pair."
+  ],
+  "project_rules": {
+    "path": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_pro",
+    "sha256": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "rules": {
+      "min_clearance": 0.15,
+      "min_copper_edge_clearance": 0.3,
+      "min_track_width": 0.1,
+      "min_via_diameter": 0.5,
+      "min_through_hole_diameter": 0.25,
+      "min_hole_to_hole": 0.25
+    },
+    "custom_rules": {
+      "path": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\MVP-PPG\\kicad\\ppg_pcb_v08.kicad_dru",
+      "sha256": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603"
+    }
+  },
+  "coordinates": {
+    "board_center_on_sheet_mm": [
+      20.0,
+      17.0
+    ],
+    "analysis_origin": "PCB center",
+    "note": "Geometry was translated in memory for analysis; the saved PCB was not modified."
+  },
+  "routed_3V3_distribution": {
+    "source": "U5.1",
+    "layer": "In2.Cu",
+    "widths_mm": [
+      0.4
+    ],
+    "pad_paths_to_regulator": {
+      "U1.3": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 12.616592197899921,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U1",
+              "3",
+              2
+            ],
+            "to": [
+              "xy",
+              0,
+              -1.25,
+              -0.45
+            ],
+            "length_mm": 0.33541019662496846,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              0,
+              -1.25,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              0,
+              -1.375,
+              -0.35
+            ],
+            "length_mm": 0.160078106,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              0,
+              -1.375,
+              -0.35
+            ],
+            "to": [
+              "xy",
+              0,
+              -3.25,
+              2.225
+            ],
+            "length_mm": 3.185317881,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              0,
+              -3.25,
+              2.225
+            ],
+            "to": [
+              "via",
+              13
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              13
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.25,
+              2.225
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.25,
+              2.225
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.625,
+              0.6
+            ],
+            "length_mm": 2.298097039,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.625,
+              0.6
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 0.08838834764831836,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "C14.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 0.8604729138591622,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C14",
+              "1",
+              15
+            ],
+            "to": [
+              "xy",
+              2,
+              3.92,
+              2.1
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              3.92,
+              2.1
+            ],
+            "to": [
+              "xy",
+              2,
+              3.82,
+              2.6
+            ],
+            "length_mm": 0.509901951,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              3.82,
+              2.6
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "R1.2": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 10.688169960077195,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "R1",
+              "2",
+              18
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.95,
+              -0.55
+            ],
+            "length_mm": 0.24299664606738944,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.95,
+              -0.55
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.25,
+              -0.875
+            ],
+            "length_mm": 0.44229515,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.25,
+              -0.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.275,
+              -0.95
+            ],
+            "length_mm": 0.079056942,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.275,
+              -0.95
+            ],
+            "to": [
+              "pad",
+              "R2",
+              "2",
+              59
+            ],
+            "length_mm": 0.2543616519839421,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "R2",
+              "2",
+              59
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.4666,
+              -1.1173
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.4666,
+              -1.1173
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.4,
+              -0.3
+            ],
+            "length_mm": 0.820009055,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.4,
+              -0.3
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "C6.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 21.49346612034724,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C6",
+              "1",
+              20
+            ],
+            "to": [
+              "xy",
+              2,
+              4.85,
+              -3.05
+            ],
+            "length_mm": 0.2546492092114173,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.85,
+              -3.05
+            ],
+            "to": [
+              "xy",
+              2,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 0.369120577,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "via",
+              11
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              11
+            ],
+            "to": [
+              "xy",
+              6,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "xy",
+              6,
+              2.95,
+              -3.825
+            ],
+            "length_mm": 1.685415379,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.95,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              6,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.32596012,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "length_mm": 2.578933888,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "to": [
+              "via",
+              9
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              9
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.09999999999999964,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "length_mm": 0.4934781555449035,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "length_mm": 0.201556444,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.682367203,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "via",
+              7
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              7
+            ],
+            "to": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "length_mm": 2.299184638,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "R4.2": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 23.426685067367615,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "R4",
+              "2",
+              34
+            ],
+            "to": [
+              "via",
+              6
+            ],
+            "length_mm": 0.45379357923179137,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          },
+          {
+            "from": [
+              "via",
+              6
+            ],
+            "to": [
+              "xy",
+              4,
+              5.675,
+              -1.475
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              5.675,
+              -1.475
+            ],
+            "to": [
+              "xy",
+              4,
+              5.15,
+              -2.1
+            ],
+            "length_mm": 0.816241386,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              5.15,
+              -2.1
+            ],
+            "to": [
+              "xy",
+              4,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 1.286953768,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "via",
+              11
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              11
+            ],
+            "to": [
+              "xy",
+              6,
+              4.525,
+              -3.225
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              4.525,
+              -3.225
+            ],
+            "to": [
+              "xy",
+              6,
+              2.95,
+              -3.825
+            ],
+            "length_mm": 1.685415379,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.95,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              6,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.32596012,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "length_mm": 2.578933888,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "to": [
+              "via",
+              9
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              9
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.09999999999999964,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "length_mm": 0.4934781555449035,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "length_mm": 0.201556444,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.682367203,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "via",
+              7
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              7
+            ],
+            "to": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "length_mm": 2.299184638,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "U3.2": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 20.231756575001302,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "2",
+              36
+            ],
+            "to": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "length_mm": 0.38348624586548097,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "to": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.989949494,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "via",
+              10
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              10
+            ],
+            "to": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "length_mm": 2.578933888,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "to": [
+              "via",
+              9
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              9
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.09999999999999964,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "length_mm": 0.4934781555449035,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "length_mm": 0.201556444,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.682367203,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "via",
+              7
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              7
+            ],
+            "to": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "length_mm": 2.299184638,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "U3.3": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 21.51933510882581,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "3",
+              37
+            ],
+            "to": [
+              "xy",
+              2,
+              1.5,
+              -3.5
+            ],
+            "length_mm": 0.46608785988158935,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.5,
+              -3.5
+            ],
+            "to": [
+              "xy",
+              2,
+              1.75,
+              -3.25
+            ],
+            "length_mm": 0.353553391,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.75,
+              -3.25
+            ],
+            "to": [
+              "pad",
+              "U3",
+              "2",
+              36
+            ],
+            "length_mm": 0.4679372829429176,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "U3",
+              "2",
+              36
+            ],
+            "to": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "length_mm": 0.38348624586548097,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.925,
+              -3.1
+            ],
+            "to": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "length_mm": 0.989949494,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.625,
+              -3.8
+            ],
+            "to": [
+              "via",
+              10
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              10
+            ],
+            "to": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              2.4,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "length_mm": 2.578933888,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -0.13,
+              -4.375
+            ],
+            "to": [
+              "via",
+              9
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              9
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.09999999999999964,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "length_mm": 0.4934781555449035,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "length_mm": 0.201556444,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.682367203,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "via",
+              7
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              7
+            ],
+            "to": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "length_mm": 2.299184638,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "C7.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 16.356835822887263,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C7",
+              "1",
+              54
+            ],
+            "to": [
+              "xy",
+              2,
+              0.05,
+              -4.475
+            ],
+            "length_mm": 0.23461970026406562,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.05,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.125,
+              -4.475
+            ],
+            "length_mm": 0.175,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.125,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "length_mm": 0.0050000000000000044,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.13,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.47000000000000003,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "length_mm": 0.4934781555449035,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "length_mm": 0.201556444,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.682367203,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "via",
+              7
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              7
+            ],
+            "to": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "length_mm": 2.299184638,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "R2.2": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 9.669459570025865,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "R2",
+              "2",
+              59
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.4666,
+              -1.1173
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.4666,
+              -1.1173
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.4,
+              -0.3
+            ],
+            "length_mm": 0.820009055,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.4,
+              -0.3
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "C12.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 11.387600319021303,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C12",
+              "1",
+              60
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.40606118997018154,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "U2.2": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 4.891173332140767,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U2",
+              "2",
+              67
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              1.9
+            ],
+            "length_mm": 0.3378396365141307,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              1.9
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "length_mm": 0.125,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "to": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "length_mm": 0.44229515,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "U6.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 14.985435175995251,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "length_mm": 0.4934781555449035,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.375,
+              -3.875
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "length_mm": 0.201556444,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.55,
+              -3.775
+            ],
+            "to": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -1.625,
+              -3.825
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.682367203,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "via",
+              7
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              7
+            ],
+            "to": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -2.3,
+              -3.925
+            ],
+            "to": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "length_mm": 2.299184638,
+            "width_mm": 0.4,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              6,
+              -3.975,
+              -2.35
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.4,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "length_mm": 0.23717082451262858,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -4.125,
+              -2.05
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "length_mm": 1.657746965,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.475,
+              -0.525
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.23717082451262855,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              12
+            ],
+            "to": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "length_mm": 0.23717082451262853,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -3.175,
+              -0.375
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "length_mm": 0.50559371,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.675,
+              -0.45
+            ],
+            "to": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "length_mm": 0.0901387818865995,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -2.6,
+              -0.5
+            ],
+            "to": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "length_mm": 1.467246571,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              -1.5625,
+              0.5375
+            ],
+            "to": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "length_mm": 2.563262082,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "C11.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 7.742533311513236,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C11",
+              "1",
+              101
+            ],
+            "to": [
+              "xy",
+              2,
+              2.55,
+              1.42
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.55,
+              1.42
+            ],
+            "to": [
+              "xy",
+              2,
+              2.325,
+              1.625
+            ],
+            "length_mm": 0.304384625,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.325,
+              1.625
+            ],
+            "to": [
+              "xy",
+              2,
+              2.16,
+              1.95
+            ],
+            "length_mm": 0.364485939,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.16,
+              1.95
+            ],
+            "to": [
+              "xy",
+              2,
+              2.16,
+              2.6
+            ],
+            "length_mm": 0.65,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              2.16,
+              2.6
+            ],
+            "to": [
+              "xy",
+              2,
+              1.05,
+              2.575
+            ],
+            "length_mm": 1.110281496,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.05,
+              2.575
+            ],
+            "to": [
+              "xy",
+              2,
+              1.025,
+              2.2
+            ],
+            "length_mm": 0.375832409,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.025,
+              2.2
+            ],
+            "to": [
+              "xy",
+              2,
+              0.625,
+              2.075
+            ],
+            "length_mm": 0.419076365,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.625,
+              2.075
+            ],
+            "to": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "length_mm": 0.09013878188659985,
+            "width_mm": 0.2,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.55,
+              2.025
+            ],
+            "to": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "length_mm": 0.44229515,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.25,
+              2.35
+            ],
+            "to": [
+              "via",
+              4
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              4
+            ],
+            "to": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "length_mm": 0.23717082451262836,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.475,
+              2.425
+            ],
+            "to": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              0.6,
+              2.55
+            ],
+            "to": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "length_mm": 3.000104165,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              4,
+              3.6,
+              2.575
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.221415898254845,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              5
+            ],
+            "to": [
+              "pad",
+              "U5",
+              "1",
+              105
+            ],
+            "length_mm": 0.35057096285916217,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "U5.1": {
+        "target": [
+          "pad",
+          "U5",
+          "1",
+          105
+        ],
+        "length_mm": 0.0,
+        "minimum_track_width_mm": null,
+        "path": []
+      }
+    }
+  },
+  "power_tvs_rs422_pinmap": {
+    "ok": true,
+    "errors": [],
+    "checked_pins": 25
+  },
+  "via_drill_pad_gap": {
+    "required_nominal_mm": 0.025,
+    "minimum": {
+      "via_index": 14,
+      "via_pos": [
+        -0.2,
+        -1.8
+      ],
+      "via_net": "/VLDO",
+      "pad": "C4.1",
+      "pad_net": "/VLDO",
+      "drill_clearance_mm": 0.02500000000000005
+    },
+    "violations": [],
+    "smd_pad_count": 117,
+    "via_pad_comparisons": 7254
+  },
+  "via_tenting": {
+    "all_tented_front_and_back": true,
+    "untented_vias": [],
+    "count": 62
+  },
+  "via_drill_pair_clearance": {
+    "required_nominal_mm": 0.25,
+    "minimum": {
+      "via_indices": [
+        17,
+        42
+      ],
+      "positions": [
+        [
+          4.5,
+          -1.0
+        ],
+        [
+          4.9824,
+          -1.4364
+        ]
+      ],
+      "nets": [
+        "GND",
+        "/TXP"
+      ],
+      "drill_gap_mm": 0.4005034358095275
+    },
+    "violations": []
+  },
+  "pad_clearances": {
+    "minimum_including_within_footprints": {
+      "pads": [
+        "C6.2",
+        "C6.1"
+      ],
+      "nets": [
+        "GND",
+        "3V3"
+      ],
+      "clearance_mm": 0.17999951922481913
+    },
+    "minimum_between_different_footprints": {
+      "pads": [
+        "U2.6",
+        "C1.2"
+      ],
+      "nets": [
+        "unconnected-(U2-PA1-Pad6)",
+        "GND"
+      ],
+      "clearance_mm": 0.28190000000000015
+    }
+  }
+}

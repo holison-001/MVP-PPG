@@ -1,0 +1,1932 @@
+{
+  "ok": false,
+  "board": "kicad/ppg_rs422_review.kicad_pcb",
+  "board_sha256": "765a0ff8a6644feb98d36e592b2b0e61950056b49c3725b3d1e12be50677f663",
+  "schematic": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_sch",
+  "schematic_sha256": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527",
+  "netcheck": {
+    "ok": true,
+    "footprints": 37,
+    "schematic_components": 37,
+    "numbered_pads": 117,
+    "schematic_nets": 48,
+    "top_references": [
+      "U1"
+    ],
+    "board_thickness_mm": 0.8,
+    "copper_layers": 4,
+    "outline_radius_mm": 6.75,
+    "routing": {
+      "F.Cu": 81,
+      "via": 59,
+      "B.Cu": 203
+    },
+    "inner_layer_track_count": 0,
+    "errors": []
+  },
+  "u1": {
+    "position": [
+      0.0,
+      0.0
+    ],
+    "rotation": 0.0,
+    "layer": "F.Cu"
+  },
+  "track_count": 284,
+  "via_count": 59,
+  "track_width_min_mm": 0.1,
+  "via_diameter_drill_mm": [
+    [
+      0.5,
+      0.25
+    ]
+  ],
+  "zones": [
+    {
+      "layer": 4,
+      "layer_name": "In1.Cu",
+      "net": "GND",
+      "filled": true,
+      "filled_area_mm2": 104.92135560287723
+    },
+    {
+      "layer": 6,
+      "layer_name": "In2.Cu",
+      "net": "3V3",
+      "filled": true,
+      "filled_area_mm2": 100.12778683667267
+    }
+  ],
+  "minimum_copper_edge": {
+    "item": "via17",
+    "clearance_mm": 0.3021677176612787
+  },
+  "minimum_different_net_clearance_nominal": {
+    "items": [
+      "via49",
+      "track4"
+    ],
+    "nets": [
+      "/UART_TX",
+      "/SDA"
+    ],
+    "gap_mm": 0.1500000000000002
+  },
+  "via_drill_overlaps": [],
+  "same_net_via_overlaps": [],
+  "mechanical": {
+    "geometry_path": "/workspace/MVP-PPG/docs/verification_rs422_no_bus_tvs/placement/geometry.json",
+    "geometry_sha256": "63d03c412879acd666fc74a9c00622660b6d7b8aec6d24d148f3a6ac3bd49c17",
+    "copper_shape_changes": [],
+    "courtyard_overlap_pairs": [],
+    "body_overlap_pairs": [],
+    "body_edge_violations": []
+  },
+  "esd_ground_returns": {
+    "D1": {
+      "pad": "D1.2",
+      "net": "GND",
+      "pad_pos": [
+        -2.5552,
+        -5.4989
+      ],
+      "nearest_plane_via_geometric_mm": 0.3206918302670025,
+      "target": [
+        "via",
+        31
+      ],
+      "length_mm": 0.3206918302670025,
+      "minimum_track_width_mm": null,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D1",
+            "2",
+            26
+          ],
+          "to": [
+            "via",
+            31
+          ],
+          "length_mm": 0.3206918302670025,
+          "width_mm": null,
+          "kind": "pad_via_copper_contact"
+        }
+      ],
+      "via_pos": [
+        -2.875,
+        -5.475
+      ],
+      "via_index": 31,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "straight_distance_mm": 0.3206918302670025,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          31
+        ],
+        "length_mm": 0.32175915644347364,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D1",
+              "2",
+              26
+            ],
+            "to": [
+              "xy",
+              2,
+              -2.7,
+              -5.475
+            ],
+            "length_mm": 0.14675915644347384,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -2.7,
+              -5.475
+            ],
+            "to": [
+              "via",
+              31
+            ],
+            "length_mm": 0.17499999999999982,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          }
+        ]
+      }
+    },
+    "D6": {
+      "pad": "D6.2",
+      "net": "GND",
+      "pad_pos": [
+        1.2045,
+        2.4786
+      ],
+      "nearest_plane_via_geometric_mm": 0.37970147484570044,
+      "target": [
+        "via",
+        29
+      ],
+      "length_mm": 0.37970147484570044,
+      "minimum_track_width_mm": null,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D6",
+            "2",
+            48
+          ],
+          "to": [
+            "via",
+            29
+          ],
+          "length_mm": 0.37970147484570044,
+          "width_mm": null,
+          "kind": "pad_via_copper_contact"
+        }
+      ],
+      "via_pos": [
+        1.525,
+        2.275
+      ],
+      "via_index": 29,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "straight_distance_mm": 0.37970147484570044,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          29
+        ],
+        "length_mm": 0.4252462986739267,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D6",
+              "2",
+              48
+            ],
+            "to": [
+              "xy",
+              2,
+              1.35,
+              2.275
+            ],
+            "length_mm": 0.2502462986739267,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.35,
+              2.275
+            ],
+            "to": [
+              "xy",
+              2,
+              1.525,
+              2.275
+            ],
+            "length_mm": 0.175,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              1.525,
+              2.275
+            ],
+            "to": [
+              "via",
+              29
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ]
+      }
+    },
+    "D7": {
+      "pad": "D7.2",
+      "net": "GND",
+      "pad_pos": [
+        3.775887,
+        -0.890713
+      ],
+      "nearest_plane_via_geometric_mm": 0.4393315776699871,
+      "target": [
+        "via",
+        28
+      ],
+      "length_mm": 0.4393315776699871,
+      "minimum_track_width_mm": null,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D7",
+            "2",
+            65
+          ],
+          "to": [
+            "via",
+            28
+          ],
+          "length_mm": 0.4393315776699871,
+          "width_mm": null,
+          "kind": "pad_via_copper_contact"
+        }
+      ],
+      "via_pos": [
+        3.575,
+        -0.5
+      ],
+      "via_index": 28,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "straight_distance_mm": 0.4393315776699871,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          28
+        ],
+        "length_mm": 0.45311387153982063,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D7",
+              "2",
+              65
+            ],
+            "to": [
+              "xy",
+              2,
+              3.7,
+              -0.625
+            ],
+            "length_mm": 0.2763371765398206,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              3.7,
+              -0.625
+            ],
+            "to": [
+              "xy",
+              2,
+              3.575,
+              -0.5
+            ],
+            "length_mm": 0.176776695,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              3.575,
+              -0.5
+            ],
+            "to": [
+              "via",
+              28
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ]
+      }
+    },
+    "D8": {
+      "pad": "D8.2",
+      "net": "GND",
+      "pad_pos": [
+        -3.8523,
+        0.4077
+      ],
+      "nearest_plane_via_geometric_mm": 0.4179169534728161,
+      "target": [
+        "via",
+        22
+      ],
+      "length_mm": 0.417916953,
+      "minimum_track_width_mm": 0.2,
+      "path": [
+        {
+          "from": [
+            "pad",
+            "D8",
+            "2",
+            42
+          ],
+          "to": [
+            "xy",
+            2,
+            -3.8523,
+            0.4077
+          ],
+          "length_mm": 0.0,
+          "width_mm": null,
+          "kind": "within_pad"
+        },
+        {
+          "from": [
+            "xy",
+            2,
+            -3.8523,
+            0.4077
+          ],
+          "to": [
+            "xy",
+            2,
+            -3.875,
+            0.825
+          ],
+          "length_mm": 0.417916953,
+          "width_mm": 0.2,
+          "kind": "track"
+        },
+        {
+          "from": [
+            "xy",
+            2,
+            -3.875,
+            0.825
+          ],
+          "to": [
+            "via",
+            22
+          ],
+          "length_mm": 0.0,
+          "width_mm": 0.2,
+          "kind": "within_via"
+        }
+      ],
+      "via_pos": [
+        -3.875,
+        0.825
+      ],
+      "via_index": 22,
+      "via_plane_connections": [
+        "In1.Cu"
+      ],
+      "straight_distance_mm": 0.4179169534728161,
+      "explicit_track_path": {
+        "target": [
+          "via",
+          22
+        ],
+        "length_mm": 0.417916953,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "D8",
+              "2",
+              42
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.8523,
+              0.4077
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.8523,
+              0.4077
+            ],
+            "to": [
+              "xy",
+              2,
+              -3.875,
+              0.825
+            ],
+            "length_mm": 0.417916953,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -3.875,
+              0.825
+            ],
+            "to": [
+              "via",
+              22
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ]
+      }
+    }
+  },
+  "decoupling": {
+    "U3": {
+      "capacitor": "C6",
+      "supply_pad_center_distance_mm": 3.404032305563506,
+      "outer_copper_supply_path": null,
+      "ic_supply_to_plane": {
+        "pad": "U3.2",
+        "net": "3V3",
+        "pad_pos": [
+          1.707772,
+          -2.783972
+        ],
+        "nearest_plane_via_geometric_mm": 0.6694123548068114,
+        "target": [
+          "via",
+          5
+        ],
+        "length_mm": 0.6694123548068114,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "2",
+              36
+            ],
+            "to": [
+              "via",
+              5
+            ],
+            "length_mm": 0.6694123548068114,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          1.775,
+          -3.45
+        ],
+        "via_index": 5,
+        "via_plane_connections": [
+          "In2.Cu"
+        ],
+        "straight_distance_mm": 0.6694123548068114,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            5
+          ],
+          "length_mm": 0.6706088182912006,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U3",
+                "2",
+                36
+              ],
+              "to": [
+                "xy",
+                2,
+                1.775,
+                -3.275
+              ],
+              "length_mm": 0.4956088182912003,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                1.775,
+                -3.275
+              ],
+              "to": [
+                "via",
+                5
+              ],
+              "length_mm": 0.17500000000000027,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_supply_to_plane": {
+        "pad": "C6.1",
+        "net": "3V3",
+        "pad_pos": [
+          5.103326,
+          -3.024074
+        ],
+        "nearest_plane_via_geometric_mm": 0.42925123150900807,
+        "target": [
+          "via",
+          12
+        ],
+        "length_mm": 0.42925123150900807,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C6",
+              "1",
+              20
+            ],
+            "to": [
+              "via",
+              12
+            ],
+            "length_mm": 0.42925123150900807,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          5.05,
+          -3.45
+        ],
+        "via_index": 12,
+        "via_plane_connections": [
+          "In2.Cu"
+        ],
+        "straight_distance_mm": 0.42925123150900807,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            12
+          ],
+          "length_mm": 0.43152976387156305,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C6",
+                "1",
+                20
+              ],
+              "to": [
+                "xy",
+                2,
+                5.05,
+                -3.275
+              ],
+              "length_mm": 0.25652976387156307,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                5.05,
+                -3.275
+              ],
+              "to": [
+                "xy",
+                2,
+                5.05,
+                -3.45
+              ],
+              "length_mm": 0.175,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                5.05,
+                -3.45
+              ],
+              "to": [
+                "via",
+                12
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_ground_to_plane": {
+        "pad": "C6.2",
+        "net": "GND",
+        "pad_pos": [
+          5.555874,
+          -2.571526
+        ],
+        "nearest_plane_via_geometric_mm": 0.40820971638607484,
+        "target": [
+          "via",
+          25
+        ],
+        "length_mm": 0.40820971638607484,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C6",
+              "2",
+              21
+            ],
+            "to": [
+              "via",
+              25
+            ],
+            "length_mm": 0.40820971638607484,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          5.725,
+          -2.2
+        ],
+        "via_index": 25,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "straight_distance_mm": 0.40820971638607484,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            25
+          ],
+          "length_mm": 0.41123094983738373,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C6",
+                "2",
+                21
+              ],
+              "to": [
+                "xy",
+                2,
+                5.675,
+                -2.2625
+              ],
+              "length_mm": 0.3311918968694732,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                5.675,
+                -2.2625
+              ],
+              "to": [
+                "via",
+                25
+              ],
+              "length_mm": 0.0800390529679105,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "ic_ground_to_plane": {
+        "pad": "U3.5",
+        "net": "GND",
+        "pad_pos": [
+          3.404828,
+          -4.481028
+        ],
+        "nearest_plane_via_geometric_mm": 0.5623654028903268,
+        "target": [
+          "via",
+          34
+        ],
+        "length_mm": 0.5623654028903268,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U3",
+              "5",
+              39
+            ],
+            "to": [
+              "via",
+              34
+            ],
+            "length_mm": 0.5623654028903268,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          3.75,
+          -4.925
+        ],
+        "via_index": 34,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "straight_distance_mm": 0.5623654028903268,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            34
+          ],
+          "length_mm": 0.5649281086992187,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U3",
+                "5",
+                39
+              ],
+              "to": [
+                "xy",
+                2,
+                3.6875,
+                -4.875
+              ],
+              "length_mm": 0.4848890557313082,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                3.6875,
+                -4.875
+              ],
+              "to": [
+                "via",
+                34
+              ],
+              "length_mm": 0.0800390529679105,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      }
+    },
+    "U6": {
+      "capacitor": "C7",
+      "supply_pad_center_distance_mm": 1.2988209812564624,
+      "outer_copper_supply_path": {
+        "target": [
+          "pad",
+          "C7",
+          "1",
+          54
+        ],
+        "length_mm": 1.3899227469561029,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.375,
+              -4.475
+            ],
+            "length_mm": 0.225,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.375,
+              -4.475
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.24075601757796203,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          },
+          {
+            "from": [
+              "via",
+              8
+            ],
+            "to": [
+              "pad",
+              "C7",
+              "1",
+              54
+            ],
+            "length_mm": 0.43738578275019413,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ]
+      },
+      "ic_supply_to_plane": {
+        "pad": "U6.1",
+        "net": "3V3",
+        "pad_pos": [
+          -0.99,
+          -4.1837
+        ],
+        "nearest_plane_via_geometric_mm": 0.8630649164460341,
+        "target": [
+          "via",
+          8
+        ],
+        "length_mm": 0.9525369642059087,
+        "minimum_track_width_mm": 0.2,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "1",
+              95
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "length_mm": 0.48678094662794663,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.6,
+              -4.475
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.375,
+              -4.475
+            ],
+            "length_mm": 0.225,
+            "width_mm": 0.2,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.375,
+              -4.475
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.24075601757796203,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          -0.1511,
+          -4.3865
+        ],
+        "via_index": 8,
+        "via_plane_connections": [
+          "In2.Cu"
+        ],
+        "straight_distance_mm": 0.8630649164460341,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            8
+          ],
+          "length_mm": 0.9525369642059087,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U6",
+                "1",
+                95
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.6,
+                -4.475
+              ],
+              "length_mm": 0.48678094662794663,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.6,
+                -4.475
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.375,
+                -4.475
+              ],
+              "length_mm": 0.225,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.375,
+                -4.475
+              ],
+              "to": [
+                "via",
+                8
+              ],
+              "length_mm": 0.24075601757796203,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_supply_to_plane": {
+        "pad": "C7.1",
+        "net": "3V3",
+        "pad_pos": [
+          0.282526,
+          -4.443726
+        ],
+        "nearest_plane_via_geometric_mm": 0.43738578275019413,
+        "target": [
+          "via",
+          8
+        ],
+        "length_mm": 0.43738578275019413,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C7",
+              "1",
+              54
+            ],
+            "to": [
+              "via",
+              8
+            ],
+            "length_mm": 0.43738578275019413,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          -0.1511,
+          -4.3865
+        ],
+        "via_index": 8,
+        "via_plane_connections": [
+          "In2.Cu"
+        ],
+        "straight_distance_mm": 0.43738578275019413,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            8
+          ],
+          "length_mm": 0.4421371597139655,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C7",
+                "1",
+                54
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.0625,
+                -4.425
+              ],
+              "length_mm": 0.345533795383317,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.0625,
+                -4.425
+              ],
+              "to": [
+                "via",
+                8
+              ],
+              "length_mm": 0.09660336433064845,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_ground_to_plane": {
+        "pad": "C7.2",
+        "net": "GND",
+        "pad_pos": [
+          0.735074,
+          -4.896274
+        ],
+        "nearest_plane_via_geometric_mm": 0.3692973985177801,
+        "target": [
+          "via",
+          21
+        ],
+        "length_mm": 0.3692973985177801,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C7",
+              "2",
+              55
+            ],
+            "to": [
+              "via",
+              21
+            ],
+            "length_mm": 0.3692973985177801,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          0.525,
+          -5.2
+        ],
+        "via_index": 21,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "straight_distance_mm": 0.3692973985177801,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            21
+          ],
+          "length_mm": 0.371174607130635,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C7",
+                "2",
+                55
+              ],
+              "to": [
+                "xy",
+                2,
+                0.5875,
+                -5.1375
+              ],
+              "length_mm": 0.28278625948231656,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.5875,
+                -5.1375
+              ],
+              "to": [
+                "via",
+                21
+              ],
+              "length_mm": 0.08838834764831845,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "ic_ground_to_plane": {
+        "pad": "U6.2",
+        "net": "GND",
+        "pad_pos": [
+          -0.99,
+          -3.2337
+        ],
+        "nearest_plane_via_geometric_mm": 0.5799682922367394,
+        "target": [
+          "via",
+          23
+        ],
+        "length_mm": 0.5799682922367394,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U6",
+              "2",
+              96
+            ],
+            "to": [
+              "via",
+              23
+            ],
+            "length_mm": 0.5799682922367394,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          -1.5489,
+          -3.3886
+        ],
+        "via_index": 23,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "straight_distance_mm": 0.5799682922367394,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            23
+          ],
+          "length_mm": 0.690627507399385,
+          "minimum_track_width_mm": 0.2,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U6",
+                "2",
+                96
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.99,
+                -3.2337
+              ],
+              "length_mm": 0.0,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.99,
+                -3.2337
+              ],
+              "to": [
+                "xy",
+                2,
+                -1.555689,
+                -3.264696
+              ],
+              "length_mm": 0.566537671,
+              "width_mm": 0.2,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -1.555689,
+                -3.264696
+              ],
+              "to": [
+                "via",
+                23
+              ],
+              "length_mm": 0.12408983639938505,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      }
+    },
+    "U2": {
+      "capacitor": "C11",
+      "supply_pad_center_distance_mm": 1.760262764475804,
+      "outer_copper_supply_path": null,
+      "ic_supply_to_plane": {
+        "pad": "U2.2",
+        "net": "3V3",
+        "pad_pos": [
+          0.6419,
+          1.5749
+        ],
+        "nearest_plane_via_geometric_mm": 1.5754149485135653,
+        "target": [
+          "via",
+          13
+        ],
+        "length_mm": 2.1949324949999998,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U2",
+              "2",
+              67
+            ],
+            "to": [
+              "xy",
+              2,
+              0.6419,
+              1.5749
+            ],
+            "length_mm": 0.0,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.6419,
+              1.5749
+            ],
+            "to": [
+              "xy",
+              2,
+              0.6419,
+              0.5911
+            ],
+            "length_mm": 0.9838,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.6419,
+              0.5911
+            ],
+            "to": [
+              "xy",
+              2,
+              -0.2145,
+              -0.2653
+            ],
+            "length_mm": 1.211132495,
+            "width_mm": 0.1,
+            "kind": "track"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              -0.2145,
+              -0.2653
+            ],
+            "to": [
+              "via",
+              13
+            ],
+            "length_mm": 0.0,
+            "width_mm": 0.1,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          -0.2145,
+          -0.2653
+        ],
+        "via_index": 13,
+        "via_plane_connections": [
+          "In2.Cu"
+        ],
+        "straight_distance_mm": 2.0297184533821433,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            13
+          ],
+          "length_mm": 2.1949324949999998,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U2",
+                "2",
+                67
+              ],
+              "to": [
+                "xy",
+                2,
+                0.6419,
+                1.5749
+              ],
+              "length_mm": 0.0,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.6419,
+                1.5749
+              ],
+              "to": [
+                "xy",
+                2,
+                0.6419,
+                0.5911
+              ],
+              "length_mm": 0.9838,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.6419,
+                0.5911
+              ],
+              "to": [
+                "xy",
+                2,
+                -0.2145,
+                -0.2653
+              ],
+              "length_mm": 1.211132495,
+              "width_mm": 0.1,
+              "kind": "track"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                -0.2145,
+                -0.2653
+              ],
+              "to": [
+                "via",
+                13
+              ],
+              "length_mm": 0.0,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_supply_to_plane": {
+        "pad": "C11.1",
+        "net": "3V3",
+        "pad_pos": [
+          0.3169,
+          3.3049
+        ],
+        "nearest_plane_via_geometric_mm": 0.38869816053076456,
+        "target": [
+          "via",
+          6
+        ],
+        "length_mm": 0.38869816053076456,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C11",
+              "1",
+              101
+            ],
+            "to": [
+              "via",
+              6
+            ],
+            "length_mm": 0.38869816053076456,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          0.6734,
+          3.15
+        ],
+        "via_index": 6,
+        "via_plane_connections": [
+          "In2.Cu"
+        ],
+        "straight_distance_mm": 0.38869816053076456,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            6
+          ],
+          "length_mm": 0.3976986048717986,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C11",
+                "1",
+                101
+              ],
+              "to": [
+                "xy",
+                2,
+                0.5875,
+                3.15
+              ],
+              "length_mm": 0.3117986048717986,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.5875,
+                3.15
+              ],
+              "to": [
+                "via",
+                6
+              ],
+              "length_mm": 0.08589999999999998,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "capacitor_ground_to_plane": {
+        "pad": "C11.2",
+        "net": "GND",
+        "pad_pos": [
+          0.3169,
+          3.9449
+        ],
+        "nearest_plane_via_geometric_mm": 0.4153165780461934,
+        "target": [
+          "via",
+          26
+        ],
+        "length_mm": 0.4153165780461934,
+        "minimum_track_width_mm": null,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "C11",
+              "2",
+              102
+            ],
+            "to": [
+              "via",
+              26
+            ],
+            "length_mm": 0.4153165780461934,
+            "width_mm": null,
+            "kind": "pad_via_copper_contact"
+          }
+        ],
+        "via_pos": [
+          0.625,
+          4.2234
+        ],
+        "via_index": 26,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "straight_distance_mm": 0.4153165780461934,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            26
+          ],
+          "length_mm": 0.41559862380843293,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "C11",
+                "2",
+                102
+              ],
+              "to": [
+                "xy",
+                2,
+                0.5625,
+                4.175
+              ],
+              "length_mm": 0.33654920888333684,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.5625,
+                4.175
+              ],
+              "to": [
+                "via",
+                26
+              ],
+              "length_mm": 0.07904941492509607,
+              "width_mm": 0.1,
+              "kind": "within_via"
+            }
+          ]
+        }
+      },
+      "ic_ground_to_plane": {
+        "pad": "U2.3",
+        "net": "GND",
+        "pad_pos": [
+          0.1419,
+          1.5749
+        ],
+        "nearest_plane_via_geometric_mm": 0.7596413430033939,
+        "target": [
+          "via",
+          30
+        ],
+        "length_mm": 0.7699900416717409,
+        "minimum_track_width_mm": 0.1,
+        "path": [
+          {
+            "from": [
+              "pad",
+              "U2",
+              "3",
+              68
+            ],
+            "to": [
+              "xy",
+              2,
+              0.05,
+              1.25
+            ],
+            "length_mm": 0.33764718272184646,
+            "width_mm": null,
+            "kind": "within_pad"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.05,
+              1.25
+            ],
+            "to": [
+              "xy",
+              2,
+              0.05,
+              1.1
+            ],
+            "length_mm": 0.1499999999999999,
+            "width_mm": 0.1,
+            "kind": "copper_contact"
+          },
+          {
+            "from": [
+              "xy",
+              2,
+              0.05,
+              1.1
+            ],
+            "to": [
+              "via",
+              30
+            ],
+            "length_mm": 0.2823428589498945,
+            "width_mm": 0.2,
+            "kind": "within_via"
+          }
+        ],
+        "via_pos": [
+          0.0718,
+          0.8185
+        ],
+        "via_index": 30,
+        "via_plane_connections": [
+          "In1.Cu"
+        ],
+        "straight_distance_mm": 0.7596413430033939,
+        "explicit_track_path": {
+          "target": [
+            "via",
+            30
+          ],
+          "length_mm": 0.7699900416717409,
+          "minimum_track_width_mm": 0.1,
+          "path": [
+            {
+              "from": [
+                "pad",
+                "U2",
+                "3",
+                68
+              ],
+              "to": [
+                "xy",
+                2,
+                0.05,
+                1.25
+              ],
+              "length_mm": 0.33764718272184646,
+              "width_mm": null,
+              "kind": "within_pad"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.05,
+                1.25
+              ],
+              "to": [
+                "xy",
+                2,
+                0.05,
+                1.1
+              ],
+              "length_mm": 0.1499999999999999,
+              "width_mm": 0.1,
+              "kind": "copper_contact"
+            },
+            {
+              "from": [
+                "xy",
+                2,
+                0.05,
+                1.1
+              ],
+              "to": [
+                "via",
+                30
+              ],
+              "length_mm": 0.2823428589498945,
+              "width_mm": 0.2,
+              "kind": "within_via"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "drc": {
+    "path": "docs/review_rs422_pending/drc.json",
+    "sha256": "f64cfea33e265d0c3793b94706c85f1375c4946a8f29bcdf970a924634e8af6b",
+    "source": "ppg_rs422_review.kicad_pcb",
+    "date": "2026-10-01T11:25:15",
+    "violations": {
+      "warning": 7
+    },
+    "unconnected_count": 1,
+    "schematic_parity_count": 0,
+    "violation_types": {
+      "via_dangling": 2,
+      "silk_edge_clearance": 4,
+      "lib_footprint_mismatch": 1
+    }
+  },
+  "errors": [
+    "Supplied DRC contains errors, unrouted connections, or schematic parity differences"
+  ],
+  "observations": [
+    "U3/C6 supply-pad separation exceeds 2 mm; assess loop using plane-via locations, not only schematic connectivity"
+  ],
+  "method_notes": [
+    "Read-only pcbnew analysis; current actual schematic netlist freshly exported by KiCad.",
+    "Path lengths follow copper track centerlines, with pad/via center-to-contact distances; inner planes excluded until reaching a plane-connected via.",
+    "Plane connection requires via annulus overlap with same-net filled inner-layer polygon.",
+    "Nominal copper clearances use analytic rounded primitives and polygonal custom pads. Zones are checked by the supplied KiCad DRC.",
+    "Observations on ESD/decoupling are engineering review prompts, not standalone proof of EMC or transient performance.",
+    "Drill-to-pad distances use analytic circle/rectangle/roundrect boundaries and polygon geometry for custom MCU pads; nominal 0.025 mm minimum is enforced with 0.000001 mm numerical tolerance.",
+    "Same-net via annulus overlaps are informational. Nominal drill-to-drill spacing of at least 0.20 mm is required for every via pair."
+  ],
+  "project_rules": {
+    "path": "kicad/ppg_rs422_review.kicad_pro",
+    "sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+    "rules": {
+      "min_clearance": 0.15,
+      "min_copper_edge_clearance": 0.3,
+      "min_track_width": 0.1,
+      "min_via_diameter": 0.5,
+      "min_through_hole_diameter": 0.25,
+      "min_hole_to_hole": 0.25
+    }
+  },
+  "power_tvs_rs422_pinmap": {
+    "ok": true,
+    "errors": [],
+    "checked_pins": 25
+  },
+  "via_drill_pad_gap": {
+    "required_nominal_mm": 0.025,
+    "minimum": {
+      "via_index": 36,
+      "via_pos": [
+        -5.675,
+        2.05
+      ],
+      "via_net": "/RXN",
+      "pad": "J6.1",
+      "pad_net": "/RXN",
+      "drill_clearance_mm": 0.026573981721028095
+    },
+    "violations": [],
+    "smd_pad_count": 117,
+    "via_pad_comparisons": 6903
+  },
+  "via_tenting": {
+    "all_tented_front_and_back": true,
+    "untented_vias": [],
+    "count": 59
+  },
+  "via_drill_pair_clearance": {
+    "required_nominal_mm": 0.2,
+    "minimum": {
+      "via_indices": [
+        19,
+        24
+      ],
+      "positions": [
+        [
+          -2.8234,
+          -3.225
+        ],
+        [
+          -2.2,
+          -3.3
+        ]
+      ],
+      "nets": [
+        "GND",
+        "GND"
+      ],
+      "drill_gap_mm": 0.37789534159762617
+    },
+    "violations": []
+  },
+  "pad_clearances": {
+    "minimum_including_within_footprints": {
+      "pads": [
+        "C4.2",
+        "C4.1"
+      ],
+      "nets": [
+        "GND",
+        "/VLDO"
+      ],
+      "clearance_mm": 0.17999951922481858
+    },
+    "minimum_between_different_footprints": {
+      "pads": [
+        "J7.1",
+        "R5.2"
+      ],
+      "nets": [
+        "/SWDIO",
+        "/TXP"
+      ],
+      "clearance_mm": 0.29479999999999984
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "base": "uart-complete/kicad/ppg_pcb_v08.kicad_pcb",
+  "c5_temporarily_offboard": true,
+  "removed_nets": "VREF and 5V_LED F tracks; old C5 GND stub",
+  "root_nrst_compatible_seeds": 11,
+  "root_nrst_rejected": [
+    {
+      "geometry": {
+        "seg": [
+          0,
+          [
+            -3.625,
+            1.35
+          ],
+          [
+            -3.75,
+            1.075
+          ]
+        ],
+        "width": 0.1
+      },
+      "error": "track clearance -0.020486 mm at (-3.625, 1.35)->(-3.75, 1.075)"
+    },
+    {
+      "geometry": {
+        "via": [
+          -3.75,
+          1.075
+        ]
+      },
+      "error": "via copper clearance -0.220486 mm at (-3.75, 1.075); via hole clearance at (-3.75, 1.075); via overlaps existing via copper at (-3.75, 1.075)"
+    },
+    {
+      "geometry": {
+        "seg": [
+          2,
+          [
+            -3.75,
+            1.075
+          ],
+          [
+            -3.625,
+            1.2
+          ]
+        ],
+        "width": 0.1
+      },
+      "error": "track clearance -0.020486 mm at (-3.75, 1.075)->(-3.625, 1.2)"
+    }
+  ],
+  "ring": {
+    "center": [
+      -3.2955,
+      1.4062
+    ],
+    "radius_min": 0.55,
+    "radius_max": 0.9,
+    "grid": 0.025,
+    "poses": 2540
+  },
+  "rejection_counts": {
+    "foreign_copper": 2488,
+    "drill_pad": 52
+  },
+  "legal_candidates": [],
+  "route_attempts": [],
+  "complete": false
+}

@@ -1,0 +1,18 @@
+{
+  "XR33193_XR33194_XR33195_MaxLinear.pdf": {
+    "source": "/workspace/MVP-AMP/datasheet/pdf/XR33193_XR33194_XR33195_MaxLinear.pdf",
+    "sha256": "a06a598663910b7c559a1fcba75c066119532e70b47b577d4009be98ad17ad72"
+  },
+  "XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf": {
+    "source": "/workspace/MVP-AMP/datasheet/pdf/XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf",
+    "sha256": "a444cd1dddcaa40c120b9f088f623adb3ba02bf392c71365c64c78fb6bb56bab"
+  },
+  "Bourns_CDSOT23-SM712.pdf": {
+    "source": "/workspace/MVP-AMP/datasheet/pdf/Bourns_CDSOT23-SM712.pdf",
+    "sha256": "75c1a765dbea8b5d7e57611b8787ce6b2856e57eef387b334bc0a894d91a19d2"
+  },
+  "Vishay_CRCW-HP_e3.pdf": {
+    "source": "/workspace/MVP-AMP/datasheet/pdf/Vishay_CRCW-HP_e3.pdf",
+    "sha256": "d76b4839a999ba1e5d0e2ece80bab8aa6056cc48bd0ce6923be3a1f6801852e6"
+  }
+}

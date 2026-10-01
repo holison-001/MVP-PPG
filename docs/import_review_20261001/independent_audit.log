@@ -1,0 +1,74 @@
+{
+  "ok": true,
+  "board_sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238",
+  "netcheck": {
+    "ok": true,
+    "footprints": 37,
+    "schematic_components": 37,
+    "numbered_pads": 117,
+    "schematic_nets": 48,
+    "top_references": [
+      "U1"
+    ],
+    "board_thickness_mm": 0.8,
+    "copper_layers": 4,
+    "outline_radius_mm": 6.75,
+    "board_center_on_sheet_mm": [
+      20.0,
+      17.0
+    ],
+    "sheet_size_mm": [
+      40.0,
+      40.0
+    ],
+    "routing": {
+      "F.Cu": 28,
+      "via": 59,
+      "B.Cu": 202,
+      "In1.Cu": 42,
+      "In2.Cu": 39
+    },
+    "inner_layer_track_count": 81,
+    "layer_policy": {
+      "ok": true,
+      "inner_layer_track_count": 81,
+      "in1_track_count": 42,
+      "in1_routed_nets": [
+        "/SCL",
+        "/SDA",
+        "/TXN_DRV",
+        "/TXP",
+        "/TXP_DRV",
+        "/UART_RX",
+        "/UART_TX",
+        "5V_LED"
+      ],
+      "in2_3V3_track_count": 21,
+      "in2_3V3_widths_mm": [
+        0.4
+      ],
+      "errors": []
+    },
+    "errors": []
+  },
+  "minimum_copper_edge": {
+    "item": "via17",
+    "clearance_mm": 0.3021677176612787
+  },
+  "minimum_different_net_clearance_nominal": {
+    "items": [
+      "via47",
+      "track10"
+    ],
+    "nets": [
+      "/UART_TX",
+      "/SDA"
+    ],
+    "gap_mm": 0.1500000000000002
+  },
+  "errors": [],
+  "observations": [
+    "U3/C6 supply-pad separation exceeds 2 mm; assess loop using routed supply and ground-via locations"
+  ]
+}
+ESD [('D1', {'pad': 'D1.2', 'net': 'GND', 'pad_pos': (-2.5552, -5.4989), 'destination': 'In1 ground plane', 'nearest_distribution_via_geometric_mm': 0.3206918302670025, 'target': ('via', 31), 'length_mm': 0.3206918302670025, 'minimum_track_width_mm': None, 'via_pos': (-2.875, -5.475), 'via_index': 31, 'via_plane_connections': ['In1.Cu'], 'via_in2_power_tracks': [], 'straight_distance_mm': 0.3206918302670025, 'explicit_track_path': {'target': ('via', 31), 'length_mm': 0.32175915644347364, 'minimum_track_width_mm': 0.1, 'path': [{'from': ('pad', 'D1', '2', 26), 'to': ('xy', 2, -2.7, -5.475), 'length_mm': 0.14675915644347384, 'width_mm': None, 'kind': 'within_pad'}, {'from': ('xy', 2, -2.7, -5.475), 'to': ('via', 31), 'length_mm': 0.17499999999999982, 'width_mm': 0.1, 'kind': 'within_via'}]}}), ('D6', {'pad': 'D6.2', 'net': 'GND', 'pad_pos': (1.2045, 2.4786), 'destination': 'In1 ground plane', 'nearest_distribution_via_geometric_mm': 0.37970147484570044, 'target': ('via', 30), 'length_mm': 0.37970147484570044, 'minimum_track_width_mm': None, 'via_pos': (1.525, 2.275), 'via_index': 30, 'via_plane_connections': ['In1.Cu'], 'via_in2_power_tracks': [], 'straight_distance_mm': 0.37970147484570044, 'explicit_track_path': {'target': ('via', 30), 'length_mm': 0.4252462986739267, 'minimum_track_width_mm': 0.2, 'path': [{'from': ('pad', 'D6', '2', 48), 'to': ('xy', 2, 1.35, 2.275), 'length_mm': 0.2502462986739267, 'width_mm': None, 'kind': 'within_pad'}, {'from': ('xy', 2, 1.35, 2.275), 'to': ('xy', 2, 1.525, 2.275), 'length_mm': 0.175, 'width_mm': 0.2, 'kind': 'track'}, {'from': ('xy', 2, 1.525, 2.275), 'to': ('via', 30), 'length_mm': 0.0, 'width_mm': 0.2, 'kind': 'within_via'}]}}), ('D7', {'pad': 'D7.2', 'net': 'GND', 'pad_pos': (3.775887, -0.890713), 'destination': 'In1 ground plane', 'nearest_distribution_via_geometric_mm': 0.4393315776699871, 'target': ('via', 29), 'length_mm': 0.4393315776699871, 'minimum_track_width_mm': None, 'via_pos': (3.575, -0.5), 'via_index': 29, 'via_plane_connections': ['In1.Cu'], 'via_in2_power_tracks': [], 'straight_distance_mm': 0.4393315776699871, 'explicit_track_path': {'target': ('via', 29), 'length_mm': 0.45311387153982063, 'minimum_track_width_mm': 0.2, 'path': [{'from': ('pad', 'D7', '2', 65), 'to': ('xy', 2, 3.7, -0.625), 'length_mm': 0.2763371765398206, 'width_mm': None, 'kind': 'within_pad'}, {'from': ('xy', 2, 3.7, -0.625), 'to': ('xy', 2, 3.575, -0.5), 'length_mm': 0.176776695, 'width_mm': 0.2, 'kind': 'track'}, {'from': ('xy', 2, 3.575, -0.5), 'to': ('via', 29), 'length_mm': 0.0, 'width_mm': 0.2, 'kind': 'within_via'}]}}), ('D8', {'pad': 'D8.2', 'net': 'GND', 'pad_pos': (-3.8523, 0.4077), 'destination': 'In1 ground plane', 'nearest_distribution_via_geometric_mm': 0.4179169534728161, 'target': ('via', 23), 'length_mm': 0.417916953, 'minimum_track_width_mm': 0.2, 'via_pos': (-3.875, 0.825), 'via_index': 23, 'via_plane_connections': ['In1.Cu'], 'via_in2_power_tracks': [], 'straight_distance_mm': 0.4179169534728161, 'explicit_track_path': {'target': ('via', 23), 'length_mm': 0.417916953, 'minimum_track_width_mm': 0.2, 'path': [{'from': ('pad', 'D8', '2', 42), 'to': ('xy', 2, -3.8523, 0.4077), 'length_mm': 0.0, 'width_mm': None, 'kind': 'within_pad'}, {'from': ('xy', 2, -3.8523, 0.4077), 'to': ('xy', 2, -3.875, 0.825), 'length_mm': 0.417916953, 'width_mm': 0.2, 'kind': 'track'}, {'from': ('xy', 2, -3.875, 0.825), 'to': ('via', 23), 'length_mm': 0.0, 'width_mm': 0.2, 'kind': 'within_via'}]}})]

@@ -1,0 +1,51 @@
+{
+  "source_board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "9f7c6bddc2acd093bdf96e702ea95a1da7c04eb3a37ad897c7c2432dd62eafd8",
+  "exporter_sha256": "5db8b84fcb6261249650b272fb4ddbf6686a2232250c5f1eaa0b1a2eaf0194b4",
+  "purpose": "PCB review only; manufacturing and BOM exports require user approval",
+  "images": [
+    {
+      "file": "01_F_Cu_TOP.png",
+      "layers": "F.Cu,Edge.Cuts",
+      "view": "TOP: GND pour and local traces, viewed from top",
+      "sha256": "15d520c6f30048fd1c45e1a55d840de50cf203129dd571550a40e502c1f39082",
+      "svg_file": "01_F_Cu_TOP.svg",
+      "svg_sha256": "eaff64efa07e211c5dabca5e7bf0d96f16ddf8c09f4c22730a7552ae0d431727"
+    },
+    {
+      "file": "02_In1_Cu_GND.png",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "Inner GND, viewed from top",
+      "sha256": "aebe6e7a1ff1ac6a1710f6e99cb69411db590b31de01717c096280c4bf73a9b4",
+      "svg_file": "02_In1_Cu_GND.svg",
+      "svg_sha256": "b0167fcd6205f172d9c194ab7a364bb372e942934d54a0525e372d792ade99b2"
+    },
+    {
+      "file": "03_In2_Cu_3V3.png",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "Layer 3: broad 3V3 traces and routing, viewed from top",
+      "sha256": "45547dc9d8535a8d51415c63257fc51c55a0c08031c57f90a0aa058d078b5876",
+      "svg_file": "03_In2_Cu_3V3.svg",
+      "svg_sha256": "f318a972504951295b877ad15c68ff75b53a7dbcf5179503922b66e95c64157c"
+    },
+    {
+      "file": "04_B_Cu_BOTTOM.png",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "BOTTOM copper, viewed from bottom, mirrored",
+      "sha256": "ac0606add0138af270707197437f41eac4f6739a94033492ea5d5d6b454a1d44",
+      "svg_file": "04_B_Cu_BOTTOM.svg",
+      "svg_sha256": "20764c5242ba3424540770b1a3e36f49b46a5a047e60b26b35855adc716d7b04"
+    }
+  ],
+  "pdf": {
+    "file": "ppg_pcb_v08_layers.pdf",
+    "layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "view": "All PDF layers viewed from top; bottom PNG is mirrored",
+    "sha256": "ea4364aec450f87480d47b32d35f4fed9f4bb3c023afd7c6ae17ec52f166772d"
+  }
+}

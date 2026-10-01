@@ -1,0 +1,283 @@
+{
+  "status": "No complete solution; preserved review snapshot unchanged",
+  "results": {
+    "joint_c5_nrst_010.log": [
+      {
+        "C5": [
+          -1.0753,
+          2.3758,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      },
+      {
+        "C5": [
+          -1.0753,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      },
+      {
+        "C5": [
+          -1.1253,
+          2.3758,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      },
+      {
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      },
+      {
+        "C5": [
+          -1.1753,
+          2.3758,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      },
+      {
+        "C5": [
+          -1.1753,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      },
+      {
+        "C5": [
+          -1.2253,
+          2.3758,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      }
+    ],
+    "joint_selective.log": [
+      {
+        "rip": [
+          3
+        ],
+        "front": false,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "no_path",
+            2
+          ]
+        ]
+      },
+      {
+        "rip": [
+          5
+        ],
+        "front": false,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "no_path",
+            2
+          ]
+        ]
+      },
+      {
+        "rip": [
+          3,
+          5
+        ],
+        "front": false,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "no_path",
+            2
+          ]
+        ]
+      },
+      {
+        "rip": [
+          3
+        ],
+        "front": true,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "no_path",
+            2
+          ]
+        ]
+      },
+      {
+        "rip": [
+          5
+        ],
+        "front": true,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "no_path",
+            2
+          ]
+        ]
+      },
+      {
+        "rip": [
+          3,
+          5
+        ],
+        "front": true,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            4
+          ]
+        ]
+      }
+    ],
+    "joint_preserved.log": [
+      {
+        "rip": [
+          3,
+          5
+        ],
+        "front": true,
+        "C5": [
+          -1.1253,
+          2.4258,
+          180
+        ],
+        "routes": [
+          [
+            "/NRST",
+            "routed",
+            1
+          ],
+          [
+            "5V_LED",
+            "no_path",
+            3
+          ]
+        ]
+      }
+    ]
+  }
+}

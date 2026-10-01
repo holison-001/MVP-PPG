@@ -1,58 +1,16 @@
-# SleepBud PPG PCB v0.8 — 작업 체크포인트
+# SleepBud PPG PCB v0.8 — RS-422
 
-2026-09-30 작업 기록입니다. **ESD·비드는 회로도에 반영했으며, PCB 배치·배선에는 아직 반영하지 않았습니다.**
+**2026-10-02: U4/U5 MCP1703A /MC 풋프린트 불일치를 교정하고 재배선을 완료했습니다.** [최신 교정·검증 기록](docs/footprint_correction_20261001/README.md)을 기준으로 검토하세요.
 
-현재 PCB, Gerber, STEP, 부품 좌표 및 기존 BOM은 ESD 추가 전 26개 부품 기준입니다. 이 파일들을 ESD 개정판의 제조 자료로 사용하면 안 됩니다.
+- [PCB](kicad/ppg_pcb_v08.kicad_pcb), [회로도](kicad/ppg_pcb_v08.kicad_sch): ERC 0, DRC 오류 0·미연결 0·회로도 불일치 0. 무시 항목을 복원한 DRC 경고 25건은 기록에 공개했습니다.
+- Ø13.5 mm, 4층, 0.8 mm. 37레퍼런스(실장 부품28개 + 구리 패드9개), 117핀, 48넷. 앞면은 PPG U1만 배치합니다.
+- U3 XR33194/U6 XR33183 RS-422, 120Ω 수신 종단, 10kΩ 풀업, 22Ω 직렬저항 유지. D2/D4 통신선 TVS는 없으며 D1·FB1과 D6–D8은 유지합니다.
+- F.Cu/In1.Cu GND 푸어, In2.Cu 최소0.40 mm 3V3 배선과 일부 신호, B.Cu 나머지 부품·팬아웃. PCB와 함께 [사용자 규칙 파일](kicad/ppg_pcb_v08.kicad_dru)을 보관하세요.
+- [새 탑면](docs/footprint_correction_20261001/top.png), [새 바텀면](docs/footprint_correction_20261001/bottom.png), [2층](docs/footprint_correction_20261001/in1.png), [3층](docs/footprint_correction_20261001/in2.png).
+- [MC 데이터시트·랜드·STEP 출처](docs/footprint_correction_20261001/footprint_sources.md), [현재 케이블 좌표](docs/footprint_correction_20261001/README.md#배치와-층). SWDIO=J7, SWCLK=J8, NRST=J9.
 
-## 반영한 작업
+**기존 거버·좌표·BOM·보드 STEP·회로도 PDF·이전 렌더는 이번 교정을 반영하지 않은 이력입니다.** 이번 작업에서 새 거버나 BOM은 생성하지 않았습니다. 새 제조 출력은 [출력 승인 규칙](docs/OUTPUT_APPROVAL.md)에 따라 별도 진행합니다. 실물 전원 과도응답·통신·ESD·광학·발열 및 조립 검증이 남아 있습니다.
 
-- A3 가로 회로도를 센서, MCU, LVDS, 전원, 케이블, SWD의 기능별 영역으로 정리했습니다.
-- 기존 26개 부품의 회로도 UUID와 핀 UUID를 유지했습니다.
-- D1: 12V 입력의 Littelfuse `SPHV15-01ETG` 단방향 TVS, 1.0 × 0.6 mm.
-- D2–D8: TXP, TXN, RXP, RXN, SWDIO, SWCLK, NRST의 TI `ESD351DPYR` 단방향 TVS, 1.0 × 0.6 mm.
-- FB1: Murata `BLM15PX601SN1D`, 600 Ω @ 100 MHz, 1005 미터 규격(1.0 × 0.5 mm).
-- 전원 연결은 `J1 / 12V_IN → FB1 → 12V / C13 / U4`입니다. D1은 비드 앞의 12V_IN과 GND 사이에 연결합니다.
-- 회로도 생성기는 새 부품과 정리된 배치를 재생성하도록 갱신했습니다. Datasheet와 MPN 필드도 포함합니다.
+검증: KiCad 도구 경로를 설정하고 `./kicad/run_v08.sh --check-only`를 실행합니다. 기본 실행도 검증 전용입니다. 자동 재생성 후보는 별도 검토가 필요하며 현재 PCB를 덮어쓰지 않습니다.
 
-## 검증 상태
-
-| 항목 | 현재 결과 |
-|---|---|
-| ESD 회로도 부품 수 | 35개 |
-| 회로도 넷리스트와 설계 데이터 | 불일치 0개 |
-| 회로도 ERC | 오류 0개, 풋프린트 링크 경고 11개 |
-| 새 ESD 풋프린트 | 8개 부품의 로컬 라이브러리 제작 필요 |
-| 기존 풋프린트 경고 | J7–J9의 `CablePad_D0.8` 링크 3개 |
-| PCB | 기존 26개 부품의 배선 상태 유지; ESD·FB1 미반영 |
-| 기존 PCB DRC | 오류 0개, 미연결 0개, 기존 경고 8개 |
-| ESD PCB 제조 자료 | 미생성 |
-
-회로도 미리보기는 [ESD 회로도 초안 PDF](docs/ppg_pcb_v08_schematic_esd_draft.pdf), 검증 원자료는 [검증 폴더](docs/verification_20260930/)에 있습니다.
-
-## 다음 작업
-
-1. D1 및 D2–D8의 제조사 권장 랜드로 풋프린트를 작성하고 라이브러리 연결을 확인합니다.
-2. Ø13.5 mm 외형과 센서 광학 영역을 유지하면서 앞면 가장자리에 새 부품을 배치합니다. `design_v08.py`의 새 부품 좌표는 아직 제안값입니다.
-3. 케이블/테스트 패드 근처의 ESD 방전 경로와 짧은 GND 경로를 배선하고, J1의 기존 12V 연결을 비드 전후로 분리합니다.
-4. PCB–회로도 연결 일치, DRC, 미연결, 기구 간섭 및 도면 시인성을 검증합니다.
-5. PCB가 검증된 뒤 BOM·좌표·Gerber·STEP·렌더를 다시 생성합니다.
-
-## 부품 선정 근거와 실제 시험
-
-- [TI ESD351 데이터시트](https://www.ti.com/lit/ds/symlink/esd351.pdf): 핀 1은 IO/cathode, 핀 2는 GND/anode입니다. 권장 랜드는 0.30 × 0.50 mm, 중심 간격 0.70 mm입니다.
-- [Littelfuse SPHV 데이터시트](https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c): SPHV15-01ETG의 핀 1은 cathode, 핀 2는 anode입니다. 권장 랜드는 0.325 × 0.650 mm, 중심 간격 0.650 mm입니다.
-- [Murata BLM15PX601SN1 사양](https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23): 600 Ω @ 100 MHz, 85°C에서 0.9 A, 최대 DCR 0.23 Ω입니다.
-
-D1의 클램핑 전압은 1 A에서 22 V로, [MCP1703A의 입력 절대최대값 18 V](https://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf)보다 높습니다. 비드와 C13 이후 U4 입력에 남는 과도전압은 실제 ESD 시험으로 확인해야 합니다. 부품 자체의 ESD 정격을 보드의 보증 내성으로 해석하지 않습니다.
-
-## 파일 안내
-
-- `kicad/ppg_pcb_v08.kicad_sch`: ESD·비드를 포함한 현재 회로도 초안.
-- `kicad/ppg_pcb_v08.kicad_pcb`: ESD 추가 전 PCB.
-- `kicad/design_v08.py`: 현재 35개 부품의 전기적 설계 데이터와 새 부품의 제안 배치.
-- `kicad/build_sch_v08.py`, `kicad/layout_schematic_v08.py`: 회로도 생성 및 배치 도구.
-- `PPG_PCB_v0.8_사양.md`: ESD 추가 전 원설계 사양. 최신 진행 상태는 이 README를 우선합니다.
-- `docs/ppg_pcb_v08_schematic.pdf`: ESD 추가 전에 정리했던 26개 부품 회로도.
-- `gerber/`, `ppg_pcb_v08_gerber.zip`, 나머지 PCB 출력물: ESD 추가 전 원설계 자료.
-
-KiCad 자동 백업, 캐시, 개인 UI 설정 및 임시 검토 폴더는 Git에서 제외합니다. 기존 로컬 백업은 그대로 보존합니다.
+AMP 프로브 공급은 공칭9V이며 기존 `12V_IN`/`12V` 넷 이름은 유지합니다. [RS-422 회로 변경 기록](docs/RS422_update_20261001.md), [ZIP 원본 가져오기 검토](docs/import_review_20261001/README.md), [교정 전 검증](docs/verification_rs422_no_bus_tvs/), [D2/D4 삭제 전 이력](docs/legacy_rs422_with_sm712/), [LVDS 이력](docs/legacy_before_rs422/).

@@ -1,0 +1,34 @@
+{
+  "view": "Each side viewed directly; BOTTOM horizontally mirrored from KiCad board coordinates",
+  "status": "Placement geometry only; routing/vias not rendered; not manufacturing validation",
+  "total_components": 37,
+  "top_refs": [
+    "U1"
+  ],
+  "bottom_count": 36,
+  "placement_geometry_passed": true,
+  "swd_pad_functions": {
+    "J7": "SWDIO",
+    "J8": "SWCLK",
+    "J9": "NRST"
+  },
+  "source_board": {
+    "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+    "sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238"
+  },
+  "source_files": {
+    "../verification_rs422_no_bus_tvs/placement/placement_candidate.json": "91442bc73ea1920f4b2f7c88016a980afaa5ec46335862f72ed447e012cbcd74",
+    "../verification_rs422_no_bus_tvs/placement/geometry.json": "63d03c412879acd666fc74a9c00622660b6d7b8aec6d24d148f3a6ac3bd49c17",
+    "../verification_rs422_no_bus_tvs/placement/placement_audit.json": "3630f5a78c4599717136fdc4d640bbd91a08a64498e4bdd45c4f5a2e7601aae1",
+    "history_sm71239/packing_strict_best.json": "95d9c8068b0f0b0511ca408d00d770494a73f921b54c0765b2f53cc1873843b5",
+    "history_sm71239/packing_geometry_physical.json": "decd3631b51500bb6cff86787ae325c2378f71cdacd3383167c65e1842ca838c",
+    "history_sm71239/mechanical_candidate_assessment.json": "7dceeba5049f16bf28d55058b715d1363ec693571d221dfd32ab530460c45f85",
+    "legacy_lvds_geometry.json": "e4a1613e46c84c70f7f5bb2dd1837dd2c004c11b5a2f472ae9b90e8dbcc94508",
+    "render.py": "3afa56a47c8a17c187c1ef4e215d0dba6d229e086fc0d9f79ef16b567879edf6"
+  },
+  "output_files": {
+    "rs422_top_bottom.png": "9caead6cc4983f8754ca235a52d728323fad0af232a1f5b47da0b996862f32df",
+    "d2_d4_removed_comparison.png": "b112e32f8d22d35afad42baba1f154f56fecacd35453355fc7d2be4daa27de71",
+    "bottom_before_after.png": "51ff0b0167fdebb492a2ec7f2e0e8504360f5f7497655af7e041c5d95ba529d5"
+  }
+}

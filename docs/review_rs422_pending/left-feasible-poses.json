@@ -1,0 +1,152 @@
+{
+  "status": "provisional; excludes new NRST seed and rerouted 5V_LED",
+  "poses": [
+    {
+      "pose": [
+        -1.0753,
+        2.3758,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.21069814790724548,
+      "minimum_drill_gap": 0.20062509921994653,
+      "closest_foreign_copper": [
+        "via",
+        "5V_LED",
+        [
+          -1.226,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    },
+    {
+      "pose": [
+        -1.0753,
+        2.4258,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.16088560093451498,
+      "minimum_drill_gap": 0.24111355507233606,
+      "closest_foreign_copper": [
+        "via",
+        "5V_LED",
+        [
+          -1.226,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    },
+    {
+      "pose": [
+        -1.1253,
+        2.3758,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.21761085742544767,
+      "minimum_drill_gap": 0.17176177433753942,
+      "closest_foreign_copper": [
+        "via",
+        "5V_LED",
+        [
+          -1.226,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    },
+    {
+      "pose": [
+        -1.1253,
+        2.4258,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.16856274965709378,
+      "minimum_drill_gap": 0.2133566608890684,
+      "closest_foreign_copper": [
+        "via",
+        "5V_LED",
+        [
+          -1.226,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    },
+    {
+      "pose": [
+        -1.1753,
+        2.3758,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.21889715253605804,
+      "minimum_drill_gap": 0.144556728663931,
+      "closest_foreign_copper": [
+        "track",
+        "5V_LED",
+        [
+          -1.588,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    },
+    {
+      "pose": [
+        -1.1753,
+        2.4258,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.17870154670428975,
+      "minimum_drill_gap": 0.1888503305207755,
+      "closest_foreign_copper": [
+        "via",
+        "5V_LED",
+        [
+          -1.226,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    },
+    {
+      "pose": [
+        -1.2253,
+        2.3758,
+        180
+      ],
+      "court_overlap": {},
+      "body_overlap": {},
+      "minimum_copper_gap": 0.1835418134767306,
+      "minimum_drill_gap": 0.12334981370639295,
+      "closest_foreign_copper": [
+        "track",
+        "5V_LED",
+        [
+          -1.588,
+          3.0348
+        ],
+        "2"
+      ],
+      "feasible": true
+    }
+  ]
+}

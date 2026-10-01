@@ -1,0 +1,103 @@
+{
+  "environment": {
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUTF8": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "KICAD_CLI": "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+    "KICAD10_FOOTPRINT_DIR": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints",
+    "KICAD10_SYMBOL_DIR": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\symbols",
+    "KICAD10_3DMODEL_DIR": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\3dmodels"
+  },
+  "commands": [
+    {
+      "cwd": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-review\\validation\\baseline",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--output",
+        "../baseline_erc.json",
+        "kicad/ppg_pcb_v08.kicad_sch"
+      ],
+      "log": "baseline_erc.log"
+    },
+    {
+      "cwd": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-review\\validation\\baseline",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--schematic-parity",
+        "--refill-zones",
+        "--output",
+        "../baseline_drc.json",
+        "kicad/ppg_pcb_v08.kicad_pcb"
+      ],
+      "log": "baseline_drc.log"
+    },
+    {
+      "cwd": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-review\\validation\\strict",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "sch",
+        "erc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--output",
+        "../strict_erc.json",
+        "kicad/ppg_pcb_v08.kicad_sch"
+      ],
+      "log": "strict_erc.log"
+    },
+    {
+      "cwd": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-review\\validation\\strict",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--schematic-parity",
+        "--refill-zones",
+        "--output",
+        "../strict_drc.json",
+        "kicad/ppg_pcb_v08.kicad_pcb"
+      ],
+      "log": "strict_drc.log"
+    },
+    {
+      "cwd": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-review\\validation\\baseline",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+        "kicad/netcheck_v08.py",
+        "--json",
+        "../netcheck.json"
+      ],
+      "log": "netcheck.log"
+    },
+    {
+      "cwd": "C:\\Users\\LAPTOP-065\\Documents\\Codex\\2026-09-30\\mvp-ppg\\work\\zip-review\\validation\\baseline",
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\python.exe",
+        "docs/verification_rs422_no_bus_tvs/independent_pcb_audit.py",
+        "kicad/ppg_pcb_v08.kicad_pcb",
+        "--drc",
+        "../strict_drc.json",
+        "--project",
+        "kicad/ppg_pcb_v08.kicad_pro",
+        "--output",
+        "../independent_audit.json"
+      ],
+      "launcher_note": "KiCad Python embedded runtime ignores PYTHONPATH; launched with runpy after inserting validation/deps into sys.path. No source-script edits.",
+      "log": "independent_audit.log"
+    }
+  ]
+}

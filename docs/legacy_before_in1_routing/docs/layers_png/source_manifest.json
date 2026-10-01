@@ -1,0 +1,53 @@
+{
+  "source_board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "dd0f934c1c54937acf0e3f05e72852dc92abfc70ec31f0b02e00c6d742b3d746",
+  "exporter_sha256": "5db8b84fcb6261249650b272fb4ddbf6686a2232250c5f1eaa0b1a2eaf0194b4",
+  "purpose": "PCB review only; manufacturing and BOM exports require user approval",
+  "images": [
+    {
+      "file": "01_F_Cu_TOP.png",
+      "layers": "F.Cu,Edge.Cuts",
+      "view": "TOP: GND pour and local traces, viewed from top",
+      "sha256": "7891bbc0f70157d27eeebc44a65b90d2c38693869d95b0484ce2df2d741b346b",
+      "svg_file": "01_F_Cu_TOP.svg",
+      "svg_sha256": "588f784923ac6c615075a1260d7fb1cfe3abc02f1ab1b7d22881ef17f85ba944"
+    },
+    {
+      "file": "02_In1_Cu_GND.png",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "Inner GND, viewed from top",
+      "sha256": "aebe6e7a1ff1ac6a1710f6e99cb69411db590b31de01717c096280c4bf73a9b4",
+      "svg_file": "02_In1_Cu_GND.svg",
+      "svg_sha256": "5a8787b9c324e080c04d933dd63aee571697059f5485f324a60812c3ef769a2a"
+    },
+    {
+      "file": "03_In2_Cu_3V3.png",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "Layer 3: broad 3V3 traces and routing, viewed from top",
+      "sha256": "45547dc9d8535a8d51415c63257fc51c55a0c08031c57f90a0aa058d078b5876",
+      "svg_file": "03_In2_Cu_3V3.svg",
+      "svg_sha256": "74e2363fe991db1487d63ab930398dad2918d70577eff961a1fe1a18eccd024f"
+    },
+    {
+      "file": "04_B_Cu_BOTTOM.png",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "BOTTOM copper, viewed from bottom, mirrored",
+      "sha256": "ac0606add0138af270707197437f41eac4f6739a94033492ea5d5d6b454a1d44",
+      "svg_file": "04_B_Cu_BOTTOM.svg",
+      "svg_sha256": "fbbb0b11177bd489bfac591bdadecca2d04bb4b5ff090492d5c4d3b68d753580"
+    }
+  ],
+  "pdf": {
+    "file": "ppg_pcb_v08_layers.pdf",
+    "layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "view": "All PDF layers viewed from top; bottom PNG is mirrored",
+    "sha256": "9fb0cefd36afad2c4c477d9c01249f271c74ab057a98e962e75ccc04cbe52e00"
+  },
+  "source_project_sha256": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+  "source_custom_rules_sha256": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603"
+}

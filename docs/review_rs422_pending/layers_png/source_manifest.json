@@ -1,0 +1,51 @@
+{
+  "source_board": "/workspace/MVP-PPG/kicad/ppg_rs422_review.kicad_pcb",
+  "board_sha256": "765a0ff8a6644feb98d36e592b2b0e61950056b49c3725b3d1e12be50677f663",
+  "exporter_sha256": "86721f1d72b43410743c3f77091f65c684f2d0cb2845be358615b44079acc8fa",
+  "purpose": "PCB review only; manufacturing and BOM exports require user approval",
+  "images": [
+    {
+      "file": "01_F_Cu_TOP.png",
+      "layers": "F.Cu,Edge.Cuts",
+      "view": "TOP copper, viewed from top",
+      "sha256": "792d3e6302738580419dba528631c15ae6d487c13f1f45b8589b53a858fb811a",
+      "svg_file": "01_F_Cu_TOP.svg",
+      "svg_sha256": "faaf8e4782c9f37e124d5e1ec2f3882723c16c66f81e6a336e343584cbcd793d"
+    },
+    {
+      "file": "02_In1_Cu_GND.png",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "Inner GND, viewed from top",
+      "sha256": "9b149bb1dfad148f2a36331259bc3391e65e248b44147fba6930b6d2dff151bb",
+      "svg_file": "02_In1_Cu_GND.svg",
+      "svg_sha256": "1593bd88b6df398288b01ee3020da5c79d44c26f3cbd2cbdffcd9e7c7405e1f1"
+    },
+    {
+      "file": "03_In2_Cu_3V3.png",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "Inner 3V3, viewed from top",
+      "sha256": "5575eae3665742d8fe582639beee801341620dc5a85fcd5e6ca19c081620b286",
+      "svg_file": "03_In2_Cu_3V3.svg",
+      "svg_sha256": "091f1af87cc929e0c5e8ae5d0ac3fc375fb058ade702a71a840f85fc4b2ef94b"
+    },
+    {
+      "file": "04_B_Cu_BOTTOM.png",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "BOTTOM copper, viewed from bottom, mirrored",
+      "sha256": "fe666f55694593147f98d458f3024ac9c78645c029785eb7a0a8114fe99d68db",
+      "svg_file": "04_B_Cu_BOTTOM.svg",
+      "svg_sha256": "091ce839b1286ead7776eb6175b25c4a4b7b8423fe5eabc7a2835c7c6df6c3fe"
+    }
+  ],
+  "pdf": {
+    "file": "ppg_pcb_v08_layers.pdf",
+    "layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "view": "All PDF layers viewed from top; bottom PNG is mirrored",
+    "sha256": "19abbc442987c54ec6b24dce272cc75ffa6c584984dbef98ec20fec40cbaf096"
+  }
+}

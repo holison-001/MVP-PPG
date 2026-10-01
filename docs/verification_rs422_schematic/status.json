@@ -1,0 +1,18 @@
+{
+  "pcb": "pending",
+  "schematic": "RS-422 39-reference compact circuit",
+  "manufacturing_outputs": "existing LVDS only; not regenerated",
+  "erc_violations": 0,
+  "net_intent": "verified; circuit-only",
+  "archive": "docs/legacy_before_rs422",
+  "pcb_sha256_unchanged": "03709b49341c3901012be2a3edece03c8007b1238ee3284406bd707d44844c5a",
+  "pcb_pending_reason": "No valid placement found yet: courtyard overlaps and minimum copper-edge clearance 0.262909 mm below 0.30 mm",
+  "final_circuit_audit": {
+    "references": 39,
+    "pin_nodes": 123,
+    "nets": 48,
+    "erc": 0,
+    "bom_groups": 20,
+    "unaffected_pin_net_changes": 0
+  }
+}

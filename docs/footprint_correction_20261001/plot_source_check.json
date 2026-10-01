@@ -1,0 +1,16 @@
+{
+  "source": "kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "fe4fedb17c883859ff32d6b832b4597503495e0944457dd1095dcca32a195165",
+  "plot_copper_pad_track_zone_geometry_unchanged": true,
+  "review_only_changes": "Replaced overlapping text with centered reference labels, strengthened outline colors, added PNG margins. Bottom view is mirrored. Source PCB untouched.",
+  "views": [
+    "top.svg",
+    "bottom.svg",
+    "in1.svg",
+    "in2.svg",
+    "top.png",
+    "bottom.png",
+    "in1.png",
+    "in2.png"
+  ]
+}

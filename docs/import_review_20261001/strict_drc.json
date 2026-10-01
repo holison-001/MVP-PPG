@@ -1,0 +1,1041 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-01T22:52:52",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SDA] on F.Cu, 길이 0.9906 mm",
+                    "pos": {
+                        "x": 18.75,
+                        "y": 15.35
+                    },
+                    "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3"
+                },
+                {
+                    "description": "비아 [/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9023,
+                        "y": 16.2363
+                    },
+                    "uuid": "df387475-59c0-4b0b-b1ec-19d883d9f0dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SDA] on In1.Cu, 길이 1.5002 mm",
+                    "pos": {
+                        "x": 22.475,
+                        "y": 18.275
+                    },
+                    "uuid": "5990517c-64a3-4e16-acd5-cca906588fcd"
+                },
+                {
+                    "description": "비아 [/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.45,
+                        "y": 18.5
+                    },
+                    "uuid": "682f6029-2006-4e39-9576-b0360907d444"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SCL] on In1.Cu, 길이 0.5303 mm",
+                    "pos": {
+                        "x": 20.425,
+                        "y": 14.775
+                    },
+                    "uuid": "45e67fdd-79f5-496c-ac33-948408236980"
+                },
+                {
+                    "description": "비아 [/SCL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.8148,
+                        "y": 15.2148
+                    },
+                    "uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SCL] on In1.Cu, 길이 0.7945 mm",
+                    "pos": {
+                        "x": 22.1,
+                        "y": 17.05
+                    },
+                    "uuid": "4f29e4a4-49f8-428c-b868-45d59284d28f"
+                },
+                {
+                    "description": "비아 [/SCL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.995,
+                        "y": 17.275
+                    },
+                    "uuid": "22da2365-7d9a-4af7-971c-89f4dffe184b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 0.0354 mm",
+                    "pos": {
+                        "x": 25.75,
+                        "y": 15.7
+                    },
+                    "uuid": "1d4aa4cf-cbf0-4da7-a289-a61395356dec"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 25.875,
+                        "y": 15.45
+                    },
+                    "uuid": "e9d6d70f-6971-4717-9718-6e4aac90142a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 1.2903 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": 13.45
+                    },
+                    "uuid": "43ef76f6-71e4-41b2-aa4e-65c82957193f"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 15.8,
+                        "y": 14.725
+                    },
+                    "uuid": "c4b6729b-26b4-4162-82ec-edfa033a8b91"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 2.1682 mm",
+                    "pos": {
+                        "x": 23.1,
+                        "y": 22.175
+                    },
+                    "uuid": "4be98aab-861e-4e59-bdf8-4e8300f024a8"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.0,
+                        "y": 22.4
+                    },
+                    "uuid": "2e176cd8-2052-4529-9700-3129214e3ec2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 3.1113 mm",
+                    "pos": {
+                        "x": 22.325,
+                        "y": 14.375
+                    },
+                    "uuid": "5e14e285-3ecd-46bc-86ff-a810da66118a"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.95,
+                        "y": 16.75
+                    },
+                    "uuid": "c3afe81b-689a-45ba-9954-5e9af91e0b12"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 0.3717 mm",
+                    "pos": {
+                        "x": 17.425,
+                        "y": 16.75
+                    },
+                    "uuid": "63fffc88-4ce2-48cc-88a4-08a700c5c15b"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 16.85,
+                        "y": 16.52
+                    },
+                    "uuid": "87fa530a-b213-4746-9ce7-74e7552ab61a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 0.9546 mm",
+                    "pos": {
+                        "x": 22.625,
+                        "y": 14.4
+                    },
+                    "uuid": "6f1f2034-46ca-41af-94ed-8f84b3ce0dbb"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.775,
+                        "y": 13.55
+                    },
+                    "uuid": "33c23666-c9b7-490c-ac0e-f35350e23c84"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 0.3889 mm",
+                    "pos": {
+                        "x": 23.875,
+                        "y": 20.15
+                    },
+                    "uuid": "728cf45d-6953-4dab-8d8d-d0e1dd753cc9"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 24.25,
+                        "y": 19.65
+                    },
+                    "uuid": "c33002ba-72e9-4903-a5b8-f95c876b34fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 2.1756 mm",
+                    "pos": {
+                        "x": 19.725,
+                        "y": 16.8
+                    },
+                    "uuid": "751b460a-df15-4c19-b2ac-0314261079e6"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.95,
+                        "y": 16.75
+                    },
+                    "uuid": "c3afe81b-689a-45ba-9954-5e9af91e0b12"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 1.6547 mm",
+                    "pos": {
+                        "x": 21.55,
+                        "y": 13.45
+                    },
+                    "uuid": "779c8d12-1c09-4631-86e8-c64ae3e76163"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.775,
+                        "y": 13.55
+                    },
+                    "uuid": "33c23666-c9b7-490c-ac0e-f35350e23c84"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 2.7705 mm",
+                    "pos": {
+                        "x": 19.625,
+                        "y": 12.7
+                    },
+                    "uuid": "8feb67dd-b7a8-4464-9ca3-deb8472ba8c8"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.8489,
+                        "y": 12.6135
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 3.9794 mm",
+                    "pos": {
+                        "x": 24.35,
+                        "y": 19.425
+                    },
+                    "uuid": "ba17ff70-7cc8-4aa4-b774-761939f77413"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 24.25,
+                        "y": 19.65
+                    },
+                    "uuid": "c33002ba-72e9-4903-a5b8-f95c876b34fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 0.8201 mm",
+                    "pos": {
+                        "x": 24.45,
+                        "y": 14.425
+                    },
+                    "uuid": "c72f4aaf-a4c5-4abf-b86e-deefe6c70d42"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 25.05,
+                        "y": 13.55
+                    },
+                    "uuid": "ef8e3fa7-4485-4c80-b99a-5568254184cd"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [3V3] on In2.Cu, 길이 0.5303 mm",
+                    "pos": {
+                        "x": 21.275,
+                        "y": 20.625
+                    },
+                    "uuid": "db518770-4612-483c-8d8a-da9674ffec1d"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.6734,
+                        "y": 20.15
+                    },
+                    "uuid": "507b0ce5-04b4-4704-9752-f5e09368bf02"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on F.Cu, 길이 1.2516 mm",
+                    "pos": {
+                        "x": 18.6348,
+                        "y": 20.0348
+                    },
+                    "uuid": "1bc9a37a-053a-4c0b-b8c9-a26752848cf1"
+                },
+                {
+                    "description": "비아 [5V_LED] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 18.774,
+                        "y": 20.0348
+                    },
+                    "uuid": "c212bfa9-14b6-4426-b3b5-1f61a27e393b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 1.0148 mm",
+                    "pos": {
+                        "x": 20.6976,
+                        "y": 22.711
+                    },
+                    "uuid": "1dfa1d9f-5014-45cd-a71f-8cef8c2d1fda"
+                },
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.5,
+                        "y": 22.575
+                    },
+                    "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 0.5899 mm",
+                    "pos": {
+                        "x": 19.6828,
+                        "y": 22.711
+                    },
+                    "uuid": "a0de659d-3732-47e6-a5ec-8b625e3e3451"
+                },
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.5,
+                        "y": 22.575
+                    },
+                    "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.9192 mm",
+                    "pos": {
+                        "x": 20.475,
+                        "y": 20.625
+                    },
+                    "uuid": "94c64a62-4658-4df2-a02c-c0c0b1444b9f"
+                },
+                {
+                    "description": "비아 [/VREF] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.5882,
+                        "y": 19.9189
+                    },
+                    "uuid": "65abe2a2-bd53-4d83-a1da-9f96f6d36a5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/RXN] on In2.Cu, 길이 1.6750 mm",
+                    "pos": {
+                        "x": 14.225,
+                        "y": 18.825
+                    },
+                    "uuid": "136f199c-5ea8-4241-9a7a-85135614ced2"
+                },
+                {
+                    "description": "비아 [/RXN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 14.325,
+                        "y": 19.05
+                    },
+                    "uuid": "4cf3233c-7349-4255-b2e9-479cf0f44345"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/TXP_DRV] on In1.Cu, 길이 0.0750 mm",
+                    "pos": {
+                        "x": 23.05,
+                        "y": 17.6
+                    },
+                    "uuid": "d0351480-e520-4ef2-9ccb-7df2d900ae2e"
+                },
+                {
+                    "description": "비아 [/TXP_DRV] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.95,
+                        "y": 17.375
+                    },
+                    "uuid": "1b2f79e2-bd74-4382-9704-ad7bbb2e1845"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [12V] on In2.Cu, 길이 1.8385 mm",
+                    "pos": {
+                        "x": 15.325,
+                        "y": 19.15
+                    },
+                    "uuid": "4535318e-1883-4a70-9d5c-d4eb095a55e1"
+                },
+                {
+                    "description": "비아 [12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 16.7087,
+                        "y": 20.6824
+                    },
+                    "uuid": "979f39e1-888b-4392-b7e6-022d360e07fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [12V] on In2.Cu, 길이 1.5910 mm",
+                    "pos": {
+                        "x": 19.75,
+                        "y": 13.85
+                    },
+                    "uuid": "c78a1a25-69e4-4c8d-b4bd-92f3d7a7efbe"
+                },
+                {
+                    "description": "비아 [12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.8315,
+                        "y": 13.6211
+                    },
+                    "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SWDIO] on In2.Cu, 길이 3.3025 mm",
+                    "pos": {
+                        "x": 21.875,
+                        "y": 16.45
+                    },
+                    "uuid": "8480a4cd-cace-46cb-aa7d-6e4405a68f9c"
+                },
+                {
+                    "description": "비아 [/SWDIO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.1655,
+                        "y": 19.5545
+                    },
+                    "uuid": "703855e2-f3a7-434c-9392-33022a328a5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SWDIO] on In2.Cu, 길이 0.3041 mm",
+                    "pos": {
+                        "x": 20.7,
+                        "y": 19.675
+                    },
+                    "uuid": "a632e441-8645-4713-8fa8-f3a12f2ea78b"
+                },
+                {
+                    "description": "비아 [/SWDIO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.1655,
+                        "y": 19.5545
+                    },
+                    "uuid": "703855e2-f3a7-434c-9392-33022a328a5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/SWDIO] on In2.Cu, 길이 0.8551 mm",
+                    "pos": {
+                        "x": 21.525,
+                        "y": 19.9
+                    },
+                    "uuid": "dc3030f9-e42c-4c9e-819e-ac880609abbb"
+                },
+                {
+                    "description": "비아 [/SWDIO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.7383,
+                        "y": 20.0235
+                    },
+                    "uuid": "cf5bd9b7-7307-4d26-95af-bb09b18f6545"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/UART_TX] on In1.Cu, 길이 2.0506 mm",
+                    "pos": {
+                        "x": 25.975,
+                        "y": 16.775
+                    },
+                    "uuid": "b6073a18-785d-4bfa-b0c2-c485b8848fe6"
+                },
+                {
+                    "description": "비아 [/UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 26.075,
+                        "y": 16.55
+                    },
+                    "uuid": "b398e2f8-c7d2-4f5e-b2a1-d7898cf59c9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/UART_TX] on In1.Cu, 길이 0.6295 mm",
+                    "pos": {
+                        "x": 21.2,
+                        "y": 14.225
+                    },
+                    "uuid": "e7a0e3b9-2339-4b5b-bf83-1c1b9d6daf5a"
+                },
+                {
+                    "description": "비아 [/UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.35,
+                        "y": 14.05
+                    },
+                    "uuid": "992c83f5-fd95-4204-9642-0c926cd0b911"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/NRST] on In2.Cu, 길이 2.4250 mm",
+                    "pos": {
+                        "x": 17.15,
+                        "y": 17.3
+                    },
+                    "uuid": "556aa038-dae7-4cb3-acb7-a69ccea86a4e"
+                },
+                {
+                    "description": "비아 [/NRST] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.8,
+                        "y": 17.4
+                    },
+                    "uuid": "7ae3cc54-3f53-495e-be30-5950320b2f34"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/RXP_RCV] on In2.Cu, 길이 0.4000 mm",
+                    "pos": {
+                        "x": 15.425,
+                        "y": 12.9
+                    },
+                    "uuid": "9ce4aeef-d204-4732-81d2-26cea316d785"
+                },
+                {
+                    "description": "비아 [/RXP_RCV] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 16.05,
+                        "y": 12.9
+                    },
+                    "uuid": "285c9c93-cdf1-40e3-ab81-015793bcc77b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/RXP] on In2.Cu, 길이 4.6282 mm",
+                    "pos": {
+                        "x": 15.475,
+                        "y": 13.575
+                    },
+                    "uuid": "1da6d8f8-20c4-45f6-b845-4207f65f06d1"
+                },
+                {
+                    "description": "비아 [/RXP] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 15.5602,
+                        "y": 13.3511
+                    },
+                    "uuid": "687c8f04-bbc8-4bb9-947a-73af18e5535f"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "items": [
+                {
+                    "description": "배선 [/UART_RX] on In1.Cu, 길이 1.0326 mm",
+                    "pos": {
+                        "x": 21.65,
+                        "y": 14.025
+                    },
+                    "uuid": "d305d58c-35e5-4e40-83b7-01500db9eb4c"
+                },
+                {
+                    "description": "비아 [/UART_RX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.9,
+                        "y": 13.8
+                    },
+                    "uuid": "f948adad-1359-4b54-9cd0-3bd30e3fdd60"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_not_centered_on_via"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J2",
+                    "pos": {
+                        "x": 20.6976,
+                        "y": 22.711
+                    },
+                    "uuid": "0002f02c-eef9-49ff-a3c2-177636d8f66b"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J6",
+                    "pos": {
+                        "x": 14.8181,
+                        "y": 19.6172
+                    },
+                    "uuid": "13c4cee9-d738-495d-bc0c-29d9f6f704df"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J8",
+                    "pos": {
+                        "x": 22.7537,
+                        "y": 16.5806
+                    },
+                    "uuid": "176d4cba-c60a-431c-8c5f-189c5360f2b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J1",
+                    "pos": {
+                        "x": 19.2172,
+                        "y": 11.209
+                    },
+                    "uuid": "3d254908-604a-47e2-84e3-75ae52ef13b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J7",
+                    "pos": {
+                        "x": 23.7418,
+                        "y": 18.7708
+                    },
+                    "uuid": "487153dc-e356-4c28-bc9e-5ddd41862eea"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J4",
+                    "pos": {
+                        "x": 25.1031,
+                        "y": 18.6808
+                    },
+                    "uuid": "5ff61134-6e74-4fd1-ad01-357b07df3332"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J9",
+                    "pos": {
+                        "x": 16.7045,
+                        "y": 18.4062
+                    },
+                    "uuid": "6b3badd4-02c2-40a0-931e-863ad52c773d"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J5",
+                    "pos": {
+                        "x": 15.0655,
+                        "y": 13.9497
+                    },
+                    "uuid": "ae3ee1af-537d-4f37-aac0-e50bead70f10"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "풋프린트 J3",
+                    "pos": {
+                        "x": 24.4813,
+                        "y": 14.9899
+                    },
+                    "uuid": "fc6787ea-d251-4c9d-8077-c947c6507923"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 22.6789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 23.1539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.110069,
+                        "y": 23.029846
+                    },
+                    "uuid": "46fadab4-36cc-44d3-ba2b-58c960c0500b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.138353,
+                        "y": 23.05813
+                    },
+                    "uuid": "0f7234a8-e9b0-409a-adea-446db553fc04"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 U2",
+                    "pos": {
+                        "x": 20.1419,
+                        "y": 17.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}
