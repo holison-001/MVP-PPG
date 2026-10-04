@@ -1,0 +1,35 @@
+{
+  "routing_candidate_sha256": "6596d7bdd598beb90f3e9d574f50ae3f80457d58c76c389f2d2b7d634abc4182",
+  "before_center_mm": [
+    0.0,
+    0.0
+  ],
+  "after_center_mm": [
+    150.0,
+    100.0
+  ],
+  "translation_mm": [
+    150.0,
+    100.0
+  ],
+  "sheet": "A4 landscape",
+  "sheet_size_mm": [
+    297,
+    210
+  ],
+  "board_bounds_on_sheet_mm": [
+    143.25,
+    93.25,
+    156.75,
+    106.75
+  ],
+  "auxiliary_and_grid_origin_mm": [
+    150.0,
+    100.0
+  ],
+  "footprints_with_preserved_relative_position_rotation_side": 37,
+  "applied_board_sha256": "c97e93d95bb8b2447578e796edd8947faa053d12bd98192f97d93aa5d910f429",
+  "verified_by": "independent_final_audit.json",
+  "relative_items_compared": 418,
+  "all_tracks_vias_footprints_pads_and_drawings_preserved_by_translation": true
+}

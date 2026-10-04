@@ -1,0 +1,760 @@
+{
+  "schematic": "ppg_pcb_v08.kicad_sch",
+  "export_tool": "Eeschema 10.0.6+dfsg-1",
+  "groups": 16,
+  "included_references": 35,
+  "excluded": [],
+  "parts": [
+    {
+      "Reference": "C1",
+      "Value": "10uF 6.3V X5R",
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "VLED bulk / LDO1 output",
+      "Manufacturer": "",
+      "StandardValue": "10u/6.3V/X5R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0402 (1005)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "MPN 미확정. 기존 BOM 예시: GRM155R60J106ME47",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C4",
+      "Value": "1uF 6.3V",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "U1 VLDO bypass",
+      "Manufacturer": "",
+      "StandardValue": "1u/6.3V/X5R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 X5R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 X5R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R60J105MEA2",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C5",
+      "Value": "1uF 6.3V",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "U1 VREF bypass",
+      "Manufacturer": "",
+      "StandardValue": "1u/6.3V/X5R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 X5R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 X5R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R60J105MEA2",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C6",
+      "Value": "100nF",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "U3 VCC bypass",
+      "Manufacturer": "",
+      "StandardValue": "100n/16V/X7R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 16V/X7R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 16V/X7R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R71C104KE14",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C7",
+      "Value": "100nF",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "U6 VCC bypass",
+      "Manufacturer": "",
+      "StandardValue": "100n/16V/X7R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 16V/X7R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 16V/X7R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R71C104KE14",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C11",
+      "Value": "100nF",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "U2 VDD bypass",
+      "Manufacturer": "",
+      "StandardValue": "100n/16V/X7R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 16V/X7R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 16V/X7R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R71C104KE14",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C12",
+      "Value": "1uF 6.3V",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "U2 VDD bulk",
+      "Manufacturer": "",
+      "StandardValue": "1u/6.3V/X5R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 X5R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 X5R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R60J105MEA2",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C13",
+      "Value": "1uF 25V X7R",
+      "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "LDO1 input",
+      "Manufacturer": "",
+      "StandardValue": "1u/25V/X7R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0402 (1005)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "MPN 미확정. 기존 예시 GRM155R61E105KA12는 X7R 적합성 확인 필요",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "C14",
+      "Value": "1uF 6.3V",
+      "Footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "LDO2 output",
+      "Manufacturer": "",
+      "StandardValue": "1u/6.3V/X5R",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 X5R"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 X5R",
+        "MPN 미확정. 기존 BOM 예시: GRM033R60J105MEA2",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "D1",
+      "Value": "SPHV15-01ETG",
+      "Footprint": "SleepBud:TVS_SOD882_1x0.6",
+      "MPN": "SPHV15-01ETG",
+      "Datasheet": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c",
+      "Description": "Littelfuse 15 V unidirectional input ESD TVS; K=1, A=2; 1.0x0.6 mm; transient residual at U4 VIN requires validation",
+      "Manufacturer": "",
+      "StandardValue": "SPHV15-01ETG",
+      "MPNResolved": "SPHV15-01ETG",
+      "ManufacturerResolved": "Littelfuse",
+      "Package": "SOD-882, 1.0 × 0.6 mm",
+      "DatasheetFilename": "littelfuse_tvs_diode_array_sphv_datasheet.pdf",
+      "DatasheetSource": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D2",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for TXP; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D3",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for TXN; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D4",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for RXP; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D5",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for RXN; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D6",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for SWDIO; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D7",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for SWCLK; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "D8",
+      "Value": "ESD351DPYR",
+      "Footprint": "SleepBud:TI_DPY0002A_1x0.6",
+      "MPN": "ESD351DPYR",
+      "Datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Description": "TI unidirectional low-capacitance ESD TVS for NRST; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
+      "Manufacturer": "",
+      "StandardValue": "ESD351DPYR",
+      "MPNResolved": "ESD351DPYR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
+      "DatasheetFilename": "esd351.pdf",
+      "DatasheetSource": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": []
+    },
+    {
+      "Reference": "FB1",
+      "Value": "BLM15PX601SN1D",
+      "Footprint": "Inductor_SMD:L_0402_1005Metric",
+      "MPN": "BLM15PX601SN1D",
+      "Datasheet": "https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23",
+      "Description": "Murata ferrite bead 600 ohm at 100 MHz, 0.9 A at 85C, DCR 0.23 ohm max; metric 1005; C13 remains on filtered side",
+      "Manufacturer": "",
+      "StandardValue": "600Ω@100MHz/0.9A",
+      "MPNResolved": "BLM15PX601SN1D",
+      "ManufacturerResolved": "Murata",
+      "Package": "0402 (1005)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23",
+      "Source": [
+        "현행 회로도",
+        "현행 회로도 Description의 임피던스/전류"
+      ],
+      "Notes": [
+        "정격 0.9A @85°C, DCR 최대 0.23Ω",
+        "PDF 미연결(제조사 제품 페이지)"
+      ]
+    },
+    {
+      "Reference": "J1",
+      "Value": "12V",
+      "Footprint": "SleepBud:CablePad_D1.2",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "cable +12 V input, before ESD suppressor and FB1",
+      "Manufacturer": "",
+      "StandardValue": "케이블 납땜 패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 납땜 패드 Ø1.2 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J2",
+      "Value": "GND",
+      "Footprint": "SleepBud:CablePad_D1.2",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "cable GND",
+      "Manufacturer": "",
+      "StandardValue": "케이블 납땜 패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 납땜 패드 Ø1.2 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J3",
+      "Value": "TXP",
+      "Footprint": "SleepBud:CablePad_D1.2",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "cable LVDS TX+ (earbud -> controller)",
+      "Manufacturer": "",
+      "StandardValue": "케이블 납땜 패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 납땜 패드 Ø1.2 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J4",
+      "Value": "TXN",
+      "Footprint": "SleepBud:CablePad_D1.2",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "cable LVDS TX-",
+      "Manufacturer": "",
+      "StandardValue": "케이블 납땜 패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 납땜 패드 Ø1.2 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J5",
+      "Value": "RXP",
+      "Footprint": "SleepBud:CablePad_D1.2",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "cable LVDS RX+ (controller -> earbud)",
+      "Manufacturer": "",
+      "StandardValue": "케이블 납땜 패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 납땜 패드 Ø1.2 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J6",
+      "Value": "RXN",
+      "Footprint": "SleepBud:CablePad_D1.2",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "cable LVDS RX-",
+      "Manufacturer": "",
+      "StandardValue": "케이블 납땜 패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 납땜 패드 Ø1.2 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J7",
+      "Value": "SWDIO",
+      "Footprint": "SleepBud:CablePad_D0.8",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "SWD test pad PA13",
+      "Manufacturer": "",
+      "StandardValue": "SWD 테스트패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 테스트패드 Ø0.8 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J8",
+      "Value": "SWCLK",
+      "Footprint": "SleepBud:CablePad_D0.8",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "SWD test pad PA14",
+      "Manufacturer": "",
+      "StandardValue": "SWD 테스트패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 테스트패드 Ø0.8 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "J9",
+      "Value": "NRST",
+      "Footprint": "SleepBud:CablePad_D0.8",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "reset test pad",
+      "Manufacturer": "",
+      "StandardValue": "SWD 테스트패드",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "구리 테스트패드 Ø0.8 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "구리 패드 — 구매 부품 아님"
+      ]
+    },
+    {
+      "Reference": "R1",
+      "Value": "4.7k",
+      "Footprint": "Resistor_SMD:R_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "I2C SDA pull-up",
+      "Manufacturer": "",
+      "StandardValue": "4.7k/1%",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 1%"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 1%",
+        "MPN 미확정",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "R2",
+      "Value": "4.7k",
+      "Footprint": "Resistor_SMD:R_0201_0603Metric",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "I2C SCL pull-up",
+      "Manufacturer": "",
+      "StandardValue": "4.7k/1%",
+      "MPNResolved": "",
+      "ManufacturerResolved": "",
+      "Package": "0201 (0603)",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도",
+        "기존 v0.8 BOM의 1%"
+      ],
+      "Notes": [
+        "기존 v0.8 BOM의 1%",
+        "MPN 미확정",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "U1",
+      "Value": "MAXM86161EFD+",
+      "Footprint": "SleepBud:MAXM86161_OLGA-14",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "PPG optical module (G/R/IR LED + PD + AFE), single supply, internal 1.8 V LDO, I2C 0x62",
+      "Manufacturer": "",
+      "StandardValue": "MAXM86161EFD+",
+      "MPNResolved": "MAXM86161EFD+",
+      "ManufacturerResolved": "Analog Devices (Maxim)",
+      "Package": "OLGA-14, 2.9 × 4.3 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "기존 BOM: 지급품(consigned)",
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "U2",
+      "Value": "STM32C011F6U6",
+      "Footprint": "Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "MCU, USART1 (PA9/PA10) <-> LVDS driver/receiver, I2C1 (PB6/PB7) -> PPG; USART bootloader over the link",
+      "Manufacturer": "",
+      "StandardValue": "STM32C011F6U6",
+      "MPNResolved": "STM32C011F6U6",
+      "ManufacturerResolved": "STMicroelectronics",
+      "Package": "UFQFPN-20, 3 × 3 mm, P0.5 mm",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "U3",
+      "Value": "SN65LVDS1DBVR",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "LVDS driver (TTL->LVDS): 1 VCC, 2 GND, 3 Z, 4 Y, 5 D",
+      "Manufacturer": "",
+      "StandardValue": "SN65LVDS1DBVR",
+      "MPNResolved": "SN65LVDS1DBVR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "SOT-23-5",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "데이터시트 미연결"
+      ]
+    },
+    {
+      "Reference": "U4",
+      "Value": "MCP1703A-5002E/MC",
+      "Footprint": "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "LDO 12 V -> 5 V (VLED)",
+      "Manufacturer": "",
+      "StandardValue": "MCP1703A-5002E/MC",
+      "MPNResolved": "MCP1703A-5002E/MC",
+      "ManufacturerResolved": "Microchip",
+      "Package": "DFN-8, 2 × 3 mm, P0.5 mm (노출패드)",
+      "DatasheetFilename": "20005122B.pdf",
+      "DatasheetSource": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "데이터시트: 저장소 README 링크 기준"
+      ]
+    },
+    {
+      "Reference": "U5",
+      "Value": "MCP1703A-3302E/MC",
+      "Footprint": "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "LDO 5 V -> 3.3 V",
+      "Manufacturer": "",
+      "StandardValue": "MCP1703A-3302E/MC",
+      "MPNResolved": "MCP1703A-3302E/MC",
+      "ManufacturerResolved": "Microchip",
+      "Package": "DFN-8, 2 × 3 mm, P0.5 mm (노출패드)",
+      "DatasheetFilename": "20005122B.pdf",
+      "DatasheetSource": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "데이터시트: 저장소 README 링크 기준"
+      ]
+    },
+    {
+      "Reference": "U6",
+      "Value": "SN65LVDT2DBVR",
+      "Footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "MPN": "",
+      "Datasheet": "",
+      "Description": "LVDS receiver (LVDS->TTL) with 110 R termination: 1 VCC, 2 GND, 3 A, 4 B, 5 R",
+      "Manufacturer": "",
+      "StandardValue": "SN65LVDT2DBVR",
+      "MPNResolved": "SN65LVDT2DBVR",
+      "ManufacturerResolved": "Texas Instruments",
+      "Package": "SOT-23-5",
+      "DatasheetFilename": "",
+      "DatasheetSource": "",
+      "Source": [
+        "현행 회로도"
+      ],
+      "Notes": [
+        "데이터시트 미연결"
+      ]
+    }
+  ]
+}

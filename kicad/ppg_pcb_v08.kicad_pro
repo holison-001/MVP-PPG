@@ -529,7 +529,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KIPRJMOD}/ppg_compact.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -618,7 +618,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "참조"
+      "sort_field": "\ucc38\uc870"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

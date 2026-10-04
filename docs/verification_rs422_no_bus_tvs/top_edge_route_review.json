@@ -1,0 +1,529 @@
+[
+  {
+    "net": "/TXN_DRV",
+    "target_UUID": "4c07be81-2120-41bf-9434-fd72285c2e6e",
+    "F_segment_start": [
+      4.3413,
+      -2.7276
+    ],
+    "F_segment_end": [
+      4.3413,
+      0.0466
+    ],
+    "length_mm": 2.7742,
+    "via_checks": [
+      {
+        "via": [
+          4.3413,
+          -2.7276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.7276); via drill intersects a pad at (4.3413, -2.7276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.7026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.7026); via drill intersects a pad at (4.3413, -2.7026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.6776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.6776); via drill intersects a pad at (4.3413, -2.6776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.6526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.6526); via drill intersects a pad at (4.3413, -2.6526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.6276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.6276); via drill intersects a pad at (4.3413, -2.6276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.6026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.6026); via drill intersects a pad at (4.3413, -2.6026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.5776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.5776); via drill intersects a pad at (4.3413, -2.5776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.5526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.5526); via drill intersects a pad at (4.3413, -2.5526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.5276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.5276); via drill intersects a pad at (4.3413, -2.5276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.5026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.5026); via drill intersects a pad at (4.3413, -2.5026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.4776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.4776); via drill intersects a pad at (4.3413, -2.4776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.4526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.4526); via drill intersects a pad at (4.3413, -2.4526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.4276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.4276); via drill intersects a pad at (4.3413, -2.4276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.4026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.4026); via drill intersects a pad at (4.3413, -2.4026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.3776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.3776); via drill intersects a pad at (4.3413, -2.3776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.3526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.3526); via drill intersects a pad at (4.3413, -2.3526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.3276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.3276); via drill intersects a pad at (4.3413, -2.3276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.3026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.3026); via drill intersects a pad at (4.3413, -2.3026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.2776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.2776); via drill intersects a pad at (4.3413, -2.2776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.2526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.2526); via drill intersects a pad at (4.3413, -2.2526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.2276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.2276); via drill intersects a pad at (4.3413, -2.2276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.2026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.2026); via drill intersects a pad at (4.3413, -2.2026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.1776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.1776); via drill intersects a pad at (4.3413, -2.1776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.1526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.1526); via drill intersects a pad at (4.3413, -2.1526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.1276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.1276); via drill intersects a pad at (4.3413, -2.1276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.1026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.1026); via drill intersects a pad at (4.3413, -2.1026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.0776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.0776); via drill intersects a pad at (4.3413, -2.0776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.0526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.0526); via drill intersects a pad at (4.3413, -2.0526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.0276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.0276); via drill intersects a pad at (4.3413, -2.0276)"
+      },
+      {
+        "via": [
+          4.3413,
+          -2.0026
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -2.0026); via drill intersects a pad at (4.3413, -2.0026)"
+      },
+      {
+        "via": [
+          4.3413,
+          -1.9776
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -1.9776); via drill intersects a pad at (4.3413, -1.9776)"
+      },
+      {
+        "via": [
+          4.3413,
+          -1.9526
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -1.9526); via drill intersects a pad at (4.3413, -1.9526)"
+      },
+      {
+        "via": [
+          4.3413,
+          -1.9276
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.3413, -1.9276); via drill intersects a pad at (4.3413, -1.9276)"
+      }
+    ],
+    "adopted": false,
+    "nearest_pad_counts": {
+      "J3.1": 33
+    },
+    "drill_gap_range_mm": [
+      -0.125,
+      0.009419357784230947
+    ],
+    "best_drill_clearance_example": {
+      "via": [
+        4.3413,
+        -2.7276
+      ],
+      "nearest_pad": "J3.1",
+      "pad_net": "/TXP",
+      "drill_to_pad_gap_mm": 0.009419357784230947
+    }
+  },
+  {
+    "net": "/TXP",
+    "target_UUID": "58983044-ab7c-46f0-9b1b-9f8e31a6c00c",
+    "F_segment_start": [
+      4.9824,
+      0.113
+    ],
+    "F_segment_end": [
+      4.9824,
+      -1.4364
+    ],
+    "length_mm": 1.5493999999999999,
+    "via_checks": [
+      {
+        "via": [
+          4.9824,
+          0.113
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, 0.113); via drill intersects a pad at (4.9824, 0.113)"
+      },
+      {
+        "via": [
+          4.9824,
+          0.088
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, 0.088); via drill intersects a pad at (4.9824, 0.088)"
+      },
+      {
+        "via": [
+          4.9824,
+          0.063
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, 0.063); via drill intersects a pad at (4.9824, 0.063)"
+      },
+      {
+        "via": [
+          4.9824,
+          0.038
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, 0.038); via drill intersects a pad at (4.9824, 0.038)"
+      },
+      {
+        "via": [
+          4.9824,
+          0.013
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, 0.013); via drill intersects a pad at (4.9824, 0.013)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.012
+        ],
+        "error": "via copper clearance -0.249144 mm at (4.9824, -0.012); via drill intersects a pad at (4.9824, -0.012)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.037
+        ],
+        "error": "via copper clearance -0.231467 mm at (4.9824, -0.037); via drill intersects a pad at (4.9824, -0.037)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.062
+        ],
+        "error": "via copper clearance -0.213789 mm at (4.9824, -0.062); via drill intersects a pad at (4.9824, -0.062)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.087
+        ],
+        "error": "via copper clearance -0.196111 mm at (4.9824, -0.087); via drill intersects a pad at (4.9824, -0.087)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.112
+        ],
+        "error": "via copper clearance -0.178434 mm at (4.9824, -0.112); via drill intersects a pad at (4.9824, -0.112)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.137
+        ],
+        "error": "via copper clearance -0.160560 mm at (4.9824, -0.137); via drill intersects a pad at (4.9824, -0.137)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.162
+        ],
+        "error": "via copper clearance -0.140529 mm at (4.9824, -0.162); via drill intersects a pad at (4.9824, -0.162)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.187
+        ],
+        "error": "via copper clearance -0.123039 mm at (4.9824, -0.187); via drill intersects a pad at (4.9824, -0.187)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.212
+        ],
+        "error": "via copper clearance -0.114243 mm at (4.9824, -0.212)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.237
+        ],
+        "error": "via copper clearance -0.105448 mm at (4.9824, -0.237)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.262
+        ],
+        "error": "via copper clearance -0.096653 mm at (4.9824, -0.262)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.287
+        ],
+        "error": "via copper clearance -0.087857 mm at (4.9824, -0.287)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.312
+        ],
+        "error": "via copper clearance -0.083908 mm at (4.9824, -0.312)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.337
+        ],
+        "error": "via copper clearance -0.101586 mm at (4.9824, -0.337)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.362
+        ],
+        "error": "via copper clearance -0.119264 mm at (4.9824, -0.362)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.387
+        ],
+        "error": "via copper clearance -0.136941 mm at (4.9824, -0.387)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.412
+        ],
+        "error": "via copper clearance -0.154619 mm at (4.9824, -0.412)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.437
+        ],
+        "error": "via copper clearance -0.172297 mm at (4.9824, -0.437)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.462
+        ],
+        "error": "via copper clearance -0.189974 mm at (4.9824, -0.462)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.487
+        ],
+        "error": "via copper clearance -0.207652 mm at (4.9824, -0.487)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.512
+        ],
+        "error": "via copper clearance -0.225330 mm at (4.9824, -0.512)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.537
+        ],
+        "error": "via copper clearance -0.243007 mm at (4.9824, -0.537)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.562
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, -0.562)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.587
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, -0.587)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.612
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, -0.612)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.637
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, -0.637)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.662
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, -0.662)"
+      },
+      {
+        "via": [
+          4.9824,
+          -0.687
+        ],
+        "error": "via copper clearance -0.250000 mm at (4.9824, -0.687)"
+      }
+    ],
+    "adopted": false,
+    "nearest_pad_counts": {
+      "R6.2": 19,
+      "R6.1": 14
+    },
+    "drill_gap_range_mm": [
+      -0.125,
+      0.15821750941634943
+    ],
+    "best_drill_clearance_example": {
+      "via": [
+        4.9824,
+        -0.687
+      ],
+      "nearest_pad": "R6.1",
+      "pad_net": "/TXN_DRV",
+      "drill_to_pad_gap_mm": 0.15821750941634943
+    }
+  }
+]

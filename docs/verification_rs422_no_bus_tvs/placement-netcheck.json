@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "footprints": 37,
+  "schematic_components": 37,
+  "numbered_pads": 117,
+  "schematic_nets": 48,
+  "top_references": [
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 4,
+  "outline_radius_mm": 6.75,
+  "routing": {},
+  "inner_layer_track_count": 0,
+  "errors": [],
+  "board": "/workspace/ppg-rs422-no-tvs-work/candidate/kicad/ppg_pcb_v08.kicad_pcb",
+  "schematic": "/workspace/ppg-rs422-no-tvs-work/candidate/kicad/ppg_pcb_v08.kicad_sch"
+}

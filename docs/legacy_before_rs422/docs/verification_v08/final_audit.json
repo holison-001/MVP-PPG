@@ -1,0 +1,193 @@
+{
+  "ok": true,
+  "errors": [],
+  "metadata": {
+    "ok": true,
+    "footprints": 35,
+    "schematic_components": 35,
+    "numbered_pads": 111,
+    "schematic_nets": 44,
+    "top_references": [
+      "U1"
+    ],
+    "board_thickness_mm": 0.8,
+    "copper_layers": 4,
+    "outline_radius_mm": 6.75,
+    "routing": {
+      "F.Cu": 30,
+      "via": 34,
+      "B.Cu": 153
+    },
+    "inner_layer_track_count": 0,
+    "errors": []
+  },
+  "outline_mm": 13.5,
+  "thickness_mm": 0.8,
+  "layers": 4,
+  "track_width_min_mm": 0.1,
+  "via_diameter_drill_mm": [
+    [
+      0.5,
+      0.25
+    ]
+  ],
+  "via_count": 34,
+  "track_count": 183,
+  "via_drill_overlaps": [],
+  "via_copper_pad_overlaps": [
+    [
+      [
+        1.35,
+        0.3
+      ],
+      "U1",
+      "10",
+      "GND",
+      "GND",
+      -0.08698560657107596
+    ],
+    [
+      [
+        1.35,
+        0.3
+      ],
+      "U1",
+      "11",
+      "GND",
+      "GND",
+      -0.08698481346205797
+    ],
+    [
+      [
+        2.049999,
+        -5.72
+      ],
+      "C12",
+      "2",
+      "GND",
+      "GND",
+      -0.004121010265212388
+    ]
+  ],
+  "same_net_via_overlaps": [],
+  "esd_ground_returns": {
+    "D1": {
+      "via": [
+        -3.125,
+        1.49
+      ],
+      "pad_to_via_mm": 0.524786,
+      "width_mm": 0.2
+    },
+    "D2": {
+      "via": [
+        4.7,
+        -0.23
+      ],
+      "pad_to_via_mm": 0.531507,
+      "width_mm": 0.2
+    },
+    "D3": {
+      "via": [
+        4.6,
+        -2.45
+      ],
+      "pad_to_via_mm": 0.531507,
+      "width_mm": 0.2
+    },
+    "D4": {
+      "via": [
+        -4.75,
+        1.25
+      ],
+      "pad_to_via_mm": 0.570088,
+      "width_mm": 0.2
+    },
+    "D5": {
+      "via": [
+        -4.7,
+        -1.15
+      ],
+      "pad_to_via_mm": 0.531507,
+      "width_mm": 0.2
+    },
+    "D6": {
+      "via": [
+        3.05,
+        -4.35
+      ],
+      "pad_to_via_mm": 0.570088,
+      "width_mm": 0.2
+    },
+    "D7": {
+      "via": [
+        3.5,
+        -4.85
+      ],
+      "pad_to_via_mm": 0.538516,
+      "width_mm": 0.2
+    },
+    "D8": {
+      "via": [
+        -3.65,
+        -4.5
+      ],
+      "pad_to_via_mm": 0.55,
+      "width_mm": 0.2
+    }
+  },
+  "pad_geometry_mismatches": [],
+  "u1_placement_preserved": true,
+  "source_sha256": {
+    "audited_board": {
+      "path": "/workspace/ppg-pcb-work/stage/ppg_pcb_v08.kicad_pcb",
+      "sha256": "03709b49341c3901012be2a3edece03c8007b1238ee3284406bd707d44844c5a"
+    },
+    "source_schematic": {
+      "path": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_sch",
+      "sha256": "cacd4a8d676d97b61cb60be985126533673ead4233c0b91e2fb304bb89bcadf3"
+    },
+    "source_design": {
+      "path": "/workspace/MVP-PPG/kicad/design_v08.py",
+      "sha256": "39a60a1d9a6ea4ed8aa5c0c6b9a769795a27177670610c5391cc5554986667e8"
+    },
+    "baseline_board": {
+      "path": "/workspace/ppg-pcb-work/baseline/ppg_pcb_v08.kicad_pcb",
+      "sha256": "3ed155f1071d013273e71eb839fdd712eb849ca631aa07c375de76194d1abafc"
+    },
+    "ground_via_seeds": {
+      "path": "/workspace/ppg-pcb-placement/gnd_via_candidates.json",
+      "sha256": "fed328b6bf2f1f5f606cfe6830cf6dafd569809198d54c6750316a40538d9674"
+    },
+    "netcheck": {
+      "path": "/workspace/MVP-PPG/kicad/netcheck_v08.py",
+      "sha256": "d13646ab153597fda25888f556ab1e23a09f2d0d9c886af617db41880b19476b"
+    },
+    "schematic_metadata": {
+      "path": "/workspace/MVP-PPG/kicad/schematic_metadata.py",
+      "sha256": "0c3d9763b09ff766ccf88277ca7f95347db69a70f813963eb700ac09633f56f4"
+    },
+    "footprint:CablePad_D0.8": {
+      "path": "/workspace/MVP-PPG/kicad/SleepBud.pretty/CablePad_D0.8.kicad_mod",
+      "sha256": "5374fdb505aea787a495a458c9455a8ba4533bf818ff5e3e3f882041421b6bb6"
+    },
+    "footprint:CablePad_D1.2": {
+      "path": "/workspace/MVP-PPG/kicad/SleepBud.pretty/CablePad_D1.2.kicad_mod",
+      "sha256": "5067a62a8a8d09f45a6b93fbb098a3a2524b71eb1dd164b6562439427f47e262"
+    },
+    "footprint:MAXM86161_OLGA-14": {
+      "path": "/workspace/MVP-PPG/kicad/SleepBud.pretty/MAXM86161_OLGA-14.kicad_mod",
+      "sha256": "f8936eb6c1fe894aeaae0fb3a143bc2b293d6cad762dcbf9bfb3bdb7a8e68297"
+    },
+    "footprint:TI_DPY0002A_1x0.6": {
+      "path": "/workspace/MVP-PPG/kicad/SleepBud.pretty/TI_DPY0002A_1x0.6.kicad_mod",
+      "sha256": "d92c2cb67579f0745008cdf556641f892c83d52ed94e208c2f3e77f831854263"
+    },
+    "footprint:TVS_SOD882_1x0.6": {
+      "path": "/workspace/MVP-PPG/kicad/SleepBud.pretty/TVS_SOD882_1x0.6.kicad_mod",
+      "sha256": "bfbda34dc00a6aa55ae6fe6ef75ba75d6dd3a9e4c4e54126dee19b65790693ab"
+    }
+  },
+  "source_files_unchanged_during_audit": true,
+  "validation_scope": "Read-only schematic parity, component sides, power/TVS pin nets, pad geometry, optical placement, board geometry, seed ground returns, via drill and copper overlaps, and outer-layer-only track routing. DRC is reported separately."
+}

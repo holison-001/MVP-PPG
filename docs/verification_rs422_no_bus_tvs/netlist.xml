@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_sch</source>
+    <date>2026-10-01T09:25:43</date>
+    <tool>Eeschema 10.0.6+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SleepBud PPG PCB v0.8</title>
+        <company>SleepBud</company>
+        <rev>0.8</rev>
+        <date/>
+        <source>ppg_pcb_v08.kicad_sch</source>
+        <comment number="1" value="PPG sensor board for in-ear sleep device"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF 6.3V X5R</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>VLED bulk / LDO1 output</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">VLED bulk / LDO1 output</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cff3d77f-ff47-4987-8db5-32ff8bf83557</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>U1 VLDO bypass</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U1 VLDO bypass</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>901de5d5-b6d6-4bf1-a174-323fe157c613</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>1uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>U1 VREF bypass</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U1 VREF bypass</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>951308a7-5f40-402d-bf55-11560bb09838</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>U3 VCC bypass</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U3 VCC bypass</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d7adcb0-e4a9-4bbc-a175-f5bbaa1f749e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>U6 VCC bypass</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U6 VCC bypass</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd7e2da7-18c3-402a-81cd-c314850946c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>U2 VDD bypass</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U2 VDD bypass</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d315a32b-2be5-48ce-be86-0fd48f76e462</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>1uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>U2 VDD bulk</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U2 VDD bulk</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53629e8d-579c-425e-b297-a2507d02e522</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>1uF 25V X7R</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>LDO1 input</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">LDO1 input</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb0ae4d7-f36e-4444-be51-0f887335b407</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>1uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>LDO2 output</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">LDO2 output</field>
+      </fields>
+      <libsource lib="SleepBud" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f1f5bdc-a650-451e-8e57-529e52c164ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SPHV15-01ETG</value>
+      <footprint>SleepBud:TVS_SOD882_1x0.6</footprint>
+      <datasheet>https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c</datasheet>
+      <description>Littelfuse 15 V unidirectional input ESD TVS; K=1, A=2; 1.0x0.6 mm; transient residual at U4 VIN requires validation</description>
+      <fields>
+        <field name="MPN">SPHV15-01ETG</field>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:TVS_SOD882_1x0.6</field>
+        <field name="Datasheet">https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_array_sphv_datasheet.pdf?assetguid=4bdc7e09-5dd4-4010-a86a-0008bb6e228c</field>
+        <field name="Description">Littelfuse 15 V unidirectional input ESD TVS; K=1, A=2; 1.0x0.6 mm; transient residual at U4 VIN requires validation</field>
+      </fields>
+      <libsource lib="SleepBud" part="TVS_Uni" description="Unidirectional, pin 1 cathode and pin 2 anode transient-voltage-suppression diode"/>
+      <property name="MPN" value="SPHV15-01ETG"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24de5337-0126-4e49-93ab-892852030d3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>ESD351DPYR</value>
+      <footprint>SleepBud:TI_DPY0002A_1x0.6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/esd351.pdf</datasheet>
+      <description>TI unidirectional low-capacitance ESD TVS for SWDIO; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006</description>
+      <fields>
+        <field name="MPN">ESD351DPYR</field>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:TI_DPY0002A_1x0.6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/esd351.pdf</field>
+        <field name="Description">TI unidirectional low-capacitance ESD TVS for SWDIO; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006</field>
+      </fields>
+      <libsource lib="SleepBud" part="TVS_Uni" description="Unidirectional, pin 1 cathode and pin 2 anode transient-voltage-suppression diode"/>
+      <property name="MPN" value="ESD351DPYR"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55b9aafb-2a2f-4f1d-9e8b-44af5bb2641d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>ESD351DPYR</value>
+      <footprint>SleepBud:TI_DPY0002A_1x0.6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/esd351.pdf</datasheet>
+      <description>TI unidirectional low-capacitance ESD TVS for SWCLK; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006</description>
+      <fields>
+        <field name="MPN">ESD351DPYR</field>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:TI_DPY0002A_1x0.6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/esd351.pdf</field>
+        <field name="Description">TI unidirectional low-capacitance ESD TVS for SWCLK; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006</field>
+      </fields>
+      <libsource lib="SleepBud" part="TVS_Uni" description="Unidirectional, pin 1 cathode and pin 2 anode transient-voltage-suppression diode"/>
+      <property name="MPN" value="ESD351DPYR"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6e0516b-f7b0-4072-8594-2d6095e720b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>ESD351DPYR</value>
+      <footprint>SleepBud:TI_DPY0002A_1x0.6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/esd351.pdf</datasheet>
+      <description>TI unidirectional low-capacitance ESD TVS for NRST; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006</description>
+      <fields>
+        <field name="MPN">ESD351DPYR</field>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:TI_DPY0002A_1x0.6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/esd351.pdf</field>
+        <field name="Description">TI unidirectional low-capacitance ESD TVS for NRST; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006</field>
+      </fields>
+      <libsource lib="SleepBud" part="TVS_Uni" description="Unidirectional, pin 1 cathode and pin 2 anode transient-voltage-suppression diode"/>
+      <property name="MPN" value="ESD351DPYR"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1ed592d-f7eb-4e3c-b1aa-5a037d5f27a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB1">
+      <value>BLM15PX601SN1D</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23</datasheet>
+      <description>Murata ferrite bead 600 ohm at 100 MHz, 0.9 A at 85C, DCR 0.23 ohm max; metric 1005; C13 remains on filtered side</description>
+      <fields>
+        <field name="MPN">BLM15PX601SN1D</field>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23</field>
+        <field name="Description">Murata ferrite bead 600 ohm at 100 MHz, 0.9 A at 85C, DCR 0.23 ohm max; metric 1005; C13 remains on filtered side</field>
+      </fields>
+      <libsource lib="SleepBud" part="FerriteBead" description="Series ferrite bead"/>
+      <property name="MPN" value="BLM15PX601SN1D"/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0ed7f8f-12f2-4bfa-8a03-4e01b62478d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>12V</value>
+      <footprint>SleepBud:CablePad_D1.2</footprint>
+      <description>cable +12 V input, before ESD suppressor and FB1</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">cable +12 V input, before ESD suppressor and FB1</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bff767d4-d5d9-455e-9f62-88c1ae818979</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>GND</value>
+      <footprint>SleepBud:CablePad_D1.2</footprint>
+      <description>cable GND</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">cable GND</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d53fcf96-785c-4f91-9911-a494fcbd8afb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>TXP</value>
+      <footprint>SleepBud:CablePad_D1.2</footprint>
+      <description>cable RS-422 TX+ (earbud -&gt; controller)</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">cable RS-422 TX+ (earbud -&gt; controller)</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5614ed12-104e-4015-94c0-185d3c8de70c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>TXN</value>
+      <footprint>SleepBud:CablePad_D1.2</footprint>
+      <description>cable RS-422 TX-</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">cable RS-422 TX-</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e82f7031-8b9a-4e0b-ad6a-94291dba8213</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>RXP</value>
+      <footprint>SleepBud:CablePad_D1.2</footprint>
+      <description>cable RS-422 RX+ (controller -&gt; earbud)</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">cable RS-422 RX+ (controller -&gt; earbud)</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>505fac06-2520-4757-a3ac-52937286793f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>RXN</value>
+      <footprint>SleepBud:CablePad_D1.2</footprint>
+      <description>cable RS-422 RX-</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">cable RS-422 RX-</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>824a0f6e-926d-4693-a600-b22858a72c88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>SWDIO</value>
+      <footprint>SleepBud:CablePad_D0.8</footprint>
+      <description>SWD test pad PA13</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D0.8</field>
+        <field name="Datasheet"/>
+        <field name="Description">SWD test pad PA13</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e36594c-91d5-4c32-9a12-aa86378c52fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>SWCLK</value>
+      <footprint>SleepBud:CablePad_D0.8</footprint>
+      <description>SWD test pad PA14</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D0.8</field>
+        <field name="Datasheet"/>
+        <field name="Description">SWD test pad PA14</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671cd6b5-421b-40e7-a09d-3976e9d4843a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>NRST</value>
+      <footprint>SleepBud:CablePad_D0.8</footprint>
+      <description>reset test pad</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:CablePad_D0.8</field>
+        <field name="Datasheet"/>
+        <field name="Description">reset test pad</field>
+      </fields>
+      <libsource lib="SleepBud" part="PAD" description="Cable solder pad"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e9c977-1591-4c6a-a8f0-92b7d7668190</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>I2C SDA pull-up</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">I2C SDA pull-up</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b0da92c-f813-44ae-aeda-de034027d5a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>I2C SCL pull-up</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">I2C SCL pull-up</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19315438-b872-4230-9336-7e6ad02465e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>120/1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</datasheet>
+      <description>RS-422 receive termination across cable RXP/RXN at U6; 120 ohm +/-1%, 0402, 0.2 W high-pulse series; cable-side of R7/R8; prototype pulse performance requires validation</description>
+      <fields>
+        <field name="MPN">CRCW0402120RFKEDHP</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</field>
+        <field name="Description">RS-422 receive termination across cable RXP/RXN at U6; 120 ohm +/-1%, 0402, 0.2 W high-pulse series; cable-side of R7/R8; prototype pulse performance requires validation</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0402120RFKEDHP"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da9a04bd-de51-482a-b1f6-56bf0ce0ca71</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>UART_TX idle-state pull-up to 3V3, 10 kohm +/-5%, 0201; max static loss 1.21 mW at 3.465 V; keeps U3 DI high during MCU reset; MPN pending</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">UART_TX idle-state pull-up to 3V3, 10 kohm +/-5%, 0201; max static loss 1.21 mW at 3.465 V; keeps U3 DI high during MCU reset; MPN pending</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37bb808d-d170-46de-bce9-7efd1d460d0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</datasheet>
+      <description>RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</description>
+      <fields>
+        <field name="MPN">CRCW040222R0JNEDHP</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</field>
+        <field name="Description">RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW040222R0JNEDHP"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcc92e03-1af7-4fc9-ad84-0df786be1e48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</datasheet>
+      <description>RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</description>
+      <fields>
+        <field name="MPN">CRCW040222R0JNEDHP</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</field>
+        <field name="Description">RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW040222R0JNEDHP"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8301c79f-b308-44cb-9e6c-d5e4e4853277</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</datasheet>
+      <description>RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</description>
+      <fields>
+        <field name="MPN">CRCW040222R0JNEDHP</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</field>
+        <field name="Description">RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW040222R0JNEDHP"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cada143-e3e0-48ac-96b0-68477eee2718</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</datasheet>
+      <description>RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</description>
+      <fields>
+        <field name="MPN">CRCW040222R0JNEDHP</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf</field>
+        <field name="Description">RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation</field>
+      </fields>
+      <libsource lib="SleepBud" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW040222R0JNEDHP"/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6346029-cbea-4ce3-802d-6c4a733dc6b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>MAXM86161EFD+</value>
+      <footprint>SleepBud:MAXM86161_OLGA-14</footprint>
+      <description>PPG optical module (G/R/IR LED + PD + AFE), single supply, internal 1.8 V LDO, I2C 0x62</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">SleepBud:MAXM86161_OLGA-14</field>
+        <field name="Datasheet"/>
+        <field name="Description">PPG optical module (G/R/IR LED + PD + AFE), single supply, internal 1.8 V LDO, I2C 0x62</field>
+      </fields>
+      <libsource lib="SleepBud" part="MAXM86161" description="PPG optical module, single supply 3.0-5.5 V, I2C 0x62"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1969f91b-12a2-47ca-9570-51b1a9a46d3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>STM32C011F6U6</value>
+      <footprint>Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm</footprint>
+      <description>MCU, USART1 (PA9/PA10) &lt;-&gt; RS-422 driver/receiver, I2C1 (PB6/PB7) -&gt; PPG; USART bootloader over the link</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">MCU, USART1 (PA9/PA10) &lt;-&gt; RS-422 driver/receiver, I2C1 (PB6/PB7) -&gt; PPG; USART bootloader over the link</field>
+      </fields>
+      <libsource lib="SleepBud" part="STM32C011F6U6" description="STM32C0 MCU, UFQFPN-20 3x3"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f0c347a-3e91-4f53-abff-b5aeed76e42e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="1"/>
+            <pin num="20"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>XR33194</value>
+      <footprint>SleepBud:TSOT23-6_MaxLinear</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/XR33193_XR33194_XR33195_MaxLinear.pdf</datasheet>
+      <description>RS-422 driver, 2.5 Mbps slew-rate limited, VCC 3.3 V +/-5%; pin 2 VCC and pin 3 DE tied to 3V3; TSOT-23-6</description>
+      <fields>
+        <field name="MPN">XR33194ESBTR</field>
+        <field name="Manufacturer">MaxLinear</field>
+        <field name="Footprint">SleepBud:TSOT23-6_MaxLinear</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/XR33193_XR33194_XR33195_MaxLinear.pdf</field>
+        <field name="Description">RS-422 driver, 2.5 Mbps slew-rate limited, VCC 3.3 V +/-5%; pin 2 VCC and pin 3 DE tied to 3V3; TSOT-23-6</field>
+      </fields>
+      <libsource lib="SleepBud" part="XR33194" description="RS-422 driver, 2.5 Mbps, 3.3 V +/-5%, TSOT-23-6; DE high"/>
+      <property name="MPN" value="XR33194ESBTR"/>
+      <property name="Manufacturer" value="MaxLinear"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df56eef3-017c-473e-812a-8b93fbdd6843</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1703A-5002E/MC</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm</footprint>
+      <description>LDO 12 V -&gt; 5 V (VLED)</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">LDO 12 V -&gt; 5 V (VLED)</field>
+      </fields>
+      <libsource lib="SleepBud" part="MCP1703A_DFN" description="LDO 16 V in, 250 mA, 2x3 DFN"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49e9d39d-9f14-491b-b562-93119ef06330</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>MCP1703A-3302E/MC</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm</footprint>
+      <description>LDO 5 V -&gt; 3.3 V</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">LDO 5 V -&gt; 3.3 V</field>
+      </fields>
+      <libsource lib="SleepBud" part="MCP1703A_DFN" description="LDO 16 V in, 250 mA, 2x3 DFN"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d62080f-60fe-4d93-b657-c9b96563bc58</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="1"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>XR33183</value>
+      <footprint>SleepBud:TSOT23-6_MaxLinear</footprint>
+      <datasheet>${KIPRJMOD}/../datasheet/pdf/XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf</datasheet>
+      <description>RS-422 receiver, 52 Mbps, enhanced open/short/idle fail-safe RO high; VCC 3.0-5.5 V; pin 2 GND and active-low EN pin 5 tied to GND; external R3 120 ohm receive termination; TSOT-23-6</description>
+      <fields>
+        <field name="MPN">XR33183ESBTR</field>
+        <field name="Manufacturer">MaxLinear</field>
+        <field name="Footprint">SleepBud:TSOT23-6_MaxLinear</field>
+        <field name="Datasheet">${KIPRJMOD}/../datasheet/pdf/XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf</field>
+        <field name="Description">RS-422 receiver, 52 Mbps, enhanced open/short/idle fail-safe RO high; VCC 3.0-5.5 V; pin 2 GND and active-low EN pin 5 tied to GND; external R3 120 ohm receive termination; TSOT-23-6</field>
+      </fields>
+      <libsource lib="SleepBud" part="XR33183" description="RS-422 receiver, 52 Mbps, enhanced fail-safe high, TSOT-23-6; active-low EN low; external R3 termination"/>
+      <property name="MPN" value="XR33183ESBTR"/>
+      <property name="Manufacturer" value="MaxLinear"/>
+      <property name="Sheetname" value="ppg_pcb_v08"/>
+      <property name="Sheetfile" value="ppg_pcb_v08.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9d75384-b8fb-4a97-94ea-6fe8a438c1b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SleepBud" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="FerriteBead">
+      <description>Series ferrite bead</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Series ferrite bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="MAXM86161">
+      <description>PPG optical module, single supply 3.0-5.5 V, I2C 0x62</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAXM86161</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PPG optical module, single supply 3.0-5.5 V, I2C 0x62</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="LDO_EN" type="input"/>
+        <pin num="4" name="VLDO" type="passive"/>
+        <pin num="5" name="VLED" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="PGND" type="power_in"/>
+        <pin num="10" name="GND_DIG" type="power_in"/>
+        <pin num="11" name="GND_ANA" type="power_in"/>
+        <pin num="12" name="VREF" type="passive"/>
+        <pin num="13" name="GPIO" type="bidirectional"/>
+        <pin num="14" name="INTB" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="MCP1703A_DFN">
+      <description>LDO 16 V in, 250 mA, 2x3 DFN</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1703A_DFN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">LDO 16 V in, 250 mA, 2x3 DFN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="PAD">
+      <description>Cable solder pad</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PAD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Cable solder pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="STM32C011F6U6">
+      <description>STM32C0 MCU, UFQFPN-20 3x3</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32C011F6U6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">STM32C0 MCU, UFQFPN-20 3x3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC15" type="bidirectional"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="PF2-NRST" type="bidirectional"/>
+        <pin num="5" name="PA0" type="bidirectional"/>
+        <pin num="6" name="PA1" type="bidirectional"/>
+        <pin num="7" name="PA2" type="bidirectional"/>
+        <pin num="8" name="PA3" type="bidirectional"/>
+        <pin num="9" name="PA4" type="bidirectional"/>
+        <pin num="10" name="PA5" type="bidirectional"/>
+        <pin num="11" name="PA6" type="bidirectional"/>
+        <pin num="12" name="PA7" type="bidirectional"/>
+        <pin num="13" name="PA8" type="bidirectional"/>
+        <pin num="14" name="PA9/USART1_TX" type="output"/>
+        <pin num="15" name="PA10/USART1_RX" type="input"/>
+        <pin num="16" name="PA13/SWDIO" type="bidirectional"/>
+        <pin num="17" name="PA14/SWCLK/BOOT0" type="bidirectional"/>
+        <pin num="18" name="PB6/I2C1_SCL" type="bidirectional"/>
+        <pin num="19" name="PB7/I2C1_SDA" type="bidirectional"/>
+        <pin num="20" name="PC14" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="TVS_Uni">
+      <description>Unidirectional, pin 1 cathode and pin 2 anode transient-voltage-suppression diode</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_Uni</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unidirectional, pin 1 cathode and pin 2 anode transient-voltage-suppression diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="XR33183">
+      <description>RS-422 receiver, 52 Mbps, enhanced fail-safe high, TSOT-23-6; active-low EN low; external R3 termination</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XR33183</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">RS-422 receiver, 52 Mbps, enhanced fail-safe high, TSOT-23-6; active-low EN low; external R3 termination</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RO" type="output"/>
+        <pin num="4" name="B" type="input"/>
+        <pin num="5" name="~{EN}" type="input"/>
+        <pin num="6" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SleepBud" part="XR33194">
+      <description>RS-422 driver, 2.5 Mbps, 3.3 V +/-5%, TSOT-23-6; DE high</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XR33194</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">RS-422 driver, 2.5 Mbps, 3.3 V +/-5%, TSOT-23-6; DE high</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DI" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="Z" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Y" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SleepBud">
+      <uri>${KIPRJMOD}/SleepBud.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/12V_IN" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/NRST" class="Default">
+      <node ref="D8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PF2-NRST_4" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/RXN" class="Default">
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/RXN_RCV" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="B_4" pintype="input"/>
+    </net>
+    <net code="5" name="/RXP" class="Default">
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/RXP_RCV" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="A_6" pintype="input"/>
+    </net>
+    <net code="7" name="/SCL" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SCL_2" pintype="input"/>
+      <node ref="U2" pin="18" pinfunction="PB6/I2C1_SCL_18" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/SDA" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SDA_1" pintype="bidirectional"/>
+      <node ref="U2" pin="19" pinfunction="PB7/I2C1_SDA_19" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/SWCLK" class="Default">
+      <node ref="D7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="PA14/SWCLK/BOOT0_17" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/SWDIO" class="Default">
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="PA13/SWDIO_16" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/TXN" class="Default">
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/TXN_DRV" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="Z_4" pintype="output"/>
+    </net>
+    <net code="13" name="/TXP" class="Default">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/TXP_DRV" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="Y_6" pintype="output"/>
+    </net>
+    <net code="15" name="/UART_RX" class="Default">
+      <node ref="U2" pin="15" pinfunction="PA10/USART1_RX_15" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="RO_3" pintype="output"/>
+    </net>
+    <net code="16" name="/UART_TX" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="PA9/USART1_TX_14" pintype="output"/>
+      <node ref="U3" pin="1" pinfunction="DI_1" pintype="input"/>
+    </net>
+    <net code="17" name="/VLDO" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VLDO_4" pintype="passive"/>
+    </net>
+    <net code="18" name="/VREF" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VREF_12" pintype="passive"/>
+    </net>
+    <net code="19" name="3V3" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="LDO_EN_3" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VDD_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VCC_2" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="DE_3" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="VOUT_1" pintype="power_out"/>
+      <node ref="U6" pin="1" pinfunction="VCC_1" pintype="power_in"/>
+    </net>
+    <net code="20" name="5V_LED" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VLED_5" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VOUT_1" pintype="power_out"/>
+      <node ref="U5" pin="8" pinfunction="VIN_8" pintype="power_in"/>
+    </net>
+    <net code="21" name="12V" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="VIN_8" pintype="power_in"/>
+    </net>
+    <net code="22" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND_DIG_10" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="GND_ANA_11" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="PGND_9" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VSS_3" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="EP_9" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="EP_9" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="~{EN}_5" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(U1-GPIO-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="GPIO_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-INTB-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="INTB_14" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-NC-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="NC_6" pintype="no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-NC-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-NC-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="NC_8" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U2-PA0-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="PA0_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U2-PA1-Pad6)" class="Default">
+      <node ref="U2" pin="6" pinfunction="PA1_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-PA2-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="PA2_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U2-PA3-Pad8)" class="Default">
+      <node ref="U2" pin="8" pinfunction="PA3_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U2-PA4-Pad9)" class="Default">
+      <node ref="U2" pin="9" pinfunction="PA4_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-PA5-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="PA5_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U2-PA6-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="PA6_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U2-PA7-Pad12)" class="Default">
+      <node ref="U2" pin="12" pinfunction="PA7_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-PA8-Pad13)" class="Default">
+      <node ref="U2" pin="13" pinfunction="PA8_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-PC14-Pad20)" class="Default">
+      <node ref="U2" pin="20" pinfunction="PC14_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-PC15-Pad1)" class="Default">
+      <node ref="U2" pin="1" pinfunction="PC15_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U4-NC-Pad2)" class="Default">
+      <node ref="U4" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U4-NC-Pad3)" class="Default">
+      <node ref="U4" pin="3" pinfunction="NC_3" pintype="no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U4-NC-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U4-NC-Pad6)" class="Default">
+      <node ref="U4" pin="6" pinfunction="NC_6" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U4-NC-Pad7)" class="Default">
+      <node ref="U4" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U5-NC-Pad2)" class="Default">
+      <node ref="U5" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U5-NC-Pad3)" class="Default">
+      <node ref="U5" pin="3" pinfunction="NC_3" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U5-NC-Pad5)" class="Default">
+      <node ref="U5" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U5-NC-Pad6)" class="Default">
+      <node ref="U5" pin="6" pinfunction="NC_6" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U5-NC-Pad7)" class="Default">
+      <node ref="U5" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

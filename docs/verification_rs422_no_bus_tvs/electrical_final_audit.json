@@ -1,0 +1,105 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-01T13:07:09.649101+00:00",
+  "scope": "Schematic electrical data only; not PCB routing/manufacturing approval",
+  "excluded_model_fields": [
+    "pos",
+    "rot"
+  ],
+  "source_sha256": {
+    "kicad/design_v08.py": "a6ae1b3692a6d6fbcf3d35faf0aa3106c2d77b2d88bd09834f0f023a8d9cacc9",
+    "kicad/build_sch_v08.py": "5d9fbfbb9211e4bc0375d2fa8e2122812e4e46aca0ecdcc582d51bccca1c53f9",
+    "kicad/layout_schematic_v08.py": "07d23d253363cbb2da07e1bf53e9e9b01000529bc7cd3c3f7597051bd0702e76",
+    "kicad/SleepBud.kicad_sym": "8e8c696027ff420843baad690075bcb3c9a6a7dbb85ab02bb0541fcbc0e51292",
+    "kicad/ppg_pcb_v08.kicad_sch": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527",
+    "kicad/ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "kicad/sym-lib-table": "5c7b0854d368b8ef24506fcccf64adddcc31aa886b25718ac46c0e3374e37aab",
+    "kicad/fp-lib-table": "5774eace97161e66bb831d198d52584262777f2ac54944f7210754484c271762",
+    "docs/legacy_rs422_with_sm712/kicad/design_v08.py": "efcb217dbbe5dfada2540007e173c90ad0ebc1329dde3cd2a61fb4882e87ba75",
+    "docs/legacy_rs422_with_sm712/kicad/ppg_pcb_v08.kicad_sch": "8da52f8836ed38a992bb81c3dac533ed13456d98dff2146c7e0e05e2801b83ac",
+    "docs/legacy_rs422_with_sm712/docs/verification_rs422_schematic/netlist.xml": "d99e8f96900aa48ec29e51bfb6a61c456b3472cc183d1494cbbca6e6ba0412f3",
+    "docs/verification_rs422_no_bus_tvs/netlist.xml": "c0d0aa06cbd79862cf3a8037dff6c83a7e20dddf50168436f9c20f8d49ea24e9",
+    "docs/verification_rs422_no_bus_tvs/erc.json": "50dc802791f6118032522e4743b6dddaba441c906b86556cbf0fe1ddee65a6fc",
+    "docs/verification_rs422_no_bus_tvs/electrical_final_audit.py": "e9d628c0dc4582e816af3bbca3778c1179a0be42085d28ca8477458efe60a8c7"
+  },
+  "checks": {
+    "only_D2_D4_removed_from_model": true,
+    "surviving_model_fields_and_pins_preserved": true,
+    "schematic_refs_match_model": true,
+    "root_schematic_uuid_preserved": true,
+    "surviving_symbol_fields_and_pin_UUIDs_preserved": true,
+    "fresh_export_matches_stored_netlist": true,
+    "only_D2_D4_removed_from_netlist": true,
+    "all_surviving_component_XML_fields_preserved": true,
+    "only_D2_D4_six_nodes_removed": true,
+    "removed_node_count_is_six": true,
+    "exported_refs_match_model": true,
+    "exported_pins_match_model": true,
+    "every_pin_has_expected_net": true,
+    "counts_37_refs_117_pins_48_nets": true,
+    "fresh_ERC_zero_errors_and_warnings": true,
+    "source_hashes_unchanged_during_audit": true
+  },
+  "components_before": 39,
+  "components_after": 37,
+  "pins_after": 117,
+  "nets_after": 48,
+  "removed_references": [
+    "D2",
+    "D4"
+  ],
+  "removed_net_nodes": [
+    [
+      "D2",
+      "1"
+    ],
+    [
+      "D2",
+      "2"
+    ],
+    [
+      "D2",
+      "3"
+    ],
+    [
+      "D4",
+      "1"
+    ],
+    [
+      "D4",
+      "2"
+    ],
+    [
+      "D4",
+      "3"
+    ]
+  ],
+  "erc_violations": 0,
+  "erc_kicad_version": "10.0.6",
+  "erc_included_severities": [
+    "error",
+    "warning"
+  ],
+  "erc_ignored_checks": [
+    {
+      "description": "Global label only appears once in the schematic",
+      "key": "single_global_label"
+    },
+    {
+      "description": "Four connection points are joined together",
+      "key": "four_way_junction"
+    },
+    {
+      "description": "SPICE model issue",
+      "key": "simulation_model_issue"
+    },
+    {
+      "description": "Assigned footprint doesn't match footprint filters",
+      "key": "footprint_filter"
+    }
+  ],
+  "fresh_exports_sha256": {
+    "netlist.xml": "b5b45ff466ff336237e02f0973472b2b164debfaa653f347d7d169a7cebbba28",
+    "erc.json": "00866f7f306db1527a270022d9ffcfe1964a6d147729bd9f492fd1f1d4fb310c"
+  }
+}

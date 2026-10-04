@@ -1,0 +1,36 @@
+﻿No.,레퍼런스,수량,값,MPN,제조사,패키지,참고 데이터시트,비고
+1,C1,1,10u/6.3V/X5R,,,0402 (1005),,"MPN 미확정. 기존 BOM 예시: GRM155R60J106ME47
+데이터시트 미연결"
+2,"C4, C5, C12, C14",4,1u/6.3V/X5R,,,0201 (0603),,"기존 v0.8 BOM의 X5R
+MPN 미확정. 기존 BOM 예시: GRM033R60J105MEA2
+데이터시트 미연결"
+3,"C6, C7, C11",3,100n/16V/X7R,,,0201 (0603),,"기존 v0.8 BOM의 16V/X7R
+MPN 미확정. 기존 BOM 예시: GRM033R71C104KE14
+데이터시트 미연결"
+4,C13,1,1u/25V/X7R,,,0402 (1005),,"MPN 미확정. 기존 예시 GRM155R61E105KA12는 X7R 적합성 확인 필요
+데이터시트 미연결"
+5,D1,1,SPHV15-01ETG,SPHV15-01ETG,Littelfuse,"SOD-882, 1.0 × 0.6 mm",littelfuse_tvs_diode_array_sphv_datasheet.pdf,
+6,"D2, D4",2,SM712,CDSOT23-SM712,Bourns,SOT-23,Bourns_CDSOT23-SM712.pdf,"RS-422 2선 보호, -7/+12V 동작 범위. 실제 PCB ESD 성능 검증 필요"
+7,"D6, D7, D8",3,ESD351DPYR,ESD351DPYR,Texas Instruments,"DFN1006-2 (DPY), 1.0 × 0.6 mm",esd351.pdf,
+8,FB1,1,600Ω@100MHz/0.9A,BLM15PX601SN1D,Murata,0402 (1005),,"정격 0.9A @85°C, DCR 최대 0.23Ω
+PDF 미연결(제조사 제품 페이지)"
+9,"J1, J2, J3, J4, J5, J6",6,케이블 납땜 패드,,,구리 납땜 패드 Ø1.2 mm,,"구리 패드 — 구매 부품 아님
+J1=12V; J2=GND; J3=TXP; J4=TXN; J5=RXP; J6=RXN"
+10,"J7, J8, J9",3,SWD 테스트패드,,,구리 테스트패드 Ø0.8 mm,,"구리 패드 — 구매 부품 아님
+J7=SWDIO; J8=SWCLK; J9=NRST"
+11,"R1, R2",2,4.7k/1%,,,0201 (0603),,"기존 v0.8 BOM의 1%
+MPN 미확정
+데이터시트 미연결"
+12,R3,1,120/1%,CRCW0402120RFKEDHP,Vishay,0402 (1005),Vishay_CRCW-HP_e3.pdf,"HP 펄스 대응 저항, 0.2W (P70). 실제 PCB 열·펄스·ESD 성능 검증 필요
+주문형번은 제조사 코드 규칙 기준; 재고·수급 확인 전"
+13,R4,1,10k,,,0201 (0603),,"MPN 미확정
+데이터시트 미연결"
+14,"R5, R6, R7, R8",4,22,CRCW040222R0JNEDHP,Vishay,0402 (1005),Vishay_CRCW-HP_e3.pdf,"HP 펄스 대응 저항, 0.2W (P70). 실제 PCB 열·펄스·ESD 성능 검증 필요
+주문형번은 제조사 코드 규칙 기준; 재고·수급 확인 전"
+15,U1,1,MAXM86161EFD+,MAXM86161EFD+,Analog Devices (Maxim),"OLGA-14, 2.9 × 4.3 mm",,"기존 BOM: 지급품(consigned)
+데이터시트 미연결"
+16,U2,1,STM32C011F6U6,STM32C011F6U6,STMicroelectronics,"UFQFPN-20, 3 × 3 mm, P0.5 mm",,데이터시트 미연결
+17,U3,1,XR33194,XR33194ESBTR,MaxLinear,TSOT-23-6,XR33193_XR33194_XR33195_MaxLinear.pdf,
+18,U4,1,MCP1703A-5002E/MC,MCP1703A-5002E/MC,Microchip,"DFN-8, 2 × 3 mm, P0.5 mm (노출패드)",20005122B.pdf,데이터시트: 저장소 README 링크 기준
+19,U5,1,MCP1703A-3302E/MC,MCP1703A-3302E/MC,Microchip,"DFN-8, 2 × 3 mm, P0.5 mm (노출패드)",20005122B.pdf,데이터시트: 저장소 README 링크 기준
+20,U6,1,XR33183,XR33183ESBTR,MaxLinear,TSOT-23-6,XR33180_XR33181_XR33183_XR33184_MaxLinear.pdf,

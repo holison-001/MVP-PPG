@@ -1,0 +1,63 @@
+{
+  "source_board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238",
+  "companion_files_sha256": {
+    "ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "ppg_pcb_v08.kicad_dru": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+    "ppg_compact.kicad_wks": "7db2c46b2ad23e421c66bac78a86d1f752c7ecd050b2cbd626563a7502e62a15"
+  },
+  "exporter_sha256": "16ec67cc70bde4a30ef013fc96c091c2e3e4cbff03738f7c9773a56f08dd7621",
+  "purpose": "PCB review only; manufacturing and BOM exports require user approval",
+  "images": [
+    {
+      "file": "01_F_Cu_TOP.png",
+      "layers": "F.Cu,Edge.Cuts",
+      "view": "TOP: GND pour and local traces, viewed from top",
+      "sha256": "47ee8588396e38e3dddb08d83d11eb4fe3e5fdac49441c8099878c63020282b9",
+      "svg_file": "01_F_Cu_TOP.svg",
+      "svg_sha256": "771014611e6378c356e0df1bee0ae8bbd9eb69bc6b6368d68eb07d911b159cd0"
+    },
+    {
+      "file": "02_In1_Cu_GND.png",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "Layer 2: selected routing and GND pour, viewed from top",
+      "sha256": "3bffb67c77c0a23d94c4919bac07f73aa06e3c1f7e9f891b856bddcd585bad1d",
+      "svg_file": "02_In1_Cu_GND.svg",
+      "svg_sha256": "0db978513f9ebc45a6d8844424c10dfdf7e316326a669f993e90339f979f165b"
+    },
+    {
+      "file": "03_In2_Cu_3V3.png",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "Layer 3: broad 3V3 traces and routing, viewed from top",
+      "sha256": "45547dc9d8535a8d51415c63257fc51c55a0c08031c57f90a0aa058d078b5876",
+      "svg_file": "03_In2_Cu_3V3.svg",
+      "svg_sha256": "3d9a0008b93a30cdc5d2a94e6b3c19e23e9c6ee74cd3fbfc20623fb43368c1bb"
+    },
+    {
+      "file": "04_B_Cu_BOTTOM.png",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "BOTTOM copper, viewed from bottom, mirrored",
+      "sha256": "000d5ac9894f32d7e142a41ddaa2c6740e45070a94911b51da60485082fe95fc",
+      "svg_file": "04_B_Cu_BOTTOM.svg",
+      "svg_sha256": "55695034a82eec97fc415ff952d8088a2a528d59f46e5206d2222da682e579ba"
+    }
+  ],
+  "sheet_view": {
+    "file": "pcb_sheet.png",
+    "svg_file": "pcb_sheet.svg",
+    "view": "Actual 40 x 40 mm sheet, 1:1 PCB scale, viewed from top",
+    "sha256": "70458b2d0f93603733a094235548d5ad3ecef63b551c8c20260f5072de574361",
+    "svg_sha256": "bc0aa38f27ab11ff9bb30df600a3016dab5199cc8fa8ddde3b22c863c66fb64d"
+  },
+  "pdf": {
+    "file": "ppg_pcb_v08_layers.pdf",
+    "layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "view": "All PDF layers viewed from top at 1:1 on the custom sheet; bottom PNG is mirrored",
+    "sha256": "0e92d5ddb903ceea927607623aa3c2bd849924037b6b913b93a49cfba7dd5f36"
+  }
+}

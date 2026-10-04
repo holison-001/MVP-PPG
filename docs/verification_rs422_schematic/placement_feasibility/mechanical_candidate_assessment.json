@@ -1,0 +1,473 @@
+{
+  "feasible": false,
+  "status": "EXPLORATORY; NOT FOR PCB PROMOTION OR MANUFACTURING",
+  "candidate_path": "/workspace/ppg-rs422-work/packing_strict_best.json",
+  "candidate_sha256": "95d9c8068b0f0b0511ca408d00d770494a73f921b54c0765b2f53cc1873843b5",
+  "total_components": 39,
+  "top_refs": [
+    "U1"
+  ],
+  "bottom_count": 38,
+  "bottom_courtyard_sum_mm2": 118.92443400631694,
+  "board_circle_area_mm2": 143.13881527918494,
+  "copper_center_allowed_circle_area_mm2": 130.69810837096938,
+  "cable_pad_margin_mm": 0.15,
+  "courtyard_overlap_pairs": [
+    {
+      "refs": [
+        "D4",
+        "R8"
+      ],
+      "area_mm2": 0.14408799999999877
+    },
+    {
+      "refs": [
+        "J2",
+        "U4"
+      ],
+      "area_mm2": 0.05383595708784567
+    },
+    {
+      "refs": [
+        "FB1",
+        "U3"
+      ],
+      "area_mm2": 0.042516057508605105
+    },
+    {
+      "refs": [
+        "R3",
+        "R8"
+      ],
+      "area_mm2": 0.032744786577548333
+    },
+    {
+      "refs": [
+        "J4",
+        "R6"
+      ],
+      "area_mm2": 0.031372255312132565
+    },
+    {
+      "refs": [
+        "D2",
+        "D7"
+      ],
+      "area_mm2": 0.02832123013616639
+    },
+    {
+      "refs": [
+        "C12",
+        "U6"
+      ],
+      "area_mm2": 0.020589682128619616
+    },
+    {
+      "refs": [
+        "C12",
+        "FB1"
+      ],
+      "area_mm2": 0.019822120445475953
+    },
+    {
+      "refs": [
+        "C6",
+        "J3"
+      ],
+      "area_mm2": 0.015484510088779857
+    },
+    {
+      "refs": [
+        "FB1",
+        "J1"
+      ],
+      "area_mm2": 0.01095739344893101
+    },
+    {
+      "refs": [
+        "D6",
+        "U4"
+      ],
+      "area_mm2": 0.01059972785594188
+    },
+    {
+      "refs": [
+        "R6",
+        "U5"
+      ],
+      "area_mm2": 0.009855664259805847
+    },
+    {
+      "refs": [
+        "C13",
+        "J6"
+      ],
+      "area_mm2": 0.00882721240640004
+    },
+    {
+      "refs": [
+        "J5",
+        "U6"
+      ],
+      "area_mm2": 0.008546442634868817
+    },
+    {
+      "refs": [
+        "C14",
+        "U5"
+      ],
+      "area_mm2": 0.008513836964847029
+    },
+    {
+      "refs": [
+        "D1",
+        "J1"
+      ],
+      "area_mm2": 0.007754530515566808
+    },
+    {
+      "refs": [
+        "D7",
+        "J8"
+      ],
+      "area_mm2": 0.006569813692755452
+    },
+    {
+      "refs": [
+        "J2",
+        "U5"
+      ],
+      "area_mm2": 0.006505166798936087
+    },
+    {
+      "refs": [
+        "J3",
+        "U3"
+      ],
+      "area_mm2": 0.005865527540321711
+    },
+    {
+      "refs": [
+        "R5",
+        "U5"
+      ],
+      "area_mm2": 0.005453715528471286
+    },
+    {
+      "refs": [
+        "D7",
+        "R4"
+      ],
+      "area_mm2": 0.0044930639995000845
+    },
+    {
+      "refs": [
+        "D6",
+        "U2"
+      ],
+      "area_mm2": 0.0035953719000001196
+    },
+    {
+      "refs": [
+        "U4",
+        "U5"
+      ],
+      "area_mm2": 0.003510476676636122
+    },
+    {
+      "refs": [
+        "C1",
+        "J9"
+      ],
+      "area_mm2": 0.0031753039891993886
+    },
+    {
+      "refs": [
+        "C4",
+        "U4"
+      ],
+      "area_mm2": 0.0028477799999998415
+    },
+    {
+      "refs": [
+        "D4",
+        "J9"
+      ],
+      "area_mm2": 0.002655496347799796
+    },
+    {
+      "refs": [
+        "J3",
+        "R4"
+      ],
+      "area_mm2": 0.002646532058167598
+    },
+    {
+      "refs": [
+        "J6",
+        "R7"
+      ],
+      "area_mm2": 0.0023467417269302944
+    },
+    {
+      "refs": [
+        "R5",
+        "R6"
+      ],
+      "area_mm2": 0.0015038399999998345
+    },
+    {
+      "refs": [
+        "C7",
+        "J5"
+      ],
+      "area_mm2": 0.001494330316522517
+    },
+    {
+      "refs": [
+        "C6",
+        "D2"
+      ],
+      "area_mm2": 0.0013049999999997033
+    },
+    {
+      "refs": [
+        "J8",
+        "R5"
+      ],
+      "area_mm2": 0.0010190268883839388
+    },
+    {
+      "refs": [
+        "D2",
+        "J4"
+      ],
+      "area_mm2": 0.0009232563475309436
+    },
+    {
+      "refs": [
+        "J4",
+        "J7"
+      ],
+      "area_mm2": 0.0007703865330017082
+    },
+    {
+      "refs": [
+        "D6",
+        "U5"
+      ],
+      "area_mm2": 0.0005781307829929084
+    },
+    {
+      "refs": [
+        "U2",
+        "U3"
+      ],
+      "area_mm2": 0.0005619300449172239
+    },
+    {
+      "refs": [
+        "J9",
+        "R7"
+      ],
+      "area_mm2": 0.0004492136124109921
+    },
+    {
+      "refs": [
+        "J7",
+        "U5"
+      ],
+      "area_mm2": 0.0002910634308159266
+    },
+    {
+      "refs": [
+        "J8",
+        "U2"
+      ],
+      "area_mm2": 0.00026129847805508817
+    },
+    {
+      "refs": [
+        "D2",
+        "J3"
+      ],
+      "area_mm2": 0.00020356994851490214
+    },
+    {
+      "refs": [
+        "U2",
+        "U6"
+      ],
+      "area_mm2": 0.00010919000000023044
+    },
+    {
+      "refs": [
+        "J6",
+        "R3"
+      ],
+      "area_mm2": 7.504026474804571e-05
+    },
+    {
+      "refs": [
+        "C7",
+        "D4"
+      ],
+      "area_mm2": 6.899999999999235e-05
+    },
+    {
+      "refs": [
+        "R3",
+        "R7"
+      ],
+      "area_mm2": 6.853233454238136e-05
+    }
+  ],
+  "courtyard_overlap_sum_mm2": 0.5131772066126878,
+  "physical_edge_violations": [
+    {
+      "ref": "C14",
+      "courtyard_radius_mm": 6.658451542236353,
+      "copper_radius_mm": 6.460345642351163,
+      "body_radius_mm": 6.378189799072095,
+      "copper_edge_clearance_mm": 0.2896543576488373
+    },
+    {
+      "ref": "C6",
+      "courtyard_radius_mm": 6.698612039071974,
+      "copper_radius_mm": 6.474497843042965,
+      "body_radius_mm": 6.3618370185033815,
+      "copper_edge_clearance_mm": 0.2755021569570353
+    },
+    {
+      "ref": "C7",
+      "courtyard_radius_mm": 6.687982928357398,
+      "copper_radius_mm": 6.46168564468808,
+      "body_radius_mm": 6.3462126225017075,
+      "copper_edge_clearance_mm": 0.28831435531192007
+    },
+    {
+      "ref": "D1",
+      "courtyard_radius_mm": 6.7090424055896385,
+      "copper_radius_mm": 6.487090815612188,
+      "body_radius_mm": 6.470063059970899,
+      "copper_edge_clearance_mm": 0.2629091843878122
+    },
+    {
+      "ref": "FB1",
+      "courtyard_radius_mm": 6.669460707583484,
+      "copper_radius_mm": 6.464381292536819,
+      "body_radius_mm": 6.369734306075882,
+      "copper_edge_clearance_mm": 0.28561870746318085
+    },
+    {
+      "ref": "J2",
+      "courtyard_radius_mm": 6.618156372204731,
+      "copper_radius_mm": 6.468208163060616,
+      "body_radius_mm": 0,
+      "copper_edge_clearance_mm": 0.2817918369393837
+    },
+    {
+      "ref": "J3",
+      "courtyard_radius_mm": 6.600409602552772,
+      "copper_radius_mm": 6.450683833409941,
+      "body_radius_mm": 0,
+      "copper_edge_clearance_mm": 0.2993161665900592
+    },
+    {
+      "ref": "J4",
+      "courtyard_radius_mm": 6.618530328205753,
+      "copper_radius_mm": 6.468553828153929,
+      "body_radius_mm": 0,
+      "copper_edge_clearance_mm": 0.28144617184607057
+    },
+    {
+      "ref": "J5",
+      "courtyard_radius_mm": 6.600208910093753,
+      "copper_radius_mm": 6.450313066970636,
+      "body_radius_mm": 0,
+      "copper_edge_clearance_mm": 0.29968693302936433
+    },
+    {
+      "ref": "J6",
+      "courtyard_radius_mm": 6.6089321181593705,
+      "copper_radius_mm": 6.4592072716405475,
+      "body_radius_mm": 0,
+      "copper_edge_clearance_mm": 0.29079272835945247
+    },
+    {
+      "ref": "R3",
+      "courtyard_radius_mm": 6.699234947285254,
+      "copper_radius_mm": 6.460357748582196,
+      "body_radius_mm": 6.353159766616673,
+      "copper_edge_clearance_mm": 0.28964225141780364
+    }
+  ],
+  "pad_copper_gap_below_015mm": [],
+  "body_overlaps": [],
+  "minimum_copper_edge_clearance_mm": 0.2629091843878122,
+  "max_body_radius_mm": 6.505333432532249,
+  "max_courtyard_radius_mm": 6.8686499311755735,
+  "constraints": {
+    "body_radius_mm": 6.75,
+    "copper_radius_mm": 6.45,
+    "courtyard_radius_mm": 7.0,
+    "pad_to_pad_clearance_mm": 0.15,
+    "courtyard_overlap_mm2": 0
+  },
+  "notes": [
+    "Circuits and routing were not changed by this geometry investigation.",
+    "Failure of bounded packing searches is not a mathematical proof of infeasibility.",
+    "The test is conservative for copper clearance because pad nets have not yet been reassigned; same-net copper is also compared."
+  ],
+  "max_copper_radius_mm": 6.487090815612188,
+  "geometry_path": "/workspace/ppg-rs422-work/packing_geometry_physical.json",
+  "geometry_sha256": "decd3631b51500bb6cff86787ae325c2378f71cdacd3383167c65e1842ca838c",
+  "physical_edge_violating_refs": [
+    "C14",
+    "C6",
+    "C7",
+    "D1",
+    "FB1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "R3"
+  ],
+  "court_overlap_violating_refs": [
+    "C1",
+    "C12",
+    "C13",
+    "C14",
+    "C4",
+    "C6",
+    "C7",
+    "D1",
+    "D2",
+    "D4",
+    "D6",
+    "D7",
+    "FB1",
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6"
+  ]
+}

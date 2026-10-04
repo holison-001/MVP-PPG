@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "baseline_board": "/workspace/MVP-PPG/docs/legacy_before_top_edge_020/kicad/ppg_pcb_v08.kicad_pcb",
+  "baseline_board_sha256": "9f7c6bddc2acd093bdf96e702ea95a1da7c04eb3a37ad897c7c2432dd62eafd8",
+  "board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "dd0f934c1c54937acf0e3f05e72852dc92abfc70ec31f0b02e00c6d742b3d746",
+  "custom_rules_file": "kicad/ppg_pcb_v08.kicad_dru",
+  "custom_rules_sha256": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+  "F_GND_edge_setback_mm": {
+    "before": 0.3,
+    "after": 0.2
+  },
+  "F_GND_signal_clearance_mm": 0.15,
+  "F_GND_filled_area_mm2": {
+    "before": 82.30877327139497,
+    "after": 86.5706214726595,
+    "increase": 4.261848201264527,
+    "increase_percent": 5.177878410618542
+  },
+  "F_track_length_mm": 60.90211501655465,
+  "preservation": {
+    "components_values_fields_placement_and_pad_nets_unchanged": true,
+    "all_tracks_and_vias_unchanged": true,
+    "In1_GND_fill_unchanged": true
+  },
+  "routing_review": "top_edge_route_review.json",
+  "method": "Saved KiCad filled polygon area; includes holes. Track/via and footprint geometry compared independently. Custom rule applies only to F.Cu GND zones; global copper-edge minimum remains 0.30 mm."
+}

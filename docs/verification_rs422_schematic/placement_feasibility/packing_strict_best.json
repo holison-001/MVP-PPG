@@ -1,0 +1,357 @@
+{
+  "overlap_area_mm2": 0.5131772025318446,
+  "edge_penalty": 0.005219783957591101,
+  "placement": {
+    "C1": {
+      "pos": [
+        -1.928,
+        1.7791
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "C_0402_1005Metric"
+    },
+    "C11": {
+      "pos": [
+        -0.01626468,
+        -2.47560086
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C12": {
+      "pos": [
+        0.2126,
+        -4.9531
+      ],
+      "rot": 225,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C13": {
+      "pos": [
+        -3.2336,
+        4.6929
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "C_0402_1005Metric"
+    },
+    "C14": {
+      "pos": [
+        5.01433054,
+        3.60541509
+      ],
+      "rot": 225,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C4": {
+      "pos": [
+        -3.1116,
+        2.8653
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C5": {
+      "pos": [
+        -0.69994072,
+        2.30865234
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C6": {
+      "pos": [
+        5.7349,
+        -2.1168
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "C7": {
+      "pos": [
+        -5.6756,
+        -2.2173
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "C_0201_0603Metric"
+    },
+    "D1": {
+      "pos": [
+        -2.3364,
+        -5.5152
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "TVS_SOD882_1x0.6"
+    },
+    "D2": {
+      "pos": [
+        4.8461,
+        -0.5269
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "SOT-23"
+    },
+    "D4": {
+      "pos": [
+        -4.7839,
+        -0.6274
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "SOT-23"
+    },
+    "D6": {
+      "pos": [
+        0.66608829,
+        2.40201289
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    "D7": {
+      "pos": [
+        2.90573504,
+        -1.56786331
+      ],
+      "rot": 225,
+      "side": "B",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    "D8": {
+      "pos": [
+        -2.26616131,
+        0.37154618
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    "FB1": {
+      "pos": [
+        0.6628,
+        -6.0127
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "L_0402_1005Metric"
+    },
+    "J1": {
+      "pos": [
+        -0.973,
+        -5.767
+      ],
+      "rot": 45,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J2": {
+      "pos": [
+        0.9361,
+        5.7933
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J3": {
+      "pos": [
+        4.9028,
+        -3.1956
+      ],
+      "rot": 135,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J4": {
+      "pos": [
+        5.4652,
+        2.1384
+      ],
+      "rot": 225,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J5": {
+      "pos": [
+        -4.7857254,
+        -3.36578274
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J6": {
+      "pos": [
+        -4.398,
+        3.8733
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "CablePad_D1.2"
+    },
+    "J7": {
+      "pos": [
+        4.4203,
+        2.8908
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "CablePad_D0.8"
+    },
+    "J8": {
+      "pos": [
+        2.5634,
+        -0.3654
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "CablePad_D0.8"
+    },
+    "J9": {
+      "pos": [
+        -2.9137,
+        1.6218
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "CablePad_D0.8"
+    },
+    "R1": {
+      "pos": [
+        -2.35896756,
+        -0.44431576
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "R_0201_0603Metric"
+    },
+    "R2": {
+      "pos": [
+        -2.2622972,
+        -1.16012459
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "R_0201_0603Metric"
+    },
+    "R3": {
+      "pos": [
+        -5.3617,
+        2.4761
+      ],
+      "rot": 315,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R4": {
+      "pos": [
+        3.95445111,
+        -2.15165968
+      ],
+      "rot": 270,
+      "side": "B",
+      "footprint": "R_0201_0603Metric"
+    },
+    "R5": {
+      "pos": [
+        2.4848,
+        1.0998
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R6": {
+      "pos": [
+        3.8724,
+        1.8632
+      ],
+      "rot": 180,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R7": {
+      "pos": [
+        -3.9221,
+        2.2227
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "R8": {
+      "pos": [
+        -4.8527,
+        1.1934
+      ],
+      "rot": 90,
+      "side": "B",
+      "footprint": "R_0402_1005Metric"
+    },
+    "U2": {
+      "pos": [
+        0.2738,
+        0.2148
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "ST_UFQFPN-20_3x3mm_P0.5mm"
+    },
+    "U3": {
+      "pos": [
+        2.1705,
+        -3.9542
+      ],
+      "rot": 45,
+      "side": "B",
+      "footprint": "TSOT23-6_MaxLinear"
+    },
+    "U4": {
+      "pos": [
+        -1.1533,
+        4.4419
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+    },
+    "U5": {
+      "pos": [
+        2.5267,
+        4.0652
+      ],
+      "rot": 225,
+      "side": "B",
+      "footprint": "DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+    },
+    "U6": {
+      "pos": [
+        -2.2243,
+        -3.2751
+      ],
+      "rot": 0,
+      "side": "B",
+      "footprint": "TSOT23-6_MaxLinear"
+    },
+    "U1": {
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "rot": 0,
+      "side": "F",
+      "footprint": "MAXM86161_OLGA-14"
+    }
+  }
+}

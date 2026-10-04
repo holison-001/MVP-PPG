@@ -1,0 +1,851 @@
+{
+  "board": "/workspace/MVP-PPG/kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "a127537955e5888ac5311f0a84a54265dfcddba2ac4c5e0a987e3f0d69d3c238",
+  "baseline_board": "/workspace/MVP-PPG/docs/legacy_before_compact_sheet/kicad/ppg_pcb_v08.kicad_pcb",
+  "baseline_board_sha256": "c97e93d95bb8b2447578e796edd8947faa053d12bd98192f97d93aa5d910f429",
+  "checks": {
+    "GND_pad_count": 25,
+    "GND_via_count": 18,
+    "F_filled_region_count": 1,
+    "In1_filled_region_count": 2,
+    "GND_electrical_components": 1,
+    "all_GND_pads_connected": true,
+    "all_filled_regions_electrically_connected": true,
+    "floating_filled_regions": [],
+    "all_existing_In1_GND_via_contacts_preserved": true,
+    "all_GND_via_region_contacts_identical": true,
+    "electrical_component_count_unchanged": true,
+    "GND_pad_and_via_counts_unchanged": true
+  },
+  "existing_GND_via_contacts": [
+    {
+      "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+      "position_mm": [
+        14.225,
+        14.75
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+      "position_mm": [
+        15.9,
+        18.625
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+      "position_mm": [
+        17.1766,
+        13.775
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+      "position_mm": [
+        20.15,
+        17.95
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+      "position_mm": [
+        19.5,
+        22.575
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+      "position_mm": [
+        20.525,
+        11.8
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+      "position_mm": [
+        16.125,
+        17.825
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "6afcebf3-1127-453f-9bad-8430d4659d52",
+      "position_mm": [
+        18.4511,
+        13.6114
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+      "position_mm": [
+        17.8,
+        13.7
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+      "position_mm": [
+        25.725,
+        14.8
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+      "position_mm": [
+        20.625,
+        21.2234
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+      "position_mm": [
+        15.75,
+        21.325
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+      "position_mm": [
+        23.575,
+        16.5
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:0"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9",
+      "position_mm": [
+        21.525,
+        19.275
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+      "position_mm": [
+        17.125,
+        11.525
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+      "position_mm": [
+        18.2016,
+        18.95
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+      "position_mm": [
+        25.1,
+        20.15
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    },
+    {
+      "uuid": "fe883c48-7a35-4659-9976-e7dec80feb2f",
+      "position_mm": [
+        23.75,
+        12.075
+      ],
+      "In1_connected_before": true,
+      "In1_regions_after": [
+        "In1.Cu:region:1"
+      ],
+      "In1_connection_preserved": true,
+      "all_region_contacts_identical": true,
+      "electrically_connected_to_main_GND": true
+    }
+  ],
+  "ground_geometry": {
+    "copper_graph_components": 1,
+    "GND_pad_count": 25,
+    "GND_via_count": 18,
+    "all_GND_pads_connected": true,
+    "all_filled_regions_electrically_connected": true,
+    "floating_filled_regions": [],
+    "filled_regions": [
+      {
+        "id": "F.Cu:region:0",
+        "layer": "F.Cu",
+        "area_mm2": 102.63635313379461,
+        "GND_via_contacts": [
+          "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+          "20c04e43-1175-4aed-9d8d-6f1004e36622",
+          "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+          "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+          "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "6afcebf3-1127-453f-9bad-8430d4659d52",
+          "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+          "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+          "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+          "bd9d5774-5014-4735-9041-fa644e39e5f9",
+          "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+          "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+          "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+          "fe883c48-7a35-4659-9976-e7dec80feb2f"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "id": "In1.Cu:region:0",
+        "layer": "In1.Cu",
+        "area_mm2": 3.3897081036980037,
+        "GND_via_contacts": [
+          "bc76e89f-9edc-40b5-b8af-db6f11fa159d"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "id": "In1.Cu:region:1",
+        "layer": "In1.Cu",
+        "area_mm2": 84.64270271919739,
+        "GND_via_contacts": [
+          "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+          "20c04e43-1175-4aed-9d8d-6f1004e36622",
+          "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+          "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+          "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "6afcebf3-1127-453f-9bad-8430d4659d52",
+          "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+          "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+          "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "bd9d5774-5014-4735-9041-fa644e39e5f9",
+          "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+          "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+          "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+          "fe883c48-7a35-4659-9976-e7dec80feb2f"
+        ],
+        "connected_to_main_GND_network": true
+      }
+    ],
+    "vias": [
+      {
+        "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+        "position_mm": [
+          14.225,
+          14.75
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+        "position_mm": [
+          15.9,
+          18.625
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+        "position_mm": [
+          17.1766,
+          13.775
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+        "position_mm": [
+          20.15,
+          17.95
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "position_mm": [
+          19.5,
+          22.575
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+        "position_mm": [
+          20.525,
+          11.8
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+        "position_mm": [
+          16.125,
+          17.825
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "6afcebf3-1127-453f-9bad-8430d4659d52",
+        "position_mm": [
+          18.4511,
+          13.6114
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+        "position_mm": [
+          17.8,
+          13.7
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+        "position_mm": [
+          25.725,
+          14.8
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+        "position_mm": [
+          20.625,
+          21.2234
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+        "position_mm": [
+          15.75,
+          21.325
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+        "position_mm": [
+          23.575,
+          16.5
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9",
+        "position_mm": [
+          21.525,
+          19.275
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+        "position_mm": [
+          17.125,
+          11.525
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+        "position_mm": [
+          18.2016,
+          18.95
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+        "position_mm": [
+          25.1,
+          20.15
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "fe883c48-7a35-4659-9976-e7dec80feb2f",
+        "position_mm": [
+          23.75,
+          12.075
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      }
+    ]
+  },
+  "baseline_ground_geometry": {
+    "copper_graph_components": 1,
+    "GND_pad_count": 25,
+    "GND_via_count": 18,
+    "all_GND_pads_connected": true,
+    "all_filled_regions_electrically_connected": true,
+    "floating_filled_regions": [],
+    "filled_regions": [
+      {
+        "id": "F.Cu:region:0",
+        "layer": "F.Cu",
+        "area_mm2": 102.6363531337945,
+        "GND_via_contacts": [
+          "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+          "20c04e43-1175-4aed-9d8d-6f1004e36622",
+          "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+          "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+          "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "6afcebf3-1127-453f-9bad-8430d4659d52",
+          "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+          "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+          "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+          "bd9d5774-5014-4735-9041-fa644e39e5f9",
+          "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+          "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+          "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+          "fe883c48-7a35-4659-9976-e7dec80feb2f"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "id": "In1.Cu:region:0",
+        "layer": "In1.Cu",
+        "area_mm2": 3.3897081036979935,
+        "GND_via_contacts": [
+          "bc76e89f-9edc-40b5-b8af-db6f11fa159d"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "id": "In1.Cu:region:1",
+        "layer": "In1.Cu",
+        "area_mm2": 84.6427027191976,
+        "GND_via_contacts": [
+          "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+          "20c04e43-1175-4aed-9d8d-6f1004e36622",
+          "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+          "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+          "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "6afcebf3-1127-453f-9bad-8430d4659d52",
+          "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+          "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+          "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "bd9d5774-5014-4735-9041-fa644e39e5f9",
+          "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+          "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+          "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+          "fe883c48-7a35-4659-9976-e7dec80feb2f"
+        ],
+        "connected_to_main_GND_network": true
+      }
+    ],
+    "vias": [
+      {
+        "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+        "position_mm": [
+          144.225,
+          97.75
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+        "position_mm": [
+          145.9,
+          101.625
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+        "position_mm": [
+          147.1766,
+          96.775
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+        "position_mm": [
+          150.15,
+          100.95
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "position_mm": [
+          149.5,
+          105.575
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+        "position_mm": [
+          150.525,
+          94.8
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+        "position_mm": [
+          146.125,
+          100.825
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "6afcebf3-1127-453f-9bad-8430d4659d52",
+        "position_mm": [
+          148.4511,
+          96.6114
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+        "position_mm": [
+          147.8,
+          96.7
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+        "position_mm": [
+          155.725,
+          97.8
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+        "position_mm": [
+          150.625,
+          104.2234
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+        "position_mm": [
+          145.75,
+          104.325
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+        "position_mm": [
+          153.575,
+          99.5
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:0"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9",
+        "position_mm": [
+          151.525,
+          102.275
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+        "position_mm": [
+          147.125,
+          94.525
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+        "position_mm": [
+          148.2016,
+          101.95
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+        "position_mm": [
+          155.1,
+          103.15
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      },
+      {
+        "uuid": "fe883c48-7a35-4659-9976-e7dec80feb2f",
+        "position_mm": [
+          153.75,
+          95.075
+        ],
+        "filled_region_contacts": [
+          "F.Cu:region:0",
+          "In1.Cu:region:1"
+        ],
+        "connected_to_main_GND_network": true
+      }
+    ]
+  },
+  "method": "Read-only saved copper graph on all four copper layers, using existing ground_connectivity.py analyze function. Through vias connect layer geometries; copper contact threshold 0.00001 mm. No refill/save. Via UUIDs and filled-region contacts compared before/after compact-sheet translation."
+}

@@ -1,0 +1,31 @@
+{
+  "approval_required": true,
+  "scope": "New or updated Gerber and BOM outputs only after explicit user approval",
+  "instruction_date": "2026-10-01",
+  "existing_bom": "Review draft generated before approval requirement",
+  "files_unchanged_until_approval": {
+    "bom/MVP-PPG_BOM_부품별통합_DNP제외_값표준화_v2.xlsx": "fe5b1a19debcf775a4476cbc86d4da47d149a6df2486c7b30bcbf18b97de487e",
+    "bom/bom_sources.json": "8a8a5cc114ef1f0ed3a8efcbeb755d7cc118a4c178985e3186acda0e13d61ae6",
+    "bom/ppg_pcb_v08_BOM.csv": "bd2a3b21022a6557003bf0332990aeb4be5d31c6cd40f62aac561672edffa93c",
+    "gerber/ppg_pcb_v08-PTH-drl_map.pdf": "c423d957fd8c0cd92618265da039469d5e983d0fd714c70a1757d122865030b7",
+    "gerber/ppg_pcb_v08-In1_Cu.g1": "ce835102e3b86624573f33dc2a1e2ddf98d96e7fd6653a07771e0d2eeba61b69",
+    "gerber/ppg_pcb_v08-B_Fab.gbr": "8290ebc642634473d61feeda1e787500bb497247d212e194ce40a0ed3518305e",
+    "gerber/ppg_pcb_v08-job.gbrjob": "06d4c97eb874608e25e099d21f63d62111c5918b7ef5a0751c35265a9684733c",
+    "gerber/ppg_pcb_v08-F_Mask.gts": "767f4a698646786409703bbd4a6f55205a8bd97463751d3ec2eef13fde261a75",
+    "gerber/ppg_pcb_v08-In2_Cu.g2": "2fbdd58c07f9ca0779f71f085865502c3b8b813ad6efd3c78f63252952444884",
+    "gerber/ppg_pcb_v08-Edge_Cuts.gm1": "f6758576bf6ce0a736c031971254af3b58f3f9db5996a08f6354d7c4f8a9d137",
+    "gerber/ppg_pcb_v08-NPTH-drl_map.pdf": "24871083e1acd1ae9aea56f1721b1b68cd795e9fbdb5a5f6f163c998a7b3c098",
+    "gerber/ppg_pcb_v08-PTH.drl": "ebe289a4b809bcb2c300833374aa56accf77a8859218631eccc62723128b2252",
+    "gerber/ppg_pcb_v08-F_Cu.gtl": "5434161eb95d8d8d5a340cddd2ce008af47eafce171cd5019500228fe59bb448",
+    "gerber/ppg_pcb_v08-B_Cu.gbl": "5a07657aa6b9786a16308b44ee5038de3284bf06a98797dc0274f5c9eac97f82",
+    "gerber/ppg_pcb_v08-NPTH.drl": "bf49a756171525a8e0f96a8dc70e5f031006644d67bd62c3c4d58c99ded9aeb4",
+    "gerber/ppg_pcb_v08-F_Paste.gtp": "3ac359f764134584bbff5869f7a09e62526fa4bae51432b04862066574cbbc07",
+    "gerber/ppg_pcb_v08-B_Paste.gbp": "ff2d9599515ba07728cb531d313e9b9ba4554c456419a3292e2ab75bdf987366",
+    "gerber/ppg_pcb_v08-F_Silkscreen.gto": "cbfe8a7d40e1d01f3a70fecac214bb03fd8fe845e900a909aea6c08b122af297",
+    "gerber/ppg_pcb_v08-F_Fab.gbr": "1ceed4b92dc27c2bfa9a493889d79d0ae44da7d9585bb08c334a95775ceb84e0",
+    "gerber/ppg_pcb_v08-B_Mask.gbs": "389584fa586cc510771bb320d67abc0db6978fd8e7a0a491287d0c1062bf9c8a",
+    "gerber/ppg_pcb_v08-B_Silkscreen.gbo": "84cc425645f364a725b7cd4ca26ea1a4bf19b06fd86093f5d0485148b1f73aef",
+    "ppg_pcb_v08_gerber.zip": "ec434287e52468121c60ce390df73bed8e4d1185ce8a3295e8a440f45f4c4c60",
+    "docs/ppg_pcb_v08_BOM.csv": "bd2a3b21022a6557003bf0332990aeb4be5d31c6cd40f62aac561672edffa93c"
+  }
+}

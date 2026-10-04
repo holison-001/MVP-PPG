@@ -1,0 +1,14 @@
+{
+  "kicad/ppg_pcb_v08.kicad_pcb": "dd0f934c1c54937acf0e3f05e72852dc92abfc70ec31f0b02e00c6d742b3d746",
+  "kicad/ppg_pcb_v08.kicad_pro": "72c25e37db0fb3cedbd606910e3225148616e3422cf6b891ac05ad36d76ef835",
+  "kicad/ppg_pcb_v08.kicad_sch": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527",
+  "kicad/ppg_pcb_v08.kicad_dru": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+  "docs/verification_rs422_no_bus_tvs/independent_final_audit.json": "634e3c1c79e259fb188314c384cf6cf96a4adbf26eb2b639c42fc5806e66d0fc",
+  "docs/verification_rs422_no_bus_tvs/drc_final.json": "6025b694ef1ef5849a524d5ab5bb9295cd88938848922b2217affea0510a0bb1",
+  "docs/verification_rs422_no_bus_tvs/final_source_manifest.json": "cd6f7bc5201601f3a990c70b06ed7d80f21cba417e67699b38af4b08e5299157",
+  "docs/layers_png/source_manifest.json": "55d4597040a6d5ce2a4c77d95bc8809339262d5ab58a989fe6210581d569f646",
+  "docs/layers_png/01_F_Cu_TOP.png": "7891bbc0f70157d27eeebc44a65b90d2c38693869d95b0484ce2df2d741b346b",
+  "docs/layers_png/02_In1_Cu_GND.png": "aebe6e7a1ff1ac6a1710f6e99cb69411db590b31de01717c096280c4bf73a9b4",
+  "docs/layers_png/03_In2_Cu_3V3.png": "45547dc9d8535a8d51415c63257fc51c55a0c08031c57f90a0aa058d078b5876",
+  "docs/layers_png/04_B_Cu_BOTTOM.png": "ac0606add0138af270707197437f41eac4f6739a94033492ea5d5d6b454a1d44"
+}
