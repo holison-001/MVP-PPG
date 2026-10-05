@@ -1,3 +1,14 @@
+# SleepBud PPG PCB v0.8 — 회로도 갱신 (2026-10-06)
+
+현재 [회로도](kicad/ppg_pcb_v08.kicad_sch)는 **C15·C16 100nF/16V/X7R/미터0603 MLCC를 각각 3V3–GND에 추가**한 41레퍼런스 설계입니다. 앞선 LDO_EN–PA7 연결과 J10 GND·J11 3V3 VTref 패드도 포함했습니다. D6·D7의 SWDIO·SWCLK 보호 연결은 유지합니다. **원본 회로도 ERC 오류·경고0건**을 확인했습니다.
+
+[전체 회로도 미리보기](docs/review_schematic_20261006/schematic.png) · [C15·C16 확대](docs/review_schematic_20261006/capacitors_detail.png) · [변경 내용·현재 상태](docs/SCHEMATIC_UPDATE_20261006.md) · [검증 기록](docs/verification_schematic_20261006/)
+
+**PCB 라우팅은 중지 상태입니다. 이번 커밋은 회로도와 관련 소스만 갱신하며, 저장소의 PCB·거버·BOM은 이전 단계 자료로 현재 회로도와 동기화되지 않았습니다.** 공유 설계 소스에는 작업 중인 6층·배치 설정도 포함되어 있으므로 현재 커밋을 배선·제조 완료본으로 사용하면 안 됩니다.
+
+<details>
+<summary>이전 Git PCB 기록 — 2026-10-01, 현재 회로도와 미동기화</summary>
+
 # SleepBud PPG PCB v0.8 — RS-422, D2/D4 삭제
 
 D2·D4 SM712를 삭제한 **37레퍼런스(구매 부품28개 + 구리 패드9개)** 회로입니다. U3 XR33194/U6 XR33183, R3 `120/1%` 종단, R4 `10k` 풀업, R5–R8 `22` 직렬저항은 유지합니다. 탑면에는 PPG U1만 배치합니다.
@@ -27,3 +38,5 @@ D2·D4 SM712를 삭제한 **37레퍼런스(구매 부품28개 + 구리 패드9�
 AMP 프로브 공급은 공칭9V이며 PPG의 기존 `12V_IN`/`12V` 넷 이름은 유지했습니다. D1·FB1 전원 보호와 D6–D8 SWD 보호는 유지하고 통신선 외부 TVS는 생략했습니다. SWDIO=J7, SWCLK=J8, NRST=J9입니다.
 
 `ppg_rs422_review.*`와 `docs/review_rs422_pending/`는 NRST가 남아 있던 이전 검토 스냅샷입니다. 기존 좌표 CSV·STEP·옛 렌더 파일은 제조 자료 갱신 대상이며, 최신 배치/구리는 위에 연결한 PCB·배치 PNG·층별 PNG를 사용합니다.
+
+</details>

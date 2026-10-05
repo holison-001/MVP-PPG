@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-06",
+  "scope": "Schematic and generator dependencies only; PCB routing remains paused. Existing repository PCB and manufacturing outputs are not synchronized to this schematic.",
+  "base_commit": "1f7504be57062e10379618695cc825354d94a17f",
+  "sha256": {
+    "kicad/ppg_pcb_v08.kicad_sch": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+    "kicad/design_v08.py": "43d92010a779fb6e654d43a75e4b74279052da0807bd35d8b07ad73239ea0e2f",
+    "kicad/build_sch_v08.py": "a3f2319066221eff7c0f220c46930008e6debdc904de149f7bac51c90bdabec1",
+    "kicad/layout_schematic_v08.py": "ce4653253652dec3c3d960955d828653df1369fa845b2154a6061381888bb079",
+    "kicad/SleepBud.pretty/TestPad_D0.8_Front.kicad_mod": "2ff995fc3d9bd4309ab5031e8a9778fc763ea83cab17ad8dd40fcbed727df414",
+    "docs/SCHEMATIC_UPDATE_20261006.md": "43650f82ccb3d12ce55aa9ffb73a0ae8b140d9cfff5bbb7add9588cdc197f45f",
+    "docs/review_schematic_20261006/schematic.png": "d0fd8c48dcc048bd3f044184a2c018b962bbabd2f789325aff78547b0e79637a",
+    "docs/review_schematic_20261006/capacitors_detail.png": "7ede0b7c7eb043c7c08c14d10a2b4d90748eb19ed9210fffcc4ebb55a52c1104",
+    "docs/verification_schematic_20261006/erc.json": "b1750d3220712b215d96628b4d575d80052812ac250b52f7a366670beb8f8c62",
+    "docs/verification_schematic_20261006/git_logical_changes.json": "381644966ccb8140c8331eece028d6b94561ce382509edd0860357ab1fca7b31",
+    "docs/verification_schematic_20261006/regeneration.json": "e6f6ba254010340be92b057c358be5d916e8a9f13ad7333926ff1d5e2e2663b7"
+  },
+  "local_pcb_project_rule_files_unchanged_during_publication": {
+    "kicad/ppg_pcb_v08.kicad_pcb": true,
+    "kicad/ppg_pcb_v08.kicad_pro": true,
+    "kicad/ppg_pcb_v08.kicad_dru": true,
+    "docs/review_top_esd_caps_20261005/ppg_pcb_v08.kicad_pcb": true
+  },
+  "erc_violations": 0,
+  "regeneration_parity": true,
+  "report_formatting": "JSON reports normalized to LF; native report values unchanged."
+}

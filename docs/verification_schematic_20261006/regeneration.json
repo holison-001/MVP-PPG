@@ -1,0 +1,14 @@
+{
+  "source_schematic_sha256": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+  "generator_files": [
+    "kicad/design_v08.py",
+    "kicad/build_sch_v08.py",
+    "kicad/layout_schematic_v08.py"
+  ],
+  "regenerated_component_values_footprints_uuids_and_pin_nets_match": true,
+  "component_count": 41,
+  "numbered_pin_count": 123,
+  "erc_violations": 0,
+  "erc_project_settings": "Unchanged HEAD: kicad/ppg_pcb_v08.kicad_pro",
+  "passed": true
+}

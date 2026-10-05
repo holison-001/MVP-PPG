@@ -277,7 +277,7 @@ def place_passive(ref, x, y):
 
 for i, ref in enumerate(["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "C1", "C4", "C5"]):
     place_passive(ref, 88.9 + i * 15.24, 121.92)
-for i, ref in enumerate(["C6", "C7", "C11", "C12", "C13", "C14"]):
+for i, ref in enumerate(["C6", "C7", "C11", "C12", "C13", "C14", "C15", "C16"]):
     place_passive(ref, 88.9 + i * 15.24, 152.4)
 
 # Protection components are first instantiated here, then the reviewed A3
@@ -301,7 +301,7 @@ if "FB1" in D.COMPONENTS:
     connect(c["pins"]["1"], 41.91, 190.5, "L")
     connect(c["pins"]["2"], 49.53, 190.5, "R")
 
-for i, ref in enumerate(["J1", "J2", "J3", "J4", "J5", "J6", "J7", "J8", "J9"]):
+for i, ref in enumerate(sorted((r for r in D.COMPONENTS if r.startswith("J")), key=lambda r: int(r[1:]))):
     x, y = 165.1 + i * 15.24, 121.92
     c = D.COMPONENTS[ref]
     place_symbol(ref, "SleepBud:PAD", x, y, c["value"], fp_of(ref), ["1"], (x - 1.27, y - 3.81), (x - 1.27, y + 5.08))
@@ -316,7 +316,7 @@ for i, net in enumerate(["GND", "12V"]):
     else:
         wire(x, y, x, y - 5.08); power_symbol(net, x, y - 5.08)
 
-items.append(f'''(text "SleepBud PPG PCB v0.8 - MAXM86161 + STM32C011 + UART over RS-422, 4-layer 13.5 mm disc.\\nU3 XR33194: UART_TX -> TXP/TXN (to AMP RS-422 receiver). U6 XR33183: RXP/RXN (from AMP RS-422 driver) -> UART_RX; R3 120 ohm at the receiving end. DE high, active-low EN low; R4 holds UART_TX high during reset.\\nCable: 12V, GND, TXP, TXN, RXP, RXN + piezo coax (not on PCB). J7-J9 SWD test pads. 3V3/5V_LED planes from U5/U4 LDOs."
+items.append(f'''(text "SleepBud PPG PCB v0.8 - MAXM86161 + STM32C011 + UART over RS-422, {D.LAYERS}-layer 13.5 mm disc.\\nU3 XR33194: UART_TX -> TXP/TXN (to AMP RS-422 receiver). U6 XR33183: RXP/RXN (from AMP RS-422 driver) -> UART_RX; R3 120 ohm at the receiving end. DE high, active-low EN low; R4 holds UART_TX high during reset.\\nCable: 12V, GND, TXP, TXN, RXP, RXN + piezo coax (not on PCB). J7-J11 front SWD test pads, including GND and 3V3 target voltage reference. 3V3/5V_LED planes from U5/U4 LDOs."
     (exclude_from_sim no) (at 25.4 190.5 0) (effects (font (size 1.6 1.6)) (justify left bottom)) (uuid "{U()}"))''')
 
 sch = f'''(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0") (uuid "{ROOT_UUID}") (paper "A4")
@@ -328,7 +328,7 @@ sch = f'''(kicad_sch (version 20250114) (generator "eeschema") (generator_versio
   (sheet_instances (path "/" (page "1")))
 )
 '''
-open(out, "w", encoding="utf-8").write(sch)
+Path(out).write_bytes(sch.encode("utf-8"))
 # Apply the reviewed A3 presentation to every future generation as well.
 tidy(Path(out), Path(out))
 print("written", out, "items:", len(items))

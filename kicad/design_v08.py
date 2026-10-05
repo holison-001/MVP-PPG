@@ -7,11 +7,14 @@ Receiver enhanced fail-safe -> RO high (UART idle) for open/short/idle inputs.
 U3 DE tied high and U6 active-low EN tied low: always enabled. R3 is the local 120 ohm receive termination.
 R4 pulls UART_TX high during MCU reset. Matches the STM32 USART bootloader idle state.
 Cable: +12V, GND, TXP, TXN, RXP, RXN (6 wires) + piezo coax direct to PZT. Use the shared GND conductor and keep the receiver common-mode input within -7 V to +12 V.
-MCU STM32C011F6U6, LDO1 12->5 V (VLED), LDO2 5->3.3 V. 4-layer 0.8 mm. Front: U1 only.
+MCU STM32C011F6U6, LDO1 12->5 V (VLED), LDO2 5->3.3 V. 6-layer 0.8 mm nominal. Front: U1, five SWD pogo pads J7-J11, and their D6/D7 ESD suppressors.
+All six layers have full-board GND pours; L1-L5 retain continuous GND rims.
+L2 is GND-only; L5 permits short detours in its GND plane.
+L3 carries signals and L4 broad 3V3 plus selected signals.
 Coordinates: centre (0,0), x right, y DOWN, mm.
 """
 
-NETS = ["TXP_DRV", "TXN_DRV", "RXP_RCV", "RXN_RCV", "GND", "3V3", "5V_LED", "12V", "12V_IN", "SDA", "SCL", "VLDO", "VREF", "UART_TX", "UART_RX", "TXP", "TXN", "RXP", "RXN", "SWDIO", "SWCLK", "NRST"]
+NETS = ["TXP_DRV", "TXN_DRV", "RXP_RCV", "RXN_RCV", "GND", "3V3", "5V_LED", "12V", "12V_IN", "SDA", "SCL", "VLDO", "VREF", "UART_TX", "UART_RX", "TXP", "TXN", "RXP", "RXN", "SWDIO", "SWCLK", "NRST", "LDO_EN"]
 
 C0201 = dict(lib="Capacitor_SMD", fp="C_0201_0603Metric")
 C0402 = dict(lib="Capacitor_SMD", fp="C_0402_1005Metric")
@@ -22,12 +25,12 @@ R0402 = dict(lib="Resistor_SMD", fp="R_0402_1005Metric")
 COMPONENTS = {
     "U1": dict(value="MAXM86161EFD+", lib="custom", fp="MAXM86161_OLGA-14", side="F", pos=(0.0, 0.0), rot=0,
                desc="PPG optical module (G/R/IR LED + PD + AFE), single supply, internal 1.8 V LDO, I2C 0x62",
-               pins={"1": "SDA", "2": "SCL", "3": "3V3", "4": "VLDO", "5": "5V_LED", "6": None, "7": None,
+               pins={"1": "SDA", "2": "SCL", "3": "LDO_EN", "4": "VLDO", "5": "5V_LED", "6": None, "7": None,
                      "8": None, "9": "GND", "10": "GND", "11": "GND", "12": "VREF", "13": None, "14": None}),
     "U2": dict(value="STM32C011F6U6", lib="Package_DFN_QFN", fp="ST_UFQFPN-20_3x3mm_P0.5mm", side="B", pos=(0.27, -4.0), rot=0,
                desc="MCU, USART1 (PA9/PA10) <-> RS-422 driver/receiver, I2C1 (PB6/PB7) -> PPG; USART bootloader over the link",
                pins={"1": None, "2": "3V3", "3": "GND", "4": "NRST", "5": None, "6": None, "7": None, "8": None, "9": None, "10": None,
-                     "11": None, "12": None, "13": None, "14": "UART_TX", "15": "UART_RX", "16": "SWDIO", "17": "SWCLK",
+                     "11": None, "12": "LDO_EN", "13": None, "14": "UART_TX", "15": "UART_RX", "16": "SWDIO", "17": "SWCLK",
                      "18": "SCL", "19": "SDA", "20": None}),
     "U3": dict(value="XR33194", mpn="XR33194ESBTR", manufacturer="MaxLinear", side="B", pos=(3.0, 0.1), rot=-90,
                desc="RS-422 driver, 2.5 Mbps slew-rate limited, VCC 3.3 V +/-5%; pin 2 VCC and pin 3 DE tied to 3V3; TSOT-23-6",
@@ -53,6 +56,10 @@ COMPONENTS = {
     "C12": dict(value="1uF 6.3V", side="B", pos=(2.45, -5.1), rot=90, pins={"1": "3V3", "2": "GND"}, desc="U2 VDD bulk", **C0201),
     "C13": dict(value="1uF 25V X7R", side="B", pos=(-4.7, 2.75), rot=180, pins={"1": "12V", "2": "GND"}, desc="LDO1 input", **C0402),
     "C14": dict(value="1uF 6.3V", side="B", pos=(4.6, 3.5), rot=90, pins={"1": "3V3", "2": "GND"}, desc="LDO2 output", **C0201),
+    "C15": dict(value="100nF 16V X7R", side="B", pos=(0.8545, 2.4786), rot=0,
+                pins={"1": "3V3", "2": "GND"}, desc="Additional 3V3 local bypass at former D6 position; MLCC 100nF, 16V, X7R, +/-10%, metric 0603 (0.6 x 0.3 mm); generic MPN pending", **C0201),
+    "C16": dict(value="100nF 16V X7R", side="B", pos=(3.3884, -0.9282), rot=270,
+                pins={"1": "3V3", "2": "GND"}, desc="Additional 3V3 local bypass at former D7 position; MLCC 100nF, 16V, X7R, +/-10%, metric 0603 (0.6 x 0.3 mm); generic MPN pending", **C0201),
     # RS-422 additions; reviewed physical positions are applied in PLACEMENT below.
     "R3": dict(value="120/1%", mpn="CRCW0402120RFKEDHP", manufacturer="Vishay",
                datasheet="${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf", side="B", pos=(-3.0, 2.3), rot=90,
@@ -68,16 +75,20 @@ COMPONENTS = {
     "J4": dict(value="TXN", lib="custom", fp="CablePad_D1.2", side="B", pos=(5.7, -1.0), rot=180, pins={"1": "TXN"}, desc="cable RS-422 TX-"),
     "J5": dict(value="RXP", lib="custom", fp="CablePad_D1.2", side="B", pos=(-5.8, 0.5), rot=180, pins={"1": "RXP"}, desc="cable RS-422 RX+ (controller -> earbud)"),
     "J6": dict(value="RXN", lib="custom", fp="CablePad_D1.2", side="B", pos=(-5.49, -2.0), rot=180, pins={"1": "RXN"}, desc="cable RS-422 RX-"),
-    # ---- SWD debug test pads Ø0.8 (r <= 6.05; GND/3V3 via cable pads)
-    "J7": dict(value="SWDIO", lib="custom", fp="CablePad_D0.8", side="B", pos=(2.6, -2.6), rot=180, pins={"1": "SWDIO"}, desc="SWD test pad PA13"),
-    "J8": dict(value="SWCLK", lib="custom", fp="CablePad_D0.8", side="B", pos=(3.7, -2.6), rot=180, pins={"1": "SWCLK"}, desc="SWD test pad PA14"),
-    "J9": dict(value="NRST", lib="custom", fp="CablePad_D0.8", side="B", pos=(-4.85, -3.1), rot=180, pins={"1": "NRST"}, desc="reset test pad"),
+    # ---- Front SWD pogo pads: diameter 0.8 mm, 1.27 mm pitch, no paste.
+    # Left to right: J9 NRST, J7 SWDIO, J10 GND, J8 SWCLK, J11 3V3_VTREF.
+    # J11 senses target voltage for the programmer; J2 remains the back cable GND.
+    "J7": dict(value="SWDIO", lib="custom", fp="TestPad_D0.8_Front", side="F", pos=(-1.27, 4.85), rot=0, pins={"1": "SWDIO"}, desc="Front SWD pogo test pad PA13, 0.8 mm, no solder paste"),
+    "J8": dict(value="SWCLK", lib="custom", fp="TestPad_D0.8_Front", side="F", pos=(1.27, 4.85), rot=0, pins={"1": "SWCLK"}, desc="Front SWD pogo test pad PA14, 0.8 mm, no solder paste"),
+    "J9": dict(value="NRST", lib="custom", fp="TestPad_D0.8_Front", side="F", pos=(-2.54, 4.85), rot=0, pins={"1": "NRST"}, desc="Front reset pogo test pad, 0.8 mm, no solder paste"),
+    "J10": dict(value="GND", lib="custom", fp="TestPad_D0.8_Front", side="F", pos=(0.0, 4.85), rot=0, pins={"1": "GND"}, desc="Front SWD ground pogo test pad, 0.8 mm, no solder paste"),
+    "J11": dict(value="3V3_VTREF", lib="custom", fp="TestPad_D0.8_Front", side="F", pos=(2.54, 4.85), rot=0, pins={"1": "3V3"}, desc="Front SWD target-voltage reference pogo pad on 3V3, 0.8 mm, no solder paste"),
 }
 
 # 2026-10-01 ESD / input EMI filtering PCB placement update.
 # Compact candidate sizes: FB1/series/termination = metric 1005; UART pull-up = 0201.
 # RS-422 bus TVS arrays are omitted; D1 and SWD ESD retain the original 1.0 x 0.6 mm bodies.
-# U1 is the only front-side component; all ESD suppressors and FB1 are on the back.
+# U1, SWD pads J7-J11 and D6/D7 are on the front; D1/D8 and FB1 remain on the back.
 COMPONENTS.update({
     "D1": dict(value="SPHV15-01ETG", mpn="SPHV15-01ETG", lib="custom",
                fp="TVS_SOD882_1x0.6", side="B", pos=(-3.9, 1.76), rot=0,
@@ -98,7 +109,7 @@ for ref, net, pos, rot in [
     ("D8", "NRST", (-4.2, -4.15), 90),
 ]:
     COMPONENTS[ref] = dict(value="ESD351DPYR", mpn="ESD351DPYR", lib="custom",
-        fp="TI_DPY0002A_1x0.6", side="B", pos=pos, rot=rot,
+        fp="TI_DPY0002A_1x0.6", side="F" if ref in {"D6", "D7"} else "B", pos=pos, rot=rot,
         pins={"1": net, "2": "GND"},
         desc=f"TI unidirectional low-capacitance ESD TVS for {net}; K/IO=1, A/GND=2; VRWM 3.6 V, Ctyp 1.8 pF; DFN1006",
         datasheet="https://www.ti.com/lit/ds/symlink/esd351.pdf")
@@ -113,7 +124,10 @@ for ref, inner, cable, pos in [
         desc="RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation",
         datasheet="${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf", **R0402)
 
-# 2026-10-01: reviewed 37-part placement after D2/D4 removal.
+# 2026-10-05: 41-reference six-layer placement with front SWD row J7-J11 and D6/D7.
+# U5 retains its six-layer rotation. D1 follows the user's saved placement;
+# R4 and C7 include the approved local adjustment for assembly clearance.
+# D6-D8 remain on SWDIO/SWCLK/NRST.
 # This table is authoritative for PCB generation; schematic drawing coordinates
 # are maintained independently by layout_schematic_v08.py.
 PLACEMENT = {
@@ -122,28 +136,32 @@ PLACEMENT = {
     "C12": (-4.74000000, -1.93370000, 180),
     "C13": (-3.84340000, 4.16240000, 270),
     "C14": (4.66870000, 3.23140000, 315),
+    "C15": (0.85450000, 2.47860000, 0),
+    "C16": (3.38840000, -0.92820000, 270),
     "C4": (-3.90600000, 2.27180000, 135),
     "C5": (-0.87530000, 2.42580000, 180),
     "C6": (5.32960000, -2.79780000, 315),
-    "C7": (0.50880000, -4.67000000, 45),
-    "D1": (-2.23020000, -5.49890000, 180),
-    "D6": (0.85450000, 2.47860000, 0),
-    "D7": (3.52840000, -1.13820000, 315),
+    "C7": (0.02500000, -4.67000000, 90),
+    "D1": (-2.20000000, -5.49890000, 180),
+    "D6": (-0.35000000, 4.10000000, 0),
+    "D7": (1.30000000, 4.00000000, 180),
     "D8": (-3.50230000, 0.40770000, 180),
     "FB1": (0.91970000, -5.93190000, 0),
     "J1": (-0.78280000, -5.79100000, 180),
     "J2": (0.69760000, 5.71100000, 225),
-    "J3": (4.48130000, -2.01010000, 270),
+    "J3": (5.50000000, -1.10000000, 270),
     "J4": (5.10310000, 1.68080000, 180),
     "J5": (-4.93450000, -3.05030000, 270),
     "J6": (-5.18190000, 2.61720000, 90),
-    "J7": (3.74180000, 1.77080000, 0),
-    "J8": (2.75370000, -0.41940000, 135),
-    "J9": (-3.29550000, 1.40620000, 315),
+    "J7": (-1.27000000, 4.85000000, 0),
+    "J8": (1.27000000, 4.85000000, 0),
+    "J9": (-2.54000000, 4.85000000, 0),
+    "J10": (0.00000000, 4.85000000, 0),
+    "J11": (2.54000000, 4.85000000, 0),
     "R1": (-2.43310000, -0.40760000, 180),
     "R2": (-3.14660000, -1.11730000, 180),
     "R3": (-5.89710000, 0.86760000, 90),
-    "R4": (5.82670000, -0.99760000, 45),
+    "R4": (0.05000000, -2.45000000, 90),
     "R5": (3.11410000, 0.75600000, 0),
     "R6": (4.74080000, -0.10860000, 315),
     "R7": (-4.71970000, 0.65260000, 270),
@@ -152,7 +170,7 @@ PLACEMENT = {
     "U2": (0.14190000, 0.27490000, 90),
     "U3": (2.55630000, -3.63250000, 45),
     "U4": (-1.67430000, 4.54390000, 180),
-    "U5": (2.78480000, 4.13480000, 45),
+    "U5": (2.78480000, 4.13480000, 225),
     "U6": (-2.19000000, -3.23370000, 180),
 }
 assert set(PLACEMENT) == set(COMPONENTS)
@@ -163,7 +181,10 @@ VIAS = []
 TRACKS = []
 
 BOARD_R = 6.75         # Ø13.5 (fixed approved board diameter)
-LAYERS = 4
+LAYERS = 6
 THICKNESS = 0.8
-RULES = dict(clearance=0.15, track=0.15, via_dia=0.5, via_drill=0.25, edge_clearance=0.3)
+GND_RIM_INNER_RADIUS_MM = 6.20  # Review target; connected fill is verified separately.
+RULES = dict(clearance=0.15, track=0.15, track_min=0.15, via_dia=0.5,
+             via_drill=0.20, power_via_drill=0.25, edge_clearance=0.3)
+POWER_REFERENCE_NETS = frozenset({'3V3', '5V_LED', '12V', '12V_IN', 'VLDO', 'VREF'})
 TITLE = "SleepBud PPG PCB v0.8"

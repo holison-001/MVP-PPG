@@ -1,0 +1,114 @@
+{
+  "head_commit": "1f7504b",
+  "head_schematic_sha256": "771fcdf09894e58079b6094624511f26ba6822e9dec2a7b7c19a5da7bb300527",
+  "new_schematic_sha256": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+  "old_references": 37,
+  "new_references": 41,
+  "old_numbered_pin_nets": 117,
+  "new_numbered_pin_nets": 123,
+  "added_references": [
+    "C15",
+    "C16",
+    "J10",
+    "J11"
+  ],
+  "removed_references": [],
+  "changed_existing_pin_nets": {
+    "U1.3": {
+      "before": "3V3",
+      "after": "/LDO_EN"
+    },
+    "U2.12": {
+      "before": "unconnected-(U2-PA7-Pad12)",
+      "after": "/LDO_EN"
+    }
+  },
+  "added_pin_nets": {
+    "C15.1": "3V3",
+    "C15.2": "GND",
+    "C16.1": "3V3",
+    "C16.2": "GND",
+    "J10.1": "GND",
+    "J11.1": "3V3"
+  },
+  "removed_pin_nets": {},
+  "changed_existing_component_metadata": {
+    "J7": {
+      "before": {
+        "value": "SWDIO",
+        "footprint": "SleepBud:CablePad_D0.8",
+        "datasheet": null,
+        "tstamps": "5e36594c-91d5-4c32-9a12-aa86378c52fb"
+      },
+      "after": {
+        "value": "SWDIO",
+        "footprint": "SleepBud:TestPad_D0.8_Front",
+        "datasheet": null,
+        "tstamps": "5e36594c-91d5-4c32-9a12-aa86378c52fb"
+      }
+    },
+    "J8": {
+      "before": {
+        "value": "SWCLK",
+        "footprint": "SleepBud:CablePad_D0.8",
+        "datasheet": null,
+        "tstamps": "671cd6b5-421b-40e7-a09d-3976e9d4843a"
+      },
+      "after": {
+        "value": "SWCLK",
+        "footprint": "SleepBud:TestPad_D0.8_Front",
+        "datasheet": null,
+        "tstamps": "671cd6b5-421b-40e7-a09d-3976e9d4843a"
+      }
+    },
+    "J9": {
+      "before": {
+        "value": "NRST",
+        "footprint": "SleepBud:CablePad_D0.8",
+        "datasheet": null,
+        "tstamps": "d0e9c977-1591-4c6a-a8f0-92b7d7668190"
+      },
+      "after": {
+        "value": "NRST",
+        "footprint": "SleepBud:TestPad_D0.8_Front",
+        "datasheet": null,
+        "tstamps": "d0e9c977-1591-4c6a-a8f0-92b7d7668190"
+      }
+    }
+  },
+  "original_symbol_uuid_preserved": true,
+  "new_components": {
+    "C15": {
+      "value": "100nF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "datasheet": null,
+      "tstamps": "ae0afc15-2f79-4cd3-902b-412e7b955c70"
+    },
+    "C16": {
+      "value": "100nF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0201_0603Metric",
+      "datasheet": null,
+      "tstamps": "9cc0a41d-951e-43be-bdd3-6c1991228b01"
+    },
+    "J10": {
+      "value": "GND",
+      "footprint": "SleepBud:TestPad_D0.8_Front",
+      "datasheet": null,
+      "tstamps": "3a7c61e4-be9e-418b-bd8d-be9bf5efdab4"
+    },
+    "J11": {
+      "value": "3V3_VTREF",
+      "footprint": "SleepBud:TestPad_D0.8_Front",
+      "datasheet": null,
+      "tstamps": "d920be25-49ac-4d2b-a85a-fffb0eb40eed"
+    }
+  },
+  "latest_input_unchanged": true,
+  "required_generator_files": [
+    "kicad/design_v08.py",
+    "kicad/build_sch_v08.py",
+    "kicad/layout_schematic_v08.py"
+  ],
+  "required_new_library_file": "kicad/SleepBud.pretty/TestPad_D0.8_Front.kicad_mod",
+  "pcb_snapshot_limitation": "Schematic-only publication; no current PCB/pro/DRU or manufacturing outputs are included. Shared design data includes newer PCB intent, so the repository PCB/build flow is not validated against this new schematic."
+}

@@ -338,10 +338,21 @@ def tidy(source, target):
         pad('J2', 264.16, 184.15)
         text('J1 raw supply -> D1 / FB1 (section 04)', 157.48, 193.04)
         for ref, x, y in [('J3', 187.96, 205.74), ('J4', 264.16, 205.74),
-                          ('J5', 187.96, 238.76), ('J6', 264.16, 238.76)]:
+                          ('J5', 187.96, 226.06), ('J6', 264.16, 226.06)]:
             pad(ref, x, y)
 
+        # Local 3V3 bypass additions use the open space below the cable pads.
+        if {'C15', 'C16'}.issubset(original):
+            text('Additional 3V3 bypass  /  0603 MLCC', 157.48, 234.95)
+            passive('C15', 180.34, 251.46)
+            passive('C16', 243.84, 251.46)
+
         heading('06  SWD TEST PADS + ESD', 309.88, 165.1, 93.98)
+        # The reference pads occupy the open left column of this section.
+        # Existing SWD protection remains on the three signal pads.
+        for ref, y in [('J10', 191.77), ('J11', 217.17)]:
+            if ref in original:
+                pad(ref, 328.93, y)
         for ref, diode, y in [('J7', 'D6', 179.07), ('J8', 'D7', 204.47), ('J9', 'D8', 229.87)]:
             pad(ref, 377.19, y, protection=diode, drop=7.62)
 
@@ -369,8 +380,9 @@ def tidy(source, target):
         for ref, y in [('J1', 184.15), ('J2', 194.31), ('J3', 207.01), ('J4', 217.17), ('J5', 229.87), ('J6', 240.03)]:
             pad(ref, 297.18, y)
         heading('06  SWD TEST PADS', 341.63, 165.1, 62.23)
-        for ref, y in [('J7', 184.15), ('J8', 203.2), ('J9', 220.98)]:
-            pad(ref, 377.19, y)
+        for ref, y in [('J7', 181.61), ('J8', 191.77), ('J9', 201.93), ('J10', 212.09), ('J11', 222.25)]:
+            if ref in original:
+                pad(ref, 377.19, y)
         text('J7: PA13 / SWDIO', 344.17, 235.585)
         text('J8: PA14 / SWCLK', 344.17, 240.665)
         text('J9: reset / NRST', 344.17, 245.745)
@@ -381,14 +393,14 @@ def tidy(source, target):
         text('Matching net labels are connected. Crosses mark intentionally unused pins.', 15.24, 280.67)
 
     sch.extend(items)
-    target.write_text('(kicad_sch\n' + '\n'.join('  '+dump(n) for n in sch[1:]) + '\n)\n', encoding='utf-8')
+    target.write_bytes(('(kicad_sch\n' + '\n'.join('  '+dump(n) for n in sch[1:]) + '\n)\n').encode('utf-8'))
     # Restore the missing project-local symbol library from the embedded symbols.
     local_lib = ['kicad_symbol_lib', ['version', '20250114'], ['generator', Quoted('kicad_symbol_editor')], ['generator_version', Quoted('9.0')]]
     for s in children(library, 'symbol'):
         s = deepcopy(s)
         s[1] = Quoted(str(s[1]).split(':', 1)[-1])
         local_lib.append(s)
-    target.with_name('SleepBud.kicad_sym').write_text(dump(local_lib)+'\n', encoding='utf-8')
+    target.with_name('SleepBud.kicad_sym').write_bytes((dump(local_lib)+'\n').encode('utf-8'))
     print(f'Wrote {target}; preserved {sum(not r.startswith("#") for r in original)} component identities.')
 
 
