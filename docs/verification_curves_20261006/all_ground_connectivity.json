@@ -1,0 +1,168 @@
+{
+  "board_sha256": "9a20272bce551736dd36ffd91ece1cbf10b4da316c59067ebb4d4ec9ea205e0e",
+  "graph": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 17,
+    "reachable_nodes": 17,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "layers": [
+    {
+      "layer": "F.Cu",
+      "filled_area_mm2": 94.57986771792957,
+      "component_count": 2,
+      "unreachable_components": [],
+      "components": [
+        {
+          "index": 0,
+          "area_mm2": 89.65374149146707,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 1,
+          "area_mm2": 4.926126226462505,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        }
+      ]
+    },
+    {
+      "layer": "In1.Cu",
+      "filled_area_mm2": 103.93236232746544,
+      "component_count": 1,
+      "unreachable_components": [],
+      "components": [
+        {
+          "index": 0,
+          "area_mm2": 103.93236232746544,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        }
+      ]
+    },
+    {
+      "layer": "In2.Cu",
+      "filled_area_mm2": 89.51910446606405,
+      "component_count": 1,
+      "unreachable_components": [],
+      "components": [
+        {
+          "index": 0,
+          "area_mm2": 89.51910446606405,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        }
+      ]
+    },
+    {
+      "layer": "In3.Cu",
+      "filled_area_mm2": 70.69107257147894,
+      "component_count": 3,
+      "unreachable_components": [],
+      "components": [
+        {
+          "index": 0,
+          "area_mm2": 4.002104282604999,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 1,
+          "area_mm2": 54.55141263020896,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 2,
+          "area_mm2": 12.137555658664992,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        }
+      ]
+    },
+    {
+      "layer": "In4.Cu",
+      "filled_area_mm2": 101.51330535245445,
+      "component_count": 1,
+      "unreachable_components": [],
+      "components": [
+        {
+          "index": 0,
+          "area_mm2": 101.51330535245445,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        }
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "filled_area_mm2": 51.0575510885,
+      "component_count": 9,
+      "unreachable_components": [],
+      "components": [
+        {
+          "index": 0,
+          "area_mm2": 0.6969680181139997,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 1,
+          "area_mm2": 16.067189839905005,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 2,
+          "area_mm2": 2.666931845684501,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 3,
+          "area_mm2": 1.4382701689860002,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 4,
+          "area_mm2": 2.337214990306503,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 5,
+          "area_mm2": 3.9972135878810016,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 6,
+          "area_mm2": 1.6587992049600009,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 7,
+          "area_mm2": 20.15492716796549,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        },
+        {
+          "index": 8,
+          "area_mm2": 2.040036264697501,
+          "connected_to_J2_1": true,
+          "distance_to_reachable_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "ok": true,
+  "contact_tolerance_mm": 2e-05,
+  "diagnostics": {
+    "invalid_input_contours_repaired": 6
+  }
+}

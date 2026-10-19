@@ -1,0 +1,290 @@
+{
+  "ok": false,
+  "footprints": 42,
+  "schematic_components": 42,
+  "numbered_pads": 125,
+  "schematic_nets": 48,
+  "top_references": [
+    "D6",
+    "D7",
+    "J10",
+    "J11",
+    "J7",
+    "J8",
+    "J9",
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 6,
+  "outline_radius_mm": 6.75,
+  "board_center_on_sheet_mm": [
+    20.0,
+    17.0
+  ],
+  "sheet_size_mm": [
+    40.0,
+    40.0
+  ],
+  "routing": {
+    "F.Cu": 65,
+    "via": 64,
+    "B.Cu": 139,
+    "In2.Cu": 33,
+    "In3.Cu": 39
+  },
+  "inner_layer_track_count": 72,
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 72,
+    "ground_plane_layers": [
+      "In1.Cu",
+      "In4.Cu"
+    ],
+    "gnd_pour_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "In4.Cu",
+      "B.Cu"
+    ],
+    "gnd_pours": [
+      {
+        "layer": "F.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 102.050263480049
+      },
+      {
+        "layer": "B.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 54.966565806873
+      },
+      {
+        "layer": "In1.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 110.31107933987
+      },
+      {
+        "layer": "In2.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 95.463218533889
+      },
+      {
+        "layer": "In3.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 85.7462936326035
+      },
+      {
+        "layer": "In4.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 110.31107933987
+      }
+    ],
+    "ground_plane_track_count": 0,
+    "l2_track_count": 0,
+    "l5_track_count": 0,
+    "l5_trace_length_mm": 0,
+    "signal_layer_tracks": {
+      "In2.Cu": 33,
+      "In3.Cu": 39,
+      "In4.Cu": 0
+    },
+    "power_layer": "In3.Cu",
+    "power_3V3_track_count": 17,
+    "power_3V3_widths_mm": [
+      0.35,
+      0.4
+    ],
+    "ground_rim": {
+      "ok": true,
+      "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+      "layers": {
+        "F.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.53,
+          "checked_width_mm": 0.3250000000000002,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In1.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In2.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In3.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In4.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        }
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "via_policy": {
+    "ok": true,
+    "minimum_track_width_mm": 0.15,
+    "track_width_counts": {
+      "0.15": 145,
+      "0.2": 12,
+      "0.25": 6,
+      "0.3": 74,
+      "0.35": 26,
+      "0.4": 13
+    },
+    "via_groups": {
+      "signal": 18,
+      "power_reference": 14,
+      "ground": 32
+    },
+    "via_sizes": [
+      {
+        "group": "ground",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 32
+      },
+      {
+        "group": "power_reference",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "count": 14
+      },
+      {
+        "group": "signal",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 18
+      }
+    ],
+    "power_reference_nets": [
+      "12V",
+      "12V_IN",
+      "3V3",
+      "5V_LED",
+      "VLDO",
+      "VREF"
+    ],
+    "errors": []
+  },
+  "errors": [
+    "[ESD_TVS_PAD_BYPASS] J9.1 reaches U2.4 without D8.1 copper"
+  ],
+  "esd_flow_policy": {
+    "ok": false,
+    "board_sha256": "14ac36dfae59d05de2911641839c7772f608e13b09868ba88c7ec1f2b5b95f6a",
+    "checked_paths": 3,
+    "required_paths": 3,
+    "error_count": 1,
+    "checks": {
+      "D6.1": {
+        "net": "/SWDIO",
+        "source": "J7.1",
+        "target": "U2.16",
+        "normal": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+            "a855db34-2e7b-4ecc-a2be-9db1fc7525f6"
+          ],
+          "source_via_count": 2,
+          "connected_item_count": 19
+        },
+        "without_TVS_signal_pad_copper": {
+          "source_found": true,
+          "source_reaches_IC": false,
+          "source_reaches_vias": [],
+          "source_via_count": 0,
+          "connected_item_count": 2
+        },
+        "TVS_landing_is_required_for_IC_path": true,
+        "no_via_before_TVS": true,
+        "no_via_before_TVS_required": true,
+        "entry_via_policy": "none"
+      },
+      "D7.1": {
+        "net": "/SWCLK",
+        "source": "J8.1",
+        "target": "U2.17",
+        "normal": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "41807256-542f-4e11-af12-f879e81dd8d3",
+            "91840650-4d9d-4f4e-8848-1688b00d7766"
+          ],
+          "source_via_count": 2,
+          "connected_item_count": 17
+        },
+        "without_TVS_signal_pad_copper": {
+          "source_found": true,
+          "source_reaches_IC": false,
+          "source_reaches_vias": [],
+          "source_via_count": 0,
+          "connected_item_count": 2
+        },
+        "TVS_landing_is_required_for_IC_path": true,
+        "no_via_before_TVS": true,
+        "no_via_before_TVS_required": true,
+        "entry_via_policy": "none"
+      },
+      "D8.1": {
+        "net": "/NRST",
+        "source": "J9.1",
+        "target": "U2.4",
+        "normal": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "14293515-030e-40be-aa53-bf1b8f4e4967"
+          ],
+          "source_via_count": 1,
+          "connected_item_count": 22
+        },
+        "without_TVS_signal_pad_copper": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "14293515-030e-40be-aa53-bf1b8f4e4967"
+          ],
+          "source_via_count": 1,
+          "connected_item_count": 21
+        },
+        "TVS_landing_is_required_for_IC_path": false,
+        "no_via_before_TVS": false,
+        "no_via_before_TVS_required": false,
+        "entry_via_policy": "allowed: D8 is on B.Cu"
+      }
+    },
+    "errors": [
+      {
+        "code": "ESD_TVS_PAD_BYPASS",
+        "message": "J9.1 reaches U2.4 without D8.1 copper",
+        "TVS_signal_pad": "D8.1"
+      }
+    ],
+    "method": "Native copper connectivity with only the TVS signal-pad object omitted on scratch boards; no transient ESD simulation."
+  },
+  "board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "schematic": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_sch"
+}

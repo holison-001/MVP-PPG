@@ -1,0 +1,163 @@
+{
+  "saved_at": "2026-10-08T11:52:37.979564+09:00",
+  "canonical": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "before_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "after_sha256": "0db206e568dc9441220bb5e9327dbec5d7b70599d49fd8e6ac2166f2f1b90cc9",
+  "backup": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\20261008_before_U2_C4_apply\\kicad_before_U2_C4.zip",
+  "backup_sha256": "925d5f94c9b67c0ab174e3a954a0aafa54c2c47a886099f9665418e6c5a5ddc0",
+  "placements": {
+    "R1": {
+      "before": {
+        "position_mm": [
+          17.3,
+          15.9
+        ],
+        "angle_degrees": 180.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          21.2,
+          16.8
+        ],
+        "angle_degrees": 0.0,
+        "side": "B.Cu"
+      }
+    },
+    "C4": {
+      "before": {
+        "position_mm": [
+          17.68,
+          17.3
+        ],
+        "angle_degrees": 180.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          20.4,
+          15.1
+        ],
+        "angle_degrees": 0.0,
+        "side": "B.Cu"
+      }
+    },
+    "R4": {
+      "before": {
+        "position_mm": [
+          20.05,
+          14.55
+        ],
+        "angle_degrees": 90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          21.2,
+          17.55
+        ],
+        "angle_degrees": 180.0,
+        "side": "B.Cu"
+      }
+    },
+    "D8": {
+      "before": {
+        "position_mm": [
+          16.6,
+          19.0
+        ],
+        "angle_degrees": 90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          16.0,
+          19.4
+        ],
+        "angle_degrees": 90.0,
+        "side": "B.Cu"
+      }
+    },
+    "C15": {
+      "before": {
+        "position_mm": [
+          20.8545,
+          19.4786
+        ],
+        "angle_degrees": 0.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          18.9,
+          19.4
+        ],
+        "angle_degrees": 0.0,
+        "side": "B.Cu"
+      }
+    },
+    "C1": {
+      "before": {
+        "position_mm": [
+          17.9,
+          18.75
+        ],
+        "angle_degrees": 90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          21.1,
+          18.5
+        ],
+        "angle_degrees": 0.0,
+        "side": "B.Cu"
+      }
+    },
+    "R2": {
+      "before": {
+        "position_mm": [
+          17.3,
+          16.6
+        ],
+        "angle_degrees": 180.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          21.2,
+          16.05
+        ],
+        "angle_degrees": 0.0,
+        "side": "B.Cu"
+      }
+    },
+    "U2": {
+      "before": {
+        "position_mm": [
+          20.1419,
+          17.2749
+        ],
+        "angle_degrees": 90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position_mm": [
+          18.3419,
+          17.2749
+        ],
+        "angle_degrees": 90.0,
+        "side": "B.Cu"
+      }
+    }
+  },
+  "drc_errors": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "prior_warnings_retained": 5,
+  "schematic_project_rules_unchanged": true,
+  "all_top_footprints_fixed": true,
+  "new_assembly_interference": false,
+  "gerber_generated": false,
+  "github_published": false
+}

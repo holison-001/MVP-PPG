@@ -1,0 +1,11 @@
+{
+  "canonical_board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "input_sha256": "4f1e5e79919eb9e914c37ab74f09dba7f9a0d9baf9da9ec891db2f04894e7a50",
+  "output_sha256": "6f5485a1f81b4cb11914d462fbb74e58576903f7c1595e6b5ecb7f60054ed806",
+  "input_backup": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\routing_connections_20261007\\before\\ppg_pcb_v08.kicad_pcb",
+  "all_41_footprints_unchanged": true,
+  "schematic_project_and_rules_unchanged": true,
+  "saved_to_canonical": true,
+  "gerber_generated": false,
+  "git_published": false
+}

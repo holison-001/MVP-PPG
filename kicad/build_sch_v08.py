@@ -219,6 +219,7 @@ def place_symbol(ref, libid, x, y, value, footprint, pins, ref_at, val_at):
     {prop("Footprint", footprint, x, y, True)} {prop("Datasheet", D.COMPONENTS[ref].get("datasheet", ""), x, y, True)} {prop("Description", D.COMPONENTS[ref]["desc"], x, y, True)}
     {prop("MPN", D.COMPONENTS[ref].get("mpn", ""), x, y, True)}
     {prop("Manufacturer", D.COMPONENTS[ref].get("manufacturer", ""), x, y, True)}
+    {' '.join(prop(name, rating, x, y, True) for name, rating in D.COMPONENTS[ref].get('ratings', {}).items())}
     {pin_uuids}
     (instances (project "{PROJECT}" (path "/{ROOT_UUID}" (reference "{ref}") (unit 1)))))''')
 

@@ -1,0 +1,708 @@
+{
+  "root_uuid": "7f1af22c-c471-514c-b572-ed4f35defa7d",
+  "project": "ppg_uart_adapter_v01",
+  "components": {
+    "J1": {
+      "symbol": "Port2",
+      "value": "9V INPUT",
+      "footprint": "Adapter:WirePads_1x02_P1.8mm_D1.2",
+      "nets": {
+        "1": "9V_SHARED",
+        "2": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "Wire solder pads; connector mechanical implementation to be reviewed with PCB outline",
+      "at": [
+        25.4,
+        50.8
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "FB1": {
+      "symbol": "FerriteBead",
+      "value": "BLM15PX601SN1D",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "nets": {
+        "1": "9V_SHARED",
+        "2": "9V_LDO"
+      },
+      "mpn": "BLM15PX601SN1D",
+      "manufacturer": "Murata",
+      "datasheet": "https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23",
+      "description": "Local LDO input filter; PPG power branches before this bead",
+      "at": [
+        76.2,
+        48.26
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "U1": {
+      "symbol": "LD1117_3V3",
+      "value": "LD1117S33TR",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "nets": {
+        "1": "GND",
+        "2": "3V3",
+        "3": "9V_LDO"
+      },
+      "mpn": "LD1117S33TR",
+      "manufacturer": "STMicroelectronics",
+      "datasheet": "https://www.st.com/resource/en/datasheet/ld1117.pdf",
+      "description": "User-selected fixed 3.3V LDO; pins1 GND,2 OUT,3 IN; tab electrically OUT",
+      "at": [
+        114.3,
+        50.8
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "C1": {
+      "symbol": "C",
+      "value": "10 µF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "9V_LDO",
+        "2": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "Input bulk MLCC,metric1608; exact MPN pending",
+      "at": [
+        86.36,
+        64.77
+      ],
+      "voltage": "25 V",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "C3": {
+      "symbol": "C",
+      "value": "100 nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "9V_LDO",
+        "2": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "Place at LD1117 input; metric1608 MLCC",
+      "at": [
+        55.88,
+        64.77
+      ],
+      "voltage": "25 V",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R9": {
+      "symbol": "R_H",
+      "value": "1 Ω",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "nets": {
+        "1": "3V3",
+        "2": "COUT_BULK"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "LD1117 ceramic output ESR resistor in capacitor branch only; not in load supply path",
+      "at": [
+        151.13,
+        48.26
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "C2": {
+      "symbol": "C",
+      "value": "22 µF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "COUT_BULK",
+        "2": "GND"
+      },
+      "mpn": "C1608X5R1A226M080AC",
+      "manufacturer": "TDK",
+      "datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC",
+      "description": "Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance",
+      "at": [
+        165.1,
+        62.23
+      ],
+      "voltage": "10 V",
+      "tolerance": "20%",
+      "dielectric": "X5R"
+    },
+    "C6": {
+      "symbol": "C",
+      "value": "22 µF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "COUT_BULK",
+        "2": "GND"
+      },
+      "mpn": "C1608X5R1A226M080AC",
+      "manufacturer": "TDK",
+      "datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC",
+      "description": "Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance",
+      "at": [
+        191.77,
+        62.23
+      ],
+      "voltage": "10 V",
+      "tolerance": "20%",
+      "dielectric": "X5R"
+    },
+    "C7": {
+      "symbol": "C",
+      "value": "22 µF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "COUT_BULK",
+        "2": "GND"
+      },
+      "mpn": "C1608X5R1A226M080AC",
+      "manufacturer": "TDK",
+      "datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC",
+      "description": "Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance",
+      "at": [
+        218.44,
+        62.23
+      ],
+      "voltage": "10 V",
+      "tolerance": "20%",
+      "dielectric": "X5R"
+    },
+    "C8": {
+      "symbol": "C",
+      "value": "22 µF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "COUT_BULK",
+        "2": "GND"
+      },
+      "mpn": "C1608X5R1A226M080AC",
+      "manufacturer": "TDK",
+      "datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC",
+      "description": "Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance",
+      "at": [
+        245.11,
+        62.23
+      ],
+      "voltage": "10 V",
+      "tolerance": "20%",
+      "dielectric": "X5R"
+    },
+    "#FLG1": {
+      "symbol": "PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "nets": {
+        "1": "9V_SHARED"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        60.96,
+        82.55
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "#FLG2": {
+      "symbol": "PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "nets": {
+        "1": "9V_LDO"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        76.2,
+        82.55
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "#FLG3": {
+      "symbol": "PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "nets": {
+        "1": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        45.72,
+        82.55
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "J3": {
+      "symbol": "Port4",
+      "value": "UART / 3.3V OUT",
+      "footprint": "Adapter:WirePads_1x04_P1.8mm_D1.2",
+      "nets": {
+        "1": "3V3",
+        "2": "TX_OUT",
+        "3": "RX_IN",
+        "4": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "Wire solder pads; connector mechanical implementation to be reviewed with PCB outline",
+      "at": [
+        312.42,
+        60.96
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "J2": {
+      "symbol": "Port6",
+      "value": "PPG / 6 WIRES",
+      "footprint": "Adapter:WirePads_1x06_P1.8mm_D1.2",
+      "nets": {
+        "1": "9V_SHARED",
+        "2": "GND",
+        "3": "PPG_TXP",
+        "4": "PPG_TXN",
+        "5": "PPG_RXP",
+        "6": "PPG_RXN"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "Wire solder pads; connector mechanical implementation to be reviewed with PCB outline",
+      "at": [
+        30.48,
+        139.7
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "U3": {
+      "symbol": "XR33183",
+      "value": "XR33183ESBTR",
+      "footprint": "Adapter:TSOT23-6_MaxLinear",
+      "nets": {
+        "1": "3V3",
+        "2": "GND",
+        "3": "UART_TX_IC",
+        "4": "RXN_IC",
+        "5": "GND",
+        "6": "RXP_IC"
+      },
+      "mpn": "XR33183ESBTR",
+      "manufacturer": "MaxLinear",
+      "datasheet": "https://www.maxlinear.com/ds/xr33180_xr33181_xr33183_xr33184.pdf",
+      "description": "Receiver of PPG TX pair; active-low EN tied to GND",
+      "at": [
+        215.9,
+        127
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R2": {
+      "symbol": "R_H",
+      "value": "22 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "PPG_TXP",
+        "2": "RXP_IC"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        165.1,
+        121.92
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R3": {
+      "symbol": "R_H",
+      "value": "22 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "PPG_TXN",
+        "2": "RXN_IC"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        165.1,
+        132.08
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R1": {
+      "symbol": "R_V",
+      "value": "120 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "PPG_TXP",
+        "2": "PPG_TXN"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "Receiving-end termination; match existing PPG120ohm architecture",
+      "at": [
+        139.7,
+        127
+      ],
+      "voltage": "",
+      "tolerance": "1%",
+      "dielectric": ""
+    },
+    "R7": {
+      "symbol": "R_H",
+      "value": "100 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "UART_TX_IC",
+        "2": "TX_OUT"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        279.4,
+        127
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "D1": {
+      "symbol": "SM712",
+      "value": "CDSOT23-SM712",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "nets": {
+        "1": "PPG_TXP",
+        "2": "PPG_TXN",
+        "3": "GND"
+      },
+      "mpn": "CDSOT23-SM712",
+      "manufacturer": "Bourns",
+      "datasheet": "https://www.bourns.com/pdfs/CDSOT23-SM712.pdf",
+      "description": "Two-line RS422 TVS, pins1/2 signal,pin3GND; connector-side of series resistors",
+      "at": [
+        119.38,
+        156.21
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "D3": {
+      "symbol": "TVS_Uni",
+      "value": "ESD351DPYR",
+      "footprint": "Adapter:TI_DPY0002A_1x0.6",
+      "nets": {
+        "1": "TX_OUT",
+        "2": "GND"
+      },
+      "mpn": "ESD351DPYR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "description": "UART connector ESD shunt; route pad to TVS landing before internal series resistor",
+      "at": [
+        320.04,
+        152.4
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "U2": {
+      "symbol": "XR33194",
+      "value": "XR33194ESBTR",
+      "footprint": "Adapter:TSOT23-6_MaxLinear",
+      "nets": {
+        "1": "UART_RX_IC",
+        "2": "3V3",
+        "3": "3V3",
+        "4": "TXN_IC",
+        "5": "GND",
+        "6": "TXP_IC"
+      },
+      "mpn": "XR33194ESBTR",
+      "manufacturer": "MaxLinear",
+      "datasheet": "https://www.maxlinear.com/ds/xr33193_xr33194_xr33195.pdf",
+      "description": "Always enabled full-duplex driver; outputs go to PPG RXP/RXN",
+      "at": [
+        215.9,
+        218.44
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R8": {
+      "symbol": "R_H",
+      "value": "100 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "RX_IN",
+        "2": "UART_RX_IC"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        125.73,
+        218.44
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R6": {
+      "symbol": "R_V",
+      "value": "10 kΩ",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "3V3",
+        "2": "UART_RX_IC"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        160.02,
+        207.01
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R4": {
+      "symbol": "R_H",
+      "value": "22 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "TXP_IC",
+        "2": "PPG_RXP"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        279.4,
+        213.36
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "R5": {
+      "symbol": "R_H",
+      "value": "22 Ω",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "nets": {
+        "1": "TXN_IC",
+        "2": "PPG_RXN"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "",
+      "at": [
+        279.4,
+        223.52
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "D2": {
+      "symbol": "SM712",
+      "value": "CDSOT23-SM712",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "nets": {
+        "1": "PPG_RXP",
+        "2": "PPG_RXN",
+        "3": "GND"
+      },
+      "mpn": "CDSOT23-SM712",
+      "manufacturer": "Bourns",
+      "datasheet": "https://www.bourns.com/pdfs/CDSOT23-SM712.pdf",
+      "description": "Transmit pair cable-side protection; far-end termination exists on PPG",
+      "at": [
+        345.44,
+        236.22
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "D4": {
+      "symbol": "TVS_Uni",
+      "value": "ESD351DPYR",
+      "footprint": "Adapter:TI_DPY0002A_1x0.6",
+      "nets": {
+        "1": "RX_IN",
+        "2": "GND"
+      },
+      "mpn": "ESD351DPYR",
+      "manufacturer": "Texas Instruments",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/esd351.pdf",
+      "description": "UART connector ESD shunt; route pad to TVS landing before internal series resistor",
+      "at": [
+        104.14,
+        246.38
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "C4": {
+      "symbol": "C",
+      "value": "100 nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "U2 VCC local bypass; metric1608 MLCC",
+      "at": [
+        205.74,
+        254
+      ],
+      "voltage": "25 V",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "C5": {
+      "symbol": "C",
+      "value": "100 nF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "nets": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "U3 VCC local bypass; metric1608 MLCC",
+      "at": [
+        264.16,
+        254
+      ],
+      "voltage": "25 V",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "H1": {
+      "symbol": "MountingHole_3mm",
+      "value": "Ø3.0 mm NPTH",
+      "footprint": "Adapter:MountingHole_3mm_Clearance11mm",
+      "nets": {},
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm",
+      "at": [
+        350.52,
+        121.92
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "H2": {
+      "symbol": "MountingHole_3mm",
+      "value": "Ø3.0 mm NPTH",
+      "footprint": "Adapter:MountingHole_3mm_Clearance11mm",
+      "nets": {},
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm",
+      "at": [
+        382.27,
+        121.92
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "H3": {
+      "symbol": "MountingHole_3mm",
+      "value": "Ø3.0 mm NPTH",
+      "footprint": "Adapter:MountingHole_3mm_Clearance11mm",
+      "nets": {},
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm",
+      "at": [
+        350.52,
+        149.86
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    },
+    "H4": {
+      "symbol": "MountingHole_3mm",
+      "value": "Ø3.0 mm NPTH",
+      "footprint": "Adapter:MountingHole_3mm_Clearance11mm",
+      "nets": {},
+      "mpn": "",
+      "manufacturer": "",
+      "datasheet": "",
+      "description": "기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm",
+      "at": [
+        382.27,
+        149.86
+      ],
+      "voltage": "",
+      "tolerance": "",
+      "dielectric": ""
+    }
+  }
+}

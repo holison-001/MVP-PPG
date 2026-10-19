@@ -94,7 +94,7 @@ def load_schematic_metadata(schematic_path=None):
 
 
 def validate_placement(board, expected_refs):
-    """Enforce complete placement and the optical-side-only PPG constraint."""
+    """Enforce complete placement and the U1, front SWD pads and D6/D7 constraint."""
     footprints = list(board.GetFootprints())
     refs = [fp.GetReference() for fp in footprints]
     expected = set(expected_refs)
@@ -102,8 +102,8 @@ def validate_placement(board, expected_refs):
         raise ValueError(f"PCB reference mismatch: missing={sorted(expected - set(refs))}, "
                          f"extra={sorted(set(refs) - expected)}, duplicates={len(refs) - len(set(refs))}")
     top_refs = {fp.GetReference() for fp in footprints if fp.GetLayer() == pcbnew.F_Cu}
-    if top_refs != {"U1"}:
-        raise ValueError(f"Only U1 may be on the top side; found {sorted(top_refs)}")
+    if top_refs != {"U1", "J7", "J8", "J9", "J10", "J11", "D6", "D7"}:
+        raise ValueError(f"Top side must contain U1, SWD pads J7-J11 and D6/D7 ESD; found {sorted(top_refs)}")
     invalid = [fp.GetReference() for fp in footprints
                if fp.GetLayer() not in (pcbnew.F_Cu, pcbnew.B_Cu)]
     if invalid:

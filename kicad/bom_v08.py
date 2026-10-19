@@ -19,6 +19,7 @@ import sys
 import tempfile
 from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
+from component_values import normalize_value
 
 REPO = Path(__file__).resolve().parent.parent
 STEM = "MVP-PPG_BOM_부품별통합_DNP제외_값표준화_v2"
@@ -39,6 +40,7 @@ PACKAGE = {
     "SleepBud:TI_DPY0002A_1x0.6": "DFN1006-2 (DPY), 1.0 × 0.6 mm",
     "SleepBud:CablePad_D1.2": "구리 납땜 패드 Ø1.2 mm",
     "SleepBud:CablePad_D0.8": "구리 테스트패드 Ø0.8 mm",
+    "SleepBud:TestPad_D0.8_Front": "탑면 구리 테스트패드 Ø0.8 mm",
 }
 MANUFACTURER = {
     "MAXM86161EFD+": "Analog Devices (Maxim)", "STM32C011F6U6": "STMicroelectronics",
@@ -146,6 +148,9 @@ def read_parts(xml):
             "Datasheet": fields.get("Datasheet", comp.findtext("datasheet", "")),
             "Description": fields.get("Description", comp.findtext("description", "")),
             "Manufacturer": fields.get("Manufacturer", fields.get("제조사", "")),
+            "Voltage": fields.get("Voltage", ""),
+            "Tolerance": fields.get("Tolerance", ""),
+            "Dielectric": fields.get("Dielectric", ""),
         })
     if not parts:
         raise ValueError("The schematic contains no included BOM components")
@@ -160,14 +165,29 @@ def group_parts(parts):
         family = re.match(r"[A-Za-z]+", ref).group()
         if footprint not in PACKAGE:
             raise ValueError(f"{ref}: review package display for {footprint!r} before export")
-        value = compact_value(original, family)
+        # Nominal schematic values and explicit ratings are stored separately.
+        rating_text = " ".join(part.get(k, "") for k in ("Voltage", "Dielectric", "Tolerance"))
+        value = compact_value((original + " " + rating_text).strip(), family)
         mpn, source = part["MPN"], part["Datasheet"]
         manufacturer = part["Manufacturer"] or MANUFACTURER.get(mpn or original, "")
         notes, origin = [], ["현행 회로도"]
         supplement = SUPPLEMENTS.get((family, original, footprint))
+        supplement_original = original
+        if supplement is None:
+            for (old_family, old_value, old_footprint), candidate in SUPPLEMENTS.items():
+                if (old_family != family or old_footprint != footprint
+                        or ref not in SUPPLEMENT_REFS.get(old_value, set())
+                        or normalize_value(ref, old_value)[0] != normalize_value(ref, original)[0]):
+                    continue
+                candidate_ratings = normalize_value(ref, candidate[0])[1]
+                if any(part.get(k) and part[k] != candidate_ratings.get(k)
+                       for k in ("Voltage", "Dielectric", "Tolerance")):
+                    continue
+                supplement, supplement_original = candidate, old_value
+                break
         # Explicit ordering numbers/updated part fields take precedence over
         # generic passive recommendations from the old BOM.
-        if supplement and not mpn and ref in SUPPLEMENT_REFS.get(original, set()):
+        if supplement and not mpn and ref in SUPPLEMENT_REFS.get(supplement_original, set()):
             value, evidence, note = supplement
             if evidence != "현행 회로도":
                 origin.append(evidence)

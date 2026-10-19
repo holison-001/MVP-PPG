@@ -1,0 +1,611 @@
+{
+  "source_sha256": "1baae6c041f182bea81e6a53060e6774f11bff44b48da2111aff54040978bad6",
+  "through_via_count": 61,
+  "outer_totals_mm": {
+    "F.Cu": 31.234559,
+    "B.Cu": 69.689733
+  },
+  "by_layer_net": {
+    "F.Cu": {
+      "/SWCLK": {
+        "segments": 6,
+        "length_mm": 6.242188
+      },
+      "/SDA": {
+        "segments": 1,
+        "length_mm": 0.990581
+      },
+      "/SCL": {
+        "segments": 2,
+        "length_mm": 1.007198
+      },
+      "/LDO_EN": {
+        "segments": 3,
+        "length_mm": 0.574854
+      },
+      "/VLDO": {
+        "segments": 3,
+        "length_mm": 3.519397
+      },
+      "5V_LED": {
+        "segments": 4,
+        "length_mm": 3.45985
+      },
+      "GND": {
+        "segments": 4,
+        "length_mm": 2.010736
+      },
+      "/VREF": {
+        "segments": 10,
+        "length_mm": 6.786147
+      },
+      "/SWDIO": {
+        "segments": 1,
+        "length_mm": 1.137772
+      },
+      "/NRST": {
+        "segments": 4,
+        "length_mm": 4.788828
+      },
+      "3V3": {
+        "segments": 1,
+        "length_mm": 0.717008
+      }
+    },
+    "B.Cu": {
+      "/SWCLK": {
+        "segments": 5,
+        "length_mm": 2.778648
+      },
+      "/SDA": {
+        "segments": 4,
+        "length_mm": 1.311743
+      },
+      "/SCL": {
+        "segments": 6,
+        "length_mm": 3.471212
+      },
+      "/LDO_EN": {
+        "segments": 2,
+        "length_mm": 0.502455
+      },
+      "/VLDO": {
+        "segments": 2,
+        "length_mm": 0.922105
+      },
+      "5V_LED": {
+        "segments": 8,
+        "length_mm": 4.737688
+      },
+      "GND": {
+        "segments": 81,
+        "length_mm": 15.470618
+      },
+      "/VREF": {
+        "segments": 2,
+        "length_mm": 0.55254
+      },
+      "/SWDIO": {
+        "segments": 4,
+        "length_mm": 0.735621
+      },
+      "/NRST": {
+        "segments": 3,
+        "length_mm": 1.508
+      },
+      "3V3": {
+        "segments": 28,
+        "length_mm": 6.768121
+      },
+      "/RXN": {
+        "segments": 3,
+        "length_mm": 1.553455
+      },
+      "/TXP_DRV": {
+        "segments": 11,
+        "length_mm": 5.347755
+      },
+      "/TXP": {
+        "segments": 4,
+        "length_mm": 1.440327
+      },
+      "/12V_IN": {
+        "segments": 4,
+        "length_mm": 2.519254
+      },
+      "12V": {
+        "segments": 7,
+        "length_mm": 4.622332
+      },
+      "/UART_TX": {
+        "segments": 5,
+        "length_mm": 3.860592
+      },
+      "/TXN_DRV": {
+        "segments": 4,
+        "length_mm": 1.194851
+      },
+      "/RXN_RCV": {
+        "segments": 1,
+        "length_mm": 0.939415
+      },
+      "/TXN": {
+        "segments": 2,
+        "length_mm": 1.429504
+      },
+      "/RXP_RCV": {
+        "segments": 4,
+        "length_mm": 2.047239
+      },
+      "/RXP": {
+        "segments": 5,
+        "length_mm": 2.069967
+      },
+      "/UART_RX": {
+        "segments": 6,
+        "length_mm": 3.906291
+      }
+    }
+  },
+  "via_to_via_whole_path_candidates": [],
+  "long_paths_requiring_pad_fanout_preservation": [
+    {
+      "layer": "F.Cu",
+      "net": "/VREF",
+      "length_mm": 6.786147,
+      "segment_uuids": [
+        "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+        "94c64a62-4658-4df2-a02c-c0c0b1444b9f",
+        "9913d153-0cf4-4dca-ba61-98d380f652b0",
+        "ed8f56a5-a177-498f-9587-2f7458e194c2",
+        "f54a2ddb-179b-47fe-8bea-643fbba7fca2",
+        "9123243f-256e-4a6f-9aa6-727fdba09dde",
+        "10321e9b-0b1b-4d24-9b37-049b15c6250e",
+        "fa2c7c23-f8d2-480a-92ae-98016e83855d",
+        "7319a8fb-0d88-490a-9b7f-bca5d68c7715",
+        "16a19da4-5616-4a7a-a4f8-77f472076114"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "65abe2a2-bd53-4d83-a1da-9f96f6d36a5e",
+          "xy_mm": [
+            19.5882,
+            19.9189
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U1.12"
+      ],
+      "nonvia_ends": [
+        [
+          21.25,
+          16.55
+        ]
+      ]
+    },
+    {
+      "layer": "F.Cu",
+      "net": "/SWCLK",
+      "length_mm": 6.242188,
+      "segment_uuids": [
+        "181d7385-1959-4529-be5a-b5e29c1aac14",
+        "d7f1b44c-fc70-4a1a-8277-161f112ef7ff",
+        "7af1e124-7783-4a34-9636-3c7ff2eee357",
+        "33f0e2f6-4f68-4119-9ae3-136366bffb0b",
+        "e2cba995-3c98-420c-88db-a5c81784f6d7",
+        "5614e1ba-bfe7-4bdd-8b5f-a595607f8350"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "d8998d7f-3061-45b3-bf65-a82460c06778",
+          "xy_mm": [
+            22.6,
+            16.45
+          ]
+        }
+      ],
+      "touching_pads": [
+        "J8.1"
+      ],
+      "nonvia_ends": [
+        [
+          21.27,
+          21.85
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "/TXP_DRV",
+      "length_mm": 5.187677,
+      "segment_uuids": [
+        "09866bac-635d-4c9f-9f5f-fe90b7a86f7d",
+        "11e831bb-4af2-4641-80dc-dd28becb6643",
+        "ccfbef11-de07-4db4-bcd2-db220d1a2bba",
+        "cb9eb97e-cd54-43f5-96c5-0197cb006299",
+        "482f3e99-244e-4103-b388-22488cbb6710",
+        "990c7f21-be54-4fce-bded-8427259f515d",
+        "4cecbec4-ec70-4ccf-a00c-70631516bab4",
+        "4225b1b9-822d-4da0-ab29-22dd961e2121",
+        "37cb2208-4fcd-40ae-996e-eaf62d2486a6",
+        "da2f0193-2559-48c3-a1ce-b7fd91aa4d17"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+          "xy_mm": [
+            25.675,
+            17.725
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U3.6"
+      ],
+      "nonvia_ends": [
+        [
+          24.0,
+          13.675
+        ]
+      ]
+    },
+    {
+      "layer": "F.Cu",
+      "net": "/NRST",
+      "length_mm": 4.788828,
+      "segment_uuids": [
+        "05e117b3-3814-4d69-9173-0a0af125e351",
+        "cfe57f20-e4fd-4e04-8db7-476256a8130f",
+        "c3b41d2f-5f67-4610-8206-b8e8be3a5ba1",
+        "41e4ef32-8e6b-428d-ac6a-adb6789f70fd"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "b1f15b50-0c88-4054-a5b7-28b7369eb854",
+          "xy_mm": [
+            17.15,
+            17.3
+          ]
+        }
+      ],
+      "touching_pads": [
+        "J9.1"
+      ],
+      "nonvia_ends": [
+        [
+          17.46,
+          21.85
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "/UART_RX",
+      "length_mm": 3.656291,
+      "segment_uuids": [
+        "07a37e19-e510-4e3e-8318-82ed1a6dc87b",
+        "db550584-7842-498c-a0b1-5b3cd310d70a",
+        "2ae21a15-8bff-4a94-8c2f-15f66c31755c",
+        "e60ee6a0-28f2-421a-8e53-5782b9b6b37b",
+        "873e55b7-38ed-4d58-a15f-72e1e4b83742"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "f948adad-1359-4b54-9cd0-3bd30e3fdd60",
+          "xy_mm": [
+            22.9,
+            13.8
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U2.15"
+      ],
+      "nonvia_ends": [
+        [
+          21.1419,
+          15.7999
+        ]
+      ]
+    },
+    {
+      "layer": "F.Cu",
+      "net": "/VLDO",
+      "length_mm": 3.519397,
+      "segment_uuids": [
+        "183ecf50-f37f-4ce5-8ea1-8001cdcece4b",
+        "30ad67e3-b81f-40bf-9147-d600cd2ab763",
+        "6bb272da-4e4f-4041-b184-a9eb08afecf9"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "c74023ec-24e9-4436-a469-2e7825ce8156",
+          "xy_mm": [
+            17.1869,
+            19.6321
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U1.4"
+      ],
+      "nonvia_ends": [
+        [
+          19.05,
+          17.0
+        ]
+      ]
+    },
+    {
+      "layer": "F.Cu",
+      "net": "5V_LED",
+      "length_mm": 3.45985,
+      "segment_uuids": [
+        "1bc9a37a-053a-4c0b-b8c9-a26752848cf1",
+        "c9b25341-f83b-49e9-9634-97a79fff4efc",
+        "8c8a8a9b-d985-4305-b997-7449440d7afe",
+        "d2c9a017-11b5-4378-8d1f-6934842b9455"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "c212bfa9-14b6-4426-b3b5-1f61a27e393b",
+          "xy_mm": [
+            18.774,
+            20.0348
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U1.5"
+      ],
+      "nonvia_ends": [
+        [
+          19.05,
+          17.6
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "5V_LED",
+      "length_mm": 3.439531,
+      "segment_uuids": [
+        "7b4b75fa-d9f1-4146-91fa-81fcbe9b73ab",
+        "bda94eee-6692-4390-af03-4cba7850cd45",
+        "f214f4f8-9be5-427d-90e4-7aaf21cbc49d",
+        "cfcbacca-4c79-40d7-a192-6322e770d407"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "c212bfa9-14b6-4426-b3b5-1f61a27e393b",
+          "xy_mm": [
+            18.774,
+            20.0348
+          ]
+        }
+      ],
+      "touching_pads": [
+        "C1.1"
+      ],
+      "nonvia_ends": [
+        [
+          17.8336,
+          17.6302
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "12V",
+      "length_mm": 3.204641,
+      "segment_uuids": [
+        "0c7fc57c-74e8-4afb-a271-82acd9b94a31",
+        "b7ec09d6-ed5d-476d-a9f8-073d6f25c51e"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+          "xy_mm": [
+            19.8315,
+            13.6211
+          ]
+        }
+      ],
+      "touching_pads": [
+        "FB1.2"
+      ],
+      "nonvia_ends": [
+        [
+          21.4047,
+          11.0681
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "/SCL",
+      "length_mm": 2.752832,
+      "segment_uuids": [
+        "0aa9b936-d5a7-4101-830f-03217be06c8b",
+        "a1b46bdd-d935-4814-bf10-ad1796a1e247",
+        "2743f9e3-38a2-4dc1-b9da-361a8551f92b"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981",
+          "xy_mm": [
+            19.8148,
+            15.2148
+          ]
+        }
+      ],
+      "touching_pads": [
+        "R2.1"
+      ],
+      "nonvia_ends": [
+        [
+          17.1734,
+          15.8827
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "/12V_IN",
+      "length_mm": 2.519254,
+      "segment_uuids": [
+        "2d82f03a-ecce-44e5-927c-7c25e222eac0",
+        "52008b4a-542c-425d-8000-c0dc72c7968c",
+        "8638fec2-9215-4652-a59b-185131709768",
+        "4f143ae1-b4c3-420c-ada4-913e16c5e117"
+      ],
+      "boundary_vias": [],
+      "touching_pads": [
+        "D1.1",
+        "FB1.1",
+        "J1.1"
+      ],
+      "nonvia_ends": [
+        [
+          18.0948,
+          11.5011
+        ],
+        [
+          20.4347,
+          11.0681
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "GND",
+      "length_mm": 2.486685,
+      "segment_uuids": [
+        "5029cc0e-4cc1-409b-98cc-d9ce5e322da9",
+        "55c74ab2-79e4-40e2-82ea-2e16d0d998c4",
+        "b0859fa3-f7c4-40bb-b902-eaadc96f407c",
+        "89f44306-2efa-493f-a047-2795519cdd13",
+        "946bc964-768b-4df7-b752-35f3f9fd4d54",
+        "57c10691-b266-41f3-b5f5-b19f3e2bcc91"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+          "xy_mm": [
+            20.625,
+            21.2234
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U5.4",
+        "U5.9"
+      ],
+      "nonvia_ends": [
+        [
+          22.7848,
+          21.1348
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "GND",
+      "length_mm": 2.049537,
+      "segment_uuids": [
+        "32dba5c9-d743-4289-8a21-ee7461aaac99",
+        "7779d53b-ab56-46d8-8ecc-59cb7b5ef5f2",
+        "a0de659d-3732-47e6-a5ec-8b625e3e3451",
+        "5835fd44-d550-4a78-b4db-1c1f39e29f74",
+        "3be30ad8-a3d4-48fb-a062-8303080b1bcc",
+        "8e39dc3f-9c58-41a1-9d76-2f86314156e9",
+        "a792cf24-fe5f-479f-8dc3-2a1a460a91c2",
+        "c5dc8e74-ca0b-4db7-b8ce-650bf56de3f9"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+          "xy_mm": [
+            19.5,
+            22.575
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U4.4",
+        "U4.9"
+      ],
+      "nonvia_ends": [
+        [
+          18.3257,
+          21.5439
+        ]
+      ]
+    },
+    {
+      "layer": "B.Cu",
+      "net": "/UART_TX",
+      "length_mm": 2.020082,
+      "segment_uuids": [
+        "125e94e4-e436-4bbb-807b-7c21656e093e",
+        "1f78dfa9-3304-4255-98a5-a65727b2a920",
+        "8ac16876-5f1c-4916-b956-42d70c285d86"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "992c83f5-fd95-4204-9642-0c926cd0b911",
+          "xy_mm": [
+            20.35,
+            14.05
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U2.14"
+      ],
+      "nonvia_ends": [
+        [
+          20.6419,
+          15.9749
+        ]
+      ]
+    },
+    {
+      "layer": "F.Cu",
+      "net": "GND",
+      "length_mm": 2.010736,
+      "segment_uuids": [
+        "2905afda-5b19-43da-8101-c372ad25fdbc",
+        "6e6989ac-51c6-47a1-ac91-0ae2a9334a42",
+        "ef189860-f81b-4734-83f2-ae1018791810",
+        "3d46ec67-ebce-441c-9297-3654a4eca69a"
+      ],
+      "boundary_vias": [
+        {
+          "uuid": "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+          "xy_mm": [
+            20.15,
+            17.95
+          ]
+        }
+      ],
+      "touching_pads": [
+        "U1.10",
+        "U1.11",
+        "U1.9"
+      ],
+      "nonvia_ends": [
+        [
+          20.95,
+          18.2
+        ],
+        [
+          20.95,
+          17.0
+        ]
+      ]
+    }
+  ],
+  "method": "Read-only graph of endpoints merged within 0.005 mm; via boundaries identified by existing copper overlap; path touching any same-layer same-net footprint pad is excluded. Candidate inner-layer clearance still requires routing/DRC."
+}

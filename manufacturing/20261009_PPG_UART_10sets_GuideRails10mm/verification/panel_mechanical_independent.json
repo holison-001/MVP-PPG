@@ -1,0 +1,854 @@
+{
+  "date": "2026-10-09",
+  "reviewer": "Independent read-only geometric audit",
+  "source_geojson_sha256": "760e4ce0edeee4a2e3db158d43023397a996b31d22259052efdc8d87410e8b19",
+  "panel_size_mm": [
+    157,
+    177
+  ],
+  "set_count": 10,
+  "finished_board_count": 20,
+  "substrate_valid": true,
+  "substrate_is_single_connected_polygon": true,
+  "route_cutout_count": 80,
+  "route_centerline_count": 100,
+  "final_cut_centerline_parts": 100,
+  "tab_count": 90,
+  "router_diameter_mm": 2,
+  "route_r1_buffer_symmetric_difference_mm2": 0.0,
+  "substrate_vs_outer_minus_route_difference_mm2": 0.0,
+  "route_intrusion_into_finished_units_mm2": 0.0,
+  "final_cnc_intrusion_into_finished_units_mm2": 0.0,
+  "finished_units_missing_from_stock_mm2": 0.0,
+  "tab_necks": [
+    {
+      "id": "S01_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 2.999999999999986,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057593,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057176,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S01_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.000025638245829,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057877,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057575,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S02_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.0000256382458246,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057735,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057526,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S03_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.0000256382458557,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.000025595405745,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057478,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S04_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.000025638245843,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 2.999999999999986,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057735,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057526,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S05_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.0000256382458557,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.000025595405745,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057478,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S06_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.000025638245843,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 2.999999999999986,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057593,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057677,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S07_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.0000256382458503,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.000025595405738,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.0000255954057176,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S08_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.0000256382458645,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.000000000000014,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.0000255954059334,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.00002559540576,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S09_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.000025638245848,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_UART_bottom_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_UART_bottom_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_UART_bottom_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_UART_top_1",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_UART_top_2",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_UART_top_3",
+      "actual_width_at_narrowest_section_mm": 3.0,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_PPG_0",
+      "actual_width_at_narrowest_section_mm": 3.000025595405873,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_PPG_135",
+      "actual_width_at_narrowest_section_mm": 3.000025595405763,
+      "center_inside_substrate": true
+    },
+    {
+      "id": "S10_PPG_220",
+      "actual_width_at_narrowest_section_mm": 3.00002563824587,
+      "center_inside_substrate": true
+    }
+  ],
+  "minimum_measured_tab_neck_mm": 2.999999999999986,
+  "ppg_220_neck_scan": {
+    "sampling_step_mm": 0.005,
+    "radial_range_mm": [
+      6.7501,
+      8.7501
+    ],
+    "min_width_mm": 3.000020764609257,
+    "radius_at_min_mm": 7.3351,
+    "outer_attachment_width_mm": 5.628740975226909
+  },
+  "guide_holes": [
+    {
+      "ref": "GH1",
+      "contained_in_carrier": true,
+      "to_route_void_mm": 3.6588257476041077,
+      "to_finished_board_mm": 5.658916329300411,
+      "to_outer_edge_mm": 2.0
+    },
+    {
+      "ref": "GH2",
+      "contained_in_carrier": true,
+      "to_route_void_mm": 10.923309870551185,
+      "to_finished_board_mm": 12.923409768198553,
+      "to_outer_edge_mm": 2.0
+    },
+    {
+      "ref": "GH3",
+      "contained_in_carrier": true,
+      "to_route_void_mm": 3.658825747604103,
+      "to_finished_board_mm": 5.658916329300404,
+      "to_outer_edge_mm": 2.0
+    },
+    {
+      "ref": "GH4",
+      "contained_in_carrier": true,
+      "to_route_void_mm": 10.923310052468985,
+      "to_finished_board_mm": 12.923409768198553,
+      "to_outer_edge_mm": 2.0
+    }
+  ],
+  "fiducials": [
+    {
+      "ref": "FID_T1",
+      "mask_and_copper_contained_in_carrier": true,
+      "to_route_void_mm": 3.582710134941334,
+      "mask_to_outer_edge_mm": 3.4999999999999996,
+      "mask_to_guide_hole_mm": 3.5
+    },
+    {
+      "ref": "FID_T2",
+      "mask_and_copper_contained_in_carrier": true,
+      "to_route_void_mm": 9.328278765424741,
+      "mask_to_outer_edge_mm": 3.4999999999999996,
+      "mask_to_guide_hole_mm": 3.5
+    },
+    {
+      "ref": "FID_T3",
+      "mask_and_copper_contained_in_carrier": true,
+      "to_route_void_mm": 3.582710134941333,
+      "mask_to_outer_edge_mm": 3.4999999999999996,
+      "mask_to_guide_hole_mm": 3.5
+    },
+    {
+      "ref": "FID_B1",
+      "mask_and_copper_contained_in_carrier": true,
+      "to_route_void_mm": 3.582710134941334,
+      "mask_to_outer_edge_mm": 3.4999999999999996,
+      "mask_to_guide_hole_mm": 3.5
+    },
+    {
+      "ref": "FID_B2",
+      "mask_and_copper_contained_in_carrier": true,
+      "to_route_void_mm": 9.328278765424741,
+      "mask_to_outer_edge_mm": 3.4999999999999996,
+      "mask_to_guide_hole_mm": 3.5
+    },
+    {
+      "ref": "FID_B3",
+      "mask_and_copper_contained_in_carrier": true,
+      "to_route_void_mm": 3.582710134941333,
+      "mask_to_outer_edge_mm": 3.4999999999999996,
+      "mask_to_guide_hole_mm": 3.5
+    }
+  ],
+  "source_hashes_unchanged": {
+    "PPG": true,
+    "UART": true
+  },
+  "cnc_final_cut_clearances": {
+    "courtyard": {
+      "min_mm": 0.3168990037689851,
+      "nearest": {
+        "set": "S04",
+        "board": "PPG",
+        "ref": "C12"
+      },
+      "checked_count": 670
+    },
+    "pad_copper": {
+      "min_mm": 0.3516875073238627,
+      "nearest": {
+        "set": "S04",
+        "board": "PPG",
+        "ref": "J6.1"
+      },
+      "checked_count": 2330
+    },
+    "drill": {
+      "min_mm": 0.46778536244788793,
+      "nearest": {
+        "set": "S01",
+        "board": "PPG",
+        "ref": "e927e4ce-fa7a-44a4-90b6-ba1f6e9d6dce"
+      },
+      "checked_count": 1680
+    },
+    "track_via_copper": {
+      "min_mm": 0.3428936156811477,
+      "nearest": {
+        "set": "S08",
+        "board": "PPG",
+        "ref": "e927e4ce-fa7a-44a4-90b6-ba1f6e9d6dce"
+      },
+      "checked_count": 5260
+    }
+  },
+  "cnc_collisions": [],
+  "geometry_diagnostics": {
+    "invalid_input_contours_repaired": 2
+  },
+  "caveats": [
+    "This report uses the generated geometry, actual source copper/courtyard/drills and a 2 mm cylindrical cutter swept area. It does not model router spindle, collet, clamps, component height, cutting force or supplier machining tolerances.",
+    "The PPG carrier must be fixture-supported and CNC-depaneled; do not snap the solid tabs by hand.",
+    "Nominal source board outlines are preserved. Rounded cutters leave at most the explicit 0.0001 mm exterior offset allowance; final CAM must preserve completed board geometry and copper.",
+    "100 final path parts correspond to 90 tabs because the zero-degree PPG tab crosses the circular path coordinate seam and is stored as two path parts."
+  ],
+  "pass": true,
+  "native_carrier_features": [
+    {
+      "ref": "GH3",
+      "native_xy_mm": [
+        3.5,
+        5.0
+      ],
+      "array_xy_mm": [
+        3.5,
+        172.0
+      ],
+      "type": "NPTH",
+      "size_mm": [
+        3.0,
+        3.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "mask_margin_mm": null,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "FID_T2",
+      "native_xy_mm": [
+        147.0,
+        172.0
+      ],
+      "array_xy_mm": [
+        147.0,
+        5.0
+      ],
+      "type": "SMD",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ],
+      "mask_margin_mm": 1.0,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "FID_T1",
+      "native_xy_mm": [
+        10.0,
+        172.0
+      ],
+      "array_xy_mm": [
+        10.0,
+        5.0
+      ],
+      "type": "SMD",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ],
+      "mask_margin_mm": 1.0,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "GH1",
+      "native_xy_mm": [
+        3.5,
+        172.0
+      ],
+      "array_xy_mm": [
+        3.5,
+        5.0
+      ],
+      "type": "NPTH",
+      "size_mm": [
+        3.0,
+        3.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "mask_margin_mm": null,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "GH4",
+      "native_xy_mm": [
+        153.5,
+        5.0
+      ],
+      "array_xy_mm": [
+        153.5,
+        172.0
+      ],
+      "type": "NPTH",
+      "size_mm": [
+        3.0,
+        3.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "mask_margin_mm": null,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "FID_T3",
+      "native_xy_mm": [
+        10.0,
+        5.0
+      ],
+      "array_xy_mm": [
+        10.0,
+        172.0
+      ],
+      "type": "SMD",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ],
+      "mask_margin_mm": 1.0,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "GH2",
+      "native_xy_mm": [
+        153.5,
+        172.0
+      ],
+      "array_xy_mm": [
+        153.5,
+        5.0
+      ],
+      "type": "NPTH",
+      "size_mm": [
+        3.0,
+        3.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "mask_margin_mm": null,
+      "copper_layer": "TOP",
+      "paste": false
+    },
+    {
+      "ref": "FID_B2",
+      "native_xy_mm": [
+        147.0,
+        172.0
+      ],
+      "array_xy_mm": [
+        147.0,
+        5.0
+      ],
+      "type": "SMD",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ],
+      "mask_margin_mm": 1.0,
+      "copper_layer": "BOTTOM",
+      "paste": false
+    },
+    {
+      "ref": "FID_B3",
+      "native_xy_mm": [
+        10.0,
+        5.0
+      ],
+      "array_xy_mm": [
+        10.0,
+        172.0
+      ],
+      "type": "SMD",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ],
+      "mask_margin_mm": 1.0,
+      "copper_layer": "BOTTOM",
+      "paste": false
+    },
+    {
+      "ref": "FID_B1",
+      "native_xy_mm": [
+        10.0,
+        172.0
+      ],
+      "array_xy_mm": [
+        10.0,
+        5.0
+      ],
+      "type": "SMD",
+      "size_mm": [
+        1.0,
+        1.0
+      ],
+      "drill_mm": [
+        0.0,
+        0.0
+      ],
+      "mask_margin_mm": 1.0,
+      "copper_layer": "BOTTOM",
+      "paste": false
+    }
+  ],
+  "native_carrier_feature_count_check": true,
+  "final_silkscreen_revision_note": {
+    "change": "S01-S10 carrier silkscreen labels moved 1 mm left to clear routing slots.",
+    "geometry_geojson_hash_unchanged": true,
+    "native_carrier_hole_and_fiducial_properties_unchanged": true,
+    "source_pcb_hashes_still_unchanged": true,
+    "full_geometric_audit_repeated": false,
+    "reason": "Identical mechanical GeoJSON hash and matching native mechanical features; silkscreen placement does not alter the verified routes, tabs or unit boards."
+  }
+}

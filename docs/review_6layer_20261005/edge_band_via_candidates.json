@@ -1,0 +1,561 @@
+{
+  "assumptions": {
+    "ground_band_inner_radius_mm": 6.2,
+    "ground_band_outer_radius_mm": 6.45,
+    "via_diameter_mm": 0.5,
+    "via_drill_mm": 0.25,
+    "via_center_max_radius_mm": 5.75,
+    "geometry_clearance_mm": 0.15,
+    "pad_to_hole_clearance_mm": 0.2,
+    "scope": "Existing61 throughvias; static geometric availability only; reconnect tracks and final DRC required"
+  },
+  "violations": [
+    {
+      "id": "0f71382e-a019-4fb5-bc7b-7fee64d75cfb",
+      "net": "5V_LED",
+      "original_xy_mm": [
+        24.0901,
+        21.2901
+      ],
+      "original_radius_mm": 5.927383572875978,
+      "candidates": [
+        {
+          "xy_mm": [
+            23.6151,
+            19.4401
+          ],
+          "shift_mm": 1.9100065444914074,
+          "radius_mm": 4.361540555812821,
+          "exact_shape_nearest_other_copper": [
+            0.16869699999999999,
+            "c33002ba-72e9-4903-a5b8-f95c876b34fe",
+            "3V3"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.354057,
+            "U5.5"
+          ]
+        },
+        {
+          "xy_mm": [
+            23.7401,
+            19.2151
+          ],
+          "shift_mm": 2.104311051151896,
+          "radius_mm": 4.346839773904717
+        },
+        {
+          "xy_mm": [
+            23.4651,
+            19.2401
+          ],
+          "shift_mm": 2.14315771701478,
+          "radius_mm": 4.126132089499802
+        }
+      ]
+    },
+    {
+      "id": "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+      "net": "/SWDIO",
+      "original_xy_mm": [
+        18.9,
+        22.975
+      ],
+      "original_radius_mm": 6.075411508696347,
+      "candidates": []
+    },
+    {
+      "id": "2e176cd8-2052-4529-9700-3129214e3ec2",
+      "net": "3V3",
+      "original_xy_mm": [
+        23.0,
+        22.4
+      ],
+      "original_radius_mm": 6.177378084592199,
+      "candidates": [
+        {
+          "xy_mm": [
+            21.725,
+            20.025
+          ],
+          "shift_mm": 2.695598263836805,
+          "radius_mm": 3.482276554209903,
+          "exact_shape_nearest_other_copper": [
+            0.159619,
+            "ed8f56a5-a177-498f-9587-2f7458e194c2",
+            "/VREF"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.309138,
+            "U5.9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9d6d70f-6971-4717-9718-6e4aac90142a",
+      "net": "3V3",
+      "original_xy_mm": [
+        25.875,
+        15.45
+      ],
+      "original_radius_mm": 6.076028719484463,
+      "candidates": [
+        {
+          "xy_mm": [
+            24.525,
+            13.775
+          ],
+          "shift_mm": 2.1513077418165922,
+          "radius_mm": 5.5566401719024405,
+          "exact_shape_nearest_other_copper": [
+            0.165227,
+            "U3.6",
+            "/TXP_DRV"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.290227,
+            "U3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ef8e3fa7-4485-4c80-b99a-5568254184cd",
+      "net": "3V3",
+      "original_xy_mm": [
+        25.05,
+        13.55
+      ],
+      "original_radius_mm": 6.115962720618889,
+      "candidates": [
+        {
+          "xy_mm": [
+            24.525,
+            13.775
+          ],
+          "shift_mm": 0.5711829829397918,
+          "radius_mm": 5.5566401719024405,
+          "exact_shape_nearest_other_copper": [
+            0.165227,
+            "U3.6",
+            "/TXP_DRV"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.290227,
+            "U3.6"
+          ]
+        },
+        {
+          "xy_mm": [
+            22.625,
+            13.2
+          ],
+          "shift_mm": 2.450127547700324,
+          "radius_mm": 4.6185089585276335
+        }
+      ]
+    },
+    {
+      "id": "4cf3233c-7349-4255-b2e9-479cf0f44345",
+      "net": "/RXN",
+      "original_xy_mm": [
+        14.325,
+        19.05
+      ],
+      "original_radius_mm": 6.0339145668463035,
+      "candidates": [
+        {
+          "xy_mm": [
+            15.45,
+            20.3
+          ],
+          "shift_mm": 1.6817030058842137,
+          "radius_mm": 5.620720594372221,
+          "exact_shape_nearest_other_copper": [
+            0.32478399999999996,
+            "4535318e-1883-4a70-9d5c-d4eb095a55e1",
+            "12V"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.20532899999999998,
+            "J6.1"
+          ]
+        },
+        {
+          "xy_mm": [
+            16.225,
+            16.75
+          ],
+          "shift_mm": 2.9832867780352617,
+          "radius_mm": 3.783269089028692
+        }
+      ]
+    },
+    {
+      "id": "b8d55cc7-e473-47ab-98fa-35d239b150ea",
+      "net": "/RXN",
+      "original_xy_mm": [
+        14.15,
+        16.925
+      ],
+      "original_radius_mm": 5.850480749476918,
+      "candidates": [
+        {
+          "xy_mm": [
+            16.225,
+            16.75
+          ],
+          "shift_mm": 2.082366442295881,
+          "radius_mm": 3.783269089028692,
+          "exact_shape_nearest_other_copper": [
+            0.1577,
+            "D8.2",
+            "GND"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.2827,
+            "D8.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b398e2f8-c7d2-4f5e-b2a1-d7898cf59c9e",
+      "net": "/UART_TX",
+      "original_xy_mm": [
+        26.075,
+        16.55
+      ],
+      "original_radius_mm": 6.091643866806397,
+      "candidates": [
+        {
+          "xy_mm": [
+            23.825,
+            19.0
+          ],
+          "shift_mm": 3.326409475695979,
+          "radius_mm": 4.316320771212445,
+          "exact_shape_nearest_other_copper": [
+            0.15853,
+            "9a7f77fa-ae85-485f-a35a-16ef284f1b27",
+            "/TXP_DRV"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.592356,
+            "J4.1"
+          ]
+        },
+        {
+          "xy_mm": [
+            23.6,
+            18.875
+          ],
+          "shift_mm": 3.395769426801532,
+          "radius_mm": 4.059017738320444
+        }
+      ]
+    },
+    {
+      "id": "0a586513-a19a-41a3-9fb4-a63efdb30cf0",
+      "net": "/RXP_RCV",
+      "original_xy_mm": [
+        14.375,
+        15.425
+      ],
+      "original_radius_mm": 5.841339743586226,
+      "candidates": [
+        {
+          "xy_mm": [
+            16.225,
+            16.725
+          ],
+          "shift_mm": 2.261083810919004,
+          "radius_mm": 3.785003302508465,
+          "exact_shape_nearest_other_copper": [
+            0.157762,
+            "87fa530a-b213-4746-9ce7-74e7552ab61a",
+            "3V3"
+          ],
+          "exact_shape_nearest_pad_hole": [
+            0.3077,
+            "D8.2"
+          ]
+        }
+      ]
+    }
+  ],
+  "nonGND_tracks_intersecting_L1_to_L5_ring_clearance": [
+    {
+      "uuid": "3a0014a3-663f-4031-9818-6cf29b41bfd5",
+      "net": "5V_LED",
+      "layers": [
+        6
+      ],
+      "a_mm": [
+        24.0901,
+        21.2901
+      ],
+      "z_mm": [
+        23.705,
+        21.6752
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.015276191426512,
+      "GND_antipad_max_radius_mm": 6.215276191426512
+    },
+    {
+      "uuid": "faa4cb11-c293-421d-9b05-d7b97bbef935",
+      "net": "5V_LED",
+      "layers": [
+        6
+      ],
+      "a_mm": [
+        23.705,
+        21.6752
+      ],
+      "z_mm": [
+        20.4144,
+        21.6752
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.015276191426512,
+      "GND_antipad_max_radius_mm": 6.215276191426512
+    },
+    {
+      "uuid": "55e655a9-afe2-4cfd-bb40-d556eb2461f2",
+      "net": "/SWDIO",
+      "layers": [
+        0
+      ],
+      "a_mm": [
+        18.9,
+        22.975
+      ],
+      "z_mm": [
+        18.73,
+        21.85
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.125411508696347,
+      "GND_antipad_max_radius_mm": 6.325411508696347
+    },
+    {
+      "uuid": "962948d5-bbee-452b-a93b-a0ebdd5c16c0",
+      "net": "/SWDIO",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        19.05,
+        22.4
+      ],
+      "z_mm": [
+        18.9,
+        22.975
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.125411508696347,
+      "GND_antipad_max_radius_mm": 6.325411508696347
+    },
+    {
+      "uuid": "5f9920e6-4524-4932-8100-24ea72318c75",
+      "net": "3V3",
+      "layers": [
+        0
+      ],
+      "a_mm": [
+        23.0,
+        22.4
+      ],
+      "z_mm": [
+        22.54,
+        21.85
+      ],
+      "width_mm": 0.2,
+      "copper_max_radius_mm": 6.277378084592199,
+      "GND_antipad_max_radius_mm": 6.477378084592199
+    },
+    {
+      "uuid": "1d4aa4cf-cbf0-4da7-a289-a61395356dec",
+      "net": "3V3",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        25.75,
+        15.7
+      ],
+      "z_mm": [
+        25.775,
+        15.675
+      ],
+      "width_mm": 0.4,
+      "copper_max_radius_mm": 6.125052742381285,
+      "GND_antipad_max_radius_mm": 6.325052742381285
+    },
+    {
+      "uuid": "4be98aab-861e-4e59-bdf8-4e8300f024a8",
+      "net": "3V3",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        23.1,
+        22.175
+      ],
+      "z_mm": [
+        23.875,
+        20.15
+      ],
+      "width_mm": 0.4,
+      "copper_max_radius_mm": 6.232464256006828,
+      "GND_antipad_max_radius_mm": 6.432464256006829
+    },
+    {
+      "uuid": "ba17ff70-7cc8-4aa4-b774-761939f77413",
+      "net": "3V3",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        24.35,
+        19.425
+      ],
+      "z_mm": [
+        25.75,
+        15.7
+      ],
+      "width_mm": 0.4,
+      "copper_max_radius_mm": 6.0951251046945565,
+      "GND_antipad_max_radius_mm": 6.295125104694557
+    },
+    {
+      "uuid": "c72f4aaf-a4c5-4abf-b86e-deefe6c70d42",
+      "net": "3V3",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        24.45,
+        14.425
+      ],
+      "z_mm": [
+        24.95,
+        13.775
+      ],
+      "width_mm": 0.4,
+      "copper_max_radius_mm": 6.107886677992393,
+      "GND_antipad_max_radius_mm": 6.307886677992393
+    },
+    {
+      "uuid": "136f199c-5ea8-4241-9a7a-85135614ced2",
+      "net": "/RXN",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        14.225,
+        18.825
+      ],
+      "z_mm": [
+        14.225,
+        17.15
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.106504767603176,
+      "GND_antipad_max_radius_mm": 6.306504767603176
+    },
+    {
+      "uuid": "b6073a18-785d-4bfa-b0c2-c485b8848fe6",
+      "net": "/UART_TX",
+      "layers": [
+        6
+      ],
+      "a_mm": [
+        25.975,
+        16.775
+      ],
+      "z_mm": [
+        24.525,
+        18.225
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.029234900888241,
+      "GND_antipad_max_radius_mm": 6.229234900888241
+    },
+    {
+      "uuid": "53d8b510-7575-49a0-bdc9-26483faf3193",
+      "net": "/RXP_RCV",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        14.7,
+        13.55
+      ],
+      "z_mm": [
+        15.325,
+        12.95
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.373962365479415,
+      "GND_antipad_max_radius_mm": 6.5739623654794155
+    },
+    {
+      "uuid": "7c297369-5c69-4270-8740-7e956ef467c1",
+      "net": "/RXP_RCV",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        14.675,
+        14.9
+      ],
+      "z_mm": [
+        14.7,
+        13.55
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.373962365479415,
+      "GND_antipad_max_radius_mm": 6.5739623654794155
+    },
+    {
+      "uuid": "9ce4aeef-d204-4732-81d2-26cea316d785",
+      "net": "/RXP_RCV",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        15.425,
+        12.9
+      ],
+      "z_mm": [
+        15.825,
+        12.9
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.193339889669136,
+      "GND_antipad_max_radius_mm": 6.393339889669136
+    },
+    {
+      "uuid": "d2788d1e-7df8-4fc9-be33-17192de00fde",
+      "net": "/RXP_RCV",
+      "layers": [
+        8
+      ],
+      "a_mm": [
+        15.325,
+        12.95
+      ],
+      "z_mm": [
+        15.425,
+        12.9
+      ],
+      "width_mm": 0.1,
+      "copper_max_radius_mm": 6.2353152708653425,
+      "GND_antipad_max_radius_mm": 6.435315270865343
+    }
+  ],
+  "note": "Candidate positions are individually checked against original geometry, not jointly selected; duplicate suggested coordinates cannot hold two vias. Existing attached tracks must be rerouted; whole-board DRC and copper-band continuity measurement remain required."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "PPG_UART_1plus1_Gerber_Drill_20261009.zip",
+    "bytes": 674965,
+    "sha256": "65bde617f39cd2d1afd466eb5cfc255f7e11035016a6e06e5b8764722b47242d",
+    "entries": 24,
+    "crc_check": "PASS",
+    "contents_hash_check": "PASS"
+  },
+  {
+    "file": "PPG_Unit_Gerber_Drill_20261009.zip",
+    "bytes": 112069,
+    "sha256": "9c632427b2f171cd49ee260b01fa830b50379c7a4fa9614f1797edb4d7cdef86",
+    "entries": 16,
+    "crc_check": "PASS",
+    "contents_hash_check": "PASS"
+  },
+  {
+    "file": "UART_Unit_Gerber_Drill_20261009.zip",
+    "bytes": 83243,
+    "sha256": "ea3614a2aa98bac2492b635172ab8ae681f57c398f8334d8db824aa545fd9efb",
+    "entries": 16,
+    "crc_check": "PASS",
+    "contents_hash_check": "PASS"
+  }
+]

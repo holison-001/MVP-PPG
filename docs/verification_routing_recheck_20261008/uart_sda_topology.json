@@ -1,0 +1,139 @@
+{
+  "board_sha256": "5c56fd812b7731454b473263236c5e6cdbb83d56181a3880a614fd235b8c4d0f",
+  "read_only": true,
+  "reports": [
+    {
+      "net": "/UART_TX",
+      "track_objects": 10,
+      "via_count": 2,
+      "pin_names": [
+        "R4.1",
+        "U2.14",
+        "U3.1"
+      ],
+      "connected_components_endpoint_graph": 1,
+      "cycle_rank": 0,
+      "dangling_non_pin_endpoints": [],
+      "intentional_pin_endpoints": [
+        {
+          "node": [
+            "B.Cu",
+            [
+              22.92,
+              16.9
+            ]
+          ],
+          "pins": [
+            "R4.1"
+          ]
+        },
+        {
+          "node": [
+            "B.Cu",
+            [
+              18.8419,
+              15.9749
+            ]
+          ],
+          "pins": [
+            "U2.14"
+          ]
+        },
+        {
+          "node": [
+            "B.Cu",
+            [
+              22.823223,
+              15.42028
+            ]
+          ],
+          "pins": [
+            "U3.1"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "node": [
+            "VIA",
+            "af833d76-5227-4dab-a576-9262a5b0c496"
+          ],
+          "degree": 3
+        }
+      ],
+      "planar_length_mm": 8.68852097125933,
+      "by_layer_mm": {
+        "B.Cu": 3.313647237106413,
+        "In2.Cu": 5.374873734152916
+      },
+      "topology_result": "Tree joining all3pins; pull-up branch intentional, no dangling copper tail or closed loop"
+    },
+    {
+      "net": "/SDA",
+      "track_objects": 7,
+      "via_count": 2,
+      "pin_names": [
+        "R1.1",
+        "U1.1",
+        "U2.19"
+      ],
+      "connected_components_endpoint_graph": 1,
+      "cycle_rank": 0,
+      "dangling_non_pin_endpoints": [],
+      "intentional_pin_endpoints": [
+        {
+          "node": [
+            "F.Cu",
+            [
+              19.05,
+              15.2
+            ]
+          ],
+          "pins": [
+            "U1.1"
+          ]
+        },
+        {
+          "node": [
+            "B.Cu",
+            [
+              20.88,
+              17.6
+            ]
+          ],
+          "pins": [
+            "R1.1"
+          ]
+        },
+        {
+          "node": [
+            "B.Cu",
+            [
+              19.6419,
+              17.7749
+            ]
+          ],
+          "pins": [
+            "U2.19"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "node": [
+            "VIA",
+            "00bb8397-337b-43ed-9226-27288760dcc5"
+          ],
+          "degree": 3
+        }
+      ],
+      "planar_length_mm": 6.3894712585246785,
+      "by_layer_mm": {
+        "F.Cu": 1.1011357772772619,
+        "B.Cu": 1.2610491205097916,
+        "In3.Cu": 4.027286360737625
+      },
+      "topology_result": "Tree joining all3pins; pull-up branch intentional, no dangling copper tail or closed loop"
+    }
+  ]
+}

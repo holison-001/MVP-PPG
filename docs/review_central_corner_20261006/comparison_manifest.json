@@ -1,0 +1,22 @@
+{
+  "boards": [
+    {
+      "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\central_corner_review_20261006\\before\\kicad\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "9a20272bce551736dd36ffd91ece1cbf10b4da316c59067ebb4d4ec9ea205e0e",
+      "L4_3V3_length_mm": 28.11607356472143,
+      "L4_3V3_segments": 36,
+      "L4_GND_area_mm2": 70.691072571479,
+      "L4_arc_count": 20
+    },
+    {
+      "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\central_corner_review_20261006\\routing\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "d31a87e7ca3bec457658657d579a00a1d0a14226ededab17be3ef085d721ba52",
+      "L4_3V3_length_mm": 27.439549166733038,
+      "L4_3V3_segments": 35,
+      "L4_GND_area_mm2": 71.7089811518045,
+      "L4_arc_count": 21
+    }
+  ],
+  "svg_sha256": "b169ad7badbe095c0b4e0b8932745cd3e46fe82526e7bd9e0d4bb3dec68d0310",
+  "png_sha256": "42ae39c5df723fe7dd3e98929ced211f6c8e9db938588bbe6b2236e1e00f9dc8"
+}

@@ -1,0 +1,38 @@
+{
+  "source_sha256": "a019d13a18487309ad854e89a3e2856128da6da8a5a3ad56acd36ffb9b8c97b4",
+  "canonical_sha256": "b397c72e3ba9275c58eccc9b854cc602f6b2ea16302c17b6da636f57b90675ac",
+  "backup": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\backups\\20261008_before_C17_addition\\kicad_before_reroute.zip",
+  "backup_sha256": "c02f015cbfd1955e2c5906baaaacf694bf19fc632d333abeb08aa9c7fed8835b",
+  "added_ref": "C17",
+  "value": "100nF",
+  "footprint": "Capacitor_SMD:C_0201_0603Metric",
+  "position_mm": [
+    20.75,
+    19.655
+  ],
+  "angle": -90.0,
+  "layer": "B.Cu",
+  "pin_nets": {
+    "1": "5V_LED",
+    "2": "GND"
+  },
+  "checks": "PASS",
+  "drc_errors": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "prior_warnings": 5,
+  "before_metrics": {
+    "via_count": 66,
+    "net_length_mm": {
+      "5V_LED": 9.35057329867888,
+      "GND": 24.43106200755631
+    }
+  },
+  "after_metrics": {
+    "via_count": 66,
+    "net_length_mm": {
+      "5V_LED": 9.705741580681932,
+      "GND": 25.494668491062654
+    }
+  }
+}

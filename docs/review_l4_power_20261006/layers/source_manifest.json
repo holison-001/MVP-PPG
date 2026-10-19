@@ -1,0 +1,60 @@
+{
+  "source_board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "3978af66433edf39972056465ec87a712339e6beff50f82e82f3de54fd9c657c",
+  "tool": "KiCad 10 SVG export; six native plots combined; sharp rasterization",
+  "purpose": "Read-only six-layer PCB review after top ESD relocation and two 3V3 decoupling capacitors",
+  "layers": [
+    {
+      "file": "01_top.svg",
+      "layers": "F.Cu,F.Mask,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 33.387192432267916,
+      "GND_fill_area_mm2": 94.5717287719435,
+      "sha256": "f8bb58580cc92ff9eda222fe491c8ae18162df09d6771353076e3deab3ba63c1"
+    },
+    {
+      "file": "02_ground.svg",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 0,
+      "GND_fill_area_mm2": 103.9323623274655,
+      "sha256": "9f0aa4c5cbd9444a9b3b16bccb8356ef7e0ed08e30d5768f5b90e2e02c2a8799"
+    },
+    {
+      "file": "03_signal.svg",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 37.80165237647684,
+      "GND_fill_area_mm2": 89.5128541164975,
+      "sha256": "901b35d05983d04c91c8766adc836a4f9caf65c2f2fe97d2fef3cc30e1f99fe4"
+    },
+    {
+      "file": "04_power.svg",
+      "layers": "In3.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 54.45943720916229,
+      "GND_fill_area_mm2": 70.6488502349905,
+      "sha256": "dc7a7f2b7707ab699d24450d53ec486c61ace1d89c020d6653fcbf4c3dfb8ce7"
+    },
+    {
+      "file": "05_ground.svg",
+      "layers": "In4.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 5.929871360768511,
+      "GND_fill_area_mm2": 101.500311417818,
+      "sha256": "2f070cbcd7de0a6afc258cd54654375c4e07ce497421d9b9c4334496ae60ace5"
+    },
+    {
+      "file": "06_bottom.svg",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 68.10732330567969,
+      "GND_fill_area_mm2": 51.0507991190275,
+      "sha256": "c8bb10db13e4df858e0db49d8fff92f3d116f55a8071982064aaeeef8152fda7"
+    }
+  ],
+  "overview": {
+    "six_layers.svg": "c34bfea26410417b315356b60467d2af9229294e32ed366714ceed9dd9d68b6e",
+    "six_layers.png": "f85a04a103cba8b1e4c174de3fff467f3e138197fdfa35124d1bc9cf2969b0cc"
+  }
+}

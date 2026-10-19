@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="825" viewBox="0 0 1240 825">
+<rect width="1240" height="825" fill="#f7fafc"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#153047">
+<text x="44" y="44" font-size="26" font-weight="bold">PPG 1개 + UART 1개 · 제조사 CAM 연배열용</text>
+<text x="44" y="76" font-size="16">공통 좌표: mm / 위에서 본 방향 / X →, Y ↑ / 두 보드 회전 0°</text>
+<rect x="72" y="140" width="1099.0" height="490" rx="4" fill="none" stroke="#98a5b4" stroke-width="2" stroke-dasharray="10 7"/>
+<rect x="142" y="210" width="728" height="350" fill="#dcefe8" stroke="#1f6e57" stroke-width="2"/>
+<circle cx="1006.5" cy="385.0" r="94.5" fill="#e4edf9" stroke="#356b9b" stroke-width="2"/>
+<circle cx="233.0" cy="301.0" r="77.0" fill="none" stroke="#a7beb3" stroke-dasharray="5 5"/>
+<circle cx="233.0" cy="301.0" r="21.0" fill="#f7fafc" stroke="#1f6e57"/>
+<circle cx="779.0" cy="301.0" r="77.0" fill="none" stroke="#a7beb3" stroke-dasharray="5 5"/>
+<circle cx="779.0" cy="301.0" r="21.0" fill="#f7fafc" stroke="#1f6e57"/>
+<circle cx="233.0" cy="469.0" r="77.0" fill="none" stroke="#a7beb3" stroke-dasharray="5 5"/>
+<circle cx="233.0" cy="469.0" r="21.0" fill="#f7fafc" stroke="#1f6e57"/>
+<circle cx="779.0" cy="469.0" r="77.0" fill="none" stroke="#a7beb3" stroke-dasharray="5 5"/>
+<circle cx="779.0" cy="469.0" r="21.0" fill="#f7fafc" stroke="#1f6e57"/>
+<text x="506" y="364" font-size="23" text-anchor="middle" font-weight="bold">UART 52 × 25 mm</text>
+<text x="506" y="406" font-size="16" text-anchor="middle">좌하단 (5, 5)</text>
+<text x="1006.5" y="378" font-size="20" text-anchor="middle" font-weight="bold">PPG Ø13.5</text>
+<text x="1006.5" y="413.0" font-size="13" text-anchor="middle">중심 (66.75, 17.5)</text>
+<path d="M 870 385.0 H 912" stroke="#c27221" stroke-width="2"/>
+<text x="891.0" y="350" font-size="13" text-anchor="middle">3 mm</text>
+<circle cx="72" cy="630" r="4" fill="#c27221"/>
+<text x="57" y="656" font-size="14">(0, 0)</text>
+<text x="621.5" y="175.0" text-anchor="middle" font-size="15" fill="#647589">점선 78.5 × 35 mm = 5 mm 가이드 여유 제안 · 실제 거버에 없음</text>
+<text x="44" y="699" font-size="18" font-weight="bold">실제 거버: 완성 외곽 2개 / 보드 영역 합계 경계 68.5 × 25 mm</text>
+<text x="44" y="733" font-size="16">제조사 CAM에서 지지 탭·가이드바·툴링·분리 가공 확정 필요. 완성 SMT 패널이 아닙니다.</text>
+<text x="44" y="762" font-size="16">PPG 외곽 GND 보존: 완성 외곽선 위 분리 타공 금지. 좌표 이동·회전 시 실장 좌표 재생성.</text>
+<text x="44" y="791" font-size="14" fill="#647589">6층 / 공칭 0.8 mm / PTH Ø0.25 × 164 / NPTH Ø3.0 × 4 / 2026-10-09</text>
+</g></svg>

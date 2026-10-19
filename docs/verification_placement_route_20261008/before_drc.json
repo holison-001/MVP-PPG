@@ -1,0 +1,744 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-08T14:25:36",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "배선 [/SDA] on In4.Cu, 길이 1.7949 mm",
+                    "pos": {
+                        "x": 19.476679,
+                        "y": 16.143412
+                    },
+                    "uuid": "64d27e6e-2d9e-40e5-9a27-1506f3bf2154"
+                },
+                {
+                    "description": "패드 1 [/SDA]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 17.6
+                    },
+                    "uuid": "254b7f83-d208-48e4-9a57-b9ec87f1ec32"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "패드 1 [/SCL]의 R2 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.9
+                    },
+                    "uuid": "18df9806-b624-424c-a81d-4d78c000f673"
+                },
+                {
+                    "description": "배선 [/SCL] on B.Cu, 길이 0.4311 mm",
+                    "pos": {
+                        "x": 20.159023,
+                        "y": 17.08121
+                    },
+                    "uuid": "830e4902-1fe9-4c9e-8c18-e3fb0c0c16ce"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "패드 2 [GND]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.2
+                    },
+                    "uuid": "26f824d8-7b83-4d5d-8303-cf6c3c97fec4"
+                },
+                {
+                    "description": "패드 11 [GND]의 U1 위F.Cu",
+                    "pos": {
+                        "x": 20.95,
+                        "y": 17.0
+                    },
+                    "uuid": "8db4e49c-5ba4-4207-b60c-b03ca2306d49"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.5111 mm",
+                    "pos": {
+                        "x": 20.95,
+                        "y": 16.4
+                    },
+                    "uuid": "3cc21f5f-faa1-4225-aab7-b0445b855846"
+                },
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "패드 2 [3V3]의 R2 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.9
+                    },
+                    "uuid": "a4e566bb-a98d-4345-95e8-5b8ca66b9ecf"
+                },
+                {
+                    "description": "패드 2 [3V3]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 17.6
+                    },
+                    "uuid": "b51b9f44-ce87-4bbf-8793-d0b21996270d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 /SCL 와 /SDA)",
+            "items": [
+                {
+                    "description": "패드 1 [/SCL]의 R2 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.9
+                    },
+                    "uuid": "18df9806-b624-424c-a81d-4d78c000f673"
+                },
+                {
+                    "description": "배선 [/SDA] on B.Cu, 길이 1.0743 mm",
+                    "pos": {
+                        "x": 20.157026,
+                        "y": 17.594635
+                    },
+                    "uuid": "9a71d37f-36b5-4f4f-b9dd-eaf8c80719e2"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 3V3 와 /VREF)",
+            "items": [
+                {
+                    "description": "배선 [3V3] on B.Cu, 길이 0.7500 mm",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.05
+                    },
+                    "uuid": "8598fdcc-4b7e-49af-939b-9cf90955ab07"
+                },
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 3V3 와 /VREF)",
+            "items": [
+                {
+                    "description": "배선 [3V3] on B.Cu, 길이 0.3936 mm",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.05
+                    },
+                    "uuid": "020d009d-ed34-43bf-af43-fa29d474ba95"
+                },
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 /VREF 와 3V3)",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on B.Cu, 길이 0.3800 mm",
+                    "pos": {
+                        "x": 21.72,
+                        "y": 17.55
+                    },
+                    "uuid": "3c90c8ff-83a3-46fe-9d57-9d1e3035dd7a"
+                },
+                {
+                    "description": "패드 2 [3V3]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 17.6
+                    },
+                    "uuid": "b51b9f44-ce87-4bbf-8793-d0b21996270d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 /SDA 와 GND)",
+            "items": [
+                {
+                    "description": "패드 1 [/SDA]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 17.6
+                    },
+                    "uuid": "254b7f83-d208-48e4-9a57-b9ec87f1ec32"
+                },
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 1.7815 mm",
+                    "pos": {
+                        "x": 21.08,
+                        "y": 17.55
+                    },
+                    "uuid": "c3db8e8e-c6c7-4d93-865e-c34bc23d511d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0531 mm)",
+            "items": [
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.7,
+                        "y": 15.7
+                    },
+                    "uuid": "ed4430be-450c-4511-bce9-22477de8b18a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1000 mm)",
+            "items": [
+                {
+                    "description": "패드 2 [3V3]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 17.6
+                    },
+                    "uuid": "b51b9f44-ce87-4bbf-8793-d0b21996270d"
+                },
+                {
+                    "description": "비아 [/VREF] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.1,
+                        "y": 17.55
+                    },
+                    "uuid": "c12967cf-a15b-40fc-863a-f7b6da96caef"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 GND 와 /SCL)",
+            "items": [
+                {
+                    "description": "패드 2 [GND]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.2
+                    },
+                    "uuid": "26f824d8-7b83-4d5d-8303-cf6c3c97fec4"
+                },
+                {
+                    "description": "배선 [/SCL] on B.Cu, 길이 0.5979 mm",
+                    "pos": {
+                        "x": 20.481002,
+                        "y": 16.495311
+                    },
+                    "uuid": "b0d104f8-dd14-4f7e-8f18-a35f5b628a50"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "홀 공간거리 위반 (기판의 홀 제약조건 설정 공간거리 0.2000 mm; 실제값 0.1781 mm)",
+            "items": [
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.7,
+                        "y": 15.7
+                    },
+                    "uuid": "ed4430be-450c-4511-bce9-22477de8b18a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "패드 1 [/SDA]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 17.6
+                    },
+                    "uuid": "254b7f83-d208-48e4-9a57-b9ec87f1ec32"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "패드 2 [3V3]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 17.6
+                    },
+                    "uuid": "b51b9f44-ce87-4bbf-8793-d0b21996270d"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0505 mm)",
+            "items": [
+                {
+                    "description": "패드 1 [/SCL]의 R2 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.9
+                    },
+                    "uuid": "18df9806-b624-424c-a81d-4d78c000f673"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0524 mm)",
+            "items": [
+                {
+                    "description": "패드 2 [3V3]의 R2 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.9
+                    },
+                    "uuid": "a4e566bb-a98d-4345-95e8-5b8ca66b9ecf"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [/SDA] on B.Cu, 길이 1.0743 mm",
+                    "pos": {
+                        "x": 20.157026,
+                        "y": 17.594635
+                    },
+                    "uuid": "9a71d37f-36b5-4f4f-b9dd-eaf8c80719e2"
+                },
+                {
+                    "description": "패드 1 [/SCL]의 R2 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.9
+                    },
+                    "uuid": "18df9806-b624-424c-a81d-4d78c000f673"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 1.7815 mm",
+                    "pos": {
+                        "x": 21.08,
+                        "y": 17.55
+                    },
+                    "uuid": "c3db8e8e-c6c7-4d93-865e-c34bc23d511d"
+                },
+                {
+                    "description": "패드 1 [/SDA]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 17.6
+                    },
+                    "uuid": "254b7f83-d208-48e4-9a57-b9ec87f1ec32"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [3V3] on B.Cu, 길이 0.3936 mm",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.05
+                    },
+                    "uuid": "020d009d-ed34-43bf-af43-fa29d474ba95"
+                },
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [3V3] on B.Cu, 길이 0.7500 mm",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.05
+                    },
+                    "uuid": "8598fdcc-4b7e-49af-939b-9cf90955ab07"
+                },
+                {
+                    "description": "패드 1 [/VREF]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 16.2
+                    },
+                    "uuid": "8b9697a4-49a7-452c-9cd7-ae5aa85e8bf3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on B.Cu, 길이 0.3800 mm",
+                    "pos": {
+                        "x": 21.72,
+                        "y": 17.55
+                    },
+                    "uuid": "3c90c8ff-83a3-46fe-9d57-9d1e3035dd7a"
+                },
+                {
+                    "description": "패드 2 [3V3]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 17.6
+                    },
+                    "uuid": "b51b9f44-ce87-4bbf-8793-d0b21996270d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "패드 1 [/SDA]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 17.6
+                    },
+                    "uuid": "254b7f83-d208-48e4-9a57-b9ec87f1ec32"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "패드 2 [3V3]의 R1 위B.Cu",
+                    "pos": {
+                        "x": 21.52,
+                        "y": 17.6
+                    },
+                    "uuid": "b51b9f44-ce87-4bbf-8793-d0b21996270d"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [/SCL] on B.Cu, 길이 0.5979 mm",
+                    "pos": {
+                        "x": 20.481002,
+                        "y": 16.495311
+                    },
+                    "uuid": "b0d104f8-dd14-4f7e-8f18-a35f5b628a50"
+                },
+                {
+                    "description": "패드 2 [GND]의 C5 위B.Cu",
+                    "pos": {
+                        "x": 20.88,
+                        "y": 16.2
+                    },
+                    "uuid": "26f824d8-7b83-4d5d-8303-cf6c3c97fec4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 22.6789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 23.1539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 22.802478,
+                        "y": 22.722255
+                    },
+                    "uuid": "8f36f2e8-f175-4236-970d-4543a11a4723"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.138353,
+                        "y": 23.05813
+                    },
+                    "uuid": "7d01be0c-4214-42f6-a54a-d7168f1ec9f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 U2",
+                    "pos": {
+                        "x": 18.3419,
+                        "y": 17.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

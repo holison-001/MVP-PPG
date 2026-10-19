@@ -1,0 +1,1557 @@
+{
+  "source_sha256": "9652b7b1164ccead4dacc62d317b6ae81d2e8e52d7f4dde8c77a3d00c1973070",
+  "remove_ids": [
+    "036dbb4d-16b0-41e4-a1c4-e40518b9ab20",
+    "08c101f7-2db7-4864-a31b-634706de512e",
+    "0e489f48-e171-4790-a5bc-fec0986a452f",
+    "0fbe1e23-3853-4591-aa48-c64ae1add018",
+    "2162b53a-e6c3-4a55-af21-7be501ee0535",
+    "23cc2de1-0c8a-49f8-a615-5571e86a65c9",
+    "36ad4f02-aa6e-4c91-8630-8d4d17f41306",
+    "404f699e-7f3f-4d67-80f5-8d0d7d2f52e3",
+    "41d23e8a-4106-4d6c-8a7f-42f5d851f5df",
+    "4c0a641d-f105-48fe-b2df-d1429c15210a",
+    "5fd0e3ac-536c-4681-9bd5-15f998639e96",
+    "66dd110f-918f-4dc4-a036-0c4ab0b4f4d3",
+    "6ab5eccd-fcb8-4c64-9e23-26ccb5daa889",
+    "6ed0fa52-a320-4816-8581-18bf513a6d83",
+    "74cf1bed-6660-4e38-971c-fbd1447f69a8",
+    "77e292f7-6a60-4e4c-b9ae-392098ad3199",
+    "82baf15b-631b-47d4-81b4-4a04007162cf",
+    "936acf2c-f71a-44ef-b4a1-edb7c4d49af4",
+    "9db66b8f-bcae-4be4-8808-3a4e4e80f3e9",
+    "a840646c-9adc-41f8-9794-418d432692e7",
+    "a92c216a-a0f2-45b1-ab76-ad7b597d7d26",
+    "b3e7c787-999a-457f-bb39-b396a551bc23",
+    "b7b02573-592f-44d4-a540-20a6c9944001",
+    "c097991d-e210-4f23-83e2-46a80d09825d",
+    "c3545932-bab1-4bd0-8fe1-bd6624ba2c9d",
+    "c9729755-28ba-4de7-a7a0-c09acc09ba47",
+    "c994d352-3c45-43ba-b4c1-46627d003ca6",
+    "d073d9ca-3f99-44fd-9a30-76f7dadf826a",
+    "d4f02a1d-e26a-429f-a15b-241369a7eade",
+    "db0a4665-777d-44f3-9f1f-5e6ba4b194a9",
+    "dd2544b0-1e3b-4f48-9964-ba186be4d742",
+    "f1f160f8-6bdf-4799-bcb3-6ba203568f1d",
+    "fa8bb7b5-58f9-4965-8fa1-1665d709cbb7",
+    "24b5dabf-d269-4a44-965b-8eeab0bd965a",
+    "2ddeda1f-7683-4e6d-b015-3e1c04a9c2ef",
+    "6477e631-c746-4bb1-b4c0-93bdd405f0d2",
+    "7d536645-e002-4f24-acca-0ba2a4fea913",
+    "97125c19-c0fb-4f37-8e2c-78c1459911c4",
+    "9f2bf6f1-0260-436d-8ae7-f33e4fcd484b",
+    "ab8cb819-1adc-44d4-92c1-856d4e21587f",
+    "c9ca5229-800e-4e55-bd81-afe4f42d598e",
+    "ea7dec4c-b89b-4c89-bef8-77d745f54e7e",
+    "eaeb42db-4b41-41d9-a920-37f8da37a0c1",
+    "ef9dac65-4918-4a7f-865b-d173277a49c9",
+    "fbaa2cd6-a9c5-4c15-94d5-22264f56d480",
+    "c33002ba-72e9-4903-a5b8-f95c876b34fe",
+    "5ccae0a6-8381-41d8-a77f-6d0f21f468b0",
+    "0295f3ae-3e8e-4fb1-a11a-92157af0c702",
+    "9682bb61-c076-48b7-8c58-5373228f4ea5",
+    "9c7fba0d-6f8a-4ba2-98df-4ef105445ce2",
+    "713b0e90-d06a-4a62-906a-fe422b869c31",
+    "887d1304-2304-4b30-b527-057747936626",
+    "8c1b8afa-a67f-4432-b594-69c5453394ca",
+    "1f66862d-2732-41a9-abe6-ec55737d842c",
+    "89369d28-1e31-432e-bdcd-46e1ad489ac9",
+    "b82cd1fd-b578-4ce7-936a-b3d581abebe3"
+  ],
+  "new_items": [
+    {
+      "name": "SOURCE_3V3",
+      "kind": "PCB_VIA",
+      "net": "3V3",
+      "position": [
+        23.9,
+        19.4
+      ],
+      "diameter": 0.5,
+      "drill": 0.25
+    },
+    {
+      "name": "C14_POWER_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        24.173726,
+        19.673726
+      ],
+      "end": [
+        23.9,
+        19.4
+      ],
+      "length_mm": 0.3871070215741377
+    },
+    {
+      "name": "VOUT_SOURCE_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        22.91915,
+        19.93979
+      ],
+      "end": [
+        23.379023,
+        19.619256
+      ],
+      "length_mm": 0.5605579553311153
+    },
+    {
+      "name": "VOUT_SOURCE_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        23.437859,
+        19.587348
+      ],
+      "end": [
+        23.9,
+        19.4
+      ],
+      "length_mm": 0.4986718129040372
+    },
+    {
+      "name": "VOUT_SOURCE_arc1",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        23.379023,
+        19.619256
+      ],
+      "mid": [
+        23.407548,
+        19.601656
+      ],
+      "end": [
+        23.437859,
+        19.587348
+      ],
+      "radius": 0.29996052551127456,
+      "center": [
+        23.5506,
+        19.8653
+      ],
+      "length_mm": 0.06707249111977258
+    },
+    {
+      "name": "J11_SOURCE_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 0,
+      "width": 0.2,
+      "start": [
+        22.54,
+        21.85
+      ],
+      "end": [
+        23.9,
+        19.4
+      ],
+      "length_mm": 2.802159881234476
+    },
+    {
+      "name": "C14_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        24.626274,
+        20.126274
+      ],
+      "end": [
+        25.1,
+        20.15
+      ],
+      "length_mm": 0.47431977204413756
+    },
+    {
+      "name": "SOURCE_PULLUP_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        23.9,
+        19.4
+      ],
+      "end": [
+        22.676104,
+        18.591991
+      ],
+      "length_mm": 1.466560589575827
+    },
+    {
+      "name": "SOURCE_PULLUP_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        22.568793,
+        18.487562
+      ],
+      "end": [
+        22.459111,
+        18.330873
+      ],
+      "length_mm": 0.19126312724882413
+    },
+    {
+      "name": "SOURCE_PULLUP_2",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        22.422035,
+        18.265634
+      ],
+      "end": [
+        22.1,
+        17.55
+      ],
+      "length_mm": 0.7847538232981072
+    },
+    {
+      "name": "SOURCE_PULLUP_arc1",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        22.676104,
+        18.591991
+      ],
+      "mid": [
+        22.617519,
+        18.544843
+      ],
+      "end": [
+        22.568793,
+        18.487562
+      ],
+      "radius": 0.39998853545695534,
+      "center": [
+        22.8965,
+        18.2582
+      ],
+      "length_mm": 0.1506231723518943
+    },
+    {
+      "name": "SOURCE_PULLUP_arc2",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        22.459111,
+        18.330873
+      ],
+      "mid": [
+        22.43904,
+        18.299125
+      ],
+      "end": [
+        22.422035,
+        18.265634
+      ],
+      "radius": 0.39999006718917407,
+      "center": [
+        22.7868,
+        18.1015
+      ],
+      "length_mm": 0.07514867750214035
+    },
+    {
+      "name": "SOURCE_C11_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        23.9,
+        19.4
+      ],
+      "end": [
+        21.9484,
+        20.6
+      ],
+      "length_mm": 2.2910134351417506
+    },
+    {
+      "name": "SOURCE_C11_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        21.9484,
+        20.6
+      ],
+      "end": [
+        21.6984,
+        20.6375
+      ],
+      "length_mm": 0.2527968552019582
+    },
+    {
+      "name": "SOURCE_C11_2",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        21.6984,
+        20.6375
+      ],
+      "end": [
+        21.528779,
+        20.599807
+      ],
+      "length_mm": 0.17375858508286676
+    },
+    {
+      "name": "SOURCE_C11_3",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        21.423627,
+        20.56028
+      ],
+      "end": [
+        20.6734,
+        20.15
+      ],
+      "length_mm": 0.8550849255652906
+    },
+    {
+      "name": "SOURCE_C11_arc3",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        21.528779,
+        20.599807
+      ],
+      "mid": [
+        21.474808,
+        20.583753
+      ],
+      "end": [
+        21.423627,
+        20.56028
+      ],
+      "radius": 0.40004200165732595,
+      "center": [
+        21.6156,
+        20.2093
+      ],
+      "length_mm": 0.11270694074171737
+    },
+    {
+      "name": "SOURCE_C16_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        23.9,
+        19.4
+      ],
+      "end": [
+        24.675,
+        18.225
+      ],
+      "length_mm": 1.4075688260259236
+    },
+    {
+      "name": "SOURCE_C16_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.675,
+        18.225
+      ],
+      "end": [
+        24.709078,
+        17.986456
+      ],
+      "length_mm": 0.24096586899393144
+    },
+    {
+      "name": "SOURCE_C16_2",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.713009,
+        17.938306
+      ],
+      "end": [
+        24.7625,
+        15.5875
+      ],
+      "length_mm": 2.3513269038389795
+    },
+    {
+      "name": "SOURCE_C16_3",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.7625,
+        15.5875
+      ],
+      "end": [
+        24.65,
+        15.35
+      ],
+      "length_mm": 0.2627974505203589
+    },
+    {
+      "name": "SOURCE_C16_arc2",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.709078,
+        17.986456
+      ],
+      "mid": [
+        24.711771,
+        17.96244
+      ],
+      "end": [
+        24.713009,
+        17.938306
+      ],
+      "radius": 0.4000954426383785,
+      "center": [
+        24.313,
+        17.9299
+      ],
+      "length_mm": 0.04833948127925812
+    },
+    {
+      "name": "C16_U3_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.65,
+        15.35
+      ],
+      "end": [
+        21.775,
+        13.55
+      ],
+      "length_mm": 3.3919942511743733
+    },
+    {
+      "name": "U3_U6_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        21.775,
+        13.55
+      ],
+      "end": [
+        19.9125,
+        13.0
+      ],
+      "length_mm": 1.9420108779303966
+    },
+    {
+      "name": "U3_U6_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        19.9125,
+        13.0
+      ],
+      "end": [
+        17.9,
+        12.6
+      ],
+      "length_mm": 2.051866528310263
+    },
+    {
+      "name": "U6_C12_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        17.9,
+        12.6
+      ],
+      "end": [
+        16.795193,
+        13.305196
+      ],
+      "length_mm": 1.310686806855473
+    },
+    {
+      "name": "U6_C12_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        16.678519,
+        13.419094
+      ],
+      "end": [
+        15.8,
+        14.725
+      ],
+      "length_mm": 1.5739079115999772
+    },
+    {
+      "name": "U6_C12_arc1",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        16.795193,
+        13.305196
+      ],
+      "mid": [
+        16.730991,
+        13.356137
+      ],
+      "end": [
+        16.678519,
+        13.419094
+      ],
+      "radius": 0.40002573725324225,
+      "center": [
+        17.0104,
+        13.6424
+      ],
+      "length_mm": 0.1642037903150723
+    },
+    {
+      "name": "PULLUP_MCU_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        22.1,
+        17.55
+      ],
+      "end": [
+        20.309112,
+        17.177399
+      ],
+      "length_mm": 1.8292379106461272
+    },
+    {
+      "name": "PULLUP_MCU_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        20.16525,
+        17.173908
+      ],
+      "end": [
+        20.0,
+        17.2
+      ],
+      "length_mm": 0.16729720548771887
+    },
+    {
+      "name": "PULLUP_MCU_2",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        20.0,
+        17.2
+      ],
+      "end": [
+        19.811599,
+        17.328906
+      ],
+      "length_mm": 0.22827985815003426
+    },
+    {
+      "name": "PULLUP_MCU_3",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        19.725303,
+        17.408928
+      ],
+      "end": [
+        18.05,
+        19.5
+      ],
+      "length_mm": 2.679407070788797
+    },
+    {
+      "name": "PULLUP_MCU_arc1",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        20.309112,
+        17.177399
+      ],
+      "mid": [
+        20.237339,
+        17.169131
+      ],
+      "end": [
+        20.16525,
+        17.173908
+      ],
+      "radius": 0.39999443664256135,
+      "center": [
+        20.2276,
+        17.569
+      ],
+      "length_mm": 0.14469430941544265
+    },
+    {
+      "name": "PULLUP_MCU_arc3",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        19.811599,
+        17.328906
+      ],
+      "mid": [
+        19.765492,
+        17.365726
+      ],
+      "end": [
+        19.725303,
+        17.408928
+      ],
+      "radius": 0.3999916382088506,
+      "center": [
+        20.0375,
+        17.659
+      ],
+      "length_mm": 0.11811513238727762
+    }
+  ],
+  "placement_overrides": {},
+  "plans": [
+    {
+      "name": "C14_POWER",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          24.173726,
+          19.673726
+        ],
+        [
+          23.9,
+          19.4
+        ]
+      ],
+      "items": [
+        {
+          "name": "C14_POWER_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            24.173726,
+            19.673726
+          ],
+          "end": [
+            23.9,
+            19.4
+          ],
+          "length_mm": 0.3871070215741377
+        }
+      ],
+      "length_mm": 0.3871070215741377
+    },
+    {
+      "name": "VOUT_SOURCE",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          22.91915,
+          19.93979
+        ],
+        [
+          23.40665,
+          19.6
+        ],
+        [
+          23.9,
+          19.4
+        ]
+      ],
+      "items": [
+        {
+          "name": "VOUT_SOURCE_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            22.91915,
+            19.93979
+          ],
+          "end": [
+            23.379023,
+            19.619256
+          ],
+          "length_mm": 0.5605579553311153
+        },
+        {
+          "name": "VOUT_SOURCE_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            23.437859,
+            19.587348
+          ],
+          "end": [
+            23.9,
+            19.4
+          ],
+          "length_mm": 0.4986718129040372
+        },
+        {
+          "name": "VOUT_SOURCE_arc1",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            23.379023,
+            19.619256
+          ],
+          "mid": [
+            23.407548,
+            19.601656
+          ],
+          "end": [
+            23.437859,
+            19.587348
+          ],
+          "radius": 0.29996052551127456,
+          "center": [
+            23.5506,
+            19.8653
+          ],
+          "length_mm": 0.06707249111977258
+        }
+      ],
+      "length_mm": 1.1263022593549252
+    },
+    {
+      "name": "J11_SOURCE",
+      "net": "3V3",
+      "layer": 0,
+      "points": [
+        [
+          22.54,
+          21.85
+        ],
+        [
+          23.9,
+          19.4
+        ]
+      ],
+      "items": [
+        {
+          "name": "J11_SOURCE_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 0,
+          "width": 0.2,
+          "start": [
+            22.54,
+            21.85
+          ],
+          "end": [
+            23.9,
+            19.4
+          ],
+          "length_mm": 2.802159881234476
+        }
+      ],
+      "length_mm": 2.802159881234476
+    },
+    {
+      "name": "C14_GND",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          24.626274,
+          20.126274
+        ],
+        [
+          25.1,
+          20.15
+        ]
+      ],
+      "items": [
+        {
+          "name": "C14_GND_0",
+          "kind": "PCB_TRACK",
+          "net": "GND",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            24.626274,
+            20.126274
+          ],
+          "end": [
+            25.1,
+            20.15
+          ],
+          "length_mm": 0.47431977204413756
+        }
+      ],
+      "length_mm": 0.47431977204413756
+    },
+    {
+      "name": "SOURCE_PULLUP",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          23.9,
+          19.4
+        ],
+        [
+          22.612500000000004,
+          18.55
+        ],
+        [
+          22.437500000000004,
+          18.3
+        ],
+        [
+          22.1,
+          17.55
+        ]
+      ],
+      "items": [
+        {
+          "name": "SOURCE_PULLUP_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            23.9,
+            19.4
+          ],
+          "end": [
+            22.676104,
+            18.591991
+          ],
+          "length_mm": 1.466560589575827
+        },
+        {
+          "name": "SOURCE_PULLUP_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            22.568793,
+            18.487562
+          ],
+          "end": [
+            22.459111,
+            18.330873
+          ],
+          "length_mm": 0.19126312724882413
+        },
+        {
+          "name": "SOURCE_PULLUP_2",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            22.422035,
+            18.265634
+          ],
+          "end": [
+            22.1,
+            17.55
+          ],
+          "length_mm": 0.7847538232981072
+        },
+        {
+          "name": "SOURCE_PULLUP_arc1",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            22.676104,
+            18.591991
+          ],
+          "mid": [
+            22.617519,
+            18.544843
+          ],
+          "end": [
+            22.568793,
+            18.487562
+          ],
+          "radius": 0.39998853545695534,
+          "center": [
+            22.8965,
+            18.2582
+          ],
+          "length_mm": 0.1506231723518943
+        },
+        {
+          "name": "SOURCE_PULLUP_arc2",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            22.459111,
+            18.330873
+          ],
+          "mid": [
+            22.43904,
+            18.299125
+          ],
+          "end": [
+            22.422035,
+            18.265634
+          ],
+          "radius": 0.39999006718917407,
+          "center": [
+            22.7868,
+            18.1015
+          ],
+          "length_mm": 0.07514867750214035
+        }
+      ],
+      "length_mm": 2.6683493899767927
+    },
+    {
+      "name": "SOURCE_C11",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          23.9,
+          19.4
+        ],
+        [
+          21.948400000000003,
+          20.6
+        ],
+        [
+          21.698400000000003,
+          20.6375
+        ],
+        [
+          21.4734,
+          20.5875
+        ],
+        [
+          20.6734,
+          20.15
+        ]
+      ],
+      "items": [
+        {
+          "name": "SOURCE_C11_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            23.9,
+            19.4
+          ],
+          "end": [
+            21.9484,
+            20.6
+          ],
+          "length_mm": 2.2910134351417506
+        },
+        {
+          "name": "SOURCE_C11_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            21.9484,
+            20.6
+          ],
+          "end": [
+            21.6984,
+            20.6375
+          ],
+          "length_mm": 0.2527968552019582
+        },
+        {
+          "name": "SOURCE_C11_2",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            21.6984,
+            20.6375
+          ],
+          "end": [
+            21.528779,
+            20.599807
+          ],
+          "length_mm": 0.17375858508286676
+        },
+        {
+          "name": "SOURCE_C11_3",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            21.423627,
+            20.56028
+          ],
+          "end": [
+            20.6734,
+            20.15
+          ],
+          "length_mm": 0.8550849255652906
+        },
+        {
+          "name": "SOURCE_C11_arc3",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            21.528779,
+            20.599807
+          ],
+          "mid": [
+            21.474808,
+            20.583753
+          ],
+          "end": [
+            21.423627,
+            20.56028
+          ],
+          "radius": 0.40004200165732595,
+          "center": [
+            21.6156,
+            20.2093
+          ],
+          "length_mm": 0.11270694074171737
+        }
+      ],
+      "length_mm": 3.6853607417335836
+    },
+    {
+      "name": "SOURCE_C16",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          23.9,
+          19.4
+        ],
+        [
+          24.675,
+          18.225
+        ],
+        [
+          24.7125,
+          17.9625
+        ],
+        [
+          24.7625,
+          15.587499999999999
+        ],
+        [
+          24.65,
+          15.35
+        ]
+      ],
+      "items": [
+        {
+          "name": "SOURCE_C16_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            23.9,
+            19.4
+          ],
+          "end": [
+            24.675,
+            18.225
+          ],
+          "length_mm": 1.4075688260259236
+        },
+        {
+          "name": "SOURCE_C16_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.675,
+            18.225
+          ],
+          "end": [
+            24.709078,
+            17.986456
+          ],
+          "length_mm": 0.24096586899393144
+        },
+        {
+          "name": "SOURCE_C16_2",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.713009,
+            17.938306
+          ],
+          "end": [
+            24.7625,
+            15.5875
+          ],
+          "length_mm": 2.3513269038389795
+        },
+        {
+          "name": "SOURCE_C16_3",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.7625,
+            15.5875
+          ],
+          "end": [
+            24.65,
+            15.35
+          ],
+          "length_mm": 0.2627974505203589
+        },
+        {
+          "name": "SOURCE_C16_arc2",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.709078,
+            17.986456
+          ],
+          "mid": [
+            24.711771,
+            17.96244
+          ],
+          "end": [
+            24.713009,
+            17.938306
+          ],
+          "radius": 0.4000954426383785,
+          "center": [
+            24.313,
+            17.9299
+          ],
+          "length_mm": 0.04833948127925812
+        }
+      ],
+      "length_mm": 4.310998530658451
+    },
+    {
+      "name": "C16_U3",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          24.65,
+          15.35
+        ],
+        [
+          21.775,
+          13.55
+        ]
+      ],
+      "items": [
+        {
+          "name": "C16_U3_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.65,
+            15.35
+          ],
+          "end": [
+            21.775,
+            13.55
+          ],
+          "length_mm": 3.3919942511743733
+        }
+      ],
+      "length_mm": 3.3919942511743733
+    },
+    {
+      "name": "U3_U6",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          21.775,
+          13.55
+        ],
+        [
+          19.9125,
+          13.0
+        ],
+        [
+          17.9,
+          12.6
+        ]
+      ],
+      "items": [
+        {
+          "name": "U3_U6_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            21.775,
+            13.55
+          ],
+          "end": [
+            19.9125,
+            13.0
+          ],
+          "length_mm": 1.9420108779303966
+        },
+        {
+          "name": "U3_U6_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            19.9125,
+            13.0
+          ],
+          "end": [
+            17.9,
+            12.6
+          ],
+          "length_mm": 2.051866528310263
+        }
+      ],
+      "length_mm": 3.9938774062406597
+    },
+    {
+      "name": "U6_C12",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          17.9,
+          12.6
+        ],
+        [
+          16.725,
+          13.35
+        ],
+        [
+          15.8,
+          14.725
+        ]
+      ],
+      "items": [
+        {
+          "name": "U6_C12_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            17.9,
+            12.6
+          ],
+          "end": [
+            16.795193,
+            13.305196
+          ],
+          "length_mm": 1.310686806855473
+        },
+        {
+          "name": "U6_C12_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            16.678519,
+            13.419094
+          ],
+          "end": [
+            15.8,
+            14.725
+          ],
+          "length_mm": 1.5739079115999772
+        },
+        {
+          "name": "U6_C12_arc1",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            16.795193,
+            13.305196
+          ],
+          "mid": [
+            16.730991,
+            13.356137
+          ],
+          "end": [
+            16.678519,
+            13.419094
+          ],
+          "radius": 0.40002573725324225,
+          "center": [
+            17.0104,
+            13.6424
+          ],
+          "length_mm": 0.1642037903150723
+        }
+      ],
+      "length_mm": 3.0487985087705223
+    },
+    {
+      "name": "PULLUP_MCU",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          22.1,
+          17.55
+        ],
+        [
+          20.237500000000004,
+          17.1625
+        ],
+        [
+          20.000000000000004,
+          17.200000000000003
+        ],
+        [
+          19.762500000000003,
+          17.3625
+        ],
+        [
+          18.05,
+          19.5
+        ]
+      ],
+      "items": [
+        {
+          "name": "PULLUP_MCU_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            22.1,
+            17.55
+          ],
+          "end": [
+            20.309112,
+            17.177399
+          ],
+          "length_mm": 1.8292379106461272
+        },
+        {
+          "name": "PULLUP_MCU_1",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            20.16525,
+            17.173908
+          ],
+          "end": [
+            20.0,
+            17.2
+          ],
+          "length_mm": 0.16729720548771887
+        },
+        {
+          "name": "PULLUP_MCU_2",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            20.0,
+            17.2
+          ],
+          "end": [
+            19.811599,
+            17.328906
+          ],
+          "length_mm": 0.22827985815003426
+        },
+        {
+          "name": "PULLUP_MCU_3",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            19.725303,
+            17.408928
+          ],
+          "end": [
+            18.05,
+            19.5
+          ],
+          "length_mm": 2.679407070788797
+        },
+        {
+          "name": "PULLUP_MCU_arc1",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            20.309112,
+            17.177399
+          ],
+          "mid": [
+            20.237339,
+            17.169131
+          ],
+          "end": [
+            20.16525,
+            17.173908
+          ],
+          "radius": 0.39999443664256135,
+          "center": [
+            20.2276,
+            17.569
+          ],
+          "length_mm": 0.14469430941544265
+        },
+        {
+          "name": "PULLUP_MCU_arc3",
+          "kind": "PCB_ARC",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            19.811599,
+            17.328906
+          ],
+          "mid": [
+            19.765492,
+            17.365726
+          ],
+          "end": [
+            19.725303,
+            17.408928
+          ],
+          "radius": 0.3999916382088506,
+          "center": [
+            20.0375,
+            17.659
+          ],
+          "length_mm": 0.11811513238727762
+        }
+      ],
+      "length_mm": 5.1670314868753975
+    }
+  ],
+  "metrics": {
+    "before_3V3_mm": 50.09455287656051,
+    "after_3V3_mm": 40.764110100611035,
+    "reduction_3V3_mm": 9.330442775949479,
+    "before_L4_mm": 35.2930328179893,
+    "after_L4_mm": 26.266410315429784,
+    "before_L4_objects": 45,
+    "after_L4_objects": 27,
+    "3V3_via_count_before": 8,
+    "3V3_via_count_after": 8,
+    "min_native_clearance_mm": 0.15104114468973737,
+    "conflicts": []
+  },
+  "allowed_other_net_removals": [
+    "1f66862d-2732-41a9-abe6-ec55737d842c",
+    "89369d28-1e31-432e-bdcd-46e1ad489ac9",
+    "b82cd1fd-b578-4ce7-936a-b3d581abebe3"
+  ],
+  "notes": [
+    "All footprints and latest SWCLK geometry preserved.",
+    "Whole L4 3V3 network rebuilt as 7-branch tree joining8existing functionalvia sites; C14sourcevia relocated24.25,19.65\u219223.9,19.4 toclearnewC14GND andavoidviainpad.",
+    "Dedicatedsource-to-C11 .4feed retained; notdaisy-chainthroughMCUpullups.",
+    "Usernewsource-to-pullupfeed preservedandshortened; redundantclosedloop andoldcentralVREFdetour deleted.",
+    "L4all.4, Bsource/decoupling.3, existingnarrownecks unchanged.",
+    "C14oldGNDtails only non3V3change: replacedby .30directreturntoexistingGND25.1,20.15."
+  ]
+}

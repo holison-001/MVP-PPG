@@ -1,0 +1,244 @@
+{
+  "scope": "C4 only in refined W18. Two-bend horizontal/vertical/horizontal route in X20.22..20.42 corridor; radius 2.5mm .1mm via grid. Independent local feasibility only. No PCB saved.",
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "virtual_positions": {
+    "U2": [
+      [
+        18.3419,
+        17.2749
+      ],
+      90
+    ],
+    "R1": [
+      [
+        21.2,
+        16.05
+      ],
+      180
+    ],
+    "R2": [
+      [
+        21.2,
+        16.8
+      ],
+      180
+    ],
+    "C4": [
+      [
+        21.2,
+        17.55
+      ],
+      0
+    ],
+    "C1": [
+      [
+        21.1,
+        18.5
+      ],
+      0
+    ],
+    "C15": [
+      [
+        18.9,
+        19.4
+      ],
+      0
+    ],
+    "D8": [
+      [
+        16.0,
+        19.4
+      ],
+      90
+    ]
+  },
+  "excluded_affected_copper_count": 278,
+  "results": {
+    "0.15": {
+      "legal_via_count": 155,
+      "path_count": 210,
+      "best": [
+        {
+          "via_xy": [
+            20.18,
+            15.75
+          ],
+          "route_points": [
+            [
+              20.88,
+              17.55
+            ],
+            [
+              20.32,
+              17.55
+            ],
+            [
+              20.32,
+              15.75
+            ],
+            [
+              20.18,
+              15.75
+            ]
+          ],
+          "length_mm": 2.5,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.2530999999999992,
+          "all_layer_via_foreign_gap_mm": 0.16944203413582626,
+          "drill_to_pad_gap_mm": 0.29444203413582626
+        },
+        {
+          "via_xy": [
+            20.18,
+            15.75
+          ],
+          "route_points": [
+            [
+              20.88,
+              17.55
+            ],
+            [
+              20.33,
+              17.55
+            ],
+            [
+              20.33,
+              15.75
+            ],
+            [
+              20.18,
+              15.75
+            ]
+          ],
+          "length_mm": 2.5,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.24500000000000027,
+          "all_layer_via_foreign_gap_mm": 0.16944203413582626,
+          "drill_to_pad_gap_mm": 0.29444203413582626
+        },
+        {
+          "via_xy": [
+            20.18,
+            15.75
+          ],
+          "route_points": [
+            [
+              20.88,
+              17.55
+            ],
+            [
+              20.31,
+              17.55
+            ],
+            [
+              20.31,
+              15.75
+            ],
+            [
+              20.18,
+              15.75
+            ]
+          ],
+          "length_mm": 2.5,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.2430999999999976,
+          "all_layer_via_foreign_gap_mm": 0.16944203413582626,
+          "drill_to_pad_gap_mm": 0.29444203413582626
+        }
+      ]
+    },
+    "0.3": {
+      "legal_via_count": 155,
+      "path_count": 45,
+      "best": [
+        {
+          "via_xy": [
+            20.18,
+            15.75
+          ],
+          "route_points": [
+            [
+              20.88,
+              17.55
+            ],
+            [
+              20.32,
+              17.55
+            ],
+            [
+              20.32,
+              15.75
+            ],
+            [
+              20.18,
+              15.75
+            ]
+          ],
+          "length_mm": 2.5,
+          "trace_width_mm": 0.3,
+          "local_trace_foreign_gap_mm": 0.17809999999999923,
+          "all_layer_via_foreign_gap_mm": 0.16944203413582626,
+          "drill_to_pad_gap_mm": 0.29444203413582626
+        },
+        {
+          "via_xy": [
+            20.18,
+            15.75
+          ],
+          "route_points": [
+            [
+              20.88,
+              17.55
+            ],
+            [
+              20.33,
+              17.55
+            ],
+            [
+              20.33,
+              15.75
+            ],
+            [
+              20.18,
+              15.75
+            ]
+          ],
+          "length_mm": 2.5,
+          "trace_width_mm": 0.3,
+          "local_trace_foreign_gap_mm": 0.1700000000000003,
+          "all_layer_via_foreign_gap_mm": 0.16944203413582626,
+          "drill_to_pad_gap_mm": 0.29444203413582626
+        },
+        {
+          "via_xy": [
+            20.18,
+            15.75
+          ],
+          "route_points": [
+            [
+              20.88,
+              17.55
+            ],
+            [
+              20.31,
+              17.55
+            ],
+            [
+              20.31,
+              15.75
+            ],
+            [
+              20.18,
+              15.75
+            ]
+          ],
+          "length_mm": 2.5,
+          "trace_width_mm": 0.3,
+          "local_trace_foreign_gap_mm": 0.1680999999999976,
+          "all_layer_via_foreign_gap_mm": 0.16944203413582626,
+          "drill_to_pad_gap_mm": 0.29444203413582626
+        }
+      ]
+    }
+  }
+}

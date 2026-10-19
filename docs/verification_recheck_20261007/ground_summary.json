@@ -1,0 +1,49 @@
+{
+  "board_sha256": "2ff63ac449f033d274c2e58633d15b165b2012a1259a954acf8d9cb46b2e3820",
+  "connectivity_graph": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 14,
+    "reachable_nodes": 14,
+    "contact_tolerance_mm": 2E-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "strict_saved_polygon_model_pass": false,
+  "layers": [
+    {
+      "ordinal": "L1",
+      "canonical_layer": "F.Cu",
+      "missing_band_area_mm2": 0.0,
+      "sampled_min_outer_anchored_inward_width_mm": 0.3816184115971035,
+      "rim_components_not_reachable_from_anchor": []
+    },
+    {
+      "ordinal": "L2",
+      "canonical_layer": "In1.Cu",
+      "missing_band_area_mm2": 8.161319994378606E-06,
+      "sampled_min_outer_anchored_inward_width_mm": 0.23138905933902265,
+      "rim_components_not_reachable_from_anchor": []
+    },
+    {
+      "ordinal": "L3",
+      "canonical_layer": "In2.Cu",
+      "missing_band_area_mm2": 8.161319994378606E-06,
+      "sampled_min_outer_anchored_inward_width_mm": 0.23138905933902265,
+      "rim_components_not_reachable_from_anchor": []
+    },
+    {
+      "ordinal": "L4",
+      "canonical_layer": "In3.Cu",
+      "missing_band_area_mm2": 8.161319994378606E-06,
+      "sampled_min_outer_anchored_inward_width_mm": 0.23138905933902265,
+      "rim_components_not_reachable_from_anchor": []
+    },
+    {
+      "ordinal": "L5",
+      "canonical_layer": "In4.Cu",
+      "missing_band_area_mm2": 8.161319994378606E-06,
+      "sampled_min_outer_anchored_inward_width_mm": 0.23138905933902265,
+      "rim_components_not_reachable_from_anchor": []
+    }
+  ]
+}

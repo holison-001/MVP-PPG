@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-07",
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "canonical_unchanged": true,
+  "recommended": "A",
+  "U2_delta_mm": [
+    -0.3,
+    0.05
+  ],
+  "moved_components": [
+    "U2",
+    "C1",
+    "C4"
+  ],
+  "placement_only": true,
+  "routing_completed": false,
+  "minimum_existing_vias_requiring_adjustment": 6,
+  "backup_zip": "backups/20261007_before_U2_move/PPG_PCB_v08_before_U2_move.zip",
+  "backup_previous_completed_pcb": "backups/20261007_before_U2_move/previous_completed_6f5485a.kicad_pcb"
+}

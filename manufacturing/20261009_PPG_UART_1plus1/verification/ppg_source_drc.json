@@ -1,0 +1,280 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-09T20:26:26",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C1",
+                    "pos": {
+                        "x": 21.1,
+                        "y": 18.5
+                    },
+                    "uuid": "b2f9a1a4-f6b1-4efb-a428-573a0c252270"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C4",
+                    "pos": {
+                        "x": 20.4,
+                        "y": 15.1
+                    },
+                    "uuid": "44017bb5-c816-4513-8aca-21dcd8dc28d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C5",
+                    "pos": {
+                        "x": 21.2,
+                        "y": 16.2
+                    },
+                    "uuid": "d3e0d1f7-5532-408f-9bec-480b7de33dc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C12",
+                    "pos": {
+                        "x": 17.8,
+                        "y": 11.6
+                    },
+                    "uuid": "c53e36e5-4b8b-4bc3-9693-50677731f4a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C13",
+                    "pos": {
+                        "x": 16.6,
+                        "y": 21.2
+                    },
+                    "uuid": "47f818cc-af94-4bef-a665-1a5cbc5840f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C14",
+                    "pos": {
+                        "x": 24.4,
+                        "y": 19.9
+                    },
+                    "uuid": "052a604d-9fc4-42f7-b2a9-d02fedd0e76c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C15",
+                    "pos": {
+                        "x": 19.4,
+                        "y": 19.4
+                    },
+                    "uuid": "9f67b882-0710-47f5-98fb-b710cccd751c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 C16",
+                    "pos": {
+                        "x": 24.3,
+                        "y": 16.4
+                    },
+                    "uuid": "6cb67eeb-b554-40c7-b596-a9512aa022a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "풋프린트에 심볼 필드 'Tolerance'이(가) 없습니다",
+            "items": [
+                {
+                    "description": "풋프린트 R3",
+                    "pos": {
+                        "x": 14.2,
+                        "y": 16.8
+                    },
+                    "uuid": "a79fb02c-f0e3-4c86-be8b-3438a8f8ae2d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        }
+    ],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.6157,
+                        "y": 22.8789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.6157,
+                        "y": 23.3539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 22.802478,
+                        "y": 22.722255
+                    },
+                    "uuid": "8f36f2e8-f175-4236-970d-4543a11a4723"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.138353,
+                        "y": 23.05813
+                    },
+                    "uuid": "7d01be0c-4214-42f6-a54a-d7168f1ec9f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 U2",
+                    "pos": {
+                        "x": 18.3419,
+                        "y": 17.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

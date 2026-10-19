@@ -1,0 +1,54 @@
+{
+  "not_saved_to_board": true,
+  "paths": [
+    {
+      "start": [
+        16.1566,
+        20.6824
+      ],
+      "end": [
+        16.7087,
+        20.6824
+      ],
+      "width_mm": 0.15,
+      "length_mm": 0.5521,
+      "nearest_fixed_foreign_copper": [
+        [
+          0.4354348893510356,
+          "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+          "GND"
+        ],
+        [
+          0.47843967700118734,
+          "4cf3233c-7349-4255-b2e9-479cf0f44345",
+          "/RXN"
+        ]
+      ]
+    },
+    {
+      "start": [
+        16.7087,
+        20.6824
+      ],
+      "end": [
+        17.3857,
+        20.7939
+      ],
+      "width_mm": 0.15,
+      "length_mm": 0.6861204340347254,
+      "nearest_fixed_foreign_copper": [
+        [
+          0.2797194990194828,
+          "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+          "/SWDIO"
+        ],
+        [
+          0.30000100000000174,
+          "U4.7",
+          "unconnected-(U4-NC-Pad7)"
+        ]
+      ]
+    }
+  ],
+  "total_length_mm": 1.2382204340347256
+}

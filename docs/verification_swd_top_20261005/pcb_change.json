@@ -1,0 +1,955 @@
+{
+  "date": "2026-10-05",
+  "source_sha256": "3739f17a4788d6f88375153e60bc42b3ab0be13ad075f4ffe46204a2b9a13e98",
+  "pcb_sha256": "1baae6c041f182bea81e6a53060e6774f11bff44b48da2111aff54040978bad6",
+  "summary": "Moved J9 NRST, J7 SWDIO and J8 SWCLK to a front row, added J10 GND and J11 3V3_VTREF. D6/D7/D8 parts, placement and signal protection nets unchanged. Removed obsolete back-pad branches. Added SWDIO and SWCLK through vias and rerouted local In1 SDA/SCL for SWCLK escape. Refilled existing F/In1 GND zones; kept In2 3V3 widths and prior LDO_EN routing.",
+  "pad_order_left_to_right": [
+    "J9",
+    "J7",
+    "J10",
+    "J8",
+    "J11"
+  ],
+  "pad_pitch_mm": 1.27,
+  "pad_diameter_mm": 0.8,
+  "pad_row_y_mm": 21.85,
+  "pads": {
+    "J9": {
+      "uuid": "6b3badd4-02c2-40a0-931e-863ad52c773d",
+      "value": "NRST",
+      "position_mm": [
+        17.46,
+        21.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": {
+        "1": {
+          "uuid": "c15448e2-0d29-46cc-ae6d-3bb77838415f",
+          "net": "/NRST",
+          "position_mm": [
+            17.46,
+            21.85
+          ],
+          "size_mm": [
+            0.8,
+            0.8
+          ],
+          "rotation_deg": 0.0,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ]
+        }
+      }
+    },
+    "J7": {
+      "uuid": "487153dc-e356-4c28-bc9e-5ddd41862eea",
+      "value": "SWDIO",
+      "position_mm": [
+        18.73,
+        21.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": {
+        "1": {
+          "uuid": "e60c91dc-372d-40db-9a62-c22155708388",
+          "net": "/SWDIO",
+          "position_mm": [
+            18.73,
+            21.85
+          ],
+          "size_mm": [
+            0.8,
+            0.8
+          ],
+          "rotation_deg": 0.0,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ]
+        }
+      }
+    },
+    "J10": {
+      "uuid": "25de6651-0064-4bf8-a4f5-97bb3eae4c3a",
+      "value": "GND",
+      "position_mm": [
+        20.0,
+        21.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": {
+        "1": {
+          "uuid": "03156704-e163-4078-89be-2c2014467d75",
+          "net": "GND",
+          "position_mm": [
+            20.0,
+            21.85
+          ],
+          "size_mm": [
+            0.8,
+            0.8
+          ],
+          "rotation_deg": 0.0,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ]
+        }
+      }
+    },
+    "J8": {
+      "uuid": "176d4cba-c60a-431c-8c5f-189c5360f2b9",
+      "value": "SWCLK",
+      "position_mm": [
+        21.27,
+        21.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": {
+        "1": {
+          "uuid": "02a0be54-06c7-46ee-be44-89debddce4c6",
+          "net": "/SWCLK",
+          "position_mm": [
+            21.27,
+            21.85
+          ],
+          "size_mm": [
+            0.8,
+            0.8
+          ],
+          "rotation_deg": 0.0,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ]
+        }
+      }
+    },
+    "J11": {
+      "uuid": "da1d0540-0cc3-4893-8f4a-a4981bbb4bb6",
+      "value": "3V3_VTREF",
+      "position_mm": [
+        22.54,
+        21.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": {
+        "1": {
+          "uuid": "219cf53c-1532-42a2-a6ea-f63e44c2cef1",
+          "net": "3V3",
+          "position_mm": [
+            22.54,
+            21.85
+          ],
+          "size_mm": [
+            0.8,
+            0.8
+          ],
+          "rotation_deg": 0.0,
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ]
+        }
+      }
+    }
+  },
+  "preserved_checks": {
+    "existing_pin_net_changes": [],
+    "existing_uuid_changes": [],
+    "changed_existing_footprints": [
+      "J8",
+      "J7",
+      "J9"
+    ],
+    "ldo_en_copper_unchanged": true,
+    "D6_D7_D8_J2_unchanged": true,
+    "all_test_pads_front_copper_mask_no_paste": true
+  },
+  "before": {
+    "track_length_mm": {
+      "F.Cu": 18.34876173856869,
+      "In1.Cu": 43.97142429493744,
+      "In2.Cu": 55.458632863651914,
+      "B.Cu": 73.06824221295635
+    },
+    "zones": [
+      {
+        "layer": "F.Cu",
+        "net": "GND",
+        "area_mm2": 102.3252156105825
+      },
+      {
+        "layer": "In1.Cu",
+        "net": "GND",
+        "area_mm2": 87.4292774756355
+      }
+    ],
+    "footprint_count": 37,
+    "track_count": 318,
+    "via_count": 60,
+    "top_references": [
+      "U1"
+    ],
+    "in2_3V3_widths_mm": [
+      0.4
+    ]
+  },
+  "after": {
+    "track_length_mm": {
+      "F.Cu": 31.23455812850238,
+      "In1.Cu": 42.82615146167948,
+      "In2.Cu": 57.97015477474969,
+      "B.Cu": 69.68973446095825
+    },
+    "zones": [
+      {
+        "layer": "F.Cu",
+        "net": "GND",
+        "area_mm2": 93.250023470645
+      },
+      {
+        "layer": "In1.Cu",
+        "net": "GND",
+        "area_mm2": 85.1753427002095
+      }
+    ],
+    "footprint_count": 39,
+    "track_count": 325,
+    "via_count": 61,
+    "top_references": [
+      "J10",
+      "J11",
+      "J7",
+      "J8",
+      "J9",
+      "U1"
+    ],
+    "in2_3V3_widths_mm": [
+      0.4
+    ]
+  },
+  "removed_tracks": [
+    {
+      "uuid": "1aa29c1b-ad11-4495-80cb-c82f3323a0b4",
+      "net": "/SWDIO",
+      "a": [
+        22.991,
+        18.7708
+      ],
+      "z": [
+        23.7418,
+        18.7708
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "2cf6437b-e91d-4f27-a6eb-8e15e572085a",
+      "net": "/SDA",
+      "a": [
+        22.7,
+        15.8
+      ],
+      "z": [
+        21.525,
+        14.625
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "353cb33f-bf6d-4cde-8edb-80b2da4ce6c9",
+      "net": "/SDA",
+      "a": [
+        22.7,
+        16.325
+      ],
+      "z": [
+        22.7,
+        15.8
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "45e67fdd-79f5-496c-ac33-948408236980",
+      "net": "/SCL",
+      "a": [
+        20.425,
+        14.775
+      ],
+      "z": [
+        20.05,
+        15.15
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "47d6edec-263c-491a-97ba-4b924218d04e",
+      "net": "/SCL",
+      "a": [
+        22.425,
+        16.325
+      ],
+      "z": [
+        22.425,
+        15.9
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "4f29e4a4-49f8-428c-b868-45d59284d28f",
+      "net": "/SCL",
+      "a": [
+        22.1,
+        17.05
+      ],
+      "z": [
+        22.425,
+        16.325
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "5990517c-64a3-4e16-acd5-cca906588fcd",
+      "net": "/SDA",
+      "a": [
+        22.475,
+        18.275
+      ],
+      "z": [
+        22.5,
+        16.775
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "5a536b62-4ea8-414c-a1b3-e0496533c6a6",
+      "net": "/NRST",
+      "a": [
+        16.7045,
+        18.4062
+      ],
+      "z": [
+        16.8477,
+        18.263
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "70b11fa9-b891-4911-8bf2-caff01fe23d7",
+      "net": "/SCL",
+      "a": [
+        22.425,
+        15.9
+      ],
+      "z": [
+        21.375,
+        14.85
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "7a81f342-f390-4ba3-bd7d-efbb8aaf6897",
+      "net": "/SWDIO",
+      "a": [
+        21.7383,
+        20.0235
+      ],
+      "z": [
+        22.991,
+        18.7708
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "7f4b8764-6e66-4a8d-9fb3-796012392563",
+      "net": "/SCL",
+      "a": [
+        21.2,
+        14.775
+      ],
+      "z": [
+        20.425,
+        14.775
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "9f034c55-4335-4700-9247-6aa0ae770d3b",
+      "net": "/SCL",
+      "a": [
+        21.375,
+        14.85
+      ],
+      "z": [
+        21.2,
+        14.775
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "a632e441-8645-4713-8fa8-f3a12f2ea78b",
+      "net": "/SWDIO",
+      "a": [
+        20.7,
+        19.675
+      ],
+      "z": [
+        20.4,
+        19.625
+      ],
+      "layer": "In2.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "a6345313-c33a-42d1-9620-3e22b55b3f6d",
+      "net": "/SDA",
+      "a": [
+        22.5,
+        16.775
+      ],
+      "z": [
+        22.7,
+        16.325
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "c628dba6-eaeb-44aa-b000-ea137fe0b81b",
+      "net": "/NRST",
+      "a": [
+        16.8477,
+        18.263
+      ],
+      "z": [
+        16.8477,
+        17.4077
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "cb81d5c3-ac68-42b0-890a-4e8ca911df71",
+      "net": "/SDA",
+      "a": [
+        21.525,
+        14.625
+      ],
+      "z": [
+        21.2,
+        14.5
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "cf5bd9b7-7307-4d26-95af-bb09b18f6545",
+      "net": "/SWDIO",
+      "a": [
+        21.7383,
+        20.0235
+      ],
+      "z": [
+        21.7383,
+        20.0235
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "drill_mm": 0.25,
+      "via": true
+    },
+    {
+      "uuid": "dc3030f9-e42c-4c9e-819e-ac880609abbb",
+      "net": "/SWDIO",
+      "a": [
+        21.525,
+        19.9
+      ],
+      "z": [
+        20.7,
+        19.675
+      ],
+      "layer": "In2.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    }
+  ],
+  "added_tracks": [
+    {
+      "uuid": "05e117b3-3814-4d69-9173-0a0af125e351",
+      "net": "/NRST",
+      "a": [
+        17.125,
+        20.45
+      ],
+      "z": [
+        17.46,
+        21.85
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "181d7385-1959-4529-be5a-b5e29c1aac14",
+      "net": "/SWCLK",
+      "a": [
+        22.9,
+        20.2
+      ],
+      "z": [
+        21.27,
+        21.85
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "2e3f79b7-2cfd-452b-a2f3-bf54abb16fef",
+      "net": "/SWCLK",
+      "a": [
+        22.7537,
+        16.5806
+      ],
+      "z": [
+        22.6,
+        16.45
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "33f0e2f6-4f68-4119-9ae3-136366bffb0b",
+      "net": "/SWCLK",
+      "a": [
+        22.475,
+        17.85
+      ],
+      "z": [
+        22.9,
+        18.325
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "34fc3bea-2c7b-49a1-ad3d-1731f428ca6d",
+      "net": "/SDA",
+      "a": [
+        22.45,
+        17.125
+      ],
+      "z": [
+        22.45,
+        18.5
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "41e4ef32-8e6b-428d-ac6a-adb6789f70fd",
+      "net": "/NRST",
+      "a": [
+        17.15,
+        17.3
+      ],
+      "z": [
+        16.725,
+        19.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "4c1a4228-ad63-4d4a-bf37-b3b0e84ac6bf",
+      "net": "/SWDIO",
+      "a": [
+        20.1655,
+        19.5545
+      ],
+      "z": [
+        19.625,
+        21.4
+      ],
+      "layer": "In2.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "52a870b3-44d0-49fb-994c-d6a2f9e35f14",
+      "net": "/SDA",
+      "a": [
+        22.425,
+        17.05
+      ],
+      "z": [
+        22.45,
+        17.125
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "55e655a9-afe2-4cfd-bb40-d556eb2461f2",
+      "net": "/SWDIO",
+      "a": [
+        18.9,
+        22.975
+      ],
+      "z": [
+        18.73,
+        21.85
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "5614e1ba-bfe7-4bdd-8b5f-a595607f8350",
+      "net": "/SWCLK",
+      "a": [
+        22.6,
+        16.45
+      ],
+      "z": [
+        22.475,
+        17.325
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "5e2d40d6-328b-4d07-a136-dd8bcf96c14e",
+      "net": "/SCL",
+      "a": [
+        19.8148,
+        15.2148
+      ],
+      "z": [
+        21.925,
+        17.25
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+      "net": "/SWDIO",
+      "a": [
+        18.9,
+        22.975
+      ],
+      "z": [
+        18.9,
+        22.975
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "drill_mm": 0.25,
+      "via": true
+    },
+    {
+      "uuid": "5f9920e6-4524-4932-8100-24ea72318c75",
+      "net": "3V3",
+      "a": [
+        23.0,
+        22.4
+      ],
+      "z": [
+        22.54,
+        21.85
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "7af1e124-7783-4a34-9636-3c7ff2eee357",
+      "net": "/SWCLK",
+      "a": [
+        22.9,
+        18.325
+      ],
+      "z": [
+        22.925,
+        18.55
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "82388026-2350-4550-8eea-5b07228bbae1",
+      "net": "/SDA",
+      "a": [
+        22.225,
+        16.85
+      ],
+      "z": [
+        22.425,
+        17.05
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "962948d5-bbee-452b-a93b-a0ebdd5c16c0",
+      "net": "/SWDIO",
+      "a": [
+        19.05,
+        22.4
+      ],
+      "z": [
+        18.9,
+        22.975
+      ],
+      "layer": "In2.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "a3fe505d-5289-4fe5-bcc2-4e0bdc71470b",
+      "net": "/SCL",
+      "a": [
+        21.925,
+        17.25
+      ],
+      "z": [
+        21.995,
+        17.275
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "aba3df2f-f31e-4ced-ac75-650d24a6b544",
+      "net": "/SDA",
+      "a": [
+        21.85,
+        16.8
+      ],
+      "z": [
+        22.225,
+        16.85
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "c29be4f9-8dcd-4fd8-8dee-b46724641b22",
+      "net": "/SDA",
+      "a": [
+        21.2,
+        14.5
+      ],
+      "z": [
+        21.525,
+        16.475
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "c3b41d2f-5f67-4610-8206-b8e8be3a5ba1",
+      "net": "/NRST",
+      "a": [
+        16.725,
+        19.5
+      ],
+      "z": [
+        16.725,
+        20.025
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "c55a264b-7a89-4454-a1e8-a7b95a49874a",
+      "net": "/SWDIO",
+      "a": [
+        19.625,
+        21.4
+      ],
+      "z": [
+        19.05,
+        22.4
+      ],
+      "layer": "In2.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "cfe57f20-e4fd-4e04-8db7-476256a8130f",
+      "net": "/NRST",
+      "a": [
+        16.725,
+        20.025
+      ],
+      "z": [
+        17.125,
+        20.45
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "d40e590d-2e6e-4971-9102-ab3b2d166df1",
+      "net": "/SDA",
+      "a": [
+        21.525,
+        16.475
+      ],
+      "z": [
+        21.85,
+        16.8
+      ],
+      "layer": "In1.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "d7f1b44c-fc70-4a1a-8277-161f112ef7ff",
+      "net": "/SWCLK",
+      "a": [
+        22.925,
+        18.55
+      ],
+      "z": [
+        22.9,
+        20.2
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    },
+    {
+      "uuid": "d8998d7f-3061-45b3-bf65-a82460c06778",
+      "net": "/SWCLK",
+      "a": [
+        22.6,
+        16.45
+      ],
+      "z": [
+        22.6,
+        16.45
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "drill_mm": 0.25,
+      "via": true
+    },
+    {
+      "uuid": "e2cba995-3c98-420c-88db-a5c81784f6d7",
+      "net": "/SWCLK",
+      "a": [
+        22.475,
+        17.325
+      ],
+      "z": [
+        22.475,
+        17.85
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.1,
+      "drill_mm": null,
+      "via": false
+    }
+  ],
+  "modified_existing_tracks": [],
+  "fab_legend": {
+    "R": "NRST",
+    "D": "SWDIO",
+    "G": "GND",
+    "C": "SWCLK",
+    "V": "3V3 target voltage reference"
+  },
+  "manufacturing_outputs_regenerated": false
+}

@@ -1,0 +1,13 @@
+{
+  "boards": [
+    {
+      "board": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\scl_top_20261006\\before\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "9caf20e4383d00f97e604291ab7e9c29394bed81c2da8c6ed2c2addbab580384"
+    },
+    {
+      "board": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\scl_top_20261006\\candidate\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "5c4c9d1eabbfb2f3db410d5fa80927defbf1545fe8b773ff937ddca9fa6ac063"
+    }
+  ],
+  "method": "Actual KiCad copper polygons with SCL highlighted; native arc geometry"
+}

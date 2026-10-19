@@ -1,0 +1,16 @@
+{
+  "source": "kicad/ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "7587e8b0feb2285461219577a36d5a7dc974d2476ae36e891e1ae17591172040",
+  "date": "2026-10-07",
+  "mode": "inspection_only",
+  "source_unchanged": true,
+  "findings": [
+    "D8 NRST protection landing bypass",
+    "NRST F.Cu dangling segment",
+    "12V C13/via/U4 connection relies on narrow pad-to-via overlap"
+  ],
+  "drc_errors": 0,
+  "drc_warnings": 6,
+  "drc_unconnected": 0,
+  "schematic_parity_issues": 0
+}

@@ -1,0 +1,253 @@
+{
+  "ok": false,
+  "issues": [
+    "ESD pad-cut topology failed"
+  ],
+  "board_sha256": "fb2e0a3c41e7050155f3245b070b9358fb537c0a5b9aac6a84605806943493de",
+  "read_only": true,
+  "components": 42,
+  "physical_pads": 155,
+  "numbered_pins": 125,
+  "original_pin_net_map_preserved": true,
+  "schematic_pin_nets_match": true,
+  "pad_UUID_identity_preserved": true,
+  "native_copper_net_assignments_stable": true,
+  "native_multi_pin_net_groups": [
+    {
+      "net": "/12V_IN",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/LDO_EN",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/NRST",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/RXN",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/RXN_RCV",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/RXP",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/RXP_RCV",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/SCL",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/SDA",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/SWCLK",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/SWDIO",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/TXN",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/TXN_DRV",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/TXP",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/TXP_DRV",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/UART_RX",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/UART_TX",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/VLDO",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "/VREF",
+      "numbered_pins": 2,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "12V",
+      "numbered_pins": 3,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "3V3",
+      "numbered_pins": 16,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "5V_LED",
+      "numbered_pins": 5,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    },
+    {
+      "net": "GND",
+      "numbered_pins": 29,
+      "all_pins_in_same_native_cluster": true,
+      "missing": []
+    }
+  ],
+  "esd_pad_cut": {
+    "ok": false,
+    "board_sha256": "fb2e0a3c41e7050155f3245b070b9358fb537c0a5b9aac6a84605806943493de",
+    "checked_paths": 3,
+    "required_paths": 3,
+    "error_count": 1,
+    "checks": {
+      "D6.1": {
+        "net": "/SWDIO",
+        "source": "J7.1",
+        "target": "U2.16",
+        "normal": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+            "a855db34-2e7b-4ecc-a2be-9db1fc7525f6"
+          ],
+          "source_via_count": 2,
+          "connected_item_count": 19
+        },
+        "without_TVS_signal_pad_copper": {
+          "source_found": true,
+          "source_reaches_IC": false,
+          "source_reaches_vias": [],
+          "source_via_count": 0,
+          "connected_item_count": 2
+        },
+        "TVS_landing_is_required_for_IC_path": true,
+        "no_via_before_TVS": true,
+        "no_via_before_TVS_required": true,
+        "entry_via_policy": "none"
+      },
+      "D7.1": {
+        "net": "/SWCLK",
+        "source": "J8.1",
+        "target": "U2.17",
+        "normal": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "41807256-542f-4e11-af12-f879e81dd8d3",
+            "91840650-4d9d-4f4e-8848-1688b00d7766"
+          ],
+          "source_via_count": 2,
+          "connected_item_count": 17
+        },
+        "without_TVS_signal_pad_copper": {
+          "source_found": true,
+          "source_reaches_IC": false,
+          "source_reaches_vias": [],
+          "source_via_count": 0,
+          "connected_item_count": 2
+        },
+        "TVS_landing_is_required_for_IC_path": true,
+        "no_via_before_TVS": true,
+        "no_via_before_TVS_required": true,
+        "entry_via_policy": "none"
+      },
+      "D8.1": {
+        "net": "/NRST",
+        "source": "J9.1",
+        "target": "U2.4",
+        "normal": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "14293515-030e-40be-aa53-bf1b8f4e4967"
+          ],
+          "source_via_count": 1,
+          "connected_item_count": 22
+        },
+        "without_TVS_signal_pad_copper": {
+          "source_found": true,
+          "source_reaches_IC": true,
+          "source_reaches_vias": [
+            "14293515-030e-40be-aa53-bf1b8f4e4967"
+          ],
+          "source_via_count": 1,
+          "connected_item_count": 21
+        },
+        "TVS_landing_is_required_for_IC_path": false,
+        "no_via_before_TVS": false,
+        "no_via_before_TVS_required": false,
+        "entry_via_policy": "allowed: D8 is on B.Cu"
+      }
+    },
+    "errors": [
+      {
+        "code": "ESD_TVS_PAD_BYPASS",
+        "message": "J9.1 reaches U2.4 without D8.1 copper",
+        "TVS_signal_pad": "D8.1"
+      }
+    ],
+    "method": "Native copper connectivity with only the TVS signal-pad object omitted on scratch boards; no transient ESD simulation."
+  },
+  "netlist_sha256": "7f95e06dbb5cade7def43a05cf54f6916809db81b81b5c82336fcfd35822c2e0",
+  "source_schematic_sha256": "e1cdefe5d62b78ed0b9b1db4ea94b3c9401e09b240f93669e1414f619b9c200a"
+}

@@ -1,0 +1,21 @@
+{
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "candidate_sha256": "236cf9f6485aeb529e8032475282b8b12808d03559d3264bf8f1d79c1e4bdc99",
+  "candidate_file": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\u2_west_review_20261007\\placement\\ppg_pcb_v08_refined.kicad_pcb",
+  "recommended_U2_west_mm": 1.8,
+  "U2_y_delta_mm": 0,
+  "new_component_body_courtyard_pad_violations": 0,
+  "final_refinement": "R1/R2/C4 X21.00 ->21.20mm frees C4 escape corridor",
+  "verification_scope": "Bottom placement and independent local pad-to-via escapes only. Existing affected tracks/vias were excluded from obstacle analysis with a full recorded list. Their removal/rerouting is a prerequisite. NOT simultaneous complete routing or final DRC.",
+  "remaining_for_implementation": [
+    "Rebuild mutually compatible escape traces/vias and complete the interconnections",
+    "Keep C4 VLDO connection and return short; its direct endpoint distance increases from1.09 to1.91mm",
+    "Verify D8 external-pad -> TVS contact -> protected IC routing",
+    "Refill six GND layers and verify rim/plane connectivity, DRC and net parity"
+  ],
+  "canonical_unchanged": true,
+  "backup": "backups/20261007_before_U2_move/PPG_PCB_v08_before_U2_move.zip",
+  "gerbers_generated": false,
+  "git_pushed": false,
+  "independent_local_escape_result": "17/17 selected major pad escapes valid individually in final refined placement; simultaneous mutual compatibility NOT proven."
+}

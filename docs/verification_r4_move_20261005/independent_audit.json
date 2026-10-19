@@ -1,0 +1,1569 @@
+{
+  "ok": true,
+  "electrical_routing_and_preservation_pass": true,
+  "full_drc_pass": true,
+  "input_sha256": {
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\r4_move_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pcb": "b155d6261735d3d23ba6ff1f02000b67d323d9c18ffc712be76f86a0421aa80d",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_r4_move_20261005\\ppg_pcb_v08.kicad_pcb": "42bf5059d9635a8967bbfbb1281c3d1b2446fac0ca8a0384739d25c2a11f268b",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\r4_move_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\r4_move_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pro": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\r4_move_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_r4_move_20261005\\ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_r4_move_20261005\\ppg_pcb_v08.kicad_pro": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_r4_move_20261005\\ppg_pcb_v08.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c"
+  },
+  "counts": {
+    "refs": 39,
+    "physical_pads": 143,
+    "numbered_pin_nets": 119,
+    "tracks": 321,
+    "vias": 71
+  },
+  "footprint_changes": [
+    {
+      "reference": "C7",
+      "before": {
+        "xy_mm": [
+          20.0,
+          12.33
+        ],
+        "rotation_deg": 90.0,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "xy_mm": [
+          20.025,
+          12.33
+        ],
+        "rotation_deg": 90.0,
+        "layer": "B.Cu"
+      }
+    },
+    {
+      "reference": "R4",
+      "before": {
+        "xy_mm": [
+          20.7,
+          12.1
+        ],
+        "rotation_deg": 90.0,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "xy_mm": [
+          20.05,
+          14.55
+        ],
+        "rotation_deg": 90.0,
+        "layer": "B.Cu"
+      }
+    }
+  ],
+  "footprint_metadata_changes": [],
+  "current_key_placements": {
+    "R4": {
+      "xy_mm": [
+        20.05,
+        14.55
+      ],
+      "rotation_deg": 90.0,
+      "layer": "B.Cu"
+    },
+    "C7": {
+      "xy_mm": [
+        20.025,
+        12.33
+      ],
+      "rotation_deg": 90.0,
+      "layer": "B.Cu"
+    },
+    "D1": {
+      "xy_mm": [
+        17.8,
+        11.5011
+      ],
+      "rotation_deg": 180.0,
+      "layer": "B.Cu"
+    }
+  },
+  "model_placement_matches": true,
+  "companion_protection": {
+    ".kicad_sch_unchanged": true,
+    ".kicad_dru_unchanged": true,
+    "rules_unchanged": true,
+    "rule_severities_unchanged": true,
+    "drc_exclusions_unchanged": true
+  },
+  "protected_pin_nets": {
+    "U1.3": "/LDO_EN",
+    "D1.1": "/12V_IN",
+    "D1.2": "GND",
+    "D8.1": "/NRST",
+    "D8.2": "GND",
+    "D6.1": "/SWDIO",
+    "D6.2": "GND",
+    "D7.1": "/SWCLK",
+    "D7.2": "GND",
+    "U2.12": "/LDO_EN"
+  },
+  "via_changes": {
+    "existing_uuid_preserved": 70,
+    "existing_geometry_unchanged": 68,
+    "protected_via_uuids": [
+      "03792694-29a0-4ed2-be65-a93a04eea25b",
+      "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+      "19804070-807c-45f5-949e-cd735efde261",
+      "20c04e43-1175-4aed-9d8d-6f1004e36622",
+      "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+      "30984af8-1f2b-429b-9bd4-83b89c5beb00",
+      "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+      "4333f549-9bfb-4e25-abdd-b191d0e772ac",
+      "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+      "56bd287b-d09e-48a3-9386-4eb97c39bcef",
+      "5b5ac3f3-b7a1-4f21-8dd1-9f7a1ec4ee17",
+      "5d03fae9-f633-4fee-829f-3eb439dd1a95",
+      "6afcebf3-1127-453f-9bad-8430d4659d52",
+      "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+      "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+      "85a17963-32df-4f82-be30-8121de561108",
+      "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+      "aec724d7-910d-4476-8596-faf5ed9c4c91",
+      "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+      "ba4b0e20-11d7-480b-b57b-c8d9dee0a594",
+      "bc76e89f-9edc-40b5-b8af-db6f11fa159d",
+      "bd9d5774-5014-4735-9041-fa644e39e5f9",
+      "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+      "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+      "c2e79e30-a27a-47f1-bc52-25768a926ce3",
+      "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+      "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+      "f325569b-6061-4dac-88d6-3af441c5d35d",
+      "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+      "fe883c48-7a35-4659-9976-e7dec80feb2f"
+    ],
+    "explicit_redundant_removal_allowance": [
+      "992c83f5-fd95-4204-9642-0c926cd0b911",
+      "b398e2f8-c7d2-4f5e-b2a1-d7898cf59c9e",
+      "e9d6d70f-6971-4717-9718-6e4aac90142a"
+    ],
+    "explicit_local_move_allowance": [
+      "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+      "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981"
+    ],
+    "removed": [
+      {
+        "uuid": "992c83f5-fd95-4204-9642-0c926cd0b911",
+        "net": "/UART_TX",
+        "group": "signal",
+        "xy_mm": [
+          20.35,
+          14.05
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "b398e2f8-c7d2-4f5e-b2a1-d7898cf59c9e",
+        "net": "/UART_TX",
+        "group": "signal",
+        "xy_mm": [
+          25.725,
+          16.85
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "e9d6d70f-6971-4717-9718-6e4aac90142a",
+        "net": "3V3",
+        "group": "power_reference",
+        "xy_mm": [
+          25.225,
+          16.35
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "via_type": 4
+      }
+    ],
+    "changed": [
+      {
+        "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+        "before": {
+          "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+          "net": "12V",
+          "group": "power_reference",
+          "xy_mm": [
+            19.8315,
+            13.6211
+          ],
+          "diameter_mm": 0.5,
+          "drill_mm": 0.25,
+          "via_type": 4
+        },
+        "after": {
+          "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+          "net": "12V",
+          "group": "power_reference",
+          "xy_mm": [
+            19.844,
+            13.6086
+          ],
+          "diameter_mm": 0.5,
+          "drill_mm": 0.25,
+          "via_type": 4
+        }
+      },
+      {
+        "uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981",
+        "before": {
+          "uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981",
+          "net": "/SCL",
+          "group": "signal",
+          "xy_mm": [
+            19.8148,
+            15.2148
+          ],
+          "diameter_mm": 0.5,
+          "drill_mm": 0.2,
+          "via_type": 4
+        },
+        "after": {
+          "uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981",
+          "net": "/SCL",
+          "group": "signal",
+          "xy_mm": [
+            20.6398,
+            14.6023
+          ],
+          "diameter_mm": 0.5,
+          "drill_mm": 0.2,
+          "via_type": 4
+        }
+      }
+    ],
+    "added": [
+      {
+        "uuid": "8c5703f1-e8fa-47be-9ebf-2cf382c221df",
+        "net": "/SCL",
+        "group": "signal",
+        "xy_mm": [
+          17.7,
+          14.7375
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      }
+    ]
+  },
+  "track_geometry_changes": {
+    "nets": [
+      "/SCL",
+      "/UART_TX",
+      "12V",
+      "3V3",
+      "GND"
+    ],
+    "allowed_nets": [
+      "12V",
+      "3V3",
+      "GND",
+      "SCL",
+      "UART_TX"
+    ],
+    "added": [
+      [
+        "/SCL",
+        "F.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.05,
+            15.8
+          ],
+          [
+            19.5,
+            15.5648
+          ]
+        ],
+        0.507759
+      ],
+      [
+        "/SCL",
+        "F.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.5,
+            15.5648
+          ],
+          [
+            20.6398,
+            14.6023
+          ]
+        ],
+        1.491828
+      ],
+      [
+        "/SCL",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            17.1734,
+            15.8827
+          ],
+          [
+            17.7,
+            14.7375
+          ]
+        ],
+        1.260472
+      ],
+      [
+        "/SCL",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            18.35,
+            14.9148
+          ],
+          [
+            20.6398,
+            14.6023
+          ]
+        ],
+        2.311026
+      ],
+      [
+        "/SCL",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            20.6398,
+            14.6023
+          ],
+          [
+            21.1398,
+            16.4023
+          ]
+        ],
+        1.868154
+      ],
+      [
+        "/SCL",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            17.7,
+            14.7375
+          ],
+          [
+            18.35,
+            14.9148
+          ]
+        ],
+        0.673747
+      ],
+      [
+        "/SCL",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            21.1398,
+            16.4023
+          ],
+          [
+            21.995,
+            17.275
+          ]
+        ],
+        1.221872
+      ],
+      [
+        "GND",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.69,
+            12.01
+          ],
+          [
+            20.025,
+            12.01
+          ]
+        ],
+        0.335
+      ],
+      [
+        "3V3",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            20.05,
+            14.23
+          ],
+          [
+            21.03602,
+            13.544277
+          ]
+        ],
+        1.201021
+      ],
+      [
+        "3V3",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.1763,
+            12.65
+          ],
+          [
+            20.025,
+            12.65
+          ]
+        ],
+        0.8487
+      ],
+      [
+        "12V",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.844,
+            13.6086
+          ],
+          [
+            19.9789,
+            13.6211
+          ]
+        ],
+        0.135478
+      ],
+      [
+        "12V",
+        "In4.Cu",
+        "PCB_TRACK",
+        0.3,
+        [
+          [
+            19.844,
+            13.6086
+          ],
+          [
+            20.2526,
+            13.2
+          ]
+        ],
+        0.577848
+      ],
+      [
+        "/UART_TX",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            20.05,
+            14.87
+          ],
+          [
+            20.675,
+            15.275
+          ]
+        ],
+        0.744748
+      ]
+    ],
+    "removed": [
+      [
+        "/SCL",
+        "F.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.475,
+            15.6
+          ],
+          [
+            19.8148,
+            15.2148
+          ]
+        ],
+        0.513657
+      ],
+      [
+        "/SCL",
+        "F.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.05,
+            15.8
+          ],
+          [
+            19.475,
+            15.6
+          ]
+        ],
+        0.469707
+      ],
+      [
+        "/SCL",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            17.5672,
+            15.8827
+          ],
+          [
+            18.1182,
+            15.3317
+          ]
+        ],
+        0.779232
+      ],
+      [
+        "/SCL",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            17.1734,
+            15.8827
+          ],
+          [
+            17.5672,
+            15.8827
+          ]
+        ],
+        0.3938
+      ],
+      [
+        "/SCL",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.698,
+            15.3316
+          ],
+          [
+            19.698,
+            15.3317
+          ]
+        ],
+        0.0001
+      ],
+      [
+        "/SCL",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.698,
+            15.3316
+          ],
+          [
+            19.8148,
+            15.2148
+          ]
+        ],
+        0.16518
+      ],
+      [
+        "/SCL",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            18.1182,
+            15.3317
+          ],
+          [
+            19.698,
+            15.3317
+          ]
+        ],
+        1.5798
+      ],
+      [
+        "/SCL",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.8148,
+            15.2148
+          ],
+          [
+            21.995,
+            17.275
+          ]
+        ],
+        2.999616
+      ],
+      [
+        "GND",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.69,
+            12.01
+          ],
+          [
+            20.0,
+            12.01
+          ]
+        ],
+        0.31
+      ],
+      [
+        "3V3",
+        "B.Cu",
+        "PCB_TRACK",
+        0.2,
+        [
+          [
+            25.225,
+            16.35
+          ],
+          [
+            25.43,
+            15.9
+          ]
+        ],
+        0.494495
+      ],
+      [
+        "3V3",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.1763,
+            12.65
+          ],
+          [
+            20.0,
+            12.65
+          ]
+        ],
+        0.8237
+      ],
+      [
+        "3V3",
+        "In3.Cu",
+        "PCB_TRACK",
+        0.4,
+        [
+          [
+            24.7,
+            16.149999
+          ],
+          [
+            25.35,
+            16.2
+          ]
+        ],
+        0.65192
+      ],
+      [
+        "12V",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            19.8315,
+            13.6211
+          ],
+          [
+            19.9789,
+            13.6211
+          ]
+        ],
+        0.1474
+      ],
+      [
+        "12V",
+        "In4.Cu",
+        "PCB_TRACK",
+        0.3,
+        [
+          [
+            19.8315,
+            13.6211
+          ],
+          [
+            20.2526,
+            13.2
+          ]
+        ],
+        0.595525
+      ],
+      [
+        "/UART_TX",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            20.35,
+            14.05
+          ],
+          [
+            20.35,
+            14.9
+          ]
+        ],
+        0.85
+      ],
+      [
+        "/UART_TX",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            20.35,
+            14.9
+          ],
+          [
+            20.6419,
+            15.3
+          ]
+        ],
+        0.495182
+      ],
+      [
+        "/UART_TX",
+        "B.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            25.725,
+            16.85
+          ],
+          [
+            26.07,
+            15.9
+          ]
+        ],
+        1.010705
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.18,
+            16.79
+          ],
+          [
+            23.76,
+            17.38
+          ]
+        ],
+        0.827345
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.97,
+            18.26
+          ],
+          [
+            24.14,
+            18.33
+          ]
+        ],
+        0.183848
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            24.34,
+            18.33
+          ],
+          [
+            24.53,
+            18.25
+          ]
+        ],
+        0.206155
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.1,
+            16.61
+          ],
+          [
+            23.18,
+            16.79
+          ]
+        ],
+        0.196977
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.82,
+            18.1
+          ],
+          [
+            23.97,
+            18.26
+          ]
+        ],
+        0.219317
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            24.53,
+            18.25
+          ],
+          [
+            25.725,
+            16.85
+          ]
+        ],
+        1.840659
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            24.14,
+            18.33
+          ],
+          [
+            24.34,
+            18.33
+          ]
+        ],
+        0.2
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.76,
+            17.38
+          ],
+          [
+            23.76,
+            17.92
+          ]
+        ],
+        0.54
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            22.31,
+            15.47
+          ],
+          [
+            23.09,
+            16.25
+          ]
+        ],
+        1.103087
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.76,
+            17.92
+          ],
+          [
+            23.82,
+            18.1
+          ]
+        ],
+        0.189737
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            23.09,
+            16.25
+          ],
+          [
+            23.1,
+            16.61
+          ]
+        ],
+        0.360139
+      ],
+      [
+        "/UART_TX",
+        "In2.Cu",
+        "PCB_TRACK",
+        0.15,
+        [
+          [
+            20.35,
+            14.05
+          ],
+          [
+            22.31,
+            15.47
+          ]
+        ],
+        2.420331
+      ]
+    ]
+  },
+  "zones_definitions_unchanged": true,
+  "baseline_statistics": {
+    "copper_layers": 6,
+    "thickness_mm": 0.8,
+    "trace_count": 337,
+    "via_count": 73,
+    "via_types": {
+      "4": 73
+    },
+    "non_through_via_uuids": [],
+    "via_sizes_mm": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "layers": {
+      "F.Cu": {
+        "trace_count": 36,
+        "trace_length_mm": 29.245798558083884,
+        "trace_length_by_net_mm": {
+          "/LDO_EN": 0.574853520852113,
+          "/NRST": 2.995384373943146,
+          "/SCL": 0.9833639335819897,
+          "/SDA": 1.5750095677683063,
+          "/SWCLK": 2.8507599371442884,
+          "/SWDIO": 1.9303885619221846,
+          "/VLDO": 3.303728427284258,
+          "/VREF": 7.203887498253951,
+          "3V3": 2.786413465370852,
+          "5V_LED": 3.0312736492102235,
+          "GND": 2.0107356227525717
+        },
+        "ground_saved_fill_area_mm2": 94.200744391438,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 73
+      },
+      "In1.Cu": {
+        "trace_count": 0,
+        "trace_length_mm": 0,
+        "trace_length_by_net_mm": {},
+        "ground_saved_fill_area_mm2": 102.4043971962865,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "In2.Cu": {
+        "trace_count": 48,
+        "trace_length_mm": 45.77968179747516,
+        "trace_length_by_net_mm": {
+          "/NRST": 1.8008678463452001,
+          "/RXN": 3.666968110626114,
+          "/RXP_RCV": 3.873103125626829,
+          "/SCL": 2.999615988755894,
+          "/SDA": 5.484981913648152,
+          "/SWDIO": 2.7656190998254004,
+          "/TXN_DRV": 5.127789554151649,
+          "/TXP": 3.0526253119243085,
+          "/UART_RX": 5.446835591295861,
+          "/UART_TX": 8.287593979833947,
+          "5V_LED": 3.273681275441816
+        },
+        "ground_saved_fill_area_mm2": 23.6807585376085,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "In3.Cu": {
+        "trace_count": 50,
+        "trace_length_mm": 54.04660887175328,
+        "trace_length_by_net_mm": {
+          "/NRST": 2.425,
+          "/RXP": 4.6282421068911255,
+          "/SWCLK": 3.5208309275611818,
+          "/SWDIO": 3.3024612034057266,
+          "12V": 9.540333965991143,
+          "3V3": 30.629740667904098
+        },
+        "ground_saved_fill_area_mm2": 23.6739730466365,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "In4.Cu": {
+        "trace_count": 6,
+        "trace_length_mm": 5.947549030298175,
+        "trace_length_by_net_mm": {
+          "/TXP_DRV": 3.6318314930470788,
+          "12V": 2.3157175372510963
+        },
+        "ground_saved_fill_area_mm2": 99.976780751076,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "B.Cu": {
+        "trace_count": 197,
+        "trace_length_mm": 71.05567667787739,
+        "trace_length_by_net_mm": {
+          "/12V_IN": 2.5192544725075505,
+          "/LDO_EN": 0.5024552553744328,
+          "/NRST": 1.508,
+          "/RXN": 3.3338722772768534,
+          "/RXN_RCV": 0.9394147114027968,
+          "/RXP": 2.0699673652161854,
+          "/RXP_RCV": 1.2078832702682332,
+          "/SCL": 3.471211825992709,
+          "/SDA": 1.3117432764336974,
+          "/SWCLK": 2.778647337864796,
+          "/SWDIO": 0.7356203532749281,
+          "/TXN": 1.4295041630560343,
+          "/TXN_DRV": 1.1948510744804375,
+          "/TXP": 1.2383241156326839,
+          "/TXP_DRV": 0.9456581840494402,
+          "/UART_RX": 3.9130611203315726,
+          "/UART_TX": 4.298166785654404,
+          "/VLDO": 0.9221046173579948,
+          "/VREF": 0.5525396462005392,
+          "12V": 2.8778873436799355,
+          "3V3": 10.145257875410156,
+          "5V_LED": 5.702211968662734,
+          "GND": 17.458039637749266
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 73
+      }
+    }
+  },
+  "candidate_statistics": {
+    "copper_layers": 6,
+    "thickness_mm": 0.8,
+    "trace_count": 321,
+    "via_count": 71,
+    "via_types": {
+      "4": 71
+    },
+    "non_through_via_uuids": [],
+    "via_sizes_mm": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "layers": {
+      "F.Cu": {
+        "trace_count": 36,
+        "trace_length_mm": 30.26202130013866,
+        "trace_length_by_net_mm": {
+          "/LDO_EN": 0.574853520852113,
+          "/NRST": 2.995384373943146,
+          "/SCL": 1.9995866756367648,
+          "/SDA": 1.5750095677683063,
+          "/SWCLK": 2.8507599371442884,
+          "/SWDIO": 1.9303885619221846,
+          "/VLDO": 3.303728427284258,
+          "/VREF": 7.203887498253951,
+          "3V3": 2.786413465370852,
+          "5V_LED": 3.0312736492102235,
+          "GND": 2.0107356227525717
+        },
+        "ground_saved_fill_area_mm2": 93.913689338303,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 71
+      },
+      "In1.Cu": {
+        "trace_count": 0,
+        "trace_length_mm": 0,
+        "trace_length_by_net_mm": {},
+        "ground_saved_fill_area_mm2": 103.592236550622,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 71
+      },
+      "In2.Cu": {
+        "trace_count": 39,
+        "trace_length_mm": 40.56727147630224,
+        "trace_length_by_net_mm": {
+          "/NRST": 1.8008678463452001,
+          "/RXN": 3.666968110626114,
+          "/RXP_RCV": 3.873103125626829,
+          "/SCL": 6.074799647416915,
+          "/SDA": 5.484981913648152,
+          "/SWDIO": 2.7656190998254004,
+          "/TXN_DRV": 5.127789554151649,
+          "/TXP": 3.0526253119243085,
+          "/UART_RX": 5.446835591295861,
+          "5V_LED": 3.273681275441816
+        },
+        "ground_saved_fill_area_mm2": 23.9423972091005,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 71
+      },
+      "In3.Cu": {
+        "trace_count": 49,
+        "trace_length_mm": 53.39468855453575,
+        "trace_length_by_net_mm": {
+          "/NRST": 2.425,
+          "/RXP": 4.6282421068911255,
+          "/SWCLK": 3.5208309275611818,
+          "/SWDIO": 3.3024612034057266,
+          "12V": 9.540333965991143,
+          "3V3": 29.97782035068657
+        },
+        "ground_saved_fill_area_mm2": 23.93710309588,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 71
+      },
+      "In4.Cu": {
+        "trace_count": 6,
+        "trace_length_mm": 5.929871360768511,
+        "trace_length_by_net_mm": {
+          "/TXP_DRV": 3.6318314930470788,
+          "12V": 2.2980398677214326
+        },
+        "ground_saved_fill_area_mm2": 101.1601864908725,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 71
+      },
+      "B.Cu": {
+        "trace_count": 191,
+        "trace_length_mm": 68.53150212830022,
+        "trace_length_by_net_mm": {
+          "/12V_IN": 2.5192544725075505,
+          "/LDO_EN": 0.5024552553744328,
+          "/NRST": 1.508,
+          "/RXN": 3.3338722772768534,
+          "/RXN_RCV": 0.9394147114027968,
+          "/RXP": 2.0699673652161854,
+          "/RXP_RCV": 1.2078832702682332,
+          "/SCL": 1.8135723808117459,
+          "/SDA": 1.3117432764336974,
+          "/SWCLK": 2.778647337864796,
+          "/SWDIO": 0.7356203532749281,
+          "/TXN": 1.4295041630560343,
+          "/TXN_DRV": 1.1948510744804375,
+          "/TXP": 1.2383241156326839,
+          "/TXP_DRV": 0.9456581840494402,
+          "/UART_RX": 3.9130611203315726,
+          "/UART_TX": 2.6870274651857056,
+          "/VLDO": 0.9221046173579948,
+          "/VREF": 0.5525396462005392,
+          "12V": 2.865965238555816,
+          "3V3": 10.876784196606762,
+          "5V_LED": 5.702211968662734,
+          "GND": 17.483039637749265
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 71
+      }
+    }
+  },
+  "l5_paths": [
+    {
+      "net": "/TXP_DRV",
+      "length_mm": 3.6318314930470788,
+      "segment_count": 3,
+      "touched_vias": [
+        {
+          "uuid": "1b2f79e2-bd74-4382-9704-ad7bbb2e1845",
+          "xy_mm": [
+            22.95,
+            17.375
+          ]
+        },
+        {
+          "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+          "xy_mm": [
+            23.875,
+            13.95
+          ]
+        }
+      ],
+      "endpoints_or_junctions": [
+        {
+          "xy_mm": [
+            22.95,
+            17.375
+          ],
+          "endpoint_degree": 1
+        },
+        {
+          "xy_mm": [
+            23.875,
+            13.95
+          ],
+          "endpoint_degree": 1
+        }
+      ],
+      "segments": [
+        {
+          "uuid": "35ffaa49-0886-454e-95d6-d9e0db77d617",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.08,
+            15.64
+          ],
+          "z_mm": [
+            23.08,
+            17.1
+          ],
+          "via": false,
+          "width_mm": 0.15,
+          "length_mm": 1.46
+        },
+        {
+          "uuid": "bd7bc450-5a7c-4e0f-9333-a7a7442fb9ef",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.08,
+            17.1
+          ],
+          "z_mm": [
+            22.95,
+            17.375
+          ],
+          "via": false,
+          "width_mm": 0.15,
+          "length_mm": 0.30417922348510257
+        },
+        {
+          "uuid": "db26a86c-9e61-4d77-b019-ca97af6974cc",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.875,
+            13.95
+          ],
+          "z_mm": [
+            23.08,
+            15.64
+          ],
+          "via": false,
+          "width_mm": 0.15,
+          "length_mm": 1.867652269561976
+        }
+      ]
+    },
+    {
+      "net": "12V",
+      "length_mm": 2.2980398677214326,
+      "segment_count": 3,
+      "touched_vias": [
+        {
+          "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+          "xy_mm": [
+            19.844,
+            13.6086
+          ]
+        },
+        {
+          "uuid": "5d03fae9-f633-4fee-829f-3eb439dd1a95",
+          "xy_mm": [
+            21.6,
+            12.3
+          ]
+        }
+      ],
+      "endpoints_or_junctions": [
+        {
+          "xy_mm": [
+            19.844,
+            13.6086
+          ],
+          "endpoint_degree": 1
+        },
+        {
+          "xy_mm": [
+            21.6,
+            12.3
+          ],
+          "endpoint_degree": 1
+        }
+      ],
+      "segments": [
+        {
+          "uuid": "8eb2aecc-9ab5-4102-9760-da3e01d7a370",
+          "net": "12V",
+          "layer": "In4.Cu",
+          "a_mm": [
+            20.7,
+            13.2
+          ],
+          "z_mm": [
+            20.2526,
+            13.2
+          ],
+          "via": false,
+          "width_mm": 0.3,
+          "length_mm": 0.4474
+        },
+        {
+          "uuid": "cab10f4f-ef12-421d-84f8-4929195dffa4",
+          "net": "12V",
+          "layer": "In4.Cu",
+          "a_mm": [
+            21.6,
+            12.3
+          ],
+          "z_mm": [
+            20.7,
+            13.2
+          ],
+          "via": false,
+          "width_mm": 0.3,
+          "length_mm": 1.2727922061357857
+        },
+        {
+          "uuid": "da5c6412-6f13-4a2a-9337-5f5b1985594a",
+          "net": "12V",
+          "layer": "In4.Cu",
+          "a_mm": [
+            20.2526,
+            13.2
+          ],
+          "z_mm": [
+            19.844,
+            13.6086
+          ],
+          "via": false,
+          "width_mm": 0.3,
+          "length_mm": 0.5778476615856467
+        }
+      ]
+    }
+  ],
+  "via_policy": {
+    "ok": true,
+    "minimum_track_width_mm": 0.15,
+    "track_width_counts": {
+      "0.15": 234,
+      "0.2": 40,
+      "0.3": 12,
+      "0.4": 35
+    },
+    "via_groups": {
+      "signal": 28,
+      "power_reference": 15,
+      "ground": 28
+    },
+    "via_sizes": [
+      {
+        "group": "ground",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 28
+      },
+      {
+        "group": "power_reference",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "count": 15
+      },
+      {
+        "group": "signal",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 28
+      }
+    ],
+    "power_reference_nets": [
+      "12V",
+      "12V_IN",
+      "3V3",
+      "5V_LED",
+      "VLDO",
+      "VREF"
+    ],
+    "errors": []
+  },
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 94,
+    "ground_plane_layers": [
+      "In1.Cu",
+      "In4.Cu"
+    ],
+    "ground_plane_track_count": 6,
+    "l2_track_count": 0,
+    "l5_track_count": 6,
+    "l5_trace_length_mm": 5.929871360768511,
+    "signal_layer_tracks": {
+      "In2.Cu": 39,
+      "In3.Cu": 49,
+      "In4.Cu": 6
+    },
+    "power_layer": "In3.Cu",
+    "power_3V3_track_count": 35,
+    "power_3V3_widths_mm": [
+      0.4
+    ],
+    "ground_rim": {
+      "ok": true,
+      "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+      "layers": {
+        "F.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.53,
+          "checked_width_mm": 0.3250000000000002,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In1.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In2.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In3.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In4.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        }
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "supplied_ground_connectivity": {
+    "path": "docs\\review_r4_move_20261005\\ground_rim.json",
+    "sha256": "acd560b76bacd4f4f29c3c7f1b365a941078409e8fcaf96f9c9f861409463d16",
+    "board_sha256": "42bf5059d9635a8967bbfbb1281c3d1b2446fac0ca8a0384739d25c2a11f268b",
+    "strict_saved_polygon_model_pass": true,
+    "graph": {
+      "anchor": "J2.1",
+      "anchor_found": true,
+      "copper_component_nodes": 50,
+      "reachable_nodes": 50,
+      "contact_tolerance_mm": 2e-05,
+      "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+    }
+  },
+  "supplied_drc": {
+    "sha256": "85ae06bfba22246df1e2d133de6bc030972338ebf3bc5d8d22df48ea88f48380",
+    "errors": 0,
+    "courtyard_errors": 0,
+    "other_errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "parity": 0,
+    "remaining_courtyard_violations": [],
+    "warning_types": {
+      "silk_edge_clearance": 4,
+      "lib_footprint_mismatch": 1
+    },
+    "existing_warning_identities_unchanged": true,
+    "warning_reference_report": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_via_split_20261005\\drc.json"
+  },
+  "issues": [],
+  "review_items": [],
+  "notes": [
+    "Only an explicitly frozen candidate is audited. No source or candidate file was saved or refilled.",
+    "The latest request permits necessary local placement changes; every placement change is listed while local pad construction, UUIDs and nets remain protected.",
+    "Courtyard errors fail the latest assembly-clearance request; they are not excluded or downgraded."
+  ]
+}

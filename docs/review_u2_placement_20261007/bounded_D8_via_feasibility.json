@@ -1,0 +1,294 @@
+{
+  "A": {
+    "tested_count": 12,
+    "legal": [
+      {
+        "xy": [
+          16.0,
+          19.0
+        ],
+        "foreign_copper_gap_mm": 0.15311288741492834,
+        "drill_to_pad_gap_mm": 0.30311288741492837,
+        "hole_hole_gap_mm": 0.8630145812734651,
+        "external_via_copper_gap_mm": 0.563014581273465,
+        "all_fixed_copper_pass": true,
+        "D8_upper_edge_direct_trace_gap_mm": 0.2254163777159944,
+        "direct_trace_pass": true
+      }
+    ],
+    "checks": [
+      {
+        "xy": [
+          16.0,
+          19.0
+        ],
+        "foreign_copper_gap_mm": 0.15311288741492834,
+        "drill_to_pad_gap_mm": 0.30311288741492837,
+        "hole_hole_gap_mm": 0.8630145812734651,
+        "external_via_copper_gap_mm": 0.563014581273465,
+        "all_fixed_copper_pass": true,
+        "D8_upper_edge_direct_trace_gap_mm": 0.2254163777159944,
+        "direct_trace_pass": true
+      },
+      {
+        "xy": [
+          16.0,
+          19.05
+        ],
+        "foreign_copper_gap_mm": 0.1480077797129098,
+        "drill_to_pad_gap_mm": 0.2807886552931962,
+        "hole_hole_gap_mm": 0.8307764064044147,
+        "external_via_copper_gap_mm": 0.5307764064044147,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.0,
+          19.1
+        ],
+        "foreign_copper_gap_mm": 0.11265244065358182,
+        "drill_to_pad_gap_mm": 0.26400549446402666,
+        "hole_hole_gap_mm": 0.7999999999999994,
+        "external_via_copper_gap_mm": 0.49999999999999933,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.0,
+          19.15
+        ],
+        "foreign_copper_gap_mm": 0.07729710159425651,
+        "drill_to_pad_gap_mm": 0.2535533905932752,
+        "hole_hole_gap_mm": 0.770824391947381,
+        "external_via_copper_gap_mm": 0.4708243919473809,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.0
+        ],
+        "foreign_copper_gap_mm": 0.11055512754639912,
+        "drill_to_pad_gap_mm": 0.2605551275463991,
+        "hole_hole_gap_mm": 0.825914226434159,
+        "external_via_copper_gap_mm": 0.525914226434159,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.05
+        ],
+        "foreign_copper_gap_mm": 0.14051248379533327,
+        "drill_to_pad_gap_mm": 0.23541019662496845,
+        "hole_hole_gap_mm": 0.7924716620639595,
+        "external_via_copper_gap_mm": 0.4924716620639594,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.1
+        ],
+        "foreign_copper_gap_mm": 0.1480077797129098,
+        "drill_to_pad_gap_mm": 0.21622776601683794,
+        "hole_hole_gap_mm": 0.7604686356149261,
+        "external_via_copper_gap_mm": 0.460468635614926,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.15
+        ],
+        "foreign_copper_gap_mm": 0.11265244065358443,
+        "drill_to_pad_gap_mm": 0.20413812651491178,
+        "hole_hole_gap_mm": 0.7300537618869142,
+        "external_via_copper_gap_mm": 0.43005376188691413,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.0
+        ],
+        "foreign_copper_gap_mm": 0.070156211871642,
+        "drill_to_pad_gap_mm": 0.220156211871642,
+        "hole_hole_gap_mm": 0.7899494936611656,
+        "external_via_copper_gap_mm": 0.4899494936611656,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.05
+        ],
+        "foreign_copper_gap_mm": 0.10355339059327379,
+        "drill_to_pad_gap_mm": 0.19154759474226427,
+        "hole_hole_gap_mm": 0.7552486587271385,
+        "external_via_copper_gap_mm": 0.4552486587271385,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.1
+        ],
+        "foreign_copper_gap_mm": 0.14051248379533327,
+        "drill_to_pad_gap_mm": 0.1692582403567244,
+        "hole_hole_gap_mm": 0.7219544457292868,
+        "external_via_copper_gap_mm": 0.42195444572928675,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.15
+        ],
+        "foreign_copper_gap_mm": 0.14800777971291235,
+        "drill_to_pad_gap_mm": 0.15495097567963936,
+        "hole_hole_gap_mm": 0.6902246907382427,
+        "external_via_copper_gap_mm": 0.3902246907382426,
+        "all_fixed_copper_pass": false
+      }
+    ]
+  },
+  "B": {
+    "tested_count": 12,
+    "legal": [],
+    "checks": [
+      {
+        "xy": [
+          16.0,
+          19.0
+        ],
+        "foreign_copper_gap_mm": 7.216449660063518e-16,
+        "drill_to_pad_gap_mm": 0.15000000000000072,
+        "hole_hole_gap_mm": 0.8630145812734651,
+        "external_via_copper_gap_mm": 0.563014581273465,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.0,
+          19.05
+        ],
+        "foreign_copper_gap_mm": 0.0415475947422661,
+        "drill_to_pad_gap_mm": 0.11213203435596475,
+        "hole_hole_gap_mm": 0.8307764064044147,
+        "external_via_copper_gap_mm": 0.5307764064044147,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.0,
+          19.1
+        ],
+        "foreign_copper_gap_mm": 0.08541019662497007,
+        "drill_to_pad_gap_mm": 0.08027756377320006,
+        "hole_hole_gap_mm": 0.7999999999999994,
+        "external_via_copper_gap_mm": 0.49999999999999933,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.0,
+          19.15
+        ],
+        "foreign_copper_gap_mm": 0.07729710159425651,
+        "drill_to_pad_gap_mm": 0.05811388300842121,
+        "hole_hole_gap_mm": 0.770824391947381,
+        "external_via_copper_gap_mm": 0.4708243919473809,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.0
+        ],
+        "foreign_copper_gap_mm": -0.026393202250021036,
+        "drill_to_pad_gap_mm": 0.12360679774997896,
+        "hole_hole_gap_mm": 0.825914226434159,
+        "external_via_copper_gap_mm": 0.525914226434159,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.05
+        ],
+        "foreign_copper_gap_mm": 0.019258240356725742,
+        "drill_to_pad_gap_mm": 0.08027756377319906,
+        "hole_hole_gap_mm": 0.7924716620639595,
+        "external_via_copper_gap_mm": 0.4924716620639594,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.1
+        ],
+        "foreign_copper_gap_mm": 0.06622776601683905,
+        "drill_to_pad_gap_mm": 0.041421356237309,
+        "hole_hole_gap_mm": 0.7604686356149261,
+        "external_via_copper_gap_mm": 0.460468635614926,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.05,
+          19.15
+        ],
+        "foreign_copper_gap_mm": 0.11265244065358443,
+        "drill_to_pad_gap_mm": 0.011803398874991072,
+        "hole_hole_gap_mm": 0.7300537618869142,
+        "external_via_copper_gap_mm": 0.43005376188691413,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.0
+        ],
+        "foreign_copper_gap_mm": -0.04384471871911749,
+        "drill_to_pad_gap_mm": 0.1061552812808825,
+        "hole_hole_gap_mm": 0.7899494936611656,
+        "external_via_copper_gap_mm": 0.4899494936611656,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.05
+        ],
+        "foreign_copper_gap_mm": 0.004950975679639369,
+        "drill_to_pad_gap_mm": 0.05811388300841783,
+        "hole_hole_gap_mm": 0.7552486587271385,
+        "external_via_copper_gap_mm": 0.4552486587271385,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.1
+        ],
+        "foreign_copper_gap_mm": 0.05413812651491179,
+        "drill_to_pad_gap_mm": 0.011803398874987894,
+        "hole_hole_gap_mm": 0.7219544457292868,
+        "external_via_copper_gap_mm": 0.42195444572928675,
+        "all_fixed_copper_pass": false
+      },
+      {
+        "xy": [
+          16.1,
+          19.15
+        ],
+        "foreign_copper_gap_mm": 0.10355339059327179,
+        "drill_to_pad_gap_mm": -0.02928932188134424,
+        "hole_hole_gap_mm": 0.6902246907382427,
+        "external_via_copper_gap_mm": 0.3902246907382426,
+        "all_fixed_copper_pass": false
+      }
+    ]
+  }
+}

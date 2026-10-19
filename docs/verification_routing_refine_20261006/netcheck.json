@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "footprints": 41,
+  "schematic_components": 41,
+  "numbered_pads": 123,
+  "schematic_nets": 48,
+  "top_references": [
+    "D6",
+    "D7",
+    "J10",
+    "J11",
+    "J7",
+    "J8",
+    "J9",
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 6,
+  "outline_radius_mm": 6.75,
+  "board_center_on_sheet_mm": [
+    20.0,
+    17.0
+  ],
+  "sheet_size_mm": [
+    40.0,
+    40.0
+  ],
+  "routing": {
+    "F.Cu": 35,
+    "via": 71,
+    "B.Cu": 172,
+    "In3.Cu": 69,
+    "In2.Cu": 46,
+    "In4.Cu": 20
+  },
+  "inner_layer_track_count": 135,
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 135,
+    "ground_plane_layers": [
+      "In1.Cu",
+      "In4.Cu"
+    ],
+    "gnd_pour_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "In3.Cu",
+      "In4.Cu",
+      "B.Cu"
+    ],
+    "gnd_pours": [
+      {
+        "layer": "F.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 97.161887272421
+      },
+      {
+        "layer": "B.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 53.3541593950455
+      },
+      {
+        "layer": "In1.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 104.0704280468625
+      },
+      {
+        "layer": "In2.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 89.20413242593
+      },
+      {
+        "layer": "In3.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 72.7416723473895
+      },
+      {
+        "layer": "In4.Cu",
+        "net": "GND",
+        "outline_holes": 0,
+        "filled_area_mm2": 99.3077842988305
+      }
+    ],
+    "ground_plane_track_count": 20,
+    "l2_track_count": 0,
+    "l5_track_count": 20,
+    "l5_trace_length_mm": 11.984833257033815,
+    "signal_layer_tracks": {
+      "In2.Cu": 46,
+      "In3.Cu": 69,
+      "In4.Cu": 20
+    },
+    "power_layer": "In3.Cu",
+    "power_3V3_track_count": 35,
+    "power_3V3_widths_mm": [
+      0.3,
+      0.4
+    ],
+    "ground_rim": {
+      "ok": true,
+      "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+      "layers": {
+        "F.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.53,
+          "checked_width_mm": 0.3250000000000002,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In1.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In2.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In3.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In4.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        }
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "via_policy": {
+    "ok": true,
+    "minimum_track_width_mm": 0.15,
+    "track_width_counts": {
+      "0.15": 247,
+      "0.2": 36,
+      "0.3": 25,
+      "0.4": 34
+    },
+    "via_groups": {
+      "signal": 27,
+      "power_reference": 15,
+      "ground": 29
+    },
+    "via_sizes": [
+      {
+        "group": "ground",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 29
+      },
+      {
+        "group": "power_reference",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "count": 15
+      },
+      {
+        "group": "signal",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 27
+      }
+    ],
+    "power_reference_nets": [
+      "12V",
+      "12V_IN",
+      "3V3",
+      "5V_LED",
+      "VLDO",
+      "VREF"
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\routing_refine_20261006\\candidate\\ppg_pcb_v08.kicad_pcb",
+  "schematic": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_sch"
+}

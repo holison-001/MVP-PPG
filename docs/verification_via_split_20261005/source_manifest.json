@@ -1,0 +1,57 @@
+{
+  "board_sha256": "aac0028466fd502155a5015fa0b8a99458f7701799ea9c1369310f41a707db56",
+  "baseline_board_sha256": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+  "validation": {
+    "erc_violations": 0,
+    "drc_errors": 0,
+    "existing_drc_warnings": 5,
+    "unconnected_items": 0,
+    "schematic_parity": 0,
+    "minimum_track_width_mm": 0.15,
+    "signal_ground_via_mm": [
+      0.5,
+      0.2
+    ],
+    "power_reference_via_mm": [
+      0.5,
+      0.25
+    ],
+    "added_ground_vias": 10,
+    "total_ground_vias": 29,
+    "total_vias": 73,
+    "ground_rim_saved_polygons_pass": true,
+    "new_ground_via_connectivity_pass": true
+  },
+  "limitations": [
+    "DRC evaluates retained project rules, not the full manufacturer fabrication profile.",
+    "Fabrication stackup, power-via annular ring and edge/hole copper exceptions remain manufacturing review items documented in README.",
+    "No Gerber, drill or BOM outputs were generated; no Git commit or push was performed in this phase."
+  ],
+  "sha256": {
+    "README.md": "4060cf110be6cb8de7683051dd9dded36be4e981185f60ec54942507524272a0",
+    "kicad/RS422_PCB_STATUS.md": "d63afb34bfb228a3d96b99565cbe93330a35ece2d07ba549f447150484f39100",
+    "kicad/ppg_pcb_v08.kicad_pcb": "aac0028466fd502155a5015fa0b8a99458f7701799ea9c1369310f41a707db56",
+    "kicad/ppg_pcb_v08.kicad_pro": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+    "kicad/ppg_pcb_v08.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+    "kicad/ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "kicad/via_policy_v08.py": "7ef3965d714fa106765ec016615237d1fc5bb9111017b38ebea3c1153388edfe",
+    "kicad/design_v08.py": "3021366e15051530782ea949f5c5490d19dda694cdba55be06097448dc0d9451",
+    "kicad/build_pcb_v08.py": "bd39c9ab119a434f3af4e779b5a8db3dbed7e28f8817fad8b19e4065bc96e5a9",
+    "kicad/netcheck_v08.py": "ee5746230e1c6c6621f8c70dae90a0f3566068a4daae7853f8ac2eaa07de5f40",
+    "kicad/layer_policy_v08.py": "40e15f6a0fd9e18b61c453dac1e5db70222196a8126d1d4c054c37a00848858b",
+    "kicad/ground_rim_v08.py": "5c3223387ad1bd2361309794685c1df8175d47d809b151c105ed85d608cb46d3",
+    "kicad/postroute_v08.py": "d25d21fbfcfba9454e6c6bc9a986c868f57beebcf7bdcc3b1216434dcd519697",
+    "kicad/run_v08.sh": "e9c97341372b24840d10773f399a3a70eb56d1749332ce63f2e94df36f654497",
+    "docs/verification_via_split_20261005/candidate_netcheck.json": "cb690e7b9695b40375bffdb197511f15c518c90bf59663ea6237078c46e13a43",
+    "docs/verification_via_split_20261005/drc.json": "80e63c5ee89bf5e4215c5ddfad9495a81c2f9dcbcdeda92606e7fc72714901fd",
+    "docs/verification_via_split_20261005/erc.json": "3ffb7b42862b715750ef8d690e1a503f85ec3ca1dced35521277b4e8d7873563",
+    "docs/verification_via_split_20261005/ground_rim.json": "eca2107a708135c5ba20b7bd68a2c61b80e5724f1c9dd5f82ed1d51d3267ec2d",
+    "docs/verification_via_split_20261005/independent_audit.json": "559eaee7669326118338457b46a4ed7121e73c157aa821348ae8415af77692a6",
+    "docs/verification_via_split_20261005/netcheck.json": "dfaee33eb9dbb8110a7bffc35729f94739ce86be2a2ef23dd936c80f2f603fa1",
+    "docs/verification_via_split_20261005/new_ground_via_audit.json": "5c5cb664434810597aab9f4141674e511c125658e9d3ed21c5a0d3047e328389",
+    "docs/review_via_split_20261005/layers/source_manifest.json": "7e3518bb87752ff70a43c48908d9381343993336cce3988e3c873a0a2b4cdd04",
+    "docs/review_via_split_20261005/pcb_change.json": "2344fddcf7875467df58d0052c2987edbd4c40c67ac1b787dead0310d2e9618c",
+    "docs/review_via_split_20261005/layers/six_layers.png": "9da1dfbdbb57ab2efa3a9185d9cee2f256d4b42eddfb463be62e3d84d3c64649",
+    "docs/review_via_split_20261005/layers/six_layers.svg": "8d519ea40f08fea2063aaa201f1e0f7f2c2f5615b28dae34572690d7cb973245"
+  }
+}

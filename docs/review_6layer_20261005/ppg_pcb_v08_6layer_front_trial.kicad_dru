@@ -1,0 +1,11 @@
+(version 1)
+
+# User-requested top ground expansion; other copper keeps the 0.30 mm edge rule.
+(rule "F GND pour to board edge 0.20 mm"
+  (condition "A.Type == 'Zone' && A.Layer == 'F.Cu' && A.NetName == 'GND'")
+  (constraint edge_clearance (min 0.20mm)))
+
+# L2 is a dedicated GND plane. L5 may carry selected short detours.
+(rule "L2 GND plane no tracks"
+  (layer "In1.Cu")
+  (constraint disallow track))

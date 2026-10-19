@@ -1,0 +1,1217 @@
+{
+  "source_sha256": "914cfd30e2fe7c789235ae6b9359ea89543286b5d823b4c27cc959807f56516b",
+  "remove_ids": [
+    "064088b8-ecc8-4375-8977-834f72bf2466",
+    "0af168e1-9bdb-4ee1-b5f5-fe6b986b8be2",
+    "0ff5c04f-8bf1-4660-a716-b96ac614e0df",
+    "14ac5172-dc49-4e10-8d34-957681b41eb6",
+    "1846ad8f-fbac-4de4-b3db-4c14c004335f",
+    "2fccba6b-b243-491e-957a-282e0819bdd8",
+    "40f3d454-234f-4afd-9ce5-e449bd5b9f9a",
+    "5420ae3e-81c8-4c83-aee3-a8b30a95ab88",
+    "5d01351f-2050-400d-89ba-be6c1482cd87",
+    "626ea59e-e88f-41e1-a882-1278f05b7e26",
+    "63538e8a-4575-46f6-b917-daad08147c22",
+    "637378f6-196a-4ead-95ce-1b1d1a480ee1",
+    "6a937a0f-5877-489b-9211-8a8b8fdc090e",
+    "6e9d44cb-937e-42d6-b9ed-c73dca568cb4",
+    "736fa378-dde2-4b43-98e5-19cfe796ba37",
+    "745e9161-e658-4cc1-848e-eedea3474013",
+    "7580a1a7-250e-4917-ac87-13803d1480e1",
+    "76adceb7-3cf7-46ae-9be1-75d0b811aedb",
+    "77f3f47f-3c72-4e8e-8e2c-4e93122e3fd0",
+    "802bef38-4e79-4a64-8121-d756f21dcd2a",
+    "851d2036-a7f4-4d4a-a1df-bad74eead987",
+    "856d1d3d-03ca-4f07-82f4-a116ca4aa938",
+    "8c17dff5-d7e1-4cc8-ac2f-fe18091ba192",
+    "8e393978-7abf-46b2-be03-4c8a823fd16d",
+    "9336e3e1-50b7-4ab3-881e-32818aabfc92",
+    "9eec9f61-8d0b-4cb9-b62a-bd0a73c6d41f",
+    "ad1caf13-5b0c-4047-8b7e-71ada2f7788b",
+    "aee0db83-f5fd-45ac-a572-6c57bca73a60",
+    "b0ca565d-2e69-4ed7-81a4-fdb3c29054ff",
+    "b77a23e1-f2d9-4364-8011-c71a1cb2c1d9",
+    "ba38196b-c172-40bd-bb6e-cf96e10195ba",
+    "ba81c8de-dbae-42d3-9745-048338df72dc",
+    "bbe17536-13ef-449d-9e47-3d88d73ce915",
+    "bdcd1ff1-a470-4ad8-9e10-042c18dfc8ff",
+    "c212bfa9-14b6-4426-b3b5-1f61a27e393b",
+    "ca5d185b-18df-40d1-87ec-104f44a83797",
+    "caa4b215-b0a1-4359-8217-47a067f0ec30",
+    "cfbd0ddc-e885-48fe-999e-40f5aee18931",
+    "d547cbc4-f468-48e9-873c-34083bbc74ad",
+    "dd9cdddf-852c-4181-88e0-3c84458c7f2e",
+    "df2c281d-876f-464a-afdc-1ecb817b4dc1",
+    "e0f6b1f6-331e-43a5-bd53-6b1327629c1f",
+    "e9d9dfdd-1429-4dbe-9653-5eb95abb18c9",
+    "ebf377ad-c62e-4ab9-9381-7cca82c6bbb7",
+    "ed39d52b-10f3-4937-8a8c-3bd5ba183f24",
+    "ed58cbb4-0ebb-44a6-8de2-c02f2c13a764",
+    "f2801e60-5e73-4c91-9418-560cde5dda96",
+    "f7aed91f-f685-49c5-833e-b0cdadd96505",
+    "fc369dd6-5fc9-4644-8236-8acf81a34d2f"
+  ],
+  "placement_overrides": {
+    "C11": {
+      "position": [
+        18,
+        19.6
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    },
+    "U4": {
+      "position": [
+        18.7257,
+        21.7439
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    }
+  },
+  "new_items": [
+    {
+      "name": "5V_U1_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.05,
+        17.599999
+      ],
+      "end": [
+        19.432814,
+        17.727604
+      ],
+      "length_mm": 0.4035214921426114
+    },
+    {
+      "name": "5V_U1_1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.550078,
+        17.800077
+      ],
+      "end": [
+        19.655455,
+        17.905454
+      ],
+      "length_mm": 0.14902558256218815
+    },
+    {
+      "name": "5V_U1_2",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.70865,
+        17.97758
+      ],
+      "end": [
+        20.398405,
+        19.284746
+      ],
+      "length_mm": 1.4779867765244041
+    },
+    {
+      "name": "5V_U1_arc1",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.432814,
+        17.727604
+      ],
+      "mid": [
+        19.495665,
+        17.757013
+      ],
+      "end": [
+        19.550078,
+        17.800077
+      ],
+      "radius": 0.2999742952521099,
+      "center": [
+        19.338,
+        18.0122
+      ],
+      "length_mm": 0.139099242022438
+    },
+    {
+      "name": "5V_U1_arc2",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.655455,
+        17.905454
+      ],
+      "mid": [
+        19.684761,
+        17.939519
+      ],
+      "end": [
+        19.70865,
+        17.97758
+      ],
+      "radius": 0.30002611443172744,
+      "center": [
+        19.4433,
+        18.1176
+      ],
+      "length_mm": 0.08995713208656793
+    },
+    {
+      "name": "5V_C1_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        20.398405,
+        19.284746
+      ],
+      "end": [
+        20.62,
+        18.5
+      ],
+      "length_mm": 0.8154327860351199
+    },
+    {
+      "name": "5V_supply_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        21.725,
+        20.025
+      ],
+      "end": [
+        20.398405,
+        19.284746
+      ],
+      "length_mm": 1.5191544617125026
+    },
+    {
+      "name": "5V_U4_L3_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        19.2,
+        20.25
+      ],
+      "end": [
+        19.617231,
+        20.348818
+      ],
+      "length_mm": 0.4287734885519406
+    },
+    {
+      "name": "5V_U4_L3_1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        19.733626,
+        20.353149
+      ],
+      "end": [
+        21.7125,
+        20.0375
+      ],
+      "length_mm": 2.0038903660322807
+    },
+    {
+      "name": "5V_U4_L3_2",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        21.7125,
+        20.0375
+      ],
+      "end": [
+        21.725,
+        20.025
+      ],
+      "length_mm": 0.01767766952966771
+    },
+    {
+      "name": "5V_U4_L3_arc1",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        19.617231,
+        20.348818
+      ],
+      "mid": [
+        19.675216,
+        20.356686
+      ],
+      "end": [
+        19.733626,
+        20.353149
+      ],
+      "radius": 0.3000007821406471,
+      "center": [
+        19.6864,
+        20.0569
+      ],
+      "length_mm": 0.11722200865395244
+    },
+    {
+      "name": "NRST_external_F_0",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        17.46,
+        21.85
+      ],
+      "end": [
+        16.354622,
+        21.012445
+      ],
+      "length_mm": 1.386852155389682
+    },
+    {
+      "name": "NRST_external_F_1",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.309283,
+        20.956322
+      ],
+      "end": [
+        16.250068,
+        20.829432
+      ],
+      "length_mm": 0.14002674146390784
+    },
+    {
+      "name": "NRST_external_F_2",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.23615,
+        20.77281
+      ],
+      "end": [
+        16.226151,
+        20.552831
+      ],
+      "length_mm": 0.22020613170845021
+    },
+    {
+      "name": "NRST_external_F_3",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.232239,
+        20.503198
+      ],
+      "end": [
+        16.4,
+        19.94
+      ],
+      "length_mm": 0.5876527378690577
+    },
+    {
+      "name": "NRST_external_F_arc1",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.354622,
+        21.012445
+      ],
+      "mid": [
+        16.328528,
+        20.98715
+      ],
+      "end": [
+        16.309283,
+        20.956322
+      ],
+      "radius": 0.1499846029064317,
+      "center": [
+        16.4452,
+        20.8929
+      ],
+      "length_mm": 0.07286262755838745
+    },
+    {
+      "name": "NRST_external_F_arc2",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.250068,
+        20.829432
+      ],
+      "mid": [
+        16.240332,
+        20.801804
+      ],
+      "end": [
+        16.23615,
+        20.77281
+      ],
+      "radius": 0.15000375744627198,
+      "center": [
+        16.386,
+        20.766
+      ],
+      "length_mm": 0.05868075607075959
+    },
+    {
+      "name": "NRST_external_F_arc3",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.226151,
+        20.552831
+      ],
+      "mid": [
+        16.227112,
+        20.527759
+      ],
+      "end": [
+        16.232239,
+        20.503198
+      ],
+      "radius": 0.15000461780225302,
+      "center": [
+        16.376,
+        20.546
+      ],
+      "length_mm": 0.05024067437882093
+    },
+    {
+      "name": "NRST_external_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16.4,
+        19.94
+      ],
+      "end": [
+        16,
+        19.93
+      ],
+      "length_mm": 0.40012498047484973
+    },
+    {
+      "name": "NRST_protected_0",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16,
+        19.57
+      ],
+      "end": [
+        17.625,
+        19.1249
+      ],
+      "length_mm": 1.6848557831458455
+    },
+    {
+      "name": "NRST_protected_1",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        17.625,
+        19.1249
+      ],
+      "end": [
+        17.695101,
+        19.034771
+      ],
+      "length_mm": 0.11418137694913445
+    },
+    {
+      "name": "NRST_protected_2",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        17.720538,
+        18.985223
+      ],
+      "end": [
+        17.8419,
+        18.5749
+      ],
+      "length_mm": 0.42789449560960807
+    },
+    {
+      "name": "NRST_protected_arc2",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        17.695101,
+        19.034771
+      ],
+      "mid": [
+        17.710139,
+        19.011188
+      ],
+      "end": [
+        17.720538,
+        18.985223
+      ],
+      "radius": 0.14998621884026545,
+      "center": [
+        17.5767,
+        18.9427
+      ],
+      "length_mm": 0.05602000503120204
+    },
+    {
+      "name": "5V_U4_INPUT",
+      "kind": "PCB_VIA",
+      "net": "5V_LED",
+      "position": [
+        19.2,
+        20.25
+      ],
+      "diameter": 0.5,
+      "drill": 0.25
+    },
+    {
+      "name": "NRST_external_entry",
+      "kind": "PCB_VIA",
+      "net": "/NRST",
+      "position": [
+        16.4,
+        19.94
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "5V_U4_B_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        19.2,
+        20.25
+      ],
+      "end": [
+        19.6657,
+        20.9939
+      ],
+      "length_mm": 0.8776466828969398
+    }
+  ],
+  "power_patch_required_remove_ids": [
+    "08984055-1ee0-4fda-b381-c915ec38c9a6",
+    "19f63d79-774e-4618-8542-5f7788cbb75f",
+    "1a595cf7-c52f-4f7f-b86e-28c1679dcf7e",
+    "1cee03a4-08ca-4009-92b6-84d4a8a0e82e",
+    "29e61a13-7c59-4cd2-8d5c-f2da00d869a9",
+    "39ba900b-17ed-4e08-9b3c-546448c6c863",
+    "3c0abaeb-6700-4d44-89d4-aabbfdc9b4e8",
+    "41b5dd77-f0ad-4d67-8e73-708b7f15261a",
+    "4535318e-1883-4a70-9d5c-d4eb095a55e1",
+    "49581435-67f8-4b02-8c18-a0f1e9e2750d",
+    "4ed3eb39-b88f-422f-87a9-2f7860f5c219",
+    "507b0ce5-04b4-4704-9752-f5e09368bf02",
+    "517f2c80-7ed9-404c-8e87-098e1545198a",
+    "53d61902-793a-4966-82bf-61ad9db54a3c",
+    "53d7c757-a038-431f-9993-4f59bdcbc3f9",
+    "55e2eaa0-a6c3-411a-b02f-ad3c140b2be2",
+    "5d427ae8-7696-41a1-b641-a54436792472",
+    "65ce020e-3c60-4f3e-9da0-0ed3ac788bb6",
+    "6b478343-58fd-4ed4-aa04-009ed194a13b",
+    "6f3df27d-ddcd-4b14-842c-3d8aa30966ff",
+    "758f5709-88c4-4f3c-bd7b-f74d731c9d81",
+    "76a130cc-1669-4db9-99db-6132fb486d97",
+    "7987439c-18db-452e-b2f1-3d05c4cd5a71",
+    "7cfbc665-3ea9-4e27-bdd3-f6276b3e9f27",
+    "7e4d3489-902b-4ae9-ae80-4c7cdadb7dff",
+    "81f21713-242f-4d20-9324-7aab8b189b3d",
+    "850c0377-3be5-44c8-9887-912fbe382e65",
+    "89a06ec1-8af1-4d9c-be6f-c8d2b1c595f6",
+    "8c8fbc05-2346-4cf9-83cc-6e3f63ba903a",
+    "9aa819e9-3855-4e0c-a8b8-5e4a9d0e8f04",
+    "a6c7a264-e2cd-4450-86df-782a58839f00",
+    "a74e4a6e-c7a7-4ac2-876f-343f6798cb85",
+    "ad5546a1-11e5-4d45-9b75-084efa489a5b",
+    "afceb2c5-b406-4cb3-98ac-8d3061056927",
+    "b930c6e8-40d2-496d-9975-b879c4987c1d",
+    "beb1d81b-2143-4429-9db7-2b6b188d7cb7",
+    "c57c9769-a255-4162-9506-46f92101a0c0",
+    "d0065845-7a97-4ecd-964e-f680dddf90ff",
+    "d2f80391-4ca1-482e-a1d9-3ed0528867bf",
+    "d96f62f8-bb23-4f94-b975-3767abde04f0",
+    "ed9d613e-6945-4e16-9700-38262e3f0524",
+    "f46cd99a-11b5-4df0-ae3c-a8b8f6aa0e79"
+  ],
+  "plans": [
+    {
+      "name": "5V_U1",
+      "net": "5V_LED",
+      "layer": 0,
+      "points": [
+        [
+          19.05,
+          17.599999
+        ],
+        [
+          19.5,
+          17.749999
+        ],
+        [
+          19.6875,
+          17.937499
+        ],
+        [
+          20.398405,
+          19.284746
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_U1_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.05,
+            17.599999
+          ],
+          "end": [
+            19.432814,
+            17.727604
+          ],
+          "length_mm": 0.4035214921426114
+        },
+        {
+          "name": "5V_U1_1",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.550078,
+            17.800077
+          ],
+          "end": [
+            19.655455,
+            17.905454
+          ],
+          "length_mm": 0.14902558256218815
+        },
+        {
+          "name": "5V_U1_2",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.70865,
+            17.97758
+          ],
+          "end": [
+            20.398405,
+            19.284746
+          ],
+          "length_mm": 1.4779867765244041
+        },
+        {
+          "name": "5V_U1_arc1",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.432814,
+            17.727604
+          ],
+          "mid": [
+            19.495665,
+            17.757013
+          ],
+          "end": [
+            19.550078,
+            17.800077
+          ],
+          "radius": 0.2999742952521099,
+          "center": [
+            19.338,
+            18.0122
+          ],
+          "length_mm": 0.139099242022438
+        },
+        {
+          "name": "5V_U1_arc2",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.655455,
+            17.905454
+          ],
+          "mid": [
+            19.684761,
+            17.939519
+          ],
+          "end": [
+            19.70865,
+            17.97758
+          ],
+          "radius": 0.30002611443172744,
+          "center": [
+            19.4433,
+            18.1176
+          ],
+          "length_mm": 0.08995713208656793
+        }
+      ],
+      "length_mm": 2.2595902253382096
+    },
+    {
+      "name": "5V_C1",
+      "net": "5V_LED",
+      "layer": 2,
+      "points": [
+        [
+          20.398405,
+          19.284746
+        ],
+        [
+          20.62,
+          18.5
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_C1_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            20.398405,
+            19.284746
+          ],
+          "end": [
+            20.62,
+            18.5
+          ],
+          "length_mm": 0.8154327860351199
+        }
+      ],
+      "length_mm": 0.8154327860351199
+    },
+    {
+      "name": "5V_supply",
+      "net": "5V_LED",
+      "layer": 6,
+      "points": [
+        [
+          21.725,
+          20.025
+        ],
+        [
+          20.398405,
+          19.284746
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_supply_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 6,
+          "width": 0.3,
+          "start": [
+            21.725,
+            20.025
+          ],
+          "end": [
+            20.398405,
+            19.284746
+          ],
+          "length_mm": 1.5191544617125026
+        }
+      ],
+      "length_mm": 1.5191544617125026
+    },
+    {
+      "name": "5V_U4_L3",
+      "net": "5V_LED",
+      "layer": 6,
+      "points": [
+        [
+          19.2,
+          20.25
+        ],
+        [
+          19.674999999999997,
+          20.362499999999997
+        ],
+        [
+          21.7125,
+          20.037499999999998
+        ],
+        [
+          21.725,
+          20.025
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_U4_L3_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 6,
+          "width": 0.3,
+          "start": [
+            19.2,
+            20.25
+          ],
+          "end": [
+            19.617231,
+            20.348818
+          ],
+          "length_mm": 0.4287734885519406
+        },
+        {
+          "name": "5V_U4_L3_1",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 6,
+          "width": 0.3,
+          "start": [
+            19.733626,
+            20.353149
+          ],
+          "end": [
+            21.7125,
+            20.0375
+          ],
+          "length_mm": 2.0038903660322807
+        },
+        {
+          "name": "5V_U4_L3_2",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 6,
+          "width": 0.3,
+          "start": [
+            21.7125,
+            20.0375
+          ],
+          "end": [
+            21.725,
+            20.025
+          ],
+          "length_mm": 0.01767766952966771
+        },
+        {
+          "name": "5V_U4_L3_arc1",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 6,
+          "width": 0.3,
+          "start": [
+            19.617231,
+            20.348818
+          ],
+          "mid": [
+            19.675216,
+            20.356686
+          ],
+          "end": [
+            19.733626,
+            20.353149
+          ],
+          "radius": 0.3000007821406471,
+          "center": [
+            19.6864,
+            20.0569
+          ],
+          "length_mm": 0.11722200865395244
+        }
+      ],
+      "length_mm": 2.5675635327678417
+    },
+    {
+      "name": "5V_U4_B",
+      "net": "5V_LED",
+      "layer": 2,
+      "points": [
+        [
+          19.2,
+          20.25
+        ],
+        [
+          19.6657,
+          20.9939
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_U4_B_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            19.2,
+            20.25
+          ],
+          "end": [
+            19.6657,
+            20.9939
+          ],
+          "length_mm": 0.8776466828969398
+        }
+      ],
+      "length_mm": 0.8776466828969398
+    },
+    {
+      "name": "NRST_external_F",
+      "net": "/NRST",
+      "layer": 0,
+      "points": [
+        [
+          17.46,
+          21.85
+        ],
+        [
+          16.325,
+          20.990000000000002
+        ],
+        [
+          16.237499999999997,
+          20.802500000000002
+        ],
+        [
+          16.224999999999998,
+          20.5275
+        ],
+        [
+          16.4,
+          19.94
+        ]
+      ],
+      "items": [
+        {
+          "name": "NRST_external_F_0",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            17.46,
+            21.85
+          ],
+          "end": [
+            16.354622,
+            21.012445
+          ],
+          "length_mm": 1.386852155389682
+        },
+        {
+          "name": "NRST_external_F_1",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            16.309283,
+            20.956322
+          ],
+          "end": [
+            16.250068,
+            20.829432
+          ],
+          "length_mm": 0.14002674146390784
+        },
+        {
+          "name": "NRST_external_F_2",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            16.23615,
+            20.77281
+          ],
+          "end": [
+            16.226151,
+            20.552831
+          ],
+          "length_mm": 0.22020613170845021
+        },
+        {
+          "name": "NRST_external_F_3",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            16.232239,
+            20.503198
+          ],
+          "end": [
+            16.4,
+            19.94
+          ],
+          "length_mm": 0.5876527378690577
+        },
+        {
+          "name": "NRST_external_F_arc1",
+          "kind": "PCB_ARC",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            16.354622,
+            21.012445
+          ],
+          "mid": [
+            16.328528,
+            20.98715
+          ],
+          "end": [
+            16.309283,
+            20.956322
+          ],
+          "radius": 0.1499846029064317,
+          "center": [
+            16.4452,
+            20.8929
+          ],
+          "length_mm": 0.07286262755838745
+        },
+        {
+          "name": "NRST_external_F_arc2",
+          "kind": "PCB_ARC",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            16.250068,
+            20.829432
+          ],
+          "mid": [
+            16.240332,
+            20.801804
+          ],
+          "end": [
+            16.23615,
+            20.77281
+          ],
+          "radius": 0.15000375744627198,
+          "center": [
+            16.386,
+            20.766
+          ],
+          "length_mm": 0.05868075607075959
+        },
+        {
+          "name": "NRST_external_F_arc3",
+          "kind": "PCB_ARC",
+          "net": "/NRST",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            16.226151,
+            20.552831
+          ],
+          "mid": [
+            16.227112,
+            20.527759
+          ],
+          "end": [
+            16.232239,
+            20.503198
+          ],
+          "radius": 0.15000461780225302,
+          "center": [
+            16.376,
+            20.546
+          ],
+          "length_mm": 0.05024067437882093
+        }
+      ],
+      "length_mm": 2.5165218244390655
+    },
+    {
+      "name": "NRST_external_B",
+      "net": "/NRST",
+      "layer": 2,
+      "points": [
+        [
+          16.4,
+          19.94
+        ],
+        [
+          16,
+          19.93
+        ]
+      ],
+      "items": [
+        {
+          "name": "NRST_external_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            16.4,
+            19.94
+          ],
+          "end": [
+            16,
+            19.93
+          ],
+          "length_mm": 0.40012498047484973
+        }
+      ],
+      "length_mm": 0.40012498047484973
+    },
+    {
+      "name": "NRST_protected",
+      "net": "/NRST",
+      "layer": 2,
+      "points": [
+        [
+          16,
+          19.57
+        ],
+        [
+          17.625,
+          19.1249
+        ],
+        [
+          17.7125,
+          19.0124
+        ],
+        [
+          17.8419,
+          18.5749
+        ]
+      ],
+      "items": [
+        {
+          "name": "NRST_protected_0",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            16,
+            19.57
+          ],
+          "end": [
+            17.625,
+            19.1249
+          ],
+          "length_mm": 1.6848557831458455
+        },
+        {
+          "name": "NRST_protected_1",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            17.625,
+            19.1249
+          ],
+          "end": [
+            17.695101,
+            19.034771
+          ],
+          "length_mm": 0.11418137694913445
+        },
+        {
+          "name": "NRST_protected_2",
+          "kind": "PCB_TRACK",
+          "net": "/NRST",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            17.720538,
+            18.985223
+          ],
+          "end": [
+            17.8419,
+            18.5749
+          ],
+          "length_mm": 0.42789449560960807
+        },
+        {
+          "name": "NRST_protected_arc2",
+          "kind": "PCB_ARC",
+          "net": "/NRST",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            17.695101,
+            19.034771
+          ],
+          "mid": [
+            17.710139,
+            19.011188
+          ],
+          "end": [
+            17.720538,
+            18.985223
+          ],
+          "radius": 0.14998621884026545,
+          "center": [
+            17.5767,
+            18.9427
+          ],
+          "length_mm": 0.05602000503120204
+        }
+      ],
+      "length_mm": 2.28295166073579
+    }
+  ],
+  "note": "NRST external branch meets lower D8 landing(16,19.93), protected branch leaves upper landing(16,19.57). Both moved bottom footprints authorized byroot after courtyard review. No protected NRST vias added; original MCU GND retained."
+}

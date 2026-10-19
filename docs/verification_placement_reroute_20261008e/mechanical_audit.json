@@ -1,0 +1,784 @@
+{
+  "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\placement_reroute_20261008e\\before\\ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "1f0068353b6249a89fc7e04cf9870b1ceff7e30ec226032a804d54a85e4dd00f",
+  "candidate": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\placement_reroute_20261008e\\integrated\\ppg_pcb_v08.kicad_pcb",
+  "candidate_sha256": "2ef282c3a06786d3a7ee80a30bc4c60e2382d900a44287dbae603c8d80d230de",
+  "passed": true,
+  "checks": {
+    "source_candidate_hashes_stable": true,
+    "all_expected_placement_geometry_matches": true,
+    "only_J5_J6_moved": true,
+    "all_top_fixed": true,
+    "pad_refs_values_nets_unchanged": true,
+    "J5_angle_retained_minus90": true,
+    "J6_angle_retained_90": true,
+    "no_new_same_side_overlap": true,
+    "RX_swap_pad_edge_at_least_0_30_mm": true,
+    "all_RX_polarities_preserved": true,
+    "all_RX_native_copper_connected": true
+  },
+  "footprint_count": 41,
+  "changed_refs": [
+    "J5",
+    "J6"
+  ],
+  "swapped_pads": {
+    "J5": {
+      "before": [
+        15.0655,
+        13.9497
+      ],
+      "after": [
+        14.8181,
+        19.6172
+      ],
+      "angle_before": -90.0,
+      "angle_after": -90.0,
+      "net": "/RXP"
+    },
+    "J6": {
+      "before": [
+        14.8181,
+        19.6172
+      ],
+      "after": [
+        15.0655,
+        13.9497
+      ],
+      "angle_before": 90.0,
+      "angle_after": 90.0,
+      "net": "/RXN"
+    }
+  },
+  "new_same_side_overlaps": [],
+  "remaining_same_side_overlaps": [],
+  "edge_clearances_by_reference": {
+    "C1": {
+      "court": {
+        "before_mm": 3.9496339524983544,
+        "after_mm": 3.9496339524983544
+      },
+      "body": {
+        "before_mm": 4.378818859724124,
+        "after_mm": 4.378818859724124
+      },
+      "pads": {
+        "before_mm": 4.212661607106769,
+        "after_mm": 4.212661607106769
+      }
+    },
+    "C11": {
+      "court": {
+        "before_mm": 2.758001753507399,
+        "after_mm": 2.758001753507399
+      },
+      "body": {
+        "before_mm": 3.1649616459513292,
+        "after_mm": 3.1649616459513292
+      },
+      "pads": {
+        "before_mm": 3.0042259289911803,
+        "after_mm": 3.0042259289911803
+      }
+    },
+    "C12": {
+      "court": {
+        "before_mm": 0.8566394400138719,
+        "after_mm": 0.8566394400138719
+      },
+      "body": {
+        "before_mm": 1.2962484755904038,
+        "after_mm": 1.2962484755904038
+      },
+      "pads": {
+        "before_mm": 1.0757886560714018,
+        "after_mm": 1.0757886560714018
+      }
+    },
+    "C13": {
+      "court": {
+        "before_mm": 0.1050932798119728,
+        "after_mm": 0.1050932798119728
+      },
+      "body": {
+        "before_mm": 0.5456549644624031,
+        "after_mm": 0.5456549644624031
+      },
+      "pads": {
+        "before_mm": 0.36722554197236246,
+        "after_mm": 0.36722554197236246
+      }
+    },
+    "C14": {
+      "court": {
+        "before_mm": 0.7268027703495363,
+        "after_mm": 0.7268027703495363
+      },
+      "body": {
+        "before_mm": 1.155554078949372,
+        "after_mm": 1.155554078949372
+      },
+      "pads": {
+        "before_mm": 0.9210985656684842,
+        "after_mm": 0.9210985656684842
+      }
+    },
+    "C15": {
+      "court": {
+        "before_mm": 3.7148640887103572,
+        "after_mm": 3.7148640887103572
+      },
+      "body": {
+        "before_mm": 4.045836543402007,
+        "after_mm": 4.045836543402007
+      },
+      "pads": {
+        "before_mm": 3.9384518886620494,
+        "after_mm": 3.9384518886620494
+      }
+    },
+    "C16": {
+      "court": {
+        "before_mm": 1.6663939963840617,
+        "after_mm": 1.6663939963840617
+      },
+      "body": {
+        "before_mm": 2.0892597154529184,
+        "after_mm": 2.0892597154529184
+      },
+      "pads": {
+        "before_mm": 1.8497449045993521,
+        "after_mm": 1.8497449045993521
+      }
+    },
+    "C4": {
+      "court": {
+        "before_mm": 4.252190960061199,
+        "after_mm": 4.252190960061199
+      },
+      "body": {
+        "before_mm": 4.583782097756552,
+        "after_mm": 4.583782097756552
+      },
+      "pads": {
+        "before_mm": 4.476872730714798,
+        "after_mm": 4.476872730714798
+      }
+    },
+    "C5": {
+      "court": {
+        "before_mm": 4.535942638502788,
+        "after_mm": 4.535942638502788
+      },
+      "body": {
+        "before_mm": 4.97447190954353,
+        "after_mm": 4.97447190954353
+      },
+      "pads": {
+        "before_mm": 4.771045027705785,
+        "after_mm": 4.771045027705785
+      }
+    },
+    "C6": {
+      "court": {
+        "before_mm": 1.9977300721372115,
+        "after_mm": 1.9977300721372115
+      },
+      "body": {
+        "before_mm": 2.4355881091903164,
+        "after_mm": 2.4355881091903164
+      },
+      "pads": {
+        "before_mm": 2.236174490395978,
+        "after_mm": 2.236174490395978
+      }
+    },
+    "C7": {
+      "court": {
+        "before_mm": 1.3722565141130056,
+        "after_mm": 1.3722565141130056
+      },
+      "body": {
+        "before_mm": 1.776919968470243,
+        "after_mm": 1.776919968470243
+      },
+      "pads": {
+        "before_mm": 1.5285035669838853,
+        "after_mm": 1.5285035669838853
+      }
+    },
+    "D1": {
+      "court": {
+        "before_mm": 0.11517805740048548,
+        "after_mm": 0.11517805740048548
+      },
+      "body": {
+        "before_mm": 0.35334140273220527,
+        "after_mm": 0.35334140273220527
+      },
+      "pads": {
+        "before_mm": 0.33591647544249703,
+        "after_mm": 0.33591647544249703
+      }
+    },
+    "D6": {
+      "court": {
+        "before_mm": 2.097360963925955,
+        "after_mm": 2.097360963925955
+      },
+      "body": {
+        "before_mm": 2.2686497570486646,
+        "after_mm": 2.2686497570486646
+      },
+      "pads": {
+        "before_mm": 2.317731957563937,
+        "after_mm": 2.317731957563937
+      }
+    },
+    "D7": {
+      "court": {
+        "before_mm": 1.8980884066173465,
+        "after_mm": 1.8980884066173465
+      },
+      "body": {
+        "before_mm": 2.0884555778153304,
+        "after_mm": 2.0884555778153304
+      },
+      "pads": {
+        "before_mm": 2.134537249635634,
+        "after_mm": 2.134537249635634
+      }
+    },
+    "D8": {
+      "court": {
+        "before_mm": 1.3620458428082358,
+        "after_mm": 1.3620458428082358
+      },
+      "body": {
+        "before_mm": 1.5634790080440242,
+        "after_mm": 1.5634790080440242
+      },
+      "pads": {
+        "before_mm": 1.6048566589452546,
+        "after_mm": 1.6048566589452546
+      }
+    },
+    "FB1": {
+      "court": {
+        "before_mm": 0.09242929440475223,
+        "after_mm": 0.09242929440475223
+      },
+      "body": {
+        "before_mm": 0.4071744703168756,
+        "after_mm": 0.4071744703168756
+      },
+      "pads": {
+        "before_mm": 0.30533329295455314,
+        "after_mm": 0.30533329295455314
+      }
+    },
+    "J1": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.3063350407438943,
+        "after_mm": 0.3063350407438943
+      }
+    },
+    "J10": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 1.5031622290960822,
+        "after_mm": 1.5031622290960822
+      }
+    },
+    "J11": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.8766393551874412,
+        "after_mm": 0.8766393551874412
+      }
+    },
+    "J2": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.39657539111818974,
+        "after_mm": 0.39657539111818974
+      }
+    },
+    "J3": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.5422763960091608,
+        "after_mm": 0.5422763960091608
+      }
+    },
+    "J4": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.778722252039854,
+        "after_mm": 0.778722252039854
+      }
+    },
+    "J5": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.3515885000733965,
+        "after_mm": 0.346201217708038
+      }
+    },
+    "J6": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.346201217708038,
+        "after_mm": 0.3515885000733965
+      }
+    },
+    "J7": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 1.3393789640944185,
+        "after_mm": 1.3393789640944185
+      }
+    },
+    "J8": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 1.3393789640944185,
+        "after_mm": 1.3393789640944185
+      }
+    },
+    "J9": {
+      "court": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "body": {
+        "before_mm": null,
+        "after_mm": null
+      },
+      "pads": {
+        "before_mm": 0.8766393551874412,
+        "after_mm": 0.8766393551874412
+      }
+    },
+    "R1": {
+      "court": {
+        "before_mm": 4.6324424447019155,
+        "after_mm": 4.6324424447019155
+      },
+      "body": {
+        "before_mm": 5.072949016875158,
+        "after_mm": 5.072949016875158
+      },
+      "pads": {
+        "before_mm": 4.85765870351884,
+        "after_mm": 4.85765870351884
+      }
+    },
+    "R2": {
+      "court": {
+        "before_mm": 4.803451773009464,
+        "after_mm": 4.803451773009464
+      },
+      "body": {
+        "before_mm": 5.229309367425445,
+        "after_mm": 5.229309367425445
+      },
+      "pads": {
+        "before_mm": 4.988608504619147,
+        "after_mm": 4.988608504619147
+      }
+    },
+    "R3": {
+      "court": {
+        "before_mm": 0.32100774537719623,
+        "after_mm": 0.32100774537719623
+      },
+      "body": {
+        "before_mm": 0.5605939372182087,
+        "after_mm": 0.5605939372182087
+      },
+      "pads": {
+        "before_mm": 0.49953142476501977,
+        "after_mm": 0.49953142476501977
+      }
+    },
+    "R4": {
+      "court": {
+        "before_mm": 3.4250874582929245,
+        "after_mm": 3.4250874582929245
+      },
+      "body": {
+        "before_mm": 3.8392440844344247,
+        "after_mm": 3.8392440844344247
+      },
+      "pads": {
+        "before_mm": 3.5936571795826757,
+        "after_mm": 3.5936571795826757
+      }
+    },
+    "R5": {
+      "court": {
+        "before_mm": 0.6766277900988165,
+        "after_mm": 0.6766277900988165
+      },
+      "body": {
+        "before_mm": 1.096193759952504,
+        "after_mm": 1.096193759952504
+      },
+      "pads": {
+        "before_mm": 0.8500327763621414,
+        "after_mm": 0.8500327763621414
+      }
+    },
+    "R6": {
+      "court": {
+        "before_mm": 2.0742273365784785,
+        "after_mm": 2.0742273365784785
+      },
+      "body": {
+        "before_mm": 2.4214292197077345,
+        "after_mm": 2.4214292197077345
+      },
+      "pads": {
+        "before_mm": 2.314325360771262,
+        "after_mm": 2.314325360771262
+      }
+    },
+    "R7": {
+      "court": {
+        "before_mm": 1.319544218023685,
+        "after_mm": 1.319544218023685
+      },
+      "body": {
+        "before_mm": 1.748747656836339,
+        "after_mm": 1.748747656836339
+      },
+      "pads": {
+        "before_mm": 1.5108564631230044,
+        "after_mm": 1.5108564631230044
+      }
+    },
+    "R8": {
+      "court": {
+        "before_mm": 1.2990505414194136,
+        "after_mm": 1.2990505414194136
+      },
+      "body": {
+        "before_mm": 1.730385971013309,
+        "after_mm": 1.730385971013309
+      },
+      "pads": {
+        "before_mm": 1.4949429118229363,
+        "after_mm": 1.4949429118229363
+      }
+    },
+    "U1": {
+      "court": {
+        "before_mm": 3.746160789922336,
+        "after_mm": 3.746160789922336
+      },
+      "body": {
+        "before_mm": 4.156739504022012,
+        "after_mm": 4.156739504022012
+      },
+      "pads": {
+        "before_mm": 4.414665578044978,
+        "after_mm": 4.414665578044978
+      }
+    },
+    "U2": {
+      "court": {
+        "before_mm": 2.7925910471622992,
+        "after_mm": 2.7925910471622992
+      },
+      "body": {
+        "before_mm": 3.127312376149442,
+        "after_mm": 3.127312376149442
+      },
+      "pads": {
+        "before_mm": 3.148074734256692,
+        "after_mm": 3.148074734256692
+      }
+    },
+    "U3": {
+      "court": {
+        "before_mm": 0.3295573657523425,
+        "after_mm": 0.3295573657523425
+      },
+      "body": {
+        "before_mm": 1.4153094930201435,
+        "after_mm": 1.4153094930201435
+      },
+      "pads": {
+        "before_mm": 0.6876696230342239,
+        "after_mm": 0.6876696230342239
+      }
+    },
+    "U4": {
+      "court": {
+        "before_mm": -0.21079705924544356,
+        "after_mm": -0.21079705924544356
+      },
+      "body": {
+        "before_mm": 0.10479663968061814,
+        "after_mm": 0.10479663968061814
+      },
+      "pads": {
+        "before_mm": 0.5585188466984734,
+        "after_mm": 0.5585188466984734
+      }
+    },
+    "U5": {
+      "court": {
+        "before_mm": -0.24284306861007643,
+        "after_mm": -0.24284306861007643
+      },
+      "body": {
+        "before_mm": 0.06497518762286081,
+        "after_mm": 0.06497518762286081
+      },
+      "pads": {
+        "before_mm": 0.5481861163340298,
+        "after_mm": 0.5481861163340298
+      }
+    },
+    "U6": {
+      "court": {
+        "before_mm": 0.3415151018356921,
+        "after_mm": 0.3415151018356921
+      },
+      "body": {
+        "before_mm": 1.1932792323169599,
+        "after_mm": 1.1932792323169599
+      },
+      "pads": {
+        "before_mm": 0.8676193858268579,
+        "after_mm": 0.8676193858268579
+      }
+    }
+  },
+  "RX_polarity_and_native_connectivity": {
+    "/RXP": {
+      "expected_pins": [
+        [
+          "J5",
+          "1"
+        ],
+        [
+          "R3",
+          "1"
+        ],
+        [
+          "R7",
+          "2"
+        ]
+      ],
+      "actual_pins": [
+        [
+          "J5",
+          "1"
+        ],
+        [
+          "R3",
+          "1"
+        ],
+        [
+          "R7",
+          "2"
+        ]
+      ],
+      "pin_map_matches": true,
+      "native_copper_component_count": 1,
+      "pad_components": [
+        [
+          "J5.1",
+          "R3.1",
+          "R7.2"
+        ]
+      ],
+      "all_copper_and_pads_connected": true,
+      "copper_only_islands": []
+    },
+    "/RXN": {
+      "expected_pins": [
+        [
+          "J6",
+          "1"
+        ],
+        [
+          "R3",
+          "2"
+        ],
+        [
+          "R8",
+          "2"
+        ]
+      ],
+      "actual_pins": [
+        [
+          "J6",
+          "1"
+        ],
+        [
+          "R3",
+          "2"
+        ],
+        [
+          "R8",
+          "2"
+        ]
+      ],
+      "pin_map_matches": true,
+      "native_copper_component_count": 1,
+      "pad_components": [
+        [
+          "J6.1",
+          "R3.2",
+          "R8.2"
+        ]
+      ],
+      "all_copper_and_pads_connected": true,
+      "copper_only_islands": []
+    },
+    "/RXP_RCV": {
+      "expected_pins": [
+        [
+          "R7",
+          "1"
+        ],
+        [
+          "U6",
+          "6"
+        ]
+      ],
+      "actual_pins": [
+        [
+          "R7",
+          "1"
+        ],
+        [
+          "U6",
+          "6"
+        ]
+      ],
+      "pin_map_matches": true,
+      "native_copper_component_count": 1,
+      "pad_components": [
+        [
+          "R7.1",
+          "U6.6"
+        ]
+      ],
+      "all_copper_and_pads_connected": true,
+      "copper_only_islands": []
+    },
+    "/RXN_RCV": {
+      "expected_pins": [
+        [
+          "R8",
+          "1"
+        ],
+        [
+          "U6",
+          "4"
+        ]
+      ],
+      "actual_pins": [
+        [
+          "R8",
+          "1"
+        ],
+        [
+          "U6",
+          "4"
+        ]
+      ],
+      "pin_map_matches": true,
+      "native_copper_component_count": 1,
+      "pad_components": [
+        [
+          "R8.1",
+          "U6.4"
+        ]
+      ],
+      "all_copper_and_pads_connected": true,
+      "copper_only_islands": []
+    }
+  },
+  "receiver_pin_names_confirmed_in_unchanged_local_schematic": {
+    "U6.6": "A (non-inverting, RXP_RCV)",
+    "U6.4": "B (inverting, RXN_RCV)"
+  },
+  "method": "Read-only native footprint/copper polygons; native circular Edge.Cuts. RX graph joins conductor polygons on shared layers within 0.00002 mm; via nodes span all copper layers. Package F.Fab/B.Fab outline distinguished from assembly courtyard."
+}

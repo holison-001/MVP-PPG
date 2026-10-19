@@ -1,7 +1,8 @@
 """Check PCB references, pad nets, metadata and side constraints against the schematic.
 
 Run with KiCad's Python: netcheck_v08.py [board.kicad_pcb] [--json report.json]
-This is read-only. Connectivity/routing clearance is checked separately by DRC.
+This is read-only. The CLI also checks the debug-pad/TVS routing topology;
+general connectivity and routing clearance are checked separately by DRC.
 """
 
 import argparse
@@ -15,6 +16,8 @@ import pcbnew
 import design_v08 as D
 from schematic_metadata import load_schematic_metadata
 from layer_policy_v08 import check_layers
+from via_policy_v08 import check_vias_and_widths
+from esd_flow_policy_v08 import check_esd_flow
 from board_coordinates_v08 import BOARD_CENTER_MM, SHEET_SIZE_MM, SHEET_MARGIN_MM, saved_sheet_size
 
 
@@ -40,8 +43,9 @@ def check_board(board, metadata):
                       f"extra={sorted(set(D.COMPONENTS) - expected_refs)}")
 
     top_refs = sorted(fp.GetReference() for fp in footprints if fp.GetLayer() == pcbnew.F_Cu)
-    if top_refs != ["U1"]:
-        errors.append(f"Only U1 may be on the top side; found {top_refs}")
+    expected_top = ["D6", "D7", "J10", "J11", "J7", "J8", "J9", "U1"]
+    if top_refs != expected_top:
+        errors.append(f"Top side must contain U1, SWD pads J7-J11 and D6/D7 ESD; found {top_refs}")
 
     thickness_mm = pcbnew.ToMM(board.GetDesignSettings().GetBoardThickness())
     copper_layers = board.GetCopperLayerCount()
@@ -115,6 +119,8 @@ def check_board(board, metadata):
                       for item in board.GetTracks())
     layer_policy = check_layers(board)
     errors.extend(layer_policy['errors'])
+    via_policy = check_vias_and_widths(board)
+    errors.extend(via_policy['errors'])
     return {
         "ok": not errors,
         "footprints": len(footprints),
@@ -130,6 +136,7 @@ def check_board(board, metadata):
         "routing": dict(routing),
         "inner_layer_track_count": layer_policy['inner_layer_track_count'],
         "layer_policy": layer_policy,
+        "via_policy": via_policy,
         "errors": errors,
     }
 
@@ -147,6 +154,11 @@ def main():
         parser.error(f"Schematic does not exist: {args.schematic}")
     board = pcbnew.LoadBoard(str(args.board.resolve()))
     result = check_board(board, load_schematic_metadata(args.schematic))
+    esd_flow_policy = check_esd_flow(args.board)
+    result['esd_flow_policy'] = esd_flow_policy
+    result['errors'].extend(f'[{item["code"]}] {item["message"]}'
+                            for item in esd_flow_policy['errors'])
+    result['ok'] = not result['errors']
     result["board"] = str(args.board.resolve())
     result["schematic"] = str(args.schematic.resolve())
     if args.report:
@@ -156,6 +168,8 @@ def main():
           f"{result['footprints']} footprints, {result['numbered_pads']} numbered pads, "
           f"{result['schematic_nets']} schematic nets; top={result['top_references']}")
     print("routing:", result["routing"])
+    print(f'ESD flow: {"PASS" if esd_flow_policy["ok"] else "FAIL"}; '
+          f'{esd_flow_policy["checked_paths"]} paths')
     for error in result["errors"]:
         print("ERROR:", error)
     return 0 if result["ok"] else 1

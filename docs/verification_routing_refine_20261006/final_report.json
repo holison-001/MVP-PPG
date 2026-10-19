@@ -1,0 +1,198 @@
+{
+  "source_sha256": "d01a7901dcd65785cb24ecb8f84a9d59b6a14c4c7a079138d8ec3fe4bb9a0954",
+  "candidate_sha256": "67b9e0a161565ff865ad6a17902c53fbecc39c5072f45e77c577ac987b9ab87d",
+  "before_after": {
+    "/SWCLK:F.Cu": {
+      "before": {
+        "length_mm": 3.780202169529375,
+        "lines": 3,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 3.780202169529375,
+        "lines": 3,
+        "arcs": 1
+      },
+      "length_change_mm": 0.0
+    },
+    "/SWCLK:B.Cu": {
+      "before": {
+        "length_mm": 1.5732990095480743,
+        "lines": 3,
+        "arcs": 0
+      },
+      "after": {
+        "length_mm": 1.5134340104205006,
+        "lines": 2,
+        "arcs": 1
+      },
+      "length_change_mm": -0.059864999127573704
+    },
+    "/SWCLK:In3.Cu": {
+      "before": {
+        "length_mm": 3.920440771718064,
+        "lines": 24,
+        "arcs": 0
+      },
+      "after": {
+        "length_mm": 3.7670358920398677,
+        "lines": 4,
+        "arcs": 3
+      },
+      "length_change_mm": -0.15340487967819616
+    },
+    "/VREF:F.Cu": {
+      "before": {
+        "length_mm": 2.0744477191772694,
+        "lines": 4,
+        "arcs": 0
+      },
+      "after": {
+        "length_mm": 1.9935391779436267,
+        "lines": 2,
+        "arcs": 1
+      },
+      "length_change_mm": -0.08090854123364277
+    },
+    "/VREF:B.Cu": {
+      "before": {
+        "length_mm": 0.48510053858887586,
+        "lines": 3,
+        "arcs": 0
+      },
+      "after": {
+        "length_mm": 0.4482688819012535,
+        "lines": 1,
+        "arcs": 0
+      },
+      "length_change_mm": -0.03683165668762234
+    }
+  },
+  "removed_ids": [
+    "006698fc-bc95-42f4-9cd9-a551f26e3cbb",
+    "10fc7f95-d9c7-411c-b17d-1581e6d648e7",
+    "11431da6-8fa9-4fe4-bfe6-d9d8da235491",
+    "11dbc28d-3aba-46b8-bc91-5e096fefd961",
+    "12dbea37-6d26-438d-9d7f-7519913c5a66",
+    "1caa9059-7d8d-4e35-8f88-250df76185eb",
+    "1cb514ab-6837-4fdc-8eb1-1f079db8ef9a",
+    "1f604a78-d448-44a5-b74b-a41361ac9840",
+    "2550ef88-a53f-4a06-aba9-db9d13a60b7b",
+    "385aa29e-7f00-44b3-8e3a-e4851e8fd2ce",
+    "465a24f7-2490-43a2-aac6-79f30e02d912",
+    "49e5a946-5eb0-4446-ab61-18370cf756c3",
+    "4df9a87f-da23-4c32-85d1-a561a5ab5234",
+    "5114faa9-2266-46bf-b2a0-224f55e87687",
+    "529e2d6b-1d8f-4750-8589-d41795cbc433",
+    "59301e84-0468-4dfb-97c7-099369537256",
+    "5e2fffa0-8987-4744-ac6c-d1b9f0c24579",
+    "6f583954-ef9a-4f49-b83f-af354c3be084",
+    "7054699d-66f8-462a-88e5-afebf7e83de1",
+    "783f5c61-0f3f-4147-bf5f-6c6c5414e84e",
+    "7a63637b-e638-4038-8143-60da9f704cf9",
+    "9a70c470-149c-4320-8762-b4a6fbc2d6f2",
+    "b4b35735-6204-480d-9793-2017d14f24a4",
+    "bc1e968b-1bd3-4f45-a972-c48902fd749d",
+    "c06fbbdc-e05e-464c-b14f-67480836d0aa",
+    "c082a36e-0d8d-4aec-9b03-ab4a34d54f42",
+    "cc7d23f2-23a9-458b-99b2-965787a0af69",
+    "dd78bec4-b33a-4f0e-87e4-b8b5a160de91",
+    "e6699b87-f360-4c03-ae77-22cfafd6c36e",
+    "f415395b-2428-4fee-baca-551fff4353eb",
+    "f6010207-175c-42e3-bb52-acf85ad71489",
+    "f63243d1-2f60-49b3-8776-116bbe92f93b",
+    "f92aba99-b6df-467f-a923-59648f1d07df",
+    "fe7bb92f-a030-4f80-8a43-9e6b3b4a2c8e"
+  ],
+  "routes": [
+    {
+      "name": "VREF_F",
+      "net": "/VREF",
+      "layer": 0,
+      "points": [
+        [
+          20.95,
+          16.4
+        ],
+        [
+          21.9125,
+          16.7125
+        ],
+        [
+          22.888009,
+          16.82242
+        ]
+      ],
+      "arcs": 1,
+      "width": 0.15
+    },
+    {
+      "name": "VREF_B",
+      "net": "/VREF",
+      "layer": 2,
+      "points": [
+        [
+          22.888009,
+          16.82242
+        ],
+        [
+          22.725,
+          17.24
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.15
+    },
+    {
+      "name": "smooth_b_patch.json",
+      "net": "/SWCLK",
+      "layer": 2,
+      "radius_mm": 0.478,
+      "line_count": 2,
+      "arc_count": 1
+    },
+    {
+      "name": "smooth_l4_patch.json",
+      "net": "/SWCLK",
+      "layer": 8,
+      "radius_mm": 0.478,
+      "line_count": 4,
+      "arc_count": 3
+    }
+  ],
+  "native_drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "net_totals": {
+    "/SWCLK": {
+      "before": {
+        "length_mm": 9.273941950795514,
+        "lines": 30,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 9.060672071989742,
+        "lines": 9,
+        "arcs": 5
+      },
+      "length_change_mm": -0.21326987880577164
+    },
+    "/VREF": {
+      "before": {
+        "length_mm": 2.5595482577661453,
+        "lines": 7,
+        "arcs": 0
+      },
+      "after": {
+        "length_mm": 2.44180805984488,
+        "lines": 3,
+        "arcs": 1
+      },
+      "length_change_mm": -0.11774019792126511
+    }
+  },
+  "total_length_change_mm": -0.33101007672703675
+}

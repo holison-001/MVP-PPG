@@ -1,0 +1,109 @@
+{
+  "candidate_sha256": "4a8b3a983718be2fedbe1cb4e6d722f3b39d71c4d5449631d62e5021df50ed09",
+  "search_grid_mm": 0.025,
+  "constraints": {
+    "via_diameter": 0.5,
+    "drill": 0.25,
+    "radius_max": 5.74,
+    "foreign_copper_gap": 0.15,
+    "foreign_pad_hole": 0.2,
+    "same_pad_hole": 0.05,
+    "hole_hole": 0.25
+  },
+  "nets": {
+    "/NRST": {
+      "pad_ref": "J9",
+      "pad_xy_mm": [
+        17.46,
+        21.85
+      ],
+      "geometric_grid_count": 12,
+      "candidates": [],
+      "first_blocked_F_fanouts": [
+        {
+          "via_xy_mm": [
+            16.725,
+            19.05
+          ],
+          "length_mm": 2.8948618274453106,
+          "F_fanout_conflicts": [
+            "/VLDO:via:c74023ec-24e9-4436-a469-2e7825ce8156",
+            "12V:via:979f39e1-888b-4392-b7e6-022d360e07fc"
+          ]
+        },
+        {
+          "via_xy_mm": [
+            16.725,
+            19.025
+          ],
+          "length_mm": 2.9190495028347865,
+          "F_fanout_conflicts": [
+            "/VLDO:via:c74023ec-24e9-4436-a469-2e7825ce8156",
+            "12V:via:979f39e1-888b-4392-b7e6-022d360e07fc"
+          ]
+        },
+        {
+          "via_xy_mm": [
+            16.7,
+            19.025
+          ],
+          "length_mm": 2.9254444106836175,
+          "F_fanout_conflicts": [
+            "/VLDO:via:c74023ec-24e9-4436-a469-2e7825ce8156",
+            "12V:via:979f39e1-888b-4392-b7e6-022d360e07fc"
+          ]
+        }
+      ]
+    },
+    "/SWCLK": {
+      "pad_ref": "J8",
+      "pad_xy_mm": [
+        21.27,
+        21.85
+      ],
+      "geometric_grid_count": 40,
+      "candidates": [],
+      "first_blocked_F_fanouts": [
+        {
+          "via_xy_mm": [
+            22.675,
+            19.425
+          ],
+          "length_mm": 2.8026148504566244,
+          "F_fanout_conflicts": [
+            "/VREF:track:0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "/VREF:track:9913d153-0cf4-4dca-ba61-98d380f652b0",
+            "/VREF:track:ed8f56a5-a177-498f-9587-2f7458e194c2",
+            "/VREF:track:f54a2ddb-179b-47fe-8bea-643fbba7fca2"
+          ]
+        },
+        {
+          "via_xy_mm": [
+            22.675,
+            19.4
+          ],
+          "length_mm": 2.8242742430578547,
+          "F_fanout_conflicts": [
+            "/VREF:track:0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "/VREF:track:9913d153-0cf4-4dca-ba61-98d380f652b0",
+            "/VREF:track:ed8f56a5-a177-498f-9587-2f7458e194c2",
+            "/VREF:track:f54a2ddb-179b-47fe-8bea-643fbba7fca2"
+          ]
+        },
+        {
+          "via_xy_mm": [
+            22.7,
+            19.4
+          ],
+          "length_mm": 2.836793965024604,
+          "F_fanout_conflicts": [
+            "/VREF:track:0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "/VREF:track:9913d153-0cf4-4dca-ba61-98d380f652b0",
+            "/VREF:track:ed8f56a5-a177-498f-9587-2f7458e194c2",
+            "/VREF:track:f54a2ddb-179b-47fe-8bea-643fbba7fca2"
+          ]
+        }
+      ]
+    }
+  }
+}

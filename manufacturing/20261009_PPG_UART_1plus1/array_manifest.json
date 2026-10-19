@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-09",
+  "purpose": "1 PPG + 1 UART array artwork for manufacturer CAM; not a self-supporting assembly panel",
+  "coordinate_system": "mm, top view, +X right, +Y up; no mirroring",
+  "board_rotation_deg": 0,
+  "unit_sources": {
+    "PPG": {
+      "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+      "sha": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "origin": [
+        20,
+        17
+      ],
+      "offset": [
+        66.75,
+        17.5
+      ]
+    },
+    "UART": {
+      "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+      "sha": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "origin": [
+        88,
+        123.5
+      ],
+      "offset": [
+        5,
+        5
+      ]
+    }
+  },
+  "array": {
+    "uart_bounds_mm": [
+      [
+        5,
+        5
+      ],
+      [
+        57,
+        30
+      ]
+    ],
+    "ppg_center_mm": [
+      66.75,
+      17.5
+    ],
+    "ppg_diameter_mm": 13.5,
+    "minimum_board_gap_mm": 3,
+    "finished_board_envelope_mm": [
+      68.5,
+      25
+    ],
+    "suggested_rail_envelope_mm": [
+      78.5,
+      35
+    ],
+    "rail_in_gerber": false,
+    "breakaway_tabs_in_gerber": false,
+    "mouse_bites_in_drill": false
+  },
+  "files": [
+    {
+      "file": "PPG_UART_1plus1-F_Cu.gbr",
+      "layer": "F.Cu",
+      "source_object_counts": [
+        153,
+        101
+      ],
+      "combined_object_count": 254,
+      "sha256": "fce007b7f52658a9a25c1555281f3aa994ed8fc2614b0a8d547fc42c8b857f61"
+    },
+    {
+      "file": "PPG_UART_1plus1-In1_Cu.gbr",
+      "layer": "In1.Cu",
+      "source_object_counts": [
+        65,
+        101
+      ],
+      "combined_object_count": 166,
+      "sha256": "2ed13a558f0b1522eb76d151173d21a05128f18d9a13bd58210b926f9e612556"
+    },
+    {
+      "file": "PPG_UART_1plus1-In2_Cu.gbr",
+      "layer": "In2.Cu",
+      "source_object_counts": [
+        98,
+        106
+      ],
+      "combined_object_count": 204,
+      "sha256": "f330e6b210e3f94d6dcb3667a2da81edda652099a9c953100cd0e91c502b48a7"
+    },
+    {
+      "file": "PPG_UART_1plus1-In3_Cu.gbr",
+      "layer": "In3.Cu",
+      "source_object_counts": [
+        104,
+        111
+      ],
+      "combined_object_count": 215,
+      "sha256": "7517e144720b25149bfb7dcc3557e3604425208c5c374c6bb1100325e5beed74"
+    },
+    {
+      "file": "PPG_UART_1plus1-In4_Cu.gbr",
+      "layer": "In4.Cu",
+      "source_object_counts": [
+        65,
+        101
+      ],
+      "combined_object_count": 166,
+      "sha256": "3b3526d878e202fbc34350bf99787e57523bb07adcdc122a7c59f97e3c839e42"
+    },
+    {
+      "file": "PPG_UART_1plus1-B_Cu.gbr",
+      "layer": "B.Cu",
+      "source_object_counts": [
+        311,
+        246
+      ],
+      "combined_object_count": 557,
+      "sha256": "9ed6c9ab116c262076cc20c615de7a05101726cf0a3e727997801d18d9b344c8"
+    },
+    {
+      "file": "PPG_UART_1plus1-F_Mask.gbr",
+      "layer": "F.Mask",
+      "source_object_counts": [
+        23,
+        4
+      ],
+      "combined_object_count": 27,
+      "sha256": "0b38ef6e9e0c9a6e61a24b939dcbb8bbe4656681bab2658449515ade4ddeb189"
+    },
+    {
+      "file": "PPG_UART_1plus1-B_Mask.gbr",
+      "layer": "B.Mask",
+      "source_object_counts": [
+        101,
+        78
+      ],
+      "combined_object_count": 179,
+      "sha256": "d12a0b256f4c82cca525e514492f7b53657ae1d475d7e950a97ce0ce4a627cdf"
+    },
+    {
+      "file": "PPG_UART_1plus1-F_Silkscreen.gbr",
+      "layer": "F.Silkscreen",
+      "source_object_counts": [
+        25,
+        720
+      ],
+      "combined_object_count": 745,
+      "sha256": "f181d827c7f03d869dfda52d63e4b3ce983fa01c214d27698ccdf0071df519ce"
+    },
+    {
+      "file": "PPG_UART_1plus1-B_Silkscreen.gbr",
+      "layer": "B.Silkscreen",
+      "source_object_counts": [
+        135,
+        142
+      ],
+      "combined_object_count": 277,
+      "sha256": "776f3d95f89db3949fb2f595f9f72b0bd6fcb63cfea835a2f4ab713a5c310bfb"
+    },
+    {
+      "file": "PPG_UART_1plus1-F_Paste.gbr",
+      "layer": "F.Paste",
+      "source_object_counts": [
+        18,
+        0
+      ],
+      "combined_object_count": 18,
+      "sha256": "3f577164fe2f9dd3ee8893bea808334800cd34267d3fa84d8aac80de6183cc0a"
+    },
+    {
+      "file": "PPG_UART_1plus1-B_Paste.gbr",
+      "layer": "B.Paste",
+      "source_object_counts": [
+        104,
+        62
+      ],
+      "combined_object_count": 166,
+      "sha256": "5493c2e529c56864ae6c3662b427c198624b19b5f4af82224a589ed016d9e311"
+    },
+    {
+      "file": "PPG_UART_1plus1-Edge_Cuts.gbr",
+      "layer": "Edge.Cuts",
+      "source_object_counts": [
+        2,
+        4
+      ],
+      "combined_object_count": 6,
+      "sha256": "6fe0e79cd1a81a83ca83db108d62d77c494f3b6aa9f86ab485acfff26af88e8f"
+    },
+    {
+      "file": "PPG_UART_1plus1-PTH.drl",
+      "drill_type": "PTH",
+      "hit_count": 164,
+      "sha256": "47200a5b10e925d3ab9d55023065ebc0d94b01f6005959db44ed4e024632f7b8"
+    },
+    {
+      "file": "PPG_UART_1plus1-NPTH.drl",
+      "drill_type": "NPTH",
+      "hit_count": 4,
+      "sha256": "9acfe06368d4274929c0def66b129a2c7a96c518d8409eaf7b1eb68dacb00838"
+    }
+  ]
+}

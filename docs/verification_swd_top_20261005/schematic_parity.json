@@ -1,0 +1,14 @@
+{
+  "before_components": 37,
+  "after_components": 39,
+  "preserved_component_uuids": 37,
+  "preserved_component_pin_uuid_sets": 37,
+  "removed_pin_nets": {},
+  "changed_pin_nets": {},
+  "added_pin_nets": {
+    "('J11', '1')": "3V3",
+    "('J10', '1')": "GND"
+  },
+  "ldo_en_preserved": true,
+  "swd_tvs_preserved": true
+}

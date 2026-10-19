@@ -1,0 +1,28 @@
+{
+  "boards": [
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\power_cleanup_20261008c\\before\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "9652b7b1164ccead4dacc62d317b6ae81d2e8e52d7f4dde8c77a3d00c1973070"
+    },
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\power_cleanup_20261008c\\integrated\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "2f48cc14bab60c231189b33674a6b2a69fc755beff8a993c0c3906d5b9a2893a"
+    }
+  ],
+  "metrics": [
+    {
+      "all_layers_mm": 50.09455287656051,
+      "L4_mm": 35.2930328179893,
+      "L4_objects": 45,
+      "L4_arcs": 12,
+      "power_vias": 8
+    },
+    {
+      "all_layers_mm": 40.764110100611056,
+      "L4_mm": 26.266410315429788,
+      "L4_objects": 27,
+      "L4_arcs": 7,
+      "power_vias": 8
+    }
+  ]
+}

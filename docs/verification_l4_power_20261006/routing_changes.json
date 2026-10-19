@@ -1,0 +1,716 @@
+{
+  "source_sha256": "8cb336d7a7fefc73eb97e130ee7feebc319e2fb725e82339e77b1554be7872d1",
+  "candidate_sha256": "3978af66433edf39972056465ec87a712339e6beff50f82e82f3de54fd9c657c",
+  "footprints_identical": true,
+  "footprint_count": 41,
+  "all_vias_identical": true,
+  "non_target_tracks_identical": true,
+  "removed_tracks": {
+    "5935c1f2-162b-4639-b8e4-164740ce2c1d": {
+      "net": "3V3",
+      "start": [
+        24.5,
+        14.05
+      ],
+      "end": [
+        24.525,
+        13.775
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "20509ac3-7c0c-4918-ae73-c13867e52071": {
+      "net": "3V3",
+      "start": [
+        18.8,
+        16.149999
+      ],
+      "end": [
+        19.25,
+        15.825
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "32ac018f-bbb7-4bc2-bb12-39cce7888d55": {
+      "net": "3V3",
+      "start": [
+        19.8,
+        12.6
+      ],
+      "end": [
+        20.3,
+        13.1
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "10456cf1-bbf4-4c8d-adae-838c3be61d43": {
+      "net": "3V3",
+      "start": [
+        16.649999,
+        13.45
+      ],
+      "end": [
+        15.9,
+        14.5
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "db518770-4612-483c-8d8a-da9674ffec1d": {
+      "net": "3V3",
+      "start": [
+        21.275,
+        20.625
+      ],
+      "end": [
+        20.9,
+        20.25
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "22d40bee-ead1-4450-9384-09a3cd070a18": {
+      "net": "3V3",
+      "start": [
+        20.4,
+        16.3
+      ],
+      "end": [
+        20.2,
+        16.8
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "bab530ea-a535-4463-a311-3abbc5a6fac2": {
+      "net": "3V3",
+      "start": [
+        24.375,
+        15.725
+      ],
+      "end": [
+        24.5,
+        14.05
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "c441e6f8-e1ed-464e-901b-6d2ea04889d7": {
+      "net": "3V3",
+      "start": [
+        24.3,
+        14.48
+      ],
+      "end": [
+        23.9,
+        14.575
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "94210c46-105b-432e-8487-6c0e9dcef3ec": {
+      "net": "3V3",
+      "start": [
+        17.075,
+        16.625
+      ],
+      "end": [
+        17.425,
+        16.75
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "7ad6c3f5-84c0-4927-a321-d053f9c8d345": {
+      "net": "3V3",
+      "start": [
+        22.325,
+        14.375
+      ],
+      "end": [
+        20.3,
+        16.399999
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "0f285157-59b5-48f5-b0aa-06e8b3d6735e": {
+      "net": "3V3",
+      "start": [
+        24.45,
+        15.875
+      ],
+      "end": [
+        24.375,
+        15.65
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "ff2fd685-fb76-4f8e-b8ed-b0f77a6010f5": {
+      "net": "3V3",
+      "start": [
+        20.3,
+        16.399999
+      ],
+      "end": [
+        20.2,
+        16.8
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "1c818c67-7ac5-4e24-bb16-897eab4a4e08": {
+      "net": "3V3",
+      "start": [
+        24.7,
+        16.149999
+      ],
+      "end": [
+        24.45,
+        15.875
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "c9e23521-aa67-4e5d-9922-0ccf3829dd5d": {
+      "net": "3V3",
+      "start": [
+        24.95,
+        16.425
+      ],
+      "end": [
+        24.425,
+        15.85
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "21712838-3544-4085-8a0e-4f8b4ff4f1da": {
+      "net": "3V3",
+      "start": [
+        18.4,
+        16.85
+      ],
+      "end": [
+        18.8,
+        16.149999
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "16ef151e-c345-4f0f-8fc3-93fb6c9867af": {
+      "net": "3V3",
+      "start": [
+        24.375,
+        15.65
+      ],
+      "end": [
+        24.45,
+        14.425
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "0de6ecf8-18a5-4143-bcbc-edddf617327b": {
+      "net": "3V3",
+      "start": [
+        24.425,
+        15.85
+      ],
+      "end": [
+        24.375,
+        15.725
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "3f73a2d7-4a1c-48ef-adbf-8ede930a18ae": {
+      "net": "3V3",
+      "start": [
+        20.3,
+        13.1
+      ],
+      "end": [
+        21.2,
+        13.1
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "ae9b7d48-5075-4b0c-b181-40a5bf24fd75": {
+      "net": "3V3",
+      "start": [
+        23.475,
+        20.65
+      ],
+      "end": [
+        23.875,
+        20.15
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "ef574b67-224c-4b75-8d22-1b86dee336a4": {
+      "net": "3V3",
+      "start": [
+        24.35,
+        19.425
+      ],
+      "end": [
+        24.9,
+        18.65
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "40e78582-c3a4-4860-95d9-d54cf51a390b": {
+      "net": "3V3",
+      "start": [
+        21.2,
+        13.1
+      ],
+      "end": [
+        21.55,
+        13.45
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "6f1f2034-46ca-41af-94ed-8f84b3ce0dbb": {
+      "net": "3V3",
+      "start": [
+        22.625,
+        14.4
+      ],
+      "end": [
+        21.95,
+        13.725
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "3e68e8d7-dea2-4384-a706-f43a31a9cc80": {
+      "net": "3V3",
+      "start": [
+        17.9,
+        12.6
+      ],
+      "end": [
+        19.8,
+        12.6
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "728cf45d-6953-4dab-8d8d-d0e1dd753cc9": {
+      "net": "3V3",
+      "start": [
+        23.875,
+        20.15
+      ],
+      "end": [
+        24.15,
+        19.875
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    }
+  },
+  "added_tracks": {
+    "2fbf4646-3848-489b-a7e1-de7336f6b7ee": {
+      "net": "3V3",
+      "start": [
+        18.4,
+        16.85
+      ],
+      "end": [
+        19.25,
+        15.825
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "b8ccabe6-cb0b-4928-b9af-b3b135981b44": {
+      "net": "3V3",
+      "start": [
+        20.4,
+        16.3
+      ],
+      "end": [
+        22.45,
+        14.25
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "77e292f7-6a60-4e4c-b9ae-392098ad3199": {
+      "net": "3V3",
+      "start": [
+        24.25,
+        19.65
+      ],
+      "end": [
+        23.475,
+        20.65
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "dd2544b0-1e3b-4f48-9964-ba186be4d742": {
+      "net": "3V3",
+      "start": [
+        15.8,
+        14.725
+      ],
+      "end": [
+        16.649999,
+        13.45
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "c3545932-bab1-4bd0-8fe1-bd6624ba2c9d": {
+      "net": "3V3",
+      "start": [
+        24.9,
+        18.65
+      ],
+      "end": [
+        24.25,
+        19.65
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "0c84460b-6ea1-40d5-8925-75683a518e09": {
+      "net": "3V3",
+      "start": [
+        16.85,
+        16.52
+      ],
+      "end": [
+        17.425,
+        16.75
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "a840646c-9adc-41f8-9794-418d432692e7": {
+      "net": "3V3",
+      "start": [
+        17.9,
+        12.6
+      ],
+      "end": [
+        21.2,
+        13.1
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "736acf2d-003f-47fe-bbd8-de768985eadb": {
+      "net": "3V3",
+      "start": [
+        24.45,
+        14.425
+      ],
+      "end": [
+        24.377337,
+        15.611837
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "088dcabe-d773-41b3-b6b2-6c6ad28e9830": {
+      "net": "3V3",
+      "start": [
+        24.377337,
+        15.611837
+      ],
+      "end": [
+        24.95,
+        16.425
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "b7b02573-592f-44d4-a540-20a6c9944001": {
+      "net": "3V3",
+      "start": [
+        23.9,
+        14.575
+      ],
+      "end": [
+        24.45,
+        14.425
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "5fd0e3ac-536c-4681-9bd5-15f998639e96": {
+      "net": "3V3",
+      "start": [
+        22.45,
+        14.25
+      ],
+      "end": [
+        22.625,
+        14.4
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "c097991d-e210-4f23-83e2-46a80d09825d": {
+      "net": "3V3",
+      "start": [
+        21.275,
+        20.625
+      ],
+      "end": [
+        20.6734,
+        20.15
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "b3e7c787-999a-457f-bb39-b396a551bc23": {
+      "net": "3V3",
+      "start": [
+        21.775,
+        13.55
+      ],
+      "end": [
+        22.45,
+        14.25
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    },
+    "404f699e-7f3f-4d67-80f5-8d0d7d2f52e3": {
+      "net": "3V3",
+      "start": [
+        21.2,
+        13.1
+      ],
+      "end": [
+        21.775,
+        13.55
+      ],
+      "layer": 8,
+      "width": 0.4,
+      "drill": null,
+      "via": false
+    }
+  },
+  "changed_existing_tracks": {},
+  "before_stored_fill": {
+    "F.Cu": {
+      "tracks": 45,
+      "length_mm": 33.387192432267916,
+      "GND_area_mm2": 93.269918446607
+    },
+    "In1.Cu": {
+      "tracks": 0,
+      "length_mm": 0,
+      "GND_area_mm2": 103.448901622374
+    },
+    "In2.Cu": {
+      "tracks": 35,
+      "length_mm": 37.80165237647684,
+      "GND_area_mm2": 89.0292632610345
+    },
+    "In3.Cu": {
+      "tracks": 55,
+      "length_mm": 56.24900398416989,
+      "GND_area_mm2": 70.2538927860685
+    },
+    "In4.Cu": {
+      "tracks": 6,
+      "length_mm": 5.929871360768511,
+      "GND_area_mm2": 101.0168507127265
+    },
+    "B.Cu": {
+      "tracks": 190,
+      "length_mm": 68.10732330567969,
+      "GND_area_mm2": 49.68226820749
+    },
+    "L4_3V3": {
+      "tracks": 37,
+      "length_mm": 30.013704058989646,
+      "widths_mm": [
+        0.3,
+        0.4
+      ]
+    }
+  },
+  "before_refilled": {
+    "F.Cu": {
+      "tracks": 45,
+      "length_mm": 33.387192432267916,
+      "GND_area_mm2": 94.5717287719435
+    },
+    "In1.Cu": {
+      "tracks": 0,
+      "length_mm": 0,
+      "GND_area_mm2": 103.9323623274655
+    },
+    "In2.Cu": {
+      "tracks": 35,
+      "length_mm": 37.80165237647684,
+      "GND_area_mm2": 89.5128541164975
+    },
+    "In3.Cu": {
+      "tracks": 55,
+      "length_mm": 56.24900398416989,
+      "GND_area_mm2": 70.285052984423
+    },
+    "In4.Cu": {
+      "tracks": 6,
+      "length_mm": 5.929871360768511,
+      "GND_area_mm2": 101.500311417818
+    },
+    "B.Cu": {
+      "tracks": 190,
+      "length_mm": 68.10732330567969,
+      "GND_area_mm2": 51.0507991190275
+    },
+    "L4_3V3": {
+      "tracks": 37,
+      "length_mm": 30.013704058989646,
+      "widths_mm": [
+        0.3,
+        0.4
+      ]
+    }
+  },
+  "after_refilled": {
+    "F.Cu": {
+      "tracks": 45,
+      "length_mm": 33.387192432267916,
+      "GND_area_mm2": 94.5717287719435
+    },
+    "In1.Cu": {
+      "tracks": 0,
+      "length_mm": 0,
+      "GND_area_mm2": 103.9323623274655
+    },
+    "In2.Cu": {
+      "tracks": 35,
+      "length_mm": 37.80165237647684,
+      "GND_area_mm2": 89.5128541164975
+    },
+    "In3.Cu": {
+      "tracks": 45,
+      "length_mm": 54.45943720916229,
+      "GND_area_mm2": 70.6488502349905
+    },
+    "In4.Cu": {
+      "tracks": 6,
+      "length_mm": 5.929871360768511,
+      "GND_area_mm2": 101.500311417818
+    },
+    "B.Cu": {
+      "tracks": 190,
+      "length_mm": 68.10732330567969,
+      "GND_area_mm2": 51.0507991190275
+    },
+    "L4_3V3": {
+      "tracks": 27,
+      "length_mm": 28.224137283982042,
+      "widths_mm": [
+        0.3,
+        0.4
+      ]
+    }
+  },
+  "L4_3V3_length_reduction_mm": 1.7895667750076036,
+  "L4_GND_area_increase_mm2": 0.3637972505675009,
+  "DRC": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "warning_types": {
+      "silk_edge_clearance": 4,
+      "lib_footprint_mismatch": 1
+    }
+  },
+  "fabrication_exports_created": false
+}

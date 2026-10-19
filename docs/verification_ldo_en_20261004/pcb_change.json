@@ -1,0 +1,429 @@
+{
+  "pad_changes": [
+    [
+      "U1",
+      "3",
+      "3V3",
+      "/LDO_EN"
+    ],
+    [
+      "U2",
+      "12",
+      "unconnected-(U2-PA7-Pad12)",
+      "/LDO_EN"
+    ]
+  ],
+  "unexpected_footprint_changes": [],
+  "metrics": {
+    "before": {
+      "layer_length_mm": {
+        "F.Cu": 18.799198944772805,
+        "In1.Cu": 43.97142429493744,
+        "In2.Cu": 53.141927097763926,
+        "B.Cu": 72.74874962834788
+      },
+      "zones": [
+        {
+          "layer": "F.Cu",
+          "net": "GND",
+          "area_mm2": 102.6363531337945
+        },
+        {
+          "layer": "In1.Cu",
+          "net": "GND",
+          "area_mm2": 88.0324108228955
+        }
+      ],
+      "via_count": 59,
+      "track_count": 311
+    },
+    "after": {
+      "layer_length_mm": {
+        "F.Cu": 18.34876173856869,
+        "In1.Cu": 43.97142429493744,
+        "In2.Cu": 55.458632863651914,
+        "B.Cu": 73.06824221295635
+      },
+      "zones": [
+        {
+          "layer": "F.Cu",
+          "net": "GND",
+          "area_mm2": 102.3252156105825
+        },
+        {
+          "layer": "In1.Cu",
+          "net": "GND",
+          "area_mm2": 87.4292774756355
+        }
+      ],
+      "via_count": 60,
+      "track_count": 318
+    }
+  },
+  "removed_tracks": [
+    {
+      "net": "3V3",
+      "start": [
+        19.3346,
+        16.4
+      ],
+      "end": [
+        19.05,
+        16.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        19.725,
+        16.8
+      ],
+      "end": [
+        17.55,
+        16.85
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        22.325,
+        14.375
+      ],
+      "end": [
+        20.125,
+        16.575
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        19.534,
+        16.5994
+      ],
+      "end": [
+        19.3346,
+        16.4
+      ],
+      "layer": "F.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        19.534,
+        16.5994
+      ],
+      "end": [
+        19.772,
+        16.7482
+      ],
+      "layer": "F.Cu",
+      "width": 0.2,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        19.772,
+        16.7482
+      ],
+      "end": [
+        19.95,
+        16.75
+      ],
+      "layer": "F.Cu",
+      "width": 0.2,
+      "via": false
+    }
+  ],
+  "added_tracks": [
+    {
+      "net": "3V3",
+      "start": [
+        18.8,
+        16.149999
+      ],
+      "end": [
+        19.25,
+        15.825
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "/LDO_EN",
+      "start": [
+        19.6419,
+        16.418099
+      ],
+      "end": [
+        19.6,
+        16.46
+      ],
+      "layer": "B.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        20.3,
+        16.399999
+      ],
+      "end": [
+        20.2,
+        16.8
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        18.4,
+        16.85
+      ],
+      "end": [
+        18.8,
+        16.149999
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "/LDO_EN",
+      "start": [
+        19.6,
+        16.46
+      ],
+      "end": [
+        19.6,
+        16.46
+      ],
+      "layer": "F.Cu",
+      "width": 0.5,
+      "via": true
+    },
+    {
+      "net": "/LDO_EN",
+      "start": [
+        19.6419,
+        15.9749
+      ],
+      "end": [
+        19.6419,
+        16.418099
+      ],
+      "layer": "B.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "/LDO_EN",
+      "start": [
+        19.05,
+        16.399999
+      ],
+      "end": [
+        19.34,
+        16.399999
+      ],
+      "layer": "F.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        22.325,
+        14.375
+      ],
+      "end": [
+        20.3,
+        16.399999
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "/LDO_EN",
+      "start": [
+        19.4,
+        16.46
+      ],
+      "end": [
+        19.6,
+        16.46
+      ],
+      "layer": "F.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        17.55,
+        16.85
+      ],
+      "end": [
+        18.4,
+        16.85
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "/LDO_EN",
+      "start": [
+        19.34,
+        16.399999
+      ],
+      "end": [
+        19.4,
+        16.46
+      ],
+      "layer": "F.Cu",
+      "width": 0.1,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        20.35,
+        15.825
+      ],
+      "end": [
+        20.4,
+        16.3
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        19.25,
+        15.825
+      ],
+      "end": [
+        20.35,
+        15.825
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    },
+    {
+      "net": "3V3",
+      "start": [
+        20.4,
+        16.3
+      ],
+      "end": [
+        20.2,
+        16.8
+      ],
+      "layer": "In2.Cu",
+      "width": 0.4,
+      "via": false
+    }
+  ],
+  "modified_tracks": [
+    {
+      "before": {
+        "net": "3V3",
+        "start": [
+          20.6419,
+          17.5911
+        ],
+        "end": [
+          19.95,
+          16.75
+        ],
+        "layer": "B.Cu",
+        "width": 0.1,
+        "via": false
+      },
+      "after": {
+        "net": "3V3",
+        "start": [
+          20.6419,
+          17.5911
+        ],
+        "end": [
+          20.2,
+          16.8
+        ],
+        "layer": "B.Cu",
+        "width": 0.1,
+        "via": false
+      }
+    },
+    {
+      "before": {
+        "net": "3V3",
+        "start": [
+          19.95,
+          16.75
+        ],
+        "end": [
+          19.95,
+          16.75
+        ],
+        "layer": "F.Cu",
+        "width": 0.5,
+        "via": true
+      },
+      "after": {
+        "net": "3V3",
+        "start": [
+          20.2,
+          16.8
+        ],
+        "end": [
+          20.2,
+          16.8
+        ],
+        "layer": "F.Cu",
+        "width": 0.5,
+        "via": true
+      }
+    }
+  ],
+  "new_net_length_mm": 1.0773087762265459,
+  "pcb_sha256": "3739f17a4788d6f88375153e60bc42b3ab0be13ad075f4ffe46204a2b9a13e98",
+  "summary": "U1 pad 3 LDO_EN connected to U2 pad 12 PA7 by new /LDO_EN net, 1.077309 mm of 0.1 mm copper track and one 0.5/0.25 mm through via. Removed former U1 3V3 branch. Shifted one existing 3V3 via by 0.254951 mm and rerouted its local In2.Cu branches at preserved 0.4 mm width; no footprint movement or physical pad changes.",
+  "new_via": {
+    "diameter_mm": 0.5,
+    "drill_mm": 0.25,
+    "xy_mm": [
+      19.6,
+      16.46
+    ]
+  },
+  "unchanged_non_power_nets": true,
+  "drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "drc_tested_board_sha256": "439e8fe3849d108dfeb3962796e2656982908185ddfedd533a0d415337bff9a0",
+  "post_drc_formatting": "CRLF normalized to repository LF; parsed board content verified identical."
+}

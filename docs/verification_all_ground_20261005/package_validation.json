@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "archive": "manufacturing\\20261005_all_ground\\PPG_v0.8_6L_GND_20261005_Gerber_Drill.zip",
+  "sha256": "7a4f75681c455f235d3829095c8617ad589e3c33840d3631eb9b494ced049f3d",
+  "bytes": 128156,
+  "entry_count": 15,
+  "all_archived_files_match_validated_outputs": true,
+  "source_board_sha256": "acde2a668cf37064ec92e6d2a75cca0f7511d923814010b9736734c7725d5f3e"
+}

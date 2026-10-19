@@ -1,0 +1,13 @@
+{
+  "source_files": {
+    "ppg_compact.kicad_wks": "7db2c46b2ad23e421c66bac78a86d1f752c7ecd050b2cbd626563a7502e62a15",
+    "ppg_pcb_v08.kicad_sch": "e1cdefe5d62b78ed0b9b1db4ea94b3c9401e09b240f93669e1414f619b9c200a",
+    "ppg_pcb_v08.kicad_pro": "19571f57dfc095d66d1cbf15f5107925ea4e1b8da0ec63e2ad48db6daa4407b7",
+    "ppg_pcb_v08.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+    "ppg_pcb_v08.kicad_pcb": "fb2e0a3c41e7050155f3245b070b9358fb537c0a5b9aac6a84605806943493de",
+    "SleepBud.kicad_sym": "8e8c696027ff420843baad690075bcb3c9a6a7dbb85ab02bb0541fcbc0e51292",
+    "fp-lib-table": "5774eace97161e66bb831d198d52584262777f2ac54944f7210754484c271762",
+    "sym-lib-table": "5c7b0854d368b8ef24506fcccf64adddcc31aa886b25718ac46c0e3374e37aab"
+  },
+  "source_sha256": "fb2e0a3c41e7050155f3245b070b9358fb537c0a5b9aac6a84605806943493de"
+}

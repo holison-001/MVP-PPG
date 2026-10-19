@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-07",
+  "source": "kicad/ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "4f1e5e79919eb9e914c37ab74f09dba7f9a0d9baf9da9ec891db2f04894e7a50",
+  "source_unchanged": true,
+  "mode": "inspection_only",
+  "drc_errors": 0,
+  "drc_warnings": 5,
+  "unconnected": 0,
+  "parity": 0,
+  "R4_current": "10k UART_TX to 3V3 pull-up; present in PCB and schematic",
+  "R4_deletion_instruction_in_current_thread_found": false,
+  "legacy_deletion_scope": "v0.7 automatic direction-control Q1/R4/R5 circuit",
+  "resolved": [
+    "NRST dangling F.Cu segment removed",
+    "12V via to U4.8 explicit traces restored"
+  ],
+  "remaining": [
+    "D8 pad landing bypass via In2.Cu",
+    "C13.1 to 12V via still relies on narrow overlap"
+  ]
+}

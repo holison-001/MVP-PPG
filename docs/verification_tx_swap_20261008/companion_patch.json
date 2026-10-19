@@ -1,0 +1,407 @@
+{
+  "source_sha256": "a088e17b8ebbfac9dc46428ebd5ce852163f717e1151c880f1a050a1c30419fb",
+  "remove_ids": [
+    "e08674e7-7303-4bc7-b52a-25f8ca9ba87f",
+    "eefe1b5a-d9f9-4765-98ef-be7a67371e4f",
+    "65abe2a2-bd53-4d83-a1da-9f96f6d36a5e",
+    "ca457d2a-b55c-470a-a04c-7a75e93c41cb",
+    "8d649687-5fa9-4ed8-9ec0-48edf46f2bf2"
+  ],
+  "placement_overrides": {
+    "R4": {
+      "position": [
+        22.5,
+        16.7
+      ],
+      "angle": -90,
+      "layer": "B.Cu"
+    },
+    "C5": {
+      "position": [
+        21.4,
+        17.55
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    }
+  },
+  "new_items": [
+    {
+      "name": "R4_TX_0",
+      "kind": "PCB_TRACK",
+      "net": "/UART_TX",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        22.5,
+        16.38
+      ],
+      "end": [
+        22.7,
+        15.2
+      ],
+      "length_mm": 1.196829144030174,
+      "uuid": "97ed88f6-0333-44f3-9aa6-18626f4b0c07"
+    },
+    {
+      "name": "R4_3V3_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        22.5,
+        17.02
+      ],
+      "end": [
+        21.52,
+        16.8
+      ],
+      "length_mm": 1.0043903623591777,
+      "uuid": "873cd2ac-e34e-40cb-87eb-75e6fd80c4bf"
+    },
+    {
+      "name": "VREF_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/VREF",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        21.72,
+        17.55
+      ],
+      "end": [
+        22.1,
+        17.55
+      ],
+      "length_mm": 0.38000000000000256,
+      "uuid": "50f4349c-7e00-4a43-83a2-e1a3ed830bd3"
+    },
+    {
+      "name": "VREF_F_0",
+      "kind": "PCB_TRACK",
+      "net": "/VREF",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        20.95,
+        16.4
+      ],
+      "end": [
+        21.397312,
+        16.647199
+      ],
+      "length_mm": 0.5110727648241502,
+      "uuid": "139c51b8-d334-4d3b-8b92-cffb4f092c7d"
+    },
+    {
+      "name": "VREF_F_1",
+      "kind": "PCB_TRACK",
+      "net": "/VREF",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        21.444151,
+        16.68768
+      ],
+      "end": [
+        22.1,
+        17.55
+      ],
+      "length_mm": 1.0833899082052596,
+      "uuid": "9e0554c3-1b8b-4821-ba59-da605d5d9421"
+    },
+    {
+      "name": "VREF_F_arc1",
+      "kind": "PCB_ARC",
+      "net": "/VREF",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        21.397312,
+        16.647199
+      ],
+      "mid": [
+        21.422842,
+        16.664996
+      ],
+      "end": [
+        21.444151,
+        16.68768
+      ],
+      "radius": 0.1499931423265744,
+      "center": [
+        21.3248,
+        16.7785
+      ],
+      "length_mm": 0.062359611107212,
+      "uuid": "43af0160-9451-47e5-9b59-55e9f2098dd0"
+    },
+    {
+      "name": "C5_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        21.08,
+        17.55
+      ],
+      "end": [
+        21.525,
+        19.275
+      ],
+      "length_mm": 1.7814741087088504,
+      "uuid": "8b97f124-5022-46e7-ad86-15b5e3112180"
+    },
+    {
+      "name": "VREF_relocated",
+      "kind": "PCB_VIA",
+      "net": "/VREF",
+      "position": [
+        22.1,
+        17.55
+      ],
+      "diameter": 0.5,
+      "drill": 0.25,
+      "uuid": "265d2eac-f6b1-42fa-9b4c-8034fd113041"
+    }
+  ],
+  "plans": [
+    {
+      "name": "R4_TX",
+      "net": "/UART_TX",
+      "layer": 2,
+      "points": [
+        [
+          22.5,
+          16.38
+        ],
+        [
+          22.7,
+          15.2
+        ]
+      ],
+      "items": [
+        {
+          "name": "R4_TX_0",
+          "kind": "PCB_TRACK",
+          "net": "/UART_TX",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            22.5,
+            16.38
+          ],
+          "end": [
+            22.7,
+            15.2
+          ],
+          "length_mm": 1.196829144030174,
+          "uuid": "97ed88f6-0333-44f3-9aa6-18626f4b0c07"
+        }
+      ],
+      "length_mm": 1.196829144030174
+    },
+    {
+      "name": "R4_3V3",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          22.5,
+          17.02
+        ],
+        [
+          21.52,
+          16.8
+        ]
+      ],
+      "items": [
+        {
+          "name": "R4_3V3_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            22.5,
+            17.02
+          ],
+          "end": [
+            21.52,
+            16.8
+          ],
+          "length_mm": 1.0043903623591777,
+          "uuid": "873cd2ac-e34e-40cb-87eb-75e6fd80c4bf"
+        }
+      ],
+      "length_mm": 1.0043903623591777
+    },
+    {
+      "name": "VREF_B",
+      "net": "/VREF",
+      "layer": 2,
+      "points": [
+        [
+          21.72,
+          17.55
+        ],
+        [
+          22.1,
+          17.55
+        ]
+      ],
+      "items": [
+        {
+          "name": "VREF_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/VREF",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            21.72,
+            17.55
+          ],
+          "end": [
+            22.1,
+            17.55
+          ],
+          "length_mm": 0.38000000000000256,
+          "uuid": "50f4349c-7e00-4a43-83a2-e1a3ed830bd3"
+        }
+      ],
+      "length_mm": 0.38000000000000256
+    },
+    {
+      "name": "VREF_F",
+      "net": "/VREF",
+      "layer": 0,
+      "points": [
+        [
+          20.95,
+          16.4
+        ],
+        [
+          21.425,
+          16.662499999999998
+        ],
+        [
+          22.1,
+          17.55
+        ]
+      ],
+      "items": [
+        {
+          "name": "VREF_F_0",
+          "kind": "PCB_TRACK",
+          "net": "/VREF",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            20.95,
+            16.4
+          ],
+          "end": [
+            21.397312,
+            16.647199
+          ],
+          "length_mm": 0.5110727648241502,
+          "uuid": "139c51b8-d334-4d3b-8b92-cffb4f092c7d"
+        },
+        {
+          "name": "VREF_F_1",
+          "kind": "PCB_TRACK",
+          "net": "/VREF",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            21.444151,
+            16.68768
+          ],
+          "end": [
+            22.1,
+            17.55
+          ],
+          "length_mm": 1.0833899082052596,
+          "uuid": "9e0554c3-1b8b-4821-ba59-da605d5d9421"
+        },
+        {
+          "name": "VREF_F_arc1",
+          "kind": "PCB_ARC",
+          "net": "/VREF",
+          "layer": 0,
+          "width": 0.15,
+          "start": [
+            21.397312,
+            16.647199
+          ],
+          "mid": [
+            21.422842,
+            16.664996
+          ],
+          "end": [
+            21.444151,
+            16.68768
+          ],
+          "radius": 0.1499931423265744,
+          "center": [
+            21.3248,
+            16.7785
+          ],
+          "length_mm": 0.062359611107212,
+          "uuid": "43af0160-9451-47e5-9b59-55e9f2098dd0"
+        }
+      ],
+      "length_mm": 1.6568222841366218
+    },
+    {
+      "name": "C5_GND",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          21.08,
+          17.55
+        ],
+        [
+          21.525,
+          19.275
+        ]
+      ],
+      "items": [
+        {
+          "name": "C5_GND_0",
+          "kind": "PCB_TRACK",
+          "net": "GND",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            21.08,
+            17.55
+          ],
+          "end": [
+            21.525,
+            19.275
+          ],
+          "length_mm": 1.7814741087088504,
+          "uuid": "8b97f124-5022-46e7-ad86-15b5e3112180"
+        }
+      ],
+      "length_mm": 1.7814741087088504
+    }
+  ],
+  "placement_gaps_mm": {
+    "R4_C5": 0.06,
+    "C5_R1": 0.06,
+    "R4_U3": 0.098989,
+    "R4_C16": 0.1984,
+    "C5_C1": 0.15
+  },
+  "notes": [
+    "R4 +0.20 x/+0.20 y from latest user placement; C5 +0.05 y; angles unchanged.",
+    "Only five original VREF objects removed and replaced; one VREF via replaced at nearer position.",
+    "C5 GND .30 direct to existing GND via21.525,19.275, no additional GND via.",
+    "4TX net copper was excluded only during route planning; final joint/native DRC required with TX patch."
+  ]
+}

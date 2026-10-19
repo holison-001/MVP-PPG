@@ -1,0 +1,12 @@
+{
+  "boards": [
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\placement_reroute_20261008d\\before\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "914cfd30e2fe7c789235ae6b9359ea89543286b5d823b4c27cc959807f56516b"
+    },
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\placement_reroute_20261008d\\integrated\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "bbd74454cdfd2f07445fb08227b9e11855be98583af45f1e497f3e75ff5221ce"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "source_sha256": "d846727bc1072eb4670b2364c6f00038f31e0101b5c887cce5076438363aad64",
+  "remove_ids": [
+    "37a23c69-6966-4087-ade0-fa3ddd4ec9e0",
+    "9a71d37f-36b5-4f4f-b9dd-eaf8c80719e2",
+    "2bc86812-6916-40aa-be2e-c4857d464bb8",
+    "48f673a6-f27f-41bf-91a0-470667c28e17",
+    "830e4902-1fe9-4c9e-8c18-e3fb0c0c16ce",
+    "b0d104f8-dd14-4f7e-8f18-a35f5b628a50",
+    "f033ea97-eec1-497a-a2eb-6e472429756a",
+    "1ce5835f-c4d1-4a2b-812a-618056922ba9",
+    "3a2dbc1d-136d-4f28-8048-ee1f5b818c5e",
+    "4347a95e-b575-4b2d-8e26-2e3e96a3e4e1"
+  ],
+  "placement_overrides": {},
+  "preserved_B_anchor_ids": [
+    "e5fca989-b675-4d54-a9d4-f4a456676914",
+    "6ce92651-d577-4622-af27-f9b643300e20"
+  ],
+  "intent": "Retain both entire verified U1 sensor paths and all three I2C vias; replace only stale pullup links. Use existing SDA via as a shared junction rather than drawing a parallel MCU-to-R1 branch.",
+  "new_items": [
+    {
+      "name": "SCL_MCU_R2_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/SCL",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        19.6419,
+        17.2749
+      ],
+      "end": [
+        20.88,
+        16.9
+      ],
+      "length_mm": 1.2936157157363226,
+      "uuid": "d2c5aaa0-b9da-48c3-8c1a-e74f409c8aff"
+    },
+    {
+      "name": "SDA_via_R1_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/SDA",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        20.225,
+        17.7749
+      ],
+      "end": [
+        20.88,
+        17.6
+      ],
+      "length_mm": 0.6779491205097886,
+      "uuid": "5d02a295-1234-4e81-b143-979bee57fa0c"
+    }
+  ],
+  "companion_trial_sha256": "2eae5eaa0474459a419cb64932c8fe225e18ded7c47fd4ff5da25f5dced784a8",
+  "before": {
+    "/SDA": {
+      "total_mm": 6.849855752512416,
+      "vias": 2
+    },
+    "/SCL": {
+      "total_mm": 7.859718614550009,
+      "vias": 1
+    }
+  },
+  "after": {
+    "/SDA": {
+      "total_mm": 5.904380284000699,
+      "vias": 2
+    },
+    "/SCL": {
+      "total_mm": 7.320044245965422,
+      "vias": 1
+    }
+  },
+  "candidate_sha256": "9e87ee67773a46f8b7e3a4084922f15d13662369ef20ca4b29c98341b2a3b1d0"
+}

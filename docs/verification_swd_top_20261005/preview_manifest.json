@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-05",
+  "source": "kicad/ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "1baae6c041f182bea81e6a53060e6774f11bff44b48da2111aff54040978bad6",
+  "view": "Top view; actual F.Cu, F.Fab and Edge.Cuts, including filled zones",
+  "pad_order_left_to_right": [
+    "J9 NRST",
+    "J7 SWDIO",
+    "J10 GND",
+    "J8 SWCLK",
+    "J11 3V3 VTref"
+  ],
+  "pad_diameter_mm": 0.8,
+  "pad_pitch_mm": 1.27,
+  "review_only": true,
+  "sha256": {
+    "top_copper.svg": "849456788767257ab47cd0580fdc485a41a6752c24b79b207b598817521993ef",
+    "top_copper.png": "d0268342b0ae83b6d6a70f86a68904ae54bdd9ab7f33954f164bc37c6e7f104b"
+  },
+  "layout_preview": {
+    "svg": "top_layout.svg",
+    "png": "top_layout.png",
+    "layers": [
+      "F.Cu",
+      "F.Mask",
+      "F.Fab",
+      "Edge.Cuts"
+    ],
+    "view": "Top view; magenta shows actual soldermask openings, gray letters are F.Fab review labels, not silkscreen",
+    "sha256": {
+      "top_layout.svg": "866232f3c075892313806335a9d18ca446f33c06adf4fcbc21eef5bac51ac1b5",
+      "top_layout.png": "6f3d0bc1d0db80b97eeb09974ebf8ca0e972f536439e433f34044419def88787"
+    }
+  }
+}

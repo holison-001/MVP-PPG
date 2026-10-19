@@ -1,0 +1,152 @@
+{
+  "read_only": true,
+  "classification": "False positive from pad-object-only cut: external and protected traces meet inside D8.1 physical landing. Actual full pad-area cut disconnects J9.1 from U2.4. No external side-branch bypass detected.",
+  "latest_expected_sha_match": true,
+  "method": "Native copper polygons approximated within 0.000003 mm; remove entire actual D8.1 B.Cu landing polygon from every NRST copper shape on B.Cu, split resulting polygons, then check multilayer contact graph with via barrel bridges. Contact tolerance0.000005 mm. No CAD writes. This verifies geometry/topology, not transient ESD performance.",
+  "snapshots": {
+    "previous": {
+      "board_sha256": "5c56fd812b7731454b473263236c5e6cdbb83d56181a3880a614fd235b8c4d0f",
+      "pad1_center": [
+        16.0,
+        19.75
+      ],
+      "pad1_B_bounds_mm": [
+        15.75,
+        19.6,
+        16.25,
+        19.9
+      ],
+      "pad1_area_mm2": 0.14999999999999858,
+      "checks": {
+        "normal": {
+          "source_reaches_IC": true,
+          "components": 1,
+          "polygon_nodes": 21
+        },
+        "pad_object_only_removed": {
+          "source_reaches_IC": false,
+          "components": 2,
+          "polygon_nodes": 20
+        },
+        "entire_pad_area_removed": {
+          "source_reaches_IC": false,
+          "components": 2,
+          "polygon_nodes": 20
+        }
+      },
+      "track_contacts_near_landing": [],
+      "source_unchanged": true
+    },
+    "latest": {
+      "board_sha256": "fb2e0a3c41e7050155f3245b070b9358fb537c0a5b9aac6a84605806943493de",
+      "pad1_center": [
+        16.1,
+        19.25
+      ],
+      "pad1_B_bounds_mm": [
+        15.85,
+        19.1,
+        16.35,
+        19.4
+      ],
+      "pad1_area_mm2": 0.1499999999999991,
+      "checks": {
+        "normal": {
+          "source_reaches_IC": true,
+          "components": 1,
+          "polygon_nodes": 27
+        },
+        "pad_object_only_removed": {
+          "source_reaches_IC": true,
+          "components": 1,
+          "polygon_nodes": 26
+        },
+        "entire_pad_area_removed": {
+          "source_reaches_IC": false,
+          "components": 2,
+          "polygon_nodes": 26
+        }
+      },
+      "track_contacts_near_landing": [
+        {
+          "a": "488475eb-f127-485d-9017-ec7a5b9ea2ab",
+          "b": "735a1c9a-35e5-48dc-9c6b-246964d5e817",
+          "intersection_area_mm2": 0.017791700258979543,
+          "intersection_outside_TVS_pad_mm2": 0.001410700007435781,
+          "a_start": [
+            16.1951,
+            19.1549
+          ],
+          "a_end": [
+            16.1,
+            19.25
+          ],
+          "b_start": [
+            17.09663,
+            19.1549
+          ],
+          "b_end": [
+            16.1951,
+            19.1549
+          ]
+        },
+        {
+          "a": "488475eb-f127-485d-9017-ec7a5b9ea2ab",
+          "b": "e6fda1a5-bbd8-4726-be4d-03d23b3ef617",
+          "intersection_area_mm2": 0.01779168168311001,
+          "intersection_outside_TVS_pad_mm2": 0.0,
+          "a_start": [
+            16.1951,
+            19.1549
+          ],
+          "a_end": [
+            16.1,
+            19.25
+          ],
+          "b_start": [
+            16.1,
+            19.25
+          ],
+          "b_end": [
+            16.1,
+            19.64
+          ]
+        },
+        {
+          "a": "735a1c9a-35e5-48dc-9c6b-246964d5e817",
+          "b": "e6fda1a5-bbd8-4726-be4d-03d23b3ef617",
+          "intersection_area_mm2": 0.000693898447448129,
+          "intersection_outside_TVS_pad_mm2": 0.0,
+          "a_start": [
+            17.09663,
+            19.1549
+          ],
+          "a_end": [
+            16.1951,
+            19.1549
+          ],
+          "b_start": [
+            16.1,
+            19.25
+          ],
+          "b_end": [
+            16.1,
+            19.64
+          ]
+        }
+      ],
+      "source_unchanged": true,
+      "external_protected_junction": {
+        "external_track_uuid": "e6fda1a5-bbd8-4726-be4d-03d23b3ef617",
+        "meeting_point_mm": [
+          16.1,
+          19.25
+        ],
+        "meeting_point_is_pad_center": true,
+        "cross_branch_contacts": 2,
+        "cross_branch_overlap_outside_pad_mm2": 0.0,
+        "interpretation": "Only input-versus-output contacts determine bypass. The protected branch own corner also intersects itself partly outside the pad; that is a normal connection along the same protected branch."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "boards": [
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\u2_impl_20261008\\before\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0"
+    },
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\u2_impl_20261008\\integrated\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "0db206e568dc9441220bb5e9327dbec5d7b70599d49fd8e6ac2166f2f1b90cc9"
+    }
+  ],
+  "changed_refs": [
+    "C1",
+    "C15",
+    "C4",
+    "D8",
+    "R1",
+    "R2",
+    "R4",
+    "U2"
+  ],
+  "VLDO_lengths_mm": [
+    3.153144881242939,
+    2.3445137630085817
+  ]
+}

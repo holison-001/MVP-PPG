@@ -1,0 +1,811 @@
+{
+  "source_sha256": "a341f6f1e0e259c67a1eb5f3b38d15f205dbd09641d4371187e50dfa52584754",
+  "candidate_sha256": "88ac72dc920b486fb2a87bfd9bb8ddc056b8d0df43416ebc413928e26609889c",
+  "remove_ids": [
+    "45025f37-469f-4c1e-9e2f-09417be06ce6",
+    "95b7ad68-1a58-4371-8270-4d3f9a9447b7",
+    "9ce3f88e-ea2c-4990-a58a-17c47d57fb2a",
+    "03fc92ab-9005-4819-a7cf-e04b405b12e8",
+    "7d9afe56-d975-46d0-bdf3-d09ba4a8df42",
+    "b0913044-e30b-4be2-94b3-e66e83183b98",
+    "45b6013b-9ec6-47d8-a7af-860507e7c465",
+    "7d73f3c9-5316-4018-b1ab-a74479ddc5a5",
+    "84e97afa-6f42-42e8-8fde-a71518c6d5ce",
+    "59d9d8ba-4fd0-4978-80a8-65822679b9e7"
+  ],
+  "removed": [
+    {
+      "uuid": "45025f37-469f-4c1e-9e2f-09417be06ce6",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 0.14902558256218965
+    },
+    {
+      "uuid": "95b7ad68-1a58-4371-8270-4d3f9a9447b7",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 1.4779867765244046
+    },
+    {
+      "uuid": "9ce3f88e-ea2c-4990-a58a-17c47d57fb2a",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 0.4035214921426119
+    },
+    {
+      "uuid": "03fc92ab-9005-4819-a7cf-e04b405b12e8",
+      "net": "5V_LED",
+      "kind": "PCB_VIA",
+      "length_mm": 0
+    },
+    {
+      "uuid": "7d9afe56-d975-46d0-bdf3-d09ba4a8df42",
+      "net": "5V_LED",
+      "kind": "PCB_ARC",
+      "length_mm": 0.139099242022438
+    },
+    {
+      "uuid": "b0913044-e30b-4be2-94b3-e66e83183b98",
+      "net": "5V_LED",
+      "kind": "PCB_ARC",
+      "length_mm": 0.08995713208656793
+    },
+    {
+      "uuid": "45b6013b-9ec6-47d8-a7af-860507e7c465",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 0.01341
+    },
+    {
+      "uuid": "7d73f3c9-5316-4018-b1ab-a74479ddc5a5",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 0.8154327860351213
+    },
+    {
+      "uuid": "84e97afa-6f42-42e8-8fde-a71518c6d5ce",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 1.0185137791939785
+    },
+    {
+      "uuid": "59d9d8ba-4fd0-4978-80a8-65822679b9e7",
+      "net": "5V_LED",
+      "kind": "PCB_TRACK",
+      "length_mm": 1.5191544617125015
+    }
+  ],
+  "new_items": [
+    {
+      "name": "C17_5V_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        19.6657,
+        20.9939
+      ],
+      "end": [
+        20.5,
+        20.22
+      ],
+      "length_mm": 1.1379708695744368,
+      "uuid": "cae5b83a-6534-4fa1-aea0-7cdb9b308811"
+    },
+    {
+      "name": "C17_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        20.5,
+        19.58
+      ],
+      "end": [
+        19.7,
+        19.8
+      ],
+      "length_mm": 0.8296987405076629,
+      "uuid": "e574ff03-90b3-4dd8-a40c-8448b7d0ca54"
+    },
+    {
+      "name": "5V_SENSOR_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.05,
+        17.599999
+      ],
+      "end": [
+        19.432814,
+        17.727604
+      ],
+      "length_mm": 0.4035214921426114,
+      "uuid": "88ada61d-cc39-4f99-b7f6-22e78c2c1bdb"
+    },
+    {
+      "name": "5V_SENSOR_1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.550078,
+        17.800077
+      ],
+      "end": [
+        19.655602,
+        17.905601
+      ],
+      "length_mm": 0.14923347195585715,
+      "uuid": "a796f476-1489-44be-b5b3-678d879d7a53"
+    },
+    {
+      "name": "5V_SENSOR_2",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.708607,
+        17.977367
+      ],
+      "end": [
+        20.228893,
+        18.960131
+      ],
+      "length_mm": 1.111990378327078,
+      "uuid": "0b841028-9e0f-4a2f-ab6b-ab2760834796"
+    },
+    {
+      "name": "5V_SENSOR_3",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        20.281898,
+        19.031897
+      ],
+      "end": [
+        20.861533,
+        19.611532
+      ],
+      "length_mm": 0.8197276782261285,
+      "uuid": "19768e8c-9be1-4ca0-b7cd-8a201335351e"
+    },
+    {
+      "name": "5V_SENSOR_4",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        20.949524,
+        19.67251
+      ],
+      "end": [
+        21.725,
+        20.025
+      ],
+      "length_mm": 0.8518287543139181,
+      "uuid": "64edfc06-cc15-4200-8e58-0834d8fea663"
+    },
+    {
+      "name": "5V_SENSOR_arc1",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.432814,
+        17.727604
+      ],
+      "mid": [
+        19.495665,
+        17.757013
+      ],
+      "end": [
+        19.550078,
+        17.800077
+      ],
+      "radius": 0.2999742952521099,
+      "center": [
+        19.338,
+        18.0122
+      ],
+      "length_mm": 0.139099242022438,
+      "uuid": "29291ee1-9394-4430-94de-5ad16dc0013f"
+    },
+    {
+      "name": "5V_SENSOR_arc2",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.655602,
+        17.905601
+      ],
+      "mid": [
+        19.684787,
+        17.939503
+      ],
+      "end": [
+        19.708607,
+        17.977367
+      ],
+      "radius": 0.3000968250498495,
+      "center": [
+        19.4434,
+        18.1178
+      ],
+      "length_mm": 0.08955057026564384,
+      "uuid": "e77b5abb-d8f8-4eca-bd27-9cbebae031b7"
+    },
+    {
+      "name": "5V_SENSOR_arc3",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        20.228893,
+        18.960131
+      ],
+      "mid": [
+        20.252713,
+        18.997995
+      ],
+      "end": [
+        20.281898,
+        19.031897
+      ],
+      "radius": 0.30009268336632267,
+      "center": [
+        20.4941,
+        18.8197
+      ],
+      "length_mm": 0.08954968764851462,
+      "uuid": "c86e583d-abb0-4dbd-b21f-783ea8639b0f"
+    },
+    {
+      "name": "5V_SENSOR_arc4",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        20.861533,
+        19.611532
+      ],
+      "mid": [
+        20.902787,
+        19.645978
+      ],
+      "end": [
+        20.949524,
+        19.67251
+      ],
+      "radius": 0.3000247011714202,
+      "center": [
+        21.0737,
+        19.3994
+      ],
+      "length_mm": 0.1076328652098123,
+      "uuid": "cd625e9a-293d-4ec9-9ed8-a98107273e54"
+    },
+    {
+      "name": "5V_C1_NARROW_0_width0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        20.62,
+        18.5
+      ],
+      "end": [
+        20.973205,
+        19.231638
+      ],
+      "length_mm": 0.812433341923508,
+      "uuid": "2e9e6b60-d430-4168-89d5-ce341c31230f"
+    },
+    {
+      "name": "5V_C1_NARROW_0_width1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        20.973205,
+        19.231638
+      ],
+      "end": [
+        21.129222,
+        19.554816
+      ],
+      "length_mm": 0.35886672174081374,
+      "uuid": "ebb8c880-9481-4b20-a1b1-ce4978eefba2"
+    },
+    {
+      "name": "5V_C1_NARROW_1_width0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        21.173974,
+        19.609356
+      ],
+      "end": [
+        21.459398,
+        19.824654
+      ],
+      "length_mm": 0.3575193541334507,
+      "uuid": "4ee51824-f2e7-4d67-b4e6-00a5d511764e"
+    },
+    {
+      "name": "5V_C1_NARROW_1_width1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        21.459398,
+        19.824654
+      ],
+      "end": [
+        21.725,
+        20.025
+      ],
+      "length_mm": 0.33269045991732393,
+      "uuid": "e685e528-5e03-45ac-a115-5f831daa8490"
+    },
+    {
+      "name": "5V_C1_NARROW_arc1",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        21.129222,
+        19.554816
+      ],
+      "mid": [
+        21.148346,
+        19.584754
+      ],
+      "end": [
+        21.173974,
+        19.609356
+      ],
+      "radius": 0.14999730910919704,
+      "center": [
+        21.2643,
+        19.4896
+      ],
+      "length_mm": 0.07121652393174943,
+      "uuid": "7cea2e29-607b-477d-a46f-e861a6743469"
+    }
+  ],
+  "plans": [
+    {
+      "name": "C17_5V",
+      "net": "5V_LED",
+      "layer": 2,
+      "points": [
+        [
+          19.6657,
+          20.9939
+        ],
+        [
+          20.5,
+          20.22
+        ]
+      ],
+      "items": [
+        {
+          "name": "C17_5V_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            19.6657,
+            20.9939
+          ],
+          "end": [
+            20.5,
+            20.22
+          ],
+          "length_mm": 1.1379708695744368
+        }
+      ],
+      "length_mm": 1.1379708695744368
+    },
+    {
+      "name": "C17_GND",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          20.5,
+          19.58
+        ],
+        [
+          19.7,
+          19.8
+        ]
+      ],
+      "items": [
+        {
+          "name": "C17_GND_0",
+          "kind": "PCB_TRACK",
+          "net": "GND",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            20.5,
+            19.58
+          ],
+          "end": [
+            19.7,
+            19.8
+          ],
+          "length_mm": 0.8296987405076629
+        }
+      ],
+      "length_mm": 0.8296987405076629
+    },
+    {
+      "name": "5V_SENSOR",
+      "net": "5V_LED",
+      "layer": 0,
+      "points": [
+        [
+          19.05,
+          17.599999
+        ],
+        [
+          19.5,
+          17.749999
+        ],
+        [
+          19.6875,
+          17.937499
+        ],
+        [
+          20.25,
+          18.999999000000003
+        ],
+        [
+          20.900000000000002,
+          19.649999
+        ],
+        [
+          21.725,
+          20.025
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_SENSOR_0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.05,
+            17.599999
+          ],
+          "end": [
+            19.432814,
+            17.727604
+          ],
+          "length_mm": 0.4035214921426114
+        },
+        {
+          "name": "5V_SENSOR_1",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.550078,
+            17.800077
+          ],
+          "end": [
+            19.655602,
+            17.905601
+          ],
+          "length_mm": 0.14923347195585715
+        },
+        {
+          "name": "5V_SENSOR_2",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.708607,
+            17.977367
+          ],
+          "end": [
+            20.228893,
+            18.960131
+          ],
+          "length_mm": 1.111990378327078
+        },
+        {
+          "name": "5V_SENSOR_3",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            20.281898,
+            19.031897
+          ],
+          "end": [
+            20.861533,
+            19.611532
+          ],
+          "length_mm": 0.8197276782261285
+        },
+        {
+          "name": "5V_SENSOR_4",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            20.949524,
+            19.67251
+          ],
+          "end": [
+            21.725,
+            20.025
+          ],
+          "length_mm": 0.8518287543139181
+        },
+        {
+          "name": "5V_SENSOR_arc1",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.432814,
+            17.727604
+          ],
+          "mid": [
+            19.495665,
+            17.757013
+          ],
+          "end": [
+            19.550078,
+            17.800077
+          ],
+          "radius": 0.2999742952521099,
+          "center": [
+            19.338,
+            18.0122
+          ],
+          "length_mm": 0.139099242022438
+        },
+        {
+          "name": "5V_SENSOR_arc2",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            19.655602,
+            17.905601
+          ],
+          "mid": [
+            19.684787,
+            17.939503
+          ],
+          "end": [
+            19.708607,
+            17.977367
+          ],
+          "radius": 0.3000968250498495,
+          "center": [
+            19.4434,
+            18.1178
+          ],
+          "length_mm": 0.08955057026564384
+        },
+        {
+          "name": "5V_SENSOR_arc3",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            20.228893,
+            18.960131
+          ],
+          "mid": [
+            20.252713,
+            18.997995
+          ],
+          "end": [
+            20.281898,
+            19.031897
+          ],
+          "radius": 0.30009268336632267,
+          "center": [
+            20.4941,
+            18.8197
+          ],
+          "length_mm": 0.08954968764851462
+        },
+        {
+          "name": "5V_SENSOR_arc4",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 0,
+          "width": 0.3,
+          "start": [
+            20.861533,
+            19.611532
+          ],
+          "mid": [
+            20.902787,
+            19.645978
+          ],
+          "end": [
+            20.949524,
+            19.67251
+          ],
+          "radius": 0.3000247011714202,
+          "center": [
+            21.0737,
+            19.3994
+          ],
+          "length_mm": 0.1076328652098123
+        }
+      ],
+      "length_mm": 3.7621341401120016
+    },
+    {
+      "name": "5V_C1_MIXED",
+      "net": "5V_LED",
+      "layer": 2,
+      "points": [
+        [
+          20.62,
+          18.5
+        ],
+        [
+          21.145,
+          19.5875
+        ],
+        [
+          21.725,
+          20.025
+        ]
+      ],
+      "items": [
+        {
+          "name": "5V_C1_NARROW_0_width0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            20.62,
+            18.5
+          ],
+          "end": [
+            20.973205,
+            19.231638
+          ],
+          "length_mm": 0.812433341923508
+        },
+        {
+          "name": "5V_C1_NARROW_0_width1",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            20.973205,
+            19.231638
+          ],
+          "end": [
+            21.129222,
+            19.554816
+          ],
+          "length_mm": 0.35886672174081374
+        },
+        {
+          "name": "5V_C1_NARROW_1_width0",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            21.173974,
+            19.609356
+          ],
+          "end": [
+            21.459398,
+            19.824654
+          ],
+          "length_mm": 0.3575193541334507
+        },
+        {
+          "name": "5V_C1_NARROW_1_width1",
+          "kind": "PCB_TRACK",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            21.459398,
+            19.824654
+          ],
+          "end": [
+            21.725,
+            20.025
+          ],
+          "length_mm": 0.33269045991732393
+        },
+        {
+          "name": "5V_C1_NARROW_arc1",
+          "kind": "PCB_ARC",
+          "net": "5V_LED",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            21.129222,
+            19.554816
+          ],
+          "mid": [
+            21.148346,
+            19.584754
+          ],
+          "end": [
+            21.173974,
+            19.609356
+          ],
+          "radius": 0.14999730910919704,
+          "center": [
+            21.2643,
+            19.4896
+          ],
+          "length_mm": 0.07121652393174943
+        }
+      ],
+      "length_mm": 1.932726401646846
+    }
+  ],
+  "placement_overrides": {},
+  "metrics": {
+    "C1_branch_length_mm": 1.932726401646846,
+    "C1_width_030_mm": 1.1451238018408318,
+    "C1_width_015_mm": 0.7876025998060139,
+    "C1_native_min_clearance_mm": 0.15306903543057523,
+    "native_min_all_new_clearance_mm": 0.1511148822643637,
+    "5V_length_before_mm": 10.382497077872857,
+    "5V_length_after_mm": 11.589227236926334,
+    "vias_deleted": 1,
+    "vias_added": 0
+  },
+  "unexpected_net_changes": [],
+  "notes": [
+    "Alllatestfootprintsandnon5Vcopperpreserved;onlynewC17GNDreturnadded.",
+    "C17(20.5,19.9),90 retained. Oldsensor5Vviaandsidebranchesdeleted;existing21.725,20.025mainviareused.",
+    "C17U4powerbranchandGNDreturndirect. C1 .15neck.7876mm only; restwide.30.",
+    "No3V3/SDA/SCLmodifications. Zonesretainedunfilledbyagent;rootfinalfillandDRCrequired."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "saved_at": "2026-10-08T14:38:09.636968+09:00",
+  "canonical": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "before_sha256": "d846727bc1072eb4670b2364c6f00038f31e0101b5c887cce5076438363aad64",
+  "after_sha256": "4a753412db677bffd4155f628a6ae2fa6ba472ef047550a04ff7c33ec5107719",
+  "backup": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\20261008_before_R1_R2_C5_reroute\\kicad_before_R1_R2_C5.zip",
+  "backup_sha256": "a823fb27ec41603b6baf96bad87b0e5d4da8d4a7504ed3abd3abf050688fa0a0",
+  "all_41_component_placements_preserved": true,
+  "all_151_pad_identities_preserved": true,
+  "drc_errors": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "warnings": 5,
+  "via_count": 65,
+  "before_total_planar_track_length_mm": 183.78244135982055,
+  "after_total_planar_track_length_mm": 183.1262196033813,
+  "schematic_project_rules_unchanged": true,
+  "gerber_generated": false,
+  "github_published": false
+}

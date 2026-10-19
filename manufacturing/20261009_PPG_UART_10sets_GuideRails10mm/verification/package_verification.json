@@ -1,0 +1,10 @@
+{
+  "file": "PPG_UART_10sets_GuideRails10mm_Gerber_20261009.zip",
+  "size_bytes": 12226996,
+  "sha256": "19aa01b9a91cb3204b0f6bd5610767337ebeb914de85bd7edadf1273ae1a6f84",
+  "entries": 29,
+  "crc_check": "PASS",
+  "contents_hash_check": "PASS",
+  "dxf_reference_path_count": 100,
+  "source_boards_unchanged": true
+}

@@ -1,0 +1,61 @@
+{
+  "board_sha256": "42bf5059d9635a8967bbfbb1281c3d1b2446fac0ca8a0384739d25c2a11f268b",
+  "user_saved_baseline_sha256": "b155d6261735d3d23ba6ff1f02000b67d323d9c18ffc712be76f86a0421aa80d",
+  "validation": {
+    "drc_errors": 0,
+    "courtyard_overlaps": 0,
+    "warnings": 5,
+    "unconnected_items": 0,
+    "schematic_parity": 0,
+    "netcheck_pass": true,
+    "independent_audit_pass": true,
+    "ground_rim_saved_polygons_and_connectivity_pass": true,
+    "refs": 39,
+    "physical_pad_uuids": 143,
+    "numbered_pin_nets": 119,
+    "tracks": 321,
+    "vias": 71
+  },
+  "erc_reuse": {
+    "reason": "Schematic bytes unchanged from the recorded zero-violation ERC run. No schematic logic or symbols changed in this routing/placement phase.",
+    "source_report": "docs/verification_via_split_20261005/erc.json",
+    "schematic_sha256": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "report_sha256": "3ffb7b42862b715750ef8d690e1a503f85ec3ca1dced35521277b4e8d7873563"
+  },
+  "scope_notes": [
+    "R4 and C7 assembly courtyards resolved without reducing outlines, clearances or error severities.",
+    "Other user component placements and existing GND vias preserved; exact copper changes are in pcb_change.json.",
+    "L3/L4 still contain perimeter GND rings; this phase did not expand the central pour.",
+    "Fabrication stackup and manufacturer rule exceptions remain documented in README.",
+    "No Gerber, drill or BOM output, Git commit or push was performed."
+  ],
+  "sha256": {
+    "README.md": "2e49039f937c60747d5f8be0137e2fba8fc4da387cce369af0e9bb75b3373298",
+    "kicad/RS422_PCB_STATUS.md": "5a877944831395e6970f3478c9b43d643214cf84606be27590878f48b8c2fa43",
+    "kicad/design_v08.py": "10d006982c8be8e2ac6a4cf3559f0c18a5ef67e3bc9b629726e0e62d836b0cf8",
+    "kicad/ppg_pcb_v08.kicad_pcb": "42bf5059d9635a8967bbfbb1281c3d1b2446fac0ca8a0384739d25c2a11f268b",
+    "kicad/ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "kicad/ppg_pcb_v08.kicad_pro": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+    "kicad/ppg_pcb_v08.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+    "kicad/netcheck_v08.py": "ee5746230e1c6c6621f8c70dae90a0f3566068a4daae7853f8ac2eaa07de5f40",
+    "kicad/via_policy_v08.py": "7ef3965d714fa106765ec016615237d1fc5bb9111017b38ebea3c1153388edfe",
+    "kicad/layer_policy_v08.py": "40e15f6a0fd9e18b61c453dac1e5db70222196a8126d1d4c054c37a00848858b",
+    "kicad/ground_rim_v08.py": "5c3223387ad1bd2361309794685c1df8175d47d809b151c105ed85d608cb46d3",
+    "docs/verification_r4_move_20261005/assembly_clearance_proposal.json": "5fbb2a50300ebe260dc13828b206da246e492e7e3666282979f1dbf4eec73340",
+    "docs/verification_r4_move_20261005/candidate_netcheck.json": "0a5c8eaff853252ba31cb1e481d64864c799a674a3b805ab0d87dd7aa38b5c3f",
+    "docs/verification_r4_move_20261005/drc.json": "9de60d5fb9f4250de23f18cb46c48bf05959bd7edb09dea5bb6d5eeb50ecda96",
+    "docs/verification_r4_move_20261005/ground_rim.json": "a91e01df940ee712d906cdd91899d0f1aa0afbfc90bbfeefd323325d0f6557c6",
+    "docs/verification_r4_move_20261005/independent_audit.json": "ae0012e5dcb152e94a879fb315c88e33fb4829261eb7a3a4aac3c6b103377329",
+    "docs/verification_r4_move_20261005/netcheck.json": "9d6a8b2bae06b333127a03ac7a174a595ac18bf2984b8ed1082e7946c207357e",
+    "docs/verification_r4_move_20261005/placement_review.json": "0a6d4e4cea714b85c25f66d3781246ae6b945a70aca21e48f0193086c7d2ea23",
+    "docs/verification_r4_move_20261005/user_change_audit.json": "c3cbd4ca715c8c03cf1b6049dea87da1b36fcb523108c98bc987f2dbc5708e3e",
+    "docs/review_r4_move_20261005/pcb_change.json": "b4434b83ec6439b621cecac36eb1f551e304f0357fffea4891f2c2c637d414c5",
+    "docs/review_r4_move_20261005/layers/source_manifest.json": "fccf38e565902a3668f241447b20e318f1489f8da8d1220937859811029e4a3e",
+    "docs/review_r4_move_20261005/layers/assembly_detail_manifest.json": "e695b9a5ddf82dc22de87f9962478bb893b3c827a47939a75f295e70adb41d13",
+    "docs/review_r4_move_20261005/layers/r4_assembly_detail.png": "d59645b8cbc45828cbabaca9c0f2b69ef3cacfb2a1661d3c85a635e0ace00fc6",
+    "docs/review_r4_move_20261005/layers/r4_assembly_detail.svg": "2912515478786782cc565c804bd67f1841d6fcde49e619a9b82336ee6b9e4503",
+    "docs/review_r4_move_20261005/layers/six_layers.png": "6873c35c217bad148dc6e2fb6c2ee593c938e1451538b97f3efc3e51694aa958",
+    "docs/review_r4_move_20261005/layers/six_layers.svg": "1d0fbe48d58f656e8374f66b9a01221c87d4f5475540b7e674d8613296242a2a",
+    "docs/verification_via_split_20261005/erc.json": "3ffb7b42862b715750ef8d690e1a503f85ec3ca1dced35521277b4e8d7873563"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "boards": [
+    {
+      "folder": "before",
+      "sha256": "4f1e5e79919eb9e914c37ab74f09dba7f9a0d9baf9da9ec891db2f04894e7a50"
+    },
+    {
+      "folder": "candidate",
+      "sha256": "6f5485a1f81b4cb11914d462fbb74e58576903f7c1595e6b5ecb7f60054ed806"
+    }
+  ],
+  "method": "Native KiCad B.Cu polygons plus actual In2.Cu NRST tracks; both panels top coordinate view"
+}

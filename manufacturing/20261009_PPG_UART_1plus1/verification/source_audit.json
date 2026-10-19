@@ -1,0 +1,570 @@
+{
+  "audit_time": "2026-10-09T20:27:25.921946+09:00",
+  "scope": "Read-only canonical-source manufacturing audit. This records source settings and native DRC only; does not certify physical fabrication or assembly.",
+  "boards": {
+    "ppg": {
+      "source": "kicad/ppg_pcb_v08.kicad_pcb",
+      "pcb_sha256": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "project_sha256": "e5ce3d7d2ad8cce8be472e77300060fbe89589c30b620a034cdb06f2bac5399c",
+      "rules_sha256": "aac78db0b9e818052b16767a8ac0d20b1c95c4db40a65ba67ed3748be583ae20",
+      "schematic_sha256": "03a2cade22502d2eacf03746d6e81dc0f94dff623763b35a1713a91144a5cbd8",
+      "last_modified_local": "2026-10-09T20:13:34.881670+09:00",
+      "matches_previous_verified_025_board_hash": true,
+      "previous_verified_025_board_hash": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "copper_layer_count": 6,
+      "physical_copper_layer_order": [
+        {
+          "id": 0,
+          "name": "F.Cu",
+          "type": "signal"
+        },
+        {
+          "id": 4,
+          "name": "In1.Cu",
+          "type": "power"
+        },
+        {
+          "id": 6,
+          "name": "In2.Cu",
+          "type": "signal"
+        },
+        {
+          "id": 8,
+          "name": "In3.Cu",
+          "type": "mixed"
+        },
+        {
+          "id": 10,
+          "name": "In4.Cu",
+          "type": "power"
+        },
+        {
+          "id": 2,
+          "name": "B.Cu",
+          "type": "signal"
+        }
+      ],
+      "nominal_board_thickness_mm": 0.8,
+      "explicit_stackup_present": false,
+      "copper_thicknesses_mm": null,
+      "dielectric_thicknesses_mm": null,
+      "dielectric_materials": null,
+      "auxiliary_origin_mm": [
+        20.0,
+        17.0
+      ],
+      "footprint_count": 42,
+      "via_count": 64,
+      "via_size_type_groups": [
+        {
+          "land_diameter_mm": 0.5,
+          "drill_mm": 0.25,
+          "via_type_enum": 4,
+          "count": 64
+        }
+      ],
+      "drilled_component_pads": [],
+      "native_drc": {
+        "violations": {
+          "count": 5,
+          "severity_counts": {
+            "warning": 5
+          },
+          "type_counts": {
+            "silk_edge_clearance": 4,
+            "lib_footprint_mismatch": 1
+          },
+          "items": [
+            {
+              "description": "Silkscreen clipped by board edge",
+              "items": [
+                {
+                  "description": "원 (Edge.Cuts)",
+                  "pos": {
+                    "x": 20.0,
+                    "y": 17.0
+                  },
+                  "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                  "description": "세그먼트 of U4 on B.Silkscreen",
+                  "pos": {
+                    "x": 17.6157,
+                    "y": 22.8789
+                  },
+                  "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+              ],
+              "severity": "warning",
+              "type": "silk_edge_clearance"
+            },
+            {
+              "description": "Silkscreen clipped by board edge",
+              "items": [
+                {
+                  "description": "원 (Edge.Cuts)",
+                  "pos": {
+                    "x": 20.0,
+                    "y": 17.0
+                  },
+                  "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                  "description": "세그먼트 of U4 on B.Silkscreen",
+                  "pos": {
+                    "x": 17.6157,
+                    "y": 23.3539
+                  },
+                  "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+              ],
+              "severity": "warning",
+              "type": "silk_edge_clearance"
+            },
+            {
+              "description": "Silkscreen clipped by board edge",
+              "items": [
+                {
+                  "description": "원 (Edge.Cuts)",
+                  "pos": {
+                    "x": 20.0,
+                    "y": 17.0
+                  },
+                  "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                  "description": "세그먼트 of U5 on B.Silkscreen",
+                  "pos": {
+                    "x": 22.802478,
+                    "y": 22.722255
+                  },
+                  "uuid": "8f36f2e8-f175-4236-970d-4543a11a4723"
+                }
+              ],
+              "severity": "warning",
+              "type": "silk_edge_clearance"
+            },
+            {
+              "description": "Silkscreen clipped by board edge",
+              "items": [
+                {
+                  "description": "원 (Edge.Cuts)",
+                  "pos": {
+                    "x": 20.0,
+                    "y": 17.0
+                  },
+                  "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                  "description": "세그먼트 of U5 on B.Silkscreen",
+                  "pos": {
+                    "x": 23.138353,
+                    "y": 23.05813
+                  },
+                  "uuid": "7d01be0c-4214-42f6-a54a-d7168f1ec9f8"
+                }
+              ],
+              "severity": "warning",
+              "type": "silk_edge_clearance"
+            },
+            {
+              "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+              "items": [
+                {
+                  "description": "풋프린트 U2",
+                  "pos": {
+                    "x": 18.3419,
+                    "y": 17.2749
+                  },
+                  "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+              ],
+              "severity": "warning",
+              "type": "lib_footprint_mismatch"
+            }
+          ]
+        },
+        "unconnected_items": {
+          "count": 0,
+          "severity_counts": {},
+          "type_counts": {},
+          "items": []
+        },
+        "schematic_parity": {
+          "count": 9,
+          "severity_counts": {
+            "warning": 9
+          },
+          "type_counts": {
+            "footprint_symbol_field_mismatch": 9
+          },
+          "items": [
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C1",
+                  "pos": {
+                    "x": 21.1,
+                    "y": 18.5
+                  },
+                  "uuid": "b2f9a1a4-f6b1-4efb-a428-573a0c252270"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C4",
+                  "pos": {
+                    "x": 20.4,
+                    "y": 15.1
+                  },
+                  "uuid": "44017bb5-c816-4513-8aca-21dcd8dc28d5"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C5",
+                  "pos": {
+                    "x": 21.2,
+                    "y": 16.2
+                  },
+                  "uuid": "d3e0d1f7-5532-408f-9bec-480b7de33dc7"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C12",
+                  "pos": {
+                    "x": 17.8,
+                    "y": 11.6
+                  },
+                  "uuid": "c53e36e5-4b8b-4bc3-9693-50677731f4a1"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C13",
+                  "pos": {
+                    "x": 16.6,
+                    "y": 21.2
+                  },
+                  "uuid": "47f818cc-af94-4bef-a665-1a5cbc5840f5"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C14",
+                  "pos": {
+                    "x": 24.4,
+                    "y": 19.9
+                  },
+                  "uuid": "052a604d-9fc4-42f7-b2a9-d02fedd0e76c"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C15",
+                  "pos": {
+                    "x": 19.4,
+                    "y": 19.4
+                  },
+                  "uuid": "9f67b882-0710-47f5-98fb-b710cccd751c"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Voltage'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 C16",
+                  "pos": {
+                    "x": 24.3,
+                    "y": 16.4
+                  },
+                  "uuid": "6cb67eeb-b554-40c7-b596-a9512aa022a2"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            },
+            {
+              "description": "풋프린트에 심볼 필드 'Tolerance'이(가) 없습니다",
+              "items": [
+                {
+                  "description": "풋프린트 R3",
+                  "pos": {
+                    "x": 14.2,
+                    "y": 16.8
+                  },
+                  "uuid": "a79fb02c-f0e3-4c86-be8b-3438a8f8ae2d"
+                }
+              ],
+              "severity": "warning",
+              "type": "footprint_symbol_field_mismatch"
+            }
+          ]
+        },
+        "date": "2026-10-09T20:26:26",
+        "kicad_version": "10.0.5",
+        "ignored_checks": [
+          {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+          },
+          {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+          },
+          {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+          },
+          {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+          },
+          {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+          }
+        ]
+      },
+      "minimum_through_hole_drill_rule_mm": 0.25,
+      "drc_exclusions": []
+    },
+    "uart": {
+      "source": "kicad/ppg_uart_adapter/ppg_uart_adapter_v01.kicad_pcb",
+      "pcb_sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "project_sha256": "184340996e4941e8a42ad88baae59a658049753820f1ab1715012c1e97a76cce",
+      "rules_sha256": "951200166dec5181174b20cab5f970a480d40579a62be439dc9414597dcefaf8",
+      "schematic_sha256": "5166ab8cfb01c2cb5119467bc23d7fe946adb6fd6bcc954a0fbad439f2f65fd5",
+      "last_modified_local": "2026-10-09T20:07:07.691399+09:00",
+      "matches_previous_verified_025_board_hash": true,
+      "previous_verified_025_board_hash": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "copper_layer_count": 6,
+      "physical_copper_layer_order": [
+        {
+          "id": 0,
+          "name": "F.Cu",
+          "type": "signal"
+        },
+        {
+          "id": 4,
+          "name": "In1.Cu",
+          "type": "power"
+        },
+        {
+          "id": 6,
+          "name": "In2.Cu",
+          "type": "signal"
+        },
+        {
+          "id": 8,
+          "name": "In3.Cu",
+          "type": "signal"
+        },
+        {
+          "id": 10,
+          "name": "In4.Cu",
+          "type": "power"
+        },
+        {
+          "id": 2,
+          "name": "B.Cu",
+          "type": "signal"
+        }
+      ],
+      "nominal_board_thickness_mm": 0.8,
+      "explicit_stackup_present": false,
+      "copper_thicknesses_mm": null,
+      "dielectric_thicknesses_mm": null,
+      "dielectric_materials": null,
+      "auxiliary_origin_mm": [
+        0.0,
+        0.0
+      ],
+      "footprint_count": 32,
+      "via_count": 100,
+      "via_size_type_groups": [
+        {
+          "land_diameter_mm": 0.5,
+          "drill_mm": 0.25,
+          "via_type_enum": 4,
+          "count": 100
+        }
+      ],
+      "drilled_component_pads": [
+        {
+          "reference": "H1",
+          "number": "",
+          "attribute": 3,
+          "is_npth": true,
+          "drill_mm": [
+            3.0,
+            3.0
+          ],
+          "position_mm": [
+            94.5,
+            105.0
+          ]
+        },
+        {
+          "reference": "H4",
+          "number": "",
+          "attribute": 3,
+          "is_npth": true,
+          "drill_mm": [
+            3.0,
+            3.0
+          ],
+          "position_mm": [
+            133.5,
+            117.0
+          ]
+        },
+        {
+          "reference": "H3",
+          "number": "",
+          "attribute": 3,
+          "is_npth": true,
+          "drill_mm": [
+            3.0,
+            3.0
+          ],
+          "position_mm": [
+            94.5,
+            117.0
+          ]
+        },
+        {
+          "reference": "H2",
+          "number": "",
+          "attribute": 3,
+          "is_npth": true,
+          "drill_mm": [
+            3.0,
+            3.0
+          ],
+          "position_mm": [
+            133.5,
+            105.0
+          ]
+        }
+      ],
+      "native_drc": {
+        "violations": {
+          "count": 0,
+          "severity_counts": {},
+          "type_counts": {},
+          "items": []
+        },
+        "unconnected_items": {
+          "count": 0,
+          "severity_counts": {},
+          "type_counts": {},
+          "items": []
+        },
+        "schematic_parity": {
+          "count": 0,
+          "severity_counts": {},
+          "type_counts": {},
+          "items": []
+        },
+        "date": "2026-10-09T20:26:26",
+        "kicad_version": "10.0.5",
+        "ignored_checks": [
+          {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+          },
+          {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+          },
+          {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+          },
+          {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+          }
+        ]
+      },
+      "minimum_through_hole_drill_rule_mm": 0.25,
+      "drc_exclusions": []
+    }
+  },
+  "required_export_layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "B.Cu",
+    "F.Mask",
+    "B.Mask",
+    "F.SilkS",
+    "B.SilkS",
+    "F.Paste",
+    "B.Paste",
+    "Edge.Cuts"
+  ],
+  "combined_source_holes": {
+    "via_pth_count": 164,
+    "component_pth_count": 0,
+    "component_npth_count": 4
+  },
+  "stackup_comparison": {
+    "copper_count_matches": true,
+    "physical_order_matches": true,
+    "nominal_thickness_matches": true,
+    "detailed_physical_stackup_confirmed": false,
+    "detail": "Neither canonical PCB serializes an explicit stackup. 0.8 mm nominal thickness and six copper layers match, but copper weights, dielectric thickness/material and final fabricator stackup are unspecified. In3.Cu type is mixed on PPG and signal on UART; this is a KiCad use classification, not a physical layer-order mismatch."
+  },
+  "export_requirements": [
+    "Export the six copper layers in F.Cu, In1.Cu, In2.Cu, In3.Cu, In4.Cu, B.Cu order.",
+    "Export both mask, both silkscreen and both paste layers, plus Edge.Cuts. An empty F.Paste on the UART source is acceptable only after verifying the no-top-SMT source layout.",
+    "Use one shared panel coordinate frame for all Gerber, plated Excellon, NPTH Excellon and placement outputs. Source auxiliary origins differ: PPG (20,17), UART (0,0).",
+    "Use 1:1, no mirroring and explicit same units/origin for Gerber and Excellon. Do not add board-frame drawing to production copper.",
+    "All source vias are diameter 0.50 mm / drill 0.25 mm. No approved 0.20 mm exceptions exist. Source NPTH mounting holes are 4 x 3.00 mm on UART. Any panel tooling/tab holes must be separately identified.",
+    "Do not claim detailed stackup/fabrication approval: verify chosen stackup, annular ring and edge clearances with the fabricator. Source nominal annular ring is (0.50-0.25)/2=0.125 mm."
+  ],
+  "limitations": [
+    "Native PPG DRC has 5 existing warnings, plus 9 separately reported schematic metadata field warnings; do not describe it as all-warning-free or parity-warning-free.",
+    "Source audit does not inspect generated Gerber geometry or panel mechanics; those require separate export and panel validation.",
+    "No canonical source was changed by this audit."
+  ]
+}

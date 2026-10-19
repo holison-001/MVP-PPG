@@ -1,0 +1,596 @@
+{
+  "scope": "Independent post-serialization 20-board panel audit. Freshly parsed output objects are compared in sequence with manually translated unit objects plus native carrier Gerber extras; production Edge.Cuts is compared only to the carrier physical profile.",
+  "manifest_sha256": "bafb2998ba03dc1c1daf3b59ff93f0f3b7317dddb8445d72dd149c53fbfbfd3e",
+  "primitive_tolerance_mm": 1.0001e-06,
+  "native_drill_tolerance_per_axis_mm": 0.0005001,
+  "sources": {
+    "PPG": {
+      "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "matches_manifest": true,
+      "unit_gerber_origin_mm": [
+        20,
+        17
+      ]
+    },
+    "UART": {
+      "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+      "sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "matches_manifest": true,
+      "unit_gerber_origin_mm": [
+        88,
+        123.5
+      ]
+    }
+  },
+  "layers": [
+    {
+      "layer": "F_Cu",
+      "file": "PPG_UART_10sets-F_Cu.gbr",
+      "sha256": "1c752e1b3eb13de5549f75dce8ac70c5dd84b3d7782cbf1ae2b493ed8971de8f",
+      "FileFunction": [
+        "Copper",
+        "L1",
+        "Top"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "353d2e7a5f81e18404c7715bcb980f26d537546c785699750ad4d090bcbc2766",
+        "UART": "ca8779c4c0eb290d1a6481012310e403a7bbb509422c5235b2ef7446a7e81d2e",
+        "CARRIER": "ca2fb29f0e605f2da98baaab4a614b4748524181bd3535a66cb26fec05f5b037"
+      },
+      "expected_object_count": 2543,
+      "actual_object_count": 2543,
+      "carrier_extra_object_count": 3,
+      "expanded_primitive_count": 3663,
+      "source_macro_flash_count": 140,
+      "numeric_values_compared": 72589,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "In1_Cu",
+      "file": "PPG_UART_10sets-In1_Cu.gbr",
+      "sha256": "6785d36dedfc29a18379c412ad45fe96ff9302aa1fd8dedcb18305f293325a24",
+      "FileFunction": [
+        "Copper",
+        "L2",
+        "Inr"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "fa768e3cf7ae2f1b3e5048acd078e0a5baee5325b13349931582e06da189252d",
+        "UART": "600404cf29c2893419306f495be5f98821d193b17eab0a886b75893838eb3089"
+      },
+      "expected_object_count": 1660,
+      "actual_object_count": 1660,
+      "carrier_extra_object_count": 0,
+      "expanded_primitive_count": 1660,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 59620,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "In2_Cu",
+      "file": "PPG_UART_10sets-In2_Cu.gbr",
+      "sha256": "111aa6642fc0647b1b002e5aa652d20f2fbb5aa5a99adf684d82b731cdb2de70",
+      "FileFunction": [
+        "Copper",
+        "L3",
+        "Inr"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "90ccfe5dbb17998b93236e85b43883339779d112846a27aad7e6874b8e2ffe18",
+        "UART": "965a01353597a7c9a1d7ab22b63510f0042cee1549913484c4d7760a219d7830"
+      },
+      "expected_object_count": 2040,
+      "actual_object_count": 2040,
+      "carrier_extra_object_count": 0,
+      "expanded_primitive_count": 2040,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 59760,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "In3_Cu",
+      "file": "PPG_UART_10sets-In3_Cu.gbr",
+      "sha256": "a3ff5dd1848c24536e5e4377ade59e493657c6636a4ff64249d78c3d0b7b594c",
+      "FileFunction": [
+        "Copper",
+        "L4",
+        "Inr"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "29f46a9f8190583a272d19ff27b582e852c503b95f78f2f22c5c62259d3e562b",
+        "UART": "a7b96a586e35de5aeff9390c42484e7e935ae16a76670c0afcb9b64d068fbcf6"
+      },
+      "expected_object_count": 2150,
+      "actual_object_count": 2150,
+      "carrier_extra_object_count": 0,
+      "expanded_primitive_count": 2150,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 55950,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "In4_Cu",
+      "file": "PPG_UART_10sets-In4_Cu.gbr",
+      "sha256": "d3bfe7c3df3ca6f3b38109241e61125ddbd2efcc681a25915e6222c4dd4f0c96",
+      "FileFunction": [
+        "Copper",
+        "L5",
+        "Inr"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "23561cbee591f2f6ff9662098e05aacd8398eb893d049e1eeb95e57c70f26410",
+        "UART": "892a4afa1623770c9230affb3d86cebe829f37527c7e94ba87b2306f406da0ba"
+      },
+      "expected_object_count": 1660,
+      "actual_object_count": 1660,
+      "carrier_extra_object_count": 0,
+      "expanded_primitive_count": 1660,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 59620,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "B_Cu",
+      "file": "PPG_UART_10sets-B_Cu.gbr",
+      "sha256": "47dab3a5a94a0252a157a709d8f04516196bff2622ada0bba3b7899dbd7c5721",
+      "FileFunction": [
+        "Copper",
+        "L6",
+        "Bot"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "a6c26e1ce5dce92e82d5c68e25a5eb8252ee043fc9134f681c2cc8cc879b3bca",
+        "UART": "1738e934d517d6bea0e75755a1b9bac9e7efc27a9e0dbc95f943a7651c948fd1",
+        "CARRIER": "382f0de789e96c28af1ef2fa5fad792ad708807599bce5a2daef908a111c7e72"
+      },
+      "expected_object_count": 5573,
+      "actual_object_count": 5573,
+      "carrier_extra_object_count": 3,
+      "expanded_primitive_count": 13893,
+      "source_macro_flash_count": 1190,
+      "numeric_values_compared": 181379,
+      "max_numeric_difference_mm": 4.593052054246982e-07,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "F_Mask",
+      "file": "PPG_UART_10sets-F_Mask.gbr",
+      "sha256": "a682acfc3f783b969429904a393b0b73d26faf65aa17d693fe469be9083adeeb",
+      "FileFunction": [
+        "Soldermask",
+        "Top"
+      ],
+      "FilePolarity": [
+        "Negative"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "b73aeb116d5acc7470d3aefc9b1e4c8c6a056080f054bfb627ccdd5d773abc1a",
+        "UART": "2ad650507dbeea915271d25186988749362f215fc697b7584eff4aa97e4a04ae",
+        "CARRIER": "450462317c6a8594de53e92e47713c83c9b5d102a45afd3662c388e28ad0ef41"
+      },
+      "expected_object_count": 273,
+      "actual_object_count": 273,
+      "carrier_extra_object_count": 3,
+      "expanded_primitive_count": 273,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 12069,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "B_Mask",
+      "file": "PPG_UART_10sets-B_Mask.gbr",
+      "sha256": "e7970487cddb2dc4e2c2bb3cf314edf3237706f66cf47537099b1e55922d7868",
+      "FileFunction": [
+        "Soldermask",
+        "Bot"
+      ],
+      "FilePolarity": [
+        "Negative"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "7a033d0edbcb512a394863f743230a1731cbd9e8e01c5a4040c058f75557bef5",
+        "UART": "31942122a72a7f306f08df6ec6abe9f8c8e125d4e853a6d5705a1f8129f09eae",
+        "CARRIER": "2b16e78908acc4683ce778842580f8b04ab2d0ba0c40021c54737cd7e35406aa"
+      },
+      "expected_object_count": 1793,
+      "actual_object_count": 1793,
+      "carrier_extra_object_count": 3,
+      "expanded_primitive_count": 1793,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 91729,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "F_Silkscreen",
+      "file": "PPG_UART_10sets-F_Silkscreen.gbr",
+      "sha256": "3a4e476d3ff2089f6b4f43f79aa38c92421d5af08e8c7db9c5ecfee4f3677dd0",
+      "FileFunction": [
+        "Legend",
+        "Top"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "83bc411eb19e8cad5a866aa1ba87eef986db8debc5667b7f64844abdea150dec",
+        "UART": "25a341c5096604f79dc9aaf4bcf1f88f1a9426dfd88e7a6536e8e9c892a68311",
+        "CARRIER": "0fd38a19a1258e87d0199a0a80b8922d87b96d7fa6da1391c9e0cc04d94dbc7b"
+      },
+      "expected_object_count": 8485,
+      "actual_object_count": 8485,
+      "carrier_extra_object_count": 1035,
+      "expanded_primitive_count": 8485,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 53169,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "B_Silkscreen",
+      "file": "PPG_UART_10sets-B_Silkscreen.gbr",
+      "sha256": "235ee4efc457f6da69a7418f70f3a8e30118b57efd7b117b6fe83f56946a6dbc",
+      "FileFunction": [
+        "Legend",
+        "Bot"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "f14100867e48d46c13cc5e4cf89368d9bdefbc965035e8da3ce5241a89744268",
+        "UART": "59a6c7f5fbcb7824742f6b7de965005dbecf874450f57f5dd127b84ccd2aa8f2",
+        "CARRIER": "c2b07ff76bcb7f0dc748be833ae68bca3a2a6133e8d1bd977b070b268727385e"
+      },
+      "expected_object_count": 3289,
+      "actual_object_count": 3289,
+      "carrier_extra_object_count": 519,
+      "expanded_primitive_count": 3289,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 99359,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "F_Paste",
+      "file": "PPG_UART_10sets-F_Paste.gbr",
+      "sha256": "55b7efa8b75be86decda17df0b512be7f1f7ed608cd862ea6bf772b41072578a",
+      "FileFunction": [
+        "Paste",
+        "Top"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "0436affe6617eb362f7a40fd463abbfa65be13da8f2275b66ece071cb13526e4",
+        "UART": "23b802ddf5821ac3e901a222a57e40f0b7d0db7371b9973bda7558e3b352f1ba"
+      },
+      "expected_object_count": 180,
+      "actual_object_count": 180,
+      "carrier_extra_object_count": 0,
+      "expanded_primitive_count": 1300,
+      "source_macro_flash_count": 140,
+      "numeric_values_compared": 7880,
+      "max_numeric_difference_mm": 2.842170943040401e-14,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "B_Paste",
+      "file": "PPG_UART_10sets-B_Paste.gbr",
+      "sha256": "d7b8357c328ef9c9a65b8c68372f075b021d01faa536877483ba37399a10f162",
+      "FileFunction": [
+        "Paste",
+        "Bot"
+      ],
+      "FilePolarity": [
+        "Positive"
+      ],
+      "units": "mm",
+      "source_hashes": {
+        "PPG": "834a90200b2b63a035f28bff7e5309e4b9b79fbd53572857e1a5ae8d69d0da71",
+        "UART": "34650b123c9109d5d7d7cab4bd900195313286c1654d860df49dcc3c7602e0a3"
+      },
+      "expected_object_count": 1660,
+      "actual_object_count": 1660,
+      "carrier_extra_object_count": 0,
+      "expanded_primitive_count": 10300,
+      "source_macro_flash_count": 1220,
+      "numeric_values_compared": 63160,
+      "max_numeric_difference_mm": 3.6392626157066843e-07,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    },
+    {
+      "layer": "Edge_Cuts",
+      "file": "PPG_UART_10sets-Edge_Cuts.gbr",
+      "sha256": "838d8cf7ab710eb7fcb3699c79a85475ac46bcb47ecc5f214dcdd4f0c5e4e00a",
+      "FileFunction": [
+        "Profile",
+        "NP"
+      ],
+      "FilePolarity": null,
+      "units": "mm",
+      "source_hashes": {
+        "CARRIER": "2d1a06c79493a5b5e226a75a6a5458fb7f49ba17c177b11260d13e07ae83ac9e"
+      },
+      "expected_object_count": 129634,
+      "actual_object_count": 129634,
+      "carrier_extra_object_count": 129634,
+      "expanded_primitive_count": 129634,
+      "source_macro_flash_count": 0,
+      "numeric_values_compared": 648170,
+      "max_numeric_difference_mm": 0,
+      "geometry_polarity_and_macro_expansion_preserved": true,
+      "no_mirror_or_rotation": true,
+      "differences": []
+    }
+  ],
+  "drills": {
+    "PTH": {
+      "file": "PPG_UART_10sets-PTH.drl",
+      "sha256": "7e0d8e12bb7a1c150b397f4314c953379cc8ea1504d2d0666443b51f8eef80b5",
+      "diameter_counts_mm": {
+        "0.25": 1640
+      },
+      "native_source_comparison": {
+        "pass": true,
+        "native_count": 1640,
+        "output_count": 1640,
+        "matched_count": 1640,
+        "max_abs_per_axis_delta_mm": 0.0005000000000165983,
+        "missing": [],
+        "extra": [],
+        "ambiguous": []
+      },
+      "unit_plus_carrier_serialized_comparison": {
+        "pass": true,
+        "native_count": 1640,
+        "output_count": 1640,
+        "matched_count": 1640,
+        "max_abs_per_axis_delta_mm": 3.552713678800501e-15,
+        "missing": [],
+        "extra": [],
+        "ambiguous": []
+      },
+      "units": "mm",
+      "absolute_G90": true,
+      "plating_header_verified": true
+    },
+    "NPTH": {
+      "file": "PPG_UART_10sets-NPTH.drl",
+      "sha256": "304f8be92c7adb8c8ce78812d3d00ddb543d6238c13c5b5e9142e47cfbf47b97",
+      "diameter_counts_mm": {
+        "3.0": 44
+      },
+      "native_source_comparison": {
+        "pass": true,
+        "native_count": 44,
+        "output_count": 44,
+        "matched_count": 44,
+        "max_abs_per_axis_delta_mm": 0,
+        "missing": [],
+        "extra": [],
+        "ambiguous": []
+      },
+      "unit_plus_carrier_serialized_comparison": {
+        "pass": true,
+        "native_count": 44,
+        "output_count": 44,
+        "matched_count": 44,
+        "max_abs_per_axis_delta_mm": 0,
+        "missing": [],
+        "extra": [],
+        "ambiguous": []
+      },
+      "units": "mm",
+      "absolute_G90": true,
+      "plating_header_verified": true
+    }
+  },
+  "fiducials": {
+    "TOP": {
+      "count": 3,
+      "records": [
+        {
+          "reference": "FID_T1",
+          "xy_mm": [
+            10.0,
+            5.0
+          ],
+          "copper_diameter_mm": 1.0,
+          "no_paste": true,
+          "undrilled": true
+        },
+        {
+          "reference": "FID_T2",
+          "xy_mm": [
+            147.0,
+            5.0
+          ],
+          "copper_diameter_mm": 1.0,
+          "no_paste": true,
+          "undrilled": true
+        },
+        {
+          "reference": "FID_T3",
+          "xy_mm": [
+            10.0,
+            172.0
+          ],
+          "copper_diameter_mm": 1.0,
+          "no_paste": true,
+          "undrilled": true
+        }
+      ],
+      "native_carrier_Cu1mm_Mask3mm_verified": true
+    },
+    "BOTTOM": {
+      "count": 3,
+      "records": [
+        {
+          "reference": "FID_B1",
+          "xy_mm": [
+            10.0,
+            5.0
+          ],
+          "copper_diameter_mm": 1.0,
+          "no_paste": true,
+          "undrilled": true
+        },
+        {
+          "reference": "FID_B2",
+          "xy_mm": [
+            147.0,
+            5.0
+          ],
+          "copper_diameter_mm": 1.0,
+          "no_paste": true,
+          "undrilled": true
+        },
+        {
+          "reference": "FID_B3",
+          "xy_mm": [
+            10.0,
+            172.0
+          ],
+          "copper_diameter_mm": 1.0,
+          "no_paste": true,
+          "undrilled": true
+        }
+      ],
+      "native_carrier_Cu1mm_Mask3mm_verified": true
+    }
+  },
+  "errors": [],
+  "production_file_counts": {
+    ".gbr": 13,
+    ".drl": 2
+  },
+  "carrier": {
+    "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_10sets_GuideRails10mm\\engineering\\Panel_Carrier_Only.kicad_pcb",
+    "sha256": "ced396d0510f143de752445bebf132094f4a5b5a84329e0d563ed8d545015e4b",
+    "native_tooling_holes_mm": [
+      [
+        3.5,
+        172.0,
+        3.0
+      ],
+      [
+        3.5,
+        5.0,
+        3.0
+      ],
+      [
+        153.5,
+        172.0,
+        3.0
+      ],
+      [
+        153.5,
+        5.0,
+        3.0
+      ]
+    ]
+  },
+  "source_hashes_unchanged": true,
+  "parser_warnings": [
+    {
+      "file": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\PPG\\PPG-PTH.drl",
+      "category": "SyntaxWarning",
+      "message": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\PPG\\PPG-PTH.drl:12 \"G90\": G90 header statement found after end of header"
+    },
+    {
+      "file": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\PPG\\PPG-NPTH.drl",
+      "category": "SyntaxWarning",
+      "message": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\PPG\\PPG-NPTH.drl:10 \"G90\": G90 header statement found after end of header"
+    },
+    {
+      "file": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\UART\\UART-PTH.drl",
+      "category": "SyntaxWarning",
+      "message": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\UART\\UART-PTH.drl:12 \"G90\": G90 header statement found after end of header"
+    },
+    {
+      "file": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\UART\\UART-NPTH.drl",
+      "category": "SyntaxWarning",
+      "message": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_1plus1\\units\\UART\\UART-NPTH.drl:12 \"G90\": G90 header statement found after end of header"
+    },
+    {
+      "file": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_10sets_GuideRails10mm\\engineering\\carrier_gerber\\Panel_Carrier_Only-NPTH.drl",
+      "category": "SyntaxWarning",
+      "message": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261009_PPG_UART_10sets_GuideRails10mm\\engineering\\carrier_gerber\\Panel_Carrier_Only-NPTH.drl:12 \"G90\": G90 header statement found after end of header"
+    }
+  ],
+  "summary": {
+    "primitive_count": 180140,
+    "numeric_values_compared": 1464454,
+    "max_numeric_difference_mm": 4.593052054246982e-07,
+    "production_parser_warning_count": 0
+  },
+  "limitations": [
+    "Same Gerbonara parser library as exporter is used, but no exporter merge/offset functions are called. Expected coordinates are computed separately and all serialized output is reparsed.",
+    "Unit PCB geometry is represented by previous native KiCad Gerbers whose source hashes were independently verified. This audit compares post-parsed Gerber primitives, not full native PCB copper polygons.",
+    "Carrier topology, routing manufacturability, tab strength and mechanical clearance are separate geometry-audit scope.",
+    "No fabrication acceptance, thermal/reflow stability or physical stackup approval is implied."
+  ],
+  "pass": true
+}

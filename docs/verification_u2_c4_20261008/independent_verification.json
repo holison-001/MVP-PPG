@@ -1,0 +1,86 @@
+{
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "candidate_sha256": "0db206e568dc9441220bb5e9327dbec5d7b70599d49fd8e6ac2166f2f1b90cc9",
+  "component_count": 41,
+  "all_top_fixed": true,
+  "D8_bottom": true,
+  "intended_placements_and_pad_nets_match": true,
+  "unrelated_original_copper_preserved": true,
+  "source_file_schematic_project_rules_unchanged": true,
+  "moved_refs": [
+    "R1",
+    "C4",
+    "R4",
+    "D8",
+    "C15",
+    "C1",
+    "R2",
+    "U2"
+  ],
+  "GND_connectivity": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 15,
+    "reachable_nodes": 15,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "GND_area_mm2": {
+    "F.Cu": 97.07556622034758,
+    "In1.Cu": 105.1036512551305,
+    "In2.Cu": 89.50832220403751,
+    "In3.Cu": 77.21991115892561,
+    "In4.Cu": 100.56017528821299,
+    "B.Cu": 54.38345914803648
+  },
+  "before_metrics": {
+    "via_count": 71,
+    "arc_count": 51,
+    "track_length_by_layer_mm": {
+      "F.Cu": 23.937348208727354,
+      "In1.Cu": 0,
+      "In2.Cu": 37.482748087300806,
+      "In3.Cu": 51.738362090877104,
+      "In4.Cu": 8.369218549498283,
+      "B.Cu": 66.11047719347552
+    },
+    "net_length_mm": {
+      "/VLDO": 3.153144881242939,
+      "/NRST": 6.8511876702573815,
+      "/SDA": 9.182353089897692,
+      "/SCL": 6.579794968243081,
+      "/UART_RX": 9.343030280528858,
+      "/UART_TX": 2.6870274651857056,
+      "/SWDIO": 9.328508198594758,
+      "/SWCLK": 7.662127470396373,
+      "/LDO_EN": 1.0773087762265459,
+      "3V3": 41.22870247225892,
+      "5V_LED": 10.087683179356425
+    }
+  },
+  "after_metrics": {
+    "via_count": 69,
+    "arc_count": 67,
+    "track_length_by_layer_mm": {
+      "F.Cu": 27.138277848002193,
+      "In1.Cu": 0,
+      "In2.Cu": 38.480054329433436,
+      "In3.Cu": 45.46579733200488,
+      "In4.Cu": 11.911413935711929,
+      "B.Cu": 68.43983432804875
+    },
+    "net_length_mm": {
+      "/VLDO": 2.3445137630085817,
+      "/NRST": 5.58356807507482,
+      "/SDA": 6.849855752512416,
+      "/SCL": 7.859718614550009,
+      "/UART_RX": 1.133290152608766,
+      "/UART_TX": 10.543249773335932,
+      "/SWDIO": 9.659157748287706,
+      "/SWCLK": 9.30539147747884,
+      "/LDO_EN": 2.1934705336714213,
+      "3V3": 45.08257179464667,
+      "5V_LED": 9.864620686268712
+    }
+  }
+}

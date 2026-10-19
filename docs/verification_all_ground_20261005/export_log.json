@@ -1,0 +1,58 @@
+{
+  "authorization": "2026-10-05 user: 마무리되면, 전층 GND 푸어 채우고 거버 작성까지 진행",
+  "source_board_sha256": "acde2a668cf37064ec92e6d2a75cca0f7511d923814010b9736734c7725d5f3e",
+  "source_unchanged": true,
+  "outputs": "11 fabrication Gerber layers and Excellon drills; no BOM or assembly positions",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "export",
+        "gerbers",
+        "--output",
+        "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication",
+        "--layers",
+        "F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+        "--no-protel-ext",
+        "--subtract-soldermask",
+        "--use-drill-file-origin",
+        "--precision",
+        "6",
+        "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb"
+      ],
+      "exit_code": 0,
+      "stdout": "'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-F_Cu.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-In1_Cu.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-In2_Cu.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-In3_Cu.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-In4_Cu.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-B_Cu.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-F_Silkscreen.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-B_Silkscreen.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-F_Mask.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-B_Mask.gbr'에 플롯됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-Edge_Cuts.gbr'에 플롯됨.\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "export",
+        "drill",
+        "--output",
+        "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication",
+        "--format",
+        "excellon",
+        "--drill-origin",
+        "plot",
+        "--excellon-units",
+        "mm",
+        "--excellon-zeros-format",
+        "decimal",
+        "--excellon-separate-th",
+        "--generate-map",
+        "--map-format",
+        "svg",
+        "--generate-report",
+        "--report-path",
+        "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\drill_report.txt",
+        "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb"
+      ],
+      "exit_code": 0,
+      "stdout": "생성된 파일 'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-PTH.drl'\n생성된 파일 'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-NPTH.drl'\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-PTH-drl_map.svg' 파일 생성됨.\n'C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\manufacturing\\20261005_all_ground\\fabrication\\ppg_pcb_v08-NPTH-drl_map.svg' 파일 생성됨.\n완료.\n",
+      "stderr": ""
+    }
+  ]
+}

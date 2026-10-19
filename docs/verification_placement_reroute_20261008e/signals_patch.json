@@ -1,0 +1,780 @@
+{
+  "source_sha256": "1f0068353b6249a89fc7e04cf9870b1ceff7e30ec226032a804d54a85e4dd00f",
+  "remove_ids": [
+    "4cf3233c-7349-4255-b2e9-479cf0f44345",
+    "b8d55cc7-e473-47ab-98fa-35d239b150ea",
+    "7ff7b248-4c41-4077-9af2-75f0cc739517",
+    "801e5d93-e0ff-4d70-a5eb-42ef3d321581",
+    "a014c5ff-f222-49d8-b4b4-8d310113165a",
+    "c2c70c0f-fad4-40d9-b6e1-bdd3e9b3b2fd",
+    "f9c04b2a-0b99-48df-96ae-1dd2f6ef5981",
+    "6d2cf9f2-639f-49dc-a852-67a20aa4d351",
+    "f9441289-54d7-4754-bcc3-d031b85d1fa6",
+    "dff1b5d3-ca49-42fd-8309-258032a40db4",
+    "53db7627-ecff-42a1-aff2-ef6ccc902da6",
+    "0a586513-a19a-41a3-9fb4-a63efdb30cf0",
+    "285c9c93-cdf1-40e3-ab81-015793bcc77b",
+    "045bba3d-b291-4ddc-8ecc-4808aa1dbafb",
+    "591619e0-dc4f-43db-b8c0-dd9aee87bd66",
+    "899d83e1-5bb1-458b-97bf-f9fc3b4684e6",
+    "a91e120a-ec1c-4616-9836-b8aa82b18885",
+    "c41da974-79a0-4c74-b945-8f7ca566c93b",
+    "7bc72019-5d40-4fb4-9893-1d2addfa579c",
+    "1b5b2901-4dc7-4909-82fd-ccc814f86cfd",
+    "687c8f04-bbc8-4bb9-947a-73af18e5535f",
+    "06370330-25a1-492e-bd63-5fdd04273795",
+    "1bc3acd5-b51f-43ae-9d3b-042e35343d5f",
+    "4cc06106-aeca-41d9-be0d-ddd90dfcea2b",
+    "609239f7-ded9-4f7f-884f-1bdadf497f81",
+    "1da6d8f8-20c4-45f6-b845-4207f65f06d1"
+  ],
+  "placement_overrides": {
+    "J5": {
+      "position": [
+        14.8181,
+        19.6172
+      ],
+      "angle": -90,
+      "layer": "B.Cu"
+    },
+    "J6": {
+      "position": [
+        15.0655,
+        13.9497
+      ],
+      "angle": 90,
+      "layer": "B.Cu"
+    }
+  },
+  "new_items": [
+    {
+      "name": "RXN_termination_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXN",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        15.09,
+        16.3
+      ],
+      "end": [
+        14.1029,
+        16.49
+      ],
+      "length_mm": 1.0052195829767738
+    },
+    {
+      "name": "RXP_external_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXP",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        14.8181,
+        19.6172
+      ],
+      "end": [
+        15.09,
+        17.6
+      ],
+      "length_mm": 2.03544232293622
+    },
+    {
+      "name": "RXP_termination_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXP",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        15.09,
+        17.6
+      ],
+      "end": [
+        14.1029,
+        17.51
+      ],
+      "length_mm": 0.9911944360215103
+    },
+    {
+      "name": "RXN_receiver_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXN_RCV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16.11,
+        16.3
+      ],
+      "end": [
+        16.61,
+        14.7163
+      ],
+      "length_mm": 1.66075455441194
+    },
+    {
+      "name": "RXN_entry_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXN",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        15.0655,
+        13.9497
+      ],
+      "end": [
+        15.5602,
+        13.3511
+      ],
+      "length_mm": 0.7765629723338598
+    },
+    {
+      "name": "RXN_L3_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXN",
+      "layer": 6,
+      "width": 0.15,
+      "start": [
+        15.5602,
+        13.3511
+      ],
+      "end": [
+        15.3125,
+        14.7386
+      ],
+      "length_mm": 1.409436603753428
+    },
+    {
+      "name": "RXN_L3_1",
+      "kind": "PCB_TRACK",
+      "net": "/RXN",
+      "layer": 6,
+      "width": 0.15,
+      "start": [
+        15.3125,
+        14.7386
+      ],
+      "end": [
+        15.2,
+        15.7
+      ],
+      "length_mm": 0.9679598183809073
+    },
+    {
+      "name": "RXN_R8_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXN",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        15.2,
+        15.7
+      ],
+      "end": [
+        15.09,
+        16.3
+      ],
+      "length_mm": 0.6100000000000013
+    },
+    {
+      "name": "RXP_R7_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXP_RCV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16.11,
+        17.6
+      ],
+      "end": [
+        16.275,
+        17.1
+      ],
+      "length_mm": 0.52652160449501
+    },
+    {
+      "name": "RXP_RCV_L3_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXP_RCV",
+      "layer": 6,
+      "width": 0.15,
+      "start": [
+        16.275,
+        17.1
+      ],
+      "end": [
+        16.287387,
+        13.445834
+      ],
+      "length_mm": 3.6541869948491983
+    },
+    {
+      "name": "RXP_RCV_L3_1",
+      "kind": "PCB_TRACK",
+      "net": "/RXP_RCV",
+      "layer": 6,
+      "width": 0.15,
+      "start": [
+        16.273484,
+        13.382256
+      ],
+      "end": [
+        16.05,
+        12.9
+      ],
+      "length_mm": 0.5315222928457463
+    },
+    {
+      "name": "RXP_RCV_L3_arc1",
+      "kind": "PCB_ARC",
+      "net": "/RXP_RCV",
+      "layer": 6,
+      "width": 0.15,
+      "start": [
+        16.287387,
+        13.445834
+      ],
+      "mid": [
+        16.283925,
+        13.413282
+      ],
+      "end": [
+        16.273484,
+        13.382256
+      ],
+      "radius": 0.14998795059937314,
+      "center": [
+        16.1374,
+        13.4453
+      ],
+      "length_mm": 0.06560424991116699
+    },
+    {
+      "name": "RXP_U6_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/RXP_RCV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16.05,
+        12.9
+      ],
+      "end": [
+        16.61,
+        12.8163
+      ],
+      "length_mm": 0.5662205312420229
+    },
+    {
+      "name": "RXN_external_upper",
+      "kind": "PCB_VIA",
+      "net": "/RXN",
+      "position": [
+        15.5602,
+        13.3511
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "RXN_external_lower",
+      "kind": "PCB_VIA",
+      "net": "/RXN",
+      "position": [
+        15.2,
+        15.7
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "RXP_receiver_upper",
+      "kind": "PCB_VIA",
+      "net": "/RXP_RCV",
+      "position": [
+        16.05,
+        12.9
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "RXP_receiver_lower",
+      "kind": "PCB_VIA",
+      "net": "/RXP_RCV",
+      "position": [
+        16.275,
+        17.1
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    }
+  ],
+  "plans": [
+    {
+      "name": "RXN_termination",
+      "net": "/RXN",
+      "layer": 2,
+      "points": [
+        [
+          15.09,
+          16.3
+        ],
+        [
+          14.1029,
+          16.49
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXN_termination_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXN",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            15.09,
+            16.3
+          ],
+          "end": [
+            14.1029,
+            16.49
+          ],
+          "length_mm": 1.0052195829767738
+        }
+      ],
+      "length_mm": 1.0052195829767738
+    },
+    {
+      "name": "RXP_external",
+      "net": "/RXP",
+      "layer": 2,
+      "points": [
+        [
+          14.8181,
+          19.6172
+        ],
+        [
+          15.09,
+          17.6
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXP_external_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXP",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            14.8181,
+            19.6172
+          ],
+          "end": [
+            15.09,
+            17.6
+          ],
+          "length_mm": 2.03544232293622
+        }
+      ],
+      "length_mm": 2.03544232293622
+    },
+    {
+      "name": "RXP_termination",
+      "net": "/RXP",
+      "layer": 2,
+      "points": [
+        [
+          15.09,
+          17.6
+        ],
+        [
+          14.1029,
+          17.51
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXP_termination_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXP",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            15.09,
+            17.6
+          ],
+          "end": [
+            14.1029,
+            17.51
+          ],
+          "length_mm": 0.9911944360215103
+        }
+      ],
+      "length_mm": 0.9911944360215103
+    },
+    {
+      "name": "RXN_receiver",
+      "net": "/RXN_RCV",
+      "layer": 2,
+      "points": [
+        [
+          16.11,
+          16.3
+        ],
+        [
+          16.61,
+          14.7163
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXN_receiver_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXN_RCV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            16.11,
+            16.3
+          ],
+          "end": [
+            16.61,
+            14.7163
+          ],
+          "length_mm": 1.66075455441194
+        }
+      ],
+      "length_mm": 1.66075455441194
+    },
+    {
+      "name": "RXN_entry_B",
+      "net": "/RXN",
+      "layer": 2,
+      "points": [
+        [
+          15.0655,
+          13.9497
+        ],
+        [
+          15.5602,
+          13.3511
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXN_entry_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXN",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            15.0655,
+            13.9497
+          ],
+          "end": [
+            15.5602,
+            13.3511
+          ],
+          "length_mm": 0.7765629723338598
+        }
+      ],
+      "length_mm": 0.7765629723338598
+    },
+    {
+      "name": "RXN_L3",
+      "net": "/RXN",
+      "layer": 6,
+      "points": [
+        [
+          15.5602,
+          13.3511
+        ],
+        [
+          15.3125,
+          14.738600000000002
+        ],
+        [
+          15.2,
+          15.7
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXN_L3_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXN",
+          "layer": 6,
+          "width": 0.15,
+          "start": [
+            15.5602,
+            13.3511
+          ],
+          "end": [
+            15.3125,
+            14.7386
+          ],
+          "length_mm": 1.409436603753428
+        },
+        {
+          "name": "RXN_L3_1",
+          "kind": "PCB_TRACK",
+          "net": "/RXN",
+          "layer": 6,
+          "width": 0.15,
+          "start": [
+            15.3125,
+            14.7386
+          ],
+          "end": [
+            15.2,
+            15.7
+          ],
+          "length_mm": 0.9679598183809073
+        }
+      ],
+      "length_mm": 2.3773964221343356
+    },
+    {
+      "name": "RXN_R8_B",
+      "net": "/RXN",
+      "layer": 2,
+      "points": [
+        [
+          15.2,
+          15.7
+        ],
+        [
+          15.09,
+          16.3
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXN_R8_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXN",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            15.2,
+            15.7
+          ],
+          "end": [
+            15.09,
+            16.3
+          ],
+          "length_mm": 0.6100000000000013
+        }
+      ],
+      "length_mm": 0.6100000000000013
+    },
+    {
+      "name": "RXP_R7_B",
+      "net": "/RXP_RCV",
+      "layer": 2,
+      "points": [
+        [
+          16.11,
+          17.6
+        ],
+        [
+          16.275,
+          17.1
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXP_R7_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXP_RCV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            16.11,
+            17.6
+          ],
+          "end": [
+            16.275,
+            17.1
+          ],
+          "length_mm": 0.52652160449501
+        }
+      ],
+      "length_mm": 0.52652160449501
+    },
+    {
+      "name": "RXP_RCV_L3",
+      "net": "/RXP_RCV",
+      "layer": 6,
+      "points": [
+        [
+          16.275,
+          17.1
+        ],
+        [
+          16.2875,
+          13.412500000000001
+        ],
+        [
+          16.05,
+          12.9
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXP_RCV_L3_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXP_RCV",
+          "layer": 6,
+          "width": 0.15,
+          "start": [
+            16.275,
+            17.1
+          ],
+          "end": [
+            16.287387,
+            13.445834
+          ],
+          "length_mm": 3.6541869948491983
+        },
+        {
+          "name": "RXP_RCV_L3_1",
+          "kind": "PCB_TRACK",
+          "net": "/RXP_RCV",
+          "layer": 6,
+          "width": 0.15,
+          "start": [
+            16.273484,
+            13.382256
+          ],
+          "end": [
+            16.05,
+            12.9
+          ],
+          "length_mm": 0.5315222928457463
+        },
+        {
+          "name": "RXP_RCV_L3_arc1",
+          "kind": "PCB_ARC",
+          "net": "/RXP_RCV",
+          "layer": 6,
+          "width": 0.15,
+          "start": [
+            16.287387,
+            13.445834
+          ],
+          "mid": [
+            16.283925,
+            13.413282
+          ],
+          "end": [
+            16.273484,
+            13.382256
+          ],
+          "radius": 0.14998795059937314,
+          "center": [
+            16.1374,
+            13.4453
+          ],
+          "length_mm": 0.06560424991116699
+        }
+      ],
+      "length_mm": 4.251313537606111
+    },
+    {
+      "name": "RXP_U6_B",
+      "net": "/RXP_RCV",
+      "layer": 2,
+      "points": [
+        [
+          16.05,
+          12.9
+        ],
+        [
+          16.61,
+          12.8163
+        ]
+      ],
+      "items": [
+        {
+          "name": "RXP_U6_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/RXP_RCV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            16.05,
+            12.9
+          ],
+          "end": [
+            16.61,
+            12.8163
+          ],
+          "length_mm": 0.5662205312420229
+        }
+      ],
+      "length_mm": 0.5662205312420229
+    }
+  ],
+  "minimum_new_trace_clearance_mm": 0.15252259644512825,
+  "clearance_checks": [
+    {
+      "name": "RXN_termination_0",
+      "clearance_mm": 0.6749989999999997
+    },
+    {
+      "name": "RXP_external_0",
+      "clearance_mm": 0.6750000000000007
+    },
+    {
+      "name": "RXP_termination_0",
+      "clearance_mm": 0.6750019999999992
+    },
+    {
+      "name": "RXN_receiver_0",
+      "clearance_mm": 0.42718462166205723
+    },
+    {
+      "name": "RXN_entry_B_0",
+      "clearance_mm": 0.34088331391929233
+    },
+    {
+      "name": "RXN_L3_0",
+      "clearance_mm": 0.15252259644512825
+    },
+    {
+      "name": "RXN_L3_1",
+      "clearance_mm": 0.16269366197299578
+    },
+    {
+      "name": "RXN_R8_B_0",
+      "clearance_mm": 0.37574537141127884
+    },
+    {
+      "name": "RXP_R7_B_0",
+      "clearance_mm": 0.3426423564549503
+    },
+    {
+      "name": "RXP_RCV_L3_0",
+      "clearance_mm": 0.15804796770665214
+    },
+    {
+      "name": "RXP_RCV_L3_1",
+      "clearance_mm": 0.30907324205048514
+    },
+    {
+      "name": "RXP_RCV_L3_arc1",
+      "clearance_mm": 0.38896901543428575
+    },
+    {
+      "name": "RXP_U6_B_0",
+      "clearance_mm": 0.3408828199981841
+    }
+  ],
+  "notes": [
+    "External RX pad physical positions swapped with each reference/net identity and own angle preserved. R3 terminates external RXP/RXN before the 22-ohm series resistors.",
+    "RXN upper external entry has 2 vias to bypass fixed C12 pad/return barrier; RXP external pad now connects directly on B with no vias.",
+    "RXP receiver uses 2 vias because R8/U6 pad rows block B route; RXN receiver direct B. No other footprint or net changes.",
+    "RXN_L3 route radius envelope6.0 accounts for existing legal upper via at radialdistance5.7479mm; final groundrim audit required."
+  ]
+}

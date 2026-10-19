@@ -1,0 +1,58 @@
+{
+  "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "5c56fd812b7731454b473263236c5e6cdbb83d56181a3880a614fd235b8c4d0f",
+  "read_only": true,
+  "canonical_source_files_unchanged": true,
+  "DRC": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "warning_signatures_unchanged": true,
+  "netcheck_pass": true,
+  "electrical_audit_pass": true,
+  "mechanical_audit_pass": true,
+  "GND_connectivity": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 14,
+    "reachable_nodes": 14,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "GND_outer_rim_pass": true,
+  "minimum_track_width_mm": 0.15,
+  "L4_3V3_widths_mm": [
+    0.35,
+    0.4
+  ],
+  "vias": [
+    {
+      "group": "ground",
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "count": 34
+    },
+    {
+      "group": "power_reference",
+      "diameter_mm": 0.5,
+      "drill_mm": 0.25,
+      "count": 15
+    },
+    {
+      "group": "signal",
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "count": 18
+    }
+  ],
+  "filled_GND_areas_mm2": {
+    "F.Cu": 101.651365707691,
+    "B.Cu": 55.4244428395075,
+    "In1.Cu": 109.679814006741,
+    "In2.Cu": 95.461405892375,
+    "In3.Cu": 85.6852573285785,
+    "In4.Cu": 109.679814006741
+  }
+}

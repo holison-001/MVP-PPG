@@ -1,0 +1,161 @@
+{
+  "J9": {
+    "net": "/NRST",
+    "pad_xy_mm": [
+      17.46,
+      21.85
+    ],
+    "candidates": [
+      {
+        "xy_mm": [
+          17.535,
+          20.25
+        ],
+        "distance_to_pad_center_mm": 1.601756847964136
+      },
+      {
+        "xy_mm": [
+          17.81,
+          20.1
+        ],
+        "distance_to_pad_center_mm": 1.784656829757475
+      },
+      {
+        "xy_mm": [
+          15.435,
+          20.75
+        ],
+        "distance_to_pad_center_mm": 2.304479333819248
+      },
+      {
+        "xy_mm": [
+          15.435,
+          20.45
+        ],
+        "distance_to_pad_center_mm": 2.4618336661927422
+      },
+      {
+        "xy_mm": [
+          15.135,
+          20.825
+        ],
+        "distance_to_pad_center_mm": 2.540915189454381
+      },
+      {
+        "xy_mm": [
+          19.76,
+          23.175
+        ],
+        "distance_to_pad_center_mm": 2.654359621452979
+      },
+      {
+        "xy_mm": [
+          16.71,
+          19.025
+        ],
+        "distance_to_pad_center_mm": 2.9228624668293914
+      }
+    ]
+  },
+  "J8": {
+    "net": "/SWCLK",
+    "pad_xy_mm": [
+      21.27,
+      21.85
+    ],
+    "candidates": [
+      {
+        "xy_mm": [
+          21.695,
+          22.575
+        ],
+        "distance_to_pad_center_mm": 0.8403868156985821
+      },
+      {
+        "xy_mm": [
+          21.695,
+          22.875
+        ],
+        "distance_to_pad_center_mm": 1.1096170510586063
+      },
+      {
+        "xy_mm": [
+          21.645,
+          20.025
+        ],
+        "distance_to_pad_center_mm": 1.8631290883886702
+      },
+      {
+        "xy_mm": [
+          19.795,
+          23.175
+        ],
+        "distance_to_pad_center_mm": 1.9827380058898356
+      },
+      {
+        "xy_mm": [
+          22.67,
+          19.425
+        ],
+        "distance_to_pad_center_mm": 2.800111604918634
+      },
+      {
+        "xy_mm": [
+          22.645,
+          19.125
+        ],
+        "distance_to_pad_center_mm": 3.052253266031508
+      },
+      {
+        "xy_mm": [
+          22.945,
+          19.175
+        ],
+        "distance_to_pad_center_mm": 3.156144800227012
+      },
+      {
+        "xy_mm": [
+          23.245,
+          19.15
+        ],
+        "distance_to_pad_center_mm": 3.345239154380446
+      }
+    ]
+  },
+  "verified_recommendations": [
+    {
+      "ref": "J9",
+      "net": "/NRST",
+      "via_xy_mm": [
+        17.55,
+        20.225
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.25,
+      "minimum_other_net_copper_gap_mm": 0.19345,
+      "minimum_pad_to_hole_mm": 0.3814,
+      "F_direct_trace_width_mm": 0.1,
+      "F_direct_trace_length_mm": 1.6274903993572434,
+      "F_direct_trace_clearance_mm": 0.15,
+      "F_direct_trace_obstacles": []
+    },
+    {
+      "ref": "J8",
+      "net": "/SWCLK",
+      "via_xy_mm": [
+        21.725,
+        22.65
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.25,
+      "minimum_other_net_copper_gap_mm": 0.17921,
+      "minimum_pad_to_hole_mm": 0.30421,
+      "copper_to_board_edge_mm": 0.5925365003243579,
+      "F_direct_trace_width_mm": 0.1,
+      "F_direct_trace_length_mm": 0.9203396112305501,
+      "F_direct_trace_clearance_mm": 0.15,
+      "F_direct_trace_obstacles": []
+    }
+  ],
+  "validation_note": "Read-only KiCad effective copper shapes against 4-layer baseline; inner-layer routing and final 6-layer DRC still required."
+}

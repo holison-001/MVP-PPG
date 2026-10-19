@@ -1,0 +1,75 @@
+{
+  "result": "PASS",
+  "workbook": "PPG_UART_부품좌표_20261009.xlsx",
+  "sha256": "309476f9a8afd7da6e2a43a4dd77ad4d74ed93bbc5b70389343ed7f1251593d4",
+  "checks_passed": 2832,
+  "row_count": 74,
+  "board_counts": {
+    "PPG": 42,
+    "UART": 32
+  },
+  "smt_count": 56,
+  "pad_count": 14,
+  "mechanical_count": 4,
+  "formula_count": 296,
+  "source_hashes": {
+    "PPG": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+    "UART": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7"
+  },
+  "coordinate_convention": "mm; panel bottom-left origin; X right and Y up from top view; bottom not mirrored; raw KiCad orientation retained",
+  "origin_transforms": [
+    {
+      "board": "PPG",
+      "source": "kicad/ppg_pcb_v08.kicad_pcb",
+      "sha256": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "source_origin_x": 20,
+      "source_origin_y": 17,
+      "array_origin_x": 66.75,
+      "array_origin_y": 17.5,
+      "board_rotation": 0,
+      "count": 42,
+      "native_pos_count": 42
+    },
+    {
+      "board": "UART",
+      "source": "kicad/ppg_uart_adapter/ppg_uart_adapter_v01.kicad_pcb",
+      "sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "source_origin_x": 88,
+      "source_origin_y": 123.5,
+      "array_origin_x": 5,
+      "array_origin_y": 5,
+      "board_rotation": 0,
+      "count": 32,
+      "native_pos_count": 28
+    }
+  ],
+  "native_pos_comparison": "70 entries match source XY and angle; four excluded holes preserved",
+  "recalculation_tests": "Artifact Tool source X +1 mm and PPG array X offset +2 mm changed expected outputs; source restored before export",
+  "visual_review": "four sheet previews inspected; labels and coordinate numbers visible",
+  "saved_xlsx_check": "ZIP XML cached values, formulas, preserved source fields, no hidden rows/columns, freeze panes verified",
+  "panes": [
+    {
+      "xSplit": "3",
+      "ySplit": "7",
+      "topLeftCell": "D8",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    {
+      "xSplit": "1",
+      "ySplit": "7",
+      "topLeftCell": "B8",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    {
+      "xSplit": "1",
+      "ySplit": "7",
+      "topLeftCell": "B8",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    null
+  ],
+  "excel_native_application_test": "Not performed; verification used Artifact Tool and saved XLSX XML"
+}

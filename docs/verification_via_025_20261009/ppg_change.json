@@ -1,0 +1,38 @@
+{
+  "board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "14ac36dfae59d05de2911641839c7772f608e13b09868ba88c7ec1f2b5b95f6a",
+  "delivered_sha256": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+  "via_count": 64,
+  "changed_drills": 50,
+  "unchanged_drills": 14,
+  "drill_mm": 0.25,
+  "diameter_mm": 0.5,
+  "exact_diff": "50 drill values and two GND stitching-via positions; native save needed after fill.",
+  "approved_020_exceptions": [],
+  "source_backup": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\before_via_drill_025_20261009_200410\\ppg\\ppg_pcb_v08.kicad_pcb",
+  "ground_stitch_moves": [
+    {
+      "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+      "before": "(at 19.95 23.075)",
+      "after": "(at 19.95 23.185)",
+      "net": "GND",
+      "attached_tracks": 0
+    },
+    {
+      "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+      "before": "(at 16.55 12)",
+      "after": "(at 16.535 12)",
+      "net": "GND",
+      "attached_tracks": 0
+    }
+  ],
+  "refill_symmetric_difference_mm2": {
+    "F.Cu": 0.0,
+    "In1.Cu": 0.0,
+    "In2.Cu": 1.7152999148618582e-07,
+    "In3.Cu": 0.003714816214885901,
+    "In4.Cu": 0.0,
+    "B.Cu": 0.0
+  },
+  "native_refill_save_needed": true
+}

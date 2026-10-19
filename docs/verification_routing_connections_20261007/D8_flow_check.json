@@ -1,0 +1,31 @@
+{
+  "normal": {
+    "source_found": true,
+    "target_found": true,
+    "source_reaches_IC": true,
+    "source_reaches_vias": [
+      "via:7ae3cc54-3f53-495e-be30-5950320b2f34",
+      "via:8e393978-7abf-46b2-be03-4c8a823fd16d",
+      "via:c1aaa0f4-bfe7-4d89-aac6-f04c13b9d6e8"
+    ],
+    "copper_nodes": 16
+  },
+  "pad_omitted": {
+    "source_found": true,
+    "target_found": true,
+    "source_reaches_IC": false,
+    "source_reaches_vias": [
+      "via:8e393978-7abf-46b2-be03-4c8a823fd16d"
+    ],
+    "copper_nodes": 17
+  },
+  "pad_and_underlying_tracks_cut": {
+    "source_found": true,
+    "target_found": true,
+    "source_reaches_IC": false,
+    "source_reaches_vias": [
+      "via:8e393978-7abf-46b2-be03-4c8a823fd16d"
+    ],
+    "copper_nodes": 17
+  }
+}

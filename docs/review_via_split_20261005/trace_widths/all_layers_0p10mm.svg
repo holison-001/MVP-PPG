@@ -1,0 +1,1222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1210" viewBox="0 0 1440 1210"><rect width="100%" height="100%" fill="white"/><style>text{font-family:Malgun Gothic,Arial,sans-serif;fill:#243448}</style>
+<text x="28" y="39" font-size="26" font-weight="700">PPG PCB · 0.10 mm 배선 위치</text>
+<text x="28" y="69" font-size="17">빨강: 0.10 mm 배선 222구간 / 회색: 그 외 선폭 · 연회색: 패드·비아 · GND 면은 생략</text>
+<text x="28" y="93" font-size="14">기준 PCB 788149c0… · 실제 구리 선폭 비례 표시 · 바텀도 위에서 본 방향(반전 없음) · 제조 출력 아님</text>
+<text x="25" y="130" font-size="21" font-weight="700">L1 · F.Cu</text>
+<text x="25" y="157" font-size="15">0.10 mm: 33구간 / 26.07 mm · 전체 34구간</text>
+<circle cx="240.0" cy="378.0" r="189.0" fill="#fcfcfd" stroke="#253647" stroke-width="1.4"/>
+<circle cx="275.56" cy="513.8000000000001" r="11.200000000000001" fill="#e4e7eb"/>
+<rect x="204.16000000000003" y="321.99999999999994" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 327.59999999999997)"/>
+<rect x="204.16000000000003" y="338.8" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 344.40000000000003)"/>
+<rect x="204.16000000000003" y="355.5999999999999" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 361.19999999999993)"/>
+<rect x="204.16000000000003" y="372.4" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 378.0)"/>
+<rect x="204.16000000000003" y="389.199972" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 394.799972)"/>
+<rect x="204.16000000000003" y="405.99999999999994" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 411.59999999999997)"/>
+<rect x="204.16000000000003" y="422.79997199999997" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 213.40000000000003 428.399972)"/>
+<rect x="257.35999999999996" y="422.79997199999997" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 428.399972)"/>
+<rect x="257.35999999999996" y="405.99999999999994" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 411.59999999999997)"/>
+<rect x="257.35999999999996" y="389.199972" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 394.799972)"/>
+<rect x="257.35999999999996" y="372.4" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 378.0)"/>
+<rect x="257.35999999999996" y="355.5999999999999" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 361.19999999999993)"/>
+<rect x="257.35999999999996" y="338.8" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 344.40000000000003)"/>
+<rect x="257.35999999999996" y="321.99999999999994" width="18.48" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-0.0 266.59999999999997 327.59999999999997)"/>
+<circle cx="240.0" cy="513.8000000000001" r="11.200000000000001" fill="#e4e7eb"/>
+<circle cx="204.44" cy="513.8000000000001" r="11.200000000000001" fill="#e4e7eb"/>
+<circle cx="168.88000000000002" cy="513.8000000000001" r="11.200000000000001" fill="#e4e7eb"/>
+<circle cx="311.12" cy="513.8000000000001" r="11.200000000000001" fill="#e4e7eb"/>
+<circle cx="314.19999999999993" cy="446.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="312.80000000000007" cy="362.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="308.59999999999997" cy="420.0" r="7.0" fill="#d7dde4"/>
+<circle cx="181.26440000000002" cy="356.6164" r="7.0" fill="#d7dde4"/>
+<circle cx="295.86" cy="385.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="234.81440000000003" cy="328.0144" r="7.0" fill="#d7dde4"/>
+<circle cx="228.80000000000004" cy="362.88" r="7.0" fill="#d7dde4"/>
+<circle cx="161.23320000000004" cy="451.6988" r="7.0" fill="#d7dde4"/>
+<circle cx="288.30000000000007" cy="462.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="205.67200000000003" cy="462.9744" r="7.0" fill="#d7dde4"/>
+<circle cx="78.29999999999998" cy="315.0" r="7.0" fill="#d7dde4"/>
+<circle cx="125.20000000000002" cy="423.5" r="7.0" fill="#d7dde4"/>
+<circle cx="160.94480000000001" cy="287.70000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="244.19999999999996" cy="404.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="226.0" cy="534.0999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="254.69999999999996" cy="232.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="131.5" cy="401.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="354.52279999999996" cy="498.1228" r="7.0" fill="#d7dde4"/>
+<circle cx="196.63080000000002" cy="283.1192" r="7.0" fill="#d7dde4"/>
+<circle cx="178.40000000000003" cy="285.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="400.30000000000007" cy="316.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="257.5" cy="496.25520000000006" r="7.0" fill="#d7dde4"/>
+<circle cx="121.0" cy="499.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="340.09999999999997" cy="364.0" r="7.0" fill="#d7dde4"/>
+<circle cx="282.69999999999993" cy="441.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="159.5" cy="224.70000000000002" r="7.0" fill="#d7dde4"/>
+<circle cx="189.64479999999998" cy="432.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="382.80000000000007" cy="466.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="345.0" cy="240.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="228.4696" cy="459.7292" r="7.0" fill="#d7dde4"/>
+<circle cx="174.19999999999996" cy="469.0" r="7.0" fill="#d7dde4"/>
+<circle cx="244.63400000000004" cy="449.526" r="7.0" fill="#d7dde4"/>
+<circle cx="294.9416" cy="356.3532" r="7.0" fill="#d7dde4"/>
+<circle cx="234.40000000000003" cy="389.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="148.30000000000004" cy="435.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="160.19999999999996" cy="386.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="289.69999999999993" cy="281.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="258.8552" cy="466.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="151.80000000000004" cy="364.56" r="7.0" fill="#d7dde4"/>
+<circle cx="235.7692" cy="255.178" r="7.0" fill="#d7dde4"/>
+<circle cx="359.0" cy="452.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="245.59999999999997" cy="372.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="122.40000000000002" cy="314.3" r="7.0" fill="#d7dde4"/>
+<circle cx="386.30000000000007" cy="359.80000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="366.69999999999993" cy="287.70000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="112.59999999999998" cy="470.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="86.0" cy="372.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="322.59999999999997" cy="388.5" r="7.0" fill="#d7dde4"/>
+<circle cx="347.09999999999997" cy="292.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="381.40000000000003" cy="324.8" r="7.0" fill="#d7dde4"/>
+<circle cx="358.8152" cy="401.856" r="7.0" fill="#d7dde4"/>
+<circle cx="235.28199999999995" cy="283.3908" r="7.0" fill="#d7dde4"/>
+<circle cx="147.8436" cy="481.10720000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="249.80000000000004" cy="295.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="400.30000000000007" cy="373.80000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="309.16279999999995" cy="249.23359999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="361.5564" cy="379.30480000000006" r="7.0" fill="#d7dde4"/>
+<circle cx="134.30000000000004" cy="370.30000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="129.40000000000003" cy="263.20000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="91.36479999999997" cy="416.57280000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="115.6856" cy="275.8308" r="7.0" fill="#d7dde4"/>
+<circle cx="194.5" cy="305.90000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="321.19999999999993" cy="288.40000000000003" r="7.0" fill="#d7dde4"/>
+<line x1="359.0" y1="452.19999999999993" x2="311.12" y2="513.8000000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 5ccae0a6-8381-41d8-a77f-6d0f21f468b0 | [24.25, 19.65] to [22.54, 21.85]</title></line>
+<line x1="213.40000000000003" y1="361.199972" x2="221.51999999999998" y2="361.199972" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/LDO_EN | 0.10 mm | 017d05ff-3c9d-46da-aa32-f3db4c635243 | [19.05, 16.399999] to [19.34, 16.399999]</title></line>
+<line x1="221.51999999999998" y1="361.199972" x2="223.19999999999996" y2="362.88" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/LDO_EN | 0.10 mm | 254bdc3a-2a7f-43ed-8926-ff5e44fe4060 | [19.34, 16.399999] to [19.4, 16.46]</title></line>
+<line x1="223.19999999999996" y1="362.88" x2="228.80000000000004" y2="362.88" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/LDO_EN | 0.10 mm | e5d5bc46-6a02-4141-ba06-2b4e9ae31a8e | [19.4, 16.46] to [19.6, 16.46]</title></line>
+<line x1="160.19999999999996" y1="476.0" x2="168.88000000000002" y2="513.8000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | 2fe4967f-8dcf-432d-b5ee-4f1955d80c5d | [17.15, 20.5] to [17.46, 21.85]</title></line>
+<line x1="148.30000000000004" y1="458.5" x2="160.19999999999996" y2="476.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | c3067376-6ed3-4020-99fd-4befb8fa24fb | [16.725, 19.875] to [17.15, 20.5]</title></line>
+<line x1="148.30000000000004" y1="435.40000000000003" x2="148.30000000000004" y2="458.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | e677c515-98ad-4260-ba22-fbf031acc779 | [16.725, 19.05] to [16.725, 19.875]</title></line>
+<line x1="218.42880000000002" y1="344.40000000000003" x2="213.40000000000003" y2="344.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 07612db7-6166-4888-9b66-08b8220b61dc | [19.2296, 15.8] to [19.05, 15.8]</title></line>
+<line x1="234.81440000000003" y1="328.0144" x2="218.42880000000002" y2="344.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 8d9215ff-57d2-4cfe-b265-9d1383123ef5 | [19.8148, 15.2148] to [19.2296, 15.8]</title></line>
+<line x1="205.0" y1="331.8" x2="184.69999999999996" y2="350.699972" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | f45c37ba-a401-4e82-9bae-5005d6a5dba3 | [18.75, 15.35] to [18.025, 16.024999]</title></line>
+<line x1="314.19999999999993" y1="446.59999999999997" x2="307.90000000000003" y2="472.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 92874f6b-1fe0-4e14-9f9f-f85d37807224 | [22.65, 19.45] to [22.425, 20.375]</title></line>
+<line x1="307.90000000000003" y1="472.5" x2="275.56" y2="513.8000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | b621cb8f-2c61-4a03-9adc-e62dbcee9bab | [22.425, 20.375] to [21.27, 21.85]</title></line>
+<line x1="174.19999999999996" y1="469.0" x2="204.44" y2="513.8000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 71e3dfaf-286f-437b-8bc2-67a9c5b34317 | [17.65, 20.25] to [18.73, 21.85]</title></line>
+<line x1="161.23320000000004" y1="424.6424" x2="161.23320000000004" y2="451.6988" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VLDO | 0.10 mm | 183ecf50-f37f-4ce5-8ea1-8001cdcece4b | [17.1869, 18.6658] to [17.1869, 19.6321]</title></line>
+<line x1="207.87559999999996" y1="378.0" x2="161.23320000000004" y2="424.6424" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VLDO | 0.10 mm | 30ad67e3-b81f-40bf-9147-d600cd2ab763 | [18.8527, 17.0] to [17.1869, 18.6658]</title></line>
+<line x1="213.40000000000003" y1="378.0" x2="207.87559999999996" y2="378.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VLDO | 0.10 mm | 6bb272da-4e4f-4041-b184-a9eb08afecf9 | [19.05, 17.0] to [18.8527, 17.0]</title></line>
+<line x1="292.5" y1="475.30000000000007" x2="253.30000000000004" y2="479.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 0a076ca7-2db2-4384-ad84-3fe8bd77b5e8 | [21.875, 20.475] to [20.475, 20.625]</title></line>
+<line x1="282.0" y1="422.80000000000007" x2="293.90000000000003" y2="434.69999999999993" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 10321e9b-0b1b-4d24-9b37-049b15c6250e | [21.5, 18.6] to [21.925, 19.025]</title></line>
+<line x1="275.0" y1="365.40000000000003" x2="279.90000000000003" y2="369.59999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 16a19da4-5616-4a7a-a4f8-77f472076114 | [21.25, 16.55] to [21.425, 16.7]</title></line>
+<line x1="279.90000000000003" y1="369.59999999999997" x2="282.0" y2="374.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 7319a8fb-0d88-490a-9b7f-bca5d68c7715 | [21.425, 16.7] to [21.5, 16.875]</title></line>
+<line x1="293.90000000000003" y1="434.69999999999993" x2="301.59999999999997" y2="443.09999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 9123243f-256e-4a6f-9aa6-727fdba09dde | [21.925, 19.025] to [22.2, 19.325]</title></line>
+<line x1="253.30000000000004" y1="479.5" x2="235.09999999999997" y2="461.30000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 94c64a62-4658-4df2-a02c-c0c0b1444b9f | [20.475, 20.625] to [19.825, 19.975]</title></line>
+<line x1="295.30000000000007" y1="473.90000000000003" x2="292.5" y2="475.30000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 9913d153-0cf4-4dca-ba61-98d380f652b0 | [21.975, 20.425] to [21.875, 20.475]</title></line>
+<line x1="301.59999999999997" y1="467.59999999999997" x2="295.30000000000007" y2="473.90000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | ed8f56a5-a177-498f-9587-2f7458e194c2 | [22.2, 20.2] to [21.975, 20.425]</title></line>
+<line x1="301.59999999999997" y1="443.09999999999997" x2="301.59999999999997" y2="467.59999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | f54a2ddb-179b-47fe-8bea-643fbba7fca2 | [22.2, 19.325] to [22.2, 20.2]</title></line>
+<line x1="282.0" y1="374.5" x2="282.0" y2="422.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | fa2c7c23-f8d2-480a-92ae-98016e83855d | [21.5, 16.875] to [21.5, 18.6]</title></line>
+<line x1="201.77439999999996" y1="462.9744" x2="176.9944" y2="438.1944" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 1bc9a37a-053a-4c0b-b8c9-a26752848cf1 | [18.6348, 20.0348] to [17.7498, 19.1498]</title></line>
+<line x1="176.9944" y1="425.474" x2="207.66840000000005" y2="394.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 8c8a8a9b-d985-4305-b997-7449440d7afe | [17.7498, 18.6955] to [18.8453, 17.6]</title></line>
+<line x1="176.9944" y1="438.1944" x2="176.9944" y2="425.474" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | c9b25341-f83b-49e9-9634-97a79fff4efc | [17.7498, 19.1498] to [17.7498, 18.6955]</title></line>
+<line x1="207.66840000000005" y1="394.80000000000007" x2="213.40000000000003" y2="394.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | d2c9a017-11b5-4378-8d1f-6934842b9455 | [18.8453, 17.6] to [19.05, 17.6]</title></line>
+<line x1="266.59999999999997" y1="411.59999999999997" x2="266.59999999999997" y2="400.918" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 2905afda-5b19-43da-8101-c372ad25fdbc | [20.95, 18.2] to [20.95, 17.8185]</title></line>
+<line x1="266.59999999999997" y1="400.918" x2="244.19999999999996" y2="404.59999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 3d46ec67-ebce-441c-9297-3654a4eca69a | [20.95, 17.8185] to [20.15, 17.95]</title></line>
+<line x1="266.59999999999997" y1="400.918" x2="266.59999999999997" y2="394.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 6e6989ac-51c6-47a1-ac91-0ae2a9334a42 | [20.95, 17.8185] to [20.95, 17.6]</title></line>
+<line x1="266.59999999999997" y1="394.80000000000007" x2="266.59999999999997" y2="378.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | ef189860-f81b-4734-83f2-ae1018791810 | [20.95, 17.6] to [20.95, 17.0]</title></line>
+<circle cx="314.19999999999993" cy="446.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="312.80000000000007" cy="362.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="308.59999999999997" cy="420.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="181.26440000000002" cy="356.6164" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="295.86" cy="385.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="234.81440000000003" cy="328.0144" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="228.80000000000004" cy="362.88" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="161.23320000000004" cy="451.6988" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="288.30000000000007" cy="462.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="205.67200000000003" cy="462.9744" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="78.29999999999998" cy="315.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="125.20000000000002" cy="423.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="160.94480000000001" cy="287.70000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="244.19999999999996" cy="404.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="226.0" cy="534.0999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="254.69999999999996" cy="232.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="131.5" cy="401.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="354.52279999999996" cy="498.1228" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="196.63080000000002" cy="283.1192" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="178.40000000000003" cy="285.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="400.30000000000007" cy="316.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="257.5" cy="496.25520000000006" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="121.0" cy="499.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="340.09999999999997" cy="364.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="282.69999999999993" cy="441.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="159.5" cy="224.70000000000002" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="189.64479999999998" cy="432.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="382.80000000000007" cy="466.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="345.0" cy="240.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="228.4696" cy="459.7292" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="174.19999999999996" cy="469.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="244.63400000000004" cy="449.526" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="294.9416" cy="356.3532" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="234.40000000000003" cy="389.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="148.30000000000004" cy="435.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="160.19999999999996" cy="386.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="289.69999999999993" cy="281.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="258.8552" cy="466.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="151.80000000000004" cy="364.56" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="235.7692" cy="255.178" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="359.0" cy="452.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="245.59999999999997" cy="372.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="122.40000000000002" cy="314.3" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="386.30000000000007" cy="359.80000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="366.69999999999993" cy="287.70000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="112.59999999999998" cy="470.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="86.0" cy="372.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="322.59999999999997" cy="388.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="347.09999999999997" cy="292.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="381.40000000000003" cy="324.8" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="358.8152" cy="401.856" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="235.28199999999995" cy="283.3908" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="147.8436" cy="481.10720000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="249.80000000000004" cy="295.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="400.30000000000007" cy="373.80000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="309.16279999999995" cy="249.23359999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="361.5564" cy="379.30480000000006" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="134.30000000000004" cy="370.30000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="129.40000000000003" cy="263.20000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="91.36479999999997" cy="416.57280000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="115.6856" cy="275.8308" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="194.5" cy="305.90000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="321.19999999999993" cy="288.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<text x="240.0" y="599" text-anchor="middle" font-size="12" fill="#617183">Ø13.5 mm · 모든 층 위에서 본 방향</text>
+<text x="503" y="130" font-size="21" font-weight="700">L2 · In1.Cu</text>
+<text x="503" y="157" font-size="15">0.10 mm: 0구간 / 0.00 mm · 전체 0구간</text>
+<circle cx="718.0" cy="378.0" r="189.0" fill="#fcfcfd" stroke="#253647" stroke-width="1.4"/>
+<circle cx="792.1999999999999" cy="446.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="790.8000000000001" cy="362.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="786.6" cy="420.0" r="7.0" fill="#d7dde4"/>
+<circle cx="659.2644" cy="356.6164" r="7.0" fill="#d7dde4"/>
+<circle cx="773.86" cy="385.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="712.8144000000001" cy="328.0144" r="7.0" fill="#d7dde4"/>
+<circle cx="706.8000000000001" cy="362.88" r="7.0" fill="#d7dde4"/>
+<circle cx="639.2332" cy="451.6988" r="7.0" fill="#d7dde4"/>
+<circle cx="766.3000000000001" cy="462.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="683.672" cy="462.9744" r="7.0" fill="#d7dde4"/>
+<circle cx="556.3" cy="315.0" r="7.0" fill="#d7dde4"/>
+<circle cx="603.2" cy="423.5" r="7.0" fill="#d7dde4"/>
+<circle cx="638.9448" cy="287.70000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="722.1999999999999" cy="404.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="704.0" cy="534.0999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="732.6999999999999" cy="232.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="609.5" cy="401.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="832.5228" cy="498.1228" r="7.0" fill="#d7dde4"/>
+<circle cx="674.6308" cy="283.1192" r="7.0" fill="#d7dde4"/>
+<circle cx="656.4" cy="285.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="878.3000000000001" cy="316.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="735.5" cy="496.25520000000006" r="7.0" fill="#d7dde4"/>
+<circle cx="599.0" cy="499.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="818.1" cy="364.0" r="7.0" fill="#d7dde4"/>
+<circle cx="760.6999999999999" cy="441.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="637.5" cy="224.70000000000002" r="7.0" fill="#d7dde4"/>
+<circle cx="667.6448" cy="432.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="860.8000000000001" cy="466.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="823.0" cy="240.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="706.4696" cy="459.7292" r="7.0" fill="#d7dde4"/>
+<circle cx="652.1999999999999" cy="469.0" r="7.0" fill="#d7dde4"/>
+<circle cx="722.634" cy="449.526" r="7.0" fill="#d7dde4"/>
+<circle cx="772.9416" cy="356.3532" r="7.0" fill="#d7dde4"/>
+<circle cx="712.4" cy="389.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="626.3000000000001" cy="435.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="638.1999999999999" cy="386.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="767.6999999999999" cy="281.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="736.8552" cy="466.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="629.8000000000001" cy="364.56" r="7.0" fill="#d7dde4"/>
+<circle cx="713.7692" cy="255.178" r="7.0" fill="#d7dde4"/>
+<circle cx="837.0" cy="452.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="723.6" cy="372.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="600.4" cy="314.3" r="7.0" fill="#d7dde4"/>
+<circle cx="864.3000000000001" cy="359.80000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="844.6999999999999" cy="287.70000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="590.6" cy="470.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="564.0" cy="372.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="800.6" cy="388.5" r="7.0" fill="#d7dde4"/>
+<circle cx="825.1" cy="292.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="859.4000000000001" cy="324.8" r="7.0" fill="#d7dde4"/>
+<circle cx="836.8152" cy="401.856" r="7.0" fill="#d7dde4"/>
+<circle cx="713.2819999999999" cy="283.3908" r="7.0" fill="#d7dde4"/>
+<circle cx="625.8436" cy="481.10720000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="727.8000000000001" cy="295.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="878.3000000000001" cy="373.80000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="787.1628" cy="249.23359999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="839.5564" cy="379.30480000000006" r="7.0" fill="#d7dde4"/>
+<circle cx="612.3000000000001" cy="370.30000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="607.4" cy="263.20000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="569.3648" cy="416.57280000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="593.6856" cy="275.8308" r="7.0" fill="#d7dde4"/>
+<circle cx="672.5" cy="305.90000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="799.1999999999999" cy="288.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="792.1999999999999" cy="446.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="790.8000000000001" cy="362.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="786.6" cy="420.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="659.2644" cy="356.6164" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="773.86" cy="385.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="712.8144000000001" cy="328.0144" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="706.8000000000001" cy="362.88" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="639.2332" cy="451.6988" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="766.3000000000001" cy="462.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="683.672" cy="462.9744" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="556.3" cy="315.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="603.2" cy="423.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="638.9448" cy="287.70000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="722.1999999999999" cy="404.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="704.0" cy="534.0999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="732.6999999999999" cy="232.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="609.5" cy="401.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="832.5228" cy="498.1228" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="674.6308" cy="283.1192" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="656.4" cy="285.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="878.3000000000001" cy="316.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="735.5" cy="496.25520000000006" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="599.0" cy="499.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="818.1" cy="364.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="760.6999999999999" cy="441.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="637.5" cy="224.70000000000002" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="667.6448" cy="432.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="860.8000000000001" cy="466.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="823.0" cy="240.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="706.4696" cy="459.7292" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="652.1999999999999" cy="469.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="722.634" cy="449.526" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="772.9416" cy="356.3532" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="712.4" cy="389.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="626.3000000000001" cy="435.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="638.1999999999999" cy="386.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="767.6999999999999" cy="281.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="736.8552" cy="466.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="629.8000000000001" cy="364.56" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="713.7692" cy="255.178" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="837.0" cy="452.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="723.6" cy="372.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="600.4" cy="314.3" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="864.3000000000001" cy="359.80000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="844.6999999999999" cy="287.70000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="590.6" cy="470.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="564.0" cy="372.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="800.6" cy="388.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="825.1" cy="292.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="859.4000000000001" cy="324.8" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="836.8152" cy="401.856" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="713.2819999999999" cy="283.3908" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="625.8436" cy="481.10720000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="727.8000000000001" cy="295.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="878.3000000000001" cy="373.80000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="787.1628" cy="249.23359999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="839.5564" cy="379.30480000000006" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="612.3000000000001" cy="370.30000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="607.4" cy="263.20000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="569.3648" cy="416.57280000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="593.6856" cy="275.8308" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="672.5" cy="305.90000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="799.1999999999999" cy="288.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<text x="718.0" y="599" text-anchor="middle" font-size="12" fill="#617183">Ø13.5 mm · 모든 층 위에서 본 방향</text>
+<text x="981" y="130" font-size="21" font-weight="700">L3 · In2.Cu</text>
+<text x="981" y="157" font-size="15">0.10 mm: 47구간 / 48.38 mm · 전체 47구간</text>
+<circle cx="1196.0" cy="378.0" r="189.0" fill="#fcfcfd" stroke="#253647" stroke-width="1.4"/>
+<circle cx="1270.2" cy="446.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1268.8" cy="362.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1264.6" cy="420.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1137.2644" cy="356.6164" r="7.0" fill="#d7dde4"/>
+<circle cx="1251.8600000000001" cy="385.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1190.8144" cy="328.0144" r="7.0" fill="#d7dde4"/>
+<circle cx="1184.8" cy="362.88" r="7.0" fill="#d7dde4"/>
+<circle cx="1117.2332000000001" cy="451.6988" r="7.0" fill="#d7dde4"/>
+<circle cx="1244.3" cy="462.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1161.672" cy="462.9744" r="7.0" fill="#d7dde4"/>
+<circle cx="1034.3" cy="315.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1081.2" cy="423.5" r="7.0" fill="#d7dde4"/>
+<circle cx="1116.9448" cy="287.70000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="1200.2" cy="404.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1182.0" cy="534.0999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1210.7" cy="232.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1087.5" cy="401.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1310.5228" cy="498.1228" r="7.0" fill="#d7dde4"/>
+<circle cx="1152.6308" cy="283.1192" r="7.0" fill="#d7dde4"/>
+<circle cx="1134.4" cy="285.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1356.3" cy="316.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1213.5" cy="496.25520000000006" r="7.0" fill="#d7dde4"/>
+<circle cx="1077.0" cy="499.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1296.1" cy="364.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1238.7" cy="441.69999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1115.5" cy="224.70000000000002" r="7.0" fill="#d7dde4"/>
+<circle cx="1145.6448" cy="432.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1338.8" cy="466.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1301.0" cy="240.09999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1184.4696" cy="459.7292" r="7.0" fill="#d7dde4"/>
+<circle cx="1130.2" cy="469.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1200.634" cy="449.526" r="7.0" fill="#d7dde4"/>
+<circle cx="1250.9415999999999" cy="356.3532" r="7.0" fill="#d7dde4"/>
+<circle cx="1190.4" cy="389.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1104.3" cy="435.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1116.2" cy="386.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1245.7" cy="281.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1214.8552" cy="466.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1107.8" cy="364.56" r="7.0" fill="#d7dde4"/>
+<circle cx="1191.7692" cy="255.178" r="7.0" fill="#d7dde4"/>
+<circle cx="1315.0" cy="452.19999999999993" r="7.0" fill="#d7dde4"/>
+<circle cx="1201.6" cy="372.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1078.4" cy="314.3" r="7.0" fill="#d7dde4"/>
+<circle cx="1342.3" cy="359.80000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="1322.7" cy="287.70000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="1068.6" cy="470.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1042.0" cy="372.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1278.6" cy="388.5" r="7.0" fill="#d7dde4"/>
+<circle cx="1303.1" cy="292.59999999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1337.4" cy="324.8" r="7.0" fill="#d7dde4"/>
+<circle cx="1314.8152" cy="401.856" r="7.0" fill="#d7dde4"/>
+<circle cx="1191.282" cy="283.3908" r="7.0" fill="#d7dde4"/>
+<circle cx="1103.8436" cy="481.10720000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1205.8" cy="295.40000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1356.3" cy="373.80000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="1265.1628" cy="249.23359999999997" r="7.0" fill="#d7dde4"/>
+<circle cx="1317.5564" cy="379.30480000000006" r="7.0" fill="#d7dde4"/>
+<circle cx="1090.3" cy="370.30000000000007" r="7.0" fill="#d7dde4"/>
+<circle cx="1085.4" cy="263.20000000000005" r="7.0" fill="#d7dde4"/>
+<circle cx="1047.3648" cy="416.57280000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1071.6856" cy="275.8308" r="7.0" fill="#d7dde4"/>
+<circle cx="1150.5" cy="305.90000000000003" r="7.0" fill="#d7dde4"/>
+<circle cx="1277.2" cy="288.40000000000003" r="7.0" fill="#d7dde4"/>
+<line x1="1116.2" y1="386.40000000000003" x2="1104.3" y2="435.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | 046a5258-0f86-446f-8b99-1d812f9ab0ce | [17.15, 17.3] to [16.725, 19.05]</title></line>
+<line x1="1068.6" y1="470.40000000000003" x2="1059.5" y2="410.19999999999993" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXN | 0.10 mm | 700101be-ccb9-4b24-ae71-d8487e5892c3 | [15.45, 20.3] to [15.125, 18.15]</title></line>
+<line x1="1059.5" y1="410.19999999999993" x2="1042.0" y2="372.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXN | 0.10 mm | 92c7c458-90ba-40eb-9921-002d9b79ac6d | [15.125, 18.15] to [14.5, 16.8]</title></line>
+<line x1="1090.3" y1="370.30000000000007" x2="1091.6999720000001" y2="276.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP_RCV | 0.10 mm | 0c397228-dff9-4ece-a0eb-74b5eede93c8 | [16.225, 16.725] to [16.274999, 13.375]</title></line>
+<line x1="1091.6999720000001" y1="276.5" x2="1085.4" y2="263.20000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP_RCV | 0.10 mm | 51e585a2-a221-44c3-8d26-ae602e9525db | [16.274999, 13.375] to [16.05, 12.9]</title></line>
+<line x1="1190.8144" y1="328.0144" x2="1249.9" y2="385.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 5e2d40d6-328b-4d07-a136-dd8bcf96c14e | [19.8148, 15.2148] to [21.925, 17.25]</title></line>
+<line x1="1249.9" y1="385.0" x2="1251.8600000000001" y2="385.69999999999993" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | a3fe505d-5289-4fe5-bcc2-4e0bdc71470b | [21.925, 17.25] to [21.995, 17.275]</title></line>
+<line x1="1137.2644" y1="356.6164" x2="1177.1" y2="322.7" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 0cf2821c-77fa-4914-ad0f-c5ba442ca2d6 | [17.9023, 16.2363] to [19.325, 15.025]</title></line>
+<line x1="1264.6" y1="381.5" x2="1264.6" y2="420.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 34fc3bea-2c7b-49a1-ad3d-1731f428ca6d | [22.45, 17.125] to [22.45, 18.5]</title></line>
+<line x1="1263.9" y1="379.40000000000003" x2="1264.6" y2="381.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 52a870b3-44d0-49fb-994c-d6a2f9e35f14 | [22.425, 17.05] to [22.45, 17.125]</title></line>
+<line x1="1191.8" y1="308.0" x2="1177.1" y2="322.7" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 75a1cfbe-7171-494b-b626-1bc860d720fe | [19.85, 14.5] to [19.325, 15.025]</title></line>
+<line x1="1229.6" y1="308.0" x2="1191.8" y2="308.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 7700893a-2820-4403-a3e7-93cf4ea0bec6 | [21.2, 14.5] to [19.85, 14.5]</title></line>
+<line x1="1258.3" y1="373.80000000000007" x2="1263.9" y2="379.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 82388026-2350-4550-8eea-5b07228bbae1 | [22.225, 16.85] to [22.425, 17.05]</title></line>
+<line x1="1247.8" y1="372.40000000000003" x2="1258.3" y2="373.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | aba3df2f-f31e-4ced-ac75-650d24a6b544 | [21.85, 16.8] to [22.225, 16.85]</title></line>
+<line x1="1229.6" y1="308.0" x2="1238.7" y2="363.30000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | c29be4f9-8dcd-4fd8-8dee-b46724641b22 | [21.2, 14.5] to [21.525, 16.475]</title></line>
+<line x1="1238.7" y1="363.30000000000007" x2="1247.8" y2="372.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | d40e590d-2e6e-4971-9102-ab3b2d166df1 | [21.525, 16.475] to [21.85, 16.8]</title></line>
+<line x1="1177.8" y1="447.30000000000007" x2="1156.1" y2="450.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 15d4a868-4e19-4e14-8b96-ce8a1824c4aa | [19.35, 19.475] to [18.575, 19.6]</title></line>
+<line x1="1200.634" y1="449.526" x2="1188.3" y2="446.59999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 75632186-ed36-4f25-882b-eeb7207f35f2 | [20.1655, 19.5545] to [19.725, 19.45]</title></line>
+<line x1="1188.3" y1="446.59999999999997" x2="1177.8" y2="447.30000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 7734f028-0274-4e6f-ad26-a5ce44bc37a4 | [19.725, 19.45] to [19.35, 19.475]</title></line>
+<line x1="1156.1" y1="450.80000000000007" x2="1130.2" y2="469.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 9ce1a728-6602-410e-9b80-cbec8e057dc1 | [18.575, 19.6] to [17.65, 20.25]</title></line>
+<line x1="1265.1628" y1="249.23359999999997" x2="1289.8" y2="283.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | 530e02d8-a2ca-42a4-99f0-f13c790e3f7b | [22.4701, 12.4012] to [23.35, 13.625]</title></line>
+<line x1="1289.8" y1="283.5" x2="1292.6" y2="324.09999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | 6dc00e48-c524-4ba1-8736-8077039a56ed | [23.35, 13.625] to [23.45, 15.075]</title></line>
+<line x1="1292.6" y1="324.09999999999997" x2="1317.5564" y2="379.30480000000006" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | 80379126-1451-4030-b20a-f2ed7c0aba0e | [23.45, 15.075] to [24.3413, 17.0466]</title></line>
+<line x1="1327.6" y1="388.5" x2="1314.8152" y2="401.856" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | 37dc9cec-37a4-4da1-8781-cb9868a99cda | [24.7, 17.375] to [24.2434, 17.852]</title></line>
+<line x1="1337.4" y1="324.8" x2="1329.0" y2="358.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | 5800c01d-ce1a-470c-9962-bcea490d8520 | [25.05, 15.1] to [24.75, 16.3]</title></line>
+<line x1="1329.0" y1="358.40000000000003" x2="1330.4" y2="375.19999999999993" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | 75cb0ffb-c552-4cab-ba5a-19e76be13045 | [24.75, 16.3] to [24.8, 16.9]</title></line>
+<line x1="1330.4" y1="375.19999999999993" x2="1330.4" y2="383.59999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | bdece3f6-1be8-4787-97c9-f76aa976ffc2 | [24.8, 16.9] to [24.8, 17.2]</title></line>
+<line x1="1330.4" y1="383.59999999999997" x2="1327.6" y2="388.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | de06ca9f-640e-49f7-85d1-39935e8f8e22 | [24.8, 17.2] to [24.7, 17.375]</title></line>
+<line x1="1216.3" y1="270.20000000000005" x2="1238.7" y2="292.59999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | 5b5bb439-7158-427a-9510-58d5a3dc3d27 | [20.725, 13.15] to [21.525, 13.95]</title></line>
+<line x1="1183.4" y1="273.0" x2="1189.7" y2="270.20000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | b73eb4d7-1a9e-429f-a3a4-088b1d5b5f4b | [19.55, 13.25] to [19.775, 13.15]</title></line>
+<line x1="1150.5" y1="305.90000000000003" x2="1183.4" y2="273.0" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | cc1b70bc-385b-41c3-97e0-d44e56c8ecc3 | [18.375, 14.425] to [19.55, 13.25]</title></line>
+<line x1="1242.2" y1="294.70000000000005" x2="1270.9" y2="291.20000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | d305d58c-35e5-4e40-83b7-01500db9eb4c | [21.65, 14.025] to [22.675, 13.9]</title></line>
+<line x1="1189.7" y1="270.20000000000005" x2="1216.3" y2="270.20000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | e1a32d09-afae-40de-a380-01b5c90e7baa | [19.775, 13.15] to [20.725, 13.15]</title></line>
+<line x1="1238.7" y1="292.59999999999997" x2="1242.2" y2="294.70000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | e6895b57-3dab-4cc2-a32f-ff9991a45bf9 | [21.525, 13.95] to [21.65, 14.025]</title></line>
+<line x1="1282.8" y1="345.09999999999997" x2="1242.9" y2="305.20000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 2350cd5d-c4ad-4542-8f09-cf202d5b6e76 | [23.1, 15.825] to [21.675, 14.4]</title></line>
+<line x1="1303.8" y1="408.80000000000007" x2="1283.5" y2="368.199972" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 247efe0f-4c27-4577-99f2-9c828c2e09d7 | [23.85, 18.1] to [23.125, 16.649999]</title></line>
+<line x1="1242.9" y1="305.20000000000005" x2="1229.6" y2="300.29999999999995" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 440c536e-4bde-488f-839c-2468e42932cf | [21.675, 14.4] to [21.2, 14.225]</title></line>
+<line x1="1318.5" y1="414.40000000000003" x2="1310.1" y2="415.09999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 565f55ba-4be5-49ed-8f92-6e82632274fb | [24.375, 18.3] to [24.075, 18.325]</title></line>
+<line x1="1283.5" y1="368.199972" x2="1282.8" y2="345.09999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 7a2d9fab-f5c0-48b4-9e7e-dd048f3c57d8 | [23.125, 16.649999] to [23.1, 15.825]</title></line>
+<line x1="1322.7" y1="412.30000000000007" x2="1318.5" y2="414.40000000000003" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | a00d37f0-f8ff-437c-9123-781561a3febd | [24.525, 18.225] to [24.375, 18.3]</title></line>
+<line x1="1356.3" y1="373.80000000000007" x2="1322.7" y2="412.30000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | abf98a5b-65ad-471e-87b6-fd6cda8a35da | [25.725, 16.85] to [24.525, 18.225]</title></line>
+<line x1="1310.1" y1="415.09999999999997" x2="1303.8" y2="408.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | afc5e14f-7f0d-4137-9cab-cadf7607952f | [24.075, 18.325] to [23.85, 18.1]</title></line>
+<line x1="1229.6" y1="300.29999999999995" x2="1212.1" y2="298.20000000000005" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | e7a0e3b9-2339-4b5b-bf83-1c1b9d6daf5a | [21.2, 14.225] to [20.575, 14.15]</title></line>
+<line x1="1244.3" y1="462.69999999999993" x2="1219.8" y2="478.80000000000007" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 11c8b0c1-ee3d-4ada-aee0-557e7636499d | [21.725, 20.025] to [20.85, 20.6]</title></line>
+<line x1="1198.1" y1="479.5" x2="1177.1" y2="471.09999999999997" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 3bba8443-4755-4735-97ed-8ded1621fc3b | [20.075, 20.625] to [19.325, 20.325]</title></line>
+<line x1="1177.1" y1="471.09999999999997" x2="1161.672" y2="462.9744" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 4d25e357-a9d7-4e45-ac49-ea77a43920a8 | [19.325, 20.325] to [18.774, 20.0348]</title></line>
+<line x1="1219.8" y1="478.80000000000007" x2="1198.1" y2="479.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | b4f3d587-114e-4a0c-87b5-92ad6f4df4d6 | [20.85, 20.6] to [20.075, 20.625]</title></line>
+<circle cx="1270.2" cy="446.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1268.8" cy="362.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1264.6" cy="420.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1137.2644" cy="356.6164" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1251.8600000000001" cy="385.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1190.8144" cy="328.0144" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1184.8" cy="362.88" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1117.2332000000001" cy="451.6988" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1244.3" cy="462.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1161.672" cy="462.9744" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1034.3" cy="315.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1081.2" cy="423.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1116.9448" cy="287.70000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1200.2" cy="404.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1182.0" cy="534.0999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1210.7" cy="232.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1087.5" cy="401.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1310.5228" cy="498.1228" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1152.6308" cy="283.1192" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1134.4" cy="285.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1356.3" cy="316.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1213.5" cy="496.25520000000006" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1077.0" cy="499.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1296.1" cy="364.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1238.7" cy="441.69999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1115.5" cy="224.70000000000002" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1145.6448" cy="432.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1338.8" cy="466.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1301.0" cy="240.09999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1184.4696" cy="459.7292" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1130.2" cy="469.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1200.634" cy="449.526" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1250.9415999999999" cy="356.3532" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1190.4" cy="389.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1104.3" cy="435.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1116.2" cy="386.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1245.7" cy="281.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1214.8552" cy="466.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1107.8" cy="364.56" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1191.7692" cy="255.178" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1315.0" cy="452.19999999999993" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1201.6" cy="372.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1078.4" cy="314.3" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1342.3" cy="359.80000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1322.7" cy="287.70000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1068.6" cy="470.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1042.0" cy="372.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1278.6" cy="388.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1303.1" cy="292.59999999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1337.4" cy="324.8" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1314.8152" cy="401.856" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1191.282" cy="283.3908" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1103.8436" cy="481.10720000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1205.8" cy="295.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1356.3" cy="373.80000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1265.1628" cy="249.23359999999997" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1317.5564" cy="379.30480000000006" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1090.3" cy="370.30000000000007" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1085.4" cy="263.20000000000005" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1047.3648" cy="416.57280000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1071.6856" cy="275.8308" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1150.5" cy="305.90000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1277.2" cy="288.40000000000003" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<text x="1196.0" y="599" text-anchor="middle" font-size="12" fill="#617183">Ø13.5 mm · 모든 층 위에서 본 방향</text>
+<text x="25" y="655" font-size="21" font-weight="700">L4 · In3.Cu</text>
+<text x="25" y="682" font-size="15">0.10 mm: 8구간 / 13.59 mm · 전체 48구간</text>
+<circle cx="240.0" cy="903.0" r="189.0" fill="#fcfcfd" stroke="#253647" stroke-width="1.4"/>
+<circle cx="314.19999999999993" cy="971.6" r="7.0" fill="#d7dde4"/>
+<circle cx="312.80000000000007" cy="887.6" r="7.0" fill="#d7dde4"/>
+<circle cx="308.59999999999997" cy="945.0" r="7.0" fill="#d7dde4"/>
+<circle cx="181.26440000000002" cy="881.6164" r="7.0" fill="#d7dde4"/>
+<circle cx="295.86" cy="910.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="234.81440000000003" cy="853.0144" r="7.0" fill="#d7dde4"/>
+<circle cx="228.80000000000004" cy="887.88" r="7.0" fill="#d7dde4"/>
+<circle cx="161.23320000000004" cy="976.6988" r="7.0" fill="#d7dde4"/>
+<circle cx="288.30000000000007" cy="987.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="205.67200000000003" cy="987.9744000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="78.29999999999998" cy="840.0" r="7.0" fill="#d7dde4"/>
+<circle cx="125.20000000000002" cy="948.5" r="7.0" fill="#d7dde4"/>
+<circle cx="160.94480000000001" cy="812.7" r="7.0" fill="#d7dde4"/>
+<circle cx="244.19999999999996" cy="929.6" r="7.0" fill="#d7dde4"/>
+<circle cx="226.0" cy="1059.1" r="7.0" fill="#d7dde4"/>
+<circle cx="254.69999999999996" cy="757.4000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="131.5" cy="926.1" r="7.0" fill="#d7dde4"/>
+<circle cx="354.52279999999996" cy="1023.1228" r="7.0" fill="#d7dde4"/>
+<circle cx="196.63080000000002" cy="808.1192" r="7.0" fill="#d7dde4"/>
+<circle cx="178.40000000000003" cy="810.6" r="7.0" fill="#d7dde4"/>
+<circle cx="400.30000000000007" cy="841.4" r="7.0" fill="#d7dde4"/>
+<circle cx="257.5" cy="1021.2552000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="121.0" cy="1024.1" r="7.0" fill="#d7dde4"/>
+<circle cx="340.09999999999997" cy="889.0" r="7.0" fill="#d7dde4"/>
+<circle cx="282.69999999999993" cy="966.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="159.5" cy="749.7" r="7.0" fill="#d7dde4"/>
+<circle cx="189.64479999999998" cy="957.6" r="7.0" fill="#d7dde4"/>
+<circle cx="382.80000000000007" cy="991.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="345.0" cy="765.0999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="228.4696" cy="984.7292" r="7.0" fill="#d7dde4"/>
+<circle cx="174.19999999999996" cy="994.0" r="7.0" fill="#d7dde4"/>
+<circle cx="244.63400000000004" cy="974.5260000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="294.9416" cy="881.3532" r="7.0" fill="#d7dde4"/>
+<circle cx="234.40000000000003" cy="914.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="148.30000000000004" cy="960.4" r="7.0" fill="#d7dde4"/>
+<circle cx="160.19999999999996" cy="911.4" r="7.0" fill="#d7dde4"/>
+<circle cx="289.69999999999993" cy="806.4" r="7.0" fill="#d7dde4"/>
+<circle cx="258.8552" cy="991.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="151.80000000000004" cy="889.56" r="7.0" fill="#d7dde4"/>
+<circle cx="235.7692" cy="780.178" r="7.0" fill="#d7dde4"/>
+<circle cx="359.0" cy="977.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="245.59999999999997" cy="897.4" r="7.0" fill="#d7dde4"/>
+<circle cx="122.40000000000002" cy="839.3" r="7.0" fill="#d7dde4"/>
+<circle cx="386.30000000000007" cy="884.8000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="366.69999999999993" cy="812.7" r="7.0" fill="#d7dde4"/>
+<circle cx="112.59999999999998" cy="995.4" r="7.0" fill="#d7dde4"/>
+<circle cx="86.0" cy="897.4" r="7.0" fill="#d7dde4"/>
+<circle cx="322.59999999999997" cy="913.5" r="7.0" fill="#d7dde4"/>
+<circle cx="347.09999999999997" cy="817.6" r="7.0" fill="#d7dde4"/>
+<circle cx="381.40000000000003" cy="849.8" r="7.0" fill="#d7dde4"/>
+<circle cx="358.8152" cy="926.856" r="7.0" fill="#d7dde4"/>
+<circle cx="235.28199999999995" cy="808.3908" r="7.0" fill="#d7dde4"/>
+<circle cx="147.8436" cy="1006.1072" r="7.0" fill="#d7dde4"/>
+<circle cx="249.80000000000004" cy="820.4" r="7.0" fill="#d7dde4"/>
+<circle cx="400.30000000000007" cy="898.8000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="309.16279999999995" cy="774.2336" r="7.0" fill="#d7dde4"/>
+<circle cx="361.5564" cy="904.3048" r="7.0" fill="#d7dde4"/>
+<circle cx="134.30000000000004" cy="895.3000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="129.40000000000003" cy="788.2" r="7.0" fill="#d7dde4"/>
+<circle cx="91.36479999999997" cy="941.5728" r="7.0" fill="#d7dde4"/>
+<circle cx="115.6856" cy="800.8308" r="7.0" fill="#d7dde4"/>
+<circle cx="194.5" cy="830.9" r="7.0" fill="#d7dde4"/>
+<circle cx="321.19999999999993" cy="813.4" r="7.0" fill="#d7dde4"/>
+<line x1="109.09999999999997" y1="947.8000000000001" x2="109.09999999999997" y2="963.1999999999999" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | 18322470-7361-4b0a-8434-743f3ca8b2cd | [15.325, 18.6] to [15.325, 19.15]</title></line>
+<line x1="109.09999999999997" y1="963.1999999999999" x2="145.5" y2="999.6" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | 4535318e-1883-4a70-9d5c-d4eb095a55e1 | [15.325, 19.15] to [16.625, 20.45]</title></line>
+<line x1="132.19997200000003" y1="872.9" x2="117.5" y2="888.3000000000001" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | 73777ebd-9835-42dd-a9c9-ea928b8be51c | [16.149999, 15.925] to [15.625, 16.475]</title></line>
+<line x1="201.5" y1="846.3" x2="132.19997200000003" y2="872.9" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | a22c5675-0008-43cf-aacb-30490f6d5459 | [18.625, 14.975] to [16.149999, 15.925]</title></line>
+<line x1="233.0" y1="814.8" x2="201.5" y2="846.3" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | c78a1a25-69e4-4c8d-b4bd-92f3d7a7efbe | [19.75, 13.85] to [18.625, 14.975]</title></line>
+<line x1="115.40000000000002" y1="895.3000000000001" x2="109.09999999999997" y2="947.8000000000001" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | cb429a3c-be9a-48c5-8ac3-ba372db8eaf2 | [15.55, 16.725] to [15.325, 18.6]</title></line>
+<line x1="117.5" y1="888.3000000000001" x2="115.40000000000002" y2="895.3000000000001" stroke="#7e8996" stroke-width="8.4" stroke-linecap="round"><title>12V | 0.30 mm | f7c44ef1-7a27-4a51-a42d-d1cf1b63c2cf | [15.625, 16.475] to [15.55, 16.725]</title></line>
+<line x1="363.90000000000003" y1="870.8" x2="362.5" y2="867.3" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 0de6ecf8-18a5-4143-bcbc-edddf617327b | [24.425, 15.85] to [24.375, 15.725]</title></line>
+<line x1="364.59999999999997" y1="871.5" x2="362.5" y2="865.2" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 0f285157-59b5-48f5-b0aa-06e8b3d6735e | [24.45, 15.875] to [24.375, 15.65]</title></line>
+<line x1="206.40000000000003" y1="879.199972" x2="219.0" y2="870.1" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 16987f54-1d72-4872-9673-544e9642ccab | [18.8, 16.149999] to [19.25, 15.825]</title></line>
+<line x1="362.5" y1="865.2" x2="364.59999999999997" y2="830.9" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 16ef151e-c345-4f0f-8fc3-93fb6c9867af | [24.375, 15.65] to [24.45, 14.425]</title></line>
+<line x1="371.59999999999997" y1="879.199972" x2="364.59999999999997" y2="871.5" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 1c818c67-7ac5-4e24-bb16-897eab4a4e08 | [24.7, 16.149999] to [24.45, 15.875]</title></line>
+<line x1="219.0" y1="870.1" x2="249.80000000000004" y2="870.1" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 1d62d472-ccaa-49bd-9791-d59e611cff78 | [19.25, 15.825] to [20.35, 15.825]</title></line>
+<line x1="153.19999999999996" y1="796.6" x2="146.19997200000003" y2="803.6" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 2b0c9cb5-a36b-4fd7-a27b-2dc69920570f | [16.9, 13.2] to [16.649999, 13.45]</title></line>
+<line x1="146.19997200000003" y1="803.6" x2="125.20000000000002" y2="833.0" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 43ef76f6-71e4-41b2-aa4e-65c82957193f | [16.649999, 13.45] to [15.9, 14.5]</title></line>
+<line x1="378.59999999999997" y1="908.6" x2="378.59999999999997" y2="886.9" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 4c0a641d-f105-48fe-b2df-d1429c15210a | [24.95, 17.2] to [24.95, 16.425]</title></line>
+<line x1="363.90000000000003" y1="820.4" x2="366.69999999999993" y2="812.7" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 5935c1f2-162b-4639-b8e4-164740ce2c1d | [24.425, 14.05] to [24.525, 13.775]</title></line>
+<line x1="167.90000000000003" y1="896.0" x2="158.09999999999997" y2="892.5" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 63fffc88-4ce2-48cc-88a4-08a700c5c15b | [17.425, 16.75] to [17.075, 16.625]</title></line>
+<line x1="377.19999999999993" y1="949.1999999999999" x2="378.59999999999997" y2="908.6" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 6ed0fa52-a320-4816-8581-18bf513a6d83 | [24.9, 18.65] to [24.95, 17.2]</title></line>
+<line x1="313.5" y1="830.2" x2="294.59999999999997" y2="811.3" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 6f1f2034-46ca-41af-94ed-8f84b3ce0dbb | [22.625, 14.4] to [21.95, 13.725]</title></line>
+<line x1="348.5" y1="991.1999999999999" x2="356.19999999999993" y2="983.5" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 728cf45d-6953-4dab-8d8d-d0e1dd753cc9 | [23.875, 20.15] to [24.15, 19.875]</title></line>
+<line x1="251.19999999999996" y1="883.4" x2="245.59999999999997" y2="897.4" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 7367e156-4813-4e6c-a650-641a09af6944 | [20.4, 16.3] to [20.2, 16.8]</title></line>
+<line x1="337.30000000000007" y1="1005.1999999999999" x2="275.69999999999993" y2="1004.5" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 74cf1bed-6660-4e38-971c-fbd1447f69a8 | [23.475, 20.65] to [21.275, 20.625]</title></line>
+<line x1="283.40000000000003" y1="803.6" x2="242.09999999999997" y2="782.6" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 779c8d12-1c09-4631-86e8-c64ae3e76163 | [21.55, 13.45] to [20.075, 12.7]</title></line>
+<line x1="305.09999999999997" y1="829.5" x2="248.40000000000003" y2="886.199972" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 7ad6c3f5-84c0-4927-a321-d053f9c8d345 | [22.325, 14.375] to [20.3, 16.399999]</title></line>
+<line x1="229.5" y1="782.6" x2="153.19999999999996" y2="796.6" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 8feb67dd-b7a8-4464-9ca3-deb8472ba8c8 | [19.625, 12.7] to [16.9, 13.2]</title></line>
+<line x1="349.19999999999993" y1="835.1" x2="313.5" y2="830.2" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 936acf2c-f71a-44ef-b4a1-edb7c4d49af4 | [23.9, 14.575] to [22.625, 14.4]</title></line>
+<line x1="195.19999999999996" y1="898.8000000000001" x2="206.40000000000003" y2="879.199972" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | 9c9064ea-fedd-4951-944f-56b46d490ebe | [18.4, 16.85] to [18.8, 16.149999]</title></line>
+<line x1="389.80000000000007" y1="880.6" x2="371.59999999999997" y2="879.199972" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | a1f00e58-efa3-4b61-94e2-b8246408a3be | [25.35, 16.2] to [24.7, 16.149999]</title></line>
+<line x1="337.30000000000007" y1="1005.1999999999999" x2="348.5" y2="991.1999999999999" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | ae9b7d48-5075-4b0c-b181-40a5bf24fd75 | [23.475, 20.65] to [23.875, 20.15]</title></line>
+<line x1="171.40000000000003" y1="898.8000000000001" x2="167.90000000000003" y2="896.0" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | b9b8e4c3-c366-42fa-a80c-734b7398c820 | [17.55, 16.85] to [17.425, 16.75]</title></line>
+<line x1="362.5" y1="867.3" x2="363.90000000000003" y2="820.4" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | bab530ea-a535-4463-a311-3abbc5a6fac2 | [24.375, 15.725] to [24.425, 14.05]</title></line>
+<line x1="359.0" y1="831.6" x2="349.19999999999993" y2="835.1" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | c441e6f8-e1ed-464e-901b-6d2ea04889d7 | [24.25, 14.45] to [23.9, 14.575]</title></line>
+<line x1="378.59999999999997" y1="886.9" x2="363.90000000000003" y2="870.8" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | c9e23521-aa67-4e5d-9922-0ccf3829dd5d | [24.95, 16.425] to [24.425, 15.85]</title></line>
+<line x1="366.69999999999993" y1="812.7" x2="364.59999999999997" y2="830.9" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | d3945b2d-461b-44ef-b874-3c2cd911d97c | [24.525, 13.775] to [24.45, 14.425]</title></line>
+<line x1="275.69999999999993" y1="1004.5" x2="265.19999999999993" y2="994.0" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | db518770-4612-483c-8d8a-da9674ffec1d | [21.275, 20.625] to [20.9, 20.25]</title></line>
+<line x1="171.40000000000003" y1="898.8000000000001" x2="195.19999999999996" y2="898.8000000000001" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | dde7965e-a5f2-4397-b67b-a116b2891a6b | [17.55, 16.85] to [18.4, 16.85]</title></line>
+<line x1="249.80000000000004" y1="870.1" x2="251.19999999999996" y2="883.4" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | e7cca8ca-c442-4c59-90ce-1a33358e87e4 | [20.35, 15.825] to [20.4, 16.3]</title></line>
+<line x1="361.80000000000007" y1="970.9" x2="377.19999999999993" y2="949.1999999999999" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | ef574b67-224c-4b75-8d22-1b86dee336a4 | [24.35, 19.425] to [24.9, 18.65]</title></line>
+<line x1="248.40000000000003" y1="886.199972" x2="245.59999999999997" y2="897.4" stroke="#7e8996" stroke-width="11.200000000000001" stroke-linecap="round"><title>3V3 | 0.40 mm | ff2fd685-fb76-4f8e-b8ed-b0f77a6010f5 | [20.3, 16.399999] to [20.2, 16.8]</title></line>
+<line x1="160.19999999999996" y1="911.4" x2="228.09999999999997" y2="911.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | 556aa038-dae7-4cb3-acb7-a69ccea86a4e | [17.15, 17.3] to [19.575, 17.3]</title></line>
+<line x1="113.29999999999998" y1="807.1" x2="93.70000000000002" y2="935.1999999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP | 0.10 mm | 1da6d8f8-20c4-45f6-b845-4207f65f06d1 | [15.475, 13.575] to [14.775, 18.15]</title></line>
+<line x1="321.19999999999993" y1="940.1" x2="321.90000000000003" y2="954.8000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 354e412b-a4d6-4516-ad66-c8013ba1d792 | [22.9, 18.325] to [22.925, 18.85]</title></line>
+<line x1="321.90000000000003" y1="954.8000000000001" x2="314.19999999999993" y2="971.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 4191355a-b73c-4d7a-ae99-055a92f7f765 | [22.925, 18.85] to [22.65, 19.45]</title></line>
+<line x1="309.30000000000007" y1="926.8000000000001" x2="321.19999999999993" y2="940.1" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 71b30dbb-6027-44d5-a3d2-27ede7bdf13e | [22.475, 17.85] to [22.9, 18.325]</title></line>
+<line x1="309.30000000000007" y1="912.1" x2="309.30000000000007" y2="926.8000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | c4d45671-7e45-4337-a86d-85f46a6d401e | [22.475, 17.325] to [22.475, 17.85]</title></line>
+<line x1="312.80000000000007" y1="887.6" x2="309.30000000000007" y2="912.1" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | d4cd300e-1990-4512-9fd5-00a12349f9ec | [22.6, 16.45] to [22.475, 17.325]</title></line>
+<line x1="292.5" y1="887.6" x2="247.0" y2="968.1" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 8480a4cd-cace-46cb-aa7d-6e4405a68f9c | [21.875, 16.45] to [20.25, 19.325]</title></line>
+<circle cx="314.19999999999993" cy="971.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="312.80000000000007" cy="887.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="308.59999999999997" cy="945.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="181.26440000000002" cy="881.6164" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="295.86" cy="910.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="234.81440000000003" cy="853.0144" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="228.80000000000004" cy="887.88" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="161.23320000000004" cy="976.6988" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="288.30000000000007" cy="987.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="205.67200000000003" cy="987.9744000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="78.29999999999998" cy="840.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="125.20000000000002" cy="948.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="160.94480000000001" cy="812.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="244.19999999999996" cy="929.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="226.0" cy="1059.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="254.69999999999996" cy="757.4000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="131.5" cy="926.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="354.52279999999996" cy="1023.1228" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="196.63080000000002" cy="808.1192" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="178.40000000000003" cy="810.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="400.30000000000007" cy="841.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="257.5" cy="1021.2552000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="121.0" cy="1024.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="340.09999999999997" cy="889.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="282.69999999999993" cy="966.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="159.5" cy="749.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="189.64479999999998" cy="957.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="382.80000000000007" cy="991.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="345.0" cy="765.0999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="228.4696" cy="984.7292" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="174.19999999999996" cy="994.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="244.63400000000004" cy="974.5260000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="294.9416" cy="881.3532" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="234.40000000000003" cy="914.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="148.30000000000004" cy="960.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="160.19999999999996" cy="911.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="289.69999999999993" cy="806.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="258.8552" cy="991.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="151.80000000000004" cy="889.56" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="235.7692" cy="780.178" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="359.0" cy="977.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="245.59999999999997" cy="897.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="122.40000000000002" cy="839.3" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="386.30000000000007" cy="884.8000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="366.69999999999993" cy="812.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="112.59999999999998" cy="995.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="86.0" cy="897.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="322.59999999999997" cy="913.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="347.09999999999997" cy="817.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="381.40000000000003" cy="849.8" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="358.8152" cy="926.856" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="235.28199999999995" cy="808.3908" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="147.8436" cy="1006.1072" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="249.80000000000004" cy="820.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="400.30000000000007" cy="898.8000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="309.16279999999995" cy="774.2336" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="361.5564" cy="904.3048" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="134.30000000000004" cy="895.3000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="129.40000000000003" cy="788.2" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="91.36479999999997" cy="941.5728" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="115.6856" cy="800.8308" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="194.5" cy="830.9" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="321.19999999999993" cy="813.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<text x="240.0" y="1124" text-anchor="middle" font-size="12" fill="#617183">Ø13.5 mm · 모든 층 위에서 본 방향</text>
+<text x="503" y="655" font-size="21" font-weight="700">L5 · In4.Cu</text>
+<text x="503" y="682" font-size="15">0.10 mm: 2구간 / 3.54 mm · 전체 2구간</text>
+<circle cx="718.0" cy="903.0" r="189.0" fill="#fcfcfd" stroke="#253647" stroke-width="1.4"/>
+<circle cx="792.1999999999999" cy="971.6" r="7.0" fill="#d7dde4"/>
+<circle cx="790.8000000000001" cy="887.6" r="7.0" fill="#d7dde4"/>
+<circle cx="786.6" cy="945.0" r="7.0" fill="#d7dde4"/>
+<circle cx="659.2644" cy="881.6164" r="7.0" fill="#d7dde4"/>
+<circle cx="773.86" cy="910.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="712.8144000000001" cy="853.0144" r="7.0" fill="#d7dde4"/>
+<circle cx="706.8000000000001" cy="887.88" r="7.0" fill="#d7dde4"/>
+<circle cx="639.2332" cy="976.6988" r="7.0" fill="#d7dde4"/>
+<circle cx="766.3000000000001" cy="987.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="683.672" cy="987.9744000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="556.3" cy="840.0" r="7.0" fill="#d7dde4"/>
+<circle cx="603.2" cy="948.5" r="7.0" fill="#d7dde4"/>
+<circle cx="638.9448" cy="812.7" r="7.0" fill="#d7dde4"/>
+<circle cx="722.1999999999999" cy="929.6" r="7.0" fill="#d7dde4"/>
+<circle cx="704.0" cy="1059.1" r="7.0" fill="#d7dde4"/>
+<circle cx="732.6999999999999" cy="757.4000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="609.5" cy="926.1" r="7.0" fill="#d7dde4"/>
+<circle cx="832.5228" cy="1023.1228" r="7.0" fill="#d7dde4"/>
+<circle cx="674.6308" cy="808.1192" r="7.0" fill="#d7dde4"/>
+<circle cx="656.4" cy="810.6" r="7.0" fill="#d7dde4"/>
+<circle cx="878.3000000000001" cy="841.4" r="7.0" fill="#d7dde4"/>
+<circle cx="735.5" cy="1021.2552000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="599.0" cy="1024.1" r="7.0" fill="#d7dde4"/>
+<circle cx="818.1" cy="889.0" r="7.0" fill="#d7dde4"/>
+<circle cx="760.6999999999999" cy="966.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="637.5" cy="749.7" r="7.0" fill="#d7dde4"/>
+<circle cx="667.6448" cy="957.6" r="7.0" fill="#d7dde4"/>
+<circle cx="860.8000000000001" cy="991.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="823.0" cy="765.0999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="706.4696" cy="984.7292" r="7.0" fill="#d7dde4"/>
+<circle cx="652.1999999999999" cy="994.0" r="7.0" fill="#d7dde4"/>
+<circle cx="722.634" cy="974.5260000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="772.9416" cy="881.3532" r="7.0" fill="#d7dde4"/>
+<circle cx="712.4" cy="914.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="626.3000000000001" cy="960.4" r="7.0" fill="#d7dde4"/>
+<circle cx="638.1999999999999" cy="911.4" r="7.0" fill="#d7dde4"/>
+<circle cx="767.6999999999999" cy="806.4" r="7.0" fill="#d7dde4"/>
+<circle cx="736.8552" cy="991.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="629.8000000000001" cy="889.56" r="7.0" fill="#d7dde4"/>
+<circle cx="713.7692" cy="780.178" r="7.0" fill="#d7dde4"/>
+<circle cx="837.0" cy="977.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="723.6" cy="897.4" r="7.0" fill="#d7dde4"/>
+<circle cx="600.4" cy="839.3" r="7.0" fill="#d7dde4"/>
+<circle cx="864.3000000000001" cy="884.8000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="844.6999999999999" cy="812.7" r="7.0" fill="#d7dde4"/>
+<circle cx="590.6" cy="995.4" r="7.0" fill="#d7dde4"/>
+<circle cx="564.0" cy="897.4" r="7.0" fill="#d7dde4"/>
+<circle cx="800.6" cy="913.5" r="7.0" fill="#d7dde4"/>
+<circle cx="825.1" cy="817.6" r="7.0" fill="#d7dde4"/>
+<circle cx="859.4000000000001" cy="849.8" r="7.0" fill="#d7dde4"/>
+<circle cx="836.8152" cy="926.856" r="7.0" fill="#d7dde4"/>
+<circle cx="713.2819999999999" cy="808.3908" r="7.0" fill="#d7dde4"/>
+<circle cx="625.8436" cy="1006.1072" r="7.0" fill="#d7dde4"/>
+<circle cx="727.8000000000001" cy="820.4" r="7.0" fill="#d7dde4"/>
+<circle cx="878.3000000000001" cy="898.8000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="787.1628" cy="774.2336" r="7.0" fill="#d7dde4"/>
+<circle cx="839.5564" cy="904.3048" r="7.0" fill="#d7dde4"/>
+<circle cx="612.3000000000001" cy="895.3000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="607.4" cy="788.2" r="7.0" fill="#d7dde4"/>
+<circle cx="569.3648" cy="941.5728" r="7.0" fill="#d7dde4"/>
+<circle cx="593.6856" cy="800.8308" r="7.0" fill="#d7dde4"/>
+<circle cx="672.5" cy="830.9" r="7.0" fill="#d7dde4"/>
+<circle cx="799.1999999999999" cy="813.4" r="7.0" fill="#d7dde4"/>
+<line x1="825.1" y1="817.6" x2="804.8000000000001" y2="887.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP_DRV | 0.10 mm | 2e831188-4bb1-425c-b0cd-21c7c9b919e0 | [23.825, 13.95] to [23.1, 16.45]</title></line>
+<line x1="804.8000000000001" y1="887.6" x2="800.6" y2="913.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP_DRV | 0.10 mm | f74979ec-ea76-4f82-9b59-4d76b9444308 | [23.1, 16.45] to [22.95, 17.375]</title></line>
+<circle cx="792.1999999999999" cy="971.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="790.8000000000001" cy="887.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="786.6" cy="945.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="659.2644" cy="881.6164" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="773.86" cy="910.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="712.8144000000001" cy="853.0144" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="706.8000000000001" cy="887.88" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="639.2332" cy="976.6988" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="766.3000000000001" cy="987.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="683.672" cy="987.9744000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="556.3" cy="840.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="603.2" cy="948.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="638.9448" cy="812.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="722.1999999999999" cy="929.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="704.0" cy="1059.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="732.6999999999999" cy="757.4000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="609.5" cy="926.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="832.5228" cy="1023.1228" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="674.6308" cy="808.1192" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="656.4" cy="810.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="878.3000000000001" cy="841.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="735.5" cy="1021.2552000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="599.0" cy="1024.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="818.1" cy="889.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="760.6999999999999" cy="966.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="637.5" cy="749.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="667.6448" cy="957.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="860.8000000000001" cy="991.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="823.0" cy="765.0999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="706.4696" cy="984.7292" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="652.1999999999999" cy="994.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="722.634" cy="974.5260000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="772.9416" cy="881.3532" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="712.4" cy="914.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="626.3000000000001" cy="960.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="638.1999999999999" cy="911.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="767.6999999999999" cy="806.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="736.8552" cy="991.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="629.8000000000001" cy="889.56" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="713.7692" cy="780.178" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="837.0" cy="977.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="723.6" cy="897.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="600.4" cy="839.3" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="864.3000000000001" cy="884.8000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="844.6999999999999" cy="812.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="590.6" cy="995.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="564.0" cy="897.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="800.6" cy="913.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="825.1" cy="817.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="859.4000000000001" cy="849.8" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="836.8152" cy="926.856" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="713.2819999999999" cy="808.3908" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="625.8436" cy="1006.1072" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="727.8000000000001" cy="820.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="878.3000000000001" cy="898.8000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="787.1628" cy="774.2336" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="839.5564" cy="904.3048" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="612.3000000000001" cy="895.3000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="607.4" cy="788.2" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="569.3648" cy="941.5728" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="593.6856" cy="800.8308" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="672.5" cy="830.9" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="799.1999999999999" cy="813.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<text x="718.0" y="1124" text-anchor="middle" font-size="12" fill="#617183">Ø13.5 mm · 모든 층 위에서 본 방향</text>
+<text x="981" y="655" font-size="21" font-weight="700">L6 · B.Cu</text>
+<text x="981" y="682" font-size="15">0.10 mm: 132구간 / 53.59 mm · 전체 187구간</text>
+<circle cx="1196.0" cy="903.0" r="189.0" fill="#fcfcfd" stroke="#253647" stroke-width="1.4"/>
+<circle cx="1215.5328" cy="1062.908" r="16.8" fill="#e4e7eb"/>
+<rect x="1313.947928" y="981.543528" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-315.0 1320.387928 987.1435280000001)"/>
+<rect x="1326.619272" y="994.214872" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-315.0 1333.059272 999.814872)"/>
+<rect x="1130.3932" y="885.9872" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1136.8332 891.5872)"/>
+<rect x="1112.4732" y="885.9872" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1118.9132 891.5872)"/>
+<circle cx="1050.9068" cy="976.2816" r="16.8" fill="#e4e7eb"/>
+<rect x="1332.4531279999999" y="812.725928" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-315.0 1338.893128 818.325928)"/>
+<rect x="1345.124472" y="825.3972719999999" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-315.0 1351.564472 830.997272)"/>
+<rect x="1261.3548" y="915.208" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-0.0 1268.9148 924.168)"/>
+<rect x="1289.9148" y="915.208" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-0.0 1297.4748 924.168)"/>
+<rect x="1138.1044" y="739.9308" width="9.1" height="18.2" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1142.6544 749.0308)"/>
+<rect x="1119.9044000000001" y="739.9308" width="9.1" height="18.2" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1124.4544 749.0308)"/>
+<circle cx="1174.0816" cy="740.852" r="16.8" fill="#e4e7eb"/>
+<rect x="1086.527672" y="967.3460719999999" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-135.0 1092.967672 972.946072)"/>
+<rect x="1073.8563279999998" y="954.674728" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-135.0 1080.296328 960.274728)"/>
+<rect x="1080.5448000000001" y="997.4272000000001" width="15.680000000000001" height="17.36" rx="3.9200000000000004" fill="#e4e7eb" transform="rotate(-270.0 1088.3848 1006.1072)"/>
+<rect x="1080.5448000000001" y="1024.3072" width="15.680000000000001" height="17.36" rx="3.9200000000000004" fill="#e4e7eb" transform="rotate(-270.0 1088.3848 1032.9872)"/>
+<rect x="1359.520028" y="866.6" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1365.960028 872.2)"/>
+<rect x="1341.6000279999998" y="866.6" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1348.040028 872.2)"/>
+<rect x="1251.426644" y="835.03784" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-45.0 1262.626644 843.85784)"/>
+<rect x="1232.617616" y="816.2287839999999" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-45.0 1243.817616 825.048784)"/>
+<rect x="1213.80856" y="797.4197559999999" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-45.0 1225.00856 806.2397559999999)"/>
+<rect x="1261.326156" y="749.90216" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-45.0 1272.5261560000001 758.72216)"/>
+<rect x="1280.135184" y="768.7112159999999" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-45.0 1291.335184 777.531216)"/>
+<rect x="1298.94424" y="787.5202439999999" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-45.0 1310.14424 796.340244)"/>
+<rect x="1103.5356" y="907.4155999999999" width="8.4" height="14.0" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1107.7356 914.4155999999999)"/>
+<rect x="1083.9356" y="907.4155999999999" width="8.4" height="14.0" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1088.1356 914.4155999999999)"/>
+<rect x="1065.94" y="870.8616" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-180.0 1073.5 879.8216)"/>
+<rect x="1037.38" y="870.8616" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-180.0 1044.94 879.8216)"/>
+<circle cx="1338.8868" cy="950.0624" r="16.8" fill="#e4e7eb"/>
+<rect x="1205.926" y="965.4008" width="8.4" height="14.0" rx="0" fill="#e4e7eb" transform="rotate(-0.0 1210.126 972.4008)"/>
+<rect x="1225.5259999999998" y="965.4008" width="8.4" height="14.0" rx="0" fill="#e4e7eb" transform="rotate(-0.0 1229.7259999999999 972.4008)"/>
+<rect x="1056.2884000000001" y="898.0328" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-270.0 1063.8484 906.9928)"/>
+<rect x="1056.2884000000001" y="926.5928" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-270.0 1063.8484 935.5528)"/>
+<rect x="1023.3212000000001" y="932.6128" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-90.0 1030.8812 941.5728)"/>
+<rect x="1023.3212000000001" y="904.0528" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-90.0 1030.8812 913.0128000000001)"/>
+<circle cx="1057.834" cy="817.5916" r="16.8" fill="#e4e7eb"/>
+<rect x="1197.470728" y="772.9756719999999" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-45.0 1203.910728 778.5756719999999)"/>
+<rect x="1210.1420719999999" y="760.3043279999999" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-45.0 1216.582072 765.904328)"/>
+<rect x="1127.5008" y="911.9656" width="15.680000000000001" height="17.36" rx="3.9200000000000004" fill="#e4e7eb" transform="rotate(-270.0 1135.3408 920.6456)"/>
+<rect x="1127.5008" y="938.8456" width="15.680000000000001" height="17.36" rx="3.9200000000000004" fill="#e4e7eb" transform="rotate(-270.0 1135.3408 947.5255999999999)"/>
+<rect x="1110.4152" y="866.1156" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1116.8552 871.7156)"/>
+<rect x="1092.4951999999998" y="866.1156" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1098.9352 871.7156)"/>
+<rect x="1065.8" y="843.2564" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1072.24 848.8564)"/>
+<rect x="1047.8799999999999" y="843.2564" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1054.32 848.8564)"/>
+<rect x="1174.0116" y="965.3223999999999" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1180.4516 970.9223999999999)"/>
+<rect x="1156.0916" y="965.3223999999999" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-180.0 1162.5316 970.9223999999999)"/>
+<rect x="1283.665564" y="857.2007639999999" width="8.4" height="14.0" rx="0" fill="#e4e7eb" transform="rotate(-315.0 1287.865564 864.2007639999999)"/>
+<rect x="1297.524836" y="871.060036" width="8.4" height="14.0" rx="0" fill="#e4e7eb" transform="rotate(-315.0 1301.724836 878.060036)"/>
+<rect x="1223.0731999999998" y="947.7972" width="9.799999999999999" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1227.9732 951.9972)"/>
+<rect x="1204.1732" y="942.8971999999999" width="19.599999999999998" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1213.9732 947.0971999999999)"/>
+<rect x="1190.1732" y="942.8971999999999" width="19.599999999999998" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1199.9732 947.0971999999999)"/>
+<rect x="1176.1732" y="942.8971999999999" width="19.599999999999998" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1185.9732 947.0971999999999)"/>
+<rect x="1167.0731999999998" y="947.7972" width="9.799999999999999" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1171.9732 951.9972)"/>
+<rect x="1154.4732" y="933.7972" width="8.4" height="9.799999999999999" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1158.6732 938.6972)"/>
+<rect x="1159.3732" y="914.8972" width="8.4" height="19.599999999999998" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1163.5732 924.6972)"/>
+<rect x="1159.3732" y="900.8972" width="8.4" height="19.599999999999998" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1163.5732 910.6972)"/>
+<rect x="1159.3732" y="886.8972" width="8.4" height="19.599999999999998" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1163.5732 896.6972)"/>
+<rect x="1154.4732" y="877.7972" width="8.4" height="9.799999999999999" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1158.6732 882.6972)"/>
+<rect x="1167.0731999999998" y="865.1972" width="9.799999999999999" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1171.9732 869.3972)"/>
+<rect x="1176.1732" y="870.0971999999999" width="19.599999999999998" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1185.9732 874.2972)"/>
+<rect x="1190.1732" y="870.0971999999999" width="19.599999999999998" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1199.9732 874.2972)"/>
+<rect x="1204.1732" y="870.0971999999999" width="19.599999999999998" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1213.9732 874.2972)"/>
+<rect x="1223.0731999999998" y="865.1972" width="9.799999999999999" height="8.4" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1227.9732 869.3972)"/>
+<rect x="1237.0732" y="877.7972" width="8.4" height="9.799999999999999" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1241.2732 882.6972)"/>
+<rect x="1232.1732" y="886.8972" width="8.4" height="19.599999999999998" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1236.3732 896.6972)"/>
+<rect x="1232.1732" y="900.8972" width="8.4" height="19.599999999999998" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1236.3732 910.6972)"/>
+<rect x="1232.1732" y="914.8972" width="8.4" height="19.599999999999998" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1236.3732 924.6972)"/>
+<rect x="1237.0732" y="933.7972" width="8.4" height="9.799999999999999" rx="0" fill="#e4e7eb" transform="rotate(-90.0 1241.2732 938.6972)"/>
+<rect x="1163.2595999999999" y="1005.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1175.4396 1009.2292)"/>
+<rect x="1163.2595999999999" y="1019.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1175.4396 1023.2292)"/>
+<rect x="1163.2595999999999" y="1033.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1175.4396 1037.2292)"/>
+<rect x="1163.2595999999999" y="1047.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1175.4396 1051.2292)"/>
+<rect x="1110.6196" y="1047.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1122.7996 1051.2292)"/>
+<rect x="1110.6196" y="1033.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1122.7996 1037.2292)"/>
+<rect x="1110.6196" y="1019.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1122.7996 1023.2292)"/>
+<rect x="1110.6196" y="1005.7292" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-180.0 1122.7996 1009.2292)"/>
+<rect x="1140.5796" y="999.4292" width="17.08" height="61.60000000000001" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1149.1196 1030.2292)"/>
+<rect x="1157.08" y="777.0364" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1168.28 785.8564)"/>
+<rect x="1157.08" y="803.6364" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1168.28 812.4564)"/>
+<rect x="1157.08" y="830.2364" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1168.28 839.0564)"/>
+<rect x="1089.8799999999999" y="830.2364" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1101.08 839.0564)"/>
+<rect x="1089.8799999999999" y="803.6364" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1101.08 812.4564)"/>
+<rect x="1089.8799999999999" y="777.0364" width="22.400000000000002" height="17.64" rx="0" fill="#e4e7eb" transform="rotate(-180.0 1101.08 785.8564)"/>
+<rect x="1198.4332" y="989.9372" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-270.0 1204.8732 995.5372)"/>
+<rect x="1198.4332" y="1007.8572" width="12.88" height="11.200000000000001" rx="2.8000000000000003" fill="#e4e7eb" transform="rotate(-270.0 1204.8732 1013.4572000000001)"/>
+<rect x="1199.9116" y="727.9467999999999" width="16.52" height="17.92" rx="4.13" fill="#e4e7eb" transform="rotate(-0.0 1208.1716 736.9068)"/>
+<rect x="1227.0716" y="727.9467999999999" width="16.52" height="17.92" rx="4.13" fill="#e4e7eb" transform="rotate(-0.0 1235.3316 736.9068)"/>
+<rect x="1265.5562" y="981.81412" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1277.7362 985.31412)"/>
+<rect x="1275.455712" y="991.713604" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1287.635712 995.213604)"/>
+<rect x="1285.355196" y="1001.6130880000001" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1297.535196 1005.1130880000001)"/>
+<rect x="1295.25468" y="1011.5126" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1307.43468 1015.0126)"/>
+<rect x="1258.0326" y="1048.73468" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1270.2126 1052.23468)"/>
+<rect x="1248.133088" y="1038.835196" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1260.313088 1042.335196)"/>
+<rect x="1238.2336039999998" y="1028.935712" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1250.4136039999999 1032.435712)"/>
+<rect x="1228.33412" y="1019.0362" width="24.36" height="7.0" rx="1.75" fill="#e4e7eb" transform="rotate(-225.0 1240.51412 1022.5362)"/>
+<rect x="1265.4344" y="987.9744000000001" width="17.08" height="61.60000000000001" rx="0" fill="#e4e7eb" transform="rotate(-225.0 1273.9744 1018.7744)"/>
+<rect x="1311.084928" y="880.9017279999999" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-315.0 1318.644928 889.861728)"/>
+<rect x="1331.279872" y="901.0966719999999" width="15.120000000000001" height="17.92" rx="3.7800000000000002" fill="#e4e7eb" transform="rotate(-315.0 1338.839872 910.0566719999999)"/>
+<circle cx="1321.4764" cy="846.7172" r="16.8" fill="#e4e7eb"/>
+<circle cx="1270.2" cy="971.6" r="7.0" fill="#d7dde4"/>
+<circle cx="1268.8" cy="887.6" r="7.0" fill="#d7dde4"/>
+<circle cx="1264.6" cy="945.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1137.2644" cy="881.6164" r="7.0" fill="#d7dde4"/>
+<circle cx="1251.8600000000001" cy="910.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1190.8144" cy="853.0144" r="7.0" fill="#d7dde4"/>
+<circle cx="1184.8" cy="887.88" r="7.0" fill="#d7dde4"/>
+<circle cx="1117.2332000000001" cy="976.6988" r="7.0" fill="#d7dde4"/>
+<circle cx="1244.3" cy="987.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1161.672" cy="987.9744000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1034.3" cy="840.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1081.2" cy="948.5" r="7.0" fill="#d7dde4"/>
+<circle cx="1116.9448" cy="812.7" r="7.0" fill="#d7dde4"/>
+<circle cx="1200.2" cy="929.6" r="7.0" fill="#d7dde4"/>
+<circle cx="1182.0" cy="1059.1" r="7.0" fill="#d7dde4"/>
+<circle cx="1210.7" cy="757.4000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1087.5" cy="926.1" r="7.0" fill="#d7dde4"/>
+<circle cx="1310.5228" cy="1023.1228" r="7.0" fill="#d7dde4"/>
+<circle cx="1152.6308" cy="808.1192" r="7.0" fill="#d7dde4"/>
+<circle cx="1134.4" cy="810.6" r="7.0" fill="#d7dde4"/>
+<circle cx="1356.3" cy="841.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1213.5" cy="1021.2552000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1077.0" cy="1024.1" r="7.0" fill="#d7dde4"/>
+<circle cx="1296.1" cy="889.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1238.7" cy="966.6999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1115.5" cy="749.7" r="7.0" fill="#d7dde4"/>
+<circle cx="1145.6448" cy="957.6" r="7.0" fill="#d7dde4"/>
+<circle cx="1338.8" cy="991.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1301.0" cy="765.0999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1184.4696" cy="984.7292" r="7.0" fill="#d7dde4"/>
+<circle cx="1130.2" cy="994.0" r="7.0" fill="#d7dde4"/>
+<circle cx="1200.634" cy="974.5260000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1250.9415999999999" cy="881.3532" r="7.0" fill="#d7dde4"/>
+<circle cx="1190.4" cy="914.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1104.3" cy="960.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1116.2" cy="911.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1245.7" cy="806.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1214.8552" cy="991.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1107.8" cy="889.56" r="7.0" fill="#d7dde4"/>
+<circle cx="1191.7692" cy="780.178" r="7.0" fill="#d7dde4"/>
+<circle cx="1315.0" cy="977.1999999999999" r="7.0" fill="#d7dde4"/>
+<circle cx="1201.6" cy="897.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1078.4" cy="839.3" r="7.0" fill="#d7dde4"/>
+<circle cx="1342.3" cy="884.8000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1322.7" cy="812.7" r="7.0" fill="#d7dde4"/>
+<circle cx="1068.6" cy="995.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1042.0" cy="897.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1278.6" cy="913.5" r="7.0" fill="#d7dde4"/>
+<circle cx="1303.1" cy="817.6" r="7.0" fill="#d7dde4"/>
+<circle cx="1337.4" cy="849.8" r="7.0" fill="#d7dde4"/>
+<circle cx="1314.8152" cy="926.856" r="7.0" fill="#d7dde4"/>
+<circle cx="1191.282" cy="808.3908" r="7.0" fill="#d7dde4"/>
+<circle cx="1103.8436" cy="1006.1072" r="7.0" fill="#d7dde4"/>
+<circle cx="1205.8" cy="820.4" r="7.0" fill="#d7dde4"/>
+<circle cx="1356.3" cy="898.8000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1265.1628" cy="774.2336" r="7.0" fill="#d7dde4"/>
+<circle cx="1317.5564" cy="904.3048" r="7.0" fill="#d7dde4"/>
+<circle cx="1090.3" cy="895.3000000000001" r="7.0" fill="#d7dde4"/>
+<circle cx="1085.4" cy="788.2" r="7.0" fill="#d7dde4"/>
+<circle cx="1047.3648" cy="941.5728" r="7.0" fill="#d7dde4"/>
+<circle cx="1071.6856" cy="800.8308" r="7.0" fill="#d7dde4"/>
+<circle cx="1150.5" cy="830.9" r="7.0" fill="#d7dde4"/>
+<circle cx="1277.2" cy="813.4" r="7.0" fill="#d7dde4"/>
+<line x1="1142.6544" y1="749.0308" x2="1165.9028" y2="749.0308" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/12V_IN | 0.15 mm | 2d82f03a-ecce-44e5-927c-7c25e222eac0 | [18.0948, 11.5011] to [18.9251, 11.5011]</title></line>
+<line x1="1208.1716" y1="736.9068" x2="1178.0268" y2="736.9068" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/12V_IN | 0.15 mm | 4f143ae1-b4c3-420c-ada4-913e16c5e117 | [20.4347, 11.0681] to [19.3581, 11.0681]</title></line>
+<line x1="1165.9028" y1="749.0308" x2="1174.0816" y2="740.852" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/12V_IN | 0.15 mm | 52008b4a-542c-425d-8000-c0dc72c7968c | [18.9251, 11.5011] to [19.2172, 11.209]</title></line>
+<line x1="1178.0268" y1="736.9068" x2="1174.0816" y2="740.852" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/12V_IN | 0.15 mm | 8638fec2-9215-4652-a59b-185131709768 | [19.3581, 11.0681] to [19.2172, 11.209]</title></line>
+<line x1="1040.6" y1="963.1999999999999" x2="1068.6" y2="995.4" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/RXN | 0.15 mm | fc9c45da-d59d-4dbf-8141-b05f81036a41 | [14.45, 19.15] to [15.45, 20.3]</title></line>
+<line x1="1248.5" y1="927.5" x2="1264.6" y2="945.0" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/SDA | 0.15 mm | 54b33d5a-ba1d-4764-b10a-45167c63cc70 | [21.875, 17.875] to [22.45, 18.5]</title></line>
+<line x1="1245.7" y1="927.5" x2="1248.5" y2="927.5" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/SDA | 0.15 mm | e3dfe873-5911-4432-966f-e41c854cdc72 | [21.775, 17.875] to [21.875, 17.875]</title></line>
+<line x1="1275.1" y1="916.3000000000001" x2="1278.6" y2="913.5" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>/TXP_DRV | 0.15 mm | a0dc43d4-c244-4a4d-8f24-bd2f3579e3d6 | [22.825, 17.475] to [22.95, 17.375]</title></line>
+<line x1="1114.8644" y1="1001.294" x2="1122.7996" y2="1009.2292" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>12V | 0.15 mm | 16e323a6-0079-49f4-bdc5-626bcd816b2d | [17.1023, 20.5105] to [17.3857, 20.7939]</title></line>
+<line x1="1103.8436" y1="1006.1072" x2="1105.0392" y2="1006.1072" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>12V | 0.15 mm | 1f3c9ca3-fccd-4121-9838-60c6452ac1bf | [16.7087, 20.6824] to [16.7514, 20.6824]</title></line>
+<line x1="1088.3848" y1="1006.1072" x2="1103.8436" y2="1006.1072" stroke="#7e8996" stroke-width="4.2" stroke-linecap="round"><title>12V | 0.15 mm | df0d0214-b151-4716-86ce-5ebe3675e2db | [16.1566, 20.6824] to [16.7087, 20.6824]</title></line>
+<line x1="1291.9" y1="977.1999999999999" x2="1315.0" y2="977.1999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 0082681a-f886-47c4-b1c5-1b0acbd97f94 | [23.425, 19.65] to [24.25, 19.65]</title></line>
+<line x1="1317.8" y1="980.6999999999999" x2="1315.0" y2="977.1999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 0a1382cc-9814-4499-b092-e679a43074b9 | [24.35, 19.775] to [24.25, 19.65]</title></line>
+<line x1="1192.8472" y1="779.1" x2="1191.7692" y2="780.178" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 2ee08612-3924-416b-9682-9d6f1373cfad | [19.8874, 12.575] to [19.8489, 12.6135]</title></line>
+<line x1="1179.2" y1="777.7" x2="1185.5" y2="777.7" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 2f9b7786-2b69-4860-bb9b-7d80b7197082 | [19.4, 12.525] to [19.625, 12.525]</title></line>
+<line x1="1348.04" y1="872.2" x2="1342.3" y2="884.8000000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 41b86a7f-0be9-483e-862b-96f1811f128b | [25.43, 15.9] to [25.225, 16.35]</title></line>
+<line x1="1338.893128" y1="818.325928" x2="1322.7" y2="812.7" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 64b7e983-0a2b-409e-9a0f-02e27cc4deec | [25.103326, 13.975926] to [24.525, 13.775]</title></line>
+<line x1="1212.45" y1="991.1999999999999" x2="1214.8552" y2="991.1999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | 96e2898e-3fab-44a7-b923-586d709170a6 | [20.5875, 20.15] to [20.6734, 20.15]</title></line>
+<line x1="1076.3" y1="843.5" x2="1078.4" y2="839.3" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | cd6d2fdd-1b6f-468d-9f66-1ac3997f6fd2 | [15.725, 14.875] to [15.8, 14.725]</title></line>
+<line x1="1277.7362" y1="985.31412" x2="1291.9" y2="977.1999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | d2010291-a240-44c7-94b6-b3754b0310ee | [22.91915, 19.93979] to [23.425, 19.65]</title></line>
+<line x1="1245.7" y1="811.3" x2="1245.7" y2="806.4" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | d5b5da4a-d49e-43ff-85fd-f7b9e0411792 | [21.775, 13.725] to [21.775, 13.55]</title></line>
+<line x1="1110.25" y1="888.3000000000001" x2="1107.8" y2="888.3000000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | d5c7ded5-d21f-4078-82ff-fb957b36ddef | [16.9375, 16.475] to [16.85, 16.475]</title></line>
+<line x1="1194.25" y1="779.1" x2="1192.8472" y2="779.1" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>3V3 | 0.20 mm | ec4f2f91-ccfe-46d9-b841-a8a233619faf | [19.9375, 12.575] to [19.8874, 12.575]</title></line>
+<line x1="1212.45" y1="759.1500000000001" x2="1210.7" y2="757.4000000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 167042f2-a118-40d2-a7d2-f55d9df9204c | [20.5875, 11.8625] to [20.525, 11.8]</title></line>
+<line x1="1210.0392" y1="1018.5336" x2="1210.0392" y2="1018.6232" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 1a595cf7-c52f-4f7f-b86e-28c1679dcf7e | [20.5014, 21.1262] to [20.5014, 21.1294]</title></line>
+<line x1="1213.5" y1="1021.3000000000001" x2="1213.5" y2="1021.2552000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 1cee03a4-08ca-4009-92b6-84d4a8a0e82e | [20.625, 21.225] to [20.625, 21.2234]</title></line>
+<line x1="1299.6" y1="885.5" x2="1296.1" y2="889.0" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 3a384f15-8b44-4878-a8d9-e54c28badc5c | [23.7, 16.375] to [23.575, 16.5]</title></line>
+<line x1="1120.4" y1="749.7" x2="1115.5" y2="749.7" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 4ed653d4-a5ca-4643-ae71-6ff4e26a18ba | [17.3, 11.525] to [17.125, 11.525]</title></line>
+<line x1="1142.8" y1="954.1" x2="1142.8" y2="954.3492" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 52219c2c-703b-4df5-ab65-8864ee8c3dff | [18.1, 18.825] to [18.1, 18.8339]</title></line>
+<line x1="1210.0" y1="1018.5" x2="1210.0" y2="1018.5336" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 53d61902-793a-4966-82bf-61ad9db54a3c | [20.5, 21.125] to [20.5, 21.1262]</title></line>
+<line x1="1159.3284" y1="1048.6" x2="1161.5656" y2="1048.6" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 5835fd44-d550-4a78-b4db-1c1f39e29f74 | [18.6903, 22.2] to [18.7702, 22.2]</title></line>
+<line x1="1233.8" y1="966.6999999999999" x2="1238.7" y2="966.6999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 62ac4d9a-6148-47aa-94ed-7c32e0f710cf | [21.35, 19.275] to [21.525, 19.275]</title></line>
+<line x1="1101.08" y1="812.4564" x2="1134.4" y2="810.6" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 65bf92be-40fd-4f21-b536-2c8e662bdd5e | [16.61, 13.7663] to [17.8, 13.7]</title></line>
+<line x1="1299.25" y1="766.5" x2="1301.0" y2="765.0999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 67189346-ea71-4fba-b1da-bbe333a8ca24 | [23.6875, 12.125] to [23.75, 12.075]</title></line>
+<line x1="1210.294" y1="1018.7352000000001" x2="1210.294" y2="1018.878" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 6b478343-58fd-4ed4-aa04-009ed194a13b | [20.5105, 21.1334] to [20.5105, 21.1385]</title></line>
+<line x1="1088.1356" y1="914.4155999999999" x2="1087.5" y2="926.1" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 750abe6d-7052-4b01-8984-ec66d7bf8323 | [16.1477, 17.4077] to [16.125, 17.825]</title></line>
+<line x1="1212.6656" y1="1020.6336" x2="1213.5" y2="1021.3000000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 7cfbc665-3ea9-4e27-bdd3-f6276b3e9f27 | [20.5952, 21.2012] to [20.625, 21.225]</title></line>
+<line x1="1211.75" y1="1019.9" x2="1212.6656" y2="1020.6336" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 850c0377-3be5-44c8-9887-912fbe382e65 | [20.5625, 21.175] to [20.5952, 21.2012]</title></line>
+<line x1="1337.05" y1="992.9499999999999" x2="1338.8" y2="991.1999999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 89369d28-1e31-432e-bdcd-46e1ad489ac9 | [25.0375, 20.2125] to [25.1, 20.15]</title></line>
+<line x1="1157.5" y1="1048.6" x2="1157.6484" y2="1048.6" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 8e39dc3f-9c58-41a1-9d76-2f86314156e9 | [18.625, 22.2] to [18.6303, 22.2]</title></line>
+<line x1="1078.75" y1="1025.5" x2="1077.0" y2="1024.1" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | 97eb3cd8-c766-4afe-80af-48322138f420 | [15.8125, 21.375] to [15.75, 21.325]</title></line>
+<line x1="1144.2" y1="955.85" x2="1145.6" y2="957.6" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | a47a33da-7345-4868-8546-a302b6b674ca | [18.15, 18.8875] to [18.2, 18.95]</title></line>
+<line x1="1080.85" y1="950.9499999999999" x2="1081.2" y2="948.5" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | a7db1a21-64c7-474a-9fac-0338b954aac6 | [15.8875, 18.7125] to [15.9, 18.625]</title></line>
+<line x1="1354.9" y1="839.65" x2="1356.3" y2="841.4" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | a9c32d53-de5e-4895-9ebc-b5328be286bb | [25.675, 14.7375] to [25.725, 14.8]</title></line>
+<line x1="1080.5" y1="1026.9" x2="1080.5" y2="1025.5" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | ab06ea04-7fbc-4c67-a3db-3f48a7f10c77 | [15.875, 21.425] to [15.875, 21.375]</title></line>
+<line x1="1210.1512" y1="1018.6232" x2="1210.1512" y2="1018.7352000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | ad5546a1-11e5-4d45-9b75-084efa489a5b | [20.5054, 21.1294] to [20.5054, 21.1334]</title></line>
+<line x1="1210.4704" y1="1018.878" x2="1210.4704" y2="1019.0544" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | afceb2c5-b406-4cb3-98ac-8d3061056927 | [20.5168, 21.1385] to [20.5168, 21.1448]</title></line>
+<line x1="1142.9988" y1="954.3492" x2="1142.9988" y2="955.1836000000001" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | ccf00cee-eb3d-4164-a25b-e8e1679dfe47 | [18.1071, 18.8339] to [18.1071, 18.8637]</title></line>
+<line x1="1211.316" y1="1019.5528" x2="1211.316" y2="1019.9" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | d2f80391-4ca1-482e-a1d9-3ed0528867bf | [20.547, 21.1626] to [20.547, 21.175]</title></line>
+<line x1="1210.9688" y1="1019.2755999999999" x2="1210.9688" y2="1019.5528" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | d96f62f8-bb23-4f94-b975-3767abde04f0 | [20.5346, 21.1527] to [20.5346, 21.1626]</title></line>
+<line x1="1145.6" y1="957.6" x2="1145.6448" y2="957.6" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | da6d975f-4f9e-451a-97f3-8796fef568a2 | [18.2, 18.95] to [18.2016, 18.95]</title></line>
+<line x1="1210.6915999999999" y1="1019.0544" x2="1210.6915999999999" y2="1019.2755999999999" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | ed9d613e-6945-4e16-9700-38262e3f0524 | [20.5247, 21.1448] to [20.5247, 21.1527]</title></line>
+<line x1="1168.28" y1="812.4564" x2="1134.4" y2="810.6" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | f23bebe6-556a-4efe-8e5b-4ecaa01f8113 | [19.01, 13.7663] to [17.8, 13.7]</title></line>
+<line x1="1143.6652" y1="955.1836000000001" x2="1143.6652" y2="955.85" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | fc10f466-dd82-4b3a-9c9e-f48263fa2c97 | [18.1309, 18.8637] to [18.1309, 18.8875]</title></line>
+<line x1="1054.32" y1="848.8564" x2="1034.3" y2="840.0" stroke="#7e8996" stroke-width="5.6000000000000005" stroke-linecap="round"><title>GND | 0.20 mm | ff6eebde-e861-40e3-a578-327912836998 | [14.94, 15.0663] to [14.225, 14.75]</title></line>
+<line x1="1185.9732" y1="874.2972" x2="1185.9732" y2="886.706772" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/LDO_EN | 0.10 mm | 7b855342-537a-4dee-9515-578e7a585c55 | [19.6419, 15.9749] to [19.6419, 16.418099]</title></line>
+<line x1="1185.9732" y1="886.706772" x2="1184.8" y2="887.88" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/LDO_EN | 0.10 mm | ae88ecd9-b95b-4969-b4fd-573cdd58afca | [19.6419, 16.418099] to [19.6, 16.46]</title></line>
+<line x1="1185.9732" y1="947.0971999999999" x2="1185.9732" y2="914.1999999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | 15dd1d78-1fda-42ca-afce-51307a90e1b3 | [19.6419, 18.5749] to [19.6419, 17.4]</title></line>
+<line x1="1111.3" y1="911.4" x2="1116.2" y2="911.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | 25b099db-2212-43c6-b2c1-c0780248931f | [16.975, 17.3] to [17.15, 17.3]</title></line>
+<line x1="1185.9732" y1="914.1999999999999" x2="1190.4" y2="914.1999999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/NRST | 0.10 mm | 5c3cc146-3cba-4299-b6a5-f4ed631a9270 | [19.6419, 17.4] to [19.8, 17.4]</title></line>
+<line x1="1030.8812" y1="913.0128000000001" x2="1030.8812" y2="893.8803720000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXN | 0.10 mm | 7ff7b248-4c41-4077-9af2-75f0cc739517 | [14.1029, 17.3576] to [14.1029, 16.674299]</title></line>
+<line x1="1030.8812" y1="893.8803720000001" x2="1044.94" y2="879.8216" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXN | 0.10 mm | a014c5ff-f222-49d8-b4b4-8d310113165a | [14.1029, 16.674299] to [14.605, 16.1722]</title></line>
+<line x1="1030.8812" y1="893.8803720000001" x2="1042.0" y2="897.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXN | 0.10 mm | c2c70c0f-fad4-40d9-b6e1-bdd3e9b3b2fd | [14.1029, 16.674299] to [14.5, 16.8]</title></line>
+<line x1="1079.1" y1="871.5" x2="1090.3" y2="847.7" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXN_RCV | 0.10 mm | 53db7627-ecff-42a1-aff2-ef6ccc902da6 | [15.825, 15.875] to [16.225, 15.025]</title></line>
+<line x1="1057.8284" y1="941.5728" x2="1063.8484" y2="935.5528" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP | 0.10 mm | 06370330-25a1-492e-bd63-5fdd04273795 | [15.0653, 18.3776] to [15.2803, 18.1626]</title></line>
+<line x1="1030.8812" y1="941.5728" x2="1047.3648" y2="941.5728" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP | 0.10 mm | 1bc3acd5-b51f-43ae-9d3b-042e35343d5f | [14.1029, 18.3776] to [14.6916, 18.3776]</title></line>
+<line x1="1057.834" y1="814.6824" x2="1057.834" y2="817.5916" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP | 0.10 mm | 4cc06106-aeca-41d9-be0d-ddd90dfcea2b | [15.0655, 13.8458] to [15.0655, 13.9497]</title></line>
+<line x1="1071.6856" y1="800.8308" x2="1057.834" y2="814.6824" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP | 0.10 mm | 609239f7-ded9-4f7f-884f-1bdadf497f81 | [15.5602, 13.3511] to [15.0655, 13.8458]</title></line>
+<line x1="1047.3648" y1="941.5728" x2="1057.8284" y2="941.5728" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP | 0.10 mm | f136d9be-7ab0-4e91-b18e-a0ffbacd1a4e | [14.6916, 18.3776] to [15.0653, 18.3776]</title></line>
+<line x1="1085.4" y1="788.2" x2="1090.3" y2="788.2" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP_RCV | 0.10 mm | 045bba3d-b291-4ddc-8ecc-4808aa1dbafb | [16.05, 12.9] to [16.225, 12.9]</title></line>
+<line x1="1063.8484" y1="906.9928" x2="1090.3" y2="895.3000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/RXP_RCV | 0.10 mm | 591619e0-dc4f-43db-b8c0-dd9aee87bd66 | [15.2803, 17.1426] to [16.225, 16.725]</title></line>
+<line x1="1127.8816" y1="871.7156" x2="1143.3096" y2="856.2876" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 0aa9b936-d5a7-4101-830f-03217be06c8b | [17.5672, 15.8827] to [18.1182, 15.3317]</title></line>
+<line x1="1116.8552" y1="871.7156" x2="1127.8816" y2="871.7156" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 2743f9e3-38a2-4dc1-b9da-361a8551f92b | [17.1734, 15.8827] to [17.5672, 15.8827]</title></line>
+<line x1="1236.3732" y1="910.6972" x2="1251.8600000000001" y2="910.6999999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 69b720d8-b092-403e-b27c-f0efbc398067 | [21.4419, 17.2749] to [21.995, 17.275]</title></line>
+<line x1="1187.544" y1="856.2876" x2="1187.544" y2="856.2848" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 70de034f-de91-418a-9cbe-23ed4ce21c14 | [19.698, 15.3317] to [19.698, 15.3316]</title></line>
+<line x1="1187.544" y1="856.2848" x2="1190.8144" y2="853.0144" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | 9c94f9e0-4f0b-4f60-9b4d-f0dd51b7b43b | [19.698, 15.3316] to [19.8148, 15.2148]</title></line>
+<line x1="1143.3096" y1="856.2876" x2="1187.544" y2="856.2876" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SCL | 0.10 mm | a1b46bdd-d935-4814-bf10-ad1796a1e247 | [18.1182, 15.3317] to [19.698, 15.3317]</title></line>
+<line x1="1137.2644" y1="891.1560000000001" x2="1137.2644" y2="881.6164" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 703db309-36c5-4ef7-a886-64fd285d5a9e | [17.9023, 16.577] to [17.9023, 16.2363]</title></line>
+<line x1="1136.8332" y1="891.5872" x2="1137.2644" y2="891.1560000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SDA | 0.10 mm | 8e739a97-aa6c-434d-b25f-6311fb464ebf | [17.8869, 16.5924] to [17.9023, 16.577]</title></line>
+<line x1="1273.1036" y1="891.2568" x2="1268.8" y2="887.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 2e3f79b7-2cfd-452b-a2f3-bf54abb16fef | [22.7537, 16.5806] to [22.6, 16.45]</title></line>
+<line x1="1273.1036" y1="878.962" x2="1273.1036" y2="891.2568" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 6a81c0de-79b4-41a8-8167-403b3491d04b | [22.7537, 16.1415] to [22.7537, 16.5806]</title></line>
+<line x1="1267.6632" y1="896.697172" x2="1273.1036" y2="891.2568" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 71dfadd2-b13f-43ba-8ae7-3ef0dd911b83 | [22.5594, 16.774899] to [22.7537, 16.5806]</title></line>
+<line x1="1236.3732" y1="896.697172" x2="1267.6632" y2="896.697172" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | 99aa5ede-5883-4bb2-b183-c55d691a7047 | [21.4419, 16.774899] to [22.5594, 16.774899]</title></line>
+<line x1="1287.8652" y1="864.2004" x2="1273.1036" y2="878.962" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWCLK | 0.10 mm | dddb01d1-9d9f-49f2-986b-4f9219b811ef | [23.2809, 15.6143] to [22.7537, 16.1415]</title></line>
+<line x1="1208.0008" y1="974.5260000000001" x2="1200.634" y2="974.5260000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 28a89422-5566-4af6-861d-e9d37ae75cc3 | [20.4286, 19.5545] to [20.1655, 19.5545]</title></line>
+<line x1="1210.126" y1="972.4008" x2="1208.0008" y2="974.5260000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 33a2145a-f656-4921-9087-2ec2a927bd09 | [20.5045, 19.4786] to [20.4286, 19.5545]</title></line>
+<line x1="1241.2732" y1="882.697172" x2="1249.5976" y2="882.697172" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | 6f067078-c0e4-4e4a-ad21-78b7a3911e1f | [21.6169, 16.274899] to [21.9142, 16.274899]</title></line>
+<line x1="1249.5976" y1="882.697172" x2="1250.9415999999999" y2="881.3532" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/SWDIO | 0.10 mm | e0b0351e-96fa-4106-9d2c-4304700025df | [21.9142, 16.274899] to [21.9622, 16.2269]</title></line>
+<line x1="1338.8392000000001" y1="910.0559999999999" x2="1338.8868" y2="910.1035999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN | 0.10 mm | 30f83689-56e0-42f2-9462-3673441e169f | [25.1014, 17.252] to [25.1031, 17.2537]</title></line>
+<line x1="1338.8868" y1="910.1035999999999" x2="1338.8868" y2="950.0624" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN | 0.10 mm | 95ade708-a170-40dc-8ee8-8b48ab1bc17b | [25.1031, 17.2537] to [25.1031, 18.6808]</title></line>
+<line x1="1265.1628" y1="774.2336" x2="1272.5268" y2="766.8696" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | 53573072-f3cf-42ab-ab0e-37fb27403380 | [22.4701, 12.4012] to [22.7331, 12.1382]</title></line>
+<line x1="1318.6456" y1="889.8624" x2="1318.6456" y2="903.2156" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | 57dd4855-92e7-497b-9b63-be7f1109d486 | [24.3802, 16.5308] to [24.3802, 17.0077]</title></line>
+<line x1="1318.6456" y1="903.2156" x2="1317.5564" y2="904.3048" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | 926415df-2f81-43f0-94ac-6ce6b38bc9e4 | [24.3802, 17.0077] to [24.3413, 17.0466]</title></line>
+<line x1="1272.5268" y1="766.8696" x2="1272.5268" y2="758.7216000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXN_DRV | 0.10 mm | ebc282ac-3ac3-4571-b8fb-8f413a74cc25 | [22.7331, 12.1382] to [22.7331, 11.8472]</title></line>
+<line x1="1300.1628" y1="926.856" x2="1314.8152" y2="926.856" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | 3893b394-f457-4120-8d48-2c4480c00149 | [23.7201, 17.852] to [24.2434, 17.852]</title></line>
+<line x1="1297.4748" y1="924.168" x2="1300.1628" y2="926.856" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | e4fea47f-4ddb-4d72-9ad2-51656a193172 | [23.6241, 17.756] to [23.7201, 17.852]</title></line>
+<line x1="1321.4764" y1="846.7172" x2="1337.4" y2="849.8" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP | 0.10 mm | e7c66050-999a-419a-a826-206f1837e289 | [24.4813, 14.9899] to [25.05, 15.1]</title></line>
+<line x1="1310.14424" y1="796.340244" x2="1303.1" y2="817.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/TXP_DRV | 0.10 mm | a58c2ae1-f691-4f5f-9416-95dab9c28c59 | [24.07658, 13.190723] to [23.825, 13.95]</title></line>
+<line x1="1268.8" y1="863.8" x2="1285.6" y2="848.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | 07a37e19-e510-4e3e-8318-82ed1a6dc87b | [22.6, 15.6] to [23.2, 15.05]</title></line>
+<line x1="1285.6" y1="831.6" x2="1277.2" y2="813.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | 2ae21a15-8bff-4a94-8c2f-15f66c31755c | [23.2, 14.45] to [22.9, 13.8]</title></line>
+<line x1="1157.5" y1="830.9" x2="1150.5" y2="830.9" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | 30914e0b-2c9d-436e-99b6-d132f52c0013 | [18.625, 14.425] to [18.375, 14.425]</title></line>
+<line x1="1227.9732" y1="869.3972" x2="1235.2" y2="863.8" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | 873e55b7-38ed-4d58-a15f-72e1e4b83742 | [21.1419, 15.7999] to [21.4, 15.6]</title></line>
+<line x1="1285.6" y1="848.4" x2="1285.6" y2="831.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | db550584-7842-498c-a0b1-5b3cd310d70a | [23.2, 15.05] to [23.2, 14.45]</title></line>
+<line x1="1235.2" y1="863.8" x2="1268.8" y2="863.8" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_RX | 0.10 mm | e60ee6a0-28f2-421a-8e53-5782b9b6b37b | [21.4, 15.6] to [22.6, 15.6]</title></line>
+<line x1="1205.8" y1="844.2" x2="1205.8" y2="820.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 125e94e4-e436-4bbb-807b-7c21656e093e | [20.35, 14.9] to [20.35, 14.05]</title></line>
+<line x1="1213.9732" y1="855.4" x2="1205.8" y2="844.2" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 1f78dfa9-3304-4255-98a5-a65727b2a920 | [20.6419, 15.3] to [20.35, 14.9]</title></line>
+<line x1="1213.9732" y1="874.2972" x2="1213.9732" y2="855.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 8ac16876-5f1c-4916-b956-42d70c285d86 | [20.6419, 15.9749] to [20.6419, 15.3]</title></line>
+<line x1="1249.2" y1="845.6" x2="1214.9" y2="854.7" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | 8be530b4-38ae-4abb-91a3-b4109fdbb883 | [21.9, 14.95] to [20.675, 15.275]</title></line>
+<line x1="1365.96" y1="872.2" x2="1356.3" y2="898.8000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/UART_TX | 0.10 mm | b63c3d13-a9b3-46e7-9bfb-ebd290f97905 | [26.07, 15.9] to [25.725, 16.85]</title></line>
+<line x1="1092.9684" y1="972.9468" x2="1096.7204" y2="976.6988" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VLDO | 0.10 mm | aed640b5-6b9a-4019-a526-55a532f32b21 | [16.3203, 19.4981] to [16.4543, 19.6321]</title></line>
+<line x1="1096.7204" y1="976.6988" x2="1117.2332000000001" y2="976.6988" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VLDO | 0.10 mm | ff27de4e-4ea0-4ebe-8268-9055fabecc28 | [16.4543, 19.6321] to [17.1869, 19.6321]</title></line>
+<line x1="1180.4516" y1="970.9223999999999" x2="1184.4696" y2="974.9404" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 2e15b6ef-a2ca-4021-83ea-04b3ae86cc38 | [19.4447, 19.4258] to [19.5882, 19.5693]</title></line>
+<line x1="1184.4696" y1="974.9404" x2="1184.4696" y2="984.7292" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>/VREF | 0.10 mm | 40705f8f-dd43-4846-981a-8bf704b8e1bb | [19.5882, 19.5693] to [19.5882, 19.9189]</title></line>
+<line x1="1235.3316" y1="764.3412000000001" x2="1191.282" y2="808.3908" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>12V | 0.10 mm | 0c7fc57c-74e8-4afb-a271-82acd9b94a31 | [21.4047, 12.0479] to [19.8315, 13.6211]</title></line>
+<line x1="1105.0392" y1="1006.1072" x2="1110.0511999999999" y2="1006.1072" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>12V | 0.10 mm | 6d44f49a-4521-4027-ac22-b61ec9a8fe38 | [16.7514, 20.6824] to [16.9304, 20.6824]</title></line>
+<line x1="1235.3316" y1="736.9068" x2="1235.3316" y2="764.3412000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>12V | 0.10 mm | b7ec09d6-ed5d-476d-a9f8-073d6f25c51e | [21.4047, 11.0681] to [21.4047, 12.0479]</title></line>
+<line x1="1110.0511999999999" y1="1006.1072" x2="1114.8644" y2="1001.294" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>12V | 0.10 mm | ddbd745f-9f43-45bd-a3b4-583b6d2fa783 | [16.9304, 20.6824] to [17.1023, 20.5105]</title></line>
+<line x1="1110.25" y1="888.3000000000001" x2="1115.626" y2="888.3000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 30bb5b09-0867-4068-afd3-46283c019d6f | [16.9375, 16.475] to [17.1295, 16.475]</title></line>
+<line x1="1225.008" y1="806.2404" x2="1235.2392" y2="816.4688" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 36b982a0-8a43-4fee-9d94-d6a1e7f22f16 | [21.036, 13.5443] to [21.4014, 13.9096]</title></line>
+<line x1="1213.9732" y1="919.5508" x2="1201.6" y2="897.4" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 46dbd29e-d29a-41e8-8be1-3b8386b44bd1 | [20.6419, 17.5911] to [20.2, 16.8]</title></line>
+<line x1="1203.3864" y1="779.1" x2="1203.9099999999999" y2="778.5764" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 4bf167ed-333d-431d-9c04-03551d497552 | [20.2638, 12.575] to [20.2825, 12.5563]</title></line>
+<line x1="1212.45" y1="991.1999999999999" x2="1209.2104" y2="991.1999999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 5caf8d85-db74-4904-80dc-32dda9d94ef1 | [20.5875, 20.15] to [20.4718, 20.15]</title></line>
+<line x1="1194.25" y1="779.1" x2="1203.3864" y2="779.1" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 795cd856-4cea-4cc2-bbcd-78cdc0df52be | [19.9375, 12.575] to [20.2638, 12.575]</title></line>
+<line x1="1209.2104" y1="991.1999999999999" x2="1204.8732" y2="995.5372" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 8efb0ff9-ddf6-4421-9525-8225a414750f | [20.4718, 20.15] to [20.3169, 20.3049]</title></line>
+<line x1="1237.8852" y1="819.1148" x2="1243.8183999999999" y2="825.048" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | 91ee0178-5cdc-461f-ad6d-dbddc4cb0988 | [21.4959, 14.0041] to [21.7078, 14.216]</title></line>
+<line x1="1107.8" y1="888.3000000000001" x2="1107.8" y2="889.56" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | c64035f7-0488-4b01-b4bd-31262ca97188 | [16.85, 16.475] to [16.85, 16.52]</title></line>
+<line x1="1115.626" y1="888.3000000000001" x2="1118.9132" y2="891.5872" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | c6ae78b1-889a-4ddf-b846-f6601f2e62be | [17.1295, 16.475] to [17.2469, 16.5924]</title></line>
+<line x1="1098.9352" y1="879.4352" x2="1098.9352" y2="871.7156" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | e24e11b7-c66a-4e72-8e79-6da16853149b | [16.5334, 16.1584] to [16.5334, 15.8827]</title></line>
+<line x1="1213.9732" y1="947.0971999999999" x2="1213.9732" y2="919.5508" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | e8824c76-d322-4ed7-b736-4e585fef5bed | [20.6419, 18.5749] to [20.6419, 17.5911]</title></line>
+<line x1="1107.8" y1="888.3000000000001" x2="1098.9352" y2="879.4352" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | eb6320a0-d7f1-410d-b975-3f7dee766211 | [16.85, 16.475] to [16.5334, 16.1584]</title></line>
+<line x1="1245.7" y1="811.3" x2="1237.8852" y2="819.1148" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | ef1d657d-5061-4772-83e4-01fa4d178030 | [21.775, 13.725] to [21.4959, 14.0041]</title></line>
+<line x1="1235.2392" y1="816.4688" x2="1237.8852" y2="819.1148" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>3V3 | 0.10 mm | ef3b96ec-620c-43d1-8f42-30afc3af9fd0 | [21.4014, 13.9096] to [21.4959, 14.0041]</title></line>
+<line x1="1240.1" y1="998.9" x2="1244.3" y2="987.6999999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 0f494b66-aee9-4858-a40e-de1af276d3b5 | [21.575, 20.425] to [21.725, 20.025]</title></line>
+<line x1="1175.4396" y1="1009.2292" x2="1175.4396" y2="1001.742" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 15e81efe-09c5-4128-b373-661420147b16 | [19.2657, 20.7939] to [19.2657, 20.5265]</title></line>
+<line x1="1175.4396" y1="1001.742" x2="1161.672" y2="987.9744000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 45c376be-3e6a-489b-82b7-6ef610418bee | [19.2657, 20.5265] to [18.774, 20.0348]</title></line>
+<line x1="1151.536" y1="987.9744000000001" x2="1120.694" y2="957.1324" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | 7b4b75fa-d9f1-4146-91fa-81fcbe9b73ab | [18.412, 20.0348] to [17.3105, 18.9333]</title></line>
+<line x1="1240.51412" y1="1022.5362" x2="1240.1" y2="998.9" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | a3f8ce4f-b2f8-4628-a57e-d0fd5f0d7517 | [21.58979, 21.26915] to [21.575, 20.425]</title></line>
+<line x1="1120.694" y1="957.1324" x2="1120.694" y2="935.2924" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | bda94eee-6692-4390-af03-4cba7850cd45 | [17.3105, 18.9333] to [17.3105, 18.1533]</title></line>
+<line x1="1161.672" y1="987.9744000000001" x2="1151.536" y2="987.9744000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | cfcbacca-4c79-40d7-a192-6322e770d407 | [18.774, 20.0348] to [18.412, 20.0348]</title></line>
+<line x1="1120.694" y1="935.2924" x2="1135.3408" y2="920.6456" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>5V_LED | 0.10 mm | f214f4f8-9be5-427d-90e4-7aaf21cbc49d | [17.3105, 18.1533] to [17.8336, 17.6302]</title></line>
+<line x1="1211.75" y1="1019.9" x2="1211.316" y2="1019.9" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 08984055-1ee0-4fda-b381-c915ec38c9a6 | [20.5625, 21.175] to [20.547, 21.175]</title></line>
+<line x1="1307.43468" y1="1015.0126" x2="1310.5228" y2="1023.1228" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 0c7a277b-2b19-4a0d-84f9-5c16dfa11b0e | [23.97981, 21.00045] to [24.0901, 21.2901]</title></line>
+<line x1="1291.3344" y1="774.4156" x2="1291.3344" y2="777.532" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 127ad8dc-af6b-47f4-b86f-07f29a8dcfcf | [23.4048, 12.4077] to [23.4048, 12.519]</title></line>
+<line x1="1351.5652" y1="836.3152" x2="1351.5652" y2="830.998" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 159f0426-1d4b-49a0-b334-a16eda8f7b4e | [25.5559, 14.6184] to [25.5559, 14.4285]</title></line>
+<line x1="1212.45" y1="759.1500000000001" x2="1216.5828" y2="763.2828" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 17911f19-f169-45eb-8506-727aaa5bb5a5 | [20.5875, 11.8625] to [20.7351, 12.0101]</title></line>
+<line x1="1301.7252" y1="883.3747999999999" x2="1301.7252" y2="878.0604000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 183be65a-151f-4666-aa01-8a26c0d13f2c | [23.7759, 16.2991] to [23.7759, 16.1093]</title></line>
+<line x1="1215.5328" y1="1062.908" x2="1187.1184" y2="1062.908" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 1dfa1d9f-5014-45cd-a71f-8cef8c2d1fda | [20.6976, 22.711] to [19.6828, 22.711]</title></line>
+<line x1="1337.05" y1="992.9499999999999" x2="1333.06" y2="996.94" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 1f66862d-2732-41a9-abe6-ec55737d842c | [25.0375, 20.2125] to [24.895, 20.355]</title></line>
+<line x1="1141.9152" y1="954.1" x2="1135.3408" y2="947.5255999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 2502ebcc-06a3-4990-a28e-874a8870eb44 | [18.0684, 18.825] to [17.8336, 18.5902]</title></line>
+<line x1="1307.43468" y1="1015.0126" x2="1294.7" y2="1021.3000000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 2715f1c6-4ae0-4844-9881-86408d4e4524 | [23.97981, 21.00045] to [23.525, 21.225]</title></line>
+<line x1="1161.5656" y1="1048.6" x2="1172.8104" y2="1048.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 32dba5c9-d743-4289-8a21-ee7461aaac99 | [18.7702, 22.2] to [19.1718, 22.2]</title></line>
+<line x1="1210.4704" y1="1018.878" x2="1210.294" y2="1018.878" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 39ba900b-17ed-4e08-9b3c-546448c6c863 | [20.5168, 21.1385] to [20.5105, 21.1385]</title></line>
+<line x1="1159.3284" y1="1048.6" x2="1157.6484" y2="1048.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 3be30ad8-a3d4-48fb-a062-8303080b1bcc | [18.6903, 22.2] to [18.6303, 22.2]</title></line>
+<line x1="1209.916" y1="1018.5" x2="1204.8732" y2="1013.4572000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 3c0abaeb-6700-4d44-89d4-aabbfdc9b4e8 | [20.497, 21.125] to [20.3169, 20.9449]</title></line>
+<line x1="1210.0392" y1="1018.5336" x2="1210.0" y2="1018.5336" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 41b5dd77-f0ad-4d67-8e73-708b7f15261a | [20.5014, 21.1262] to [20.5, 21.1262]</title></line>
+<line x1="1299.6" y1="885.5" x2="1301.7252" y2="883.3747999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 4242a2c9-2767-484d-a376-6e3beb5794a2 | [23.7, 16.375] to [23.7759, 16.2991]</title></line>
+<line x1="1078.75" y1="1025.5" x2="1080.5" y2="1025.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 4593dce8-f4dd-4f65-90ae-438ae6f96d2c | [15.8125, 21.375] to [15.875, 21.375]</title></line>
+<line x1="1080.5" y1="1026.9" x2="1082.2975999999999" y2="1026.9" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 495425a3-7655-43e6-bb69-0b0610e924b1 | [15.875, 21.425] to [15.9392, 21.425]</title></line>
+<line x1="1199.9732" y1="947.0971999999999" x2="1200.2" y2="929.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 49bfccf6-6c3c-48cd-83ed-2e4ee7994e43 | [20.1419, 18.5749] to [20.15, 17.95]</title></line>
+<line x1="1144.2" y1="955.85" x2="1143.6652" y2="955.85" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 5234f7c6-d8b1-47bc-a243-4e82507234d5 | [18.15, 18.8875] to [18.1309, 18.8875]</title></line>
+<line x1="1299.25" y1="766.5" x2="1291.3344" y2="774.4156" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 551f6b2e-02c5-4ecf-96a5-dddb27eb5898 | [23.6875, 12.125] to [23.4048, 12.4077]</title></line>
+<line x1="1142.8" y1="954.1" x2="1141.9152" y2="954.1" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 5cc58228-b004-4b98-afa4-f158d50ae2b2 | [18.1, 18.825] to [18.0684, 18.825]</title></line>
+<line x1="1210.0" y1="1018.5" x2="1209.916" y2="1018.5" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 5d427ae8-7696-41a1-b641-a54436792472 | [20.5, 21.125] to [20.497, 21.125]</title></line>
+<line x1="1080.85" y1="950.9499999999999" x2="1080.2956" y2="951.5043999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 60a1a8d1-325b-4656-8b51-9aedf5503a90 | [15.8875, 18.7125] to [15.8677, 18.7323]</title></line>
+<line x1="1082.2975999999999" y1="1026.9" x2="1088.3848" y2="1032.9872" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 6391216c-7cdf-4f52-b0c9-6be9faf91ea4 | [15.9392, 21.425] to [16.1566, 21.6424]</title></line>
+<line x1="1210.6915999999999" y1="1019.0544" x2="1210.4704" y2="1019.0544" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 758f5709-88c4-4f3c-bd7b-f74d731c9d81 | [20.5247, 21.1448] to [20.5168, 21.1448]</title></line>
+<line x1="1211.316" y1="1019.5528" x2="1210.9688" y2="1019.5528" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 76a130cc-1669-4db9-99db-6132fb486d97 | [20.547, 21.1626] to [20.5346, 21.1626]</title></line>
+<line x1="1172.8104" y1="1048.6" x2="1175.4396" y2="1051.2292" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 7779d53b-ab56-46d8-8ecc-59cb7b5ef5f2 | [19.1718, 22.2] to [19.2657, 22.2939]</title></line>
+<line x1="1277.9" y1="1020.6" x2="1273.9744" y2="1018.7744" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 7889bb14-c710-47f5-8af2-914a8cd5ead3 | [22.925, 21.2] to [22.7848, 21.1348]</title></line>
+<line x1="1210.294" y1="1018.7352000000001" x2="1210.1512" y2="1018.7352000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 7987439c-18db-452e-b2f1-3d05c4cd5a71 | [20.5105, 21.1334] to [20.5054, 21.1334]</title></line>
+<line x1="1145.6448" y1="957.6" x2="1149.2092" y2="957.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 83e98d64-5ada-4920-bf21-39bd1edc9077 | [18.2016, 18.95] to [18.3289, 18.95]</title></line>
+<line x1="1149.2092" y1="957.6" x2="1162.5316" y2="970.9223999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 8e987c5f-8974-4229-b795-8586bc01d2ed | [18.3289, 18.95] to [18.8047, 19.4258]</title></line>
+<line x1="1212.6656" y1="1020.6336" x2="1214.5696" y2="1022.5376" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | 9aa819e9-3855-4e0c-a8b8-5e4a9d0e8f04 | [20.5952, 21.2012] to [20.6632, 21.2692]</title></line>
+<line x1="1187.1184" y1="1062.908" x2="1175.4396" y2="1051.2292" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | a0de659d-3732-47e6-a5ec-8b625e3e3451 | [19.6828, 22.711] to [19.2657, 22.2939]</title></line>
+<line x1="1157.5" y1="1048.6" x2="1157.5" y2="1038.6096" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | a792cf24-fe5f-479f-8dc3-2a1a460a91c2 | [18.625, 22.2] to [18.625, 21.8432]</title></line>
+<line x1="1216.5828" y1="763.2828" x2="1216.5828" y2="765.9036" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | a89376d0-8b54-4e2f-8368-03db5c4df209 | [20.7351, 12.0101] to [20.7351, 12.1037]</title></line>
+<line x1="1123.7852" y1="749.7" x2="1124.4544" y2="749.0308" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | b3a9bda0-11ed-42c6-bdd8-4e4e06210ea8 | [17.4209, 11.525] to [17.4448, 11.5011]</title></line>
+<line x1="1333.06" y1="996.94" x2="1333.06" y2="999.8156" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | b82cd1fd-b578-4ce7-936a-b3d581abebe3 | [24.895, 20.355] to [24.895, 20.4577]</title></line>
+<line x1="1210.1512" y1="1018.6232" x2="1210.0392" y2="1018.6232" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | b930c6e8-40d2-496d-9975-b879c4987c1d | [20.5054, 21.1294] to [20.5014, 21.1294]</title></line>
+<line x1="1143.6652" y1="955.1836000000001" x2="1142.9988" y2="955.1836000000001" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | c1bc95a8-49f2-4f24-aeb6-dbdfdb39f363 | [18.1309, 18.8637] to [18.1071, 18.8637]</title></line>
+<line x1="1157.5" y1="1038.6096" x2="1149.1196" y2="1030.2292" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | c5dc8e74-ca0b-4db7-b8ce-650bf56de3f9 | [18.625, 21.8432] to [18.3257, 21.5439]</title></line>
+<line x1="1080.2956" y1="951.5043999999999" x2="1080.2956" y2="960.274" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | df26e5ae-07b4-4ed1-bc0d-4d165383dc39 | [15.8677, 18.7323] to [15.8677, 19.0455]</title></line>
+<line x1="1294.7" y1="1021.3000000000001" x2="1277.9" y2="1020.6" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | e7e45761-34ad-44d0-86f7-148ffe34868c | [23.525, 21.225] to [22.925, 21.2]</title></line>
+<line x1="1142.9988" y1="954.3492" x2="1142.8" y2="954.3492" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | edc5b801-41a1-48a9-bfd2-15bbb516ad84 | [18.1071, 18.8339] to [18.1, 18.8339]</title></line>
+<line x1="1120.4" y1="749.7" x2="1123.7852" y2="749.7" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | f274fc36-50b2-405d-84a1-782916e26867 | [17.3, 11.525] to [17.4209, 11.525]</title></line>
+<line x1="1210.9688" y1="1019.2755999999999" x2="1210.6915999999999" y2="1019.2755999999999" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | f46cd99a-11b5-4df0-ae3c-a8b8f6aa0e79 | [20.5346, 21.1527] to [20.5247, 21.1527]</title></line>
+<line x1="1354.9" y1="839.65" x2="1351.5652" y2="836.3152" stroke="#d72d38" stroke-width="2.8000000000000003" stroke-linecap="round"><title>GND | 0.10 mm | fd05d04e-1964-40ec-9204-1e14cea7531c | [25.675, 14.7375] to [25.5559, 14.6184]</title></line>
+<circle cx="1270.2" cy="971.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1268.8" cy="887.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1264.6" cy="945.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1137.2644" cy="881.6164" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1251.8600000000001" cy="910.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1190.8144" cy="853.0144" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1184.8" cy="887.88" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1117.2332000000001" cy="976.6988" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1244.3" cy="987.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1161.672" cy="987.9744000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1034.3" cy="840.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1081.2" cy="948.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1116.9448" cy="812.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1200.2" cy="929.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1182.0" cy="1059.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1210.7" cy="757.4000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1087.5" cy="926.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1310.5228" cy="1023.1228" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1152.6308" cy="808.1192" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1134.4" cy="810.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1356.3" cy="841.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1213.5" cy="1021.2552000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1077.0" cy="1024.1" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1296.1" cy="889.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1238.7" cy="966.6999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1115.5" cy="749.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1145.6448" cy="957.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1338.8" cy="991.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1301.0" cy="765.0999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1184.4696" cy="984.7292" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1130.2" cy="994.0" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1200.634" cy="974.5260000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1250.9415999999999" cy="881.3532" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1190.4" cy="914.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1104.3" cy="960.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1116.2" cy="911.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1245.7" cy="806.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1214.8552" cy="991.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1107.8" cy="889.56" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1191.7692" cy="780.178" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1315.0" cy="977.1999999999999" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1201.6" cy="897.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1078.4" cy="839.3" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1342.3" cy="884.8000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1322.7" cy="812.7" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1068.6" cy="995.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1042.0" cy="897.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1278.6" cy="913.5" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1303.1" cy="817.6" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1337.4" cy="849.8" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1314.8152" cy="926.856" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1191.282" cy="808.3908" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1103.8436" cy="1006.1072" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1205.8" cy="820.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1356.3" cy="898.8000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1265.1628" cy="774.2336" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1317.5564" cy="904.3048" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1090.3" cy="895.3000000000001" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1085.4" cy="788.2" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1047.3648" cy="941.5728" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1071.6856" cy="800.8308" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1150.5" cy="830.9" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<circle cx="1277.2" cy="813.4" r="3.5" fill="white" stroke="#9ba6b3" stroke-width=".45"/>
+<text x="1196.0" y="1124" text-anchor="middle" font-size="12" fill="#617183">Ø13.5 mm · 모든 층 위에서 본 방향</text>
+</svg>

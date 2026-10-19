@@ -1,0 +1,41 @@
+{
+ "time": "2026-10-08T14:02:27",
+ "project_dir": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad",
+ "proj": "ppg_pcb_v08",
+ "origin": [
+  13.25,
+  23.75
+ ],
+ "sheet": "A2",
+ "logic_style": "kicad",
+ "kicad_cli": "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+ "files": {
+  "layout": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\PADS_out\\ppg_pcb_v08_pads.asc",
+  "netlist": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\PADS_out\\ppg_pcb_v08_pads_netlist.asc",
+  "logic": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\PADS_out\\ppg_pcb_v08_pads_logic.txt",
+  "preview": [
+   "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\PADS_out\\logic_preview\\sheet1_PPG_PCB_V08.png"
+  ]
+ },
+ "stats": {
+  "parts": 41,
+  "pruned_wires": 2,
+  "local_labels": 63,
+  "power": 27,
+  "tiedots": 8,
+  "wires": 102,
+  "wires_unconnected": 0,
+  "texts": 22,
+  "dnp_marks": 0,
+  "sheets": 1,
+  "offpage": 90,
+  "segments": 106,
+  "symbols": 10,
+  "part_types": 29,
+  "sheet_size": "A2",
+  "labels": 63,
+  "style": "kicad"
+ },
+ "board_only": [],
+ "keepouts": []
+}

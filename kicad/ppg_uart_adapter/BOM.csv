@@ -1,0 +1,33 @@
+﻿Reference,Value,MPN,Manufacturer,Footprint,Datasheet,Voltage,Tolerance,Dielectric,Description
+J1,9V INPUT,,,Adapter:WirePads_1x02_P1.8mm_D1.2,,,,,Wire solder pads; connector mechanical implementation to be reviewed with PCB outline
+FB1,BLM15PX601SN1D,BLM15PX601SN1D,Murata,Inductor_SMD:L_0402_1005Metric,https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23,,,,Local LDO input filter; PPG power branches before this bead
+U1,LD1117S33TR,LD1117S33TR,STMicroelectronics,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.st.com/resource/en/datasheet/ld1117.pdf,,,,"User-selected fixed 3.3V LDO; pins1 GND,2 OUT,3 IN; tab electrically OUT"
+C1,10 µF,,,Capacitor_SMD:C_0603_1608Metric,,25 V,,,"Input bulk MLCC,metric1608; exact MPN pending"
+C3,100 nF,,,Capacitor_SMD:C_0603_1608Metric,,25 V,,,Place at LD1117 input; metric1608 MLCC
+R9,1 Ω,,,Resistor_SMD:R_1206_3216Metric,,,,,LD1117 ceramic output ESR resistor in capacitor branch only; not in load supply path
+C2,22 µF,C1608X5R1A226M080AC,TDK,Capacitor_SMD:C_0603_1608Metric,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC,10 V,20%,X5R,Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance
+C6,22 µF,C1608X5R1A226M080AC,TDK,Capacitor_SMD:C_0603_1608Metric,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC,10 V,20%,X5R,Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance
+C7,22 µF,C1608X5R1A226M080AC,TDK,Capacitor_SMD:C_0603_1608Metric,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC,10 V,20%,X5R,Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance
+C8,22 µF,C1608X5R1A226M080AC,TDK,Capacitor_SMD:C_0603_1608Metric,https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC,10 V,20%,X5R,Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain >=10uF including tolerance
+J3,UART / 3.3V OUT,,,Adapter:WirePads_1x04_P1.8mm_D1.2,,,,,Wire solder pads; connector mechanical implementation to be reviewed with PCB outline
+J2,PPG / 6 WIRES,,,Adapter:WirePads_1x06_P1.8mm_D1.2,,,,,Wire solder pads; connector mechanical implementation to be reviewed with PCB outline
+U3,XR33183ESBTR,XR33183ESBTR,MaxLinear,Adapter:TSOT23-6_MaxLinear,https://www.maxlinear.com/ds/xr33180_xr33181_xr33183_xr33184.pdf,,,,Receiver of PPG TX pair; active-low EN tied to GND
+R2,22 Ω,,,Resistor_SMD:R_0603_1608Metric,,,,,
+R3,22 Ω,,,Resistor_SMD:R_0603_1608Metric,,,,,
+R1,120 Ω,,,Resistor_SMD:R_0603_1608Metric,,,1%,,Receiving-end termination; match existing PPG120ohm architecture
+R7,100 Ω,,,Resistor_SMD:R_0603_1608Metric,,,,,
+D1,CDSOT23-SM712,CDSOT23-SM712,Bourns,Package_TO_SOT_SMD:SOT-23,https://www.bourns.com/pdfs/CDSOT23-SM712.pdf,,,,"Two-line RS422 TVS, pins1/2 signal,pin3GND; connector-side of series resistors"
+D3,ESD351DPYR,ESD351DPYR,Texas Instruments,Adapter:TI_DPY0002A_1x0.6,https://www.ti.com/lit/ds/symlink/esd351.pdf,,,,UART connector ESD shunt; route pad to TVS landing before internal series resistor
+U2,XR33194ESBTR,XR33194ESBTR,MaxLinear,Adapter:TSOT23-6_MaxLinear,https://www.maxlinear.com/ds/xr33193_xr33194_xr33195.pdf,,,,Always enabled full-duplex driver; outputs go to PPG RXP/RXN
+R8,100 Ω,,,Resistor_SMD:R_0603_1608Metric,,,,,
+R6,10 kΩ,,,Resistor_SMD:R_0603_1608Metric,,,,,
+R4,22 Ω,,,Resistor_SMD:R_0603_1608Metric,,,,,
+R5,22 Ω,,,Resistor_SMD:R_0603_1608Metric,,,,,
+D2,CDSOT23-SM712,CDSOT23-SM712,Bourns,Package_TO_SOT_SMD:SOT-23,https://www.bourns.com/pdfs/CDSOT23-SM712.pdf,,,,Transmit pair cable-side protection; far-end termination exists on PPG
+D4,ESD351DPYR,ESD351DPYR,Texas Instruments,Adapter:TI_DPY0002A_1x0.6,https://www.ti.com/lit/ds/symlink/esd351.pdf,,,,UART connector ESD shunt; route pad to TVS landing before internal series resistor
+C4,100 nF,,,Capacitor_SMD:C_0603_1608Metric,,25 V,,,U2 VCC local bypass; metric1608 MLCC
+C5,100 nF,,,Capacitor_SMD:C_0603_1608Metric,,25 V,,,U3 VCC local bypass; metric1608 MLCC
+H1,Ø3.0 mm NPTH,,,Adapter:MountingHole_3mm_Clearance11mm,,,,,"기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm"
+H2,Ø3.0 mm NPTH,,,Adapter:MountingHole_3mm_Clearance11mm,,,,,"기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm"
+H3,Ø3.0 mm NPTH,,,Adapter:MountingHole_3mm_Clearance11mm,,,,,"기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm"
+H4,Ø3.0 mm NPTH,,,Adapter:MountingHole_3mm_Clearance11mm,,,,,"기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm"

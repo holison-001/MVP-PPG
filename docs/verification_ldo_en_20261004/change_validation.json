@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-04",
+  "ok": true,
+  "connection": {
+    "net": "/LDO_EN",
+    "pins": [
+      "U1.3 LDO_EN",
+      "U2.12 PA7"
+    ]
+  },
+  "changed_pin_nets": {
+    "U1.3": {
+      "before": "3V3",
+      "after": "/LDO_EN"
+    },
+    "U2.12": {
+      "before": "unconnected-(U2-PA7-Pad12)",
+      "after": "/LDO_EN"
+    }
+  },
+  "component_count": 37,
+  "all_symbol_and_pin_uuids_preserved": true,
+  "all_footprint_positions_orientations_sides_and_uuids_preserved": true,
+  "only_requested_pad_nets_changed": true,
+  "manufacturing_and_bom_outputs_unchanged": true,
+  "source_sha256": {
+    "kicad/design_v08.py": "d0022b777af08957219de20be96c2e8c252f38f117763f0b73369fe5a054658e",
+    "kicad/ppg_pcb_v08.kicad_sch": "929ff16e078946ac98da307b085cb7e844d5d3330b58410aedd8086c228f559e",
+    "kicad/ppg_pcb_v08.kicad_pcb": "3739f17a4788d6f88375153e60bc42b3ab0be13ad075f4ffe46204a2b9a13e98",
+    "kicad/ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "kicad/ppg_pcb_v08.kicad_dru": "bd1a0dea9517d95ed24c81d25d0797face411670af8a6799fa46d3861623e603",
+    "docs/ppg_pcb_v08_schematic.pdf": "12bf4a39a959f474efbed27057fe81ebc2076f6de810f463fdefd87aaad15341",
+    "docs/ppg_pcb_v08_layers.pdf": "d06e135c71dc2827b8220b2fc65cd20609431f5a75360cf63bd2c6108a93f196"
+  },
+  "reset_state": "PA7 is analog/high-impedance during MCU reset; no external pull resistor is fitted."
+}

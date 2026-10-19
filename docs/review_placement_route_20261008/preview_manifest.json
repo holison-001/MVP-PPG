@@ -1,0 +1,26 @@
+{
+  "boards": [
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\placement_route_20261008\\before\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "d846727bc1072eb4670b2364c6f00038f31e0101b5c887cce5076438363aad64"
+    },
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\placement_route_20261008\\integrated\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "4a753412db677bffd4155f628a6ae2fa6ba472ef047550a04ff7c33ec5107719"
+    }
+  ],
+  "metrics": [
+    {
+      "SDA": 6.849855752512416,
+      "SCL": 7.859718614550009,
+      "VREF": 2.0368222841366204,
+      "vias": 4
+    },
+    {
+      "SDA": 5.904380284000699,
+      "SCL": 7.320044245965422,
+      "VREF": 1.5892241532716844,
+      "vias": 4
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "canonical_board": "kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+  "baseline_board_sha256": "1baae6c041f182bea81e6a53060e6774f11bff44b48da2111aff54040978bad6",
+  "selected_candidate": "docs/review_6layer_20261005/ppg_pcb_v08_6layer_front_trial.kicad_pcb",
+  "candidate_and_canonical_bytes_identical": true,
+  "canonical_validation": {
+    "drc": {
+      "errors": 0,
+      "warnings": 5,
+      "unconnected": 0,
+      "schematic_parity": 0
+    },
+    "erc_violation_count": 0,
+    "netcheck_pass": true,
+    "ground_rim_polygon_and_connectivity_pass": true
+  },
+  "companion_sha256": {
+    "ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "ppg_pcb_v08.kicad_dru": "a4f504f8e94e916ec9fba4a198413bf2764a13a74e3692387589b621d63f147f"
+  },
+  "reports_sha256": {
+    "erc.json": "cc141ea99671a8861e2c75dc0ea1e9bb6a5656d44f91cd6e4a9cd1573ee77f71",
+    "drc.json": "0822d5b9e005c12f1297b45502059feb29f988c85a669253be7e73ff6f7660b7",
+    "netcheck.json": "14359e5be244411778af225d62c1ce3339acf3516565e84fb8072f28e8386f61",
+    "ground_rim.json": "06367222cf3eb40b24cdc0ab3801a3fbc9a53474d56665576e3999b9cd7916ff",
+    "independent_audit.json": "741cc4e95b179c6c2cb69e423934578bec2de564e0b00e39135cdf0111780abe"
+  },
+  "review_overview": "docs/review_6layer_20261005/layers/six_layers.png",
+  "manufacturing_stackup_confirmed": false,
+  "gerber_or_bom_generated": false,
+  "git_commit_or_push_performed": false
+}

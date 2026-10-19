@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "footprints": 39,
+  "schematic_components": 39,
+  "numbered_pads": 119,
+  "schematic_nets": 48,
+  "top_references": [
+    "J10",
+    "J11",
+    "J7",
+    "J8",
+    "J9",
+    "U1"
+  ],
+  "board_thickness_mm": 0.8,
+  "copper_layers": 6,
+  "outline_radius_mm": 6.75,
+  "board_center_on_sheet_mm": [
+    20.0,
+    17.0
+  ],
+  "sheet_size_mm": [
+    40.0,
+    40.0
+  ],
+  "routing": {
+    "F.Cu": 34,
+    "via": 63,
+    "B.Cu": 187,
+    "In3.Cu": 48,
+    "In2.Cu": 47,
+    "In4.Cu": 2
+  },
+  "inner_layer_track_count": 97,
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 97,
+    "ground_plane_layers": [
+      "In1.Cu",
+      "In4.Cu"
+    ],
+    "ground_plane_track_count": 2,
+    "l2_track_count": 0,
+    "l5_track_count": 2,
+    "l5_trace_length_mm": 3.5400863140746237,
+    "signal_layer_tracks": {
+      "In2.Cu": 47,
+      "In3.Cu": 48,
+      "In4.Cu": 2
+    },
+    "power_layer": "In3.Cu",
+    "power_3V3_track_count": 33,
+    "power_3V3_widths_mm": [
+      0.4
+    ],
+    "ground_rim": {
+      "ok": true,
+      "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+      "layers": {
+        "F.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.53,
+          "checked_width_mm": 0.3250000000000002,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In1.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In2.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In3.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In4.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        }
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "errors": [],
+  "board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_6layer_20261005\\ppg_pcb_v08_6layer_front_trial.kicad_pcb",
+  "schematic": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_sch"
+}

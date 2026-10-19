@@ -1,0 +1,715 @@
+{
+  "source_sha256": "a088e17b8ebbfac9dc46428ebd5ce852163f717e1151c880f1a050a1c30419fb",
+  "remove_ids": [
+    "1b2f79e2-bd74-4382-9704-ad7bbb2e1845",
+    "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+    "872e29bb-8f54-40d7-918e-bb5b63ff6aae",
+    "a58c2ae1-f691-4f5f-9416-95dab9c28c59",
+    "447dacc3-a29a-4c80-a44e-ff3137de6eb2",
+    "508383e9-6f1e-4b3b-9faf-0c228f797f9e",
+    "d04f35c0-431f-4270-bed2-d1af5d18d791",
+    "da83eb09-8c99-458d-8915-b50e53adbc40",
+    "e9148f80-a1b0-4e6e-a3f9-8f9b12c27fbe",
+    "fcd6b708-2f3c-47b4-8c38-ad651648d3c7",
+    "120a642b-0999-4d09-ace4-c142f3d83a8e",
+    "1279599b-df3d-42e2-b177-33b5116f0f25",
+    "4f99cb26-e51c-40d2-8047-7ccdb2f9e4dc",
+    "d62c32fe-3af3-4d28-803f-4409c82e5840",
+    "51a86f48-75c5-49d0-9350-4c874700ff56",
+    "8fedb897-727c-4e64-8588-663969faaef7",
+    "2f73aebe-7d73-43a0-b186-e098a53dffaa",
+    "72cad38b-8770-42d4-9c16-da7c47b85f5c",
+    "e9f1bc5d-db9a-432a-ba89-d39c3bbcd61d",
+    "44f100ef-6f50-48d5-a6ab-9c024e61922c",
+    "dae1be0b-dd3c-49bd-98e5-18769b2f146a",
+    "e8c93f4d-6a22-41a4-9518-839e7745c1fc",
+    "eef9741b-4bd0-40f9-ab53-e96da4000e90",
+    "fb6132f4-5683-41ce-9a17-9be2341ab567",
+    "fbc20a18-d7c7-4452-9670-304318eecaef",
+    "caf711a0-1c6e-4f64-a47b-18d234a194e0",
+    "c9109969-bc38-4a0a-b416-470be8273456",
+    "fd332b71-8b59-40f6-b984-a7363a712cca",
+    "53573072-f3cf-42ab-ab0e-37fb27403380",
+    "57dd4855-92e7-497b-9b63-be7f1109d486",
+    "926415df-2f81-43f0-94ac-6ce6b38bc9e4",
+    "ebc282ac-3ac3-4571-b8fb-8f413a74cc25",
+    "030fdcf2-0f15-4afc-a369-87329b79c043",
+    "31e4b772-5748-4e77-9eeb-260e6476bef8",
+    "3ff4ae33-d064-4537-8671-c2409b844f31",
+    "ac1ba1c7-5cc4-423b-9ba0-fe42980fab8c",
+    "efa6f8f0-f807-4ca8-aad4-3e7bf337d102",
+    "46fbafe9-072b-46d4-827c-c767315f2174",
+    "30f83689-56e0-42f2-9462-3673441e169f",
+    "95ade708-a170-40dc-8ee8-8b48ab1bc17b"
+  ],
+  "placement_overrides": {
+    "R5": {
+      "position": [
+        24.7408,
+        16.8914
+      ],
+      "angle": 315,
+      "layer": "B.Cu"
+    },
+    "R6": {
+      "position": [
+        23.7,
+        18.2
+      ],
+      "angle": 270,
+      "layer": "B.Cu"
+    }
+  },
+  "new_items": [
+    {
+      "name": "TXP_output_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/TXP",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        25.101424,
+        17.252024
+      ],
+      "end": [
+        25.5,
+        15.9
+      ],
+      "length_mm": 1.409550185112965,
+      "uuid": "50fa271e-17f5-420d-b88f-1b4f8e5627d4"
+    },
+    {
+      "name": "TXN_output_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/TXN",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        23.7,
+        18.709999
+      ],
+      "end": [
+        25.1031,
+        18.6808
+      ],
+      "length_mm": 1.4034037877963013,
+      "uuid": "db6d4c0a-1f98-4d09-910a-193896938c9c"
+    },
+    {
+      "name": "TXP_driver_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.07658,
+        13.190723
+      ],
+      "end": [
+        24.040733,
+        13.931564
+      ],
+      "length_mm": 0.7417077555816708,
+      "uuid": "13f64cc0-cbde-411d-abaf-eb84f268e114"
+    },
+    {
+      "name": "TXP_driver_B_1",
+      "kind": "PCB_TRACK",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.052397,
+        13.997223
+      ],
+      "end": [
+        24.679394,
+        15.480312
+      ],
+      "length_mm": 1.610179561393697,
+      "uuid": "72d23759-19ae-4861-8003-01e835b23c44"
+    },
+    {
+      "name": "TXP_driver_B_2",
+      "kind": "PCB_TRACK",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.690852,
+        15.528034
+      ],
+      "end": [
+        24.699236,
+        15.645407
+      ],
+      "length_mm": 0.11767205524252619,
+      "uuid": "c372e0b7-777b-48e5-ab6a-c91e117471aa"
+    },
+    {
+      "name": "TXP_driver_B_3",
+      "kind": "PCB_TRACK",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.689975,
+        15.709008
+      ],
+      "end": [
+        24.380176,
+        16.530776
+      ],
+      "length_mm": 0.878224382618132,
+      "uuid": "5b6ed658-b148-45c9-9603-477a4210b8cf"
+    },
+    {
+      "name": "TXP_driver_B_arc1",
+      "kind": "PCB_ARC",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.040733,
+        13.931564
+      ],
+      "mid": [
+        24.04287,
+        13.96505
+      ],
+      "end": [
+        24.052397,
+        13.997223
+      ],
+      "radius": 0.1500415855188154,
+      "center": [
+        24.1906,
+        13.9388
+      ],
+      "length_mm": 0.06724780550430429,
+      "uuid": "d50ae0b2-39a0-4db3-9d2c-38ac073a9502"
+    },
+    {
+      "name": "TXP_driver_B_arc2",
+      "kind": "PCB_ARC",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.679394,
+        15.480312
+      ],
+      "mid": [
+        24.687088,
+        15.503701
+      ],
+      "end": [
+        24.690852,
+        15.528034
+      ],
+      "radius": 0.15002246558432508,
+      "center": [
+        24.5412,
+        15.5387
+      ],
+      "length_mm": 0.04929826308036262,
+      "uuid": "40f42cd4-6827-4bce-b85a-bbb3f88ae4ab"
+    },
+    {
+      "name": "TXP_driver_B_arc3",
+      "kind": "PCB_ARC",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.699236,
+        15.645407
+      ],
+      "mid": [
+        24.698052,
+        15.677709
+      ],
+      "end": [
+        24.689975,
+        15.709008
+      ],
+      "radius": 0.15001757478708955,
+      "center": [
+        24.5496,
+        15.6561
+      ],
+      "length_mm": 0.06477433709598271,
+      "uuid": "06f1cdb6-0a4f-4e1b-8df1-1e0d2ff81e2b"
+    },
+    {
+      "name": "TXN_source_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/TXN_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        22.733077,
+        11.84722
+      ],
+      "end": [
+        22.4701,
+        12.4012
+      ],
+      "length_mm": 0.6132297635707197,
+      "uuid": "6adc0852-f7b8-4366-95c8-46fdd5210fb5"
+    },
+    {
+      "name": "TXN_target_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/TXN_DRV",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        23.7,
+        17.690001
+      ],
+      "end": [
+        23.7,
+        17.1
+      ],
+      "length_mm": 0.5900009999999973,
+      "uuid": "87281a91-1fae-46ed-beb3-bd751efe45a9"
+    },
+    {
+      "name": "TXN_inner_L3_0",
+      "kind": "PCB_TRACK",
+      "net": "/TXN_DRV",
+      "layer": 6,
+      "width": 0.15,
+      "start": [
+        22.4701,
+        12.4012
+      ],
+      "end": [
+        23.7,
+        17.1
+      ],
+      "length_mm": 4.857095371721665,
+      "uuid": "718c9fea-06f6-4741-ba20-35e8d1c7155b"
+    },
+    {
+      "name": "TXN_source_via",
+      "kind": "PCB_VIA",
+      "net": "/TXN_DRV",
+      "position": [
+        22.4701,
+        12.4012
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "uuid": "e1088c19-ebf9-4d42-a473-bd694fbde929"
+    },
+    {
+      "name": "TXN_receiver_via",
+      "kind": "PCB_VIA",
+      "net": "/TXN_DRV",
+      "position": [
+        23.7,
+        17.1
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "uuid": "9c6fd8e8-b5b6-4650-9279-2020ca0ec6f0"
+    }
+  ],
+  "plans": [
+    {
+      "name": "TXP_output_B",
+      "net": "/TXP",
+      "layer": 2,
+      "points": [
+        [
+          25.101424,
+          17.252024
+        ],
+        [
+          25.5,
+          15.9
+        ]
+      ],
+      "items": [
+        {
+          "name": "TXP_output_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/TXP",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            25.101424,
+            17.252024
+          ],
+          "end": [
+            25.5,
+            15.9
+          ],
+          "length_mm": 1.409550185112965
+        }
+      ],
+      "length_mm": 1.409550185112965
+    },
+    {
+      "name": "TXN_output_B",
+      "net": "/TXN",
+      "layer": 2,
+      "points": [
+        [
+          23.7,
+          18.709999
+        ],
+        [
+          25.1031,
+          18.6808
+        ]
+      ],
+      "items": [
+        {
+          "name": "TXN_output_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/TXN",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            23.7,
+            18.709999
+          ],
+          "end": [
+            25.1031,
+            18.6808
+          ],
+          "length_mm": 1.4034037877963013
+        }
+      ],
+      "length_mm": 1.4034037877963013
+    },
+    {
+      "name": "TXP_driver_B",
+      "net": "/TXP_DRV",
+      "layer": 2,
+      "points": [
+        [
+          24.07658,
+          13.190723
+        ],
+        [
+          24.03908,
+          13.965723
+        ],
+        [
+          24.68908,
+          15.503223
+        ],
+        [
+          24.70158,
+          15.678223000000001
+        ],
+        [
+          24.380176,
+          16.530776
+        ]
+      ],
+      "items": [
+        {
+          "name": "TXP_driver_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.07658,
+            13.190723
+          ],
+          "end": [
+            24.040733,
+            13.931564
+          ],
+          "length_mm": 0.7417077555816708
+        },
+        {
+          "name": "TXP_driver_B_1",
+          "kind": "PCB_TRACK",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.052397,
+            13.997223
+          ],
+          "end": [
+            24.679394,
+            15.480312
+          ],
+          "length_mm": 1.610179561393697
+        },
+        {
+          "name": "TXP_driver_B_2",
+          "kind": "PCB_TRACK",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.690852,
+            15.528034
+          ],
+          "end": [
+            24.699236,
+            15.645407
+          ],
+          "length_mm": 0.11767205524252619
+        },
+        {
+          "name": "TXP_driver_B_3",
+          "kind": "PCB_TRACK",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.689975,
+            15.709008
+          ],
+          "end": [
+            24.380176,
+            16.530776
+          ],
+          "length_mm": 0.878224382618132
+        },
+        {
+          "name": "TXP_driver_B_arc1",
+          "kind": "PCB_ARC",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.040733,
+            13.931564
+          ],
+          "mid": [
+            24.04287,
+            13.96505
+          ],
+          "end": [
+            24.052397,
+            13.997223
+          ],
+          "radius": 0.1500415855188154,
+          "center": [
+            24.1906,
+            13.9388
+          ],
+          "length_mm": 0.06724780550430429
+        },
+        {
+          "name": "TXP_driver_B_arc2",
+          "kind": "PCB_ARC",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.679394,
+            15.480312
+          ],
+          "mid": [
+            24.687088,
+            15.503701
+          ],
+          "end": [
+            24.690852,
+            15.528034
+          ],
+          "radius": 0.15002246558432508,
+          "center": [
+            24.5412,
+            15.5387
+          ],
+          "length_mm": 0.04929826308036262
+        },
+        {
+          "name": "TXP_driver_B_arc3",
+          "kind": "PCB_ARC",
+          "net": "/TXP_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.699236,
+            15.645407
+          ],
+          "mid": [
+            24.698052,
+            15.677709
+          ],
+          "end": [
+            24.689975,
+            15.709008
+          ],
+          "radius": 0.15001757478708955,
+          "center": [
+            24.5496,
+            15.6561
+          ],
+          "length_mm": 0.06477433709598271
+        }
+      ],
+      "length_mm": 3.5291041605166757
+    },
+    {
+      "name": "TXN_source_B",
+      "net": "/TXN_DRV",
+      "layer": 2,
+      "points": [
+        [
+          22.733077,
+          11.84722
+        ],
+        [
+          22.4701,
+          12.4012
+        ]
+      ],
+      "items": [
+        {
+          "name": "TXN_source_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/TXN_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            22.733077,
+            11.84722
+          ],
+          "end": [
+            22.4701,
+            12.4012
+          ],
+          "length_mm": 0.6132297635707197
+        }
+      ],
+      "length_mm": 0.6132297635707197
+    },
+    {
+      "name": "TXN_target_B",
+      "net": "/TXN_DRV",
+      "layer": 2,
+      "points": [
+        [
+          23.7,
+          17.690001
+        ],
+        [
+          23.7,
+          17.1
+        ]
+      ],
+      "items": [
+        {
+          "name": "TXN_target_B_0",
+          "kind": "PCB_TRACK",
+          "net": "/TXN_DRV",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            23.7,
+            17.690001
+          ],
+          "end": [
+            23.7,
+            17.1
+          ],
+          "length_mm": 0.5900009999999973
+        }
+      ],
+      "length_mm": 0.5900009999999973
+    },
+    {
+      "name": "TXN_inner_L3",
+      "net": "/TXN_DRV",
+      "layer": 6,
+      "points": [
+        [
+          22.4701,
+          12.4012
+        ],
+        [
+          23.7,
+          17.1
+        ]
+      ],
+      "items": [
+        {
+          "name": "TXN_inner_L3_0",
+          "kind": "PCB_TRACK",
+          "net": "/TXN_DRV",
+          "layer": 6,
+          "width": 0.15,
+          "start": [
+            22.4701,
+            12.4012
+          ],
+          "end": [
+            23.7,
+            17.1
+          ],
+          "length_mm": 4.857095371721665
+        }
+      ],
+      "length_mm": 4.857095371721665
+    }
+  ],
+  "candidate_sha256": "43831ab65ac7a5d2a299feacaa1e6e7ea55c7acb620a64bff0e88b45fda3228b",
+  "companion_patch_sha256": "a5439c648a10bfb7b23e3b8330786817f50b1bb3d4711444e2007e4a2aa85d2a",
+  "minimum_new_copper_clearance_mm": 0.1511373220266357,
+  "clearance_checks": [
+    {
+      "item": "TXP_output_B_0",
+      "clearance_mm": 0.47947449080227617
+    },
+    {
+      "item": "TXN_output_B_0",
+      "clearance_mm": 0.574028725784696
+    },
+    {
+      "item": "TXP_driver_B_0",
+      "clearance_mm": 0.1511373220266357
+    },
+    {
+      "item": "TXP_driver_B_1",
+      "clearance_mm": 0.15152144723835828
+    },
+    {
+      "item": "TXP_driver_B_2",
+      "clearance_mm": 0.15649521397451696
+    },
+    {
+      "item": "TXP_driver_B_3",
+      "clearance_mm": 0.15875752828017753
+    },
+    {
+      "item": "TXP_driver_B_arc1",
+      "clearance_mm": 0.1839485780755053
+    },
+    {
+      "item": "TXP_driver_B_arc2",
+      "clearance_mm": 0.15657252150412543
+    },
+    {
+      "item": "TXP_driver_B_arc3",
+      "clearance_mm": 0.1612596908554392
+    },
+    {
+      "item": "TXN_source_B_0",
+      "clearance_mm": 0.3889629563185624
+    },
+    {
+      "item": "TXN_target_B_0",
+      "clearance_mm": 0.43788299712137707
+    },
+    {
+      "item": "TXN_inner_L3_0",
+      "clearance_mm": 0.16129709014181917
+    }
+  ],
+  "note": "Candidate includes companion patch for joint validation. This TX patch contains only 4 TX-net objects and R5/R6 placement overrides; add companion exactly once separately."
+}

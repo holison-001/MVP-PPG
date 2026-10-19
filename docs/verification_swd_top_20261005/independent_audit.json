@@ -1,0 +1,193 @@
+{
+  "ok": true,
+  "source_sha256": "1baae6c041f182bea81e6a53060e6774f11bff44b48da2111aff54040978bad6",
+  "baseline_footprints": 37,
+  "final_footprints": 39,
+  "preserved_footprint_uuids": 37,
+  "preserved_schematic_component_pin_uuid_sets": 37,
+  "preserved_numbered_pin_nets": 117,
+  "top_testpad_row": [
+    {
+      "ref": "J9",
+      "net": "/NRST",
+      "xy_mm": [
+        17.46,
+        21.85
+      ],
+      "diameter_mm": 0.8,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "copper_to_edge_mm": 0.8751392711777578
+    },
+    {
+      "ref": "J7",
+      "net": "/SWDIO",
+      "xy_mm": [
+        18.73,
+        21.85
+      ],
+      "diameter_mm": 0.8,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "copper_to_edge_mm": 1.336478283681219
+    },
+    {
+      "ref": "J10",
+      "net": "GND",
+      "xy_mm": [
+        20.0,
+        21.85
+      ],
+      "diameter_mm": 0.8,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "copper_to_edge_mm": 1.4999999999999987
+    },
+    {
+      "ref": "J8",
+      "net": "/SWCLK",
+      "xy_mm": [
+        21.27,
+        21.85
+      ],
+      "diameter_mm": 0.8,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "copper_to_edge_mm": 1.336478283681219
+    },
+    {
+      "ref": "J11",
+      "net": "3V3",
+      "xy_mm": [
+        22.54,
+        21.85
+      ],
+      "diameter_mm": 0.8,
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "copper_to_edge_mm": 0.8751392711777578
+    }
+  ],
+  "J2_preserved": true,
+  "TVS_D6_D7_D8_preserved": true,
+  "LDO_EN_pads": [
+    "U1.3",
+    "U2.12"
+  ],
+  "changed_routing_nets": [
+    "/NRST",
+    "/SCL",
+    "/SDA",
+    "/SWCLK",
+    "/SWDIO",
+    "3V3"
+  ],
+  "changed_routing_items": 44,
+  "new_vias": [
+    {
+      "uuid": "d8998d7f-3061-45b3-bf65-a82460c06778",
+      "net": "/SWCLK",
+      "xy_mm": [
+        22.6,
+        16.45
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.25,
+      "annulus_mm": 0.125,
+      "nearest_pad": "U2.16",
+      "min_pad_to_hole_mm": 0.683489,
+      "copper_to_board_edge_mm": 3.8424635468163366
+    },
+    {
+      "uuid": "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+      "net": "/SWDIO",
+      "xy_mm": [
+        18.9,
+        22.975
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.25,
+      "annulus_mm": 0.125,
+      "nearest_pad": "U4.9",
+      "min_pad_to_hole_mm": 0.301789,
+      "copper_to_board_edge_mm": 0.42458849130365284
+    }
+  ],
+  "3V3_In2_widths_mm": [
+    0.4
+  ],
+  "rules_unchanged": {
+    "rules": true,
+    "rule_severities": true,
+    "drc_exclusions": true
+  },
+  "independent_drc": {
+    "errors": 0,
+    "warnings": 5,
+    "excluded": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "warning_types": {
+      "silk_edge_clearance": 4,
+      "lib_footprint_mismatch": 1
+    }
+  },
+  "erc_violations": 0,
+  "errors": [],
+  "netcheck": {
+    "ok": true,
+    "footprints": 39,
+    "schematic_components": 39,
+    "numbered_pads": 119,
+    "schematic_nets": 48,
+    "top_references": [
+      "J10",
+      "J11",
+      "J7",
+      "J8",
+      "J9",
+      "U1"
+    ],
+    "board_thickness_mm": 0.8,
+    "copper_layers": 4,
+    "outline_radius_mm": 6.75,
+    "routing": {
+      "F.Cu": 39,
+      "via": 61,
+      "B.Cu": 201,
+      "In1.Cu": 39,
+      "In2.Cu": 46
+    },
+    "layer_policy": {
+      "ok": true,
+      "inner_layer_track_count": 85,
+      "in1_track_count": 39,
+      "in1_routed_nets": [
+        "/SCL",
+        "/SDA",
+        "/TXN_DRV",
+        "/TXP",
+        "/TXP_DRV",
+        "/UART_RX",
+        "/UART_TX",
+        "5V_LED"
+      ],
+      "in2_3V3_track_count": 27,
+      "in2_3V3_widths_mm": [
+        0.4
+      ],
+      "errors": []
+    },
+    "errors": []
+  }
+}

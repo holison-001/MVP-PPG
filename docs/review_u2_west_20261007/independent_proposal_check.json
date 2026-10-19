@@ -1,0 +1,148 @@
+{
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "candidate_sha256": "236cf9f6485aeb529e8032475282b8b12808d03559d3264bf8f1d79c1e4bdc99",
+  "candidate": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\u2_west_review_20261007\\placement\\ppg_pcb_v08_refined.kicad_pcb",
+  "moves": {
+    "R1": {
+      "before_mm": [
+        17.3,
+        15.9
+      ],
+      "after_mm": [
+        21.2,
+        16.05
+      ],
+      "delta_mm": [
+        3.9,
+        0.15
+      ],
+      "before_angle": 180.0,
+      "after_angle": 180.0
+    },
+    "C4": {
+      "before_mm": [
+        17.68,
+        17.3
+      ],
+      "after_mm": [
+        21.2,
+        17.55
+      ],
+      "delta_mm": [
+        3.52,
+        0.25
+      ],
+      "before_angle": 180.0,
+      "after_angle": 0.0
+    },
+    "D8": {
+      "before_mm": [
+        16.6,
+        19.0
+      ],
+      "after_mm": [
+        16.0,
+        19.4
+      ],
+      "delta_mm": [
+        -0.6,
+        0.4
+      ],
+      "before_angle": 90.0,
+      "after_angle": 90.0
+    },
+    "C15": {
+      "before_mm": [
+        20.8545,
+        19.4786
+      ],
+      "after_mm": [
+        18.9,
+        19.4
+      ],
+      "delta_mm": [
+        -1.9545,
+        -0.0786
+      ],
+      "before_angle": 0.0,
+      "after_angle": 0.0
+    },
+    "C1": {
+      "before_mm": [
+        17.9,
+        18.75
+      ],
+      "after_mm": [
+        21.1,
+        18.5
+      ],
+      "delta_mm": [
+        3.2,
+        -0.25
+      ],
+      "before_angle": 90.0,
+      "after_angle": 0.0
+    },
+    "R2": {
+      "before_mm": [
+        17.3,
+        16.6
+      ],
+      "after_mm": [
+        21.2,
+        16.8
+      ],
+      "delta_mm": [
+        3.9,
+        0.2
+      ],
+      "before_angle": 180.0,
+      "after_angle": 180.0
+    },
+    "U2": {
+      "before_mm": [
+        20.1419,
+        17.2749
+      ],
+      "after_mm": [
+        18.3419,
+        17.2749
+      ],
+      "delta_mm": [
+        -1.8,
+        0.0
+      ],
+      "before_angle": 90.0,
+      "after_angle": 90.0
+    }
+  },
+  "footprint_count": 41,
+  "numbered_pad_count": 123,
+  "top_fixed": true,
+  "all_pad_nets_preserved": true,
+  "D8_bottom": true,
+  "new_body_overlaps": [],
+  "new_courtyard_overlaps": [],
+  "new_pad_clearance_violations": [],
+  "decoupling_chords": {
+    "U1.4-C4.1": {
+      "before_chord_mm": 1.0920164833920787,
+      "after_chord_mm": 1.9108636790728937,
+      "note": "Pad center-to-center distance only; not routed length or electrical validation."
+    },
+    "U1.5-C1.1": {
+      "before_chord_mm": 1.9948441693528356,
+      "after_chord_mm": 1.8096689752551431,
+      "note": "Pad center-to-center distance only; not routed length or electrical validation."
+    },
+    "U2.2-C15.1": {
+      "before_chord_mm": 0.9100595859612715,
+      "after_chord_mm": 0.8656683083028965,
+      "note": "Pad center-to-center distance only; not routed length or electrical validation."
+    }
+  },
+  "saved_tracks_and_vias_unchanged": true,
+  "native_loaded_track_nets_unchanged": false,
+  "native_net_note": "KiCad can recalculate old track nets where moved pads contact stale copper. Saved raw track/via blocks are verified byte-identical to source; this proposal must be rerouted before use.",
+  "status": "PLACEMENT REVIEW ONLY. Retained old tracks and filled zones require rerouting and refilling. Not a finished DRC-validated layout."
+}

@@ -1,0 +1,351 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-08T19:11:28",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 5V_LED 와 GND)",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on B.Cu, 길이 0.8154 mm",
+                    "pos": {
+                        "x": 20.398405,
+                        "y": 19.284746
+                    },
+                    "uuid": "7d73f3c9-5316-4018-b1ab-a74479ddc5a5"
+                },
+                {
+                    "description": "패드 2 [GND]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 19.58
+                    },
+                    "uuid": "9d67a8b5-8e1c-4332-ae47-fe55a10c69a0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on B.Cu, 길이 1.0185 mm",
+                    "pos": {
+                        "x": 19.6657,
+                        "y": 20.9939
+                    },
+                    "uuid": "84e97afa-6f42-42e8-8fde-a71518c6d5ce"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on B.Cu, 길이 0.0134 mm",
+                    "pos": {
+                        "x": 20.385898,
+                        "y": 20.273702
+                    },
+                    "uuid": "45b6013b-9ec6-47d8-a7af-860507e7c465"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "두 개의 네트를 단락시키는 개체 (네트 5V_LED 와 GND)",
+            "items": [
+                {
+                    "description": "비아 [5V_LED] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.398405,
+                        "y": 19.284746
+                    },
+                    "uuid": "03fc92ab-9005-4819-a7cf-e04b405b12e8"
+                },
+                {
+                    "description": "패드 2 [GND]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 19.58
+                    },
+                    "uuid": "9d67a8b5-8e1c-4332-ae47-fe55a10c69a0"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "패드 1 [5V_LED]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 20.22
+                    },
+                    "uuid": "247485ec-a218-4a1a-9352-572de6203cec"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "홀 공간거리 위반 (기판의 홀 제약조건 설정 공간거리 0.2000 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "패드 2 [GND]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 19.58
+                    },
+                    "uuid": "9d67a8b5-8e1c-4332-ae47-fe55a10c69a0"
+                },
+                {
+                    "description": "비아 [5V_LED] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.398405,
+                        "y": 19.284746
+                    },
+                    "uuid": "03fc92ab-9005-4819-a7cf-e04b405b12e8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "비아 [5V_LED] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.398405,
+                        "y": 19.284746
+                    },
+                    "uuid": "03fc92ab-9005-4819-a7cf-e04b405b12e8"
+                },
+                {
+                    "description": "패드 2 [GND]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 19.58
+                    },
+                    "uuid": "9d67a8b5-8e1c-4332-ae47-fe55a10c69a0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on B.Cu, 길이 0.8154 mm",
+                    "pos": {
+                        "x": 20.398405,
+                        "y": 19.284746
+                    },
+                    "uuid": "7d73f3c9-5316-4018-b1ab-a74479ddc5a5"
+                },
+                {
+                    "description": "패드 2 [GND]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 19.58
+                    },
+                    "uuid": "9d67a8b5-8e1c-4332-ae47-fe55a10c69a0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "후면 솔더 마스크 조리개는 다른 네트를 가진 항목을 연결합니다",
+            "items": [
+                {
+                    "description": "패드 1 [5V_LED]의 C17 위B.Cu",
+                    "pos": {
+                        "x": 20.5,
+                        "y": 20.22
+                    },
+                    "uuid": "247485ec-a218-4a1a-9352-572de6203cec"
+                },
+                {
+                    "description": "영역 [GND] on B.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.6157,
+                        "y": 22.8789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.6157,
+                        "y": 23.3539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 22.802478,
+                        "y": 22.722255
+                    },
+                    "uuid": "8f36f2e8-f175-4236-970d-4543a11a4723"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.138353,
+                        "y": 23.05813
+                    },
+                    "uuid": "7d01be0c-4214-42f6-a54a-d7168f1ec9f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 U2",
+                    "pos": {
+                        "x": 18.3419,
+                        "y": 17.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

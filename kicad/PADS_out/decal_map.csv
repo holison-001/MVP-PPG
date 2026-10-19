@@ -1,0 +1,14 @@
+﻿PADS 데칼,KiCad 풋프린트,터미널 수,사용 수량,변환 메모
+CABLEPAD_D1.2,SleepBud:CablePad_D1.2,1,6,
+C_0201_0603METRIC,Capacitor_SMD:C_0201_0603Metric,2,9,번호 없는 F.Paste 전용 패드 -> paste 도형
+C_0402_1005METRIC,Capacitor_SMD:C_0402_1005Metric,2,2,
+DFN-8-1EP_2X3MM_P0.5MM_EP0.61X2.2MM,Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm,9,2,번호 없는 F.Paste 전용 패드 -> paste 도형
+L_0402_1005METRIC,Inductor_SMD:L_0402_1005Metric,2,1,
+MAXM86161_OLGA-14,SleepBud:MAXM86161_OLGA-14,14,1,
+R_0201_0603METRIC,Resistor_SMD:R_0201_0603Metric,2,3,번호 없는 F.Paste 전용 패드 -> paste 도형
+R_0402_1005METRIC,Resistor_SMD:R_0402_1005Metric,2,5,
+ST_UFQFPN-20_3X3MM_P0.5MM,Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm,20,1,
+TESTPAD_D0.8_FRONT,SleepBud:TestPad_D0.8_Front,1,5,
+TI_DPY0002A_1X0.6,SleepBud:TI_DPY0002A_1x0.6,2,3,
+TSOT23-6_MAXLINEAR,SleepBud:TSOT23-6_MaxLinear,6,2,
+TVS_SOD882_1X0.6,SleepBud:TVS_SOD882_1x0.6,2,1,

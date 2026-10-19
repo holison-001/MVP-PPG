@@ -1,0 +1,286 @@
+{
+  "source_sha256": "5c56fd812b7731454b473263236c5e6cdbb83d56181a3880a614fd235b8c4d0f",
+  "read_only": true,
+  "five_volt_parallel_paths": {
+    "classification": "cleanup_candidate_not_short_or_DRC_error",
+    "via_a": [
+      20.223242,
+      18.960665
+    ],
+    "via_b": [
+      21.725,
+      20.025
+    ],
+    "F_native_connected": true,
+    "L4_native_connected": true,
+    "L4_items": [
+      {
+        "uuid": "17c28a85-edd1-4bab-92d5-67234cb1fe68",
+        "kind": "PCB_TRACK",
+        "layer": "In3.Cu",
+        "start": [
+          21.725,
+          20.025
+        ],
+        "end": [
+          21.287577,
+          20.025
+        ],
+        "length_mm": 0.437423
+      },
+      {
+        "uuid": "1d1b9d7b-544c-40f9-98e8-aa2159709165",
+        "kind": "PCB_TRACK",
+        "layer": "In3.Cu",
+        "start": [
+          21.287577,
+          20.025
+        ],
+        "end": [
+          20.223242,
+          18.960665
+        ],
+        "length_mm": 1.505196991908368
+      }
+    ],
+    "L4_length_mm": 1.942619991908368,
+    "F_full_U1_to_via_b_items": [
+      {
+        "uuid": "0b841028-9e0f-4a2f-ab6b-ab2760834796",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          19.708607,
+          17.977367
+        ],
+        "end": [
+          20.228893,
+          18.960131
+        ],
+        "length_mm": 1.1119903783270788
+      },
+      {
+        "uuid": "19768e8c-9be1-4ca0-b7cd-8a201335351e",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          20.281898,
+          19.031897
+        ],
+        "end": [
+          20.861533,
+          19.611532
+        ],
+        "length_mm": 0.819727678226129
+      },
+      {
+        "uuid": "64edfc06-cc15-4200-8e58-0834d8fea663",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          20.949524,
+          19.67251
+        ],
+        "end": [
+          21.725,
+          20.025
+        ],
+        "length_mm": 0.8518287543139172
+      },
+      {
+        "uuid": "88ada61d-cc39-4f99-b7f6-22e78c2c1bdb",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          19.05,
+          17.599999
+        ],
+        "end": [
+          19.432814,
+          17.727604
+        ],
+        "length_mm": 0.4035214921426119
+      },
+      {
+        "uuid": "a796f476-1489-44be-b5b3-678d879d7a53",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          19.550078,
+          17.800077
+        ],
+        "end": [
+          19.655602,
+          17.905601
+        ],
+        "length_mm": 0.14923347195585848
+      },
+      {
+        "uuid": "29291ee1-9394-4430-94de-5ad16dc0013f",
+        "kind": "PCB_ARC",
+        "layer": "F.Cu",
+        "start": [
+          19.432814,
+          17.727604
+        ],
+        "end": [
+          19.550078,
+          17.800077
+        ],
+        "length_mm": 0.139099242022438,
+        "mid": [
+          19.495665,
+          17.757013
+        ]
+      },
+      {
+        "uuid": "c86e583d-abb0-4dbd-b21f-783ea8639b0f",
+        "kind": "PCB_ARC",
+        "layer": "F.Cu",
+        "start": [
+          20.228893,
+          18.960131
+        ],
+        "end": [
+          20.281898,
+          19.031897
+        ],
+        "length_mm": 0.08954968764851462,
+        "mid": [
+          20.252713,
+          18.997995
+        ]
+      },
+      {
+        "uuid": "cd625e9a-293d-4ec9-9ed8-a98107273e54",
+        "kind": "PCB_ARC",
+        "layer": "F.Cu",
+        "start": [
+          20.861533,
+          19.611532
+        ],
+        "end": [
+          20.949524,
+          19.67251
+        ],
+        "length_mm": 0.1076328652098123,
+        "mid": [
+          20.902787,
+          19.645978
+        ]
+      },
+      {
+        "uuid": "e77b5abb-d8f8-4eca-bd27-9cbebae031b7",
+        "kind": "PCB_ARC",
+        "layer": "F.Cu",
+        "start": [
+          19.655602,
+          17.905601
+        ],
+        "end": [
+          19.708607,
+          17.977367
+        ],
+        "length_mm": 0.08955057026564384,
+        "mid": [
+          19.684787,
+          17.939503
+        ]
+      }
+    ],
+    "F_full_U1_to_via_b_length_mm": 3.7621341401120043,
+    "F_items_touching_new_via": [
+      {
+        "uuid": "0b841028-9e0f-4a2f-ab6b-ab2760834796",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          19.708607,
+          17.977367
+        ],
+        "end": [
+          20.228893,
+          18.960131
+        ],
+        "length_mm": 1.1119903783270788
+      },
+      {
+        "uuid": "19768e8c-9be1-4ca0-b7cd-8a201335351e",
+        "kind": "PCB_TRACK",
+        "layer": "F.Cu",
+        "start": [
+          20.281898,
+          19.031897
+        ],
+        "end": [
+          20.861533,
+          19.611532
+        ],
+        "length_mm": 0.819727678226129
+      },
+      {
+        "uuid": "c86e583d-abb0-4dbd-b21f-783ea8639b0f",
+        "kind": "PCB_ARC",
+        "layer": "F.Cu",
+        "start": [
+          20.228893,
+          18.960131
+        ],
+        "end": [
+          20.281898,
+          19.031897
+        ],
+        "length_mm": 0.08954968764851462,
+        "mid": [
+          20.252713,
+          18.997995
+        ]
+      }
+    ],
+    "uncertainty": "Exact F centerline partial length between via centers is not extracted; full F path and actual native-copper connectivity confirmed."
+  },
+  "D1_input_TVS": {
+    "current": {
+      "J1_to_FB1_connected_after_removing_D1_signal_pad_and_cutting_underlying_copper": true,
+      "D1_signal_pad": [
+        18.325,
+        11.4
+      ],
+      "J1": [
+        19.2172,
+        11.209
+      ],
+      "FB1_input": [
+        20.4347,
+        11.0681
+      ]
+    },
+    "previous": {
+      "J1_to_FB1_connected_after_removing_D1_signal_pad_and_cutting_underlying_copper": true,
+      "D1_signal_pad": [
+        18.125,
+        11.5011
+      ],
+      "J1": [
+        19.2172,
+        11.209
+      ],
+      "FB1_input": [
+        20.4347,
+        11.0681
+      ]
+    },
+    "classification": "preexisting_shunt_branch_topology_review_not_new_electrical_error",
+    "direct_feed_uuid": "4f143ae1-b4c3-420c-ada4-913e16c5e117",
+    "direct_feed_endpoint_inside_J1": [
+      19.3581,
+      11.0681
+    ]
+  },
+  "other_observations": {
+    "3V3_new_MCU_L4_branch_mm": 6.9698484809835,
+    "3V3_old_MCU_branch_removed": true,
+    "12V_upper_link_replaced_L5_with_L3_no_duplicate_old_L5_link": true,
+    "D1_GND": "Old explicit trace endpoints were not recentered after D1 moved; actual ground return includes filled zones, and no bottleneck claim is made."
+  }
+}

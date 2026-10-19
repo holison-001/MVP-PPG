@@ -1,0 +1,1841 @@
+{
+  "date": "2026-10-09",
+  "units_per_set": {
+    "PPG": 1,
+    "UART": 1
+  },
+  "set_count": 10,
+  "board_count": 20,
+  "grid": {
+    "columns": 2,
+    "rows": 5
+  },
+  "panel_size_mm": [
+    157.0,
+    177.0
+  ],
+  "rail_width_mm": {
+    "top": 10,
+    "bottom": 10
+  },
+  "minimum_side_carrier_mm": 3,
+  "coordinate_system": "mm; origin physical panel bottom-left; top view +X right +Y up; no mirroring",
+  "unit_sources": {
+    "PPG": {
+      "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+      "sha": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "origin": [
+        20,
+        17
+      ]
+    },
+    "UART": {
+      "path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+      "sha": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "origin": [
+        88,
+        123.5
+      ]
+    }
+  },
+  "instances": [
+    {
+      "set_id": "S01",
+      "board": "UART",
+      "column": 1,
+      "row_from_top": 1,
+      "offset_mm": [
+        5.0,
+        140
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S01",
+      "board": "PPG",
+      "column": 1,
+      "row_from_top": 1,
+      "offset_mm": [
+        66.75,
+        152.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S02",
+      "board": "UART",
+      "column": 2,
+      "row_from_top": 1,
+      "offset_mm": [
+        83.5,
+        140
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S02",
+      "board": "PPG",
+      "column": 2,
+      "row_from_top": 1,
+      "offset_mm": [
+        145.25,
+        152.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S03",
+      "board": "UART",
+      "column": 1,
+      "row_from_top": 2,
+      "offset_mm": [
+        5.0,
+        108
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S03",
+      "board": "PPG",
+      "column": 1,
+      "row_from_top": 2,
+      "offset_mm": [
+        66.75,
+        120.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S04",
+      "board": "UART",
+      "column": 2,
+      "row_from_top": 2,
+      "offset_mm": [
+        83.5,
+        108
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S04",
+      "board": "PPG",
+      "column": 2,
+      "row_from_top": 2,
+      "offset_mm": [
+        145.25,
+        120.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S05",
+      "board": "UART",
+      "column": 1,
+      "row_from_top": 3,
+      "offset_mm": [
+        5.0,
+        76
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S05",
+      "board": "PPG",
+      "column": 1,
+      "row_from_top": 3,
+      "offset_mm": [
+        66.75,
+        88.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S06",
+      "board": "UART",
+      "column": 2,
+      "row_from_top": 3,
+      "offset_mm": [
+        83.5,
+        76
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S06",
+      "board": "PPG",
+      "column": 2,
+      "row_from_top": 3,
+      "offset_mm": [
+        145.25,
+        88.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S07",
+      "board": "UART",
+      "column": 1,
+      "row_from_top": 4,
+      "offset_mm": [
+        5.0,
+        44
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S07",
+      "board": "PPG",
+      "column": 1,
+      "row_from_top": 4,
+      "offset_mm": [
+        66.75,
+        56.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S08",
+      "board": "UART",
+      "column": 2,
+      "row_from_top": 4,
+      "offset_mm": [
+        83.5,
+        44
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S08",
+      "board": "PPG",
+      "column": 2,
+      "row_from_top": 4,
+      "offset_mm": [
+        145.25,
+        56.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S09",
+      "board": "UART",
+      "column": 1,
+      "row_from_top": 5,
+      "offset_mm": [
+        5.0,
+        12
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S09",
+      "board": "PPG",
+      "column": 1,
+      "row_from_top": 5,
+      "offset_mm": [
+        66.75,
+        24.5
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S10",
+      "board": "UART",
+      "column": 2,
+      "row_from_top": 5,
+      "offset_mm": [
+        83.5,
+        12
+      ],
+      "rotation_deg": 0
+    },
+    {
+      "set_id": "S10",
+      "board": "PPG",
+      "column": 2,
+      "row_from_top": 5,
+      "offset_mm": [
+        145.25,
+        24.5
+      ],
+      "rotation_deg": 0
+    }
+  ],
+  "tooling_holes": [
+    {
+      "ref": "GH1",
+      "kind": "NPTH",
+      "diameter_mm": 3.0,
+      "x_mm": 3.5,
+      "y_mm": 5
+    },
+    {
+      "ref": "GH2",
+      "kind": "NPTH",
+      "diameter_mm": 3.0,
+      "x_mm": 153.5,
+      "y_mm": 5
+    },
+    {
+      "ref": "GH3",
+      "kind": "NPTH",
+      "diameter_mm": 3.0,
+      "x_mm": 3.5,
+      "y_mm": 172
+    },
+    {
+      "ref": "GH4",
+      "kind": "NPTH",
+      "diameter_mm": 3.0,
+      "x_mm": 153.5,
+      "y_mm": 172
+    }
+  ],
+  "fiducials": [
+    {
+      "ref": "FID_T1",
+      "kind": "FIDUCIAL",
+      "side": "TOP",
+      "copper_diameter_mm": 1.0,
+      "mask_diameter_mm": 3.0,
+      "paste": false,
+      "x_mm": 10,
+      "y_mm": 5
+    },
+    {
+      "ref": "FID_T2",
+      "kind": "FIDUCIAL",
+      "side": "TOP",
+      "copper_diameter_mm": 1.0,
+      "mask_diameter_mm": 3.0,
+      "paste": false,
+      "x_mm": 147,
+      "y_mm": 5
+    },
+    {
+      "ref": "FID_T3",
+      "kind": "FIDUCIAL",
+      "side": "TOP",
+      "copper_diameter_mm": 1.0,
+      "mask_diameter_mm": 3.0,
+      "paste": false,
+      "x_mm": 10,
+      "y_mm": 172
+    },
+    {
+      "ref": "FID_B1",
+      "kind": "FIDUCIAL",
+      "side": "BOTTOM",
+      "copper_diameter_mm": 1.0,
+      "mask_diameter_mm": 3.0,
+      "paste": false,
+      "x_mm": 10,
+      "y_mm": 5
+    },
+    {
+      "ref": "FID_B2",
+      "kind": "FIDUCIAL",
+      "side": "BOTTOM",
+      "copper_diameter_mm": 1.0,
+      "mask_diameter_mm": 3.0,
+      "paste": false,
+      "x_mm": 147,
+      "y_mm": 5
+    },
+    {
+      "ref": "FID_B3",
+      "kind": "FIDUCIAL",
+      "side": "BOTTOM",
+      "copper_diameter_mm": 1.0,
+      "mask_diameter_mm": 3.0,
+      "paste": false,
+      "x_mm": 10,
+      "y_mm": 172
+    }
+  ],
+  "tabs": [
+    {
+      "id": "S01_UART_bottom_1",
+      "set_id": "S01",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        140
+      ],
+      "tool_center_mm": [
+        11.5,
+        138.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S01_UART_bottom_2",
+      "set_id": "S01",
+      "board": "UART",
+      "edge_center_mm": [
+        33.0,
+        140
+      ],
+      "tool_center_mm": [
+        33.0,
+        138.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S01_UART_bottom_3",
+      "set_id": "S01",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        140
+      ],
+      "tool_center_mm": [
+        50.5,
+        138.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S01_UART_top_1",
+      "set_id": "S01",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        165
+      ],
+      "tool_center_mm": [
+        11.5,
+        166.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S01_UART_top_2",
+      "set_id": "S01",
+      "board": "UART",
+      "edge_center_mm": [
+        31.0,
+        165
+      ],
+      "tool_center_mm": [
+        31.0,
+        166.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S01_UART_top_3",
+      "set_id": "S01",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        165
+      ],
+      "tool_center_mm": [
+        50.5,
+        166.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S01_PPG_0",
+      "set_id": "S01",
+      "board": "PPG",
+      "edge_center_mm": [
+        73.5,
+        152.5
+      ],
+      "tool_center_mm": [
+        74.5001,
+        152.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S01_PPG_135",
+      "set_id": "S01",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.97702922699081,
+        157.2729707730092
+      ],
+      "tool_center_mm": [
+        61.26985173512614,
+        157.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S01_PPG_220",
+      "set_id": "S01",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.5792000089469,
+        148.16118363461587
+      ],
+      "tool_center_mm": [
+        60.81307896138361,
+        147.51833174616834
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S02_UART_bottom_1",
+      "set_id": "S02",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        140
+      ],
+      "tool_center_mm": [
+        90.0,
+        138.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S02_UART_bottom_2",
+      "set_id": "S02",
+      "board": "UART",
+      "edge_center_mm": [
+        111.5,
+        140
+      ],
+      "tool_center_mm": [
+        111.5,
+        138.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S02_UART_bottom_3",
+      "set_id": "S02",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        140
+      ],
+      "tool_center_mm": [
+        129.0,
+        138.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S02_UART_top_1",
+      "set_id": "S02",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        165
+      ],
+      "tool_center_mm": [
+        90.0,
+        166.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S02_UART_top_2",
+      "set_id": "S02",
+      "board": "UART",
+      "edge_center_mm": [
+        109.5,
+        165
+      ],
+      "tool_center_mm": [
+        109.5,
+        166.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S02_UART_top_3",
+      "set_id": "S02",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        165
+      ],
+      "tool_center_mm": [
+        129.0,
+        166.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S02_PPG_0",
+      "set_id": "S02",
+      "board": "PPG",
+      "edge_center_mm": [
+        152.0,
+        152.5
+      ],
+      "tool_center_mm": [
+        153.0001,
+        152.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S02_PPG_135",
+      "set_id": "S02",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.4770292269908,
+        157.2729707730092
+      ],
+      "tool_center_mm": [
+        139.76985173512614,
+        157.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S02_PPG_220",
+      "set_id": "S02",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.07920000894688,
+        148.16118363461587
+      ],
+      "tool_center_mm": [
+        139.3130789613836,
+        147.51833174616834
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S03_UART_bottom_1",
+      "set_id": "S03",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        108
+      ],
+      "tool_center_mm": [
+        11.5,
+        106.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S03_UART_bottom_2",
+      "set_id": "S03",
+      "board": "UART",
+      "edge_center_mm": [
+        33.0,
+        108
+      ],
+      "tool_center_mm": [
+        33.0,
+        106.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S03_UART_bottom_3",
+      "set_id": "S03",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        108
+      ],
+      "tool_center_mm": [
+        50.5,
+        106.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S03_UART_top_1",
+      "set_id": "S03",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        133
+      ],
+      "tool_center_mm": [
+        11.5,
+        134.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S03_UART_top_2",
+      "set_id": "S03",
+      "board": "UART",
+      "edge_center_mm": [
+        31.0,
+        133
+      ],
+      "tool_center_mm": [
+        31.0,
+        134.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S03_UART_top_3",
+      "set_id": "S03",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        133
+      ],
+      "tool_center_mm": [
+        50.5,
+        134.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S03_PPG_0",
+      "set_id": "S03",
+      "board": "PPG",
+      "edge_center_mm": [
+        73.5,
+        120.5
+      ],
+      "tool_center_mm": [
+        74.5001,
+        120.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S03_PPG_135",
+      "set_id": "S03",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.97702922699081,
+        125.27297077300919
+      ],
+      "tool_center_mm": [
+        61.26985173512614,
+        125.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S03_PPG_220",
+      "set_id": "S03",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.5792000089469,
+        116.16118363461587
+      ],
+      "tool_center_mm": [
+        60.81307896138361,
+        115.51833174616836
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S04_UART_bottom_1",
+      "set_id": "S04",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        108
+      ],
+      "tool_center_mm": [
+        90.0,
+        106.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S04_UART_bottom_2",
+      "set_id": "S04",
+      "board": "UART",
+      "edge_center_mm": [
+        111.5,
+        108
+      ],
+      "tool_center_mm": [
+        111.5,
+        106.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S04_UART_bottom_3",
+      "set_id": "S04",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        108
+      ],
+      "tool_center_mm": [
+        129.0,
+        106.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S04_UART_top_1",
+      "set_id": "S04",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        133
+      ],
+      "tool_center_mm": [
+        90.0,
+        134.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S04_UART_top_2",
+      "set_id": "S04",
+      "board": "UART",
+      "edge_center_mm": [
+        109.5,
+        133
+      ],
+      "tool_center_mm": [
+        109.5,
+        134.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S04_UART_top_3",
+      "set_id": "S04",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        133
+      ],
+      "tool_center_mm": [
+        129.0,
+        134.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S04_PPG_0",
+      "set_id": "S04",
+      "board": "PPG",
+      "edge_center_mm": [
+        152.0,
+        120.5
+      ],
+      "tool_center_mm": [
+        153.0001,
+        120.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S04_PPG_135",
+      "set_id": "S04",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.4770292269908,
+        125.27297077300919
+      ],
+      "tool_center_mm": [
+        139.76985173512614,
+        125.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S04_PPG_220",
+      "set_id": "S04",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.07920000894688,
+        116.16118363461587
+      ],
+      "tool_center_mm": [
+        139.3130789613836,
+        115.51833174616836
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S05_UART_bottom_1",
+      "set_id": "S05",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        76
+      ],
+      "tool_center_mm": [
+        11.5,
+        74.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S05_UART_bottom_2",
+      "set_id": "S05",
+      "board": "UART",
+      "edge_center_mm": [
+        33.0,
+        76
+      ],
+      "tool_center_mm": [
+        33.0,
+        74.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S05_UART_bottom_3",
+      "set_id": "S05",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        76
+      ],
+      "tool_center_mm": [
+        50.5,
+        74.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S05_UART_top_1",
+      "set_id": "S05",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        101
+      ],
+      "tool_center_mm": [
+        11.5,
+        102.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S05_UART_top_2",
+      "set_id": "S05",
+      "board": "UART",
+      "edge_center_mm": [
+        31.0,
+        101
+      ],
+      "tool_center_mm": [
+        31.0,
+        102.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S05_UART_top_3",
+      "set_id": "S05",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        101
+      ],
+      "tool_center_mm": [
+        50.5,
+        102.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S05_PPG_0",
+      "set_id": "S05",
+      "board": "PPG",
+      "edge_center_mm": [
+        73.5,
+        88.5
+      ],
+      "tool_center_mm": [
+        74.5001,
+        88.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S05_PPG_135",
+      "set_id": "S05",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.97702922699081,
+        93.27297077300919
+      ],
+      "tool_center_mm": [
+        61.26985173512614,
+        93.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S05_PPG_220",
+      "set_id": "S05",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.5792000089469,
+        84.16118363461587
+      ],
+      "tool_center_mm": [
+        60.81307896138361,
+        83.51833174616836
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S06_UART_bottom_1",
+      "set_id": "S06",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        76
+      ],
+      "tool_center_mm": [
+        90.0,
+        74.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S06_UART_bottom_2",
+      "set_id": "S06",
+      "board": "UART",
+      "edge_center_mm": [
+        111.5,
+        76
+      ],
+      "tool_center_mm": [
+        111.5,
+        74.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S06_UART_bottom_3",
+      "set_id": "S06",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        76
+      ],
+      "tool_center_mm": [
+        129.0,
+        74.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S06_UART_top_1",
+      "set_id": "S06",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        101
+      ],
+      "tool_center_mm": [
+        90.0,
+        102.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S06_UART_top_2",
+      "set_id": "S06",
+      "board": "UART",
+      "edge_center_mm": [
+        109.5,
+        101
+      ],
+      "tool_center_mm": [
+        109.5,
+        102.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S06_UART_top_3",
+      "set_id": "S06",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        101
+      ],
+      "tool_center_mm": [
+        129.0,
+        102.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S06_PPG_0",
+      "set_id": "S06",
+      "board": "PPG",
+      "edge_center_mm": [
+        152.0,
+        88.5
+      ],
+      "tool_center_mm": [
+        153.0001,
+        88.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S06_PPG_135",
+      "set_id": "S06",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.4770292269908,
+        93.27297077300919
+      ],
+      "tool_center_mm": [
+        139.76985173512614,
+        93.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S06_PPG_220",
+      "set_id": "S06",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.07920000894688,
+        84.16118363461587
+      ],
+      "tool_center_mm": [
+        139.3130789613836,
+        83.51833174616836
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S07_UART_bottom_1",
+      "set_id": "S07",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        44
+      ],
+      "tool_center_mm": [
+        11.5,
+        42.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S07_UART_bottom_2",
+      "set_id": "S07",
+      "board": "UART",
+      "edge_center_mm": [
+        33.0,
+        44
+      ],
+      "tool_center_mm": [
+        33.0,
+        42.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S07_UART_bottom_3",
+      "set_id": "S07",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        44
+      ],
+      "tool_center_mm": [
+        50.5,
+        42.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S07_UART_top_1",
+      "set_id": "S07",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        69
+      ],
+      "tool_center_mm": [
+        11.5,
+        70.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S07_UART_top_2",
+      "set_id": "S07",
+      "board": "UART",
+      "edge_center_mm": [
+        31.0,
+        69
+      ],
+      "tool_center_mm": [
+        31.0,
+        70.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S07_UART_top_3",
+      "set_id": "S07",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        69
+      ],
+      "tool_center_mm": [
+        50.5,
+        70.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S07_PPG_0",
+      "set_id": "S07",
+      "board": "PPG",
+      "edge_center_mm": [
+        73.5,
+        56.5
+      ],
+      "tool_center_mm": [
+        74.5001,
+        56.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S07_PPG_135",
+      "set_id": "S07",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.97702922699081,
+        61.2729707730092
+      ],
+      "tool_center_mm": [
+        61.26985173512614,
+        61.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S07_PPG_220",
+      "set_id": "S07",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.5792000089469,
+        52.16118363461586
+      ],
+      "tool_center_mm": [
+        60.81307896138361,
+        51.51833174616835
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S08_UART_bottom_1",
+      "set_id": "S08",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        44
+      ],
+      "tool_center_mm": [
+        90.0,
+        42.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S08_UART_bottom_2",
+      "set_id": "S08",
+      "board": "UART",
+      "edge_center_mm": [
+        111.5,
+        44
+      ],
+      "tool_center_mm": [
+        111.5,
+        42.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S08_UART_bottom_3",
+      "set_id": "S08",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        44
+      ],
+      "tool_center_mm": [
+        129.0,
+        42.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S08_UART_top_1",
+      "set_id": "S08",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        69
+      ],
+      "tool_center_mm": [
+        90.0,
+        70.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S08_UART_top_2",
+      "set_id": "S08",
+      "board": "UART",
+      "edge_center_mm": [
+        109.5,
+        69
+      ],
+      "tool_center_mm": [
+        109.5,
+        70.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S08_UART_top_3",
+      "set_id": "S08",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        69
+      ],
+      "tool_center_mm": [
+        129.0,
+        70.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S08_PPG_0",
+      "set_id": "S08",
+      "board": "PPG",
+      "edge_center_mm": [
+        152.0,
+        56.5
+      ],
+      "tool_center_mm": [
+        153.0001,
+        56.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S08_PPG_135",
+      "set_id": "S08",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.4770292269908,
+        61.2729707730092
+      ],
+      "tool_center_mm": [
+        139.76985173512614,
+        61.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S08_PPG_220",
+      "set_id": "S08",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.07920000894688,
+        52.16118363461586
+      ],
+      "tool_center_mm": [
+        139.3130789613836,
+        51.51833174616835
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S09_UART_bottom_1",
+      "set_id": "S09",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        12
+      ],
+      "tool_center_mm": [
+        11.5,
+        10.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S09_UART_bottom_2",
+      "set_id": "S09",
+      "board": "UART",
+      "edge_center_mm": [
+        33.0,
+        12
+      ],
+      "tool_center_mm": [
+        33.0,
+        10.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S09_UART_bottom_3",
+      "set_id": "S09",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        12
+      ],
+      "tool_center_mm": [
+        50.5,
+        10.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S09_UART_top_1",
+      "set_id": "S09",
+      "board": "UART",
+      "edge_center_mm": [
+        11.5,
+        37
+      ],
+      "tool_center_mm": [
+        11.5,
+        38.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S09_UART_top_2",
+      "set_id": "S09",
+      "board": "UART",
+      "edge_center_mm": [
+        31.0,
+        37
+      ],
+      "tool_center_mm": [
+        31.0,
+        38.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S09_UART_top_3",
+      "set_id": "S09",
+      "board": "UART",
+      "edge_center_mm": [
+        50.5,
+        37
+      ],
+      "tool_center_mm": [
+        50.5,
+        38.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S09_PPG_0",
+      "set_id": "S09",
+      "board": "PPG",
+      "edge_center_mm": [
+        73.5,
+        24.5
+      ],
+      "tool_center_mm": [
+        74.5001,
+        24.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S09_PPG_135",
+      "set_id": "S09",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.97702922699081,
+        29.272970773009195
+      ],
+      "tool_center_mm": [
+        61.26985173512614,
+        29.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S09_PPG_220",
+      "set_id": "S09",
+      "board": "PPG",
+      "edge_center_mm": [
+        61.5792000089469,
+        20.16118363461586
+      ],
+      "tool_center_mm": [
+        60.81307896138361,
+        19.51833174616835
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S10_UART_bottom_1",
+      "set_id": "S10",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        12
+      ],
+      "tool_center_mm": [
+        90.0,
+        10.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S10_UART_bottom_2",
+      "set_id": "S10",
+      "board": "UART",
+      "edge_center_mm": [
+        111.5,
+        12
+      ],
+      "tool_center_mm": [
+        111.5,
+        10.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S10_UART_bottom_3",
+      "set_id": "S10",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        12
+      ],
+      "tool_center_mm": [
+        129.0,
+        10.9999
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S10_UART_top_1",
+      "set_id": "S10",
+      "board": "UART",
+      "edge_center_mm": [
+        90.0,
+        37
+      ],
+      "tool_center_mm": [
+        90.0,
+        38.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S10_UART_top_2",
+      "set_id": "S10",
+      "board": "UART",
+      "edge_center_mm": [
+        109.5,
+        37
+      ],
+      "tool_center_mm": [
+        109.5,
+        38.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S10_UART_top_3",
+      "set_id": "S10",
+      "board": "UART",
+      "edge_center_mm": [
+        129.0,
+        37
+      ],
+      "tool_center_mm": [
+        129.0,
+        38.0001
+      ],
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.0
+    },
+    {
+      "id": "S10_PPG_0",
+      "set_id": "S10",
+      "board": "PPG",
+      "edge_center_mm": [
+        152.0,
+        24.5
+      ],
+      "tool_center_mm": [
+        153.0001,
+        24.5
+      ],
+      "angle_deg_y_up": 0,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S10_PPG_135",
+      "set_id": "S10",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.4770292269908,
+        29.272970773009195
+      ],
+      "tool_center_mm": [
+        139.76985173512614,
+        29.98014826487386
+      ],
+      "angle_deg_y_up": 135,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    },
+    {
+      "id": "S10_PPG_220",
+      "set_id": "S10",
+      "board": "PPG",
+      "edge_center_mm": [
+        140.07920000894688,
+        20.16118363461586
+      ],
+      "tool_center_mm": [
+        139.3130789613836,
+        19.51833174616835
+      ],
+      "angle_deg_y_up": 220,
+      "neck_mm": 3.0,
+      "toolpath_gap_mm": 5.09104410907659
+    }
+  ],
+  "solid_tab_count": 90,
+  "nominal_tab_neck_mm": 3.0,
+  "router_diameter_mm": 2.0,
+  "separation": "Fixture-supported CNC removal of solid tabs after assembly; no manual snapping, V-score or mouse-bites",
+  "copper_layer_count": 6,
+  "nominal_thickness_mm": 0.8,
+  "source_pth_count": 1640,
+  "unit_npth_count": 40,
+  "guide_npth_count": 4,
+  "substrate_connected": true,
+  "route_intrusion_into_finished_boards_mm2": 0.0,
+  "files": [
+    {
+      "file": "gerber/PPG_UART_10sets-F_Cu.gbr",
+      "layer": "F_Cu",
+      "sha256": "1c752e1b3eb13de5549f75dce8ac70c5dd84b3d7782cbf1ae2b493ed8971de8f",
+      "object_count": 2543
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-In1_Cu.gbr",
+      "layer": "In1_Cu",
+      "sha256": "6785d36dedfc29a18379c412ad45fe96ff9302aa1fd8dedcb18305f293325a24",
+      "object_count": 1660
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-In2_Cu.gbr",
+      "layer": "In2_Cu",
+      "sha256": "111aa6642fc0647b1b002e5aa652d20f2fbb5aa5a99adf684d82b731cdb2de70",
+      "object_count": 2040
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-In3_Cu.gbr",
+      "layer": "In3_Cu",
+      "sha256": "a3ff5dd1848c24536e5e4377ade59e493657c6636a4ff64249d78c3d0b7b594c",
+      "object_count": 2150
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-In4_Cu.gbr",
+      "layer": "In4_Cu",
+      "sha256": "d3bfe7c3df3ca6f3b38109241e61125ddbd2efcc681a25915e6222c4dd4f0c96",
+      "object_count": 1660
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-B_Cu.gbr",
+      "layer": "B_Cu",
+      "sha256": "47dab3a5a94a0252a157a709d8f04516196bff2622ada0bba3b7899dbd7c5721",
+      "object_count": 5573
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-F_Mask.gbr",
+      "layer": "F_Mask",
+      "sha256": "a682acfc3f783b969429904a393b0b73d26faf65aa17d693fe469be9083adeeb",
+      "object_count": 273
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-B_Mask.gbr",
+      "layer": "B_Mask",
+      "sha256": "e7970487cddb2dc4e2c2bb3cf314edf3237706f66cf47537099b1e55922d7868",
+      "object_count": 1793
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-F_Silkscreen.gbr",
+      "layer": "F_Silkscreen",
+      "sha256": "3a4e476d3ff2089f6b4f43f79aa38c92421d5af08e8c7db9c5ecfee4f3677dd0",
+      "object_count": 8485
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-B_Silkscreen.gbr",
+      "layer": "B_Silkscreen",
+      "sha256": "235ee4efc457f6da69a7418f70f3a8e30118b57efd7b117b6fe83f56946a6dbc",
+      "object_count": 3289
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-F_Paste.gbr",
+      "layer": "F_Paste",
+      "sha256": "55b7efa8b75be86decda17df0b512be7f1f7ed608cd862ea6bf772b41072578a",
+      "object_count": 180
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-B_Paste.gbr",
+      "layer": "B_Paste",
+      "sha256": "d7b8357c328ef9c9a65b8c68372f075b021d01faa536877483ba37399a10f162",
+      "object_count": 1660
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-Edge_Cuts.gbr",
+      "layer": "Edge_Cuts",
+      "sha256": "838d8cf7ab710eb7fcb3699c79a85475ac46bcb47ecc5f214dcdd4f0c5e4e00a",
+      "object_count": 129634
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-PTH.drl",
+      "kind": "PTH",
+      "sha256": "7e0d8e12bb7a1c150b397f4314c953379cc8ea1504d2d0666443b51f8eef80b5",
+      "hit_count": 1640
+    },
+    {
+      "file": "gerber/PPG_UART_10sets-NPTH.drl",
+      "kind": "NPTH",
+      "sha256": "304f8be92c7adb8c8ce78812d3d00ddb543d6238c13c5b5e9142e47cfbf47b97",
+      "hit_count": 44
+    }
+  ],
+  "source_hashes_unchanged": true
+}

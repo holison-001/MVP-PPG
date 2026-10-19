@@ -1,0 +1,48 @@
+{
+  "via_uuid": "979f39e1-888b-4392-b7e6-022d360e07fc",
+  "via_xy": [
+    16.7087,
+    20.6824
+  ],
+  "pads": [
+    {
+      "pad": "C13.1",
+      "pad_bounds_mm": [
+        15.8466,
+        20.4024,
+        16.4666,
+        20.9624
+      ],
+      "via_overlap_area_mm2": 0.0006587762364690562,
+      "via_overlap_bounds_mm": [
+        16.458701,
+        20.620050244382018,
+        16.4666,
+        20.74474975561798
+      ],
+      "overlap_x_width_mm": 0.007898999999998324,
+      "overlap_y_width_mm": 0.12469951123596346,
+      "straight_pad_edge_contact_length_mm": 0.12469951123596346
+    },
+    {
+      "pad": "U4.8",
+      "pad_bounds_mm": [
+        16.9507,
+        20.6689,
+        17.8207,
+        20.9189
+      ],
+      "via_overlap_area_mm2": 9.206553812821685e-05,
+      "via_overlap_bounds_mm": [
+        16.9507,
+        20.704034300145977,
+        16.957761681082182,
+        20.74513374438201
+      ],
+      "overlap_x_width_mm": 0.007061681082181082,
+      "overlap_y_width_mm": 0.04109944423603196,
+      "straight_pad_edge_contact_length_mm": 0.013733744382008695
+    }
+  ],
+  "trace_path": "No B.Cu 12V input tracks remain; connectivity depends on these pad-to-via overlaps."
+}

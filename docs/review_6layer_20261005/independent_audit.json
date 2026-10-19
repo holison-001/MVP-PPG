@@ -1,0 +1,440 @@
+{
+  "ok": true,
+  "input_sha256": {
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\6layer_impl_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pcb": "1baae6c041f182bea81e6a53060e6774f11bff44b48da2111aff54040978bad6",
+    "docs\\review_6layer_20261005\\ppg_pcb_v08_6layer.kicad_pcb": "4a8b3a983718be2fedbe1cb4e6d722f3b39d71c4d5449631d62e5021df50ed09"
+  },
+  "counts": {
+    "baseline_references": 39,
+    "candidate_references": 39,
+    "baseline_numbered_pins": 119,
+    "candidate_numbered_pins": 119
+  },
+  "preserved_footprint_uuids": 39,
+  "preserved_pad_uuids": 143,
+  "preserved_numbered_pin_nets": 119,
+  "placement_changes": [
+    {
+      "ref": "R4",
+      "changes": {
+        "xy_mm": {
+          "before": [
+            25.8267,
+            16.0024
+          ],
+          "after": [
+            25.750001,
+            15.9
+          ]
+        },
+        "rotation_deg": {
+          "before": 45.0,
+          "after": 180.0
+        }
+      }
+    },
+    {
+      "ref": "U5",
+      "changes": {
+        "rotation_deg": {
+          "before": 45.0,
+          "after": -135.0
+        }
+      }
+    }
+  ],
+  "baseline_statistics": {
+    "copper_layers": 4,
+    "thickness_mm": 0.8,
+    "trace_count": 325,
+    "via_count": 61,
+    "via_types": {
+      "4": 61
+    },
+    "non_through_via_uuids": [],
+    "via_sizes_mm": [
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "layers": {
+      "F.Cu": {
+        "trace_count": 39,
+        "trace_length_mm": 31.234558128502375,
+        "trace_length_by_net_mm": {
+          "/LDO_EN": 0.574853520852113,
+          "/NRST": 4.788828488244488,
+          "/SCL": 1.0071977767007354,
+          "/SDA": 0.9905806378079475,
+          "/SWCLK": 6.242188285364904,
+          "/SWDIO": 1.1377719455145658,
+          "/VLDO": 3.5193969522011015,
+          "/VREF": 6.7861472679742985,
+          "3V3": 0.717007670809734,
+          "5V_LED": 3.4598499602799144,
+          "GND": 2.0107356227525717
+        },
+        "ground_saved_fill_area_mm2": 93.250023470645,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 61
+      },
+      "In1.Cu": {
+        "trace_count": 39,
+        "trace_length_mm": 42.82615146167948,
+        "trace_length_by_net_mm": {
+          "/SCL": 3.006050500913945,
+          "/SDA": 8.537369944036882,
+          "/TXN_DRV": 5.4204764179125355,
+          "/TXP": 2.5945038225937176,
+          "/TXP_DRV": 3.3707700314587994,
+          "/UART_RX": 5.167660849506068,
+          "/UART_TX": 8.435030324670816,
+          "5V_LED": 6.294289570586704
+        },
+        "ground_saved_fill_area_mm2": 85.1753427002095,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 61
+      },
+      "In2.Cu": {
+        "trace_count": 46,
+        "trace_length_mm": 57.9701547747497,
+        "trace_length_by_net_mm": {
+          "/NRST": 2.425,
+          "/RXN": 1.675,
+          "/RXP": 4.6282421068911255,
+          "/RXP_RCV": 3.3330903641946312,
+          "/SWDIO": 6.973252809842773,
+          "12V": 9.540333722878083,
+          "3V3": 29.395235770943085
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 61
+      },
+      "B.Cu": {
+        "trace_count": 201,
+        "trace_length_mm": 69.68973446095823,
+        "trace_length_by_net_mm": {
+          "/12V_IN": 2.5192544725075505,
+          "/LDO_EN": 0.5024552553744328,
+          "/NRST": 1.508,
+          "/RXN": 1.5534547356033523,
+          "/RXN_RCV": 0.9394147114027968,
+          "/RXP": 2.0699673652161854,
+          "/RXP_RCV": 2.0472388127990166,
+          "/SCL": 3.471211825992709,
+          "/SDA": 1.3117432764336974,
+          "/SWCLK": 2.778648044970667,
+          "/SWDIO": 0.7356210603780264,
+          "/TXN": 1.4295041630560343,
+          "/TXN_DRV": 1.1948510744804375,
+          "/TXP": 1.440326918092975,
+          "/TXP_DRV": 5.347754923105641,
+          "/UART_RX": 3.9062912994109187,
+          "/UART_TX": 3.860592330547025,
+          "/VLDO": 0.9221046173579948,
+          "/VREF": 0.5525396462005392,
+          "12V": 4.622332211273823,
+          "3V3": 6.768121316640472,
+          "5V_LED": 4.737687917979934,
+          "GND": 15.470618482133997
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 61
+      }
+    }
+  },
+  "candidate_statistics": {
+    "copper_layers": 6,
+    "thickness_mm": 0.8,
+    "trace_count": 317,
+    "via_count": 61,
+    "via_types": {
+      "4": 61
+    },
+    "non_through_via_uuids": [],
+    "via_sizes_mm": [
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "layers": {
+      "F.Cu": {
+        "trace_count": 39,
+        "trace_length_mm": 34.096579858052856,
+        "trace_length_by_net_mm": {
+          "/LDO_EN": 0.574853520852113,
+          "/NRST": 4.788828488244488,
+          "/SCL": 1.0071977767007354,
+          "/SDA": 0.99057995638969,
+          "/SWCLK": 6.242188285364904,
+          "/SWDIO": 1.9303885619221846,
+          "/VLDO": 3.5193969522011015,
+          "/VREF": 6.7861472679742985,
+          "3V3": 2.786413465370852,
+          "5V_LED": 3.4598499602799144,
+          "GND": 2.0107356227525717
+        },
+        "ground_saved_fill_area_mm2": 92.758453982865,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 61
+      },
+      "In1.Cu": {
+        "trace_count": 0,
+        "trace_length_mm": 0,
+        "trace_length_by_net_mm": {},
+        "ground_saved_fill_area_mm2": 104.279413598389,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 61
+      },
+      "In2.Cu": {
+        "trace_count": 46,
+        "trace_length_mm": 46.58093104275258,
+        "trace_length_by_net_mm": {
+          "/RXN": 3.6620827660876376,
+          "/RXP_RCV": 3.875967571581777,
+          "/SCL": 3.006050500913945,
+          "/SDA": 8.537369944036882,
+          "/SWDIO": 2.744115872676843,
+          "/TXN_DRV": 5.12443564992318,
+          "/TXP": 3.000880331818415,
+          "/UART_RX": 5.167660849506068,
+          "/UART_TX": 8.209420554115901,
+          "5V_LED": 3.252947002091935
+        },
+        "ground_saved_fill_area_mm2": 23.6807586204115,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 61
+      },
+      "In3.Cu": {
+        "trace_count": 43,
+        "trace_length_mm": 49.673484982858525,
+        "trace_length_by_net_mm": {
+          "/NRST": 2.425,
+          "/RXP": 4.6282421068911255,
+          "/SWDIO": 3.3024612034057266,
+          "12V": 9.540333965991143,
+          "3V3": 29.777447706570534
+        },
+        "ground_saved_fill_area_mm2": 23.677703604644,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 61
+      },
+      "In4.Cu": {
+        "trace_count": 2,
+        "trace_length_mm": 3.5400863140746237,
+        "trace_length_by_net_mm": {
+          "/TXP_DRV": 3.5400863140746237
+        },
+        "ground_saved_fill_area_mm2": 103.0488787622705,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 61
+      },
+      "B.Cu": {
+        "trace_count": 187,
+        "trace_length_mm": 68.30121881134497,
+        "trace_length_by_net_mm": {
+          "/12V_IN": 2.5192544725075505,
+          "/LDO_EN": 0.5024552553744328,
+          "/NRST": 1.508,
+          "/RXN": 3.3338722772768534,
+          "/RXN_RCV": 0.9394147114027968,
+          "/RXP": 2.0699673652161854,
+          "/RXP_RCV": 1.2078832702682332,
+          "/SCL": 3.471211825992709,
+          "/SDA": 1.3117432764336974,
+          "/SWCLK": 2.778647337864796,
+          "/SWDIO": 0.7356203532749281,
+          "/TXN": 1.4295041630560343,
+          "/TXN_DRV": 1.1948510744804375,
+          "/TXP": 1.2383241156326836,
+          "/TXP_DRV": 0.9599493825353751,
+          "/UART_RX": 3.9062912994109187,
+          "/UART_TX": 4.298166785654404,
+          "/VLDO": 0.9221046173579948,
+          "/VREF": 0.5525396462005392,
+          "12V": 4.622332211273823,
+          "3V3": 8.569072782213949,
+          "5V_LED": 5.673779904084501,
+          "GND": 14.556232683832118
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 61
+      }
+    }
+  },
+  "l5_path_groups": [
+    {
+      "net": "/TXP_DRV",
+      "length_mm": 3.5400863140746237,
+      "segment_count": 2,
+      "touched_vias": [
+        {
+          "uuid": "1b2f79e2-bd74-4382-9704-ad7bbb2e1845",
+          "xy_mm": [
+            22.95,
+            17.375
+          ]
+        },
+        {
+          "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+          "xy_mm": [
+            23.825,
+            13.95
+          ]
+        }
+      ],
+      "endpoints_or_junctions": [
+        {
+          "xy_mm": [
+            22.95,
+            17.375
+          ],
+          "endpoint_degree": 1
+        },
+        {
+          "xy_mm": [
+            23.825,
+            13.95
+          ],
+          "endpoint_degree": 1
+        }
+      ],
+      "segments": [
+        {
+          "uuid": "b9804cf7-79e6-4d21-b879-18b44dc81180",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.825,
+            13.95
+          ],
+          "z_mm": [
+            23.1,
+            16.45
+          ],
+          "via": false,
+          "width_mm": 0.1,
+          "length_mm": 2.603003073375058
+        },
+        {
+          "uuid": "d3ff59b9-79f8-4526-a762-17a00ead0fb9",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.1,
+            16.45
+          ],
+          "z_mm": [
+            22.95,
+            17.375
+          ],
+          "via": false,
+          "width_mm": 0.1,
+          "length_mm": 0.9370832406995656
+        }
+      ]
+    }
+  ],
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 91,
+    "ground_plane_layers": [
+      "In1.Cu",
+      "In4.Cu"
+    ],
+    "ground_plane_track_count": 2,
+    "l2_track_count": 0,
+    "l5_track_count": 2,
+    "l5_trace_length_mm": 3.5400863140746237,
+    "signal_layer_tracks": {
+      "In2.Cu": 46,
+      "In3.Cu": 43,
+      "In4.Cu": 2
+    },
+    "power_layer": "In3.Cu",
+    "power_3V3_track_count": 33,
+    "power_3V3_widths_mm": [
+      0.4
+    ],
+    "ground_rim": {
+      "ok": true,
+      "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+      "layers": {
+        "F.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.53,
+          "checked_width_mm": 0.3250000000000002,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In1.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In2.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In3.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In4.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        }
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "tvs_pins": {
+    "D1.1": "/12V_IN",
+    "D1.2": "GND",
+    "D8.1": "/NRST",
+    "D8.2": "GND",
+    "D6.1": "/SWDIO",
+    "D6.2": "GND",
+    "D7.1": "/SWCLK",
+    "D7.2": "GND"
+  },
+  "ldo_en_pins": [
+    "U1.3",
+    "U2.12"
+  ],
+  "netlist_sha256": "eb387f30e739c133fd042fa60353f468252938feef5f333cfc87172137e6d2c3",
+  "supplied_drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "parity": 0
+  },
+  "drc_sha256": "7fcf1e13ffc0199ebf5c651abc5b2cf25b92438a33f9954beb6e48a4b7f24756",
+  "errors": [],
+  "notes": [
+    "Saved zone fills were measured without refill.",
+    "Supplied DRC report provenance must be checked against the same frozen candidate.",
+    "L5 groups are connected copper components, with individual segments and endpoint degrees for branch review."
+  ],
+  "project_design_settings_unchanged": {
+    "rules": true,
+    "rule_severities": true,
+    "drc_exclusions": true
+  },
+  "project_files_sha256": {
+    ".git\\6layer_impl_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "docs\\review_6layer_20261005\\ppg_pcb_v08_6layer.kicad_pro": "3bc891f958e2ec5f62b51501587805b1730bd86aebd1d85522e7196b11b67905"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "input_sha256": "0eacf26bf32489100e177f25020167e99fce29d92817201fee1b76355745bbe8",
+  "output_sha256": "42224bb6b24e6fadfa758637256e70588f81b92c895da37d11371f9d5dfd237f",
+  "user_placement_preserved_except_offsets_mm": {
+    "C1": [
+      0,
+      0.15
+    ],
+    "C4": [
+      0.08,
+      0
+    ]
+  },
+  "C1_adjustment_reason": "C4 escape requires 0.15 mm trace plus 0.15 mm clearance on both sides; C1 downward shift opens 0.49 mm between copper pads.",
+  "C4_adjustment_reason": "Creates room for a GND via with its drill outside the SMD pad and connects an otherwise isolated GND island.",
+  "footprints": 41,
+  "GND_connectivity": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 16,
+    "reachable_nodes": 16,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "GND_area_mm2": {
+    "F.Cu": 95.19682406706305,
+    "In1.Cu": 103.86581703310345,
+    "In2.Cu": 89.239025938013,
+    "In3.Cu": 72.40049924019445,
+    "In4.Cu": 99.91780003128649,
+    "B.Cu": 53.858933621646976
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "source_sha256": "7973931655c11aa6249471ec0cae7d57c474c0ae6485fe4d836be328462c4355",
+  "remove_ids": [
+    "159f0426-1d4b-49a0-b334-a16eda8f7b4e",
+    "183be65a-151f-4666-aa01-8a26c0d13f2c",
+    "3a384f15-8b44-4878-a8d9-e54c28badc5c",
+    "4242a2c9-2767-484d-a376-6e3beb5794a2",
+    "a9c32d53-de5e-4895-9ebc-b5328be286bb",
+    "fd05d04e-1964-40ec-9204-1e14cea7531c",
+    "ef8e3fa7-4485-4c80-b99a-5568254184cd",
+    "51ee2afd-0198-47c0-9c5c-c08c5a33e01d",
+    "7fa40e9f-ba5a-4b0c-bd68-5b85a31d988c",
+    "8071982d-12c0-401e-9109-e2e8089e1373",
+    "83a149d0-671f-44d4-8cde-9aedc2323a84",
+    "c459330e-2891-4878-96b9-692aa9d378b4",
+    "d3945b2d-461b-44ef-b874-3c2cd911d97c",
+    "2c417c25-98e0-40ae-b058-0ec189e735e2",
+    "088dcabe-d773-41b3-b6b2-6c6ad28e9830",
+    "736acf2d-003f-47fe-bbd8-de768985eadb",
+    "7ff2cd39-058b-496b-bb66-dd7c38247116",
+    "f317d586-1ba5-4568-9f10-a9f632aadcca"
+  ],
+  "new_items": [
+    {
+      "name": "U3_GND_VIA",
+      "kind": "PCB_VIA",
+      "net": "GND",
+      "position": [
+        23.5,
+        13.45
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "C16_GND_VIA",
+      "kind": "PCB_VIA",
+      "net": "GND",
+      "position": [
+        24.15,
+        15.85
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "C16_3V3_VIA",
+      "kind": "PCB_VIA",
+      "net": "3V3",
+      "position": [
+        24.65,
+        15.35
+      ],
+      "diameter": 0.5,
+      "drill": 0.25
+    },
+    {
+      "name": "RESTORED_RIM_GND",
+      "kind": "PCB_VIA",
+      "net": "GND",
+      "position": [
+        26.15,
+        16.7
+      ],
+      "diameter": 0.5,
+      "drill": 0.2
+    },
+    {
+      "name": "R4_POWER_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        22.28,
+        16.9
+      ],
+      "end": [
+        21.52,
+        16.9
+      ],
+      "length_mm": 0.7600000000000016
+    },
+    {
+      "name": "U3_VCC_TO_EN_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        22.151472,
+        14.748528
+      ],
+      "end": [
+        21.47972,
+        14.076777
+      ],
+      "length_mm": 0.9500000818447322
+    },
+    {
+      "name": "U3_POWER_VIA_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        21.47972,
+        14.076777
+      ],
+      "end": [
+        21.775,
+        13.55
+      ],
+      "length_mm": 0.6038909554952765
+    },
+    {
+      "name": "C6_POWER_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        20.573726,
+        13.326274
+      ],
+      "end": [
+        21.47972,
+        14.076777
+      ],
+      "length_mm": 1.1764692435610036
+    },
+    {
+      "name": "U3_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        23.848528,
+        13.051472
+      ],
+      "end": [
+        23.5,
+        13.45
+      ],
+      "length_mm": 0.529430197068509
+    },
+    {
+      "name": "C6_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        21.026274,
+        12.873726
+      ],
+      "end": [
+        20.7,
+        12.0
+      ],
+      "length_mm": 0.9326584831287389
+    },
+    {
+      "name": "C16_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        23.98,
+        16.4
+      ],
+      "end": [
+        24.15,
+        15.85
+      ],
+      "length_mm": 0.5756735185849686
+    },
+    {
+      "name": "C16_POWER_0",
+      "net": "3V3",
+      "kind": "PCB_TRACK",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        24.62,
+        16.4
+      ],
+      "end": [
+        24.625714,
+        16.2
+      ],
+      "length_mm": 0.2000816078404002
+    },
+    {
+      "name": "C16_POWER_1",
+      "net": "3V3",
+      "kind": "PCB_TRACK",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        24.625714,
+        16.2
+      ],
+      "end": [
+        24.644286,
+        15.55
+      ],
+      "length_mm": 0.6502652683205511
+    },
+    {
+      "name": "C16_POWER_2",
+      "net": "3V3",
+      "kind": "PCB_TRACK",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        24.644286,
+        15.55
+      ],
+      "end": [
+        24.65,
+        15.35
+      ],
+      "length_mm": 0.20008160784040196
+    },
+    {
+      "name": "C16_TRUNK_UP_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.45,
+        14.425
+      ],
+      "end": [
+        24.65,
+        15.35
+      ],
+      "length_mm": 0.9463746615373838
+    },
+    {
+      "name": "C16_TRUNK_DOWN_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        24.65,
+        15.35
+      ],
+      "end": [
+        24.95,
+        16.551714
+      ],
+      "length_mm": 1.238594581691686
+    }
+  ],
+  "placement_overrides": {},
+  "plans": [
+    {
+      "name": "R4_POWER",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          22.28,
+          16.9
+        ],
+        [
+          21.52,
+          16.9
+        ]
+      ],
+      "items": [
+        {
+          "name": "R4_POWER_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            22.28,
+            16.9
+          ],
+          "end": [
+            21.52,
+            16.9
+          ],
+          "length_mm": 0.7600000000000016
+        }
+      ],
+      "length_mm": 0.7600000000000016
+    },
+    {
+      "name": "U3_VCC_TO_EN",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          22.151472,
+          14.748528
+        ],
+        [
+          21.47972,
+          14.076777
+        ]
+      ],
+      "items": [
+        {
+          "name": "U3_VCC_TO_EN_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            22.151472,
+            14.748528
+          ],
+          "end": [
+            21.47972,
+            14.076777
+          ],
+          "length_mm": 0.9500000818447322
+        }
+      ],
+      "length_mm": 0.9500000818447322
+    },
+    {
+      "name": "U3_POWER_VIA",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          21.47972,
+          14.076777
+        ],
+        [
+          21.775,
+          13.55
+        ]
+      ],
+      "items": [
+        {
+          "name": "U3_POWER_VIA_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            21.47972,
+            14.076777
+          ],
+          "end": [
+            21.775,
+            13.55
+          ],
+          "length_mm": 0.6038909554952765
+        }
+      ],
+      "length_mm": 0.6038909554952765
+    },
+    {
+      "name": "C6_POWER",
+      "net": "3V3",
+      "layer": 2,
+      "points": [
+        [
+          20.573726,
+          13.326274
+        ],
+        [
+          21.47972,
+          14.076777
+        ]
+      ],
+      "items": [
+        {
+          "name": "C6_POWER_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            20.573726,
+            13.326274
+          ],
+          "end": [
+            21.47972,
+            14.076777
+          ],
+          "length_mm": 1.1764692435610036
+        }
+      ],
+      "length_mm": 1.1764692435610036
+    },
+    {
+      "name": "U3_GND",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          23.848528,
+          13.051472
+        ],
+        [
+          23.5,
+          13.45
+        ]
+      ],
+      "items": [
+        {
+          "name": "U3_GND_0",
+          "kind": "PCB_TRACK",
+          "net": "GND",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            23.848528,
+            13.051472
+          ],
+          "end": [
+            23.5,
+            13.45
+          ],
+          "length_mm": 0.529430197068509
+        }
+      ],
+      "length_mm": 0.529430197068509
+    },
+    {
+      "name": "C6_GND",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          21.026274,
+          12.873726
+        ],
+        [
+          20.7,
+          12.0
+        ]
+      ],
+      "items": [
+        {
+          "name": "C6_GND_0",
+          "kind": "PCB_TRACK",
+          "net": "GND",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            21.026274,
+            12.873726
+          ],
+          "end": [
+            20.7,
+            12.0
+          ],
+          "length_mm": 0.9326584831287389
+        }
+      ],
+      "length_mm": 0.9326584831287389
+    },
+    {
+      "name": "C16_GND",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          23.98,
+          16.4
+        ],
+        [
+          24.15,
+          15.85
+        ]
+      ],
+      "items": [
+        {
+          "name": "C16_GND_0",
+          "kind": "PCB_TRACK",
+          "net": "GND",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            23.98,
+            16.4
+          ],
+          "end": [
+            24.15,
+            15.85
+          ],
+          "length_mm": 0.5756735185849686
+        }
+      ],
+      "length_mm": 0.5756735185849686
+    },
+    {
+      "name": "C16_POWER",
+      "net": "3V3",
+      "layer": 2,
+      "items": [
+        {
+          "name": "C16_POWER_0",
+          "net": "3V3",
+          "kind": "PCB_TRACK",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            24.62,
+            16.4
+          ],
+          "end": [
+            24.625714,
+            16.2
+          ],
+          "length_mm": 0.2000816078404002
+        },
+        {
+          "name": "C16_POWER_1",
+          "net": "3V3",
+          "kind": "PCB_TRACK",
+          "layer": 2,
+          "width": 0.15,
+          "start": [
+            24.625714,
+            16.2
+          ],
+          "end": [
+            24.644286,
+            15.55
+          ],
+          "length_mm": 0.6502652683205511
+        },
+        {
+          "name": "C16_POWER_2",
+          "net": "3V3",
+          "kind": "PCB_TRACK",
+          "layer": 2,
+          "width": 0.3,
+          "start": [
+            24.644286,
+            15.55
+          ],
+          "end": [
+            24.65,
+            15.35
+          ],
+          "length_mm": 0.20008160784040196
+        }
+      ],
+      "length_mm": 1.0504284840013534
+    },
+    {
+      "name": "C16_TRUNK_UP",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          24.45,
+          14.425
+        ],
+        [
+          24.65,
+          15.35
+        ]
+      ],
+      "items": [
+        {
+          "name": "C16_TRUNK_UP_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.45,
+            14.425
+          ],
+          "end": [
+            24.65,
+            15.35
+          ],
+          "length_mm": 0.9463746615373838
+        }
+      ],
+      "length_mm": 0.9463746615373838
+    },
+    {
+      "name": "C16_TRUNK_DOWN",
+      "net": "3V3",
+      "layer": 8,
+      "points": [
+        [
+          24.65,
+          15.35
+        ],
+        [
+          24.95,
+          16.551714
+        ]
+      ],
+      "items": [
+        {
+          "name": "C16_TRUNK_DOWN_0",
+          "kind": "PCB_TRACK",
+          "net": "3V3",
+          "layer": 8,
+          "width": 0.4,
+          "start": [
+            24.65,
+            15.35
+          ],
+          "end": [
+            24.95,
+            16.551714
+          ],
+          "length_mm": 1.238594581691686
+        }
+      ],
+      "length_mm": 1.238594581691686
+    }
+  ],
+  "dependency_signal_patch_sha256": "9d5e378280f9c233c97d2c0f0e2c9095ee80edac8fd521f698fec7b48b999c5c",
+  "notes": [
+    "Allfootprints fixed.",
+    "Remove obsoleteC6 power via andfeed. RelocateC16 power via24.2134,15.6018 to24.65,15.35 with .4L4localtrunk.",
+    "C16 power B .6503mm .15neck only; outertwo portions .30.",
+    "AddU3GND23.5,13.45/C16GND24.15,15.85/rimGND26.15,16.70 toreplace2staleGNDvias removed bysignalpatch; GNDvia countnet+1.",
+    "SourceGNDauto-renetobjects removed bysignalpatch dependency."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "Status": "PASS",
+  "Date": "2026-10-13",
+  "Workbook": "UART_추가소요_BOM_20261013.xlsx",
+  "WorkbookSHA256": "019cc285275bd1a367362744751101aa03ccd9ce1b0f8c00dc5c407adb98e7d5",
+  "SavedWorkbookChecks": 883,
+  "Worksheets": [
+    "구매 BOM",
+    "원본 부품"
+  ],
+  "Groups": 14,
+  "RawReferences": 32,
+  "PurchaseReferences": 25,
+  "UARTBoardCount": 10,
+  "AdditionalQuantity": 250,
+  "PPGCommonGroups": 4,
+  "PPGCommonAdditionalQuantity": 50,
+  "UARTNewGroups": 10,
+  "UARTNewAdditionalQuantity": 200,
+  "MissingMPNGroups": 7,
+  "MissingMPNPerBoard": 13,
+  "ExcludedNonPurchase": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "J1",
+    "J2",
+    "J3"
+  ],
+  "SourceAudit": {
+    "Status": "PASS",
+    "Checks": 1210,
+    "Errors": [],
+    "PhysicalReferences": 32,
+    "PurchaseReferences": 25,
+    "Groups": 14,
+    "QuantityFor10UARTBoards": 250,
+    "SharedMPNGroups": [
+      {
+        "MPN": "ESD351DPYR",
+        "UARTRefs": [
+          "D3",
+          "D4"
+        ],
+        "PPGRefs": [
+          "D6",
+          "D7",
+          "D8"
+        ],
+        "BaselinePackage": "X1SON-2 DPY(1006)",
+        "UARTFootprint": "Adapter:TI_DPY0002A_1x0.6"
+      },
+      {
+        "MPN": "BLM15PX601SN1D",
+        "UARTRefs": [
+          "FB1"
+        ],
+        "PPGRefs": [
+          "FB1"
+        ],
+        "BaselinePackage": "L1005",
+        "UARTFootprint": "Inductor_SMD:L_0402_1005Metric"
+      },
+      {
+        "MPN": "XR33194ESBTR",
+        "UARTRefs": [
+          "U2"
+        ],
+        "PPGRefs": [
+          "U3"
+        ],
+        "BaselinePackage": "TSOT23-6",
+        "UARTFootprint": "Adapter:TSOT23-6_MaxLinear"
+      },
+      {
+        "MPN": "XR33183ESBTR",
+        "UARTRefs": [
+          "U3"
+        ],
+        "PPGRefs": [
+          "U6"
+        ],
+        "BaselinePackage": "TSOT23-6",
+        "UARTFootprint": "Adapter:TSOT23-6_MaxLinear"
+      }
+    ],
+    "SharedLibraryPackageChecks": [
+      {
+        "Package": "TSOT23-6_MaxLinear",
+        "PadGeometryIdentical": true,
+        "PadCount": 6
+      },
+      {
+        "Package": "TI_DPY0002A_1x0.6",
+        "PadGeometryIdentical": true,
+        "PadCount": 2
+      }
+    ],
+    "Notes": [
+      "Existing PPG BOM baseline is dated 2026-10-06; it predates C17.",
+      "No subtraction of existing PPG requirements or assumed inventory.",
+      "Wire-pad SMT flags do not imply a purchased or placed component.",
+      "Seven groups have no selected MPN and remain unresolved; no specifications inferred."
+    ],
+    "BOMSourceSHA256": "93bdaf9960efb6a77f1bb5f1ad75aea5734f16ab1024d438a3fd7e7086c02f8d"
+  },
+  "Sources": [
+    {
+      "Path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_sch",
+      "Name": "ppg_uart_adapter_v01.kicad_sch",
+      "SHA256": "5166ab8cfb01c2cb5119467bc23d7fe946adb6fd6bcc954a0fbad439f2f65fd5"
+    },
+    {
+      "Path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+      "Name": "ppg_uart_adapter_v01.kicad_pcb",
+      "SHA256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7"
+    },
+    {
+      "Path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\BOM.csv",
+      "Name": "BOM.csv",
+      "SHA256": "62aab6ad700a56a1fbd40cd337e489b981059cb731bf82885fb1673f3fd1c184"
+    },
+    {
+      "Path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_sch",
+      "Name": "ppg_pcb_v08.kicad_sch",
+      "SHA256": "03a2cade22502d2eacf03746d6e81dc0f94dff623763b35a1713a91144a5cbd8"
+    },
+    {
+      "Path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\bom\\RETI\\MVP-PPG_BOM_20261006.xlsx",
+      "Name": "MVP-PPG_BOM_20261006.xlsx",
+      "SHA256": "fd6f1aa9f189550f1ffcdc0e19c1666b965c2be68d79d39e44657ec02228ecfe"
+    },
+    {
+      "Path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\bom\\ppg_pcb_v08_BOM.csv",
+      "Name": "ppg_pcb_v08_BOM.csv",
+      "SHA256": "bd2a3b21022a6557003bf0332990aeb4be5d31c6cd40f62aac561672edffa93c"
+    }
+  ],
+  "QuantityTests": [
+    {
+      "Boards": 0,
+      "Parts": 0
+    },
+    {
+      "Boards": 1,
+      "Parts": 25
+    },
+    {
+      "Boards": 10,
+      "Parts": 250
+    },
+    {
+      "Boards": "blank / negative",
+      "Result": "수량 확인"
+    }
+  ],
+  "CalculationEngine": "Artifact Tool; source counts and batch calculations checked, input restored to 10 before export",
+  "SavedFileValidation": "XLSX XML data, formulas, missing values, filters/freeze panes, condition rules and quantity-validation inspected",
+  "VisualReview": "Both sheets and full purchase table, notes, all original references reviewed; wire-pad disposition wraps without overlap",
+  "NativeExcelApplicationTest": "Not performed",
+  "QuantityPolicy": "Only UART additional requirements. No subtraction of existing PPG quantities, no inventory assumptions, no spare quantities."
+}

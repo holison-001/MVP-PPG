@@ -1,0 +1,21 @@
+{
+  "native_type": "PCB_ARC",
+  "isinstance_PCB_ARC": true,
+  "native_length_mm": 1.5707950391909455,
+  "chord_length_mm": 1.4142135623730951,
+  "center_mm": [
+    -3e-06,
+    -3e-06
+  ],
+  "radius_mm": 1.0000030000045,
+  "sweep_angle_deg": 89.99965622635423,
+  "midpoint_mm": [
+    0.707106,
+    0.707106
+  ],
+  "polygon_contains_native_arc_midpoint": true,
+  "chord_polygon_contains_arc_midpoint": false,
+  "copper_area_mm2": 0.2532811411815,
+  "chord_copper_area_mm2": 0.22977511961528496,
+  "ok": true
+}

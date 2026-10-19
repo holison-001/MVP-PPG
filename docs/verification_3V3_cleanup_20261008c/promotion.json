@@ -1,0 +1,33 @@
+{
+  "source_sha256": "9652b7b1164ccead4dacc62d317b6ae81d2e8e52d7f4dde8c77a3d00c1973070",
+  "candidate_sha256": "2f48cc14bab60c231189b33674a6b2a69fc755beff8a993c0c3906d5b9a2893a",
+  "canonical_sha256": "2f48cc14bab60c231189b33674a6b2a69fc755beff8a993c0c3906d5b9a2893a",
+  "backup": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\backups\\20261008_before_3V3_cleanup\\kicad_before_reroute.zip",
+  "backup_sha256": "f30266500b0c089b7e05e449d831767a52bbe8d0655eba9d558e7392f40d6785",
+  "component_placements_changed": 0,
+  "user_signal_copper_preserved": true,
+  "checks": "PASS",
+  "drc_errors": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "prior_warnings": 5,
+  "before_3V3_mm": 50.09455287656051,
+  "after_3V3_mm": 40.764110100611056,
+  "reduction_percent": 18.625663350945324,
+  "preview_metrics": [
+    {
+      "all_layers_mm": 50.09455287656051,
+      "L4_mm": 35.2930328179893,
+      "L4_objects": 45,
+      "L4_arcs": 12,
+      "power_vias": 8
+    },
+    {
+      "all_layers_mm": 40.764110100611056,
+      "L4_mm": 26.266410315429788,
+      "L4_objects": 27,
+      "L4_arcs": 7,
+      "power_vias": 8
+    }
+  ]
+}

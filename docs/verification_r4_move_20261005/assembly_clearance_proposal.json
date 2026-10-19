@@ -1,0 +1,286 @@
+{
+  "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\r4_move_20261005\\electrical_stage\\ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "a6247b5d90dddbbddd47286dbf7530e5d29e04f71aaf50e40399164872a66a49",
+  "CAD_modified": false,
+  "proposed_positions_not_applied_by_this_audit": true,
+  "assembly_courtyard_footprint_pad_edge_pass": true,
+  "all_drawn_courtyard_positive_area_overlaps": [
+    [
+      "C14",
+      "U5",
+      0.010322631809767004
+    ],
+    [
+      "C11",
+      "D6",
+      0.0017108799999992939
+    ],
+    [
+      "C11",
+      "U5",
+      1.1696399999989223e-05
+    ]
+  ],
+  "affected_part_positive_area_courtyard_overlaps": [],
+  "reviews": [
+    {
+      "ref": "R4",
+      "target": {
+        "xy_mm": [
+          20.05,
+          14.55
+        ],
+        "rotation_deg": 90
+      },
+      "pad_positions": [
+        {
+          "number": "1",
+          "net": "/UART_TX",
+          "xy_mm": [
+            20.05,
+            14.870000000000001
+          ]
+        },
+        {
+          "number": "2",
+          "net": "3V3",
+          "xy_mm": [
+            20.05,
+            14.23
+          ]
+        }
+      ],
+      "nearest_courtyards": [
+        {
+          "gap_mm": 0.015914145217382224,
+          "reference": "U3",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.0400000000000027,
+          "reference": "U6",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.27490099999999984,
+          "reference": "U2",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.8200010000000013,
+          "reference": "C7",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 1.7431681946390047,
+          "reference": "R1",
+          "overlap_area_mm2": 0.0
+        }
+      ],
+      "nearest_B_Fab_bodies": [
+        {
+          "gap_mm": 0.9248999999999992,
+          "reference": "U2",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 1.2900000000000027,
+          "reference": "U6",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 1.4901773367691837,
+          "reference": "U3",
+          "overlap_area_mm2": 0.0
+        }
+      ],
+      "nearest_other_component_pads": [
+        {
+          "gap_mm": 0.44000000000000133,
+          "reference": "U6",
+          "this_pad": "1",
+          "other_pad": "3",
+          "this_net": "/UART_TX",
+          "other_net": "/UART_RX"
+        },
+        {
+          "gap_mm": 0.44039719572222663,
+          "reference": "U6",
+          "this_pad": "2",
+          "other_pad": "2",
+          "this_net": "3V3",
+          "other_net": "GND"
+        },
+        {
+          "gap_mm": 0.4419340335389447,
+          "reference": "U6",
+          "this_pad": "2",
+          "other_pad": "3",
+          "this_net": "3V3",
+          "other_net": "/UART_RX"
+        }
+      ],
+      "minimum_pad_edge_clearance_mm": 3.746252340824884,
+      "via_gaps_below_0_15_mm": [
+        {
+          "pad": "1",
+          "pad_net": "/UART_TX",
+          "via_uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981",
+          "via_net": "/SCL",
+          "via_xy_mm": [
+            19.8148,
+            15.2148
+          ],
+          "copper_gap_mm": 0.0,
+          "same_net": false
+        },
+        {
+          "pad": "2",
+          "pad_net": "3V3",
+          "via_uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+          "via_net": "12V",
+          "via_xy_mm": [
+            19.8315,
+            13.6211
+          ],
+          "copper_gap_mm": 0.1447513940692809,
+          "same_net": false
+        }
+      ],
+      "nearest_via": {
+        "pad": "1",
+        "pad_net": "/UART_TX",
+        "via_uuid": "c75cfaad-cdd3-4e4e-b2cc-22c45f0f6981",
+        "via_net": "/SCL",
+        "via_xy_mm": [
+          19.8148,
+          15.2148
+        ],
+        "copper_gap_mm": 0.0,
+        "same_net": false
+      }
+    },
+    {
+      "ref": "C7",
+      "target": {
+        "xy_mm": [
+          20.025,
+          12.33
+        ],
+        "rotation_deg": 90
+      },
+      "pad_positions": [
+        {
+          "number": "1",
+          "net": "3V3",
+          "xy_mm": [
+            20.025,
+            12.65
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy_mm": [
+            20.025,
+            12.01
+          ]
+        }
+      ],
+      "nearest_courtyards": [
+        {
+          "gap_mm": 0.014999999999997014,
+          "reference": "U6",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.03106107957718151,
+          "reference": "U3",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.09190000000000076,
+          "reference": "FB1",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.8200010000000013,
+          "reference": "R4",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 1.2249999999999979,
+          "reference": "D1",
+          "overlap_area_mm2": 0.0
+        }
+      ],
+      "nearest_B_Fab_bodies": [
+        {
+          "gap_mm": 0.7527813095448112,
+          "reference": "FB1",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 0.8377396649681821,
+          "reference": "U3",
+          "overlap_area_mm2": 0.0
+        },
+        {
+          "gap_mm": 1.2679403337696933,
+          "reference": "U6",
+          "overlap_area_mm2": 0.0
+        }
+      ],
+      "nearest_other_component_pads": [
+        {
+          "gap_mm": 0.2800913599890207,
+          "reference": "J1",
+          "this_pad": "2",
+          "other_pad": "1",
+          "this_net": "GND",
+          "other_net": "/12V_IN"
+        },
+        {
+          "gap_mm": 0.4149999999999992,
+          "reference": "U6",
+          "this_pad": "1",
+          "other_pad": "1",
+          "this_net": "3V3",
+          "other_net": "3V3"
+        },
+        {
+          "gap_mm": 0.4160135658019022,
+          "reference": "FB1",
+          "this_pad": "2",
+          "other_pad": "1",
+          "this_net": "GND",
+          "other_net": "/12V_IN"
+        }
+      ],
+      "minimum_pad_edge_clearance_mm": 1.5285035669838853,
+      "via_gaps_below_0_15_mm": [],
+      "nearest_via": {
+        "pad": "1",
+        "pad_net": "3V3",
+        "via_uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23",
+        "via_net": "12V",
+        "via_xy_mm": [
+          19.8315,
+          13.6211
+        ],
+        "copper_gap_mm": 0.49697950450677103,
+        "same_net": false
+      }
+    }
+  ],
+  "method": "Drawn B.Courtyard centerline polygons, closed nominal B.Fab outlines, and KiCad effective B.Cu pad polygons transformed in memory. Source CAD is not moved or saved.",
+  "limits": [
+    "Raw drawn-courtyard positive areas on untouched footprint pairs are listed as context, not asserted to be KiCad DRC errors; KiCad uses its own cached contour tolerance.",
+    "Existing routing is intentionally not a placement obstacle; the routing owner will locally reconnect both components and run DRC.",
+    "Via proximity is reported separately and may require authorized local adjustment.",
+    "B.Fab is a nominal package outline; no physical package tolerance or manufacturing qualification is asserted."
+  ],
+  "electrical_role_note": "C7 is U6 VCC bypass, and R4 is UART_TX pullup. The earlier U3-bypass interpretation has been withdrawn.",
+  "KiCad_cached_courtyard_positive_area_overlaps": [],
+  "KiCad_cached_courtyard_overlap_free": true
+}

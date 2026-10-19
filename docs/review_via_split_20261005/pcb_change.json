@@ -1,0 +1,392 @@
+{
+  "status": "candidate_frozen_for_independent_audit",
+  "baseline_sha256": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+  "candidate_sha256": "aac0028466fd502155a5015fa0b8a99458f7701799ea9c1369310f41a707db56",
+  "policy": {
+    "minimum_track_width_mm": 0.15,
+    "via_diameter_mm": 0.5,
+    "signal_ground_drill_mm": 0.2,
+    "power_reference_drill_mm": 0.25,
+    "minimum_new_ground_center_spacing_mm": 0.6025
+  },
+  "before": {
+    "track_count": 318,
+    "via_count": 63,
+    "footprint_count": 39,
+    "layer_lengths_mm": {
+      "F.Cu": 28.856886907114735,
+      "B.Cu": 68.301218811345,
+      "In3.Cu": 52.90535973870374,
+      "In2.Cu": 48.38179888909779,
+      "In4.Cu": 3.5400863140746237
+    },
+    "layer_counts": {
+      "F.Cu": 34,
+      "B.Cu": 187,
+      "In3.Cu": 48,
+      "In2.Cu": 47,
+      "In4.Cu": 2
+    },
+    "ground_fill_area_mm2": {
+      "F.Cu": 95.124044304555,
+      "In1.Cu": 103.0247583377805,
+      "In2.Cu": 23.6807585417695,
+      "In3.Cu": 23.677703604644,
+      "In4.Cu": 101.794223501662
+    },
+    "net_layer_lengths_mm": {
+      "F.Cu /SWCLK": 2.825377627334123,
+      "B.Cu /SWCLK": 2.778647337864796,
+      "In3.Cu /SWCLK": 3.231874755845203,
+      "F.Cu /SDA": 0.99057995638969,
+      "B.Cu /SDA": 1.3117432764336974,
+      "In2.Cu /SDA": 8.537369944036882,
+      "F.Cu /SCL": 1.0071977767007354,
+      "B.Cu /SCL": 3.471211825992709,
+      "In2.Cu /SCL": 3.006050500913945,
+      "F.Cu /LDO_EN": 0.574853520852113,
+      "B.Cu /LDO_EN": 0.5024552553744328,
+      "F.Cu /VLDO": 3.5193969522011015,
+      "B.Cu /VLDO": 0.9221046173579948,
+      "F.Cu 5V_LED": 3.4598499602799144,
+      "B.Cu 5V_LED": 5.673779904084501,
+      "In2.Cu 5V_LED": 3.252947002091935,
+      "F.Cu GND": 2.0107356227525717,
+      "B.Cu GND": 14.556232683832123,
+      "F.Cu /VREF": 6.7861472679742985,
+      "B.Cu /VREF": 0.5525396462005392,
+      "F.Cu /SWDIO": 1.9303885619221846,
+      "B.Cu /SWDIO": 0.7356203532749281,
+      "In2.Cu /SWDIO": 2.7441158726768426,
+      "In3.Cu /SWDIO": 3.3024612034057266,
+      "F.Cu /NRST": 2.9659461953371444,
+      "B.Cu /NRST": 1.508,
+      "In2.Cu /NRST": 1.8008678463452001,
+      "In3.Cu /NRST": 2.425,
+      "F.Cu 3V3": 2.786413465370852,
+      "B.Cu 3V3": 8.56907278221395,
+      "In3.Cu 3V3": 29.777447706570534,
+      "B.Cu /RXN": 3.3338722772768534,
+      "In2.Cu /RXN": 3.6620827660876376,
+      "B.Cu /TXP_DRV": 0.9599493825353751,
+      "In4.Cu /TXP_DRV": 3.5400863140746237,
+      "B.Cu /TXP": 1.2383241156326839,
+      "In2.Cu /TXP": 3.000880331818415,
+      "B.Cu /12V_IN": 2.5192544725075505,
+      "B.Cu 12V": 4.622332211273823,
+      "In3.Cu 12V": 9.540333965991143,
+      "B.Cu /UART_TX": 4.298166785654404,
+      "In2.Cu /UART_TX": 8.209420554115901,
+      "B.Cu /TXN_DRV": 1.1948510744804375,
+      "In2.Cu /TXN_DRV": 5.12443564992318,
+      "B.Cu /RXN_RCV": 0.9394147114027968,
+      "B.Cu /TXN": 1.4295041630560343,
+      "B.Cu /RXP_RCV": 1.2078832702682332,
+      "In2.Cu /RXP_RCV": 3.875967571581777,
+      "B.Cu /RXP": 2.0699673652161854,
+      "In3.Cu /RXP": 4.6282421068911255,
+      "B.Cu /UART_RX": 3.9062912994109187,
+      "In2.Cu /UART_RX": 5.167660849506068
+    }
+  },
+  "after": {
+    "track_count": 325,
+    "via_count": 73,
+    "footprint_count": 39,
+    "layer_lengths_mm": {
+      "F.Cu": 29.245798558083887,
+      "B.Cu": 68.29386409334484,
+      "In3.Cu": 53.22121882134907,
+      "In2.Cu": 45.77968179747516,
+      "In4.Cu": 3.6318314930470788
+    },
+    "layer_counts": {
+      "F.Cu": 36,
+      "B.Cu": 191,
+      "In3.Cu": 47,
+      "In2.Cu": 48,
+      "In4.Cu": 3
+    },
+    "ground_fill_area_mm2": {
+      "F.Cu": 94.7284982075145,
+      "In1.Cu": 103.051109824809,
+      "In2.Cu": 23.6807585376085,
+      "In3.Cu": 23.6739730466365,
+      "In4.Cu": 101.6642136791295
+    },
+    "net_layer_lengths_mm": {
+      "F.Cu /SWCLK": 2.8507599371442884,
+      "B.Cu /SWCLK": 2.778647337864796,
+      "In3.Cu /SWCLK": 3.5208309275611818,
+      "F.Cu /SDA": 1.5750095677683063,
+      "B.Cu /SDA": 1.3117432764336974,
+      "In2.Cu /SDA": 5.484981913648152,
+      "F.Cu /SCL": 0.9833639335819897,
+      "B.Cu /SCL": 3.471211825992709,
+      "In2.Cu /SCL": 2.999615988755894,
+      "F.Cu /LDO_EN": 0.574853520852113,
+      "B.Cu /LDO_EN": 0.5024552553744328,
+      "F.Cu /VLDO": 3.303728427284258,
+      "B.Cu /VLDO": 0.9221046173579948,
+      "F.Cu 5V_LED": 3.0312736492102235,
+      "B.Cu 5V_LED": 5.702211968662734,
+      "In2.Cu 5V_LED": 3.273681275441816,
+      "F.Cu GND": 2.0107356227525717,
+      "B.Cu GND": 14.52796727881902,
+      "F.Cu /VREF": 7.203887498253951,
+      "B.Cu /VREF": 0.5525396462005392,
+      "F.Cu /SWDIO": 1.9303885619221846,
+      "B.Cu /SWDIO": 0.7356203532749281,
+      "In2.Cu /SWDIO": 2.7656190998254004,
+      "In3.Cu /SWDIO": 3.3024612034057266,
+      "F.Cu /NRST": 2.995384373943146,
+      "B.Cu /NRST": 1.508,
+      "In2.Cu /NRST": 1.8008678463452001,
+      "In3.Cu /NRST": 2.425,
+      "F.Cu 3V3": 2.786413465370852,
+      "B.Cu 3V3": 8.56907278221395,
+      "In3.Cu 3V3": 29.804350617499892,
+      "B.Cu /RXN": 3.3338722772768534,
+      "In2.Cu /RXN": 3.666968110626114,
+      "B.Cu /TXP_DRV": 0.9456581840494402,
+      "In4.Cu /TXP_DRV": 3.6318314930470788,
+      "B.Cu /TXP": 1.2383241156326839,
+      "In2.Cu /TXP": 3.0526253119243085,
+      "B.Cu /12V_IN": 2.5192544725075505,
+      "B.Cu 12V": 4.622332211273823,
+      "In3.Cu 12V": 9.540333965991143,
+      "B.Cu /UART_TX": 4.298166785654404,
+      "In2.Cu /UART_TX": 8.287593979833947,
+      "B.Cu /TXN_DRV": 1.1948510744804375,
+      "In2.Cu /TXN_DRV": 5.127789554151649,
+      "B.Cu /RXN_RCV": 0.9394147114027968,
+      "B.Cu /TXN": 1.4295041630560343,
+      "B.Cu /RXP_RCV": 1.2078832702682332,
+      "In2.Cu /RXP_RCV": 3.873103125626829,
+      "B.Cu /RXP": 2.0699673652161854,
+      "In3.Cu /RXP": 4.6282421068911255,
+      "B.Cu /UART_RX": 3.9130611203315726,
+      "In2.Cu /UART_RX": 5.446835591295861
+    }
+  },
+  "existing_via_count_preserved": true,
+  "existing_via_moves": [
+    {
+      "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+      "net": "/TXP_DRV",
+      "before_xy_mm": [
+        23.825,
+        13.95
+      ],
+      "after_xy_mm": [
+        23.875,
+        13.95
+      ],
+      "distance_mm": 0.05000000000000071
+    }
+  ],
+  "footprint_and_pad_geometry_and_net_preserved": true,
+  "added_ground_vias": {
+    "method": "0.0125 mm grid, r5.8..6.0975, exact rounded pad and line distance, minimum candidate center spacing .6025 mm",
+    "diameter_mm": 0.5,
+    "drill_mm": 0.2,
+    "safe_grid_points": 3132,
+    "added_count": 10,
+    "vias": [
+      {
+        "xy_mm": [
+          14.1625,
+          15.4
+        ],
+        "radius_mm": 6.0528015207835795,
+        "angle_deg": -164.67223680469806,
+        "foreign_copper_gap_mm": 0.2778424322567168,
+        "uuid": "85a17963-32df-4f82-be30-8121de561108"
+      },
+      {
+        "xy_mm": [
+          16.55,
+          12.0
+        ],
+        "radius_mm": 6.074742792909013,
+        "angle_deg": -124.60567555163857,
+        "foreign_copper_gap_mm": 0.2513000000000001,
+        "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf"
+      },
+      {
+        "xy_mm": [
+          22.1375,
+          11.3
+        ],
+        "radius_mm": 6.087602668538741,
+        "angle_deg": -69.4439547804165,
+        "foreign_copper_gap_mm": 0.19080642525813496,
+        "uuid": "f325569b-6061-4dac-88d6-3af441c5d35d"
+      },
+      {
+        "xy_mm": [
+          25.8625,
+          17.525
+        ],
+        "radius_mm": 5.8859605205947485,
+        "angle_deg": 5.117314849972625,
+        "foreign_copper_gap_mm": 0.18886228667273985,
+        "uuid": "ba4b0e20-11d7-480b-b57b-c8d9dee0a594"
+      },
+      {
+        "xy_mm": [
+          25.95,
+          18.1375
+        ],
+        "radius_mm": 6.057755875734845,
+        "angle_deg": 10.823011226207122,
+        "foreign_copper_gap_mm": 0.1561881036863838,
+        "uuid": "fd79855d-21f2-4986-8f63-ed46bbcb249a"
+      },
+      {
+        "xy_mm": [
+          25.45,
+          19.625
+        ],
+        "radius_mm": 6.049225156993251,
+        "angle_deg": 25.717855557000725,
+        "foreign_copper_gap_mm": 0.1559091658793047,
+        "uuid": "03792694-29a0-4ed2-be65-a93a04eea25b"
+      },
+      {
+        "xy_mm": [
+          21.6875,
+          22.8375
+        ],
+        "radius_mm": 6.076517300230452,
+        "angle_deg": 73.87651663227325,
+        "foreign_copper_gap_mm": 0.36483340131699316,
+        "uuid": "4333f549-9bfb-4e25-abdd-b191d0e772ac"
+      },
+      {
+        "xy_mm": [
+          19.95,
+          23.075
+        ],
+        "radius_mm": 6.075205757832407,
+        "angle_deg": 90.47155955407614,
+        "foreign_copper_gap_mm": 0.945357384602884,
+        "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d"
+      },
+      {
+        "xy_mm": [
+          18.975,
+          22.9
+        ],
+        "radius_mm": 5.988374153307388,
+        "angle_deg": 99.85556091681427,
+        "foreign_copper_gap_mm": 0.3426134175779374,
+        "uuid": "56bd287b-d09e-48a3-9386-4eb97c39bcef"
+      },
+      {
+        "xy_mm": [
+          16.5375,
+          21.9875
+        ],
+        "radius_mm": 6.071578254457402,
+        "angle_deg": 124.76975736864668,
+        "foreign_copper_gap_mm": 0.18093459546326768,
+        "uuid": "19804070-807c-45f5-949e-cd735efde261"
+      }
+    ]
+  },
+  "native_ground_rim": {
+    "ok": true,
+    "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+    "layers": {
+      "F.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.53,
+        "checked_width_mm": 0.3250000000000002,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In1.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In2.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In3.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In4.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      }
+    },
+    "errors": []
+  },
+  "via_and_width_policy": {
+    "ok": true,
+    "minimum_track_width_mm": 0.15,
+    "track_width_counts": {
+      "0.15": 240,
+      "0.2": 45,
+      "0.3": 7,
+      "0.4": 33
+    },
+    "via_groups": {
+      "signal": 29,
+      "power_reference": 15,
+      "ground": 29
+    },
+    "via_sizes": [
+      {
+        "group": "ground",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 29
+      },
+      {
+        "group": "power_reference",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "count": 15
+      },
+      {
+        "group": "signal",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 29
+      }
+    ],
+    "power_reference_nets": [
+      "12V",
+      "12V_IN",
+      "3V3",
+      "5V_LED",
+      "VLDO",
+      "VREF"
+    ],
+    "errors": []
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "notes": [
+    "No footprint placements, pad nets, TVS values or schematic connectivity changed.",
+    "Added GND vias selected from a 0.0125 mm grid annulus r5.8..6.0975; new holes stay inside r6.20.",
+    "Existing 0.10 mm tracks widened to 0.15 mm; affected routes adjusted locally.",
+    "L2 contains no tracks; L5 contains only TXP_DRV.",
+    "Existing same five warnings retained; manufacturing outputs not generated."
+  ]
+}

@@ -25,10 +25,12 @@ def main():
     inkscape = os.environ.get('INKSCAPE', 'inkscape')
     before = hashlib.sha256(board.read_bytes()).hexdigest()
     entries = [
-        ('01_F_Cu_TOP', 'F.Cu,Edge.Cuts', False, 'TOP: GND pour and local traces, viewed from top'),
-        ('02_In1_Cu_GND', 'In1.Cu,Edge.Cuts', False, 'Layer 2: selected routing and GND pour, viewed from top'),
-        ('03_In2_Cu_3V3', 'In2.Cu,Edge.Cuts', False, 'Layer 3: broad 3V3 traces and routing, viewed from top'),
-        ('04_B_Cu_BOTTOM', 'B.Cu,Edge.Cuts', True, 'BOTTOM copper, viewed from bottom, mirrored'),
+        ('01_F_Cu_TOP', 'F.Cu,F.Mask,F.Fab,Edge.Cuts', False, 'TOP: GND, D6/D7 ESD, exposed pogo pads and fabrication labels, viewed from top'),
+        ('02_In1_Cu_GND', 'In1.Cu,Edge.Cuts', False, 'Layer 2: dedicated GND plane, viewed from top'),
+        ('03_In2_Cu_SIGNAL', 'In2.Cu,Edge.Cuts', False, 'Layer 3: signals and full-board GND pour, viewed from top'),
+        ('04_In3_Cu_POWER', 'In3.Cu,Edge.Cuts', False, 'Layer 4: broad 3V3, selected signals and full-board GND pour, viewed from top'),
+        ('05_In4_Cu_GND', 'In4.Cu,Edge.Cuts', False, 'Layer 5: GND plane and selected short detours, viewed from top'),
+        ('06_B_Cu_BOTTOM', 'B.Cu,Edge.Cuts', True, 'BOTTOM copper and GND pour, viewed from bottom, mirrored'),
     ]
     records = []
     for name, selection, mirror, view in entries:
@@ -48,7 +50,7 @@ def main():
                         'svg_file': svg.name,
                         'svg_sha256': hashlib.sha256(svg.read_bytes()).hexdigest()})
     subprocess.run([cli, 'pcb', 'export', 'pdf', '--layers',
-                    'F.Cu,In1.Cu,In2.Cu,B.Cu', '--common-layers', 'Edge.Cuts',
+                    'F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu', '--common-layers', 'Edge.Cuts',
                     '--mode-multipage', '--scale', '1', '-o',
                     str(output / 'ppg_pcb_v08_layers.pdf'), str(board)], check=True)
     # Preserve the actual custom drawing-sheet position in a separate 1:1 view.
@@ -74,7 +76,7 @@ def main():
                        'sha256': hashlib.sha256(sheet_png.read_bytes()).hexdigest(),
                        'svg_sha256': hashlib.sha256(sheet_svg.read_bytes()).hexdigest()},
         'pdf': {'file': 'ppg_pcb_v08_layers.pdf',
-                'layers': ['F.Cu', 'In1.Cu', 'In2.Cu', 'B.Cu'],
+                'layers': ['F.Cu', 'In1.Cu', 'In2.Cu', 'In3.Cu', 'In4.Cu', 'B.Cu'],
                 'view': 'All PDF layers viewed from top at 1:1 on the custom sheet; bottom PNG is mirrored',
                 'sha256': hashlib.sha256((output / 'ppg_pcb_v08_layers.pdf').read_bytes()).hexdigest()},
     }, indent=2) + '\n')
@@ -82,8 +84,9 @@ def main():
         '# RS-422 PCB 레이어 검토 PNG\n\n'
         '현재 PCB에서 직접 출력한 검토 이미지입니다. 탑면과 내층은 위에서 본 방향, '
         '바텀면은 부품 쪽에서 본 방향으로 좌우 반전했습니다. '
-        '배선 확인을 위해 구리와 보드 외곽만 표시하며, 부품 레퍼런스는 '
-        '[별도 배치도](../placement_preview_rs422/rs422_top_bottom.png)에서 확인합니다.\n\n'
+        '배선 확인을 위해 구리와 보드 외곽을 표시합니다. 탑면은 GND 포고 패드를 '
+        '식별할 수 있도록 마스크 개구와 F.Fab 검토 표기를 함께 표시합니다. '
+        '정확한 부품 위치는 원본 PCB에서 확인합니다.\n\n'
         + ''.join(f'- [{item["file"]}]({item["file"]}): {item["view"]}\n' for item in records)
         + '\n[도면 시트 내 PCB 위치](../pcb_sheet.png)도 별도로 출력했습니다.\n'
         + '\n거버·BOM을 생성하지 않는 검토 출력입니다. 원본 PCB와 이미지 해시는 '

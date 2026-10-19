@@ -1,0 +1,477 @@
+{
+  "source_sha256": "7973931655c11aa6249471ec0cae7d57c474c0ae6485fe4d836be328462c4355",
+  "backup": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\20261008_before_placement_reroute_b\\kicad_before_reroute.zip",
+  "backup_sha256": "a19e66dff5a076ba2eb7da8188402bce620471fc0dc0c0a0a7c1ae3492401e61",
+  "changed_footprints": {
+    "C6": {
+      "before": {
+        "position": [
+          25.3296,
+          14.2022
+        ],
+        "angle": -45.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              25.103326,
+              13.975926
+            ],
+            "net": "3V3"
+          },
+          "2": {
+            "position": [
+              25.555874,
+              14.428474
+            ],
+            "net": "GND"
+          }
+        }
+      },
+      "after": {
+        "position": [
+          20.8,
+          13.1
+        ],
+        "angle": 45.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              20.573726,
+              13.326274
+            ],
+            "net": "3V3"
+          },
+          "2": {
+            "position": [
+              21.026274,
+              12.873726
+            ],
+            "net": "GND"
+          }
+        }
+      }
+    },
+    "R5": {
+      "before": {
+        "position": [
+          24.7408,
+          16.8914
+        ],
+        "angle": -45.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              24.380176,
+              16.530776
+            ],
+            "net": "/TXP_DRV"
+          },
+          "2": {
+            "position": [
+              25.101424,
+              17.252024
+            ],
+            "net": "/TXP"
+          }
+        }
+      },
+      "after": {
+        "position": [
+          25.1,
+          17.3
+        ],
+        "angle": 0.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              24.590001,
+              17.3
+            ],
+            "net": "/TXP_DRV"
+          },
+          "2": {
+            "position": [
+              25.609999,
+              17.3
+            ],
+            "net": "/TXP"
+          }
+        }
+      }
+    },
+    "R4": {
+      "before": {
+        "position": [
+          22.5,
+          16.7
+        ],
+        "angle": -90.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              22.5,
+              16.38
+            ],
+            "net": "/UART_TX"
+          },
+          "2": {
+            "position": [
+              22.5,
+              17.02
+            ],
+            "net": "3V3"
+          }
+        }
+      },
+      "after": {
+        "position": [
+          22.6,
+          16.9
+        ],
+        "angle": 180.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              22.92,
+              16.9
+            ],
+            "net": "/UART_TX"
+          },
+          "2": {
+            "position": [
+              22.28,
+              16.9
+            ],
+            "net": "3V3"
+          }
+        }
+      }
+    },
+    "U3": {
+      "before": {
+        "position": [
+          22.5563,
+          13.3675
+        ],
+        "angle": 45.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              22.379523,
+              14.88778
+            ],
+            "net": "/UART_TX"
+          },
+          "2": {
+            "position": [
+              21.707772,
+              14.216028
+            ],
+            "net": "3V3"
+          },
+          "3": {
+            "position": [
+              21.03602,
+              13.544277
+            ],
+            "net": "3V3"
+          },
+          "4": {
+            "position": [
+              22.733077,
+              11.84722
+            ],
+            "net": "/TXN_DRV"
+          },
+          "5": {
+            "position": [
+              23.404828,
+              12.518972
+            ],
+            "net": "GND"
+          },
+          "6": {
+            "position": [
+              24.07658,
+              13.190723
+            ],
+            "net": "/TXP_DRV"
+          }
+        }
+      },
+      "after": {
+        "position": [
+          23.0,
+          13.9
+        ],
+        "angle": 45.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              22.823223,
+              15.42028
+            ],
+            "net": "/UART_TX"
+          },
+          "2": {
+            "position": [
+              22.151472,
+              14.748528
+            ],
+            "net": "3V3"
+          },
+          "3": {
+            "position": [
+              21.47972,
+              14.076777
+            ],
+            "net": "3V3"
+          },
+          "4": {
+            "position": [
+              23.176777,
+              12.37972
+            ],
+            "net": "/TXN_DRV"
+          },
+          "5": {
+            "position": [
+              23.848528,
+              13.051472
+            ],
+            "net": "GND"
+          },
+          "6": {
+            "position": [
+              24.52028,
+              13.723223
+            ],
+            "net": "/TXP_DRV"
+          }
+        }
+      }
+    },
+    "C16": {
+      "before": {
+        "position": [
+          23.3884,
+          16.0718
+        ],
+        "angle": -90.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              23.3884,
+              15.7518
+            ],
+            "net": "3V3"
+          },
+          "2": {
+            "position": [
+              23.3884,
+              16.3918
+            ],
+            "net": "GND"
+          }
+        }
+      },
+      "after": {
+        "position": [
+          24.3,
+          16.4
+        ],
+        "angle": 180.0,
+        "layer": "B.Cu",
+        "pads": {
+          "1": {
+            "position": [
+              24.62,
+              16.4
+            ],
+            "net": "3V3"
+          },
+          "2": {
+            "position": [
+              23.98,
+              16.4
+            ],
+            "net": "GND"
+          }
+        }
+      }
+    }
+  },
+  "removed_tracks": {},
+  "added_tracks": {},
+  "changed_tracks": {
+    "ba4b0e20-11d7-480b-b57b-c8d9dee0a594": {
+      "before": {
+        "kind": "PCB_VIA",
+        "net": "GND",
+        "layer": "F.Cu",
+        "start": [
+          25.8625,
+          17.525
+        ],
+        "end": [
+          25.8625,
+          17.525
+        ],
+        "width": 0.5,
+        "mid": null
+      },
+      "after": {
+        "kind": "PCB_VIA",
+        "net": "/TXP",
+        "layer": "F.Cu",
+        "start": [
+          25.8625,
+          17.525
+        ],
+        "end": [
+          25.8625,
+          17.525
+        ],
+        "width": 0.5,
+        "mid": null
+      }
+    },
+    "fe883c48-7a35-4659-9976-e7dec80feb2f": {
+      "before": {
+        "kind": "PCB_VIA",
+        "net": "GND",
+        "layer": "F.Cu",
+        "start": [
+          23.75,
+          12.075
+        ],
+        "end": [
+          23.75,
+          12.075
+        ],
+        "width": 0.5,
+        "mid": null
+      },
+      "after": {
+        "kind": "PCB_VIA",
+        "net": "/TXN_DRV",
+        "layer": "F.Cu",
+        "start": [
+          23.75,
+          12.075
+        ],
+        "end": [
+          23.75,
+          12.075
+        ],
+        "width": 0.5,
+        "mid": null
+      }
+    },
+    "127ad8dc-af6b-47f4-b86f-07f29a8dcfcf": {
+      "before": {
+        "kind": "PCB_TRACK",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          23.4048,
+          12.4077
+        ],
+        "end": [
+          23.4048,
+          12.519
+        ],
+        "width": 0.15,
+        "mid": null
+      },
+      "after": {
+        "kind": "PCB_TRACK",
+        "net": "/TXN_DRV",
+        "layer": "B.Cu",
+        "start": [
+          23.4048,
+          12.4077
+        ],
+        "end": [
+          23.4048,
+          12.519
+        ],
+        "width": 0.15,
+        "mid": null
+      }
+    },
+    "551f6b2e-02c5-4ecf-96a5-dddb27eb5898": {
+      "before": {
+        "kind": "PCB_TRACK",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          23.6875,
+          12.125
+        ],
+        "end": [
+          23.4048,
+          12.4077
+        ],
+        "width": 0.15,
+        "mid": null
+      },
+      "after": {
+        "kind": "PCB_TRACK",
+        "net": "/TXN_DRV",
+        "layer": "B.Cu",
+        "start": [
+          23.6875,
+          12.125
+        ],
+        "end": [
+          23.4048,
+          12.4077
+        ],
+        "width": 0.15,
+        "mid": null
+      }
+    },
+    "67189346-ea71-4fba-b1da-bbe333a8ca24": {
+      "before": {
+        "kind": "PCB_TRACK",
+        "net": "GND",
+        "layer": "B.Cu",
+        "start": [
+          23.6875,
+          12.125
+        ],
+        "end": [
+          23.75,
+          12.075
+        ],
+        "width": 0.2,
+        "mid": null
+      },
+      "after": {
+        "kind": "PCB_TRACK",
+        "net": "/TXN_DRV",
+        "layer": "B.Cu",
+        "start": [
+          23.6875,
+          12.125
+        ],
+        "end": [
+          23.75,
+          12.075
+        ],
+        "width": 0.2,
+        "mid": null
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "source_sha256": "4f1e5e79919eb9e914c37ab74f09dba7f9a0d9baf9da9ec891db2f04894e7a50",
+  "start_candidate_sha256": "4127ec3dac28cd542b2b1122f26190c7096edf856f852ab98dbb3acac4e9f7cc",
+  "candidate_sha256": "6f5485a1f81b4cb11914d462fbb74e58576903f7c1595e6b5ecb7f60054ed806",
+  "removed_ids": [
+    "2e6b25e9-418c-4135-b3c7-032a76e0f838",
+    "432a2f59-28fc-4f0c-b76d-28f7755762ea",
+    "5b0a804a-e634-44dd-8e6c-f7a64725b0d8",
+    "78443c97-2851-4e52-a1b0-6cc9084bd433",
+    "8b5b5dac-6652-4857-aeed-d78fa2513cf9",
+    "a48c6e69-3033-4e7f-811e-5e7914e4f6b8",
+    "da40a5ee-dde5-44db-b67f-5dac4d7e237d",
+    "de277e89-77fd-42fc-9a23-0094ba6b9ee1"
+  ],
+  "routes": [
+    {
+      "name": "D8_protected_B",
+      "net": "/NRST",
+      "layer": 2,
+      "points": [
+        [
+          16.6,
+          19.2
+        ],
+        [
+          17.15,
+          19.2
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.15
+    },
+    {
+      "name": "D8_protected_inner",
+      "net": "/NRST",
+      "layer": 6,
+      "points": [
+        [
+          17.15,
+          19.2
+        ],
+        [
+          19.65,
+          19.6
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.15
+    },
+    {
+      "name": "D8_external_pad_entry",
+      "net": "/NRST",
+      "layer": 2,
+      "points": [
+        [
+          16.8,
+          19.7
+        ],
+        [
+          16.6,
+          19.5
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.15
+    },
+    {
+      "name": "D8_GND_short",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          16.6,
+          18.65
+        ],
+        [
+          17.45,
+          18.525
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.3
+    }
+  ],
+  "added_tracks": [
+    {
+      "name": "D8_protected_via",
+      "uuid": "c1aaa0f4-bfe7-4d89-aac6-f04c13b9d6e8",
+      "length_mm": 0
+    },
+    {
+      "name": "D8_protected_B_0",
+      "uuid": "e147b41f-b1d6-4180-91ad-a3e7f2b8c0a1",
+      "length_mm": 0.55
+    },
+    {
+      "name": "D8_protected_inner_0",
+      "uuid": "fa4a18ac-225e-41ab-a0ee-0c46cf4148a7",
+      "length_mm": 2.5317977802344322
+    },
+    {
+      "name": "D8_external_pad_entry_0",
+      "uuid": "55b057d7-2714-43e1-872c-bb468d349a24",
+      "length_mm": 0.28284271247461906
+    },
+    {
+      "name": "D8_GND_short_0",
+      "uuid": "262cc628-89b6-42a4-a063-0910f44071b1",
+      "length_mm": 0.8591420138719791
+    }
+  ],
+  "protected_via_xy": [
+    17.15,
+    19.2
+  ],
+  "all_footprints_unchanged": true,
+  "C13_track_preserved": "6dcbb943-4062-4c5f-a09c-e912d50ab7ca",
+  "before_NRST": {
+    "layers": {
+      "F.Cu": {
+        "count": 4,
+        "length_mm": 2.423380951166243
+      },
+      "B.Cu": {
+        "count": 5,
+        "length_mm": 1.0631662263820874
+      },
+      "In2.Cu": {
+        "count": 5,
+        "length_mm": 3.0863961030678926
+      },
+      "In4.Cu": {
+        "count": 3,
+        "length_mm": 0.2207106781186548
+      }
+    },
+    "length_mm": 6.793653958734878,
+    "NRST_vias": 2,
+    "all_vias": 70
+  },
+  "after_NRST": {
+    "layers": {
+      "F.Cu": {
+        "count": 4,
+        "length_mm": 2.423380951166243
+      },
+      "B.Cu": {
+        "count": 7,
+        "length_mm": 1.8960089388567065
+      },
+      "In2.Cu": {
+        "count": 1,
+        "length_mm": 2.5317977802344322
+      }
+    },
+    "length_mm": 6.8511876702573815,
+    "NRST_vias": 3,
+    "all_vias": 71
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": 5,
+    "warning_types": [
+      "silk_edge_clearance",
+      "silk_edge_clearance",
+      "silk_edge_clearance",
+      "silk_edge_clearance",
+      "lib_footprint_mismatch"
+    ],
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "D8_physical_flow": {
+    "normal": {
+      "source_found": true,
+      "target_found": true,
+      "source_reaches_IC": true,
+      "source_reaches_vias": [
+        "via:7ae3cc54-3f53-495e-be30-5950320b2f34",
+        "via:8e393978-7abf-46b2-be03-4c8a823fd16d",
+        "via:c1aaa0f4-bfe7-4d89-aac6-f04c13b9d6e8"
+      ],
+      "copper_nodes": 16
+    },
+    "pad_omitted": {
+      "source_found": true,
+      "target_found": true,
+      "source_reaches_IC": false,
+      "source_reaches_vias": [
+        "via:8e393978-7abf-46b2-be03-4c8a823fd16d"
+      ],
+      "copper_nodes": 17
+    },
+    "pad_and_underlying_tracks_cut": {
+      "source_found": true,
+      "target_found": true,
+      "source_reaches_IC": false,
+      "source_reaches_vias": [
+        "via:8e393978-7abf-46b2-be03-4c8a823fd16d"
+      ],
+      "copper_nodes": 17
+    }
+  },
+  "routing_topology": "J9 -> existing entry via (16.8,19.7) -> D8.1 lower edge (16.6,19.5) -> pad copper -> D8.1 upper edge (16.6,19.2) -> new protected via (17.15,19.2) -> In2.Cu straight trace -> existing MCU via (19.65,19.6) -> U2.4",
+  "ground_connection": {
+    "pad": "D8.2",
+    "via_xy": [
+      17.45,
+      18.525
+    ],
+    "length_mm": 0.8591420138719791,
+    "width_mm": 0.3
+  },
+  "C13_connection": {
+    "uuid": "6dcbb943-4062-4c5f-a09c-e912d50ab7ca",
+    "width_mm": 0.15,
+    "length_mm": 0.5521
+  },
+  "all_six_GND_layers_refilled": true,
+  "candidate_frozen": true,
+  "project_settings_exactly_preserved": true,
+  "custom_rules_exactly_preserved": true
+}

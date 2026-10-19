@@ -1,0 +1,515 @@
+{
+  "A": {
+    "moves": {
+      "U2": [
+        -0.3,
+        0.05
+      ],
+      "C4": [
+        -0.3,
+        0.05
+      ],
+      "C1": [
+        -0.3,
+        0
+      ]
+    },
+    "reroute_nets": [
+      "/LDO_EN",
+      "/NRST",
+      "/SCL",
+      "/SDA",
+      "/SWCLK",
+      "/SWDIO",
+      "/UART_RX",
+      "/UART_TX",
+      "/VLDO",
+      "3V3",
+      "5V_LED",
+      "GND"
+    ],
+    "fixed_via_pad_conflicts": [
+      {
+        "pad": "U2.10",
+        "pad_net": "unconnected-(U2-PA5-Pad10)",
+        "via_net": "/SCL",
+        "via_uuid": "8c5703f1-e8fa-47be-9ebf-2cf382c221df",
+        "via_xy": [
+          18.2523,
+          15.7863
+        ],
+        "copper_gap_mm": 0.13860200000000233
+      },
+      {
+        "pad": "U2.13",
+        "pad_net": "unconnected-(U2-PA8-Pad13)",
+        "via_net": "/LDO_EN",
+        "via_uuid": "f823b33c-0ad3-416f-9bdd-b5caa2fa7eaf",
+        "via_xy": [
+          19.6,
+          16.46
+        ],
+        "copper_gap_mm": 0.0
+      },
+      {
+        "pad": "C4.2",
+        "pad_net": "GND",
+        "via_net": "/VLDO",
+        "via_uuid": "c74023ec-24e9-4436-a469-2e7825ce8156",
+        "via_xy": [
+          17.175,
+          17.925
+        ],
+        "copper_gap_mm": 0.12500199999999848
+      },
+      {
+        "pad": "C1.1",
+        "pad_net": "5V_LED",
+        "via_net": "/NRST",
+        "via_uuid": "c1aaa0f4-bfe7-4d89-aac6-f04c13b9d6e8",
+        "via_xy": [
+          17.15,
+          19.2
+        ],
+        "copper_gap_mm": 0.0
+      },
+      {
+        "pad": "C1.2",
+        "pad_net": "GND",
+        "via_net": "/VLDO",
+        "via_uuid": "c74023ec-24e9-4436-a469-2e7825ce8156",
+        "via_xy": [
+          17.175,
+          17.925
+        ],
+        "copper_gap_mm": 0.0
+      }
+    ],
+    "fixed_via_drill_into_moved_pad": [
+      {
+        "pad": "C4.2",
+        "pad_net": "GND",
+        "via_net": "GND",
+        "via_uuid": "3ef4a91f-7d62-4629-a3ec-c737f0e78526",
+        "via_xy": [
+          17.005,
+          17.205
+        ],
+        "drill_intersection_area_mm2": 0.026114578687895802
+      },
+      {
+        "pad": "C1.2",
+        "pad_net": "GND",
+        "via_net": "GND",
+        "via_uuid": "b1f15b50-0c88-4054-a5b7-28b7369eb854",
+        "via_xy": [
+          17.45,
+          18.525
+        ],
+        "drill_intersection_area_mm2": 0.019879693510604774
+      }
+    ],
+    "existing_via_chord_distances_mm": [
+      {
+        "pin": "2",
+        "net": "3V3",
+        "via_xy": [
+          20.6734,
+          20.15
+        ],
+        "before": 1.5754149485135645,
+        "after": 1.5607121002926825
+      },
+      {
+        "pin": "3",
+        "net": "GND",
+        "via_xy": [
+          20.0,
+          17.4
+        ],
+        "before": 1.1834380507656503,
+        "after": 1.235060978251683
+      },
+      {
+        "pin": "4",
+        "net": "/NRST",
+        "via_xy": [
+          19.65,
+          19.6
+        ],
+        "before": 1.0251320012564256,
+        "after": 1.0226170446457472
+      },
+      {
+        "pin": "12",
+        "net": "/LDO_EN",
+        "via_xy": [
+          19.6,
+          16.46
+        ],
+        "before": 0.4869061716593874,
+        "after": 0.5058928938026339
+      },
+      {
+        "pin": "15",
+        "net": "/UART_RX",
+        "via_xy": [
+          22.9,
+          13.8
+        ],
+        "before": 2.6628022119564174,
+        "after": 2.9048004440925017
+      },
+      {
+        "pin": "16",
+        "net": "/SWDIO",
+        "via_xy": [
+          21.9622,
+          16.2269
+        ],
+        "before": 0.3486202661923121,
+        "after": 0.6526990807408866
+      },
+      {
+        "pin": "17",
+        "net": "/SWCLK",
+        "via_xy": [
+          22.7,
+          16.1
+        ],
+        "before": 1.4276924108504583,
+        "after": 1.7184747946944103
+      },
+      {
+        "pin": "18",
+        "net": "/SCL",
+        "via_xy": [
+          21.995,
+          17.275
+        ],
+        "before": 0.5531000090399572,
+        "after": 0.8545581431359731
+      },
+      {
+        "pin": "19",
+        "net": "/SDA",
+        "via_xy": [
+          22.45,
+          18.5
+        ],
+        "before": 1.2417872684159712,
+        "after": 1.4720345172583418
+      }
+    ],
+    "nearest_local_decoupling": {
+      "capacitor": "C15",
+      "cap_power_pad_xy": [
+        20.5345,
+        19.4786
+      ],
+      "before_center_distance_mm": 0.9100595859612715,
+      "after_center_distance_mm": 0.8751562431931802
+    }
+  },
+  "B": {
+    "moves": {
+      "U2": [
+        -0.5,
+        0.05
+      ],
+      "C4": [
+        -0.5,
+        0.05
+      ],
+      "C1": [
+        -0.5,
+        0
+      ],
+      "R1": [
+        -0.2,
+        0
+      ],
+      "R2": [
+        -0.2,
+        0
+      ],
+      "D8": [
+        -0.2,
+        0
+      ]
+    },
+    "reroute_nets": [
+      "/LDO_EN",
+      "/NRST",
+      "/SCL",
+      "/SDA",
+      "/SWCLK",
+      "/SWDIO",
+      "/UART_RX",
+      "/UART_TX",
+      "/VLDO",
+      "3V3",
+      "5V_LED",
+      "GND"
+    ],
+    "fixed_via_pad_conflicts": [
+      {
+        "pad": "U2.10",
+        "pad_net": "unconnected-(U2-PA5-Pad10)",
+        "via_net": "/SCL",
+        "via_uuid": "8c5703f1-e8fa-47be-9ebf-2cf382c221df",
+        "via_xy": [
+          18.2523,
+          15.7863
+        ],
+        "copper_gap_mm": 0.13860200000000233
+      },
+      {
+        "pad": "U2.11",
+        "pad_net": "unconnected-(U2-PA6-Pad11)",
+        "via_net": "/SCL",
+        "via_uuid": "8c5703f1-e8fa-47be-9ebf-2cf382c221df",
+        "via_xy": [
+          18.2523,
+          15.7863
+        ],
+        "copper_gap_mm": 0.0
+      },
+      {
+        "pad": "U2.13",
+        "pad_net": "unconnected-(U2-PA8-Pad13)",
+        "via_net": "/LDO_EN",
+        "via_uuid": "f823b33c-0ad3-416f-9bdd-b5caa2fa7eaf",
+        "via_xy": [
+          19.6,
+          16.46
+        ],
+        "copper_gap_mm": 0.0
+      },
+      {
+        "pad": "C4.1",
+        "pad_net": "/VLDO",
+        "via_net": "GND",
+        "via_uuid": "3ef4a91f-7d62-4629-a3ec-c737f0e78526",
+        "via_xy": [
+          17.005,
+          17.205
+        ],
+        "copper_gap_mm": 0.01879541431392371
+      },
+      {
+        "pad": "C1.1",
+        "pad_net": "5V_LED",
+        "via_net": "/NRST",
+        "via_uuid": "c1aaa0f4-bfe7-4d89-aac6-f04c13b9d6e8",
+        "via_xy": [
+          17.15,
+          19.2
+        ],
+        "copper_gap_mm": 0.0
+      },
+      {
+        "pad": "C1.2",
+        "pad_net": "GND",
+        "via_net": "/VLDO",
+        "via_uuid": "c74023ec-24e9-4436-a469-2e7825ce8156",
+        "via_xy": [
+          17.175,
+          17.925
+        ],
+        "copper_gap_mm": 0.0
+      },
+      {
+        "pad": "R2.1",
+        "pad_net": "/SCL",
+        "via_net": "3V3",
+        "via_uuid": "87fa530a-b213-4746-9ce7-74e7552ab61a",
+        "via_xy": [
+          16.85,
+          16.52
+        ],
+        "copper_gap_mm": 0.09000200000000191
+      },
+      {
+        "pad": "R2.2",
+        "pad_net": "3V3",
+        "via_net": "/RXP_RCV",
+        "via_uuid": "0a586513-a19a-41a3-9fb4-a63efdb30cf0",
+        "via_xy": [
+          16.225,
+          16.725
+        ],
+        "copper_gap_mm": 0.0759613090422092
+      }
+    ],
+    "fixed_via_drill_into_moved_pad": [
+      {
+        "pad": "U2.13",
+        "pad_net": "unconnected-(U2-PA8-Pad13)",
+        "via_net": "/LDO_EN",
+        "via_uuid": "f823b33c-0ad3-416f-9bdd-b5caa2fa7eaf",
+        "via_xy": [
+          19.6,
+          16.46
+        ],
+        "drill_intersection_area_mm2": 0.0010593826442736767
+      },
+      {
+        "pad": "C4.2",
+        "pad_net": "GND",
+        "via_net": "GND",
+        "via_uuid": "3ef4a91f-7d62-4629-a3ec-c737f0e78526",
+        "via_xy": [
+          17.005,
+          17.205
+        ],
+        "drill_intersection_area_mm2": 0.022708346443300352
+      },
+      {
+        "pad": "C1.1",
+        "pad_net": "5V_LED",
+        "via_net": "/NRST",
+        "via_uuid": "c1aaa0f4-bfe7-4d89-aac6-f04c13b9d6e8",
+        "via_xy": [
+          17.15,
+          19.2
+        ],
+        "drill_intersection_area_mm2": 0.026940753643390776
+      },
+      {
+        "pad": "C1.2",
+        "pad_net": "GND",
+        "via_net": "/VLDO",
+        "via_uuid": "c74023ec-24e9-4436-a469-2e7825ce8156",
+        "via_xy": [
+          17.175,
+          17.925
+        ],
+        "drill_intersection_area_mm2": 0.005625610960246474
+      },
+      {
+        "pad": "C1.2",
+        "pad_net": "GND",
+        "via_net": "GND",
+        "via_uuid": "b1f15b50-0c88-4054-a5b7-28b7369eb854",
+        "via_xy": [
+          17.45,
+          18.525
+        ],
+        "drill_intersection_area_mm2": 0.020653551807272862
+      },
+      {
+        "pad": "R2.2",
+        "pad_net": "3V3",
+        "via_net": "3V3",
+        "via_uuid": "87fa530a-b213-4746-9ce7-74e7552ab61a",
+        "via_xy": [
+          16.85,
+          16.52
+        ],
+        "drill_intersection_area_mm2": 0.048848620166988335
+      }
+    ],
+    "existing_via_chord_distances_mm": [
+      {
+        "pin": "2",
+        "net": "3V3",
+        "via_xy": [
+          20.6734,
+          20.15
+        ],
+        "before": 1.5754149485135645,
+        "after": 1.6150610700527692
+      },
+      {
+        "pin": "3",
+        "net": "GND",
+        "via_xy": [
+          20.0,
+          17.4
+        ],
+        "before": 1.1834380507656503,
+        "after": 1.2761722532636433
+      },
+      {
+        "pin": "4",
+        "net": "/NRST",
+        "via_xy": [
+          19.65,
+          19.6
+        ],
+        "before": 1.0251320012564256,
+        "after": 1.0995388215065447
+      },
+      {
+        "pin": "12",
+        "net": "/LDO_EN",
+        "via_xy": [
+          19.6,
+          16.46
+        ],
+        "before": 0.4869061716593874,
+        "after": 0.6317971351628648
+      },
+      {
+        "pin": "15",
+        "net": "/UART_RX",
+        "via_xy": [
+          22.9,
+          13.8
+        ],
+        "before": 2.6628022119564174,
+        "after": 3.0497714045482147
+      },
+      {
+        "pin": "16",
+        "net": "/SWDIO",
+        "via_xy": [
+          21.9622,
+          16.2269
+        ],
+        "before": 0.3486202661923121,
+        "after": 0.8509618616600845
+      },
+      {
+        "pin": "17",
+        "net": "/SWCLK",
+        "via_xy": [
+          22.7,
+          16.1
+        ],
+        "before": 1.4276924108504583,
+        "after": 1.9016823131112077
+      },
+      {
+        "pin": "18",
+        "net": "/SCL",
+        "via_xy": [
+          21.995,
+          17.275
+        ],
+        "before": 0.5531000090399572,
+        "after": 1.0542815658067826
+      },
+      {
+        "pin": "19",
+        "net": "/SDA",
+        "via_xy": [
+          22.45,
+          18.5
+        ],
+        "before": 1.2417872684159712,
+        "after": 1.6523091780898627
+      }
+    ],
+    "nearest_local_decoupling": {
+      "capacitor": "C15",
+      "cap_power_pad_xy": [
+        20.5345,
+        19.4786
+      ],
+      "before_center_distance_mm": 0.9100595859612715,
+      "after_center_distance_mm": 0.9396480458128996
+    }
+  }
+}

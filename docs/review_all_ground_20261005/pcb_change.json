@@ -1,0 +1,302 @@
+{
+  "status": "six_layer_ground_filled_candidate_frozen",
+  "baseline_sha256": "e1818c1c868b0c865699eb63ce81bc1743b49348f58d298bcfa953f1c10748e7",
+  "candidate_sha256": "acde2a668cf37064ec92e6d2a75cca0f7511d923814010b9736734c7725d5f3e",
+  "footprints_and_pads_unchanged": true,
+  "all_tracks_and_vias_unchanged": true,
+  "before": {
+    "footprints": 39,
+    "tracks": 322,
+    "vias": 71,
+    "layer_track_length_mm": {
+      "F.Cu": 30.262021300138663,
+      "B.Cu": 69.08005997396057,
+      "In3.Cu": 53.39468855453573,
+      "In2.Cu": 40.567271476302246,
+      "In4.Cu": 5.929871360768511
+    },
+    "layer_track_count": {
+      "F.Cu": 36,
+      "B.Cu": 192,
+      "In3.Cu": 49,
+      "In2.Cu": 39,
+      "In4.Cu": 6
+    },
+    "ground_fill_area_mm2": {
+      "F.Cu": 93.913689338303,
+      "In1.Cu": 103.592236550622,
+      "In2.Cu": 23.9423972091005,
+      "In3.Cu": 23.93710309588,
+      "In4.Cu": 101.1601864908725
+    },
+    "zones": [
+      {
+        "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+        "layer": "F.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.15,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 2
+      },
+      {
+        "uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+        "layer": "In1.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      },
+      {
+        "uuid": "815a3c07-a6fc-433a-b267-ec7379028a18",
+        "layer": "In2.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 1,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      },
+      {
+        "uuid": "7ed06613-b881-493f-acbc-3d524522728a",
+        "layer": "In3.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 1,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      },
+      {
+        "uuid": "01d405f7-3248-4368-b54f-841db8de5e6a",
+        "layer": "In4.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      }
+    ]
+  },
+  "after": {
+    "footprints": 39,
+    "tracks": 322,
+    "vias": 71,
+    "layer_track_length_mm": {
+      "F.Cu": 30.262021300138663,
+      "B.Cu": 69.08005997396057,
+      "In3.Cu": 53.39468855453573,
+      "In2.Cu": 40.567271476302246,
+      "In4.Cu": 5.929871360768511
+    },
+    "layer_track_count": {
+      "F.Cu": 36,
+      "B.Cu": 192,
+      "In3.Cu": 49,
+      "In2.Cu": 39,
+      "In4.Cu": 6
+    },
+    "ground_fill_area_mm2": {
+      "F.Cu": 93.913689338303,
+      "B.Cu": 49.9292554939315,
+      "In1.Cu": 103.592236550622,
+      "In2.Cu": 88.188829751928,
+      "In3.Cu": 70.9408474744975,
+      "In4.Cu": 101.1601864908725
+    },
+    "zones": [
+      {
+        "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+        "layer": "F.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.15,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 2
+      },
+      {
+        "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41",
+        "layer": "B.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.15,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 8
+      },
+      {
+        "uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+        "layer": "In1.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      },
+      {
+        "uuid": "815a3c07-a6fc-433a-b267-ec7379028a18",
+        "layer": "In2.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      },
+      {
+        "uuid": "7ed06613-b881-493f-acbc-3d524522728a",
+        "layer": "In3.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 3
+      },
+      {
+        "uuid": "01d405f7-3248-4368-b54f-841db8de5e6a",
+        "layer": "In4.Cu",
+        "net": "GND",
+        "outline_count": 1,
+        "outline_holes": 0,
+        "clearance_mm": 0.2,
+        "minimum_copper_width_mm": 0.15,
+        "island_removal_mode": 0,
+        "filled_component_count": 1
+      }
+    ]
+  },
+  "zone_changes": [
+    {
+      "uuid": "815a3c07-a6fc-433a-b267-ec7379028a18",
+      "layer": "In2.Cu",
+      "removed_outline_holes": 1
+    },
+    {
+      "uuid": "7ed06613-b881-493f-acbc-3d524522728a",
+      "layer": "In3.Cu",
+      "removed_outline_holes": 1
+    },
+    {
+      "uuid": "2da19096-c77b-4226-b9a0-b675f88b1c41",
+      "layer": "B.Cu",
+      "added_full_ground_zone": true,
+      "clearance_mm": 0.15,
+      "minimum_copper_width_mm": 0.15,
+      "pad_connection": "solid",
+      "island_removal": "always"
+    }
+  ],
+  "all_ground_components_connected": true,
+  "native_ground_rim": {
+    "ok": true,
+    "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+    "layers": {
+      "F.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.53,
+        "checked_width_mm": 0.3250000000000002,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In1.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In2.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In3.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      },
+      "In4.Cu": {
+        "inner_radius_mm": 6.205,
+        "outer_radius_mm": 6.43,
+        "checked_width_mm": 0.22499999999999964,
+        "missing_saved_fill_mm2": 0.0
+      }
+    },
+    "errors": []
+  },
+  "via_and_width_policy": {
+    "ok": true,
+    "minimum_track_width_mm": 0.15,
+    "track_width_counts": {
+      "0.15": 235,
+      "0.2": 40,
+      "0.3": 12,
+      "0.4": 35
+    },
+    "via_groups": {
+      "signal": 28,
+      "power_reference": 15,
+      "ground": 28
+    },
+    "via_sizes": [
+      {
+        "group": "ground",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 28
+      },
+      {
+        "group": "power_reference",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "count": 15
+      },
+      {
+        "group": "signal",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 28
+      }
+    ],
+    "power_reference_nets": [
+      "12V",
+      "12V_IN",
+      "3V3",
+      "5V_LED",
+      "VLDO",
+      "VREF"
+    ],
+    "errors": []
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "notes": [
+    "Only GND zone definitions/fills changed. Footprints, tracks, vias and electrical nets are preserved.",
+    "The two central exclusions on L3/L4 were removed; one full-board B.Cu GND zone was added. All six zones discard isolated islands.",
+    "Front and back local zone clearances are 0.15 mm; inner clearances remain 0.20 mm.",
+    "B.Cu uses solid ground-pad connections and 0.15 mm minimum filled copper width.",
+    "L1-L5 checked perimeter band remains continuous; B.Cu fills available space without a required continuous perimeter band.",
+    "Gerber/drill export is handled separately after independent audit."
+  ]
+}

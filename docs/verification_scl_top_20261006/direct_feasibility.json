@@ -1,0 +1,26 @@
+{
+  "direct_length_mm": 0.7978176358040717,
+  "minimum_other_copper_clearance_mm": 0.320991497081403,
+  "nearest": [
+    {
+      "item": "U1.1",
+      "net": "/SDA",
+      "clearance_mm": 0.320991497081403
+    },
+    {
+      "item": "U1.3",
+      "net": "/LDO_EN",
+      "clearance_mm": 0.32501105852378837
+    },
+    {
+      "item": "e89a0686-041c-4b5f-84b0-86c08acf3473",
+      "net": "/SDA",
+      "clearance_mm": 0.3259584256420685
+    },
+    {
+      "item": "df387475-59c0-4b0b-b1ec-19d883d9f0dd",
+      "net": "/SDA",
+      "clearance_mm": 0.369639168143233
+    }
+  ]
+}

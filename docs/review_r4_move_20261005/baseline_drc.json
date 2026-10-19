@@ -1,0 +1,428 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-05T22:15:22",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "패드 2 [3V3]의 R4 위B.Cu",
+                    "pos": {
+                        "x": 20.7,
+                        "y": 11.78
+                    },
+                    "uuid": "7226f32a-bb73-45ee-bb6c-d0f25153eb4b"
+                },
+                {
+                    "description": "배선 [3V3] on B.Cu, 길이 0.8237 mm",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 12.65
+                    },
+                    "uuid": "cf2c2b7e-b9e1-4eec-bfeb-c2be0a9d2a87"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "패드 1 [/UART_TX]의 R4 위B.Cu",
+                    "pos": {
+                        "x": 20.7,
+                        "y": 12.42
+                    },
+                    "uuid": "b6bd341c-4c48-467a-9a35-ec9b7373bfa7"
+                },
+                {
+                    "description": "배선 [/UART_TX] on B.Cu, 길이 0.8500 mm",
+                    "pos": {
+                        "x": 20.35,
+                        "y": 14.9
+                    },
+                    "uuid": "125e94e4-e436-4bbb-807b-7c21656e093e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 12.6
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                },
+                {
+                    "description": "영역 [GND] on F.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "홀 공간거리 위반 (기판의 홀 제약조건 설정 공간거리 0.2000 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 12.6
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                },
+                {
+                    "description": "영역 [GND] on F.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "공간거리 위반 (구역 공간거리 0.2000 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 12.6
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                },
+                {
+                    "description": "영역 [GND] on In1.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "a7edfced-e150-416c-b330-7dc77bca8637"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "홀 공간거리 위반 (기판의 홀 제약조건 설정 공간거리 0.2000 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 12.6
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                },
+                {
+                    "description": "영역 [GND] on In1.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "a7edfced-e150-416c-b330-7dc77bca8637"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "공간거리 위반 (구역 공간거리 0.2000 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 12.6
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                },
+                {
+                    "description": "영역 [GND] on In4.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "01d405f7-3248-4368-b54f-841db8de5e6a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "홀 공간거리 위반 (기판의 홀 제약조건 설정 공간거리 0.2000 mm; 실제값 0.0000 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 12.6
+                    },
+                    "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91"
+                },
+                {
+                    "description": "영역 [GND] on In4.Cu, 우선순위 0",
+                    "pos": {
+                        "x": 26.75,
+                        "y": 17.0
+                    },
+                    "uuid": "01d405f7-3248-4368-b54f-841db8de5e6a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "풋프린트 R4",
+                    "pos": {
+                        "x": 20.7,
+                        "y": 12.1
+                    },
+                    "uuid": "4d88d970-0ec5-4ff9-b932-221f811f5baa"
+                },
+                {
+                    "description": "풋프린트 U3",
+                    "pos": {
+                        "x": 22.5563,
+                        "y": 13.3675
+                    },
+                    "uuid": "4e35e779-0e69-46d5-b5c9-4e585293b3a0"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "풋프린트 R4",
+                    "pos": {
+                        "x": 20.7,
+                        "y": 12.1
+                    },
+                    "uuid": "4d88d970-0ec5-4ff9-b932-221f811f5baa"
+                },
+                {
+                    "description": "풋프린트 FB1",
+                    "pos": {
+                        "x": 20.9197,
+                        "y": 11.0681
+                    },
+                    "uuid": "ec38a1c3-7387-468c-819b-bd204b429965"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "풋프린트 C7",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 12.33
+                    },
+                    "uuid": "ae641577-a546-46f8-8af3-83fb95113ff8"
+                },
+                {
+                    "description": "풋프린트 U6",
+                    "pos": {
+                        "x": 17.81,
+                        "y": 13.7663
+                    },
+                    "uuid": "e040f3aa-757e-4789-898a-55be20eb7856"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "배선 [3V3] on B.Cu, 길이 0.4945 mm",
+                    "pos": {
+                        "x": 25.43,
+                        "y": 15.9
+                    },
+                    "uuid": "41b86a7f-0be9-483e-862b-96f1811f128b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "배선 [/UART_TX] on B.Cu, 길이 1.0107 mm",
+                    "pos": {
+                        "x": 26.07,
+                        "y": 15.9
+                    },
+                    "uuid": "b63c3d13-a9b3-46e7-9bfb-ebd290f97905"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 22.6789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 23.1539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 22.802478,
+                        "y": 22.722255
+                    },
+                    "uuid": "8f36f2e8-f175-4236-970d-4543a11a4723"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.138353,
+                        "y": 23.05813
+                    },
+                    "uuid": "7d01be0c-4214-42f6-a54a-d7168f1ec9f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 U2",
+                    "pos": {
+                        "x": 20.1419,
+                        "y": 17.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

@@ -214,7 +214,7 @@ def tidy(source, target):
                         series = {('U3', '6'): 'R5', ('U3', '4'): 'R6', ('U6', '6'): 'R7', ('U6', '4'): 'R8'}[ref, num]
                         sx = 368.3
                         placed = move(original[series], sx, ay, 90,
-                                      ref_at=(sx-3.81, ay-4.445), val_at=(sx+1.27, ay-4.445))
+                                      ref_at=(sx-3.81, ay-4.445), val_at=(sx+6.35, ay-4.445))
                         for field_name in ('Reference', 'Value'):
                             get(prop(placed, field_name), 'at')[3] = 90
                         wire(ax, ay, sx-3.81, ay)
@@ -299,7 +299,7 @@ def tidy(source, target):
     passive('C7', 289.56, 116.84)
     passive('R3', 387.35, 144.78)
     text('U3: DE = 3V3. U6: /EN = GND.', 285.75, 139.065)
-    text('R3: 120/1% at the local RX cable pair.', 285.75, 144.145)
+    text('R3: 120 Ω / 1% at the local RX cable pair.', 285.75, 144.145)
     text('Enhanced fail-safe: UART_RX high.', 285.75, 149.225)
 
     protected = 'FB1' in original
@@ -359,7 +359,7 @@ def tidy(source, target):
         rule(15.24, 269.24, 289.56)
         text('C1: 5V_LED / U4 output bulk capacitor (section 01). D1 clamps raw 12V_IN; FB1 feeds filtered 12V.', 15.24, 273.05)
         text('Cable: 12V, GND, TXP, TXN, RXP, RXN. Piezo coax bypasses this PCB. Matching net labels are connected.', 15.24, 278.13)
-        text('RS-422 bus TVS omitted; 22 ohm series retained. D1 protects supply, D6-D8 protect SWD. IEC immunity requires physical validation.', 15.24, 283.21)
+        text('RS-422 bus TVS omitted; 22 Ω series retained. D1 protects supply, D6-D8 protect SWD. IEC immunity requires physical validation.', 15.24, 283.21)
     else:
         # Continue to support the original 26-part design for archived builds.
         heading('04  POWER SUPPLIES', 15.24, 165.1, 229.87)

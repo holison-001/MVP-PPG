@@ -1,0 +1,32 @@
+{
+  "read_only": true,
+  "source_sha256": "5c56fd812b7731454b473263236c5e6cdbb83d56181a3880a614fd235b8c4d0f",
+  "5V_LED_vias_mm": [
+    [
+      20.223242,
+      18.960665
+    ],
+    [
+      21.725,
+      20.025
+    ]
+  ],
+  "independent_same_layer_path_between_vias": {
+    "F.Cu": true,
+    "In3.Cu": true
+  },
+  "D1_removed_in_memory_checks": [
+    {
+      "board": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\c17_reroute_20261008\\integrated\\ppg_pcb_v08.kicad_pcb",
+      "J1_to_FB1_B_copper_connected_omitting_D1_pad": true,
+      "input_net": "/12V_IN",
+      "FB1_pin": "1"
+    },
+    {
+      "board": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\routing_recheck_20261008\\snapshot\\ppg_pcb_v08.kicad_pcb",
+      "J1_to_FB1_B_copper_connected_omitting_D1_pad": true,
+      "input_net": "/12V_IN",
+      "FB1_pin": "1"
+    }
+  ]
+}

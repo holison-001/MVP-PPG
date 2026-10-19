@@ -1,0 +1,127 @@
+{
+  "source_sha256": "a30e88efa2929dcb1e44fb2f3dcc19be770a36a75905ea4f6a7d5aae51efa9dd",
+  "candidate_sha256": "e0328b245de0281effbb0ba79942b417090891ca4a4f0d901ac16a0b8efa0a21",
+  "placements": {
+    "C5": [
+      22.725,
+      17.56
+    ],
+    "R5": [
+      23.7,
+      18.2
+    ]
+  },
+  "via_changes": [
+    {
+      "id": "65abe2a2-bd53-4d83-a1da-9f96f6d36a5e",
+      "old": [
+        19.5882,
+        19.9189
+      ],
+      "new": [
+        23.225,
+        17.05
+      ]
+    },
+    {
+      "id": "1b2f79e2-bd74-4382-9704-ad7bbb2e1845",
+      "old": [
+        22.95,
+        17.375
+      ],
+      "new": [
+        23.1,
+        18.775
+      ]
+    }
+  ],
+  "affected_nets": {
+    "/SWCLK": {
+      "before": {
+        "length_mm": 8.89211096497087,
+        "lines": 10,
+        "arcs": 4
+      },
+      "after": {
+        "length_mm": 8.783982247029101,
+        "lines": 12,
+        "arcs": 5
+      },
+      "length_change_mm": -0.10812871794176893
+    },
+    "GND": {
+      "before": {
+        "length_mm": 19.45549732929799,
+        "lines": 75,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 19.838544323803887,
+        "lines": 76,
+        "arcs": 1
+      },
+      "length_change_mm": 0.3830469945058965
+    },
+    "/VREF": {
+      "before": {
+        "length_mm": 7.958469814211006,
+        "lines": 16,
+        "arcs": 8
+      },
+      "after": {
+        "length_mm": 2.907014317693517,
+        "lines": 3,
+        "arcs": 1
+      },
+      "length_change_mm": -5.051455496517489
+    },
+    "/TXP_DRV": {
+      "before": {
+        "length_mm": 4.576407933670917,
+        "lines": 5,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 7.486107748967188,
+        "lines": 8,
+        "arcs": 4
+      },
+      "length_change_mm": 2.909699815296271
+    },
+    "/TXP": {
+      "before": {
+        "length_mm": 4.8385934373383686,
+        "lines": 10,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 4.746562937858338,
+        "lines": 9,
+        "arcs": 1
+      },
+      "length_change_mm": -0.09203049948003095
+    }
+  },
+  "native_drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "vias": {
+    "before": 70,
+    "after": 71,
+    "moved": 2,
+    "added": 1,
+    "deleted": 0,
+    "added_ground_via": {
+      "xy": [
+        23.035,
+        18.105
+      ],
+      "land_mm": 0.5,
+      "drill_mm": 0.2
+    }
+  },
+  "total_length_change_mm": -1.9588679041371213
+}

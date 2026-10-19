@@ -1,0 +1,236 @@
+{
+  "board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+  "baseline": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\before_via_drill_025_20261009_200410\\ppg\\ppg_pcb_v08.kicad_pcb",
+  "baseline_sha256": "14ac36dfae59d05de2911641839c7772f608e13b09868ba88c7ec1f2b5b95f6a",
+  "read_only": true,
+  "source_unchanged_at_end": true,
+  "footprints": 42,
+  "footprint_uuids_and_geometry_unchanged": true,
+  "changed_footprints": [],
+  "track_count": 276,
+  "via_count": 64,
+  "via_uuid_set_preserved": true,
+  "via_drills_changed": 50,
+  "via_drill_changed_uuids": [
+    "41807256-542f-4e11-af12-f879e81dd8d3",
+    "91840650-4d9d-4f4e-8848-1688b00d7766",
+    "00bb8397-337b-43ed-9226-27288760dcc5",
+    "9f79b619-847a-4686-ac48-ea31d4e96cf0",
+    "1c626705-f834-421b-8008-dc3d6ea3b627",
+    "c260b8bf-8af6-4612-b210-914c5479e922",
+    "a167e8b0-a7b6-480e-ada2-bbf8993a9651",
+    "03792694-29a0-4ed2-be65-a93a04eea25b",
+    "082b96b6-a650-4b7e-8dc5-b56c7126a39e",
+    "16f5aef4-a55b-4a19-b57b-29b3d613b2f1",
+    "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+    "19804070-807c-45f5-949e-cd735efde261",
+    "2162c3b4-5c58-48e9-a0d1-f860b4ed461c",
+    "35448a0b-373d-410f-a64b-7f39c02c6e46",
+    "4333f549-9bfb-4e25-abdd-b191d0e772ac",
+    "4750009c-3a52-42e4-af4d-78780a6e2e74",
+    "56bd287b-d09e-48a3-9386-4eb97c39bcef",
+    "5ad77545-0967-434e-bd90-9a940994d5d1",
+    "5b5ac3f3-b7a1-4f21-8dd1-9f7a1ec4ee17",
+    "671038f5-3506-4a54-9434-0d5f89a1b4f5",
+    "6afcebf3-1127-453f-9bad-8430d4659d52",
+    "76c32542-52f4-4141-92fc-1f89edf6c398",
+    "76d5b365-3afe-4523-a5f0-5d573a734623",
+    "772aadf9-80de-4246-a522-cc7dd82ff9c1",
+    "859556c5-35ff-4162-8cf9-4d68d1b4942a",
+    "85a17963-32df-4f82-be30-8121de561108",
+    "86015f37-5b20-47c6-95f8-d677c82e6f17",
+    "9e24d978-0778-474c-a898-e6f8be28941b",
+    "a075782b-bcda-4a2a-a614-57ace57c1d98",
+    "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+    "bd9d5774-5014-4735-9041-fa644e39e5f9",
+    "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+    "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+    "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+    "d475599c-512f-4389-b0b2-903f20eca7f4",
+    "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+    "e927e4ce-fa7a-44a4-90b6-ba1f6e9d6dce",
+    "f325569b-6061-4dac-88d6-3af441c5d35d",
+    "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+    "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+    "a855db34-2e7b-4ecc-a2be-9db1fc7525f6",
+    "14293515-030e-40be-aa53-bf1b8f4e4967",
+    "19111925-a0fd-4aa9-bb43-d1ee6261ad94",
+    "ee6439d6-3fa4-42d6-bb43-21ffcf99a6ac",
+    "af833d76-5227-4dab-a576-9262a5b0c496",
+    "c93b8bc8-ac98-4724-bdbb-f92a2d5f5f63",
+    "6cbfb8d1-7e96-49f3-a4d3-b38c7b665515",
+    "ea5765bb-e119-487e-84d7-c5e2cea0ee67",
+    "0405053e-1196-424d-9b50-bcf47af7d79b",
+    "34c93fe2-e421-43f0-a097-5abe76b64953"
+  ],
+  "approved_ground_stitch_moves": [
+    {
+      "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+      "before": [
+        16.55,
+        12.0
+      ],
+      "after": [
+        16.535,
+        12.0
+      ],
+      "displacement_mm": 0.015000000000000568,
+      "net": "GND"
+    },
+    {
+      "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+      "before": [
+        19.95,
+        23.075
+      ],
+      "after": [
+        19.95,
+        23.185
+      ],
+      "displacement_mm": 0.10999999999999943,
+      "net": "GND"
+    }
+  ],
+  "unexpected_copper_changes": [],
+  "via_dimension_errors": [],
+  "minimum_hole_to_hole_mm": 0.25618672444069446,
+  "closest_via_pair": [
+    "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+    "c23e0c08-835f-4c3b-b611-0f1491f0dd53"
+  ],
+  "all_signal_and_GND_track_geometry_unchanged": true,
+  "minimum_track_width_mm": 0.15,
+  "board_layers": 6,
+  "board_thickness_mm": 0.8,
+  "L2_track_count": 0,
+  "GND_graph": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 11,
+    "reachable_nodes": 11,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "GND_zones": [
+    {
+      "layer": "F.Cu",
+      "area_mm2": 102.05026348004894,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "B.Cu",
+      "area_mm2": 54.96656580687302,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In1.Cu",
+      "area_mm2": 110.31107933986995,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In2.Cu",
+      "area_mm2": 95.46321836295701,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In3.Cu",
+      "area_mm2": 85.75000802439602,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In4.Cu",
+      "area_mm2": 110.31107933986995,
+      "filled": true,
+      "needs_refill": false
+    }
+  ],
+  "L1_L5_rim": [
+    {
+      "layer": "F.Cu",
+      "inner_mm": 6.205,
+      "outer_mm": 6.53,
+      "missing_area_mm2": 0.0,
+      "unreachable_saved_ground_regions": [],
+      "passed": true
+    },
+    {
+      "layer": "In1.Cu",
+      "inner_mm": 6.205,
+      "outer_mm": 6.43,
+      "missing_area_mm2": 0.0,
+      "unreachable_saved_ground_regions": [],
+      "passed": true
+    },
+    {
+      "layer": "In2.Cu",
+      "inner_mm": 6.205,
+      "outer_mm": 6.43,
+      "missing_area_mm2": 0.0,
+      "unreachable_saved_ground_regions": [],
+      "passed": true
+    },
+    {
+      "layer": "In3.Cu",
+      "inner_mm": 6.205,
+      "outer_mm": 6.43,
+      "missing_area_mm2": 0.0,
+      "unreachable_saved_ground_regions": [],
+      "passed": true
+    },
+    {
+      "layer": "In4.Cu",
+      "inner_mm": 6.205,
+      "outer_mm": 6.43,
+      "missing_area_mm2": 0.0,
+      "unreachable_saved_ground_regions": [],
+      "passed": true
+    }
+  ],
+  "ESD_physical_landing": [
+    {
+      "net": "/SWDIO",
+      "source": "J7.1",
+      "tvs": "D6.1",
+      "target": "U2.16",
+      "normal_connected": true,
+      "cut_physical_pad_region_connected": false,
+      "pad_object_only_removal_connected_before": false,
+      "pad_object_only_removal_connected_after": false,
+      "passed": true
+    },
+    {
+      "net": "/SWCLK",
+      "source": "J8.1",
+      "tvs": "D7.1",
+      "target": "U2.17",
+      "normal_connected": true,
+      "cut_physical_pad_region_connected": false,
+      "pad_object_only_removal_connected_before": false,
+      "pad_object_only_removal_connected_after": false,
+      "passed": true
+    },
+    {
+      "net": "/NRST",
+      "source": "J9.1",
+      "tvs": "D8.1",
+      "target": "U2.4",
+      "normal_connected": true,
+      "cut_physical_pad_region_connected": false,
+      "pad_object_only_removal_connected_before": true,
+      "pad_object_only_removal_connected_after": true,
+      "passed": true
+    }
+  ],
+  "baseline_D8_object_omission_false_positive_preserved": true,
+  "limitations": [
+    "Read-only native PCB geometry and saved-fill audit. Native KiCad DRC/authoritative schematic parity are run separately.",
+    "D8 pad-object omission is a known overstrict check because incoming/outgoing copper meet inside the physical pad region; physical-pad-area cut disconnects the IC path."
+  ],
+  "passed": true
+}

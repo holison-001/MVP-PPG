@@ -1,0 +1,1720 @@
+{
+  "canonical_source_sha256": "914cfd30e2fe7c789235ae6b9359ea89543286b5d823b4c27cc959807f56516b",
+  "prepared_sha256": "914cfd30e2fe7c789235ae6b9359ea89543286b5d823b4c27cc959807f56516b",
+  "candidate_sha256": "bbd74454cdfd2f07445fb08227b9e11855be98583af45f1e497f3e75ff5221ce",
+  "patches": [
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\placement_reroute_20261008d\\signals\\signals_patch.json",
+      "sha256": "dd4af400d4850439371ff98e88a506326120e889abc0ab2aef52456712dddb4f"
+    },
+    {
+      "path": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\placement_reroute_20261008d\\power\\power_patch.json",
+      "sha256": "617422ecc10a2044e1306b13bd392fb05cbb2d556b14a042e232bed43b45e936"
+    }
+  ],
+  "placement_overrides": {
+    "C11": {
+      "position": [
+        18,
+        19.6
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    },
+    "U4": {
+      "position": [
+        18.7257,
+        21.7439
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    }
+  },
+  "removed_prepared_ids": [
+    "064088b8-ecc8-4375-8977-834f72bf2466",
+    "08984055-1ee0-4fda-b381-c915ec38c9a6",
+    "0af168e1-9bdb-4ee1-b5f5-fe6b986b8be2",
+    "0ff5c04f-8bf1-4660-a716-b96ac614e0df",
+    "13708d2e-62fe-46ee-8ef5-f4eddc1de567",
+    "14ac5172-dc49-4e10-8d34-957681b41eb6",
+    "18322470-7361-4b0a-8434-743f3ca8b2cd",
+    "1846ad8f-fbac-4de4-b3db-4c14c004335f",
+    "19f63d79-774e-4618-8542-5f7788cbb75f",
+    "1a595cf7-c52f-4f7f-b86e-28c1679dcf7e",
+    "1cee03a4-08ca-4009-92b6-84d4a8a0e82e",
+    "1dfa1d9f-5014-45cd-a71f-8cef8c2d1fda",
+    "22bceb5c-d71a-42bf-800b-a15ebbc3d0d2",
+    "22fa5b4b-5a80-431d-9e5c-e93c0a02e761",
+    "29e61a13-7c59-4cd2-8d5c-f2da00d869a9",
+    "2fccba6b-b243-491e-957a-282e0819bdd8",
+    "32dba5c9-d743-4289-8a21-ee7461aaac99",
+    "3687a4e1-8b1b-4305-acc6-cd7d41e7c83a",
+    "39ba900b-17ed-4e08-9b3c-546448c6c863",
+    "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+    "3be30ad8-a3d4-48fb-a062-8303080b1bcc",
+    "3c0abaeb-6700-4d44-89d4-aabbfdc9b4e8",
+    "40f3d454-234f-4afd-9ce5-e449bd5b9f9a",
+    "41b5dd77-f0ad-4d67-8e73-708b7f15261a",
+    "4535318e-1883-4a70-9d5c-d4eb095a55e1",
+    "49581435-67f8-4b02-8c18-a0f1e9e2750d",
+    "4ed3eb39-b88f-422f-87a9-2f7860f5c219",
+    "507b0ce5-04b4-4704-9752-f5e09368bf02",
+    "517f2c80-7ed9-404c-8e87-098e1545198a",
+    "53d61902-793a-4966-82bf-61ad9db54a3c",
+    "53d7c757-a038-431f-9993-4f59bdcbc3f9",
+    "5420ae3e-81c8-4c83-aee3-a8b30a95ab88",
+    "547643ad-43a6-4888-9eb9-27478eb0536c",
+    "54d856e2-2532-4ae9-9677-1e906e2ea5f0",
+    "55e2eaa0-a6c3-411a-b02f-ad3c140b2be2",
+    "5835fd44-d550-4a78-b4db-1c1f39e29f74",
+    "5d01351f-2050-400d-89ba-be6c1482cd87",
+    "5d427ae8-7696-41a1-b641-a54436792472",
+    "626ea59e-e88f-41e1-a882-1278f05b7e26",
+    "63538e8a-4575-46f6-b917-daad08147c22",
+    "637378f6-196a-4ead-95ce-1b1d1a480ee1",
+    "65ce020e-3c60-4f3e-9da0-0ed3ac788bb6",
+    "65dee6eb-b148-4ef7-898b-5138631859b7",
+    "6a937a0f-5877-489b-9211-8a8b8fdc090e",
+    "6b478343-58fd-4ed4-aa04-009ed194a13b",
+    "6e9d44cb-937e-42d6-b9ed-c73dca568cb4",
+    "6f3df27d-ddcd-4b14-842c-3d8aa30966ff",
+    "736fa378-dde2-4b43-98e5-19cfe796ba37",
+    "74057cdc-c3e5-409a-868e-fccd4ab04f9b",
+    "745e9161-e658-4cc1-848e-eedea3474013",
+    "7580a1a7-250e-4917-ac87-13803d1480e1",
+    "758f5709-88c4-4f3c-bd7b-f74d731c9d81",
+    "76a130cc-1669-4db9-99db-6132fb486d97",
+    "76adceb7-3cf7-46ae-9be1-75d0b811aedb",
+    "7779d53b-ab56-46d8-8ecc-59cb7b5ef5f2",
+    "77f3f47f-3c72-4e8e-8e2c-4e93122e3fd0",
+    "7987439c-18db-452e-b2f1-3d05c4cd5a71",
+    "7cfbc665-3ea9-4e27-bdd3-f6276b3e9f27",
+    "7e4d3489-902b-4ae9-ae80-4c7cdadb7dff",
+    "802bef38-4e79-4a64-8121-d756f21dcd2a",
+    "81f21713-242f-4d20-9324-7aab8b189b3d",
+    "850c0377-3be5-44c8-9887-912fbe382e65",
+    "851d2036-a7f4-4d4a-a1df-bad74eead987",
+    "856d1d3d-03ca-4f07-82f4-a116ca4aa938",
+    "89a06ec1-8af1-4d9c-be6f-c8d2b1c595f6",
+    "8c17dff5-d7e1-4cc8-ac2f-fe18091ba192",
+    "8c8fbc05-2346-4cf9-83cc-6e3f63ba903a",
+    "8e393978-7abf-46b2-be03-4c8a823fd16d",
+    "8e39dc3f-9c58-41a1-9d76-2f86314156e9",
+    "9336e3e1-50b7-4ab3-881e-32818aabfc92",
+    "9aa819e9-3855-4e0c-a8b8-5e4a9d0e8f04",
+    "9eec9f61-8d0b-4cb9-b62a-bd0a73c6d41f",
+    "a167ee40-7167-4f44-8994-7eaf3f5a0c35",
+    "a66307ef-2b17-4f64-8a1b-f5d0d2abc822",
+    "a6c7a264-e2cd-4450-86df-782a58839f00",
+    "a74e4a6e-c7a7-4ac2-876f-343f6798cb85",
+    "abfcf1b1-e84f-4aaf-ad60-33b59f2e0f3b",
+    "ad1caf13-5b0c-4047-8b7e-71ada2f7788b",
+    "ad5546a1-11e5-4d45-9b75-084efa489a5b",
+    "aee0db83-f5fd-45ac-a572-6c57bca73a60",
+    "afceb2c5-b406-4cb3-98ac-8d3061056927",
+    "b0ca565d-2e69-4ed7-81a4-fdb3c29054ff",
+    "b77a23e1-f2d9-4364-8011-c71a1cb2c1d9",
+    "b930c6e8-40d2-496d-9975-b879c4987c1d",
+    "ba38196b-c172-40bd-bb6e-cf96e10195ba",
+    "ba81c8de-dbae-42d3-9745-048338df72dc",
+    "bbe17536-13ef-449d-9e47-3d88d73ce915",
+    "bdcd1ff1-a470-4ad8-9e10-042c18dfc8ff",
+    "beb1d81b-2143-4429-9db7-2b6b188d7cb7",
+    "c212bfa9-14b6-4426-b3b5-1f61a27e393b",
+    "c57c9769-a255-4162-9506-46f92101a0c0",
+    "ca5d185b-18df-40d1-87ec-104f44a83797",
+    "caa4b215-b0a1-4359-8217-47a067f0ec30",
+    "cb429a3c-be9a-48c5-8ac3-ba372db8eaf2",
+    "cd745784-7cc5-46bf-ab59-92b9955ff66b",
+    "cfbd0ddc-e885-48fe-999e-40f5aee18931",
+    "d0065845-7a97-4ecd-964e-f680dddf90ff",
+    "d2f80391-4ca1-482e-a1d9-3ed0528867bf",
+    "d547cbc4-f468-48e9-873c-34083bbc74ad",
+    "d96f62f8-bb23-4f94-b975-3767abde04f0",
+    "dd9cdddf-852c-4181-88e0-3c84458c7f2e",
+    "df2c281d-876f-464a-afdc-1ecb817b4dc1",
+    "e0f6b1f6-331e-43a5-bd53-6b1327629c1f",
+    "e9d9dfdd-1429-4dbe-9653-5eb95abb18c9",
+    "ebf377ad-c62e-4ab9-9381-7cca82c6bbb7",
+    "ed39d52b-10f3-4937-8a8c-3bd5ba183f24",
+    "ed58cbb4-0ebb-44a6-8de2-c02f2c13a764",
+    "ed9d613e-6945-4e16-9700-38262e3f0524",
+    "f2801e60-5e73-4c91-9418-560cde5dda96",
+    "f46cd99a-11b5-4df0-ae3c-a8b8f6aa0e79",
+    "f4c4fdbb-4396-4ff8-9900-aa6de23c4386",
+    "f7aed91f-f685-49c5-833e-b0cdadd96505",
+    "f7b32a8e-19f1-449a-afb0-63cf9da0ab41",
+    "f7c44ef1-7a27-4a51-a42d-d1cf1b63c2cf",
+    "fc369dd6-5fc9-4644-8236-8acf81a34d2f"
+  ],
+  "new_items": [
+    {
+      "name": "5V_U1_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.05,
+        17.599999
+      ],
+      "end": [
+        19.432814,
+        17.727604
+      ],
+      "length_mm": 0.4035214921426114,
+      "uuid": "9ce3f88e-ea2c-4990-a58a-17c47d57fb2a",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U1_1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.550078,
+        17.800077
+      ],
+      "end": [
+        19.655455,
+        17.905454
+      ],
+      "length_mm": 0.14902558256218815,
+      "uuid": "45025f37-469f-4c1e-9e2f-09417be06ce6",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U1_2",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.70865,
+        17.97758
+      ],
+      "end": [
+        20.398405,
+        19.284746
+      ],
+      "length_mm": 1.4779867765244041,
+      "uuid": "95b7ad68-1a58-4371-8270-4d3f9a9447b7",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U1_arc1",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.432814,
+        17.727604
+      ],
+      "mid": [
+        19.495665,
+        17.757013
+      ],
+      "end": [
+        19.550078,
+        17.800077
+      ],
+      "radius": 0.2999742952521099,
+      "center": [
+        19.338,
+        18.0122
+      ],
+      "length_mm": 0.139099242022438,
+      "uuid": "7d9afe56-d975-46d0-bdf3-d09ba4a8df42",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U1_arc2",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 0,
+      "width": 0.3,
+      "start": [
+        19.655455,
+        17.905454
+      ],
+      "mid": [
+        19.684761,
+        17.939519
+      ],
+      "end": [
+        19.70865,
+        17.97758
+      ],
+      "radius": 0.30002611443172744,
+      "center": [
+        19.4433,
+        18.1176
+      ],
+      "length_mm": 0.08995713208656793,
+      "uuid": "b0913044-e30b-4be2-94b3-e66e83183b98",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_C1_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        20.398405,
+        19.284746
+      ],
+      "end": [
+        20.62,
+        18.5
+      ],
+      "length_mm": 0.8154327860351199,
+      "uuid": "7d73f3c9-5316-4018-b1ab-a74479ddc5a5",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_supply_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        21.725,
+        20.025
+      ],
+      "end": [
+        20.398405,
+        19.284746
+      ],
+      "length_mm": 1.5191544617125026,
+      "uuid": "59d9d8ba-4fd0-4978-80a8-65822679b9e7",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U4_L3_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        19.2,
+        20.25
+      ],
+      "end": [
+        19.617231,
+        20.348818
+      ],
+      "length_mm": 0.4287734885519406,
+      "uuid": "e4812815-71db-4ab8-82bf-47be17c4f95a",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U4_L3_1",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        19.733626,
+        20.353149
+      ],
+      "end": [
+        21.7125,
+        20.0375
+      ],
+      "length_mm": 2.0038903660322807,
+      "uuid": "84bc6ef2-8104-4c98-ad07-39a5e9a5237b",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U4_L3_2",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        21.7125,
+        20.0375
+      ],
+      "end": [
+        21.725,
+        20.025
+      ],
+      "length_mm": 0.01767766952966771,
+      "uuid": "0be9557f-f22c-49ec-ba47-cea3e2ea462f",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U4_L3_arc1",
+      "kind": "PCB_ARC",
+      "net": "5V_LED",
+      "layer": 6,
+      "width": 0.3,
+      "start": [
+        19.617231,
+        20.348818
+      ],
+      "mid": [
+        19.675216,
+        20.356686
+      ],
+      "end": [
+        19.733626,
+        20.353149
+      ],
+      "radius": 0.3000007821406471,
+      "center": [
+        19.6864,
+        20.0569
+      ],
+      "length_mm": 0.11722200865395244,
+      "uuid": "d4630c8f-886e-4876-bd04-24bd74ccfba1",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_0",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        17.46,
+        21.85
+      ],
+      "end": [
+        16.354622,
+        21.012445
+      ],
+      "length_mm": 1.386852155389682,
+      "uuid": "b81b1a35-0234-4f74-849f-5ec3aefd73d6",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_1",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.309283,
+        20.956322
+      ],
+      "end": [
+        16.250068,
+        20.829432
+      ],
+      "length_mm": 0.14002674146390784,
+      "uuid": "976fc21b-9215-4b2c-994a-1c52933e2e8f",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_2",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.23615,
+        20.77281
+      ],
+      "end": [
+        16.226151,
+        20.552831
+      ],
+      "length_mm": 0.22020613170845021,
+      "uuid": "2be247bb-f36b-4878-9113-561d39a2394a",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_3",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.232239,
+        20.503198
+      ],
+      "end": [
+        16.4,
+        19.94
+      ],
+      "length_mm": 0.5876527378690577,
+      "uuid": "02bb8448-d49a-46f5-bf25-e554bce39cad",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_arc1",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.354622,
+        21.012445
+      ],
+      "mid": [
+        16.328528,
+        20.98715
+      ],
+      "end": [
+        16.309283,
+        20.956322
+      ],
+      "radius": 0.1499846029064317,
+      "center": [
+        16.4452,
+        20.8929
+      ],
+      "length_mm": 0.07286262755838745,
+      "uuid": "e34e54a1-0659-4def-8b4c-3a61909f07d5",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_arc2",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.250068,
+        20.829432
+      ],
+      "mid": [
+        16.240332,
+        20.801804
+      ],
+      "end": [
+        16.23615,
+        20.77281
+      ],
+      "radius": 0.15000375744627198,
+      "center": [
+        16.386,
+        20.766
+      ],
+      "length_mm": 0.05868075607075959,
+      "uuid": "5f3276b5-ad04-4973-ac9e-cbc23abbd083",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_F_arc3",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 0,
+      "width": 0.15,
+      "start": [
+        16.226151,
+        20.552831
+      ],
+      "mid": [
+        16.227112,
+        20.527759
+      ],
+      "end": [
+        16.232239,
+        20.503198
+      ],
+      "radius": 0.15000461780225302,
+      "center": [
+        16.376,
+        20.546
+      ],
+      "length_mm": 0.05024067437882093,
+      "uuid": "4215643d-9f54-4de7-87ba-e1274e4ddc5d",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_B_0",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16.4,
+        19.94
+      ],
+      "end": [
+        16,
+        19.93
+      ],
+      "length_mm": 0.40012498047484973,
+      "uuid": "874701eb-ac01-49b6-8cee-2102af1bba82",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_protected_0",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        16,
+        19.57
+      ],
+      "end": [
+        17.625,
+        19.1249
+      ],
+      "length_mm": 1.6848557831458455,
+      "uuid": "9297dc0f-ed4a-48f1-8f36-0bb9f00fb867",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_protected_1",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        17.625,
+        19.1249
+      ],
+      "end": [
+        17.695101,
+        19.034771
+      ],
+      "length_mm": 0.11418137694913445,
+      "uuid": "c332bca5-d11e-44e6-9121-1fdfede0fe34",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_protected_2",
+      "kind": "PCB_TRACK",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        17.720538,
+        18.985223
+      ],
+      "end": [
+        17.8419,
+        18.5749
+      ],
+      "length_mm": 0.42789449560960807,
+      "uuid": "1e445674-0b47-4c35-bd2c-ce775c8e14ae",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_protected_arc2",
+      "kind": "PCB_ARC",
+      "net": "/NRST",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        17.695101,
+        19.034771
+      ],
+      "mid": [
+        17.710139,
+        19.011188
+      ],
+      "end": [
+        17.720538,
+        18.985223
+      ],
+      "radius": 0.14998621884026545,
+      "center": [
+        17.5767,
+        18.9427
+      ],
+      "length_mm": 0.05602000503120204,
+      "uuid": "02454809-529b-4e8c-819f-80ed62761a24",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U4_INPUT",
+      "kind": "PCB_VIA",
+      "net": "5V_LED",
+      "position": [
+        19.2,
+        20.25
+      ],
+      "diameter": 0.5,
+      "drill": 0.25,
+      "uuid": "78fa5bdf-7664-4072-8fbc-86314dfeaac4",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "NRST_external_entry",
+      "kind": "PCB_VIA",
+      "net": "/NRST",
+      "position": [
+        16.4,
+        19.94
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "uuid": "14293515-030e-40be-aa53-bf1b8f4e4967",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "5V_U4_B_0",
+      "kind": "PCB_TRACK",
+      "net": "5V_LED",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        19.2,
+        20.25
+      ],
+      "end": [
+        19.6657,
+        20.9939
+      ],
+      "length_mm": 0.8776466828969398,
+      "uuid": "7355bce9-227b-4a51-ab2e-89da3460efc5",
+      "planned_uuid": null,
+      "patch": "signals_patch"
+    },
+    {
+      "name": "CAP_POWER_BUS_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        18.32,
+        19.6
+      ],
+      "end": [
+        19.08,
+        19.4
+      ],
+      "length_mm": 0.7858753081755389,
+      "uuid": "85e54449-fbdf-4f3b-b054-dc6a1beaf8c6",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "MCU_POWER_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.15,
+      "start": [
+        18.8419,
+        18.5749
+      ],
+      "end": [
+        18.8419,
+        19.462658
+      ],
+      "length_mm": 0.8877580000000016,
+      "uuid": "297c6ac8-b932-4cbe-acb4-93d914fc855e",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "C15_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        19.72,
+        19.4
+      ],
+      "end": [
+        19.7,
+        19.8
+      ],
+      "length_mm": 0.40049968789001783,
+      "uuid": "a76ef549-b5c8-4153-b928-a4be648b0ead",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "CAP_POWER_VIA_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        18.7,
+        19.5
+      ],
+      "end": [
+        18.7,
+        19.8
+      ],
+      "length_mm": 0.3000000000000007,
+      "uuid": "622295a3-2555-41b6-a224-b8b3d3ef3c74",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "MCU_L4_FEED_0",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        22.1,
+        17.55
+      ],
+      "end": [
+        19.906595,
+        18.875957
+      ],
+      "length_mm": 2.5630426176468477,
+      "uuid": "d4859c57-fb41-4eca-8e6b-49e7b13fe29f",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "MCU_L4_FEED_1",
+      "kind": "PCB_TRACK",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        19.869807,
+        18.901096
+      ],
+      "end": [
+        18.7,
+        19.8
+      ],
+      "length_mm": 1.475288723763931,
+      "uuid": "6015252b-622a-4ce1-8488-29a85800af13",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "MCU_L4_FEED_arc1",
+      "kind": "PCB_ARC",
+      "net": "3V3",
+      "layer": 8,
+      "width": 0.4,
+      "start": [
+        19.906595,
+        18.875957
+      ],
+      "mid": [
+        19.887851,
+        18.888013
+      ],
+      "end": [
+        19.869807,
+        18.901096
+      ],
+      "radius": 0.39965031073927615,
+      "center": [
+        20.1133,
+        19.218
+      ],
+      "length_mm": 0.04458034556566789,
+      "uuid": "21e8cf75-f84c-4a1a-9298-e4bd7aef6e1d",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "C11_GND_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        17.68,
+        19.6
+      ],
+      "end": [
+        17.1,
+        19.8
+      ],
+      "length_mm": 0.6135144660071169,
+      "uuid": "891013f2-807a-44c8-8393-65cbd79a8c74",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_0",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        19.844,
+        13.6086
+      ],
+      "end": [
+        19.408971,
+        14.241177
+      ],
+      "length_mm": 0.7677264433181924,
+      "uuid": "465bb159-4f6d-4612-b8a8-6ec0dea57ab1",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_1",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        19.360242,
+        14.361851
+      ],
+      "end": [
+        18.824718,
+        17.574992
+      ],
+      "length_mm": 3.2574623620936913,
+      "uuid": "a588cace-e64c-4308-8296-d38c90129093",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_2",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.814722,
+        17.616495
+      ],
+      "end": [
+        18.160278,
+        19.67678
+      ],
+      "length_mm": 2.161728759664588,
+      "uuid": "0ab260df-176b-4c58-a9f2-d83638adba28",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_3",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.1462,
+        19.767602
+      ],
+      "end": [
+        18.1462,
+        19.940397
+      ],
+      "length_mm": 0.1727950000000007,
+      "uuid": "026b8524-eb4b-4755-8759-b76968bd68c8",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_4",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.15839,
+        20.025047
+      ],
+      "end": [
+        18.1938,
+        20.14544
+      ],
+      "length_mm": 0.12549240036352763,
+      "uuid": "ef25809d-64c4-4a2d-a2a7-d98e53454ce1",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_5",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.205406,
+        20.248803
+      ],
+      "end": [
+        18.1962,
+        20.3961
+      ],
+      "length_mm": 0.14758440515515353,
+      "uuid": "4f9c53bb-9d91-4cd0-8db2-599e58f5e2f9",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_6",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.1962,
+        20.3961
+      ],
+      "end": [
+        18.106752,
+        20.566051
+      ],
+      "length_mm": 0.19205282373607663,
+      "uuid": "350af61b-f0fc-4045-972a-1bc1c63d3f9d",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_7",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.007687,
+        20.675942
+      ],
+      "end": [
+        17.907699,
+        20.742601
+      ],
+      "length_mm": 0.12017080521075046,
+      "uuid": "ea06963c-ef7d-4eda-bee9-bfc4c00c8bb8",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_8",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        17.772694,
+        20.791337
+      ],
+      "end": [
+        17.645309,
+        20.804746
+      ],
+      "length_mm": 0.12808879539600704,
+      "uuid": "2ccdebd3-3f89-43bf-8730-dc7e341bb3a3",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_9",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        17.572245,
+        20.803488
+      ],
+      "end": [
+        16.7087,
+        20.6824
+      ],
+      "length_mm": 0.8719932744975717,
+      "uuid": "9b612b2f-dc23-4e0f-8588-bcd06f9a5c84",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc1",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        19.408971,
+        14.241177
+      ],
+      "mid": [
+        19.377984,
+        14.298839
+      ],
+      "end": [
+        19.360242,
+        14.361851
+      ],
+      "radius": 0.299967603534115,
+      "center": [
+        19.6561,
+        14.4112
+      ],
+      "length_mm": 0.13118901645171707,
+      "uuid": "20a70a90-a4fa-43c6-afdf-fff3d3940755",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc2",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.824718,
+        17.574992
+      ],
+      "mid": [
+        18.820459,
+        17.595922
+      ],
+      "end": [
+        18.814722,
+        17.616495
+      ],
+      "radius": 0.2999952732760968,
+      "center": [
+        18.5288,
+        17.5257
+      ],
+      "length_mm": 0.04272614398960418,
+      "uuid": "129f6b91-2aae-4769-a210-0d61ea9f7f79",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc3",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.160278,
+        19.67678
+      ],
+      "mid": [
+        18.14974,
+        19.721649
+      ],
+      "end": [
+        18.1462,
+        19.767602
+      ],
+      "radius": 0.29999943747280594,
+      "center": [
+        18.4462,
+        19.7676
+      ],
+      "length_mm": 0.0922697842541929,
+      "uuid": "68209fe0-6de8-406d-97f8-054cfafebcb6",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc4",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.1462,
+        19.940397
+      ],
+      "mid": [
+        18.149263,
+        19.983159
+      ],
+      "end": [
+        18.15839,
+        20.025047
+      ],
+      "radius": 0.300000000015,
+      "center": [
+        18.4462,
+        19.9404
+      ],
+      "length_mm": 0.08581555441835567,
+      "uuid": "f6df09da-d679-492e-a6b1-769b00013fb3",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc5",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.1938,
+        20.14544
+      ],
+      "mid": [
+        18.204117,
+        20.196615
+      ],
+      "end": [
+        18.205406,
+        20.248803
+      ],
+      "radius": 0.299993592598242,
+      "center": [
+        17.906,
+        20.2301
+      ],
+      "length_mm": 0.10454140214267522,
+      "uuid": "b6f918a0-e789-4d46-9a34-c75f38a039f8",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc7",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        18.106752,
+        20.566051
+      ],
+      "mid": [
+        18.0641,
+        20.6272
+      ],
+      "end": [
+        18.007687,
+        20.675942
+      ],
+      "radius": 0.29999184373079213,
+      "center": [
+        17.8413,
+        20.4263
+      ],
+      "length_mm": 0.1494899015001548,
+      "uuid": "8230a9ea-2352-4f3c-bd18-b227a686f7ed",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc8",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        17.907699,
+        20.742601
+      ],
+      "mid": [
+        17.843154,
+        20.775162
+      ],
+      "end": [
+        17.772694,
+        20.791337
+      ],
+      "radius": 0.2999821434719074,
+      "center": [
+        17.7413,
+        20.493
+      ],
+      "length_mm": 0.14493752604842847,
+      "uuid": "7c0476f6-0a4a-4111-a3e5-3a499a567b85",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_FEED_arc9",
+      "kind": "PCB_ARC",
+      "net": "12V",
+      "layer": 8,
+      "width": 0.3,
+      "start": [
+        17.645309,
+        20.804746
+      ],
+      "mid": [
+        17.608739,
+        20.80635
+      ],
+      "end": [
+        17.572245,
+        20.803488
+      ],
+      "radius": 0.2999947682827152,
+      "center": [
+        17.6139,
+        20.5064
+      ],
+      "length_mm": 0.07325679748918247,
+      "uuid": "b68cb009-c5e2-44b1-beab-ec24f6669752",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "12V_U4_INPUT_0",
+      "kind": "PCB_TRACK",
+      "net": "12V",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        16.7087,
+        20.6824
+      ],
+      "end": [
+        17.7857,
+        20.9939
+      ],
+      "length_mm": 1.12114283211373,
+      "uuid": "39972136-6267-4ac1-a859-551ca3a4135e",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "U4_GND_PAD9_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        18.7257,
+        21.7439
+      ],
+      "end": [
+        18.975,
+        22.9
+      ],
+      "length_mm": 1.1826739618339441,
+      "uuid": "543120e0-9dea-435e-a62b-4304349d7227",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "U4_GND_PAD4_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        19.6657,
+        22.4939
+      ],
+      "end": [
+        18.975,
+        22.9
+      ],
+      "length_mm": 0.8012388532765984,
+      "uuid": "a1fdf5c0-0b76-4051-a0f8-3ae5333d9fc9",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "C10_GND_RETURN_0",
+      "kind": "PCB_TRACK",
+      "net": "GND",
+      "layer": 2,
+      "width": 0.3,
+      "start": [
+        20.6976,
+        22.711
+      ],
+      "end": [
+        18.975,
+        22.9
+      ],
+      "length_mm": 1.7329373214285622,
+      "uuid": "e8c2a1e5-577b-4d7a-bf3c-a52f2bef9ebb",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "CAPS_3V3_VIA",
+      "kind": "PCB_VIA",
+      "net": "3V3",
+      "position": [
+        18.7,
+        19.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.25,
+      "uuid": "7f6370a6-a828-4bb4-99b2-477bb9db6440",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "C11_GND_VIA",
+      "kind": "PCB_VIA",
+      "net": "GND",
+      "position": [
+        17.1,
+        19.8
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "uuid": "671038f5-3506-4a54-9434-0d5f89a1b4f5",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    },
+    {
+      "name": "U4_GND_RELOCATED",
+      "kind": "PCB_VIA",
+      "net": "GND",
+      "position": [
+        19.5,
+        22.95
+      ],
+      "diameter": 0.5,
+      "drill": 0.2,
+      "uuid": "86015f37-5b20-47c6-95f8-d677c82e6f17",
+      "planned_uuid": null,
+      "patch": "power_patch"
+    }
+  ],
+  "expected_net_by_uuid": {
+    "03595d4b-007e-461f-a475-40c119d5c496": "/SWCLK",
+    "3a9fc868-77ca-413c-9e9a-6ae0f9dadb52": "/SWCLK",
+    "4474c4c8-844d-47d2-8c95-b63293abdc01": "/SWCLK",
+    "582eec86-e4d7-42fa-beba-46b3ba1a72fe": "/SWCLK",
+    "8e69a40d-a04e-461f-b722-98a30460f427": "/SWCLK",
+    "92e59d81-cf29-44e2-8e49-8b26bbc5d405": "/SWCLK",
+    "f3774074-d2e0-48a8-836a-b85f72d4e49d": "/SWCLK",
+    "41807256-542f-4e11-af12-f879e81dd8d3": "/SWCLK",
+    "91840650-4d9d-4f4e-8848-1688b00d7766": "/SWCLK",
+    "955293ee-742b-4f58-972c-7424b0438501": "/SWCLK",
+    "0dc32dff-14e0-43ab-a891-ea687f2d3d1d": "/SWCLK",
+    "43d1d160-d6ff-4082-80c6-397a98f3e87a": "/SWCLK",
+    "f67131d3-bf4e-4438-a919-8b7e810b6731": "/SWCLK",
+    "9461aed0-6c80-471b-b6c8-5cd6c86d63d9": "/SWCLK",
+    "903d4bef-2e7b-43e4-8667-e1ab97256147": "/SDA",
+    "00bb8397-337b-43ed-9226-27288760dcc5": "/SDA",
+    "9f79b619-847a-4686-ac48-ea31d4e96cf0": "/SDA",
+    "8f4721cb-1ba7-4041-a54e-d0d69ee4f983": "/SDA",
+    "e5fca989-b675-4d54-a9d4-f4a456676914": "/SDA",
+    "2ffd3ff2-e23d-47cf-87e1-e7bcc1d1e754": "/SDA",
+    "64d27e6e-2d9e-40e5-9a27-1506f3bf2154": "/SDA",
+    "6886371f-c4b0-4eac-a15d-c201eb975e5d": "/SDA",
+    "9a9380b1-37d3-4b83-86fe-b32a39e32569": "/SDA",
+    "c2de7eef-ed07-4e08-939f-565c88c2af80": "/SDA",
+    "318c5f8e-d97e-47e0-ab73-c48383f52d6c": "/SCL",
+    "523f8027-776f-40c2-b6ca-0871bcebfc81": "/SCL",
+    "72f02771-1d5f-46be-b831-6dbe67981ebf": "/SCL",
+    "7dc1aa7e-8639-4ec5-8f04-ff192895b23a": "/SCL",
+    "4d26ebef-0591-4d0e-b9d6-0757b1a3df66": "/SCL",
+    "4563f374-728e-4bf3-8b40-d4e8adc9204a": "/SCL",
+    "501bcb4a-92d4-46cb-9578-7498a17d0295": "/SCL",
+    "c4da2fe3-facd-4d11-8a85-f05146f0c40e": "/SCL",
+    "64a52ec9-5b40-4a99-822e-fe161ba800f4": "/SCL",
+    "6ce92651-d577-4622-af27-f9b643300e20": "/SCL",
+    "c55f75b4-ff2a-488d-9c80-75db431bb0d5": "/LDO_EN",
+    "f42a38c7-4510-40bc-85ea-edd65daa06ff": "/LDO_EN",
+    "a167e8b0-a7b6-480e-ada2-bbf8993a9651": "/LDO_EN",
+    "06b0369b-229f-4e6e-a88b-963a0641ae0c": "/LDO_EN",
+    "007461f2-d4e6-4fd7-a6eb-2cd5caa6b1ae": "/LDO_EN",
+    "07f69c9d-d46a-4d90-a51f-ed6ff60e47ac": "/VLDO",
+    "14e8be67-ff69-4fa4-b867-6502d565816f": "/VLDO",
+    "2192af23-2a26-413b-b247-9ba2a5d587b6": "/VLDO",
+    "b36fa17b-56d7-4807-897d-50ee0a7ad4fa": "/VLDO",
+    "ec73595a-d1cf-4b48-b947-d4b8962e2d8b": "/VLDO",
+    "b35d9da8-ed31-4170-814b-fde13cdc3e8e": "/VLDO",
+    "96c35ab7-917d-4a25-bd87-1e5a80ca35c3": "/VLDO",
+    "407b87af-8d1b-466e-bec0-68996046a519": "/VLDO",
+    "03fc92ab-9005-4819-a7cf-e04b405b12e8": "5V_LED",
+    "0f71382e-a019-4fb5-bc7b-7fee64d75cfb": "5V_LED",
+    "3cda628a-89e8-46e7-a774-09cc7e01ab50": "5V_LED",
+    "b012b0db-48db-4570-a2ee-42a7532abe88": "5V_LED",
+    "354671a0-3d46-40f0-9945-60160b18a0fa": "5V_LED",
+    "14ce27a0-aafd-4d0f-abb6-361442981434": "GND",
+    "2905afda-5b19-43da-8101-c372ad25fdbc": "GND",
+    "2cebdfd2-f27e-4dad-ae2f-26aaa81648f6": "GND",
+    "452a2117-26ad-4bfe-9ea0-352d019b4409": "GND",
+    "5adf421a-faad-4a75-bba2-f0e5855636cd": "GND",
+    "6e6989ac-51c6-47a1-ac91-0ae2a9334a42": "GND",
+    "9f809c61-b7b7-46e0-91b2-083274fb0778": "GND",
+    "b0e9d181-fdf0-4682-91a5-87d6c6fe0a13": "GND",
+    "dcc13ffb-12ef-478e-ad4c-9fad9f39967e": "GND",
+    "03792694-29a0-4ed2-be65-a93a04eea25b": "GND",
+    "082b96b6-a650-4b7e-8dc5-b56c7126a39e": "GND",
+    "16f5aef4-a55b-4a19-b57b-29b3d613b2f1": "GND",
+    "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5": "GND",
+    "19804070-807c-45f5-949e-cd735efde261": "GND",
+    "2162c3b4-5c58-48e9-a0d1-f860b4ed461c": "GND",
+    "4333f549-9bfb-4e25-abdd-b191d0e772ac": "GND",
+    "4750009c-3a52-42e4-af4d-78780a6e2e74": "GND",
+    "56bd287b-d09e-48a3-9386-4eb97c39bcef": "GND",
+    "5ad77545-0967-434e-bd90-9a940994d5d1": "GND",
+    "5b5ac3f3-b7a1-4f21-8dd1-9f7a1ec4ee17": "GND",
+    "6afcebf3-1127-453f-9bad-8430d4659d52": "GND",
+    "76d5b365-3afe-4523-a5f0-5d573a734623": "GND",
+    "772aadf9-80de-4246-a522-cc7dd82ff9c1": "GND",
+    "859556c5-35ff-4162-8cf9-4d68d1b4942a": "GND",
+    "85a17963-32df-4f82-be30-8121de561108": "GND",
+    "933322a0-110d-46f4-adfa-bc4f5c5b6eed": "GND",
+    "9e24d978-0778-474c-a898-e6f8be28941b": "GND",
+    "a075782b-bcda-4a2a-a614-57ace57c1d98": "GND",
+    "af54aa7f-5fbf-462f-890f-bb6d5767c70d": "GND",
+    "bd9d5774-5014-4735-9041-fa644e39e5f9": "GND",
+    "bed5dca3-2258-40cd-80c6-79dad7dbbfdf": "GND",
+    "c23e0c08-835f-4c3b-b611-0f1491f0dd53": "GND",
+    "d1abb479-7914-44fb-8b00-af6bf8202a0d": "GND",
+    "d475599c-512f-4389-b0b2-903f20eca7f4": "GND",
+    "e58b3d7e-9073-4e69-804f-f5c42195c56c": "GND",
+    "e927e4ce-fa7a-44a4-90b6-ba1f6e9d6dce": "GND",
+    "f325569b-6061-4dac-88d6-3af441c5d35d": "GND",
+    "fd79855d-21f2-4986-8f63-ed46bbcb249a": "GND",
+    "bdaa3d0e-20e3-461d-ba4b-800409ad90a1": "GND",
+    "026bcf38-e85b-4825-90bf-7b0e28b91bdd": "GND",
+    "0c7a277b-2b19-4a0d-84f9-5c16dfa11b0e": "GND",
+    "0dfb6dd0-4f7d-462a-9e32-eac110c79fff": "GND",
+    "1a98188e-0f11-498d-998c-d74c4cf03d97": "GND",
+    "21165f11-cc55-463a-b4fe-134b485610d5": "GND",
+    "2715f1c6-4ae0-4844-9881-86408d4e4524": "GND",
+    "280c2171-2925-430e-ade1-6173fc64b8e1": "GND",
+    "326752d2-8c3b-4d54-8c00-4bc46bf86788": "GND",
+    "3390074b-65fa-4709-b1db-a9ae9bd73154": "GND",
+    "4551785e-286e-447c-a6eb-28a4c6effcd8": "GND",
+    "4593dce8-f4dd-4f65-90ae-438ae6f96d2c": "GND",
+    "461654c3-6909-4170-b578-f18792c50547": "GND",
+    "495425a3-7655-43e6-bb69-0b0610e924b1": "GND",
+    "4ed653d4-a5ca-4643-ae71-6ff4e26a18ba": "GND",
+    "61def879-a0d5-4a46-8b93-94f0f9c8cd4e": "GND",
+    "6391216c-7cdf-4f52-b0c9-6be9faf91ea4": "GND",
+    "65bf92be-40fd-4f21-b536-2c8e662bdd5e": "GND",
+    "687190e9-5ddc-4626-bfe9-8d5c73093aec": "GND",
+    "7889bb14-c710-47f5-8af2-914a8cd5ead3": "GND",
+    "7968352f-7069-4873-a32b-b1ca4848e511": "GND",
+    "827e2deb-32df-49d2-a9a1-0567bf2cbf89": "GND",
+    "97eb3cd8-c766-4afe-80af-48322138f420": "GND",
+    "a690bc0e-144e-48f4-902f-888e40094927": "GND",
+    "a7f8ee3c-9928-4bf4-bc11-e5e407c09fb5": "GND",
+    "a92cfc77-459c-41bc-897e-fdcaab9c9360": "GND",
+    "ab06ea04-7fbc-4c67-a3db-3f48a7f10c77": "GND",
+    "acc95266-1054-4bf8-baf3-f3d10686680a": "GND",
+    "af825562-11b0-488f-a38c-a6962e2846af": "GND",
+    "b3a9bda0-11ed-42c6-bdd8-4e4e06210ea8": "GND",
+    "b6a17c56-0e70-4023-9847-e8b81dd1090b": "GND",
+    "c9e6b172-044f-4082-942b-5e6d9cc3feac": "GND",
+    "d718e881-7210-4753-a589-3e59999f71b8": "GND",
+    "eefdc8b0-80cd-4b3c-acfc-4ca186396d32": "GND",
+    "f23bebe6-556a-4efe-8e5b-4ecaa01f8113": "GND",
+    "f274fc36-50b2-405d-84a1-782916e26867": "GND",
+    "f97fa8f9-198f-4b36-8b54-1a0dee565788": "GND",
+    "ff6eebde-e861-40e3-a578-327912836998": "GND",
+    "49945000-e829-47d9-bcf3-c46e80322312": "GND",
+    "31480465-ca59-4782-86a7-344ad959963c": "/VREF",
+    "da60402f-b70f-4e44-afac-edeb6e3474f2": "/VREF",
+    "f30b788b-c10e-4b29-bc84-5ac99f9cdd3b": "/VREF",
+    "e5fd1f8f-2b3f-4561-a467-4f96e7088dc1": "/VREF",
+    "7bc9a659-3990-4fc1-9747-69d90fe82298": "/VREF",
+    "1a477bfb-7aa7-478f-af82-65f8f517c984": "/SWDIO",
+    "92d36b30-8167-46f2-9795-0bd9a294d6dc": "/SWDIO",
+    "d902eafa-28b3-4204-b5f2-2154bd0a9478": "/SWDIO",
+    "e68e012c-815e-419a-b864-e21a15c01acd": "/SWDIO",
+    "5f17de3d-aede-4855-b5be-18ae5acf4a9d": "/SWDIO",
+    "a855db34-2e7b-4ecc-a2be-9db1fc7525f6": "/SWDIO",
+    "18282083-b97c-49fb-b82b-00908bd8c258": "/SWDIO",
+    "1814b895-abd8-46ac-8922-5c22597c7095": "/SWDIO",
+    "411f8431-c4d0-40ca-be68-bcf0ff5fbdb2": "/SWDIO",
+    "68e4b163-d572-4fdf-a67c-89d21dd0d2fc": "/SWDIO",
+    "9d0bd9b2-c97c-4fce-8293-9f05bd682af3": "/SWDIO",
+    "b41f3794-3689-4c6e-8c1f-643d47410e11": "/SWDIO",
+    "30875b68-6371-4cc9-92f6-2f0935638251": "/SWDIO",
+    "32be293b-6396-4cc9-a331-07f21bc84a61": "/SWDIO",
+    "a9442d28-188a-4c63-a6a9-5f75baa26ca3": "/SWDIO",
+    "feb131a2-1dd6-4b2d-bd5d-c41d80ed2493": "/SWDIO",
+    "6838033e-28da-4a81-82c8-f0cb2572cb56": "3V3",
+    "33c23666-c9b7-490c-ac0e-f35350e23c84": "3V3",
+    "7b1ed53c-e051-4f1f-aa83-9d479bd4f2f6": "3V3",
+    "a8407b81-cec8-461a-871d-81ea2b1e1eeb": "3V3",
+    "aec724d7-910d-4476-8596-faf5ed9c4c91": "3V3",
+    "b59d0a18-653b-4fd7-941b-680ef76f0cab": "3V3",
+    "c4b6729b-26b4-4162-82ec-edfa033a8b91": "3V3",
+    "0a408a6d-ed6c-4ff7-a317-cb78bffcfdcf": "3V3",
+    "144c1c28-2555-4dd1-b187-176dea1c0d2a": "3V3",
+    "5d739174-ee63-4f55-a99e-344cd3ab42cf": "3V3",
+    "60b09863-a8b4-4354-a83b-672fa86e6968": "3V3",
+    "69e6fce5-55f2-4a08-8edd-04cf7b9a4c57": "3V3",
+    "724cd431-72ff-40ac-809a-790edc5b5913": "3V3",
+    "83239fcb-6148-4ad1-8d32-7a9a68b082c9": "3V3",
+    "84938a79-db61-43f5-aaac-ee9ee6aea68d": "3V3",
+    "a3b3faf2-32bc-49bb-89f0-7f460e937f76": "3V3",
+    "c161faa3-8cd0-471d-a163-fa83e3f77bfb": "3V3",
+    "c62bfa44-589d-4e31-b818-4e88ce82f14c": "3V3",
+    "ccf46cdc-b18f-4474-8d95-8940843b34cb": "3V3",
+    "cecb77df-ee4e-4372-97d3-441fe6922d50": "3V3",
+    "d0e94974-1d36-4e7e-bb18-9de1a9e92b69": "3V3",
+    "ee9e7332-5f81-4f4a-82d6-7c03513609cb": "3V3",
+    "066ded62-e016-47dd-a3a2-9622bc9881a6": "3V3",
+    "26f45029-0ba2-4981-ae9a-d0bcc5d20b68": "3V3",
+    "4b482024-d2ac-4e2e-9fe9-6a5e02d90832": "3V3",
+    "694c2645-cca1-4811-a135-4db50fce192d": "3V3",
+    "89d2fa44-6177-482f-b930-f394670f5f1b": "3V3",
+    "8c7df626-73cc-419a-8499-d35932c30433": "3V3",
+    "9bef6cf4-8a8e-479b-aea2-73d89d4dd653": "3V3",
+    "9c54f217-0470-4683-8177-1a95c41a931b": "3V3",
+    "a7454971-e524-4020-964b-f56482adf220": "3V3",
+    "b3d1753b-16e1-4714-a763-8d23a375e998": "3V3",
+    "cb85cbad-9070-4d96-8921-45d2e911a54f": "3V3",
+    "ed0828e9-5a8c-4a2a-896a-a38d76ca3963": "3V3",
+    "ffc94c74-aab1-4726-86b0-3fe2462055dd": "3V3",
+    "31c3b464-8d43-437d-8486-46ded33058f3": "3V3",
+    "74946373-5514-4a4c-b092-9d2cabdedcd3": "3V3",
+    "dc401f94-26e0-4720-ab9f-753fccee87e7": "3V3",
+    "fbf5852d-d317-4e1b-90aa-eb078e8921e5": "3V3",
+    "4cf3233c-7349-4255-b2e9-479cf0f44345": "/RXN",
+    "b8d55cc7-e473-47ab-98fa-35d239b150ea": "/RXN",
+    "7ff7b248-4c41-4077-9af2-75f0cc739517": "/RXN",
+    "a014c5ff-f222-49d8-b4b4-8d310113165a": "/RXN",
+    "c2c70c0f-fad4-40d9-b6e1-bdd3e9b3b2fd": "/RXN",
+    "fc9c45da-d59d-4dbf-8141-b05f81036a41": "/RXN",
+    "6d2cf9f2-639f-49dc-a852-67a20aa4d351": "/RXN",
+    "f9441289-54d7-4754-bcc3-d031b85d1fa6": "/RXN",
+    "dff1b5d3-ca49-42fd-8309-258032a40db4": "/RXN",
+    "3e2cdbc8-f7e5-4347-a69a-1d299328b69e": "/TXP_DRV",
+    "b00ef919-09db-46e2-95e0-04095bae06b5": "/TXP_DRV",
+    "c99b181f-1a8f-4b5c-9a3a-a653fe3f13f8": "/TXP_DRV",
+    "ddee14f1-3d1c-4eed-8eaf-be92a173f21f": "/TXP_DRV",
+    "e81154e1-3a52-4b00-a131-289f20d4c408": "/TXP_DRV",
+    "39620b0f-8a73-42de-a5e3-62870f49a598": "/TXP_DRV",
+    "5bb4fb68-29cc-4ee5-b67d-db991eeb9147": "/TXP_DRV",
+    "d9d6f4f5-e1d0-4a8f-ab8d-52ac29ba077c": "/TXP_DRV",
+    "e6d69fce-3bfb-4f20-9b04-aa22067c42f8": "/TXP_DRV",
+    "d3ea6fa0-3ccb-4105-a014-402fa1f51c59": "/TXP",
+    "2d82f03a-ecce-44e5-927c-7c25e222eac0": "/12V_IN",
+    "4f143ae1-b4c3-420c-ada4-913e16c5e117": "/12V_IN",
+    "52008b4a-542c-425d-8000-c0dc72c7968c": "/12V_IN",
+    "5bf6af1a-c519-4924-85a7-c7681f69aa23": "12V",
+    "5d03fae9-f633-4fee-829f-3eb439dd1a95": "12V",
+    "979f39e1-888b-4392-b7e6-022d360e07fc": "12V",
+    "3391acf4-e029-4815-bd0f-ff1ee736ae2e": "12V",
+    "3f423482-477c-4571-aab1-52e3f3c36ad7": "12V",
+    "6dcbb943-4062-4c5f-a09c-e912d50ab7ca": "12V",
+    "811cea00-48f7-47c5-86f6-3abfd3c9fe4a": "12V",
+    "8eb2aecc-9ab5-4102-9760-da3e01d7a370": "12V",
+    "cab10f4f-ef12-421d-84f8-4929195dffa4": "12V",
+    "da5c6412-6f13-4a2a-9337-5f5b1985594a": "12V",
+    "ea13cd15-559c-4e75-8216-c590f68f159b": "12V",
+    "eb1ade88-38d2-4516-9b2e-1210e400c064": "12V",
+    "af833d76-5227-4dab-a576-9262a5b0c496": "/UART_TX",
+    "c93b8bc8-ac98-4724-bdbb-f92a2d5f5f63": "/UART_TX",
+    "19cbbb90-43f2-4187-9274-c6cab0940fb7": "/UART_TX",
+    "40f82389-c622-494e-871b-a89205a5d853": "/UART_TX",
+    "4ee89e8e-1273-4fc7-b5e0-9f0077133b77": "/UART_TX",
+    "5a3347ef-f195-442d-b754-93968b929f76": "/UART_TX",
+    "9c8988bd-9db7-4ad6-866c-dc89b3ce0f8b": "/UART_TX",
+    "24aba06c-ff93-48d7-a0cb-acf8b52b404d": "/UART_TX",
+    "bca8cee4-ebe1-4dc1-af46-d594087e32e6": "/UART_TX",
+    "2156cda8-2ce5-432e-9358-defc769296fe": "/UART_TX",
+    "65de4c70-0fca-4261-8c8b-8ac5f39ca51f": "/UART_TX",
+    "862b182c-f779-43e1-958f-5dca393e79cd": "/UART_TX",
+    "ac1735a8-c2ef-4972-baad-e3358258fa14": "/UART_TX",
+    "b04ac409-a703-4561-8381-4504fc47e93f": "/UART_TX",
+    "f0a64456-b165-4ff8-a752-71fe60f5d73c": "/UART_TX",
+    "2bef0c84-31b2-49dd-9078-cd1b9344a9b7": "/UART_TX",
+    "f214f71e-a0a7-41b2-a2c3-5f1b68888b11": "/UART_TX",
+    "f6c635e4-a39f-4b0a-9889-65eee4f0d37d": "/UART_TX",
+    "f80dacf6-1ed8-4b76-b9a0-76339ac3e002": "/UART_TX",
+    "f887a816-d91b-420d-b924-720ae989ec8e": "/UART_TX",
+    "6cbfb8d1-7e96-49f3-a4d3-b38c7b665515": "/TXN_DRV",
+    "ea5765bb-e119-487e-84d7-c5e2cea0ee67": "/TXN_DRV",
+    "7b7e8dcf-9377-4ae5-9f24-e9de01927f0b": "/TXN_DRV",
+    "9f3fc578-dd25-450f-a95c-b9990c94fd87": "/TXN_DRV",
+    "4fd5c4ee-515c-4881-ae7e-abb2e1132a8a": "/TXN_DRV",
+    "53db7627-ecff-42a1-aff2-ef6ccc902da6": "/RXN_RCV",
+    "210480b1-e165-4755-a32d-a52eb3b22a87": "/TXN",
+    "0a586513-a19a-41a3-9fb4-a63efdb30cf0": "/RXP_RCV",
+    "285c9c93-cdf1-40e3-ab81-015793bcc77b": "/RXP_RCV",
+    "045bba3d-b291-4ddc-8ecc-4808aa1dbafb": "/RXP_RCV",
+    "591619e0-dc4f-43db-b8c0-dd9aee87bd66": "/RXP_RCV",
+    "899d83e1-5bb1-458b-97bf-f9fc3b4684e6": "/RXP_RCV",
+    "a91e120a-ec1c-4616-9836-b8aa82b18885": "/RXP_RCV",
+    "c41da974-79a0-4c74-b945-8f7ca566c93b": "/RXP_RCV",
+    "7bc72019-5d40-4fb4-9893-1d2addfa579c": "/RXP_RCV",
+    "1b5b2901-4dc7-4909-82fd-ccc814f86cfd": "/RXP",
+    "687c8f04-bbc8-4bb9-947a-73af18e5535f": "/RXP",
+    "06370330-25a1-492e-bd63-5fdd04273795": "/RXP",
+    "1bc3acd5-b51f-43ae-9d3b-042e35343d5f": "/RXP",
+    "4cc06106-aeca-41d9-be0d-ddd90dfcea2b": "/RXP",
+    "609239f7-ded9-4f7f-884f-1bdadf497f81": "/RXP",
+    "1da6d8f8-20c4-45f6-b845-4207f65f06d1": "/RXP",
+    "ce971e0e-7eda-4dea-8caf-5ef984f27832": "/UART_RX",
+    "9ce3f88e-ea2c-4990-a58a-17c47d57fb2a": "5V_LED",
+    "45025f37-469f-4c1e-9e2f-09417be06ce6": "5V_LED",
+    "95b7ad68-1a58-4371-8270-4d3f9a9447b7": "5V_LED",
+    "7d9afe56-d975-46d0-bdf3-d09ba4a8df42": "5V_LED",
+    "b0913044-e30b-4be2-94b3-e66e83183b98": "5V_LED",
+    "7d73f3c9-5316-4018-b1ab-a74479ddc5a5": "5V_LED",
+    "59d9d8ba-4fd0-4978-80a8-65822679b9e7": "5V_LED",
+    "e4812815-71db-4ab8-82bf-47be17c4f95a": "5V_LED",
+    "84bc6ef2-8104-4c98-ad07-39a5e9a5237b": "5V_LED",
+    "0be9557f-f22c-49ec-ba47-cea3e2ea462f": "5V_LED",
+    "d4630c8f-886e-4876-bd04-24bd74ccfba1": "5V_LED",
+    "b81b1a35-0234-4f74-849f-5ec3aefd73d6": "/NRST",
+    "976fc21b-9215-4b2c-994a-1c52933e2e8f": "/NRST",
+    "2be247bb-f36b-4878-9113-561d39a2394a": "/NRST",
+    "02bb8448-d49a-46f5-bf25-e554bce39cad": "/NRST",
+    "e34e54a1-0659-4def-8b4c-3a61909f07d5": "/NRST",
+    "5f3276b5-ad04-4973-ac9e-cbc23abbd083": "/NRST",
+    "4215643d-9f54-4de7-87ba-e1274e4ddc5d": "/NRST",
+    "874701eb-ac01-49b6-8cee-2102af1bba82": "/NRST",
+    "9297dc0f-ed4a-48f1-8f36-0bb9f00fb867": "/NRST",
+    "c332bca5-d11e-44e6-9121-1fdfede0fe34": "/NRST",
+    "1e445674-0b47-4c35-bd2c-ce775c8e14ae": "/NRST",
+    "02454809-529b-4e8c-819f-80ed62761a24": "/NRST",
+    "78fa5bdf-7664-4072-8fbc-86314dfeaac4": "5V_LED",
+    "14293515-030e-40be-aa53-bf1b8f4e4967": "/NRST",
+    "7355bce9-227b-4a51-ab2e-89da3460efc5": "5V_LED",
+    "85e54449-fbdf-4f3b-b054-dc6a1beaf8c6": "3V3",
+    "297c6ac8-b932-4cbe-acb4-93d914fc855e": "3V3",
+    "a76ef549-b5c8-4153-b928-a4be648b0ead": "GND",
+    "622295a3-2555-41b6-a224-b8b3d3ef3c74": "3V3",
+    "d4859c57-fb41-4eca-8e6b-49e7b13fe29f": "3V3",
+    "6015252b-622a-4ce1-8488-29a85800af13": "3V3",
+    "21e8cf75-f84c-4a1a-9298-e4bd7aef6e1d": "3V3",
+    "891013f2-807a-44c8-8393-65cbd79a8c74": "GND",
+    "465bb159-4f6d-4612-b8a8-6ec0dea57ab1": "12V",
+    "a588cace-e64c-4308-8296-d38c90129093": "12V",
+    "0ab260df-176b-4c58-a9f2-d83638adba28": "12V",
+    "026b8524-eb4b-4755-8759-b76968bd68c8": "12V",
+    "ef25809d-64c4-4a2d-a2a7-d98e53454ce1": "12V",
+    "4f9c53bb-9d91-4cd0-8db2-599e58f5e2f9": "12V",
+    "350af61b-f0fc-4045-972a-1bc1c63d3f9d": "12V",
+    "ea06963c-ef7d-4eda-bee9-bfc4c00c8bb8": "12V",
+    "2ccdebd3-3f89-43bf-8730-dc7e341bb3a3": "12V",
+    "9b612b2f-dc23-4e0f-8588-bcd06f9a5c84": "12V",
+    "20a70a90-a4fa-43c6-afdf-fff3d3940755": "12V",
+    "129f6b91-2aae-4769-a210-0d61ea9f7f79": "12V",
+    "68209fe0-6de8-406d-97f8-054cfafebcb6": "12V",
+    "f6df09da-d679-492e-a6b1-769b00013fb3": "12V",
+    "b6f918a0-e789-4d46-9a34-c75f38a039f8": "12V",
+    "8230a9ea-2352-4f3c-bd18-b227a686f7ed": "12V",
+    "7c0476f6-0a4a-4111-a3e5-3a499a567b85": "12V",
+    "b68cb009-c5e2-44b1-beab-ec24f6669752": "12V",
+    "39972136-6267-4ac1-a859-551ca3a4135e": "12V",
+    "543120e0-9dea-435e-a62b-4304349d7227": "GND",
+    "a1fdf5c0-0b76-4051-a0f8-3ae5333d9fc9": "GND",
+    "e8c2a1e5-577b-4d7a-bf3c-a52f2bef9ebb": "GND",
+    "7f6370a6-a828-4bb4-99b2-477bb9db6440": "3V3",
+    "671038f5-3506-4a54-9434-0d5f89a1b4f5": "GND",
+    "86015f37-5b20-47c6-95f8-d677c82e6f17": "GND"
+  },
+  "unexpected_native_net_changes": []
+}

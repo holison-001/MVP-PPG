@@ -153,7 +153,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.1,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -230,7 +230,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -240,7 +245,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.8"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -618,7 +623,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "\ucc38\uc870"
+      "sort_field": "참조"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -658,13 +663,18 @@
       {
         "filename": "ppg_pcb_v08.kicad_sch",
         "name": "ppg_pcb_v08",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "49500282-0369-4cac-b640-45971f28f30c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR15,#PWR17,C17",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "49500282-0369-4cac-b640-45971f28f30c",
+      "ppg_pcb_v08"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

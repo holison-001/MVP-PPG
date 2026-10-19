@@ -1,0 +1,370 @@
+{
+  "scope": "Value formatting and explicit-rating fields only. No circuit or PCB geometry changes.",
+  "schematics": {
+    "ppg_pcb_v08": {
+      "changes": [
+        {
+          "ref": "R1",
+          "before": "4.7k",
+          "after": "4.7 kΩ",
+          "ratings": {}
+        },
+        {
+          "ref": "C6",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "R2",
+          "before": "4.7k",
+          "after": "4.7 kΩ",
+          "ratings": {}
+        },
+        {
+          "ref": "R4",
+          "before": "10k",
+          "after": "10 kΩ",
+          "ratings": {}
+        },
+        {
+          "ref": "C12",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "R7",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "R6",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "C14",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "C4",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "C5",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "C17",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "C16",
+          "before": "100nF 16V X7R",
+          "after": "100 nF",
+          "ratings": {
+            "Voltage": "16 V",
+            "Dielectric": "X7R"
+          }
+        },
+        {
+          "ref": "C15",
+          "before": "100nF 16V X7R",
+          "after": "100 nF",
+          "ratings": {
+            "Voltage": "16 V",
+            "Dielectric": "X7R"
+          }
+        },
+        {
+          "ref": "R5",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "R8",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "C13",
+          "before": "1uF 25V X7R",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "25 V",
+            "Dielectric": "X7R"
+          }
+        },
+        {
+          "ref": "C7",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "C1",
+          "before": "10uF 6.3V X5R",
+          "after": "10 µF",
+          "ratings": {
+            "Voltage": "6.3 V",
+            "Dielectric": "X5R"
+          }
+        },
+        {
+          "ref": "C11",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "R3",
+          "before": "120/1%",
+          "after": "120 Ω",
+          "ratings": {
+            "Tolerance": "1%"
+          }
+        },
+        {
+          "ref": "U3",
+          "before": "XR33194",
+          "after": "XR33194ESBTR",
+          "ratings": {}
+        },
+        {
+          "ref": "U6",
+          "before": "XR33183",
+          "after": "XR33183ESBTR",
+          "ratings": {}
+        }
+      ],
+      "non_display_structure_identical": true,
+      "native_connectivity_unchanged": true,
+      "native_footprints_unchanged": true,
+      "erc_violations": 0,
+      "pcb_values_match": true,
+      "kicad_sch_sha256": "03a2cade22502d2eacf03746d6e81dc0f94dff623763b35a1713a91144a5cbd8",
+      "kicad_pcb_sha256": "14ac36dfae59d05de2911641839c7772f608e13b09868ba88c7ec1f2b5b95f6a",
+      "presentation_notes": "R5-R8 value text spacing increased; resistance units in notes normalized."
+    },
+    "ppg_rs422_review": {
+      "changes": [
+        {
+          "ref": "C1",
+          "before": "10uF 6.3V X5R",
+          "after": "10 µF",
+          "ratings": {
+            "Voltage": "6.3 V",
+            "Dielectric": "X5R"
+          }
+        },
+        {
+          "ref": "C4",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "C5",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "C11",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "C12",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        },
+        {
+          "ref": "R1",
+          "before": "4.7k",
+          "after": "4.7 kΩ",
+          "ratings": {}
+        },
+        {
+          "ref": "R2",
+          "before": "4.7k",
+          "after": "4.7 kΩ",
+          "ratings": {}
+        },
+        {
+          "ref": "U3",
+          "before": "XR33194",
+          "after": "XR33194ESBTR",
+          "ratings": {}
+        },
+        {
+          "ref": "R5",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "R6",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "C6",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "R4",
+          "before": "10k",
+          "after": "10 kΩ",
+          "ratings": {}
+        },
+        {
+          "ref": "U6",
+          "before": "XR33183",
+          "after": "XR33183ESBTR",
+          "ratings": {}
+        },
+        {
+          "ref": "R7",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "R8",
+          "before": "22",
+          "after": "22 Ω",
+          "ratings": {}
+        },
+        {
+          "ref": "C7",
+          "before": "100nF",
+          "after": "100 nF",
+          "ratings": {}
+        },
+        {
+          "ref": "R3",
+          "before": "120/1%",
+          "after": "120 Ω",
+          "ratings": {
+            "Tolerance": "1%"
+          }
+        },
+        {
+          "ref": "C13",
+          "before": "1uF 25V X7R",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "25 V",
+            "Dielectric": "X7R"
+          }
+        },
+        {
+          "ref": "C14",
+          "before": "1uF 6.3V",
+          "after": "1 µF",
+          "ratings": {
+            "Voltage": "6.3 V"
+          }
+        }
+      ],
+      "non_display_structure_identical": true,
+      "native_connectivity_unchanged": true,
+      "native_footprints_unchanged": true,
+      "erc_violations": 0,
+      "pcb_values_match": true,
+      "kicad_sch_sha256": "06bf9ae165daae58bfc448d81f06ba0308b01e6c5b50b03949cc08b0374288ce",
+      "kicad_pcb_sha256": "10a673c6c9a0584395df052706656bbf5083fe2675cd564aa3fc73da2e8dbcac",
+      "presentation_notes": "R5-R8 value text spacing increased; resistance units in notes normalized."
+    }
+  },
+  "boards": {
+    "ppg_pcb_v08": {
+      "value_updated_refs": [
+        "C14",
+        "R1",
+        "C6",
+        "R5",
+        "C4",
+        "C13",
+        "R4",
+        "U3",
+        "R8",
+        "C16",
+        "C17",
+        "R7",
+        "C15",
+        "R3",
+        "C7",
+        "C1",
+        "R2",
+        "C12",
+        "C5",
+        "U6",
+        "C11",
+        "R6"
+      ],
+      "all_non_value_content_identical": true
+    },
+    "ppg_rs422_review": {
+      "value_updated_refs": [
+        "C14",
+        "R1",
+        "C6",
+        "R5",
+        "C4",
+        "C13",
+        "R4",
+        "U3",
+        "R8",
+        "R7",
+        "R3",
+        "C7",
+        "C1",
+        "R2",
+        "C12",
+        "C5",
+        "U6",
+        "C11",
+        "R6"
+      ],
+      "all_non_value_content_identical": true
+    }
+  },
+  "status": "PASS",
+  "bom_explicit_ratings_preserved": true,
+  "visual_review": "PPG and adapter previews inspected; passive values and full IC names fit the drawing.",
+  "adapter_verification": "../../kicad/ppg_uart_adapter/verification.json"
+}

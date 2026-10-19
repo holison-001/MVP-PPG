@@ -1,0 +1,10 @@
+{
+  "source_found": true,
+  "target_found": true,
+  "source_reaches_IC": true,
+  "source_reaches_vias": [
+    "via:7ae3cc54-3f53-495e-be30-5950320b2f34",
+    "via:8e393978-7abf-46b2-be03-4c8a823fd16d"
+  ],
+  "copper_nodes": 11
+}

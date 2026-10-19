@@ -1,0 +1,60 @@
+{
+  "source_board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_all_ground_20261005\\ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "acde2a668cf37064ec92e6d2a75cca0f7511d923814010b9736734c7725d5f3e",
+  "tool": "KiCad 10 SVG export; six native plots combined; sharp rasterization",
+  "purpose": "Read-only six-layer PCB review after full-board GND pour on every copper layer",
+  "layers": [
+    {
+      "file": "01_top.svg",
+      "layers": "F.Cu,F.Mask,F.Fab,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 30.262021300138663,
+      "GND_fill_area_mm2": 93.913689338303,
+      "sha256": "10e84fce13ab13cb6c5dd8f232b57a443820da65a9e86805adccba1179676061"
+    },
+    {
+      "file": "02_ground.svg",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 0,
+      "GND_fill_area_mm2": 103.592236550622,
+      "sha256": "209a5282b53f712ff8d67598bd79047938f57ddb03677ffb56c2be8b8d6b0464"
+    },
+    {
+      "file": "03_signal.svg",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 40.567271476302246,
+      "GND_fill_area_mm2": 88.188829751928,
+      "sha256": "d64fbc5c2810baf9d1796558a5af85b1e83696233074dd1072df6db1407f298d"
+    },
+    {
+      "file": "04_power.svg",
+      "layers": "In3.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 53.39468855453573,
+      "GND_fill_area_mm2": 70.9408474744975,
+      "sha256": "2a100ff867244e325332137dc0db2f1a0bcc7a7f6d2e35d955b4a60e032ade97"
+    },
+    {
+      "file": "05_ground.svg",
+      "layers": "In4.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 5.929871360768511,
+      "GND_fill_area_mm2": 101.1601864908725,
+      "sha256": "2cdfc1163205d012964423175c176df49d39d1c77700481dffb841c4e03f24f9"
+    },
+    {
+      "file": "06_bottom.svg",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 69.08005997396057,
+      "GND_fill_area_mm2": 49.9292554939315,
+      "sha256": "ac81d1f599ea6e3fef06f88d9a378ff222e9bc9c674515dddce118a4e1d2d780"
+    }
+  ],
+  "overview": {
+    "six_layers.svg": "8c2326e869a33e5f05bd4a15c2ebd48de55362d1f68d3c962877bf6211e5ff99",
+    "six_layers.png": "2a13cb53ac744efafe059eb0aa5bbdae05817f4a09c3684cda325c40ef247f65"
+  }
+}

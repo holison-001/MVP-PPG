@@ -1,0 +1,26 @@
+{
+  "source_boards": [
+    {
+      "file": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\u2_west_review_20261007\\snapshot\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0"
+    },
+    {
+      "file": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\u2_west_review_20261007\\placement\\ppg_pcb_v08_refined.kicad_pcb",
+      "sha256": "236cf9f6485aeb529e8032475282b8b12808d03559d3264bf8f1d79c1e4bdc99"
+    }
+  ],
+  "moved_refs": [
+    "C1",
+    "C15",
+    "C4",
+    "D8",
+    "R1",
+    "R2",
+    "U2"
+  ],
+  "U2_delta_mm": [
+    -1.8000000000000007,
+    0.0
+  ],
+  "placement_only_not_routed": true
+}

@@ -1,0 +1,1084 @@
+{
+  "input_sha256": {
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\via_split_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pcb": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_via_split_20261005\\ppg_pcb_v08_via_split.kicad_pcb": "aac0028466fd502155a5015fa0b8a99458f7701799ea9c1369310f41a707db56",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\via_split_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pro": "a91eea391d130802868274f80e65bb04849576d9eb3178da035c1e9420a444e0",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\via_split_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_dru": "a4f504f8e94e916ec9fba4a198413bf2764a13a74e3692387589b621d63f147f",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\via_split_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_via_split_20261005\\ppg_pcb_v08_via_split.kicad_pro": "b55c5bebf97bec704ee2882973374fd843d23662af076fdf867ece8c7b935597",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_via_split_20261005\\ppg_pcb_v08_via_split.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+    "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_via_split_20261005\\ppg_pcb_v08_via_split.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e"
+  },
+  "counts": {
+    "baseline_refs": 39,
+    "candidate_refs": 39,
+    "baseline_numbered_pins": 119,
+    "candidate_numbered_pins": 119,
+    "physical_pads": 143
+  },
+  "footprint_changes": [],
+  "preserved_footprint_uuid_count": 39,
+  "preserved_pad_uuid_count": 143,
+  "preserved_numbered_pin_nets": 119,
+  "via_changes": {
+    "baseline_count": 63,
+    "candidate_count": 73,
+    "preserved_existing_via_uuids": 63,
+    "removed_uuids": [],
+    "moved": [
+      {
+        "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+        "net": "/TXP_DRV",
+        "before_xy_mm": [
+          23.825,
+          13.95
+        ],
+        "after_xy_mm": [
+          23.875,
+          13.95
+        ],
+        "movement_mm": 0.05000000000000071
+      }
+    ],
+    "added": [
+      {
+        "uuid": "03792694-29a0-4ed2-be65-a93a04eea25b",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          25.45,
+          19.625
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "19804070-807c-45f5-949e-cd735efde261",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          16.5375,
+          21.9875
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "4333f549-9bfb-4e25-abdd-b191d0e772ac",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          21.6875,
+          22.8375
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "56bd287b-d09e-48a3-9386-4eb97c39bcef",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          18.975,
+          22.9
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "85a17963-32df-4f82-be30-8121de561108",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          14.1625,
+          15.4
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "ba4b0e20-11d7-480b-b57b-c8d9dee0a594",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          25.8625,
+          17.525
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          16.55,
+          12.0
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          19.95,
+          23.075
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "f325569b-6061-4dac-88d6-3af441c5d35d",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          22.1375,
+          11.3
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      },
+      {
+        "uuid": "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+        "net": "GND",
+        "group": "ground",
+        "xy_mm": [
+          25.95,
+          18.1375
+        ],
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "via_type": 4
+      }
+    ],
+    "candidate_groups": {
+      "signal": 29,
+      "power_reference": 15,
+      "ground": 29
+    }
+  },
+  "track_changes": {
+    "baseline_count": 318,
+    "candidate_count": 325,
+    "retained_uuids": 234,
+    "removed_uuids": [
+      "07612db7-6166-4888-9b66-08b8220b61dc",
+      "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+      "0c397228-dff9-4ece-a0eb-74b5eede93c8",
+      "0cf2821c-77fa-4914-ad0f-c5ba442ca2d6",
+      "10321e9b-0b1b-4d24-9b37-049b15c6250e",
+      "11c8b0c1-ee3d-4ada-aee0-557e7636499d",
+      "15d4a868-4e19-4e14-8b96-ce8a1824c4aa",
+      "16a19da4-5616-4a7a-a4f8-77f472076114",
+      "183ecf50-f37f-4ce5-8ea1-8001cdcece4b",
+      "1bc9a37a-053a-4c0b-b8c9-a26752848cf1",
+      "2350cd5d-c4ad-4542-8f09-cf202d5b6e76",
+      "247efe0f-4c27-4577-99f2-9c828c2e09d7",
+      "2e831188-4bb1-425c-b0cd-21c7c9b919e0",
+      "2fe4967f-8dcf-432d-b5ee-4f1955d80c5d",
+      "30ad67e3-b81f-40bf-9147-d600cd2ab763",
+      "34fc3bea-2c7b-49a1-ad3d-1731f428ca6d",
+      "354e412b-a4d6-4516-ad66-c8013ba1d792",
+      "37dc9cec-37a4-4da1-8781-cb9868a99cda",
+      "3bba8443-4755-4735-97ed-8ded1621fc3b",
+      "4191355a-b73c-4d7a-ae99-055a92f7f765",
+      "440c536e-4bde-488f-839c-2468e42932cf",
+      "4d25e357-a9d7-4e45-ac49-ea77a43920a8",
+      "51e585a2-a221-44c3-8d26-ae602e9525db",
+      "52a870b3-44d0-49fb-994c-d6a2f9e35f14",
+      "530e02d8-a2ca-42a4-99f0-f13c790e3f7b",
+      "565f55ba-4be5-49ed-8f92-6e82632274fb",
+      "5800c01d-ce1a-470c-9962-bcea490d8520",
+      "5b5bb439-7158-427a-9510-58d5a3dc3d27",
+      "5e2d40d6-328b-4d07-a136-dd8bcf96c14e",
+      "6bb272da-4e4f-4041-b184-a9eb08afecf9",
+      "6dc00e48-c524-4ba1-8736-8077039a56ed",
+      "700101be-ccb9-4b24-ae71-d8487e5892c3",
+      "71b30dbb-6027-44d5-a3d2-27ede7bdf13e",
+      "7319a8fb-0d88-490a-9b7f-bca5d68c7715",
+      "75632186-ed36-4f25-882b-eeb7207f35f2",
+      "75a1cfbe-7171-494b-b626-1bc860d720fe",
+      "75cb0ffb-c552-4cab-ba5a-19e76be13045",
+      "7700893a-2820-4403-a3e7-93cf4ea0bec6",
+      "7734f028-0274-4e6f-ad26-a5ce44bc37a4",
+      "7a2d9fab-f5c0-48b4-9e7e-dd048f3c57d8",
+      "80379126-1451-4030-b20a-f2ed7c0aba0e",
+      "82388026-2350-4550-8eea-5b07228bbae1",
+      "8c8a8a9b-d985-4305-b997-7449440d7afe",
+      "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+      "9123243f-256e-4a6f-9aa6-727fdba09dde",
+      "92874f6b-1fe0-4e14-9f9f-f85d37807224",
+      "92c7c458-90ba-40eb-9921-002d9b79ac6d",
+      "94c64a62-4658-4df2-a02c-c0c0b1444b9f",
+      "9913d153-0cf4-4dca-ba61-98d380f652b0",
+      "9ce1a728-6602-410e-9b80-cbec8e057dc1",
+      "a00d37f0-f8ff-437c-9123-781561a3febd",
+      "a3f8ce4f-b2f8-4628-a57e-d0fd5f0d7517",
+      "a3fe505d-5289-4fe5-bcc2-4e0bdc71470b",
+      "a792cf24-fe5f-479f-8dc3-2a1a460a91c2",
+      "aba3df2f-f31e-4ced-ac75-650d24a6b544",
+      "abf98a5b-65ad-471e-87b6-fd6cda8a35da",
+      "afc5e14f-7f0d-4137-9cab-cadf7607952f",
+      "b4f3d587-114e-4a0c-87b5-92ad6f4df4d6",
+      "b621cb8f-2c61-4a03-9adc-e62dbcee9bab",
+      "b73eb4d7-1a9e-429f-a3a4-088b1d5b5f4b",
+      "bda94eee-6692-4390-af03-4cba7850cd45",
+      "bdece3f6-1be8-4787-97c9-f76aa976ffc2",
+      "c29be4f9-8dcd-4fd8-8dee-b46724641b22",
+      "c3067376-6ed3-4020-99fd-4befb8fa24fb",
+      "c4d45671-7e45-4337-a86d-85f46a6d401e",
+      "c5dc8e74-ca0b-4db7-b8ce-650bf56de3f9",
+      "c9b25341-f83b-49e9-9634-97a79fff4efc",
+      "cc1b70bc-385b-41c3-97e0-d44e56c8ecc3",
+      "d2c9a017-11b5-4378-8d1f-6934842b9455",
+      "d305d58c-35e5-4e40-83b7-01500db9eb4c",
+      "d40e590d-2e6e-4971-9102-ab3b2d166df1",
+      "d4cd300e-1990-4512-9fd5-00a12349f9ec",
+      "de06ca9f-640e-49f7-85d1-39935e8f8e22",
+      "e1a32d09-afae-40de-a380-01b5c90e7baa",
+      "e60ee6a0-28f2-421a-8e53-5782b9b6b37b",
+      "e677c515-98ad-4260-ba22-fbf031acc779",
+      "e6895b57-3dab-4cc2-a32f-ff9991a45bf9",
+      "e7a0e3b9-2339-4b5b-bf83-1c1b9d6daf5a",
+      "e7e45761-34ad-44d0-86f7-148ffe34868c",
+      "ed8f56a5-a177-498f-9587-2f7458e194c2",
+      "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+      "f54a2ddb-179b-47fe-8bea-643fbba7fca2",
+      "f74979ec-ea76-4f82-9b59-4d76b9444308",
+      "fa2c7c23-f8d2-480a-92ae-98016e83855d"
+    ],
+    "added_uuids": [
+      "030fdcf2-0f15-4afc-a369-87329b79c043",
+      "0529d77b-212f-4cbb-bd6d-76fedfd30cbb",
+      "0e2b2406-fdf6-4a04-a36f-7521fa900f16",
+      "11b93fd3-a455-4b0b-9946-b86de20a2cc4",
+      "1b8cc944-f11e-4250-a2bc-f70fd0393ba0",
+      "278b4e4c-2a99-49df-8f9a-10060b62f026",
+      "27b33789-d9fb-4897-97da-013bfc8d834f",
+      "27c53021-e235-45e4-8a9c-ee6d3b000297",
+      "2b83e27c-00f5-41b4-b27f-b45498f2ff28",
+      "2fd26cc7-324b-43f3-a30a-f35919d20082",
+      "31e4b772-5748-4e77-9eeb-260e6476bef8",
+      "35ffaa49-0886-454e-95d6-d9e0db77d617",
+      "3854eefb-859b-478e-bd8d-687b25320004",
+      "39255820-2851-4fc6-88e4-5bd7b9522529",
+      "3abf3b09-9174-4b70-adc7-3f04c26cc28f",
+      "3ff4ae33-d064-4537-8671-c2409b844f31",
+      "41938432-fbbc-4cb2-9fba-2ce39bc65ed9",
+      "44f100ef-6f50-48d5-a6ab-9c024e61922c",
+      "461654c3-6909-4170-b578-f18792c50547",
+      "4805b230-9a04-4510-8f1c-5f7d39c7fa6c",
+      "547643ad-43a6-4888-9eb9-27478eb0536c",
+      "573d23c3-4daf-4fe1-aa8a-d41752d32f3d",
+      "5e321a18-03f6-457b-82a3-90285c2e7a2b",
+      "5e956cf4-ef5e-41aa-89b7-1fcd742e2d79",
+      "63538e8a-4575-46f6-b917-daad08147c22",
+      "63817be5-25ea-4aaa-87db-f86e690e32c3",
+      "645a48dc-dc47-4e30-84b8-ad0fc21bc330",
+      "67b5dc43-8244-40be-92e1-6130d70ecf93",
+      "687190e9-5ddc-4626-bfe9-8d5c73093aec",
+      "68cc13e1-a2e3-44be-9603-2c6cf35f8fd9",
+      "69ed4861-2df3-454f-a128-d9050232d478",
+      "6b09f295-0416-4e07-aa56-d8a1ea9a52a6",
+      "6d2cf9f2-639f-49dc-a852-67a20aa4d351",
+      "6e1065ce-6939-44b9-b8ee-c1fb1fdac5c4",
+      "6e1f7c96-b353-4701-b45a-d731d0c51a02",
+      "713c08b6-3bec-419d-85a5-da59d6389297",
+      "78042e28-9741-4488-b531-149bd26a37a4",
+      "79780f57-8cfe-49bc-b60f-d3fce11f6e2a",
+      "7bd3e6c1-784e-4a5f-8703-162fe00d924d",
+      "812405fe-b1c0-4ae2-95d3-0edf56318827",
+      "84aa6537-5e88-40c2-98d2-023356a70bce",
+      "856d1d3d-03ca-4f07-82f4-a116ca4aa938",
+      "8917a786-2bf4-41b3-8e5a-dd4467f32607",
+      "899d83e1-5bb1-458b-97bf-f9fc3b4684e6",
+      "8d64248a-e3f3-4f17-af07-0fa19b98e990",
+      "92131ef8-77c3-49a7-817f-d9c8bcd730df",
+      "97f5a79c-aa7a-4838-bc01-f83250911d72",
+      "9e4b9c25-6cd6-426c-b225-e81681d904f8",
+      "a0cf85a3-ba6e-44cd-97c5-660eb50aecc7",
+      "a531d62c-bf1f-4030-acee-7ddae1d62be7",
+      "a91e120a-ec1c-4616-9836-b8aa82b18885",
+      "ac1ba1c7-5cc4-423b-9ba0-fe42980fab8c",
+      "ac310e40-2e1b-4b34-be1d-1c86692d5b6c",
+      "ae0425c0-3c34-467f-9645-af6f3d03c4fc",
+      "b43ab847-fcba-45ad-9d5e-d5d4b60e7b7a",
+      "b46f3688-0ca2-4dc3-8ac2-076b181c00d6",
+      "b6d86a62-b398-4243-939a-3105c1e2a32a",
+      "b77a23e1-f2d9-4364-8011-c71a1cb2c1d9",
+      "baf6c696-f579-470a-9f4d-7458654ba662",
+      "bb2a4494-d2a4-49ba-9958-891e70df3e25",
+      "bd7bc450-5a7c-4e0f-9333-a7a7442fb9ef",
+      "bdc48025-cd7c-4bdc-b976-691452c340de",
+      "c0120aa6-a54e-4c89-9c0b-9deb95dfc544",
+      "c0339f19-b1d4-4a15-8861-fb29984120a7",
+      "c3577cc4-50e4-4d4e-9f6d-7b987573d4ac",
+      "c41da974-79a0-4c74-b945-8f7ca566c93b",
+      "c68bd4a4-08a7-4a44-8555-5d61b1321dac",
+      "cf42b174-dcbe-48e1-8d1d-42f1dc62fe13",
+      "cfc974e3-713a-41e3-9a13-536e3bdca79c",
+      "d2c97abd-a189-42a5-8822-0d0b49a7747b",
+      "d55501be-429e-419b-9cbe-e9b6565c8205",
+      "dae1be0b-dd3c-49bd-98e5-18769b2f146a",
+      "db26a86c-9e61-4d77-b019-ca97af6974cc",
+      "dd0bd348-f1f3-47e0-9866-d9c85577bce1",
+      "de30dfd4-f1fa-4e5a-810a-775be8c32614",
+      "de89c3e3-8769-4f42-a7b8-c0971cbcd2b4",
+      "e17270d2-3db9-4297-ad58-80693af59900",
+      "e8c93f4d-6a22-41a4-9518-839e7745c1fc",
+      "e8f4e8ca-dd0d-41f9-8cd8-982a259bc370",
+      "ed58cbb4-0ebb-44a6-8de2-c02f2c13a764",
+      "eef9741b-4bd0-40f9-ab53-e96da4000e90",
+      "efa6f8f0-f807-4ca8-aad4-3e7bf337d102",
+      "f015d81c-d730-432b-9834-9fbd5920bb92",
+      "f1165d88-0d41-435a-a98c-faec15139e59",
+      "f20780f9-89b7-4257-80be-103600321833",
+      "f27a5873-3b4b-43c0-84b6-e7d381f4e0eb",
+      "f4e46e0a-179a-44ae-ae08-5acceb645c12",
+      "f5506f45-c33b-4773-b170-4b8de73cbe53",
+      "f9441289-54d7-4754-bcc3-d031b85d1fa6",
+      "fb6132f4-5683-41ce-9a17-9be2341ab567",
+      "fbc20a18-d7c7-4452-9670-304318eecaef"
+    ]
+  },
+  "wide_track_preservation": {
+    "baseline_width_counts": {
+      "0.15": 11,
+      "0.2": 45,
+      "0.4": 33,
+      "0.3": 7
+    },
+    "same_uuid_not_narrowed_count": 96,
+    "narrowed": [],
+    "replaced_or_removed": [],
+    "widths_by_net_before": {
+      "/12V_IN": {
+        "0.15": 4
+      },
+      "/LDO_EN": {
+        "0.1": 5
+      },
+      "/NRST": {
+        "0.1": 8
+      },
+      "/RXN": {
+        "0.1": 5,
+        "0.15": 1
+      },
+      "/RXN_RCV": {
+        "0.1": 1
+      },
+      "/RXP": {
+        "0.1": 6
+      },
+      "/RXP_RCV": {
+        "0.1": 4
+      },
+      "/SCL": {
+        "0.1": 10
+      },
+      "/SDA": {
+        "0.1": 12,
+        "0.15": 2
+      },
+      "/SWCLK": {
+        "0.1": 12
+      },
+      "/SWDIO": {
+        "0.1": 10
+      },
+      "/TXN": {
+        "0.1": 2
+      },
+      "/TXN_DRV": {
+        "0.1": 7
+      },
+      "/TXP": {
+        "0.1": 8
+      },
+      "/TXP_DRV": {
+        "0.15": 1,
+        "0.1": 3
+      },
+      "/UART_RX": {
+        "0.1": 12
+      },
+      "/UART_TX": {
+        "0.1": 14
+      },
+      "/VLDO": {
+        "0.1": 5
+      },
+      "/VREF": {
+        "0.1": 12
+      },
+      "12V": {
+        "0.1": 4,
+        "0.15": 3,
+        "0.3": 7
+      },
+      "3V3": {
+        "0.2": 13,
+        "0.1": 15,
+        "0.4": 33
+      },
+      "5V_LED": {
+        "0.1": 16
+      },
+      "GND": {
+        "0.1": 51,
+        "0.2": 32
+      }
+    },
+    "widths_by_net_after": {
+      "/12V_IN": {
+        "0.15": 4
+      },
+      "/LDO_EN": {
+        "0.15": 5
+      },
+      "/NRST": {
+        "0.15": 8
+      },
+      "/RXN": {
+        "0.15": 6
+      },
+      "/RXN_RCV": {
+        "0.15": 1
+      },
+      "/RXP": {
+        "0.15": 6
+      },
+      "/RXP_RCV": {
+        "0.15": 5
+      },
+      "/SCL": {
+        "0.15": 9
+      },
+      "/SDA": {
+        "0.15": 10
+      },
+      "/SWCLK": {
+        "0.15": 11
+      },
+      "/SWDIO": {
+        "0.15": 10
+      },
+      "/TXN": {
+        "0.15": 2
+      },
+      "/TXN_DRV": {
+        "0.15": 9
+      },
+      "/TXP": {
+        "0.15": 9
+      },
+      "/TXP_DRV": {
+        "0.15": 5
+      },
+      "/UART_RX": {
+        "0.15": 13
+      },
+      "/UART_TX": {
+        "0.15": 17
+      },
+      "/VLDO": {
+        "0.15": 5
+      },
+      "/VREF": {
+        "0.15": 11
+      },
+      "12V": {
+        "0.15": 7,
+        "0.3": 7
+      },
+      "3V3": {
+        "0.2": 13,
+        "0.15": 15,
+        "0.4": 33
+      },
+      "5V_LED": {
+        "0.15": 21
+      },
+      "GND": {
+        "0.15": 51,
+        "0.2": 32
+      }
+    }
+  },
+  "baseline_statistics": {
+    "copper_layers": 6,
+    "thickness_mm": 0.8,
+    "trace_count": 318,
+    "via_count": 63,
+    "via_types": {
+      "4": 63
+    },
+    "non_through_via_uuids": [],
+    "via_sizes_mm": [
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "layers": {
+      "F.Cu": {
+        "trace_count": 34,
+        "trace_length_mm": 28.85688690711473,
+        "trace_length_by_net_mm": {
+          "/LDO_EN": 0.574853520852113,
+          "/NRST": 2.9659461953371444,
+          "/SCL": 1.0071977767007354,
+          "/SDA": 0.99057995638969,
+          "/SWCLK": 2.825377627334123,
+          "/SWDIO": 1.9303885619221846,
+          "/VLDO": 3.5193969522011015,
+          "/VREF": 6.7861472679742985,
+          "3V3": 2.786413465370852,
+          "5V_LED": 3.4598499602799144,
+          "GND": 2.0107356227525717
+        },
+        "ground_saved_fill_area_mm2": 95.124044304555,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 63
+      },
+      "In1.Cu": {
+        "trace_count": 0,
+        "trace_length_mm": 0,
+        "trace_length_by_net_mm": {},
+        "ground_saved_fill_area_mm2": 103.0247583377805,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 63
+      },
+      "In2.Cu": {
+        "trace_count": 47,
+        "trace_length_mm": 48.38179888909778,
+        "trace_length_by_net_mm": {
+          "/NRST": 1.8008678463452001,
+          "/RXN": 3.6620827660876376,
+          "/RXP_RCV": 3.875967571581777,
+          "/SCL": 3.006050500913945,
+          "/SDA": 8.537369944036882,
+          "/SWDIO": 2.7441158726768426,
+          "/TXN_DRV": 5.12443564992318,
+          "/TXP": 3.000880331818415,
+          "/UART_RX": 5.167660849506068,
+          "/UART_TX": 8.209420554115901,
+          "5V_LED": 3.252947002091935
+        },
+        "ground_saved_fill_area_mm2": 23.6807585417695,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 63
+      },
+      "In3.Cu": {
+        "trace_count": 48,
+        "trace_length_mm": 52.90535973870374,
+        "trace_length_by_net_mm": {
+          "/NRST": 2.425,
+          "/RXP": 4.6282421068911255,
+          "/SWCLK": 3.231874755845203,
+          "/SWDIO": 3.3024612034057266,
+          "12V": 9.540333965991143,
+          "3V3": 29.777447706570534
+        },
+        "ground_saved_fill_area_mm2": 23.677703604644,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 63
+      },
+      "In4.Cu": {
+        "trace_count": 2,
+        "trace_length_mm": 3.5400863140746237,
+        "trace_length_by_net_mm": {
+          "/TXP_DRV": 3.5400863140746237
+        },
+        "ground_saved_fill_area_mm2": 101.794223501662,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 63
+      },
+      "B.Cu": {
+        "trace_count": 187,
+        "trace_length_mm": 68.30121881134498,
+        "trace_length_by_net_mm": {
+          "/12V_IN": 2.5192544725075505,
+          "/LDO_EN": 0.5024552553744328,
+          "/NRST": 1.508,
+          "/RXN": 3.3338722772768534,
+          "/RXN_RCV": 0.9394147114027968,
+          "/RXP": 2.0699673652161854,
+          "/RXP_RCV": 1.2078832702682332,
+          "/SCL": 3.471211825992709,
+          "/SDA": 1.3117432764336974,
+          "/SWCLK": 2.778647337864796,
+          "/SWDIO": 0.7356203532749281,
+          "/TXN": 1.4295041630560343,
+          "/TXN_DRV": 1.1948510744804375,
+          "/TXP": 1.2383241156326839,
+          "/TXP_DRV": 0.9599493825353751,
+          "/UART_RX": 3.9062912994109187,
+          "/UART_TX": 4.298166785654404,
+          "/VLDO": 0.9221046173579948,
+          "/VREF": 0.5525396462005392,
+          "12V": 4.622332211273823,
+          "3V3": 8.56907278221395,
+          "5V_LED": 5.673779904084501,
+          "GND": 14.556232683832123
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 63
+      }
+    }
+  },
+  "candidate_statistics": {
+    "copper_layers": 6,
+    "thickness_mm": 0.8,
+    "trace_count": 325,
+    "via_count": 73,
+    "via_types": {
+      "4": 73
+    },
+    "non_through_via_uuids": [],
+    "via_sizes_mm": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.5,
+        0.25
+      ]
+    ],
+    "layers": {
+      "F.Cu": {
+        "trace_count": 36,
+        "trace_length_mm": 29.245798558083884,
+        "trace_length_by_net_mm": {
+          "/LDO_EN": 0.574853520852113,
+          "/NRST": 2.995384373943146,
+          "/SCL": 0.9833639335819897,
+          "/SDA": 1.5750095677683063,
+          "/SWCLK": 2.8507599371442884,
+          "/SWDIO": 1.9303885619221846,
+          "/VLDO": 3.303728427284258,
+          "/VREF": 7.203887498253951,
+          "3V3": 2.786413465370852,
+          "5V_LED": 3.0312736492102235,
+          "GND": 2.0107356227525717
+        },
+        "ground_saved_fill_area_mm2": 94.7284982075145,
+        "ground_saved_fill_outline_count": 2,
+        "via_count": 73
+      },
+      "In1.Cu": {
+        "trace_count": 0,
+        "trace_length_mm": 0,
+        "trace_length_by_net_mm": {},
+        "ground_saved_fill_area_mm2": 103.051109824809,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "In2.Cu": {
+        "trace_count": 48,
+        "trace_length_mm": 45.77968179747516,
+        "trace_length_by_net_mm": {
+          "/NRST": 1.8008678463452001,
+          "/RXN": 3.666968110626114,
+          "/RXP_RCV": 3.873103125626829,
+          "/SCL": 2.999615988755894,
+          "/SDA": 5.484981913648152,
+          "/SWDIO": 2.7656190998254004,
+          "/TXN_DRV": 5.127789554151649,
+          "/TXP": 3.0526253119243085,
+          "/UART_RX": 5.446835591295861,
+          "/UART_TX": 8.287593979833947,
+          "5V_LED": 3.273681275441816
+        },
+        "ground_saved_fill_area_mm2": 23.6807585376085,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "In3.Cu": {
+        "trace_count": 47,
+        "trace_length_mm": 53.22121882134907,
+        "trace_length_by_net_mm": {
+          "/NRST": 2.425,
+          "/RXP": 4.6282421068911255,
+          "/SWCLK": 3.5208309275611818,
+          "/SWDIO": 3.3024612034057266,
+          "12V": 9.540333965991143,
+          "3V3": 29.804350617499892
+        },
+        "ground_saved_fill_area_mm2": 23.6739730466365,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "In4.Cu": {
+        "trace_count": 3,
+        "trace_length_mm": 3.6318314930470788,
+        "trace_length_by_net_mm": {
+          "/TXP_DRV": 3.6318314930470788
+        },
+        "ground_saved_fill_area_mm2": 101.6642136791295,
+        "ground_saved_fill_outline_count": 1,
+        "via_count": 73
+      },
+      "B.Cu": {
+        "trace_count": 191,
+        "trace_length_mm": 68.29386409334482,
+        "trace_length_by_net_mm": {
+          "/12V_IN": 2.5192544725075505,
+          "/LDO_EN": 0.5024552553744328,
+          "/NRST": 1.508,
+          "/RXN": 3.3338722772768534,
+          "/RXN_RCV": 0.9394147114027968,
+          "/RXP": 2.0699673652161854,
+          "/RXP_RCV": 1.2078832702682332,
+          "/SCL": 3.471211825992709,
+          "/SDA": 1.3117432764336974,
+          "/SWCLK": 2.778647337864796,
+          "/SWDIO": 0.7356203532749281,
+          "/TXN": 1.4295041630560343,
+          "/TXN_DRV": 1.1948510744804375,
+          "/TXP": 1.2383241156326839,
+          "/TXP_DRV": 0.9456581840494402,
+          "/UART_RX": 3.9130611203315726,
+          "/UART_TX": 4.298166785654404,
+          "/VLDO": 0.9221046173579948,
+          "/VREF": 0.5525396462005392,
+          "12V": 4.622332211273823,
+          "3V3": 8.56907278221395,
+          "5V_LED": 5.702211968662734,
+          "GND": 14.52796727881902
+        },
+        "ground_saved_fill_area_mm2": 0.0,
+        "ground_saved_fill_outline_count": 0,
+        "via_count": 73
+      }
+    }
+  },
+  "l5_path_groups": [
+    {
+      "net": "/TXP_DRV",
+      "length_mm": 3.6318314930470788,
+      "segment_count": 3,
+      "touched_vias": [
+        {
+          "uuid": "1b2f79e2-bd74-4382-9704-ad7bbb2e1845",
+          "xy_mm": [
+            22.95,
+            17.375
+          ]
+        },
+        {
+          "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+          "xy_mm": [
+            23.875,
+            13.95
+          ]
+        }
+      ],
+      "endpoints_or_junctions": [
+        {
+          "xy_mm": [
+            22.95,
+            17.375
+          ],
+          "endpoint_degree": 1
+        },
+        {
+          "xy_mm": [
+            23.875,
+            13.95
+          ],
+          "endpoint_degree": 1
+        }
+      ],
+      "segments": [
+        {
+          "uuid": "35ffaa49-0886-454e-95d6-d9e0db77d617",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.08,
+            15.64
+          ],
+          "z_mm": [
+            23.08,
+            17.1
+          ],
+          "via": false,
+          "width_mm": 0.15,
+          "length_mm": 1.46
+        },
+        {
+          "uuid": "bd7bc450-5a7c-4e0f-9333-a7a7442fb9ef",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.08,
+            17.1
+          ],
+          "z_mm": [
+            22.95,
+            17.375
+          ],
+          "via": false,
+          "width_mm": 0.15,
+          "length_mm": 0.30417922348510257
+        },
+        {
+          "uuid": "db26a86c-9e61-4d77-b019-ca97af6974cc",
+          "net": "/TXP_DRV",
+          "layer": "In4.Cu",
+          "a_mm": [
+            23.875,
+            13.95
+          ],
+          "z_mm": [
+            23.08,
+            15.64
+          ],
+          "via": false,
+          "width_mm": 0.15,
+          "length_mm": 1.867652269561976
+        }
+      ]
+    }
+  ],
+  "layer_policy": {
+    "ok": true,
+    "inner_layer_track_count": 98,
+    "ground_plane_layers": [
+      "In1.Cu",
+      "In4.Cu"
+    ],
+    "ground_plane_track_count": 3,
+    "l2_track_count": 0,
+    "l5_track_count": 3,
+    "l5_trace_length_mm": 3.6318314930470788,
+    "signal_layer_tracks": {
+      "In2.Cu": 48,
+      "In3.Cu": 47,
+      "In4.Cu": 3
+    },
+    "power_layer": "In3.Cu",
+    "power_3V3_track_count": 33,
+    "power_3V3_widths_mm": [
+      0.4
+    ],
+    "ground_rim": {
+      "ok": true,
+      "method": "KiCad polygon subtraction, 1440-sided inset annulus",
+      "layers": {
+        "F.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.53,
+          "checked_width_mm": 0.3250000000000002,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In1.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In2.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In3.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        },
+        "In4.Cu": {
+          "inner_radius_mm": 6.205,
+          "outer_radius_mm": 6.43,
+          "checked_width_mm": 0.22499999999999964,
+          "missing_saved_fill_mm2": 0.0
+        }
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "via_policy": {
+    "ok": true,
+    "minimum_track_width_mm": 0.15,
+    "track_width_counts": {
+      "0.15": 240,
+      "0.2": 45,
+      "0.3": 7,
+      "0.4": 33
+    },
+    "via_groups": {
+      "signal": 29,
+      "power_reference": 15,
+      "ground": 29
+    },
+    "via_sizes": [
+      {
+        "group": "ground",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 29
+      },
+      {
+        "group": "power_reference",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.25,
+        "count": 15
+      },
+      {
+        "group": "signal",
+        "diameter_mm": 0.5,
+        "drill_mm": 0.2,
+        "count": 29
+      }
+    ],
+    "power_reference_nets": [
+      "12V",
+      "12V_IN",
+      "3V3",
+      "5V_LED",
+      "VLDO",
+      "VREF"
+    ],
+    "errors": []
+  },
+  "project_rule_changes": {
+    "min_track_width": {
+      "before": 0.1,
+      "after": 0.15
+    },
+    "min_through_hole_diameter": {
+      "before": 0.25,
+      "after": 0.2
+    }
+  },
+  "project_protection_checks": {
+    "rule_severities_unchanged": true,
+    "drc_exclusions_unchanged": true
+  },
+  "custom_rules_checks": {
+    "existing_rules_preserved": true,
+    "added_rule_names": [
+      "Power and reference vias 0.50 by 0.25 mm",
+      "Signal and GND vias 0.50 by 0.20 mm"
+    ],
+    "severity_override_present": false,
+    "added_rule_definitions": [
+      [
+        "rule",
+        "Power and reference vias 0.50 by 0.25 mm",
+        [
+          "condition",
+          "A.Type == 'Via' && (A.NetName == '3V3' || A.NetName == '/3V3' || A.NetName == '5V_LED' || A.NetName == '/5V_LED' || A.NetName == '12V' || A.NetName == '/12V' || A.NetName == '12V_IN' || A.NetName == '/12V_IN' || A.NetName == 'VLDO' || A.NetName == '/VLDO' || A.NetName == 'VREF' || A.NetName == '/VREF')"
+        ],
+        [
+          "constraint",
+          "via_diameter",
+          [
+            "min",
+            "0.50mm"
+          ],
+          [
+            "opt",
+            "0.50mm"
+          ],
+          [
+            "max",
+            "0.50mm"
+          ]
+        ],
+        [
+          "constraint",
+          "hole_size",
+          [
+            "min",
+            "0.25mm"
+          ],
+          [
+            "opt",
+            "0.25mm"
+          ],
+          [
+            "max",
+            "0.25mm"
+          ]
+        ]
+      ],
+      [
+        "rule",
+        "Signal and GND vias 0.50 by 0.20 mm",
+        [
+          "condition",
+          "A.Type == 'Via' && !(A.NetName == '3V3' || A.NetName == '/3V3' || A.NetName == '5V_LED' || A.NetName == '/5V_LED' || A.NetName == '12V' || A.NetName == '/12V' || A.NetName == '12V_IN' || A.NetName == '/12V_IN' || A.NetName == 'VLDO' || A.NetName == '/VLDO' || A.NetName == 'VREF' || A.NetName == '/VREF')"
+        ],
+        [
+          "constraint",
+          "via_diameter",
+          [
+            "min",
+            "0.50mm"
+          ],
+          [
+            "opt",
+            "0.50mm"
+          ],
+          [
+            "max",
+            "0.50mm"
+          ]
+        ],
+        [
+          "constraint",
+          "hole_size",
+          [
+            "min",
+            "0.20mm"
+          ],
+          [
+            "opt",
+            "0.20mm"
+          ],
+          [
+            "max",
+            "0.20mm"
+          ]
+        ]
+      ]
+    ]
+  },
+  "schematic_bytes_unchanged": true,
+  "netlist_sha256": "eb387f30e739c133fd042fa60353f468252938feef5f333cfc87172137e6d2c3",
+  "supplied_drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "parity": 0
+  },
+  "drc_sha256": "c1455adf2b4ef860a044c51aa02b15ca9a621add294894266c16837cd2327d9b",
+  "ok": true,
+  "errors": [],
+  "review_items": [],
+  "notes": [
+    "Saved GND polygons were measured without refill.",
+    "DRC report provenance must match this frozen candidate.",
+    "Local rerouting and via movement are reported; exact original 318-track geometry is no longer required."
+  ]
+}

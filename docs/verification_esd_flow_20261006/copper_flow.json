@@ -1,0 +1,105 @@
+{
+  "board_sha256": "9caf20e4383d00f97e604291ab7e9c29394bed81c2da8c6ed2c2addbab580384",
+  "checks": {
+    "D6.1": {
+      "net": "/SWDIO",
+      "source": "J7.1",
+      "target": "U2.16",
+      "normal": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": true,
+        "source_reaches_vias": [
+          "via:5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+          "via:a72c5f70-5164-463c-b22d-863ba8b2ca00"
+        ],
+        "copper_nodes": 11
+      },
+      "without_TVS_signal_pad_copper": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": false,
+        "source_reaches_vias": [],
+        "copper_nodes": 12
+      },
+      "with_copper_cut_at_TVS_pad_outline": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": false,
+        "source_reaches_vias": [],
+        "copper_nodes": 12
+      },
+      "TVS_landing_is_required_for_IC_path": true,
+      "no_via_before_TVS": true
+    },
+    "D7.1": {
+      "net": "/SWCLK",
+      "source": "J8.1",
+      "target": "U2.17",
+      "normal": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": true,
+        "source_reaches_vias": [
+          "via:41807256-542f-4e11-af12-f879e81dd8d3",
+          "via:d8998d7f-3061-45b3-bf65-a82460c06778"
+        ],
+        "copper_nodes": 11
+      },
+      "without_TVS_signal_pad_copper": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": false,
+        "source_reaches_vias": [],
+        "copper_nodes": 12
+      },
+      "with_copper_cut_at_TVS_pad_outline": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": false,
+        "source_reaches_vias": [],
+        "copper_nodes": 12
+      },
+      "TVS_landing_is_required_for_IC_path": true,
+      "no_via_before_TVS": true
+    },
+    "D8.1": {
+      "net": "/NRST",
+      "source": "J9.1",
+      "target": "U2.4",
+      "normal": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": true,
+        "source_reaches_vias": [
+          "via:4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+          "via:7ae3cc54-3f53-495e-be30-5950320b2f34",
+          "via:8e393978-7abf-46b2-be03-4c8a823fd16d"
+        ],
+        "copper_nodes": 16
+      },
+      "without_TVS_signal_pad_copper": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": false,
+        "source_reaches_vias": [
+          "via:4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9"
+        ],
+        "copper_nodes": 17
+      },
+      "with_copper_cut_at_TVS_pad_outline": {
+        "source_found": true,
+        "target_found": true,
+        "source_reaches_IC": false,
+        "source_reaches_vias": [
+          "via:4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9"
+        ],
+        "copper_nodes": 17
+      },
+      "TVS_landing_is_required_for_IC_path": true,
+      "no_via_before_TVS": false
+    }
+  },
+  "method": "Copper-envelope connectivity on six layers using actual track arcs/pads and through-via bridges. Omit only the TVS signal-pad copper object, preserving every track and via; a remaining external-pad-to-IC path is a TVS-pad bypass. This does not simulate ESD electrical performance.",
+  "contact_tolerance_mm": 2e-05
+}

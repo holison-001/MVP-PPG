@@ -1,0 +1,13 @@
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\apertures.py:459: UserWarning: Aperture definition using macro RoundRect has more parameters than the macro uses.
+  warnings.warn(f'Aperture definition using macro {self.macro.name} has more parameters than the macro uses.')
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-PTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-PTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-NPTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-NPTH.drl:10 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_10sets_GuideRails10mm\engineering\carrier_gerber\Panel_Carrier_Only-NPTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+{"panel_mm": [157.0, 177.0], "sets": 10, "solid_tabs": 90, "routing_cutouts": 80, "connected": true, "PTH": 1640, "NPTH": 44, "source_unchanged": true}

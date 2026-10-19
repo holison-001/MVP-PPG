@@ -1,0 +1,133 @@
+{
+  "candidate_sha256": "42224bb6b24e6fadfa758637256e70588f81b92c895da37d11371f9d5dfd237f",
+  "affected_nets": {
+    "/SDA": {
+      "before": {
+        "length_mm": 8.370803424018169,
+        "lines": 10,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 9.182353089897692,
+        "lines": 11,
+        "arcs": 1
+      },
+      "length_change_mm": 0.8115496658795234
+    },
+    "/SCL": {
+      "before": {
+        "length_mm": 9.885353035586215,
+        "lines": 8,
+        "arcs": 3
+      },
+      "after": {
+        "length_mm": 9.352482195270774,
+        "lines": 8,
+        "arcs": 3
+      },
+      "length_change_mm": -0.5328708403154412
+    },
+    "/VLDO": {
+      "before": {
+        "length_mm": 4.225751107454282,
+        "lines": 5,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 3.153144881242939,
+        "lines": 3,
+        "arcs": 1
+      },
+      "length_change_mm": -1.072606226211343
+    },
+    "5V_LED": {
+      "before": {
+        "length_mm": 11.990599608647715,
+        "lines": 19,
+        "arcs": 7
+      },
+      "after": {
+        "length_mm": 9.73532135216768,
+        "lines": 17,
+        "arcs": 6
+      },
+      "length_change_mm": -2.255278256480034
+    },
+    "GND": {
+      "before": {
+        "length_mm": 20.100838126384534,
+        "lines": 88,
+        "arcs": 1
+      },
+      "after": {
+        "length_mm": 19.45549732929799,
+        "lines": 75,
+        "arcs": 1
+      },
+      "length_change_mm": -0.6453407970865435
+    },
+    "/NRST": {
+      "before": {
+        "length_mm": 9.141420986989292,
+        "lines": 9,
+        "arcs": 2
+      },
+      "after": {
+        "length_mm": 9.968545430431488,
+        "lines": 10,
+        "arcs": 4
+      },
+      "length_change_mm": 0.8271244434421963
+    },
+    "3V3": {
+      "before": {
+        "length_mm": 41.685122359896965,
+        "lines": 54,
+        "arcs": 10
+      },
+      "after": {
+        "length_mm": 41.22870247225892,
+        "lines": 49,
+        "arcs": 11
+      },
+      "length_change_mm": -0.45641988763804875
+    },
+    "12V": {
+      "before": {
+        "length_mm": 14.661455858182704,
+        "lines": 16,
+        "arcs": 6
+      },
+      "after": {
+        "length_mm": 14.86725509788664,
+        "lines": 19,
+        "arcs": 9
+      },
+      "length_change_mm": 0.20579923970393565
+    }
+  },
+  "vias": {
+    "before": 70,
+    "after": 70,
+    "added": 1,
+    "deleted": 1,
+    "moved": 5,
+    "net_reassigned": 1
+  },
+  "native_drc": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "C1_xy": [
+    17.9,
+    18.75
+  ],
+  "C4_xy": [
+    17.68,
+    17.3
+  ],
+  "nrst_l5_length_mm": 3.61561470753553,
+  "total_length_change_mm": -3.1180426587057553
+}

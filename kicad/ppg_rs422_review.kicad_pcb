@@ -503,7 +503,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1 µF"
 			(at 0 -1.05 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -677,7 +677,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7 kΩ"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -939,7 +939,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 0 -1.05 135)
 			(layer "B.Fab")
 			(hide yes)
@@ -1203,7 +1203,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22 Ω"
 			(at 0 -1.17 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -1606,7 +1606,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1 µF"
 			(at 0 -1.05 315)
 			(layer "B.Fab")
 			(hide yes)
@@ -1780,7 +1780,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1uF 25V X7R"
+		(property "Value" "1 µF"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2048,7 +2048,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10 kΩ"
 			(at 0 -1.05 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -2222,7 +2222,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "XR33194"
+		(property "Value" "XR33194ESBTR"
 			(at 0 -2.25 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -2546,7 +2546,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22 Ω"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -3039,7 +3039,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22 Ω"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3217,7 +3217,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "120/1%"
+		(property "Value" "120 Ω"
 			(at 0 -1.17 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -3485,7 +3485,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 0 -1.05 225)
 			(layer "B.Fab")
 			(hide yes)
@@ -3659,7 +3659,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10uF 6.3V X5R"
+		(property "Value" "10 µF"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3837,7 +3837,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4.7 kΩ"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4009,7 +4009,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1 µF"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4183,7 +4183,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1uF 6.3V"
+		(property "Value" "1 µF"
 			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -5364,7 +5364,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "XR33183"
+		(property "Value" "XR33183ESBTR"
 			(at 0 -2.25 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -5552,7 +5552,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 0 -1.05 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -6295,7 +6295,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22 Ω"
 			(at 0 -1.17 135)
 			(layer "B.Fab")
 			(hide yes)

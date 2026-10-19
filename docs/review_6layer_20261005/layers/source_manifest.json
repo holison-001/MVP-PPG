@@ -1,0 +1,60 @@
+{
+  "source_board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+  "tool": "KiCad 10 SVG export; six native plots combined; sharp rasterization",
+  "purpose": "Read-only six-layer PCB review, no Gerber, drill or BOM",
+  "layers": [
+    {
+      "file": "01_top.svg",
+      "layers": "F.Cu,F.Mask,F.Fab,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 28.856886907114735,
+      "GND_fill_area_mm2": 95.124044304555,
+      "sha256": "9fcfab3adb100931d7ad1684f3327583699f8c248fb24ee3f6d9b9f2132ee98b"
+    },
+    {
+      "file": "02_ground.svg",
+      "layers": "In1.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 0,
+      "GND_fill_area_mm2": 103.0247583377805,
+      "sha256": "2237c4b3bb593fb7c93e172c0c4564b6432abfd60a207e8e0e8969e448ad3ca8"
+    },
+    {
+      "file": "03_signal.svg",
+      "layers": "In2.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 48.38179888909779,
+      "GND_fill_area_mm2": 23.6807585417695,
+      "sha256": "932f087fbc42c03e51e010c8fbe5f7a423dc103cf30d1ddcecc765dcdc12048c"
+    },
+    {
+      "file": "04_power.svg",
+      "layers": "In3.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 52.90535973870374,
+      "GND_fill_area_mm2": 23.677703604644,
+      "sha256": "23059c9c0caec88587f020cf5a0770c5c46740f0b1ced96e81fb8db7ce27291e"
+    },
+    {
+      "file": "05_ground.svg",
+      "layers": "In4.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 3.5400863140746237,
+      "GND_fill_area_mm2": 101.794223501662,
+      "sha256": "e4af871264c57898676dd30abd3fb1faa61ed2552d8b3fec81771a73e622cdec"
+    },
+    {
+      "file": "06_bottom.svg",
+      "layers": "B.Cu,Edge.Cuts",
+      "view": "from top, not mirrored",
+      "trace_length_mm": 68.301218811345,
+      "GND_fill_area_mm2": 0,
+      "sha256": "73e2e1832b6511e587477829c46891bab4c8bff78c51ce8545e4499148330d27"
+    }
+  ],
+  "overview": {
+    "six_layers.svg": "a75fdfc242b3732ce5b2dfc2e9fca4d4a45823a7b9a9a61c35eded3952c2e1e0",
+    "six_layers.png": "54db4dbf6a84b6a31bfdb5e5a0eab3dba989c74f90d785777cd542b48bf7707d"
+  }
+}

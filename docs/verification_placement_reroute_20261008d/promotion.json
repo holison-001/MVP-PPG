@@ -1,0 +1,93 @@
+{
+  "source_sha256": "914cfd30e2fe7c789235ae6b9359ea89543286b5d823b4c27cc959807f56516b",
+  "candidate_sha256": "bbd74454cdfd2f07445fb08227b9e11855be98583af45f1e497f3e75ff5221ce",
+  "canonical_sha256": "bbd74454cdfd2f07445fb08227b9e11855be98583af45f1e497f3e75ff5221ce",
+  "backup": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\backups\\20261008_before_placement_reroute_d\\kicad_before_reroute.zip",
+  "backup_sha256": "51a900c6e0f37feeec4ee62fbd7a3eb56d7182e45ce438e8b789877cca0738e4",
+  "component_placements_changed": 2,
+  "placement_overrides": {
+    "C11": {
+      "position": [
+        18,
+        19.6
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    },
+    "U4": {
+      "position": [
+        18.7257,
+        21.7439
+      ],
+      "angle": 180,
+      "layer": "B.Cu"
+    }
+  },
+  "checks": "PASS",
+  "drc_errors": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "prior_warnings": 5,
+  "before_metrics": {
+    "via_count": 65,
+    "arc_count": 49,
+    "track_length_by_layer_mm": {
+      "F.Cu": 26.90751857677916,
+      "In1.Cu": 0,
+      "In2.Cu": 35.183129712201314,
+      "In3.Cu": 40.63763085186065,
+      "In4.Cu": 5.8143968281461955,
+      "B.Cu": 70.9775994050608
+    },
+    "net_length_mm": {
+      "/TXP": 1.4043147011980612,
+      "/TXP_DRV": 4.360251854474743,
+      "/TXN": 1.4034037877962993,
+      "/TXN_DRV": 6.3512838541258025,
+      "/UART_TX": 9.60353089382292,
+      "/NRST": 5.563588331079742,
+      "/SDA": 5.904380284000699,
+      "/SCL": 7.320044245965422,
+      "/VREF": 1.5892241532716844,
+      "/VLDO": 2.3445137630085817,
+      "/LDO_EN": 2.1934705336714213,
+      "/SWDIO": 9.659157748287706,
+      "/SWCLK": 9.051076462269991,
+      "12V": 14.723575477456697,
+      "5V_LED": 10.535842268396706,
+      "3V3": 40.64961993202715,
+      "GND": 23.49228467687389
+    }
+  },
+  "after_metrics": {
+    "via_count": 65,
+    "arc_count": 52,
+    "track_length_by_layer_mm": {
+      "F.Cu": 26.99438210352984,
+      "In1.Cu": 0,
+      "In2.Cu": 34.3784220132503,
+      "In3.Cu": 34.89449307641824,
+      "In4.Cu": 5.8143968281461955,
+      "B.Cu": 71.465478261925
+    },
+    "net_length_mm": {
+      "/TXP": 1.4043147011980612,
+      "/TXP_DRV": 4.360251854474743,
+      "/TXN": 1.4034037877962993,
+      "/TXN_DRV": 6.3512838541258025,
+      "/UART_TX": 9.60353089382292,
+      "/NRST": 5.199598465649703,
+      "/SDA": 5.904380284000699,
+      "/SCL": 7.320044245965422,
+      "/VREF": 1.5892241532716844,
+      "/VLDO": 2.3445137630085817,
+      "/LDO_EN": 2.1934705336714213,
+      "/SWDIO": 9.659157748287706,
+      "/SWCLK": 9.051076462269991,
+      "12V": 14.163039273383495,
+      "5V_LED": 9.35057329867888,
+      "3V3": 36.17454493591392,
+      "GND": 24.10405162142964
+    }
+  }
+}

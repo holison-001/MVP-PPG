@@ -1,0 +1,1107 @@
+{
+  "candidate": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\docs\\review_via_split_20261005\\ppg_pcb_v08_via_split.kicad_pcb",
+  "candidate_sha256": "aac0028466fd502155a5015fa0b8a99458f7701799ea9c1369310f41a707db56",
+  "baseline": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\via_split_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "baseline_sha256": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+  "read_only": true,
+  "candidate_bytes_unchanged_during_audit": true,
+  "versions": {
+    "kicad": "10.0.5",
+    "shapely": "2.1.2"
+  },
+  "helper_path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\6layer_impl_20261005\\validate_ground_rim.py",
+  "helper_sha256": "42a21c0839140b476fbdfd73ebe461ec2646bac10ecf41c99c39f829bbdbebee",
+  "baseline_via_count": 63,
+  "candidate_via_count": 73,
+  "new_via_count": 10,
+  "removed_old_via_uuids": [],
+  "moved_or_renetted_old_vias": [
+    {
+      "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b",
+      "baseline_net": "/TXP_DRV",
+      "candidate_net": "/TXP_DRV",
+      "baseline_xy_mm": [
+        23.825,
+        13.95
+      ],
+      "candidate_xy_mm": [
+        23.875,
+        13.95
+      ],
+      "movement_mm": 0.05000000000000071
+    }
+  ],
+  "existing_via_positions_and_nets_all_unchanged": false,
+  "minimum_new_via_to_any_via_center_distance_mm": 0.6174544517614219,
+  "minimum_new_via_to_any_via_copper_edge_distance_mm": 0.11745445176142189,
+  "minimum_between_new_via_centers_mm": 0.6187184335382296,
+  "new_ground_via_audit_pass": true,
+  "strict_saved_polygon_rim_pass": true,
+  "rim_band_parameters_mm": {
+    "inner": 6.205,
+    "front_outer": 6.53,
+    "inner_layer_outer": 6.43
+  },
+  "rim_summary": [
+    {
+      "layer": "F.Cu",
+      "missing_band_area_mm2": 0.0,
+      "unreachable_rim_components": [],
+      "unreachable_fill_components": []
+    },
+    {
+      "layer": "In1.Cu",
+      "missing_band_area_mm2": 0.0,
+      "unreachable_rim_components": [],
+      "unreachable_fill_components": []
+    },
+    {
+      "layer": "In2.Cu",
+      "missing_band_area_mm2": 0.0,
+      "unreachable_rim_components": [],
+      "unreachable_fill_components": []
+    },
+    {
+      "layer": "In3.Cu",
+      "missing_band_area_mm2": 0.0,
+      "unreachable_rim_components": [],
+      "unreachable_fill_components": []
+    },
+    {
+      "layer": "In4.Cu",
+      "missing_band_area_mm2": 0.0,
+      "unreachable_rim_components": [],
+      "unreachable_fill_components": []
+    }
+  ],
+  "existing_rim_report_matches_candidate_sha": true,
+  "connectivity_graph": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 53,
+    "reachable_nodes": 53,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "fill_states": [
+    {
+      "zone_uuid": "f6e2bc3b-bee3-4049-a4d7-2e2177a623d5",
+      "layer": "F.Cu",
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "zone_uuid": "a7edfced-e150-416c-b330-7dc77bca8637",
+      "layer": "In1.Cu",
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "zone_uuid": "815a3c07-a6fc-433a-b267-ec7379028a18",
+      "layer": "In2.Cu",
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "zone_uuid": "7ed06613-b881-493f-acbc-3d524522728a",
+      "layer": "In3.Cu",
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "zone_uuid": "01d405f7-3248-4368-b54f-841db8de5e6a",
+      "layer": "In4.Cu",
+      "filled": true,
+      "needs_refill": false
+    }
+  ],
+  "vias": [
+    {
+      "uuid": "ba4b0e20-11d7-480b-b57b-c8d9dee0a594",
+      "net": "GND",
+      "xy_mm": [
+        25.8625,
+        17.525
+      ],
+      "relative_to_center_mm": [
+        5.862500000000001,
+        0.5249999999999986
+      ],
+      "radius_mm": 5.8859605205947485,
+      "angle_deg": 5.117314849972625,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          25.95,
+          18.1375
+        ],
+        "center_distance_mm": 0.6187184335382296,
+        "copper_edge_distance_mm": 0.11871843353822964,
+        "drill_edge_distance_mm": 0.41871843353822963
+      },
+      "nearest_new_via": {
+        "uuid": "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          25.95,
+          18.1375
+        ],
+        "center_distance_mm": 0.6187184335382296,
+        "copper_edge_distance_mm": 0.11871843353822964,
+        "drill_edge_distance_mm": 0.41871843353822963
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16382316512663989,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.10901704825951233,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.10901704825951233,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16382316512663989,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+      "net": "GND",
+      "xy_mm": [
+        25.95,
+        18.1375
+      ],
+      "relative_to_center_mm": [
+        5.949999999999999,
+        1.1374999999999993
+      ],
+      "radius_mm": 6.057755875734841,
+      "angle_deg": 10.823011226207093,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "ba4b0e20-11d7-480b-b57b-c8d9dee0a594",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          25.8625,
+          17.525
+        ],
+        "center_distance_mm": 0.6187184335382296,
+        "copper_edge_distance_mm": 0.11871843353822964,
+        "drill_edge_distance_mm": 0.41871843353822963
+      },
+      "nearest_new_via": {
+        "uuid": "ba4b0e20-11d7-480b-b57b-c8d9dee0a594",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          25.8625,
+          17.525
+        ],
+        "center_distance_mm": 0.6187184335382296,
+        "copper_edge_distance_mm": 0.11871843353822964,
+        "drill_edge_distance_mm": 0.41871843353822963
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "03792694-29a0-4ed2-be65-a93a04eea25b",
+      "net": "GND",
+      "xy_mm": [
+        25.45,
+        19.625
+      ],
+      "relative_to_center_mm": [
+        5.449999999999999,
+        2.625
+      ],
+      "radius_mm": 6.0492251569932485,
+      "angle_deg": 25.717855557000735,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "e58b3d7e-9073-4e69-804f-f5c42195c56c",
+        "newly_added": false,
+        "net": "GND",
+        "xy_mm": [
+          25.1,
+          20.15
+        ],
+        "center_distance_mm": 0.6309714732061957,
+        "copper_edge_distance_mm": 0.13097147320619573,
+        "drill_edge_distance_mm": 0.4309714732061957
+      },
+      "nearest_new_via": {
+        "uuid": "fd79855d-21f2-4986-8f63-ed46bbcb249a",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          25.95,
+          18.1375
+        ],
+        "center_distance_mm": 1.5692852672474824,
+        "copper_edge_distance_mm": 1.0692852672474824,
+        "drill_edge_distance_mm": 1.3692852672474825
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455694,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455694,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.16491131738398607,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.16491131738398607,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455694,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "4333f549-9bfb-4e25-abdd-b191d0e772ac",
+      "net": "GND",
+      "xy_mm": [
+        21.6875,
+        22.8375
+      ],
+      "relative_to_center_mm": [
+        1.6875,
+        5.837499999999999
+      ],
+      "radius_mm": 6.076517300230452,
+      "angle_deg": 73.87651663227325,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          19.95,
+          23.075
+        ],
+        "center_distance_mm": 1.7536568934657666,
+        "copper_edge_distance_mm": 1.2536568934657666,
+        "drill_edge_distance_mm": 1.5536568934657666
+      },
+      "nearest_new_via": {
+        "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          19.95,
+          23.075
+        ],
+        "center_distance_mm": 1.7536568934657666,
+        "copper_edge_distance_mm": 1.2536568934657666,
+        "drill_edge_distance_mm": 1.5536568934657666
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+      "net": "GND",
+      "xy_mm": [
+        19.95,
+        23.075
+      ],
+      "relative_to_center_mm": [
+        -0.05000000000000071,
+        6.074999999999999
+      ],
+      "radius_mm": 6.0752057578324035,
+      "angle_deg": 90.47155955407618,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "newly_added": false,
+        "net": "GND",
+        "xy_mm": [
+          19.5,
+          22.575
+        ],
+        "center_distance_mm": 0.672681202353685,
+        "copper_edge_distance_mm": 0.172681202353685,
+        "drill_edge_distance_mm": 0.472681202353685
+      },
+      "nearest_new_via": {
+        "uuid": "56bd287b-d09e-48a3-9386-4eb97c39bcef",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          18.975,
+          22.9
+        ],
+        "center_distance_mm": 0.9905806378079455,
+        "copper_edge_distance_mm": 0.4905806378079455,
+        "drill_edge_distance_mm": 0.7905806378079454
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.164929398344557,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "56bd287b-d09e-48a3-9386-4eb97c39bcef",
+      "net": "GND",
+      "xy_mm": [
+        18.975,
+        22.9
+      ],
+      "relative_to_center_mm": [
+        -1.0249999999999986,
+        5.899999999999999
+      ],
+      "radius_mm": 5.988374153307388,
+      "angle_deg": 99.85556091681427,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "newly_added": false,
+        "net": "GND",
+        "xy_mm": [
+          19.5,
+          22.575
+        ],
+        "center_distance_mm": 0.6174544517614219,
+        "copper_edge_distance_mm": 0.11745445176142189,
+        "drill_edge_distance_mm": 0.4174544517614219
+      },
+      "nearest_new_via": {
+        "uuid": "d1abb479-7914-44fb-8b00-af6bf8202a0d",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          19.95,
+          23.075
+        ],
+        "center_distance_mm": 0.9905806378079455,
+        "copper_edge_distance_mm": 0.4905806378079455,
+        "drill_edge_distance_mm": 0.7905806378079454
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455678,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455678,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.15131408295499338,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.15131408295499338,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455678,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "19804070-807c-45f5-949e-cd735efde261",
+      "net": "GND",
+      "xy_mm": [
+        16.5375,
+        21.9875
+      ],
+      "relative_to_center_mm": [
+        -3.4624999999999986,
+        4.987500000000001
+      ],
+      "radius_mm": 6.071578254457402,
+      "angle_deg": 124.76975736864668,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "af54aa7f-5fbf-462f-890f-bb6d5767c70d",
+        "newly_added": false,
+        "net": "GND",
+        "xy_mm": [
+          15.75,
+          21.325
+        ],
+        "center_distance_mm": 1.0291076231376406,
+        "copper_edge_distance_mm": 0.5291076231376406,
+        "drill_edge_distance_mm": 0.8291076231376406
+      },
+      "nearest_new_via": {
+        "uuid": "56bd287b-d09e-48a3-9386-4eb97c39bcef",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          18.975,
+          22.9
+        ],
+        "center_distance_mm": 2.6027029219640103,
+        "copper_edge_distance_mm": 2.1027029219640103,
+        "drill_edge_distance_mm": 2.40270292196401
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455683,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "85a17963-32df-4f82-be30-8121de561108",
+      "net": "GND",
+      "xy_mm": [
+        14.1625,
+        15.4
+      ],
+      "relative_to_center_mm": [
+        -5.8375,
+        -1.5999999999999996
+      ],
+      "radius_mm": 6.052801520783579,
+      "angle_deg": 195.32776319530194,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "1779b87c-2e0a-45b0-8ada-6e4dd21e29f5",
+        "newly_added": false,
+        "net": "GND",
+        "xy_mm": [
+          14.225,
+          14.75
+        ],
+        "center_distance_mm": 0.6529978943304492,
+        "copper_edge_distance_mm": 0.1529978943304492,
+        "drill_edge_distance_mm": 0.4529978943304492
+      },
+      "nearest_new_via": {
+        "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          16.55,
+          12.0
+        ],
+        "center_distance_mm": 4.154534420365296,
+        "copper_edge_distance_mm": 3.6545344203652963,
+        "drill_edge_distance_mm": 3.954534420365296
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.1649293983445572,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.1649293983445572,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.1649293983445572,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.1649293983445572,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.1649293983445572,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+      "net": "GND",
+      "xy_mm": [
+        16.55,
+        12.0
+      ],
+      "relative_to_center_mm": [
+        -3.4499999999999993,
+        -5.0
+      ],
+      "radius_mm": 6.074742792909013,
+      "angle_deg": 235.39432444836143,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+        "newly_added": false,
+        "net": "GND",
+        "xy_mm": [
+          17.125,
+          11.525
+        ],
+        "center_distance_mm": 0.7458216945088141,
+        "copper_edge_distance_mm": 0.24582169450881408,
+        "drill_edge_distance_mm": 0.5458216945088141
+      },
+      "nearest_new_via": {
+        "uuid": "85a17963-32df-4f82-be30-8121de561108",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          14.1625,
+          15.4
+        ],
+        "center_distance_mm": 4.154534420365296,
+        "copper_edge_distance_mm": 3.6545344203652963,
+        "drill_edge_distance_mm": 3.954534420365296
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455692,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455692,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455692,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455692,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455692,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    },
+    {
+      "uuid": "f325569b-6061-4dac-88d6-3af441c5d35d",
+      "net": "GND",
+      "xy_mm": [
+        22.1375,
+        11.3
+      ],
+      "relative_to_center_mm": [
+        2.1374999999999993,
+        -5.699999999999999
+      ],
+      "radius_mm": 6.08760266853874,
+      "angle_deg": 290.55604521958344,
+      "pad_diameter_mm": 0.5,
+      "drill_diameter_mm": 0.2,
+      "nearest_any_via": {
+        "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+        "newly_added": false,
+        "net": "/TXN_DRV",
+        "xy_mm": [
+          22.4701,
+          12.4012
+        ],
+        "center_distance_mm": 1.150332212884607,
+        "copper_edge_distance_mm": 0.650332212884607,
+        "drill_edge_distance_mm": 0.950332212884607
+      },
+      "nearest_new_via": {
+        "uuid": "bed5dca3-2258-40cd-80c6-79dad7dbbfdf",
+        "newly_added": true,
+        "net": "GND",
+        "xy_mm": [
+          16.55,
+          12.0
+        ],
+        "center_distance_mm": 5.631177163790888,
+        "copper_edge_distance_mm": 5.131177163790888,
+        "drill_edge_distance_mm": 5.431177163790887
+      },
+      "saved_fill_contact_layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu"
+      ],
+      "per_layer": [
+        {
+          "layer": "F.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455714,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In1.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455714,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In2.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455714,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In3.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455714,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "In4.Cu",
+          "saved_fill_overlap_area_mm2": 0.16492939834455714,
+          "saved_fill_gap_mm": 0.0,
+          "positive_area_fill_contact": true,
+          "fill_contact_at_tolerance": true,
+          "geometrically_reachable_from_J2_1": true
+        },
+        {
+          "layer": "B.Cu",
+          "saved_fill_overlap_area_mm2": 0.0,
+          "saved_fill_gap_mm": null,
+          "positive_area_fill_contact": false,
+          "fill_contact_at_tolerance": false,
+          "geometrically_reachable_from_J2_1": true
+        }
+      ],
+      "geometrically_reachable_from_J2_1": true
+    }
+  ],
+  "pass_criteria": "Exactly 10 added GND vias, each pad 0.50 mm/drill 0.20 mm, positive saved GND fill contact on L1-L5, and geometric reachability from J2.1. Existing-via movement is reported separately.",
+  "limits": [
+    "Read-only saved copper polygon audit; no refill, route, via or board mutation.",
+    "Fill contact is positive intersection area of the saved filled GND zone and via copper annulus, with drill disks removed. No claim that every via has a thermal/solid zone connection on B.Cu.",
+    "Connectivity is a per-layer union and plated-via bridge graph rooted at J2.1, at 0.00002 mm contact tolerance. Full KiCad DRC and fabrication are separate.",
+    "Reported neighbor gaps are geometrical measurements, not a new manufacturer rule review."
+  ]
+}

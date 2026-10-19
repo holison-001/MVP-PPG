@@ -1,0 +1,75 @@
+{
+  "source_sha256": "9a20272bce551736dd36ffd91ece1cbf10b4da316c59067ebb4d4ec9ea205e0e",
+  "candidate_sha256": "d31a87e7ca3bec457658657d579a00a1d0a14226ededab17be3ef085d721ba52",
+  "footprints_identical": true,
+  "footprint_count": 41,
+  "original_arcs_unchanged": true,
+  "original_arc_count": 56,
+  "all_other_items_unchanged": true,
+  "changed_tracks": [
+    "05be3c47-b182-40a8-9a54-705568dc3e06"
+  ],
+  "removed_tracks": [
+    "9c541291-9988-438a-8b53-97af00c7bf5e",
+    "b8ccabe6-cb0b-4928-b9af-b3b135981b44",
+    "997d7f56-f920-4f51-a971-5885d1a0069e"
+  ],
+  "added_items": [
+    "89a3dffd-3a73-4455-a64d-5530eee77141",
+    "6e5dc8d6-4e89-4114-933d-2f72d72bc7f2"
+  ],
+  "GND_area_before_mm2": {
+    "F.Cu": 94.5798677179295,
+    "In1.Cu": 103.9323623274655,
+    "In2.Cu": 89.519104466064,
+    "In3.Cu": 70.691072571479,
+    "In4.Cu": 101.5133053524545,
+    "B.Cu": 51.0575510885
+  },
+  "GND_area_after_mm2": {
+    "F.Cu": 94.5798677179295,
+    "In1.Cu": 103.9323623274655,
+    "In2.Cu": 89.519104466064,
+    "In3.Cu": 71.7089811518045,
+    "In4.Cu": 101.5133053524545,
+    "B.Cu": 51.0575510885
+  },
+  "contact_endpoints_unchanged": [
+    [
+      19.437937,
+      15.825
+    ],
+    [
+      22.45,
+      14.25
+    ]
+  ],
+  "length_reduction_mm": 0.6765243979883944,
+  "DRC": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "parity": 0
+  },
+  "new_arc": {
+    "uuid": "6e5dc8d6-4e89-4114-933d-2f72d72bc7f2",
+    "start": [
+      19.978354,
+      15.825
+    ],
+    "mid": [
+      20.094737,
+      15.807694
+    ],
+    "end": [
+      20.20105,
+      15.757275
+    ],
+    "center": [
+      19.9784,
+      15.425
+    ],
+    "radius_mm": 0.400000002645,
+    "width_mm": 0.4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "9caf20e4383d00f97e604291ab7e9c29394bed81c2da8c6ed2c2addbab580384",
+  "source_board": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\esd_flow_20261006\\candidate\\ppg_pcb_v08.kicad_pcb",
+  "method": "Native KiCad copper polygons with reference labels; true arc geometry; top coordinate view for both layers",
+  "files": {
+    "esd_detail.svg": "735caf7cdd3d5d4642a2b3480ffd3de81f164a31844654eefccc7c0f20d7895b",
+    "esd_detail.png": "1f00474684f225a52748de284f248179928ab875c74b04c151ac1d7cfc2802dd"
+  }
+}

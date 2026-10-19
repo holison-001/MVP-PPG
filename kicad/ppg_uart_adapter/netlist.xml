@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\kicad\ppg_uart_adapter\ppg_uart_adapter_v01.kicad_sch</source>
+    <date>2026-10-09T18:39:02</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PPG UART adapter</title>
+        <company>MVP-PPG</company>
+        <rev>0.1</rev>
+        <date>2026-10-08</date>
+        <source>ppg_uart_adapter_v01.kicad_sch</source>
+        <comment number="1" value="9V shared / LD1117 3.3V / full-duplex RS-422"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Input bulk MLCC,metric1608; exact MPN pending</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Voltage">25 V</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Input bulk MLCC,metric1608; exact MPN pending</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Voltage" value="25 V"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02ca24ce-a614-5b9e-8dda-cd930388c6c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</datasheet>
+      <description>Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</description>
+      <fields>
+        <field name="MPN">C1608X5R1A226M080AC</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Voltage">10 V</field>
+        <field name="Tolerance">20%</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</field>
+        <field name="Description">Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value="C1608X5R1A226M080AC"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Voltage" value="10 V"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a796145-6b91-5eb5-8cbb-ef1c38964ea8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at LD1117 input; metric1608 MLCC</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Voltage">25 V</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at LD1117 input; metric1608 MLCC</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Voltage" value="25 V"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e569ebad-73ad-56b7-9399-55d70c53c944</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>U2 VCC local bypass; metric1608 MLCC</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Voltage">25 V</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U2 VCC local bypass; metric1608 MLCC</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Voltage" value="25 V"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>810c0de3-4261-518f-8305-7d458915770b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>U3 VCC local bypass; metric1608 MLCC</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Voltage">25 V</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">U3 VCC local bypass; metric1608 MLCC</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Voltage" value="25 V"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>008be8f2-8d9c-5e55-b0ac-cf4dc845dc3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</datasheet>
+      <description>Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</description>
+      <fields>
+        <field name="MPN">C1608X5R1A226M080AC</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Voltage">10 V</field>
+        <field name="Tolerance">20%</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</field>
+        <field name="Description">Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value="C1608X5R1A226M080AC"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Voltage" value="10 V"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fa13d60-662a-5001-bebc-8b932e7ea49b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</datasheet>
+      <description>Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</description>
+      <fields>
+        <field name="MPN">C1608X5R1A226M080AC</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Voltage">10 V</field>
+        <field name="Tolerance">20%</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</field>
+        <field name="Description">Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value="C1608X5R1A226M080AC"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Voltage" value="10 V"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8e2812a-98be-5bab-b52b-211b2e32d518</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>22 µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</datasheet>
+      <description>Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</description>
+      <fields>
+        <field name="MPN">C1608X5R1A226M080AC</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Voltage">10 V</field>
+        <field name="Tolerance">20%</field>
+        <field name="Dielectric">X5R</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1A226M080AC</field>
+        <field name="Description">Metric1608 X5R MLCC; parallel bank behind R9; total effective capacitance at3.3V must remain &gt;=10uF including tolerance</field>
+      </fields>
+      <libsource lib="Adapter" part="C" description="C"/>
+      <property name="MPN" value="C1608X5R1A226M080AC"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Voltage" value="10 V"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Dielectric" value="X5R"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9738670-20fa-5853-ba59-1ed00c94e20e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>CDSOT23-SM712</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.bourns.com/pdfs/CDSOT23-SM712.pdf</datasheet>
+      <description>Two-line RS422 TVS, pins1/2 signal,pin3GND; connector-side of series resistors</description>
+      <fields>
+        <field name="MPN">CDSOT23-SM712</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.bourns.com/pdfs/CDSOT23-SM712.pdf</field>
+        <field name="Description">Two-line RS422 TVS, pins1/2 signal,pin3GND; connector-side of series resistors</field>
+      </fields>
+      <libsource lib="Adapter" part="SM712" description="SM712"/>
+      <property name="MPN" value="CDSOT23-SM712"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbcbd383-e0b9-549b-a5b4-d1f4dda1a050</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>CDSOT23-SM712</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.bourns.com/pdfs/CDSOT23-SM712.pdf</datasheet>
+      <description>Transmit pair cable-side protection; far-end termination exists on PPG</description>
+      <fields>
+        <field name="MPN">CDSOT23-SM712</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.bourns.com/pdfs/CDSOT23-SM712.pdf</field>
+        <field name="Description">Transmit pair cable-side protection; far-end termination exists on PPG</field>
+      </fields>
+      <libsource lib="Adapter" part="SM712" description="SM712"/>
+      <property name="MPN" value="CDSOT23-SM712"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4babf38e-b7b1-53bc-b724-17fb35352b24</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>ESD351DPYR</value>
+      <footprint>Adapter:TI_DPY0002A_1x0.6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/esd351.pdf</datasheet>
+      <description>UART connector ESD shunt; route pad to TVS landing before internal series resistor</description>
+      <fields>
+        <field name="MPN">ESD351DPYR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">Adapter:TI_DPY0002A_1x0.6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/esd351.pdf</field>
+        <field name="Description">UART connector ESD shunt; route pad to TVS landing before internal series resistor</field>
+      </fields>
+      <libsource lib="Adapter" part="TVS_Uni" description="TVS_Uni"/>
+      <property name="MPN" value="ESD351DPYR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e0da698-bfbb-5dd6-a225-e384cf48d7bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>ESD351DPYR</value>
+      <footprint>Adapter:TI_DPY0002A_1x0.6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/esd351.pdf</datasheet>
+      <description>UART connector ESD shunt; route pad to TVS landing before internal series resistor</description>
+      <fields>
+        <field name="MPN">ESD351DPYR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">Adapter:TI_DPY0002A_1x0.6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/esd351.pdf</field>
+        <field name="Description">UART connector ESD shunt; route pad to TVS landing before internal series resistor</field>
+      </fields>
+      <libsource lib="Adapter" part="TVS_Uni" description="TVS_Uni"/>
+      <property name="MPN" value="ESD351DPYR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72489c45-36bd-50a9-ba6a-cef864f499ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB1">
+      <value>BLM15PX601SN1D</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <datasheet>https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23</datasheet>
+      <description>Local LDO input filter; PPG power branches before this bead</description>
+      <fields>
+        <field name="MPN">BLM15PX601SN1D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Datasheet">https://www.murata.com/en-us/products/productdetail?partno=BLM15PX601SN1%23</field>
+        <field name="Description">Local LDO input filter; PPG power branches before this bead</field>
+      </fields>
+      <libsource lib="Adapter" part="FerriteBead" description="FerriteBead"/>
+      <property name="MPN" value="BLM15PX601SN1D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da6237bc-8d4e-5a9d-aa94-cfd62ce36127</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>Ø3.0 mm NPTH</value>
+      <footprint>Adapter:MountingHole_3mm_Clearance11mm</footprint>
+      <description>기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:MountingHole_3mm_Clearance11mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</field>
+      </fields>
+      <libsource lib="Adapter" part="MountingHole_3mm" description="MountingHole_3mm"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fd86996-5ac7-5159-951f-253f31cfcdbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>Ø3.0 mm NPTH</value>
+      <footprint>Adapter:MountingHole_3mm_Clearance11mm</footprint>
+      <description>기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:MountingHole_3mm_Clearance11mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</field>
+      </fields>
+      <libsource lib="Adapter" part="MountingHole_3mm" description="MountingHole_3mm"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c84b4a1-6a31-5498-92fc-e7c878cc69a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>Ø3.0 mm NPTH</value>
+      <footprint>Adapter:MountingHole_3mm_Clearance11mm</footprint>
+      <description>기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:MountingHole_3mm_Clearance11mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</field>
+      </fields>
+      <libsource lib="Adapter" part="MountingHole_3mm" description="MountingHole_3mm"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>214ba030-c1f2-589f-b312-f9718dceba01</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>Ø3.0 mm NPTH</value>
+      <footprint>Adapter:MountingHole_3mm_Clearance11mm</footprint>
+      <description>기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:MountingHole_3mm_Clearance11mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">기구 가공 항목: Ø3.0 mm 비도금 관통 고정홀(NPTH), 부품 실장 없음; 머리 조립 여유 Ø11 mm</field>
+      </fields>
+      <libsource lib="Adapter" part="MountingHole_3mm" description="MountingHole_3mm"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0f4768e-47ec-544f-9d51-60253876100f</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>9V INPUT</value>
+      <footprint>Adapter:WirePads_1x02_P1.8mm_D1.2</footprint>
+      <description>Wire solder pads; connector mechanical implementation to be reviewed with PCB outline</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:WirePads_1x02_P1.8mm_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">Wire solder pads; connector mechanical implementation to be reviewed with PCB outline</field>
+      </fields>
+      <libsource lib="Adapter" part="Port2" description="Port2"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ae89f7d-c2a2-5a56-9210-a74115729520</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>PPG / 6 WIRES</value>
+      <footprint>Adapter:WirePads_1x06_P1.8mm_D1.2</footprint>
+      <description>Wire solder pads; connector mechanical implementation to be reviewed with PCB outline</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:WirePads_1x06_P1.8mm_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">Wire solder pads; connector mechanical implementation to be reviewed with PCB outline</field>
+      </fields>
+      <libsource lib="Adapter" part="Port6" description="Port6"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36fab762-08fb-5d28-9a08-365402928b00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>UART / 3.3V OUT</value>
+      <footprint>Adapter:WirePads_1x04_P1.8mm_D1.2</footprint>
+      <description>Wire solder pads; connector mechanical implementation to be reviewed with PCB outline</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Adapter:WirePads_1x04_P1.8mm_D1.2</field>
+        <field name="Datasheet"/>
+        <field name="Description">Wire solder pads; connector mechanical implementation to be reviewed with PCB outline</field>
+      </fields>
+      <libsource lib="Adapter" part="Port4" description="Port4"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36f0b100-e108-500d-8894-8a70498e99eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>120 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Receiving-end termination; match existing PPG120ohm architecture</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Tolerance">1%</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Receiving-end termination; match existing PPG120ohm architecture</field>
+      </fields>
+      <libsource lib="Adapter" part="R_V" description="R_V"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>898a4228-5eb0-5b75-87fb-29c5e06bfcc5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>22 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ec0107e-24d0-5c77-ae22-e7c16a74510e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>22 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>779d356e-9c24-5aa9-b3c8-ac841f39c0a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>22 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04a6135c-98d3-5ab5-81dd-9916a984a298</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>22 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e6c23a3-f0de-5aab-8e7f-bbf57492bc90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10 kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_V" description="R_V"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f203757f-a043-5077-bc2b-9a6fbc85454f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97f3e8ef-8fcb-54ce-85bd-2ac2599f1221</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>100 Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b3ac2cb-0ba2-5b6d-a4a0-a78f7ea58883</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1 Ω</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>LD1117 ceramic output ESR resistor in capacitor branch only; not in load supply path</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">LD1117 ceramic output ESR resistor in capacitor branch only; not in load supply path</field>
+      </fields>
+      <libsource lib="Adapter" part="R_H" description="R_H"/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>945bc4fa-2e96-5726-a39e-4940a6f669fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117S33TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/ld1117.pdf</datasheet>
+      <description>User-selected fixed 3.3V LDO; pins1 GND,2 OUT,3 IN; tab electrically OUT</description>
+      <fields>
+        <field name="MPN">LD1117S33TR</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/ld1117.pdf</field>
+        <field name="Description">User-selected fixed 3.3V LDO; pins1 GND,2 OUT,3 IN; tab electrically OUT</field>
+      </fields>
+      <libsource lib="Adapter" part="LD1117_3V3" description="LD1117_3V3"/>
+      <property name="MPN" value="LD1117S33TR"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>734ea52f-7eb1-5178-a90e-db531aa7b84c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>XR33194ESBTR</value>
+      <footprint>Adapter:TSOT23-6_MaxLinear</footprint>
+      <datasheet>https://www.maxlinear.com/ds/xr33193_xr33194_xr33195.pdf</datasheet>
+      <description>Always enabled full-duplex driver; outputs go to PPG RXP/RXN</description>
+      <fields>
+        <field name="MPN">XR33194ESBTR</field>
+        <field name="Manufacturer">MaxLinear</field>
+        <field name="Footprint">Adapter:TSOT23-6_MaxLinear</field>
+        <field name="Datasheet">https://www.maxlinear.com/ds/xr33193_xr33194_xr33195.pdf</field>
+        <field name="Description">Always enabled full-duplex driver; outputs go to PPG RXP/RXN</field>
+      </fields>
+      <libsource lib="Adapter" part="XR33194" description="XR33194"/>
+      <property name="MPN" value="XR33194ESBTR"/>
+      <property name="Manufacturer" value="MaxLinear"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffdfdacb-8959-5370-ad29-1d1437790c53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>XR33183ESBTR</value>
+      <footprint>Adapter:TSOT23-6_MaxLinear</footprint>
+      <datasheet>https://www.maxlinear.com/ds/xr33180_xr33181_xr33183_xr33184.pdf</datasheet>
+      <description>Receiver of PPG TX pair; active-low EN tied to GND</description>
+      <fields>
+        <field name="MPN">XR33183ESBTR</field>
+        <field name="Manufacturer">MaxLinear</field>
+        <field name="Footprint">Adapter:TSOT23-6_MaxLinear</field>
+        <field name="Datasheet">https://www.maxlinear.com/ds/xr33180_xr33181_xr33183_xr33184.pdf</field>
+        <field name="Description">Receiver of PPG TX pair; active-low EN tied to GND</field>
+      </fields>
+      <libsource lib="Adapter" part="XR33183" description="XR33183"/>
+      <property name="MPN" value="XR33183ESBTR"/>
+      <property name="Manufacturer" value="MaxLinear"/>
+      <property name="Sheetname" value="ppg_uart_adapter_v01"/>
+      <property name="Sheetfile" value="ppg_uart_adapter_v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6a58c45-c60f-54e6-8b96-67399a12a0e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adapter" part="C">
+      <description>C</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="FerriteBead">
+      <description>FerriteBead</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">FerriteBead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="LD1117_3V3">
+      <description>LD1117_3V3</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117_3V3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">LD1117_3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT_/_TAB" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="MountingHole_3mm">
+      <description>MountingHole_3mm</description>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_3mm</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">MountingHole_3mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="Adapter" part="Port2">
+      <description>Port2</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Port2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="Port4">
+      <description>Port4</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Port4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="Port6">
+      <description>Port6</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Port6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Port6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="R_H">
+      <description>R_H</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_H</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">R_H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="R_V">
+      <description>R_V</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">R_V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="SM712">
+      <description>SM712</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM712</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">SM712</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="IO2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="TVS_Uni">
+      <description>TVS_Uni</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_Uni</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">TVS_Uni</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="XR33183">
+      <description>XR33183</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XR33183</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">XR33183</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="RO" type="output"/>
+        <pin num="4" name="B_(-)" type="input"/>
+        <pin num="5" name="~{EN}" type="input"/>
+        <pin num="6" name="A_(+)" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter" part="XR33194">
+      <description>XR33194</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XR33194</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">XR33194</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DI" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="Z_(-)" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Y_(+)" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adapter">
+      <uri>${KIPRJMOD}/Adapter.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VOUT_/_TAB_2" pintype="power_out"/>
+      <node ref="U2" pin="2" pinfunction="VCC_2" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="DE_3" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="VCC_1" pintype="power_in"/>
+    </net>
+    <net code="2" name="/9V_LDO" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN_3" pintype="power_in"/>
+    </net>
+    <net code="3" name="/9V_SHARED" class="Default">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/COUT_BULK" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="~{EN}_5" pintype="input"/>
+    </net>
+    <net code="6" name="/PPG_RXN" class="Default">
+      <node ref="D2" pin="2" pinfunction="IO2_2" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/PPG_RXP" class="Default">
+      <node ref="D2" pin="1" pinfunction="IO1_1" pintype="passive"/>
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/PPG_TXN" class="Default">
+      <node ref="D1" pin="2" pinfunction="IO2_2" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/PPG_TXP" class="Default">
+      <node ref="D1" pin="1" pinfunction="IO1_1" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/RXN_IC" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="B_(-)_4" pintype="input"/>
+    </net>
+    <net code="11" name="/RXP_IC" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="A_(+)_6" pintype="input"/>
+    </net>
+    <net code="12" name="/RX_IN" class="Default">
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/TXN_IC" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Z_(-)_4" pintype="output"/>
+    </net>
+    <net code="14" name="/TXP_IC" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="Y_(+)_6" pintype="output"/>
+    </net>
+    <net code="15" name="/TX_OUT" class="Default">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/UART_RX_IC" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="DI_1" pintype="input"/>
+    </net>
+    <net code="17" name="/UART_TX_IC" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="RO_3" pintype="output"/>
+    </net>
+  </nets>
+</export>

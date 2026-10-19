@@ -1,0 +1,26 @@
+Drill report for PPG.kicad_pcb
+Created on 2026-10-09T20:30:44
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  In3.Cu                    in3
+    L5 :  In4.Cu                    in4
+    L6 :  B.Cu                      back
+
+
+Drill file 'PPG-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.250mm  0.0098"  (64 holes))
+
+    Total plated holes count 64
+
+
+Drill file 'PPG-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

@@ -1,0 +1,53 @@
+{
+  "source_board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+  "sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+  "views": [
+    {
+      "file": "pcb_01_top.png",
+      "layers": "F.Cu,F.SilkS,Edge.Cuts",
+      "mirrored_bottom": false,
+      "sha256_svg": "fbfa16fd09da9274ecae67ddc9aface70c103a6c62ecd1c70a09e08450227c0a",
+      "sha256_png": "35a19063e6c320a88cd658f3cad4699bfb4047f3656c49c5962ea8b5002f8561"
+    },
+    {
+      "file": "pcb_02_gnd.png",
+      "layers": "In1.Cu,Edge.Cuts",
+      "mirrored_bottom": false,
+      "sha256_svg": "360a746c44e1d684f1544ef81cee7a6fd1c785631db440da728c695e263f778b",
+      "sha256_png": "eec1e76ecee21fbb8abb296b039a01112c224c13de78c2ed5be056aa95a7018f"
+    },
+    {
+      "file": "pcb_03_gnd.png",
+      "layers": "In2.Cu,Edge.Cuts",
+      "mirrored_bottom": false,
+      "sha256_svg": "6c00d94cc560a012e2e66ee9ee7b3711869dda906fbc0bff0af5405785d77035",
+      "sha256_png": "9994efb08163946a39dc7116c8cffb50588b65d243ca70c18e9465d6ec747133"
+    },
+    {
+      "file": "pcb_04_power.png",
+      "layers": "In3.Cu,Edge.Cuts",
+      "mirrored_bottom": false,
+      "sha256_svg": "bba91198248fc3c324bb6f28df888e301f9a460c3cc2b4be45321c282e012c7c",
+      "sha256_png": "660a271a7f0392fa16d5b41f89db7017cd4747b4152e69d845cb6af2920d22d1"
+    },
+    {
+      "file": "pcb_05_gnd.png",
+      "layers": "In4.Cu,Edge.Cuts",
+      "mirrored_bottom": false,
+      "sha256_svg": "acc660e0fc2ac23ef67fd4d9f9150bf73be2e781344a348cb8c59562e81bde55",
+      "sha256_png": "51baf2c450a2ae615143206d452acc39743656ba96f1e923a31ba5570a95e05a"
+    },
+    {
+      "file": "pcb_06_bottom.png",
+      "layers": "B.Cu,B.Mask,B.Fab,Edge.Cuts",
+      "mirrored_bottom": true,
+      "sha256_svg": "38e8057e37f28648a3d1776bfac8699559a0430b15dccead579c47655a6daeaa",
+      "sha256_png": "e3f00de491da8b667871d34a92bacb4f92dca89439161e0671a613a6be36d482"
+    }
+  ],
+  "mounting_layout": "../mounting_layout.json",
+  "edge_port_layout": "../edge_port_layout.json",
+  "updated_at": "2026-10-09T20:10:44.906586+09:00",
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.25
+}

@@ -1,0 +1,708 @@
+{
+  "removed_ids": [
+    "0529d77b-212f-4cbb-bd6d-76fedfd30cbb",
+    "0a67d50e-ccc3-4d6f-8724-7b7800d585c2",
+    "106280a7-d39d-4329-9c29-23c4b2f279ee",
+    "1a54d021-1fae-45f2-922d-43db822e4867",
+    "20b16acb-2231-4963-bbf9-ab378f05b83f",
+    "20c04e43-1175-4aed-9d8d-6f1004e36622",
+    "39a636aa-0dbd-4e04-8dc7-e556f0e3ce9b",
+    "71e3dfaf-286f-437b-8bc2-67a9c5b34317",
+    "72302a6e-bcc3-4881-b2d5-642c9013e6df",
+    "87c74614-de67-44ef-a2c1-3f1ddba95478",
+    "90a06df5-7717-44a5-b60c-6f7a256d92d6",
+    "92131ef8-77c3-49a7-817f-d9c8bcd730df",
+    "9e4b9c25-6cd6-426c-b225-e81681d904f8",
+    "a531d62c-bf1f-4030-acee-7ddae1d62be7",
+    "aac3f230-bcbb-4b05-956e-fcd3e40a78af",
+    "b46f3688-0ca2-4dc3-8ac2-076b181c00d6",
+    "f3e56984-39bb-4d66-af63-8e776f01ca02"
+  ],
+  "routes": [
+    {
+      "name": "J7_to_D6",
+      "net": "/SWDIO",
+      "layer": 0,
+      "points": [
+        [
+          18.73,
+          21.85
+        ],
+        [
+          19.3,
+          21.35
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.2
+    },
+    {
+      "name": "D6_to_internal",
+      "net": "/SWDIO",
+      "layer": 0,
+      "points": [
+        [
+          19.3,
+          20.85
+        ],
+        [
+          17.65,
+          20.25
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.15
+    },
+    {
+      "name": "J8_to_D7",
+      "net": "/SWCLK",
+      "layer": 0,
+      "points": [
+        [
+          21.27,
+          21.85
+        ],
+        [
+          21.649999,
+          21.25
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.2
+    },
+    {
+      "name": "D7_to_internal",
+      "net": "/SWCLK",
+      "layer": 0,
+      "points": [
+        [
+          21.649999,
+          20.75
+        ],
+        [
+          22.362499,
+          20.0875
+        ],
+        [
+          22.65,
+          19.45
+        ]
+      ],
+      "arcs": 1,
+      "width": 0.15
+    },
+    {
+      "name": "D6_GND",
+      "net": "GND",
+      "layer": 0,
+      "points": [
+        [
+          20.0,
+          21.1
+        ],
+        [
+          20.625,
+          21.2234
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.3
+    },
+    {
+      "name": "D7_GND",
+      "net": "GND",
+      "layer": 0,
+      "points": [
+        [
+          20.950001,
+          21.0
+        ],
+        [
+          20.625,
+          21.2234
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.3
+    },
+    {
+      "name": "D8_protected_B",
+      "net": "/NRST",
+      "layer": 2,
+      "points": [
+        [
+          16.4,
+          17.85
+        ],
+        [
+          16.0625,
+          17.875
+        ],
+        [
+          15.95,
+          17.975
+        ],
+        [
+          15.912499999999998,
+          18.1
+        ],
+        [
+          15.924999999999999,
+          18.4875
+        ],
+        [
+          16.1375,
+          18.725
+        ],
+        [
+          16.725,
+          19.05
+        ]
+      ],
+      "arcs": 3,
+      "width": 0.15
+    },
+    {
+      "name": "J9_to_D8_entry",
+      "net": "/NRST",
+      "layer": 0,
+      "points": [
+        [
+          17.46,
+          21.85
+        ],
+        [
+          17.065,
+          20.0875
+        ],
+        [
+          16.302500000000002,
+          19.3
+        ],
+        [
+          16.240000000000002,
+          19.1
+        ],
+        [
+          16.015,
+          17.5
+        ]
+      ],
+      "arcs": 3,
+      "width": 0.15
+    },
+    {
+      "name": "D8_entry_to_pad",
+      "net": "/NRST",
+      "layer": 2,
+      "points": [
+        [
+          16.015,
+          17.5
+        ],
+        [
+          16.15,
+          17.5
+        ]
+      ],
+      "arcs": 0,
+      "width": 0.15
+    },
+    {
+      "name": "D8_GND_new",
+      "net": "GND",
+      "layer": 2,
+      "points": [
+        [
+          16.4,
+          18.25
+        ],
+        [
+          17.112499999999997,
+          18.4875
+        ],
+        [
+          17.45,
+          18.525
+        ]
+      ],
+      "arcs": 1,
+      "width": 0.3
+    }
+  ],
+  "existing_ground_via": [
+    20.625,
+    21.2234
+  ],
+  "via_changes": [
+    {
+      "id": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+      "a": [
+        16.015,
+        17.5
+      ],
+      "z": [
+        16.015,
+        17.5
+      ]
+    }
+  ],
+  "d8_external_protected_copper_gap_mm": 0.05299636241635969,
+  "candidate_sha256": "9caf20e4383d00f97e604291ab7e9c29394bed81c2da8c6ed2c2addbab580384",
+  "source_sha256": "67b9e0a161565ff865ad6a17902c53fbecc39c5072f45e77c577ac987b9ab87d",
+  "added_tracks": [
+    {
+      "name": "J7_to_D6_0",
+      "uuid": "1a477bfb-7aa7-478f-af82-65f8f517c984",
+      "length_mm": 0.7582216034906946
+    },
+    {
+      "name": "D6_to_internal_0",
+      "uuid": "4309d8dc-5ba5-495d-adda-19ef3e7b090e",
+      "length_mm": 1.7557049866079437
+    },
+    {
+      "name": "J8_to_D7_0",
+      "uuid": "8e69a40d-a04e-461f-b722-98a30460f427",
+      "length_mm": 0.7102107011310094
+    },
+    {
+      "name": "D7_to_internal_0",
+      "uuid": "925117f6-86d8-4cdc-8df9-4a1ccf82d189",
+      "length_mm": 0.9426578571109456
+    },
+    {
+      "name": "D7_to_internal_1",
+      "uuid": "424440e7-9e2d-4237-a870-bac7b7bd3d6c",
+      "length_mm": 0.6690742039602184
+    },
+    {
+      "name": "D7_to_internal_arc1",
+      "uuid": "b20e2622-0cc3-48d1-8a93-3641f78011d1",
+      "length_mm": 0.05971480573383103
+    },
+    {
+      "name": "D6_GND_0",
+      "uuid": "dcc13ffb-12ef-478e-ad4c-9fad9f39967e",
+      "length_mm": 0.6370655853206952
+    },
+    {
+      "name": "D7_GND_0",
+      "uuid": "14ce27a0-aafd-4d0f-abb6-361442981434",
+      "length_mm": 0.3943769896951393
+    },
+    {
+      "name": "D8_protected_lead",
+      "uuid": "5abb752a-c71e-4c2d-82ef-26d15e587f26",
+      "length_mm": 0.15
+    },
+    {
+      "name": "D8_protected_B_0",
+      "uuid": "9414c5c3-30a5-4ae7-b632-f49c6e97f055",
+      "length_mm": 0.3384246592670221
+    },
+    {
+      "name": "D8_protected_B_1",
+      "uuid": "39739eb3-8481-443e-8833-4a77eda5bd42",
+      "length_mm": 0.15051993223490368
+    },
+    {
+      "name": "D8_protected_B_2",
+      "uuid": "ef129cb8-6382-4991-bf61-8686aaa576fb",
+      "length_mm": 0.10601183011815239
+    },
+    {
+      "name": "D8_protected_B_3",
+      "uuid": "c7e5bcba-8586-4a81-870b-412a8f8c5f2f",
+      "length_mm": 0.3086554509902587
+    },
+    {
+      "name": "D8_protected_B_4",
+      "uuid": "e640244b-8483-43e0-9967-cce547955b3d",
+      "length_mm": 0.23872405209571992
+    },
+    {
+      "name": "D8_protected_B_5",
+      "uuid": "6cecf4c9-66d2-4e9d-a327-7a1006c82792",
+      "length_mm": 0.6459929881631844
+    },
+    {
+      "name": "D8_protected_B_arc3",
+      "uuid": "09a815d7-f207-4aab-a4ad-e79eea14a217",
+      "length_mm": 0.04855307089858836
+    },
+    {
+      "name": "D8_protected_B_arc4",
+      "uuid": "9a370a18-22c2-4c4a-917e-ff858a9b50c1",
+      "length_mm": 0.10464157194202425
+    },
+    {
+      "name": "D8_protected_B_arc5",
+      "uuid": "c0fd67d9-2bb7-4df2-bc63-fd8497ac67d4",
+      "length_mm": 0.050341743683061047
+    },
+    {
+      "name": "J9_to_D8_entry_0",
+      "uuid": "ed727a25-cfc4-4d18-b84d-ca34c487bc90",
+      "length_mm": 1.7639951159130232
+    },
+    {
+      "name": "J9_to_D8_entry_1",
+      "uuid": "65e82f2d-27c8-471b-8bbb-33eca532aef0",
+      "length_mm": 1.018306095398137
+    },
+    {
+      "name": "J9_to_D8_entry_2",
+      "uuid": "c6ef98e7-b8f8-440a-8332-1ae81421b9fd",
+      "length_mm": 0.16164613564511834
+    },
+    {
+      "name": "J9_to_D8_entry_3",
+      "uuid": "7fd23aa8-4344-4808-8518-68afb3bca13e",
+      "length_mm": 1.6034773595470564
+    },
+    {
+      "name": "J9_to_D8_entry_arc1",
+      "uuid": "ea5f2d61-e76e-4f04-83dc-9221c38196c4",
+      "length_mm": 0.08231821079892994
+    },
+    {
+      "name": "J9_to_D8_entry_arc2",
+      "uuid": "fae48eaf-547b-45e9-9595-1d986902a6ea",
+      "length_mm": 0.06995896638518743
+    },
+    {
+      "name": "J9_to_D8_entry_arc3",
+      "uuid": "e460ade6-67c9-4b7c-85c5-321dc552436c",
+      "length_mm": 0.0244759628911374
+    },
+    {
+      "name": "D8_entry_to_pad_0",
+      "uuid": "8e441c6c-ce78-4ac1-98f4-3e78d7701817",
+      "length_mm": 0.135
+    },
+    {
+      "name": "D8_GND_new_0",
+      "uuid": "be8eb394-630d-4ed9-8ca0-50f65722bc72",
+      "length_mm": 0.7192591051220694
+    },
+    {
+      "name": "D8_GND_new_1",
+      "uuid": "0dcd34fc-84e0-40fd-9718-b5c83e51da71",
+      "length_mm": 0.3077945286128394
+    },
+    {
+      "name": "D8_GND_new_arc1",
+      "uuid": "076d3d3c-3f2a-4cdd-b0bb-b665b78df65a",
+      "length_mm": 0.0633274899928184
+    }
+  ],
+  "drc": {
+    "errors": 0,
+    "warnings": 5,
+    "warning_types": [
+      "silk_edge_clearance",
+      "silk_edge_clearance",
+      "silk_edge_clearance",
+      "silk_edge_clearance",
+      "lib_footprint_mismatch"
+    ],
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "before_metrics": {
+    "/SWCLK": {
+      "F.Cu": {
+        "lines": 3,
+        "arcs": 1,
+        "vias": 0,
+        "length_mm": 3.780202169529375
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 2,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 2,
+        "arcs": 1,
+        "vias": 0,
+        "length_mm": 1.5134340104205004
+      },
+      "In3.Cu": {
+        "lines": 4,
+        "arcs": 3,
+        "vias": 0,
+        "length_mm": 3.7670358920398677
+      }
+    },
+    "GND": {
+      "F.Cu": {
+        "lines": 5,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 3.042178197768406
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 29,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 71,
+        "arcs": 1,
+        "vias": 0,
+        "length_mm": 16.79636612603548
+      }
+    },
+    "/SWDIO": {
+      "F.Cu": {
+        "lines": 2,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 2.8724076700086396
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 2,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 2,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 0.36518154389081026
+      },
+      "In3.Cu": {
+        "lines": 5,
+        "arcs": 4,
+        "vias": 0,
+        "length_mm": 6.1134789983539575
+      }
+    },
+    "/NRST": {
+      "F.Cu": {
+        "lines": 3,
+        "arcs": 2,
+        "vias": 0,
+        "length_mm": 2.989636187171275
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 3,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 3,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 1.708
+      },
+      "In2.Cu": {
+        "lines": 1,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 1.6552945357246849
+      },
+      "In4.Cu": {
+        "lines": 3,
+        "arcs": 2,
+        "vias": 0,
+        "length_mm": 3.61561470753553
+      }
+    }
+  },
+  "after_metrics": {
+    "/SWCLK": {
+      "F.Cu": {
+        "lines": 3,
+        "arcs": 1,
+        "vias": 0,
+        "length_mm": 2.3816575679360046
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 2,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 2,
+        "arcs": 1,
+        "vias": 0,
+        "length_mm": 1.5134340104205004
+      },
+      "In3.Cu": {
+        "lines": 4,
+        "arcs": 3,
+        "vias": 0,
+        "length_mm": 3.7670358920398677
+      }
+    },
+    "GND": {
+      "F.Cu": {
+        "lines": 5,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 3.0421781977684064
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 28,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 72,
+        "arcs": 2,
+        "vias": 0,
+        "length_mm": 17.261747249763207
+      }
+    },
+    "/SWDIO": {
+      "F.Cu": {
+        "lines": 2,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 2.513926590098638
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 2,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 2,
+        "arcs": 0,
+        "vias": 0,
+        "length_mm": 0.36518154389081026
+      },
+      "In3.Cu": {
+        "lines": 5,
+        "arcs": 4,
+        "vias": 0,
+        "length_mm": 6.1134789983539575
+      }
+    },
+    "/NRST": {
+      "F.Cu": {
+        "lines": 4,
+        "arcs": 3,
+        "vias": 0,
+        "length_mm": 4.72417784657859
+      },
+      "through": {
+        "lines": 0,
+        "arcs": 0,
+        "vias": 3,
+        "length_mm": 0
+      },
+      "B.Cu": {
+        "lines": 10,
+        "arcs": 3,
+        "vias": 0,
+        "length_mm": 3.609865299392915
+      },
+      "In4.Cu": {
+        "lines": 3,
+        "arcs": 2,
+        "vias": 0,
+        "length_mm": 3.61561470753553
+      }
+    }
+  },
+  "all_footprints_unchanged": true,
+  "top_PPG_U1_unchanged": true,
+  "D8_remains_bottom_at_xy_rotation": [
+    16.4,
+    17.9,
+    270
+  ],
+  "ground_via_removed": {
+    "uuid": "20c04e43-1175-4aed-9d8d-6f1004e36622",
+    "xy": [
+      15.9,
+      18.625
+    ],
+    "reason": "Blocked the D8 protected B.Cu exit; D8 ground now reaches the existing via 17.45,18.525 through a 0.30 mm trace."
+  },
+  "signal_via_moved": {
+    "uuid": "4c975624-a13d-4d5b-b7f8-6f2bc75ddbe9",
+    "before_xy": [
+      16.025,
+      17.55
+    ],
+    "after_xy": [
+      16.015,
+      17.5
+    ],
+    "delta_xy": [
+      -0.01,
+      -0.05
+    ]
+  },
+  "via_count_before": 71,
+  "via_count_after": 70,
+  "physical_ESD_routes": {
+    "D6": {
+      "external_pad": "J7",
+      "external_to_TVS_pad_edge_mm": 0.7582216034906946,
+      "protected_TVS_pad_edge_to_first_via_mm": 1.7557049866079437,
+      "external_width_mm": 0.2,
+      "protected_width_mm": 0.15,
+      "ground_trace_length_mm": 0.6370655853206952,
+      "ground_width_mm": 0.3,
+      "ground_via_xy": [
+        20.625,
+        21.2234
+      ],
+      "contacts": "External at bottom edge, protected at top edge; no trace through pad body."
+    },
+    "D7": {
+      "external_pad": "J8",
+      "external_to_TVS_pad_edge_mm": 0.7102107011310094,
+      "protected_TVS_pad_edge_to_first_via_mm": 1.671446866804995,
+      "external_width_mm": 0.2,
+      "protected_width_mm": 0.15,
+      "ground_trace_length_mm": 0.3943769896951393,
+      "ground_width_mm": 0.3,
+      "ground_via_xy": [
+        20.625,
+        21.2234
+      ],
+      "contacts": "External at bottom edge, protected at top edge; no trace through pad body."
+    },
+    "D8": {
+      "external_pad": "J9",
+      "external_F_trace_to_entry_via_mm": 4.72417784657859,
+      "external_B_trace_entry_via_to_TVS_pad_edge_mm": 0.135,
+      "external_total_trace_to_TVS_pad_edge_mm": 4.85917784657859,
+      "protected_TVS_pad_edge_to_first_via_mm": 2.141865299392915,
+      "signal_width_mm": 0.15,
+      "entry_via_xy": [
+        16.015,
+        17.5
+      ],
+      "protected_via_xy": [
+        16.725,
+        19.05
+      ],
+      "ground_trace_length_mm": 1.0903811237277272,
+      "ground_width_mm": 0.3,
+      "ground_via_xy": [
+        17.45,
+        18.525
+      ],
+      "contacts": "External entry on left pad edge, protected exit on bottom pad edge; TVS stays B.Cu. Entry via before TVS is necessary for top connector to bottom TVS. Old In2.Cu bypass removed.",
+      "approx_min_external_protected_copper_gap_mm": 0.05299636241635969
+    }
+  },
+  "candidate_frozen": true,
+  "all_six_GND_layers_refilled": true,
+  "limitations": "Native DRC confirms design rules, not transient electrical behavior. Root independently audits native pad-omission topology and complete ground connectivity."
+}

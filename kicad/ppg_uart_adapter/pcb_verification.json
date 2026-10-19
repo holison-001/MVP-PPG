@@ -1,0 +1,891 @@
+{
+  "board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+  "board_sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+  "source_unchanged_at_end": true,
+  "read_only": true,
+  "layer_count": 6,
+  "thickness_mm": 0.8,
+  "layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "B.Cu"
+  ],
+  "track_count": 86,
+  "track_counts_by_layer": {
+    "B.Cu": 71,
+    "In3.Cu": 10,
+    "In2.Cu": 5
+  },
+  "nonGND_minimum_trace_width_mm": 0.2,
+  "below_minimum_width_tracks": [],
+  "via_count": 100,
+  "via_errors": [],
+  "courtyard_overlaps": [],
+  "footprint_count": 32,
+  "R9_footprint": "Resistor_SMD:R_1206_3216Metric",
+  "GND_graph": {
+    "anchor": "J1.2",
+    "anchor_found": true,
+    "copper_component_nodes": 6,
+    "reachable_nodes": 6,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "GND_zones": [
+    {
+      "layer": "F.Cu",
+      "net": "GND",
+      "area_mm2": 868.2343806544054,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "F.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "B.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "F.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "B.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "F.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "B.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "F.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "B.Cu",
+      "net": "",
+      "area_mm2": 0.0,
+      "filled": false,
+      "needs_refill": false
+    },
+    {
+      "layer": "B.Cu",
+      "net": "GND",
+      "area_mm2": 749.3732832197844,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In1.Cu",
+      "net": "GND",
+      "area_mm2": 868.2343806544054,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In2.Cu",
+      "net": "GND",
+      "area_mm2": 849.2116604922192,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In3.Cu",
+      "net": "GND",
+      "area_mm2": 816.3225087197104,
+      "filled": true,
+      "needs_refill": false
+    },
+    {
+      "layer": "In4.Cu",
+      "net": "GND",
+      "area_mm2": 868.2343806544054,
+      "filled": true,
+      "needs_refill": false
+    }
+  ],
+  "L1_L5_rim": [
+    {
+      "layer": "F.Cu",
+      "ring_area_mm2": 36.13439999999969,
+      "missing_area_mm2": 0.002024040679892254,
+      "coverage_pass": false,
+      "filled_area_mm2": 868.2343806544054,
+      "unconnected_GND_regions": [],
+      "missing_regions": [
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            98.81,
+            88.35156482421334,
+            98.85156482421334
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            123.14843517578666,
+            88.35156482421334,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            123.14843517578667,
+            139.69,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            98.81,
+            139.69,
+            98.85156482421333
+          ]
+        }
+      ],
+      "continuous_ring_pass": true,
+      "narrow_band_0_36_to_0_55_missing_area_mm2": 0.0,
+      "corner_note": "Raw rectangular target band includes four small rounded outer corners; continuity separately requires a single polygon with one enclosed interior."
+    },
+    {
+      "layer": "In1.Cu",
+      "ring_area_mm2": 36.13439999999969,
+      "missing_area_mm2": 0.002024040679892254,
+      "coverage_pass": false,
+      "filled_area_mm2": 868.2343806544054,
+      "unconnected_GND_regions": [],
+      "missing_regions": [
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            98.81,
+            88.35156482421334,
+            98.85156482421334
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            123.14843517578666,
+            88.35156482421334,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            123.14843517578667,
+            139.69,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            98.81,
+            139.69,
+            98.85156482421333
+          ]
+        }
+      ],
+      "continuous_ring_pass": true,
+      "narrow_band_0_36_to_0_55_missing_area_mm2": 0.0,
+      "corner_note": "Raw rectangular target band includes four small rounded outer corners; continuity separately requires a single polygon with one enclosed interior."
+    },
+    {
+      "layer": "In2.Cu",
+      "ring_area_mm2": 36.13439999999969,
+      "missing_area_mm2": 0.002024040679892254,
+      "coverage_pass": false,
+      "filled_area_mm2": 849.2116604922192,
+      "unconnected_GND_regions": [],
+      "missing_regions": [
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            98.81,
+            88.35156482421334,
+            98.85156482421334
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            123.14843517578666,
+            88.35156482421334,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            123.14843517578667,
+            139.69,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            98.81,
+            139.69,
+            98.85156482421333
+          ]
+        }
+      ],
+      "continuous_ring_pass": true,
+      "narrow_band_0_36_to_0_55_missing_area_mm2": 0.0,
+      "corner_note": "Raw rectangular target band includes four small rounded outer corners; continuity separately requires a single polygon with one enclosed interior."
+    },
+    {
+      "layer": "In3.Cu",
+      "ring_area_mm2": 36.13439999999969,
+      "missing_area_mm2": 0.002024040679892254,
+      "coverage_pass": false,
+      "filled_area_mm2": 816.3225087197104,
+      "unconnected_GND_regions": [],
+      "missing_regions": [
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            98.81,
+            88.35156482421334,
+            98.85156482421334
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            123.14843517578666,
+            88.35156482421334,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            123.14843517578667,
+            139.69,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            98.81,
+            139.69,
+            98.85156482421333
+          ]
+        }
+      ],
+      "continuous_ring_pass": true,
+      "narrow_band_0_36_to_0_55_missing_area_mm2": 0.0,
+      "corner_note": "Raw rectangular target band includes four small rounded outer corners; continuity separately requires a single polygon with one enclosed interior."
+    },
+    {
+      "layer": "In4.Cu",
+      "ring_area_mm2": 36.13439999999969,
+      "missing_area_mm2": 0.002024040679892254,
+      "coverage_pass": false,
+      "filled_area_mm2": 868.2343806544054,
+      "unconnected_GND_regions": [],
+      "missing_regions": [
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            98.81,
+            88.35156482421334,
+            98.85156482421334
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699732544,
+          "bounds": [
+            88.31,
+            123.14843517578666,
+            88.35156482421334,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            123.14843517578667,
+            139.69,
+            123.19
+          ]
+        },
+        {
+          "area_mm2": 0.0005060101699728726,
+          "bounds": [
+            139.64843517578666,
+            98.81,
+            139.69,
+            98.85156482421333
+          ]
+        }
+      ],
+      "continuous_ring_pass": true,
+      "narrow_band_0_36_to_0_55_missing_area_mm2": 0.0,
+      "corner_note": "Raw rectangular target band includes four small rounded outer corners; continuity separately requires a single polygon with one enclosed interior."
+    }
+  ],
+  "ESD_flow": [
+    {
+      "source": "J2.3",
+      "tvs": "D1.1",
+      "target": "R2.1",
+      "net": "/PPG_TXP",
+      "normal_connected": true,
+      "pad_area_cut_connected": false,
+      "pass_check": true,
+      "external_side_vias_after_cut": []
+    },
+    {
+      "source": "J2.4",
+      "tvs": "D1.2",
+      "target": "R3.1",
+      "net": "/PPG_TXN",
+      "normal_connected": true,
+      "pad_area_cut_connected": false,
+      "pass_check": true,
+      "external_side_vias_after_cut": []
+    },
+    {
+      "source": "J2.5",
+      "tvs": "D2.1",
+      "target": "R4.2",
+      "net": "/PPG_RXP",
+      "normal_connected": true,
+      "pad_area_cut_connected": false,
+      "pass_check": true,
+      "external_side_vias_after_cut": []
+    },
+    {
+      "source": "J2.6",
+      "tvs": "D2.2",
+      "target": "R5.2",
+      "net": "/PPG_RXN",
+      "normal_connected": true,
+      "pad_area_cut_connected": false,
+      "pass_check": true,
+      "external_side_vias_after_cut": []
+    },
+    {
+      "source": "J3.2",
+      "tvs": "D3.1",
+      "target": "R7.2",
+      "net": "/TX_OUT",
+      "normal_connected": true,
+      "pad_area_cut_connected": false,
+      "pass_check": true,
+      "external_side_vias_after_cut": []
+    },
+    {
+      "source": "J3.3",
+      "tvs": "D4.1",
+      "target": "R8.1",
+      "net": "/RX_IN",
+      "normal_connected": true,
+      "pad_area_cut_connected": false,
+      "pass_check": true,
+      "external_side_vias_after_cut": []
+    }
+  ],
+  "passed": true,
+  "baseline_sha256": "c2bb79b03756a4da731c3fe70709c032a01925fc70cc9d16cb4239a69c314cc5",
+  "fixed_refs": [
+    "C1",
+    "C2",
+    "C3",
+    "C6",
+    "C7",
+    "C8",
+    "FB1",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "R9",
+    "U1"
+  ],
+  "changed_fixed_refs": [],
+  "changed_pin_nets": [],
+  "preserved_ldo_copper_count": 14,
+  "changed_preserved_ldo_copper": [],
+  "port_accessibility": [
+    {
+      "ref": "J1",
+      "side": "B.Cu",
+      "angle": 0.0,
+      "pads": [
+        {
+          "pad": "1",
+          "center_mm": [
+            102.5,
+            99.75
+          ],
+          "copper_to_edge_mm": 0.6500000000000057,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "2",
+          "center_mm": [
+            104.3,
+            99.75
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "ref": "J2",
+      "side": "B.Cu",
+      "angle": 0.0,
+      "pads": [
+        {
+          "pad": "1",
+          "center_mm": [
+            101.5,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6500000000000057,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "2",
+          "center_mm": [
+            103.3,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "3",
+          "center_mm": [
+            105.1,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "4",
+          "center_mm": [
+            106.9,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "5",
+          "center_mm": [
+            108.7,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "6",
+          "center_mm": [
+            110.5,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "ref": "J3",
+      "side": "B.Cu",
+      "angle": 0.0,
+      "pads": [
+        {
+          "pad": "1",
+          "center_mm": [
+            121.1,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6500000000000057,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "2",
+          "center_mm": [
+            122.9,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "3",
+          "center_mm": [
+            124.7,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        },
+        {
+          "pad": "4",
+          "center_mm": [
+            126.5,
+            122.25
+          ],
+          "copper_to_edge_mm": 0.6551330000000064,
+          "outward_corridor_blockers": []
+        }
+      ],
+      "pass_check": true
+    }
+  ],
+  "mechanical_holes": [
+    {
+      "ref": "H1",
+      "position_mm": [
+        94.5,
+        105.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "npth": true,
+      "assembly_clashes": [],
+      "keepouts": [
+        {
+          "layers": [
+            "F.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "B.Cu"
+          ],
+          "tracks_forbidden": true,
+          "vias_forbidden": true,
+          "pours_forbidden": true,
+          "minimum_radius_mm": 5.499999035687219
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "ref": "H2",
+      "position_mm": [
+        133.5,
+        105.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "npth": true,
+      "assembly_clashes": [],
+      "keepouts": [
+        {
+          "layers": [
+            "F.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "B.Cu"
+          ],
+          "tracks_forbidden": true,
+          "vias_forbidden": true,
+          "pours_forbidden": true,
+          "minimum_radius_mm": 5.499999035687216
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "ref": "H3",
+      "position_mm": [
+        94.5,
+        117.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "npth": true,
+      "assembly_clashes": [],
+      "keepouts": [
+        {
+          "layers": [
+            "F.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "B.Cu"
+          ],
+          "tracks_forbidden": true,
+          "vias_forbidden": true,
+          "pours_forbidden": true,
+          "minimum_radius_mm": 5.499999035687219
+        }
+      ],
+      "pass_check": true
+    },
+    {
+      "ref": "H4",
+      "position_mm": [
+        133.5,
+        117.0
+      ],
+      "drill_mm": [
+        3.0,
+        3.0
+      ],
+      "npth": true,
+      "assembly_clashes": [],
+      "keepouts": [
+        {
+          "layers": [
+            "F.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "B.Cu"
+          ],
+          "tracks_forbidden": true,
+          "vias_forbidden": true,
+          "pours_forbidden": true,
+          "minimum_radius_mm": 5.499999035687216
+        }
+      ],
+      "pass_check": true
+    }
+  ],
+  "all_components_still_bottom": true,
+  "audited_candidate": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\kicad\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+  "delivered_sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+  "independent_via_to_SMT_check": {
+    "board_sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+    "vias": 100,
+    "SMT_pads": 74,
+    "same_net_included": true,
+    "copper_overlaps": 0,
+    "drill_overlaps": 0,
+    "performed_by": "adapter_resistor_check",
+    "read_only": true
+  },
+  "checked_at": "2026-10-09T20:09:45.906229+09:00",
+  "via_drill_mm": 0.25,
+  "via_diameter_mm": 0.5,
+  "approved_0_20_drill_exceptions": [],
+  "via_counts_by_net": {
+    "/GND": 89,
+    "/9V_SHARED": 2,
+    "/UART_TX_IC": 2,
+    "/3V3": 5,
+    "/UART_RX_IC": 2
+  },
+  "via_drill_update": {
+    "baseline": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\before_via_drill_025_20261009_200410\\ppg_uart_adapter\\ppg_uart_adapter_v01.kicad_pcb",
+    "baseline_sha256": "1d5180378944b89a69218d015da8bea940cf934f705f62ba99e52750387b2c02",
+    "changed_vias": 93,
+    "unchanged_existing_0_25_vias": 7,
+    "whole_file_exactly_equal_except_93_drill_tokens": true,
+    "track_count_preserved": 86,
+    "footprint_count_preserved": 32,
+    "NPTH_3mm_holes_preserved": 4,
+    "all_UUIDs_nets_positions_widths_outlines_keepouts_and_stored_fills_preserved": true,
+    "in_memory_native_zone_refill_comparison": {
+      "saved_to_disk": false,
+      "layers_compared": 6,
+      "each_layer_symmetric_difference_mm2": 0.0,
+      "stored_fill_update_needed": false
+    },
+    "independent_rule_auditor": "adapter_resistor_check/via_rule_audit",
+    "independent_rule_audit": "PASS"
+  },
+  "native_DRC": {
+    "errors": 0,
+    "warnings": 0,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "previews": {
+    "source": "preview/pcb_source.json",
+    "board_sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+    "all_6_layer_views_regenerated": true,
+    "drill_shape": "actual size",
+    "bottom_assembly_view_visually_checked": true
+  }
+}

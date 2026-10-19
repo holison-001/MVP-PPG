@@ -1,0 +1,1156 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-05T21:03:53",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "ppg_pcb_v08_width015_trial.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1350 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SWCLK] on F.Cu, 길이 1.8734 mm",
+                    "pos": {
+                        "x": 22.425,
+                        "y": 20.375
+                    },
+                    "uuid": "b621cb8f-2c61-4a03-9adc-e62dbcee9bab"
+                },
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.8750 mm",
+                    "pos": {
+                        "x": 22.2,
+                        "y": 19.325
+                    },
+                    "uuid": "f54a2ddb-179b-47fe-8bea-643fbba7fca2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1100 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SWCLK] on F.Cu, 길이 0.9520 mm",
+                    "pos": {
+                        "x": 22.65,
+                        "y": 19.45
+                    },
+                    "uuid": "92874f6b-1fe0-4e14-9f9f-f85d37807224"
+                },
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.8750 mm",
+                    "pos": {
+                        "x": 22.2,
+                        "y": 19.325
+                    },
+                    "uuid": "f54a2ddb-179b-47fe-8bea-643fbba7fca2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1420 mm)",
+            "items": [
+                {
+                    "description": "비아 [/SWCLK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.65,
+                        "y": 19.45
+                    },
+                    "uuid": "41807256-542f-4e11-af12-f879e81dd8d3"
+                },
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.4070 mm",
+                    "pos": {
+                        "x": 21.925,
+                        "y": 19.025
+                    },
+                    "uuid": "9123243f-256e-4a6f-9aa6-727fdba09dde"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1316 mm)",
+            "items": [
+                {
+                    "description": "패드 1 [/UART_TX]의 U3 위B.Cu",
+                    "pos": {
+                        "x": 22.379523,
+                        "y": 14.88778
+                    },
+                    "uuid": "cbf3e766-c90d-469a-93fa-5be4b4f6376c"
+                },
+                {
+                    "description": "배선 [/UART_RX] on B.Cu, 길이 1.2000 mm",
+                    "pos": {
+                        "x": 21.4,
+                        "y": 15.6
+                    },
+                    "uuid": "e60ee6a0-28f2-421a-8e53-5782b9b6b37b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1360 mm)",
+            "items": [
+                {
+                    "description": "배선 [/TXN_DRV] on In2.Cu, 길이 1.4534 mm",
+                    "pos": {
+                        "x": 23.35,
+                        "y": 13.625
+                    },
+                    "uuid": "6dc00e48-c524-4ba1-8736-8077039a56ed"
+                },
+                {
+                    "description": "비아 [/UART_RX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.9,
+                        "y": 13.8
+                    },
+                    "uuid": "f948adad-1359-4b54-9cd0-3bd30e3fdd60"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1375 mm)",
+            "items": [
+                {
+                    "description": "비아 [/RXP] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 14.6916,
+                        "y": 18.3776
+                    },
+                    "uuid": "1b5b2901-4dc7-4909-82fd-ccc814f86cfd"
+                },
+                {
+                    "description": "배선 [/RXN] on In2.Cu, 길이 2.1744 mm",
+                    "pos": {
+                        "x": 15.45,
+                        "y": 20.3
+                    },
+                    "uuid": "700101be-ccb9-4b24-ae71-d8487e5892c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1337 mm)",
+            "items": [
+                {
+                    "description": "배선 [/TXP] on In2.Cu, 길이 0.3000 mm",
+                    "pos": {
+                        "x": 24.8,
+                        "y": 16.9
+                    },
+                    "uuid": "bdece3f6-1be8-4787-97c9-f76aa976ffc2"
+                },
+                {
+                    "description": "비아 [/TXN_DRV] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 24.3413,
+                        "y": 17.0466
+                    },
+                    "uuid": "fd332b71-8b59-40f6-b984-a7363a712cca"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1284 mm)",
+            "items": [
+                {
+                    "description": "비아 [12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.8315,
+                        "y": 13.6211
+                    },
+                    "uuid": "5bf6af1a-c519-4924-85a7-c7681f69aa23"
+                },
+                {
+                    "description": "배선 [/UART_RX] on In2.Cu, 길이 0.2462 mm",
+                    "pos": {
+                        "x": 19.55,
+                        "y": 13.25
+                    },
+                    "uuid": "b73eb4d7-1a9e-429f-a3a4-088b1d5b5f4b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1265 mm)",
+            "items": [
+                {
+                    "description": "배선 [/TXN_DRV] on In2.Cu, 길이 1.4534 mm",
+                    "pos": {
+                        "x": 23.35,
+                        "y": 13.625
+                    },
+                    "uuid": "6dc00e48-c524-4ba1-8736-8077039a56ed"
+                },
+                {
+                    "description": "비아 [/TXP_DRV] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.825,
+                        "y": 13.95
+                    },
+                    "uuid": "cd7cc564-1a6d-4598-8fe5-47a470c84b2b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1378 mm)",
+            "items": [
+                {
+                    "description": "배선 [/UART_TX] on In2.Cu, 길이 1.6212 mm",
+                    "pos": {
+                        "x": 23.85,
+                        "y": 18.1
+                    },
+                    "uuid": "247efe0f-4c27-4577-99f2-9c828c2e09d7"
+                },
+                {
+                    "description": "비아 [/TXP] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 24.2434,
+                        "y": 17.852
+                    },
+                    "uuid": "8fedb897-727c-4e64-8588-663969faaef7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1479 mm)",
+            "items": [
+                {
+                    "description": "배선 [/TXP] on In2.Cu, 길이 1.2369 mm",
+                    "pos": {
+                        "x": 25.05,
+                        "y": 15.1
+                    },
+                    "uuid": "5800c01d-ce1a-470c-9962-bcea490d8520"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 25.225,
+                        "y": 16.35
+                    },
+                    "uuid": "e9d6d70f-6971-4717-9718-6e4aac90142a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1298 mm)",
+            "items": [
+                {
+                    "description": "배선 [/RXP_RCV] on In2.Cu, 길이 3.3504 mm",
+                    "pos": {
+                        "x": 16.225,
+                        "y": 16.725
+                    },
+                    "uuid": "0c397228-dff9-4ece-a0eb-74b5eede93c8"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 15.8,
+                        "y": 14.725
+                    },
+                    "uuid": "c4b6729b-26b4-4162-82ec-edfa033a8b91"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1346 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.775,
+                        "y": 13.55
+                    },
+                    "uuid": "33c23666-c9b7-490c-ac0e-f35350e23c84"
+                },
+                {
+                    "description": "배선 [/UART_RX] on In2.Cu, 길이 1.1314 mm",
+                    "pos": {
+                        "x": 20.725,
+                        "y": 13.15
+                    },
+                    "uuid": "5b5bb439-7158-427a-9510-58d5a3dc3d27"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1459 mm)",
+            "items": [
+                {
+                    "description": "배선 [/NRST] on F.Cu, 길이 1.3851 mm",
+                    "pos": {
+                        "x": 17.15,
+                        "y": 20.5
+                    },
+                    "uuid": "2fe4967f-8dcf-432d-b5ee-4f1955d80c5d"
+                },
+                {
+                    "description": "비아 [12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 16.7087,
+                        "y": 20.6824
+                    },
+                    "uuid": "979f39e1-888b-4392-b7e6-022d360e07fc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1425 mm)",
+            "items": [
+                {
+                    "description": "비아 [12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 16.7087,
+                        "y": 20.6824
+                    },
+                    "uuid": "979f39e1-888b-4392-b7e6-022d360e07fc"
+                },
+                {
+                    "description": "배선 [/NRST] on F.Cu, 길이 0.7558 mm",
+                    "pos": {
+                        "x": 16.725,
+                        "y": 19.875
+                    },
+                    "uuid": "c3067376-6ed3-4020-99fd-4befb8fa24fb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1450 mm)",
+            "items": [
+                {
+                    "description": "패드 11 [GND]의 U1 위F.Cu",
+                    "pos": {
+                        "x": 20.95,
+                        "y": 17.0
+                    },
+                    "uuid": "8db4e49c-5ba4-4207-b60c-b03ca2306d49"
+                },
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 1.7250 mm",
+                    "pos": {
+                        "x": 21.5,
+                        "y": 16.875
+                    },
+                    "uuid": "fa2c7c23-f8d2-480a-92ae-98016e83855d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1290 mm)",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.1904 mm",
+                    "pos": {
+                        "x": 21.425,
+                        "y": 16.7
+                    },
+                    "uuid": "7319a8fb-0d88-490a-9b7f-bca5d68c7715"
+                },
+                {
+                    "description": "패드 11 [GND]의 U1 위F.Cu",
+                    "pos": {
+                        "x": 20.95,
+                        "y": 17.0
+                    },
+                    "uuid": "8db4e49c-5ba4-4207-b60c-b03ca2306d49"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1363 mm)",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.2305 mm",
+                    "pos": {
+                        "x": 21.25,
+                        "y": 16.55
+                    },
+                    "uuid": "16a19da4-5616-4a7a-a4f8-77f472076114"
+                },
+                {
+                    "description": "패드 11 [GND]의 U1 위F.Cu",
+                    "pos": {
+                        "x": 20.95,
+                        "y": 17.0
+                    },
+                    "uuid": "8db4e49c-5ba4-4207-b60c-b03ca2306d49"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1262 mm)",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 1.4080 mm",
+                    "pos": {
+                        "x": 21.875,
+                        "y": 20.475
+                    },
+                    "uuid": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.6734,
+                        "y": 20.15
+                    },
+                    "uuid": "507b0ce5-04b4-4704-9752-f5e09368bf02"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1279 mm)",
+            "items": [
+                {
+                    "description": "패드 3 [unconnected-(U5-NC-Pad3)]의 U5 위B.Cu",
+                    "pos": {
+                        "x": 23.626257,
+                        "y": 20.646896
+                    },
+                    "uuid": "26041625-c820-4040-be98-062b880017a1"
+                },
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 0.6005 mm",
+                    "pos": {
+                        "x": 23.525,
+                        "y": 21.225
+                    },
+                    "uuid": "e7e45761-34ad-44d0-86f7-148ffe34868c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1307 mm)",
+            "items": [
+                {
+                    "description": "패드 3 [unconnected-(U4-NC-Pad3)]의 U4 위B.Cu",
+                    "pos": {
+                        "x": 19.2657,
+                        "y": 21.7939
+                    },
+                    "uuid": "8044e4b6-6354-4146-8343-08b72452ca76"
+                },
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 0.4233 mm",
+                    "pos": {
+                        "x": 18.625,
+                        "y": 21.8432
+                    },
+                    "uuid": "c5dc8e74-ca0b-4db7-b8ce-650bf56de3f9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1338 mm)",
+            "items": [
+                {
+                    "description": "비아 [/VREF] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 19.5882,
+                        "y": 19.9189
+                    },
+                    "uuid": "65abe2a2-bd53-4d83-a1da-9f96f6d36a5e"
+                },
+                {
+                    "description": "배선 [/SWDIO] on In2.Cu, 길이 0.3758 mm",
+                    "pos": {
+                        "x": 19.725,
+                        "y": 19.45
+                    },
+                    "uuid": "7734f028-0274-4e6f-ad26-a5ce44bc37a4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1307 mm)",
+            "items": [
+                {
+                    "description": "패드 3 [unconnected-(U4-NC-Pad3)]의 U4 위B.Cu",
+                    "pos": {
+                        "x": 19.2657,
+                        "y": 21.7939
+                    },
+                    "uuid": "8044e4b6-6354-4146-8343-08b72452ca76"
+                },
+                {
+                    "description": "배선 [GND] on B.Cu, 길이 0.3568 mm",
+                    "pos": {
+                        "x": 18.625,
+                        "y": 22.2
+                    },
+                    "uuid": "a792cf24-fe5f-479f-8dc3-2a1a460a91c2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1346 mm)",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 0.6010 mm",
+                    "pos": {
+                        "x": 21.5,
+                        "y": 18.6
+                    },
+                    "uuid": "10321e9b-0b1b-4d24-9b37-049b15c6250e"
+                },
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.525,
+                        "y": 19.275
+                    },
+                    "uuid": "bd9d5774-5014-4735-9041-fa644e39e5f9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1305 mm)",
+            "items": [
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.6734,
+                        "y": 20.15
+                    },
+                    "uuid": "507b0ce5-04b4-4704-9752-f5e09368bf02"
+                },
+                {
+                    "description": "배선 [5V_LED] on In2.Cu, 길이 0.7754 mm",
+                    "pos": {
+                        "x": 20.85,
+                        "y": 20.6
+                    },
+                    "uuid": "b4f3d587-114e-4a0c-87b5-92ad6f4df4d6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1481 mm)",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on In2.Cu, 길이 1.0470 mm",
+                    "pos": {
+                        "x": 21.725,
+                        "y": 20.025
+                    },
+                    "uuid": "11c8b0c1-ee3d-4ada-aee0-557e7636499d"
+                },
+                {
+                    "description": "비아 [3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.6734,
+                        "y": 20.15
+                    },
+                    "uuid": "507b0ce5-04b4-4704-9752-f5e09368bf02"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1381 mm)",
+            "items": [
+                {
+                    "description": "패드 2 [GND]의 C1 위B.Cu",
+                    "pos": {
+                        "x": 17.8336,
+                        "y": 18.5902
+                    },
+                    "uuid": "b79566a5-d5c1-4cb5-bdc4-6296e5a52118"
+                },
+                {
+                    "description": "배선 [5V_LED] on B.Cu, 길이 0.7800 mm",
+                    "pos": {
+                        "x": 17.3105,
+                        "y": 18.9333
+                    },
+                    "uuid": "bda94eee-6692-4390-af03-4cba7850cd45"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1481 mm)",
+            "items": [
+                {
+                    "description": "배선 [/TXN_DRV] on In2.Cu, 길이 2.1637 mm",
+                    "pos": {
+                        "x": 23.45,
+                        "y": 15.075
+                    },
+                    "uuid": "80379126-1451-4030-b20a-f2ed7c0aba0e"
+                },
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.575,
+                        "y": 16.5
+                    },
+                    "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1387 mm)",
+            "items": [
+                {
+                    "description": "패드 9 [GND]의 U5 위B.Cu",
+                    "pos": {
+                        "x": 22.7848,
+                        "y": 21.1348
+                    },
+                    "uuid": "04b768f4-b470-4bf9-a23e-b9a138920719"
+                },
+                {
+                    "description": "배선 [5V_LED] on B.Cu, 길이 0.8443 mm",
+                    "pos": {
+                        "x": 21.58979,
+                        "y": 21.26915
+                    },
+                    "uuid": "a3f8ce4f-b2f8-4628-a57e-d0fd5f0d7517"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1451 mm)",
+            "items": [
+                {
+                    "description": "배선 [/TXP_DRV] on In4.Cu, 길이 2.6030 mm",
+                    "pos": {
+                        "x": 23.825,
+                        "y": 13.95
+                    },
+                    "uuid": "2e831188-4bb1-425c-b0cd-21c7c9b919e0"
+                },
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 23.575,
+                        "y": 16.5
+                    },
+                    "uuid": "bc76e89f-9edc-40b5-b8af-db6f11fa159d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1268 mm)",
+            "items": [
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 18.2016,
+                        "y": 18.95
+                    },
+                    "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3"
+                },
+                {
+                    "description": "배선 [5V_LED] on F.Cu, 길이 0.4543 mm",
+                    "pos": {
+                        "x": 17.7498,
+                        "y": 19.1498
+                    },
+                    "uuid": "c9b25341-f83b-49e9-9634-97a79fff4efc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1384 mm)",
+            "items": [
+                {
+                    "description": "배선 [/VREF] on F.Cu, 길이 1.4080 mm",
+                    "pos": {
+                        "x": 21.875,
+                        "y": 20.475
+                    },
+                    "uuid": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8"
+                },
+                {
+                    "description": "비아 [5V_LED] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.725,
+                        "y": 20.025
+                    },
+                    "uuid": "0f71382e-a019-4fb5-bc7b-7fee64d75cfb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1358 mm)",
+            "items": [
+                {
+                    "description": "배선 [5V_LED] on F.Cu, 길이 1.2516 mm",
+                    "pos": {
+                        "x": 18.6348,
+                        "y": 20.0348
+                    },
+                    "uuid": "1bc9a37a-053a-4c0b-b8c9-a26752848cf1"
+                },
+                {
+                    "description": "비아 [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 18.2016,
+                        "y": 18.95
+                    },
+                    "uuid": "c2e79e30-a27a-47f1-bc52-25768a926ce3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1369 mm)",
+            "items": [
+                {
+                    "description": "비아 [/VLDO] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.1869,
+                        "y": 19.6321
+                    },
+                    "uuid": "c74023ec-24e9-4436-a469-2e7825ce8156"
+                },
+                {
+                    "description": "배선 [/NRST] on F.Cu, 길이 0.8250 mm",
+                    "pos": {
+                        "x": 16.725,
+                        "y": 19.05
+                    },
+                    "uuid": "e677c515-98ad-4260-ba22-fbf031acc779"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1369 mm)",
+            "items": [
+                {
+                    "description": "배선 [/VLDO] on F.Cu, 길이 0.9663 mm",
+                    "pos": {
+                        "x": 17.1869,
+                        "y": 18.6658
+                    },
+                    "uuid": "183ecf50-f37f-4ce5-8ea1-8001cdcece4b"
+                },
+                {
+                    "description": "비아 [/NRST] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 16.725,
+                        "y": 19.05
+                    },
+                    "uuid": "8e393978-7abf-46b2-be03-4c8a823fd16d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1452 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SWDIO] on In2.Cu, 길이 1.1305 mm",
+                    "pos": {
+                        "x": 18.575,
+                        "y": 19.6
+                    },
+                    "uuid": "9ce1a728-6602-410e-9b80-cbec8e057dc1"
+                },
+                {
+                    "description": "비아 [5V_LED] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 18.774,
+                        "y": 20.0348
+                    },
+                    "uuid": "c212bfa9-14b6-4426-b3b5-1f61a27e393b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1429 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SCL] on F.Cu, 길이 0.8276 mm",
+                    "pos": {
+                        "x": 19.8148,
+                        "y": 15.2148
+                    },
+                    "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5"
+                },
+                {
+                    "description": "패드 1 [/SDA]의 U1 위F.Cu",
+                    "pos": {
+                        "x": 19.05,
+                        "y": 15.2
+                    },
+                    "uuid": "b91714b0-5667-41de-8ecf-4494fad275c1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1218 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SCL] on In2.Cu, 길이 2.9317 mm",
+                    "pos": {
+                        "x": 19.8148,
+                        "y": 15.2148
+                    },
+                    "uuid": "5e2d40d6-328b-4d07-a136-dd8bcf96c14e"
+                },
+                {
+                    "description": "배선 [/SDA] on In2.Cu, 길이 0.4596 mm",
+                    "pos": {
+                        "x": 21.525,
+                        "y": 16.475
+                    },
+                    "uuid": "d40e590d-2e6e-4971-9102-ab3b2d166df1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1080 mm)",
+            "items": [
+                {
+                    "description": "배선 [/UART_TX] on In2.Cu, 길이 0.5062 mm",
+                    "pos": {
+                        "x": 21.675,
+                        "y": 14.4
+                    },
+                    "uuid": "440c536e-4bde-488f-839c-2468e42932cf"
+                },
+                {
+                    "description": "배선 [/SDA] on In2.Cu, 길이 2.0016 mm",
+                    "pos": {
+                        "x": 21.2,
+                        "y": 14.5
+                    },
+                    "uuid": "c29be4f9-8dcd-4fd8-8dee-b46724641b22"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1218 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SCL] on In2.Cu, 길이 2.9317 mm",
+                    "pos": {
+                        "x": 19.8148,
+                        "y": 15.2148
+                    },
+                    "uuid": "5e2d40d6-328b-4d07-a136-dd8bcf96c14e"
+                },
+                {
+                    "description": "배선 [/SDA] on In2.Cu, 길이 0.3783 mm",
+                    "pos": {
+                        "x": 21.85,
+                        "y": 16.8
+                    },
+                    "uuid": "aba3df2f-f31e-4ced-ac75-650d24a6b544"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1300 mm)",
+            "items": [
+                {
+                    "description": "비아 [/SCL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 21.995,
+                        "y": 17.275
+                    },
+                    "uuid": "22da2365-7d9a-4af7-971c-89f4dffe184b"
+                },
+                {
+                    "description": "배선 [/SDA] on In2.Cu, 길이 1.3750 mm",
+                    "pos": {
+                        "x": 22.45,
+                        "y": 17.125
+                    },
+                    "uuid": "34fc3bea-2c7b-49a1-ad3d-1731f428ca6d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1250 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SDA] on In2.Cu, 길이 1.3500 mm",
+                    "pos": {
+                        "x": 21.2,
+                        "y": 14.5
+                    },
+                    "uuid": "7700893a-2820-4403-a3e7-93cf4ea0bec6"
+                },
+                {
+                    "description": "비아 [/UART_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 20.35,
+                        "y": 14.05
+                    },
+                    "uuid": "992c83f5-fd95-4204-9642-0c926cd0b911"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1289 mm)",
+            "items": [
+                {
+                    "description": "패드 2 [/SCL]의 U1 위F.Cu",
+                    "pos": {
+                        "x": 19.05,
+                        "y": 15.8
+                    },
+                    "uuid": "cba8ed3e-6419-401b-be5d-043017d0204a"
+                },
+                {
+                    "description": "배선 [/SDA] on F.Cu, 길이 0.9906 mm",
+                    "pos": {
+                        "x": 18.75,
+                        "y": 15.35
+                    },
+                    "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "공간거리 위반 ( 공간거리 0.1500 mm; 실제값 0.1328 mm)",
+            "items": [
+                {
+                    "description": "배선 [/SWCLK] on In3.Cu, 길이 0.5256 mm",
+                    "pos": {
+                        "x": 22.9,
+                        "y": 18.325
+                    },
+                    "uuid": "354e412b-a4d6-4516-ad66-c8013ba1d792"
+                },
+                {
+                    "description": "비아 [/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 22.45,
+                        "y": 18.5
+                    },
+                    "uuid": "682f6029-2006-4e39-9576-b0360907d444"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 22.6789
+                    },
+                    "uuid": "054dc20e-cfca-4cc3-a739-73acc84ab3d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 17.2157,
+                        "y": 23.1539
+                    },
+                    "uuid": "45155158-066b-4af6-9625-eb89c8a32f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 22.802478,
+                        "y": 22.722255
+                    },
+                    "uuid": "8f36f2e8-f175-4236-970d-4543a11a4723"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "원 (Edge.Cuts)",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 17.0
+                    },
+                    "uuid": "be717eb8-b67f-480a-bd56-0984d65ef563"
+                },
+                {
+                    "description": "세그먼트 of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 23.138353,
+                        "y": 23.05813
+                    },
+                    "uuid": "7d01be0c-4214-42f6-a54a-d7168f1ec9f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "풋프린트 'ST_UFQFPN-20_3x3mm_P0.5mm'이(가) 라이브러리 'Package_DFN_QFN'의 사본과 일치하지 않습니다",
+            "items": [
+                {
+                    "description": "풋프린트 U2",
+                    "pos": {
+                        "x": 20.1419,
+                        "y": 17.2749
+                    },
+                    "uuid": "d82884e1-378d-4449-a414-f8b884646dbb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

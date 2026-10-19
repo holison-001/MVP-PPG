@@ -1,12 +1,14 @@
 """post-route: widen necked tracks, connect dangling 3V3/GND ends to planes with vias, straight C2 stubs"""
 import pcbnew, json, sys, math
 from pcbnew import FromMM, ToMM, VECTOR2I_MM as MM
+from via_policy_v08 import MIN_TRACK_WIDTH_MM, VIA_DIAMETER_MM, via_drill_mm
 b = pcbnew.LoadBoard(sys.argv[1]); drc = json.load(open(sys.argv[2], encoding="utf-8")) if len(sys.argv) > 2 else None
 def P(v): return (round(ToMM(v.x), 4), round(ToMM(v.y), 4))
 n = 0
 for t in b.GetTracks():
-    if t.GetClass() == "PCB_TRACK" and t.GetWidth() < FromMM(0.10): t.SetWidth(FromMM(0.10)); n += 1
-print("widened (<0.10):", n)
+    if t.GetClass() in ("PCB_TRACK", "PCB_ARC") and t.GetWidth() < FromMM(MIN_TRACK_WIDTH_MM):
+        t.SetWidth(FromMM(MIN_TRACK_WIDTH_MM)); n += 1
+print(f"widened (<{MIN_TRACK_WIDTH_MM:g} mm):", n)
 PADS = [(P(pd.GetPosition()), max(ToMM(pd.GetSize().x), ToMM(pd.GetSize().y)) / 2, pd.GetNetCode()) for fp in b.GetFootprints() for pd in fp.Pads()]
 def close(a, c): return abs(a[0]-c[0]) < 0.01 and abs(a[1]-c[1]) < 0.01
 def ok(p, vpos, code):
@@ -50,7 +52,7 @@ if drc:
             if not cands: print("no via spot for", name, chain); continue
             q, stub = max(cands, key=lambda r: min(math.hypot(r[0][0]-vx, r[0][1]-vy) for vx, vy in vpos))
             v = pcbnew.PCB_VIA(b); v.SetPosition(MM(*q)); v.SetViaType(pcbnew.VIATYPE_THROUGH); v.SetLayerPair(pcbnew.F_Cu, pcbnew.B_Cu)
-            v.SetDrill(FromMM(0.25)); v.SetWidth(FromMM(0.5)); v.SetNetCode(code); b.Add(v)
+            v.SetDrill(FromMM(via_drill_mm(name))); v.SetWidth(FromMM(VIA_DIAMETER_MM)); v.SetNetCode(code); b.Add(v)
             if stub:
                 t = pcbnew.PCB_TRACK(b); t.SetStart(MM(*stub)); t.SetEnd(MM(*q)); t.SetWidth(FromMM(0.15)); t.SetLayer(layer); t.SetNetCode(code); b.Add(t)
             print("via", name, "at", q, "stub" if stub else "")

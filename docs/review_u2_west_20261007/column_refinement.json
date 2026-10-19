@@ -1,0 +1,179 @@
+{
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "placements": {
+    "U2": [
+      18.3419,
+      17.2749,
+      90
+    ],
+    "C15": [
+      18.9,
+      19.4,
+      0
+    ],
+    "D8": [
+      16.0,
+      19.4,
+      90
+    ],
+    "R1": [
+      21.2,
+      16.05,
+      180
+    ],
+    "R2": [
+      21.2,
+      16.8,
+      180
+    ],
+    "C4": [
+      21.2,
+      17.55,
+      0
+    ],
+    "C1": [
+      21.1,
+      18.5,
+      0
+    ]
+  },
+  "new_courtyard_overlaps": [],
+  "pad_collisions": [],
+  "minimum_component_pad_gap_mm": 0.27509999999999835,
+  "moved_column_pairs": {
+    "R1+R4": {
+      "refs": [
+        "R1",
+        "R4"
+      ],
+      "court_gap": 0.46097819905175447,
+      "court_overlap": 0.0,
+      "fab_gap": 1.2619429464123966,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.9270813639521976,
+      "pads_overlap": 0.0
+    },
+    "R1+U3": {
+      "refs": [
+        "R1",
+        "U3"
+      ],
+      "court_gap": 0.26340081152589595,
+      "court_overlap": 0.0,
+      "fab_gap": 1.737664710184477,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.7669534707190507,
+      "pads_overlap": 0.0
+    },
+    "R1+R2": {
+      "refs": [
+        "R1",
+        "R2"
+      ],
+      "court_gap": 0.05000000000000071,
+      "court_overlap": 0.0,
+      "fab_gap": 0.4499999999999993,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.3500000000000014,
+      "pads_overlap": 0.0
+    },
+    "C5+R1": {
+      "refs": [
+        "R1",
+        "C5"
+      ],
+      "court_gap": 0.661229914628794,
+      "court_overlap": 0.0,
+      "fab_gap": 1.509710237098498,
+      "fab_overlap": 0.0,
+      "pads_gap": 1.1682988590972758,
+      "pads_overlap": 0.0
+    },
+    "R1+U2": {
+      "refs": [
+        "R1",
+        "U2"
+      ],
+      "court_gap": 0.408100000000001,
+      "court_overlap": 0.0,
+      "fab_gap": 1.0580999999999996,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.6580999999999975,
+      "pads_overlap": 0.0
+    },
+    "C1+C4": {
+      "refs": [
+        "C4",
+        "C1"
+      ],
+      "court_gap": 0.14000000000000057,
+      "court_overlap": 0.0,
+      "fab_gap": 0.5500000000000007,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.4400000000000012,
+      "pads_overlap": 0.0
+    },
+    "C4+R2": {
+      "refs": [
+        "C4",
+        "R2"
+      ],
+      "court_gap": 0.05000000000000071,
+      "court_overlap": 0.0,
+      "fab_gap": 0.4499999999999993,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.3500000000000014,
+      "pads_overlap": 0.0
+    },
+    "C4+C5": {
+      "refs": [
+        "C4",
+        "C5"
+      ],
+      "court_gap": 0.4750000000000014,
+      "court_overlap": 0.0,
+      "fab_gap": 1.0749999999999993,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.7791180911774527,
+      "pads_overlap": 0.0
+    },
+    "C4+U2": {
+      "refs": [
+        "C4",
+        "U2"
+      ],
+      "court_gap": 0.408100000000001,
+      "court_overlap": 0.0,
+      "fab_gap": 1.0580999999999996,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.6580999999999975,
+      "pads_overlap": 0.0
+    },
+    "C5+R2": {
+      "refs": [
+        "R2",
+        "C5"
+      ],
+      "court_gap": 0.4750000000000014,
+      "court_overlap": 0.0,
+      "fab_gap": 1.118805166237625,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.8010775895704084,
+      "pads_overlap": 0.0
+    },
+    "R2+U2": {
+      "refs": [
+        "R2",
+        "U2"
+      ],
+      "court_gap": 0.408100000000001,
+      "court_overlap": 0.0,
+      "fab_gap": 1.0580999999999996,
+      "fab_overlap": 0.0,
+      "pads_gap": 0.6580999999999976,
+      "pads_overlap": 0.0
+    }
+  },
+  "status": "Placement-only refinement; old routing preserved verbatim, rerouting not completed.",
+  "candidate_sha256": "236cf9f6485aeb529e8032475282b8b12808d03559d3264bf8f1d79c1e4bdc99"
+}

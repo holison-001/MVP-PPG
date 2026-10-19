@@ -60,6 +60,8 @@ COMPONENTS = {
                 pins={"1": "3V3", "2": "GND"}, desc="Additional 3V3 local bypass at former D6 position; MLCC 100nF, 16V, X7R, +/-10%, metric 0603 (0.6 x 0.3 mm); generic MPN pending", **C0201),
     "C16": dict(value="100nF 16V X7R", side="B", pos=(3.3884, -0.9282), rot=270,
                 pins={"1": "3V3", "2": "GND"}, desc="Additional 3V3 local bypass at former D7 position; MLCC 100nF, 16V, X7R, +/-10%, metric 0603 (0.6 x 0.3 mm); generic MPN pending", **C0201),
+    "C17": dict(value="100nF", side="B", pos=(0.50000000, 2.90000000), rot=90,
+                pins={"1": "5V_LED", "2": "GND"}, desc="5V_LED local bypass added from the current schematic", **C0201),
     # RS-422 additions; reviewed physical positions are applied in PLACEMENT below.
     "R3": dict(value="120/1%", mpn="CRCW0402120RFKEDHP", manufacturer="Vishay",
                datasheet="${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf", side="B", pos=(-3.0, 2.3), rot=90,
@@ -124,28 +126,36 @@ for ref, inner, cable, pos in [
         desc="RS-422 IC-side series resistor, 22 ohm +/-5%, 0402, 0.2 W high-pulse series; prototype surge/ESD performance requires validation",
         datasheet="${KIPRJMOD}/../datasheet/pdf/Vishay_CRCW-HP_e3.pdf", **R0402)
 
-# 2026-10-05: 41-reference six-layer placement with front SWD row J7-J11 and D6/D7.
+# Keep displayed values uniform; retain explicit ratings for schematic fields.
+from component_values import normalize_value
+for _ref, _component in COMPONENTS.items():
+    _component['value'], _component['ratings'] = normalize_value(
+        _ref, _component['value'], _component.get('mpn', ''))
+
+# 2026-10-06: User-adjusted 41-reference six-layer placement; front SWD row J7-J11 and D6/D7.
 # U5 retains its six-layer rotation. D1 follows the user's saved placement;
 # R4 and C7 include the approved local adjustment for assembly clearance.
+# C1/C4 include 0.15 mm downward / 0.08 mm rightward routing-clearance corrections.
 # D6-D8 remain on SWDIO/SWCLK/NRST.
 # This table is authoritative for PCB generation; schematic drawing coordinates
 # are maintained independently by layout_schematic_v08.py.
 PLACEMENT = {
-    "C1": (-2.16640000, 1.11020000, 270),
+    "C17": (0.50000000, 2.90000000, 90),
+    "C1": (-2.10000000, 1.75000000, 90),
     "C11": (0.31690000, 3.62490000, 270),
     "C12": (-4.74000000, -1.93370000, 180),
     "C13": (-3.84340000, 4.16240000, 270),
     "C14": (4.66870000, 3.23140000, 315),
     "C15": (0.85450000, 2.47860000, 0),
     "C16": (3.38840000, -0.92820000, 270),
-    "C4": (-3.90600000, 2.27180000, 135),
-    "C5": (-0.87530000, 2.42580000, 180),
+    "C4": (-2.32000000, 0.30000000, 180),
+    "C5": (2.72500000, 0.56000000, 270),
     "C6": (5.32960000, -2.79780000, 315),
     "C7": (0.02500000, -4.67000000, 90),
     "D1": (-2.20000000, -5.49890000, 180),
     "D6": (-0.35000000, 4.10000000, 0),
     "D7": (1.30000000, 4.00000000, 180),
-    "D8": (-3.50230000, 0.40770000, 180),
+    "D8": (-3.60000000, 0.90000000, 270),
     "FB1": (0.91970000, -5.93190000, 0),
     "J1": (-0.78280000, -5.79100000, 180),
     "J2": (0.69760000, 5.71100000, 225),
@@ -158,11 +168,11 @@ PLACEMENT = {
     "J9": (-2.54000000, 4.85000000, 0),
     "J10": (0.00000000, 4.85000000, 0),
     "J11": (2.54000000, 4.85000000, 0),
-    "R1": (-2.43310000, -0.40760000, 180),
-    "R2": (-3.14660000, -1.11730000, 180),
+    "R1": (-2.70000000, -1.10000000, 180),
+    "R2": (-2.70000000, -0.40000000, 180),
     "R3": (-5.89710000, 0.86760000, 90),
     "R4": (0.05000000, -2.45000000, 90),
-    "R5": (3.11410000, 0.75600000, 0),
+    "R5": (3.70000000, 1.20000000, 90),
     "R6": (4.74080000, -0.10860000, 315),
     "R7": (-4.71970000, 0.65260000, 270),
     "R8": (-4.88500000, -0.82780000, 180),
@@ -185,6 +195,8 @@ LAYERS = 6
 THICKNESS = 0.8
 GND_RIM_INNER_RADIUS_MM = 6.20  # Review target; connected fill is verified separately.
 RULES = dict(clearance=0.15, track=0.15, track_min=0.15, via_dia=0.5,
-             via_drill=0.20, power_via_drill=0.25, edge_clearance=0.3)
+             via_drill=0.25, power_via_drill=0.25, edge_clearance=0.3)
+# A 0.20 mm drill is an exception requiring prior explicit user approval;
+# approved positions must be recorded and scoped in DRC/validation, not made default.
 POWER_REFERENCE_NETS = frozenset({'3V3', '5V_LED', '12V', '12V_IN', 'VLDO', 'VREF'})
 TITLE = "SleepBud PPG PCB v0.8"

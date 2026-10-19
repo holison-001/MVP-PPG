@@ -1,0 +1,96 @@
+{
+  "pads": [],
+  "tracks": [
+    {
+      "id": "D8_protected_via",
+      "net": "/NRST",
+      "via": true,
+      "layers": [
+        0,
+        4,
+        6,
+        8,
+        10,
+        2
+      ],
+      "width": 0.5,
+      "drill": 0.2,
+      "a": [
+        17.15,
+        19.2
+      ],
+      "z": [
+        17.15,
+        19.2
+      ]
+    },
+    {
+      "id": "D8_protected_B_0",
+      "net": "/NRST",
+      "layers": [
+        2
+      ],
+      "width": 0.15,
+      "via": false,
+      "a": [
+        16.6,
+        19.2
+      ],
+      "z": [
+        17.15,
+        19.2
+      ]
+    },
+    {
+      "id": "D8_protected_inner_0",
+      "net": "/NRST",
+      "layers": [
+        6
+      ],
+      "width": 0.15,
+      "via": false,
+      "a": [
+        17.15,
+        19.2
+      ],
+      "z": [
+        19.65,
+        19.6
+      ]
+    },
+    {
+      "id": "D8_external_pad_entry_0",
+      "net": "/NRST",
+      "layers": [
+        2
+      ],
+      "width": 0.15,
+      "via": false,
+      "a": [
+        16.8,
+        19.7
+      ],
+      "z": [
+        16.6,
+        19.5
+      ]
+    },
+    {
+      "id": "D8_GND_short_0",
+      "net": "GND",
+      "layers": [
+        2
+      ],
+      "width": 0.3,
+      "via": false,
+      "a": [
+        16.6,
+        18.65
+      ],
+      "z": [
+        17.45,
+        18.525
+      ]
+    }
+  ]
+}

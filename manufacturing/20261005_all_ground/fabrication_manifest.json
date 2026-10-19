@@ -1,0 +1,82 @@
+{
+  "source_board_sha256": "acde2a668cf37064ec92e6d2a75cca0f7511d923814010b9736734c7725d5f3e",
+  "authorization": "2026-10-05: 마무리되면, 전층 GND 푸어 채우고 거버 작성까지 진행",
+  "files": {
+    "ppg_pcb_v08-B_Cu.gbr": {
+      "sha256": "5d58ef84ddf02cf6c6de7aaeb4cdd0c240044e9283bb5d6497e578a31f6d19c3",
+      "bytes": 72970
+    },
+    "ppg_pcb_v08-B_Mask.gbr": {
+      "sha256": "91d297d008dc988d3ab530d87a53b141531e179e9f944d83269472d015129c45",
+      "bytes": 49823
+    },
+    "ppg_pcb_v08-B_Silkscreen.gbr": {
+      "sha256": "2cb7463b5412744015d8eb4d7138407d68fb9c1d5e3b1e596ae5c7899262c541",
+      "bytes": 51580
+    },
+    "ppg_pcb_v08-Edge_Cuts.gbr": {
+      "sha256": "ebad43012445616a67b92a796034f80079111106736d543e295a0e8b679e707f",
+      "bytes": 627
+    },
+    "ppg_pcb_v08-F_Cu.gbr": {
+      "sha256": "f7d12e33d3f948e7ad41b87e3086e1cea6d73e0646ae39462b2d09006440e326",
+      "bytes": 51784
+    },
+    "ppg_pcb_v08-F_Mask.gbr": {
+      "sha256": "7c9d32a99d68dade98239c9a0186ac45f27f757703f1887d355c309edb23fb23",
+      "bytes": 10202
+    },
+    "ppg_pcb_v08-F_Silkscreen.gbr": {
+      "sha256": "b6eb7ff592e482ab800808dc2ac0300bcd0a2cc7021b93fe612b8e4e7e7cc0e4",
+      "bytes": 10404
+    },
+    "ppg_pcb_v08-In1_Cu.gbr": {
+      "sha256": "0f34dcf6e87c49637031dd02c8f5ba7ae3f056a9a7a7d47711fa2293573476de",
+      "bytes": 49129
+    },
+    "ppg_pcb_v08-In2_Cu.gbr": {
+      "sha256": "b23fa84841255f8fcae357643814c29b237d5aca2bfa77008518e21d8518265d",
+      "bytes": 51118
+    },
+    "ppg_pcb_v08-In3_Cu.gbr": {
+      "sha256": "19f29e91fa50336aacf9347ebf0c4de171c7524b47001b4456936d5a4c833bfc",
+      "bytes": 42725
+    },
+    "ppg_pcb_v08-In4_Cu.gbr": {
+      "sha256": "2c972372ea5bc5469e8d0feb419950e60ccba3a05510390365e9958cb4766a88",
+      "bytes": 49097
+    },
+    "ppg_pcb_v08-NPTH.drl": {
+      "sha256": "86d5b8de4f10484f435591513459676ab398012f24960f9041bbffe401eb416d",
+      "bytes": 276
+    },
+    "ppg_pcb_v08-PTH.drl": {
+      "sha256": "a1c144a6467c14abf1cd83bc141d999846737eb88834569d1563d3aa50d128ef",
+      "bytes": 1354
+    },
+    "README_FABRICATION.md": {
+      "sha256": "f0c72e21a30e4875c6c6b92fb73b82e825315fa139729127f8089a9837afc016",
+      "bytes": 3704
+    }
+  },
+  "layer_order": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "In3.Cu",
+    "In4.Cu",
+    "B.Cu"
+  ],
+  "profile_centerline_diameter_mm": 13.5,
+  "nominal_thickness_mm": 0.8,
+  "physical_stackup_confirmed": false,
+  "export_validation_sha256": "37a9621af77ec7f83c7f3b40a84e16826e1d1c59058bec5e8b01275924e0658f",
+  "excluded_from_fabrication_zip": [
+    "KiCad default gbrjob with unconfirmed physical stackup",
+    "review graphics",
+    "CAD source",
+    "BOM",
+    "positions",
+    "paste"
+  ]
+}

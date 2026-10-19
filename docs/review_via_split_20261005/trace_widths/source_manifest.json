@@ -1,0 +1,25 @@
+{
+  "source_sha256": "788149c0f25fd6ff69306a3d6065845ffe850eb6664883a2d0b9b94e55ba1c33",
+  "source_board": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\via_split_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "view": "All layers viewed from top; B.Cu is not mirrored.",
+  "legend": "Red = 0.10 mm tracks; gray = other track widths; light gray = pads/vias; zones omitted.",
+  "method": "KiCad pcbnew coordinates; SVG line widths proportional to physical copper width; sharp PNG rendering.",
+  "artifacts": {
+    "01_L1_F_Cu.png": "985d211a2a11d8e2f519e43d24cded13d415b7b7234dc260517b508c96b7becf",
+    "01_L1_F_Cu.svg": "c82e86caaf214ce38011509935a2ffdd53a6cf4b530b6fd6ad2da7bff9dea1a6",
+    "02_L2_In1_Cu.png": "4da22b2cd12718d8025c62b413b7b0fe034526626560ae2ab9f8a601e9af2994",
+    "02_L2_In1_Cu.svg": "d9d0bc5d3a6faaa9b294c4f76ef5b16963beea206000ffe3efae2520e1ff0c5b",
+    "03_L3_In2_Cu.png": "cfff690582d93f2b8d4a3b15e8a10c3e2936c5f494e6256be80a187ee169471a",
+    "03_L3_In2_Cu.svg": "e008b596a1187768aa078acb0476c3e64c318b4dc03b3e5b27673b3eee35b991",
+    "04_L4_In3_Cu.png": "6efe01dd6e590c33128aa6a28a48b6f74569cbd0280e6cc34ed34bb85f078354",
+    "04_L4_In3_Cu.svg": "fde0ec0662b2cbedca89d65757a19675cc86aae2276d9233d18b73a93c2699ae",
+    "05_L5_In4_Cu.png": "70e92e3354c285bd3c6777b826ac4f5244d7c50cbeff6a81536547e60c4b4ed3",
+    "05_L5_In4_Cu.svg": "5f077893580eecd0f24e6315d29bac7ac06fdcdd1f1e65822b179dac951359e2",
+    "06_L6_B_Cu.png": "9795d189c9c3f38f03559da9544ec88d9809386ae222bb0a4c7bca9d75573a72",
+    "06_L6_B_Cu.svg": "3fb6cb106eadbcdd7b02a6b049cc610d55ebab502684ffbb46ac7882d0ce6740",
+    "all_layers_0p10mm.png": "70ec9fc0feabb8c8ef10970a3fbce81f832f64f2b64673f5d31391dc8086ad3f",
+    "all_layers_0p10mm.svg": "36f412193cfa297a40bbf55b72d179c43eceed403902f6c80dc1148d932979a8",
+    "trace_width_inventory.json": "1ced6ae9ff9591bb0683a29d677779ba5f5bd5ef01ab8698210983ec7c5bbc7d"
+  },
+  "status": "Historical width inventory of baseline 788149c0; the current requested minimum track width is now 0.15 mm."
+}

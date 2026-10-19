@@ -1,0 +1,512 @@
+{
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "candidate": "W18 refined: U2 west 1.8mm; R1/R2/C4 at x21.20; seven bottom footprints rearranged; top fixed",
+  "virtual_positions": {
+    "U2": [
+      [
+        18.3419,
+        17.2749
+      ],
+      90
+    ],
+    "R1": [
+      [
+        21.2,
+        16.05
+      ],
+      180
+    ],
+    "R2": [
+      [
+        21.2,
+        16.8
+      ],
+      180
+    ],
+    "C4": [
+      [
+        21.2,
+        17.55
+      ],
+      0
+    ],
+    "C1": [
+      [
+        21.1,
+        18.5
+      ],
+      0
+    ],
+    "C15": [
+      [
+        18.9,
+        19.4
+      ],
+      0
+    ],
+    "D8": [
+      [
+        16.0,
+        19.4
+      ],
+      90
+    ]
+  },
+  "method": "Independent native copper local escape checks: .10mm via grid; direct/one-bend radius2mm, C4 two-bend vertical-corridor test radius2.5mm. Via land .50, signal/GND drill .20, power drill .25; pad drill gap .025, other-net copper clearance .151. C4 power escape checked at .30mm width.",
+  "excluded_affected_copper_count": 278,
+  "excluded_affected_nets": [
+    "/LDO_EN",
+    "/NRST",
+    "/SCL",
+    "/SDA",
+    "/SWCLK",
+    "/SWDIO",
+    "/UART_RX",
+    "/UART_TX",
+    "/VLDO",
+    "3V3",
+    "5V_LED",
+    "GND"
+  ],
+  "independent_escape_count": 17,
+  "targets_checked": 17,
+  "confirmed_independent_local_escapes": {
+    "U2.12": {
+      "route_points": [
+        [
+          17.8419,
+          15.9749
+        ],
+        [
+          17.8419,
+          16.5749
+        ]
+      ],
+      "via_xy": [
+        17.8419,
+        16.5749
+      ],
+      "width_mm": 0.15,
+      "net": "/LDO_EN",
+      "layer": "B.Cu",
+      "length_mm": 0.5999999999999996,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.1801162633521325,
+      "drill_pad_gap_mm": 0.15,
+      "pass": true
+    },
+    "U2.18": {
+      "route_points": [
+        [
+          19.6419,
+          17.2749
+        ],
+        [
+          18.3419,
+          17.2749
+        ]
+      ],
+      "via_xy": [
+        18.3419,
+        17.2749
+      ],
+      "width_mm": 0.15,
+      "net": "/SCL",
+      "layer": "B.Cu",
+      "length_mm": 1.3000000000000007,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.15919683572579213,
+      "drill_pad_gap_mm": 0.30919683572579215,
+      "pass": true
+    },
+    "U2.16": {
+      "route_points": [
+        [
+          19.8169,
+          16.2749
+        ],
+        [
+          19.9169,
+          15.9749
+        ]
+      ],
+      "via_xy": [
+        19.9169,
+        15.9749
+      ],
+      "width_mm": 0.15,
+      "net": "/SWDIO",
+      "layer": "B.Cu",
+      "length_mm": 0.3162277660168363,
+      "trace_gap_mm": 0.2750000000000014,
+      "via_gap_mm": 0.17499999999999716,
+      "drill_pad_gap_mm": 0.05000000000000035,
+      "pass": true
+    },
+    "U2.15": {
+      "route_points": [
+        [
+          19.3419,
+          15.7999
+        ],
+        [
+          19.7419,
+          15.4999
+        ]
+      ],
+      "via_xy": [
+        19.7419,
+        15.4999
+      ],
+      "width_mm": 0.15,
+      "net": "/UART_RX",
+      "layer": "B.Cu",
+      "length_mm": 0.500000000000001,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.15331627982019336,
+      "drill_pad_gap_mm": 0.17950849718747372,
+      "pass": true
+    },
+    "U2.4": {
+      "route_points": [
+        [
+          17.8419,
+          18.5749
+        ],
+        [
+          17.8419,
+          17.9749
+        ]
+      ],
+      "via_xy": [
+        17.8419,
+        17.9749
+      ],
+      "width_mm": 0.15,
+      "net": "/NRST",
+      "layer": "B.Cu",
+      "length_mm": 0.5999999999999979,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.1801162633521325,
+      "drill_pad_gap_mm": 0.15,
+      "pass": true
+    },
+    "U2.2": {
+      "route_points": [
+        [
+          18.8419,
+          18.5749
+        ],
+        [
+          18.6419,
+          19.7749
+        ]
+      ],
+      "via_xy": [
+        18.6419,
+        19.7749
+      ],
+      "width_mm": 0.15,
+      "net": "3V3",
+      "layer": "B.Cu",
+      "length_mm": 1.2165525060596432,
+      "trace_gap_mm": 0.19029064581465438,
+      "via_gap_mm": 0.17723030132236695,
+      "drill_pad_gap_mm": 0.04989999999999742,
+      "pass": true
+    },
+    "U2.3": {
+      "route_points": [
+        [
+          18.3419,
+          18.5749
+        ],
+        [
+          18.3419,
+          17.8749
+        ]
+      ],
+      "via_xy": [
+        18.3419,
+        17.8749
+      ],
+      "width_mm": 0.15,
+      "net": "GND",
+      "layer": "B.Cu",
+      "length_mm": 0.6999999999999993,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.1591971696297534,
+      "drill_pad_gap_mm": 0.25000000000000144,
+      "pass": true
+    },
+    "U1.4": {
+      "route_points": [
+        [
+          19.05,
+          17.0
+        ],
+        [
+          18.55,
+          17.0
+        ]
+      ],
+      "via_xy": [
+        18.55,
+        17.0
+      ],
+      "width_mm": 0.15,
+      "net": "/VLDO",
+      "layer": "F.Cu",
+      "length_mm": 0.5,
+      "trace_gap_mm": 0.3249990000000011,
+      "via_gap_mm": 0.2188778595167401,
+      "drill_pad_gap_mm": 0.04499999999999815,
+      "pass": true
+    },
+    "C1.1": {
+      "route_points": [
+        [
+          20.62,
+          18.5
+        ],
+        [
+          20.12,
+          18.9
+        ]
+      ],
+      "via_xy": [
+        20.12,
+        18.9
+      ],
+      "width_mm": 0.15,
+      "net": "5V_LED",
+      "layer": "B.Cu",
+      "length_mm": 0.640312423743284,
+      "trace_gap_mm": 0.3760142069581039,
+      "via_gap_mm": 0.24206668247301372,
+      "drill_pad_gap_mm": 0.16480020758685532,
+      "pass": true
+    },
+    "U1.5": {
+      "route_points": [
+        [
+          19.05,
+          17.599999
+        ],
+        [
+          18.55,
+          17.599999
+        ]
+      ],
+      "via_xy": [
+        18.55,
+        17.599999
+      ],
+      "width_mm": 0.15,
+      "net": "5V_LED",
+      "layer": "F.Cu",
+      "length_mm": 0.5,
+      "trace_gap_mm": 0.3249990000000011,
+      "via_gap_mm": 0.2188778595167401,
+      "drill_pad_gap_mm": 0.04499999999999815,
+      "pass": true
+    },
+    "C15.1": {
+      "route_points": [
+        [
+          18.58,
+          19.4
+        ],
+        [
+          18.18,
+          19.4
+        ]
+      ],
+      "via_xy": [
+        18.18,
+        19.4
+      ],
+      "width_mm": 0.15,
+      "net": "3V3",
+      "layer": "B.Cu",
+      "length_mm": 0.3999999999999986,
+      "trace_gap_mm": 0.3350000000000001,
+      "via_gap_mm": 0.22524900841558604,
+      "drill_pad_gap_mm": 0.04500000000000168,
+      "pass": true
+    },
+    "D8.1": {
+      "route_points": [
+        [
+          16.0,
+          19.75
+        ],
+        [
+          16.6,
+          19.55
+        ]
+      ],
+      "via_xy": [
+        16.6,
+        19.55
+      ],
+      "width_mm": 0.15,
+      "net": "/NRST",
+      "layer": "B.Cu",
+      "length_mm": 0.632455532033677,
+      "trace_gap_mm": 0.3677188724235745,
+      "via_gap_mm": 0.21871845783156613,
+      "drill_pad_gap_mm": 0.2535533905932752,
+      "pass": true
+    },
+    "D8.2": {
+      "route_points": [
+        [
+          16.0,
+          19.05
+        ],
+        [
+          16.0,
+          18.75
+        ]
+      ],
+      "via_xy": [
+        16.0,
+        18.75
+      ],
+      "width_mm": 0.15,
+      "net": "GND",
+      "layer": "B.Cu",
+      "length_mm": 0.3000000000000007,
+      "trace_gap_mm": 0.4750000000000007,
+      "via_gap_mm": 0.27500000000000036,
+      "drill_pad_gap_mm": 0.04999999999999857,
+      "pass": true
+    },
+    "U2.19": {
+      "route_points": [
+        [
+          19.6419,
+          17.7749
+        ],
+        [
+          18.2419,
+          17.7749
+        ],
+        [
+          18.2419,
+          17.7749
+        ]
+      ],
+      "via_xy": [
+        18.2419,
+        17.7749
+      ],
+      "width_mm": 0.15,
+      "net": "/SDA",
+      "layer": "B.Cu",
+      "length_mm": 1.3999999999999986,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.20000000000000284,
+      "drill_pad_gap_mm": 0.35000000000000286,
+      "pass": true
+    },
+    "U2.17": {
+      "route_points": [
+        [
+          19.6419,
+          16.7749
+        ],
+        [
+          18.2419,
+          16.7749
+        ],
+        [
+          18.2419,
+          16.7749
+        ]
+      ],
+      "via_xy": [
+        18.2419,
+        16.7749
+      ],
+      "width_mm": 0.15,
+      "net": "/SWCLK",
+      "layer": "B.Cu",
+      "length_mm": 1.3999999999999986,
+      "trace_gap_mm": 0.27499999999999786,
+      "via_gap_mm": 0.19999999999999934,
+      "drill_pad_gap_mm": 0.3499999999999993,
+      "pass": true
+    },
+    "U2.14": {
+      "route_points": [
+        [
+          18.8419,
+          15.9749
+        ],
+        [
+          18.8419,
+          16.374900000000004
+        ],
+        [
+          18.2419,
+          16.9749
+        ]
+      ],
+      "via_xy": [
+        18.2419,
+        16.9749
+      ],
+      "width_mm": 0.15,
+      "net": "/UART_TX",
+      "layer": "B.Cu",
+      "length_mm": 1.248528137423858,
+      "trace_gap_mm": 0.2078427124746205,
+      "via_gap_mm": 0.2280999999999977,
+      "drill_pad_gap_mm": 0.37809999999999766,
+      "pass": true
+    },
+    "C4.1": {
+      "route_points": [
+        [
+          20.88,
+          17.55
+        ],
+        [
+          20.32,
+          17.55
+        ],
+        [
+          20.32,
+          15.75
+        ],
+        [
+          20.18,
+          15.75
+        ]
+      ],
+      "via_xy": [
+        20.18,
+        15.75
+      ],
+      "width_mm": 0.3,
+      "net": "/VLDO",
+      "layer": "B.Cu",
+      "length_mm": 2.5,
+      "trace_gap_mm": 0.17809999999999923,
+      "via_gap_mm": 0.16944203413582626,
+      "drill_pad_gap_mm": 0.29444203413582626,
+      "pass": true
+    }
+  },
+  "interpretation": "All 17 sampled critical ports have an individually legal local escape in refined placement. This is positive local feasibility evidence, not complete or simultaneously routed-board proof. A straight-line failure did not establish impossibility: UART_TX needed a bend and C4 needed the passive column moved .20mm plus a two-bend exit.",
+  "power_tradeoff": "C4 local B escape is2.50mm before the via; its complete path to fixed U1 has not been implemented. C4-to-U1 pad center chord grows from1.092 to1.911mm after+.20mm column refinement; C1 moves closer and C15 follows U2.",
+  "unproven": [
+    "Simultaneous via spacing and route compatibility: some independently shortest selected via sites conflict with one another",
+    "Complete inner-layer routes and total connection lengths",
+    "D8 separate entry/protected via pair and mandatory pad-first ESD topology",
+    "Final ground planes/rim connectivity, DRC and schematic parity"
+  ],
+  "no_PCB_files_written": true
+}

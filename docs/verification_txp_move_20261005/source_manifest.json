@@ -1,0 +1,41 @@
+{
+  "inspection_only": true,
+  "CAD_files_modified": false,
+  "board_sha256": "e1818c1c868b0c865699eb63ce81bc1743b49348f58d298bcfa953f1c10748e7",
+  "previous_verified_board_sha256": "42bf5059d9635a8967bbfbb1281c3d1b2446fac0ca8a0384739d25c2a11f268b",
+  "result": {
+    "current_PCB_pass": true,
+    "drc_errors": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0,
+    "existing_warning_count": 5,
+    "warning_types_and_UUIDs_unchanged": true,
+    "netcheck_pass": true,
+    "L1_L5_perimeter_GND_and_J2_connectivity_pass": true,
+    "J3_position_mm": [
+      25.5,
+      15.9
+    ],
+    "J3_pad_diameter_mm": 1.2,
+    "J3_copper_to_board_edge_mm": 0.5410785350479369,
+    "project_edge_minimum_mm": 0.3,
+    "tracks": 322,
+    "vias": 71
+  },
+  "findings": [
+    "Only J3 placement and TXP B.Cu routing changed compared with the previous verified board.",
+    "PCB generation source design_v08.PLACEMENT still has the prior J3 position; synchronization is needed before any rebuild. The inspection did not modify that source.",
+    "DRC checks the current project rules, not the entire manufacturer fabrication profile."
+  ],
+  "sha256": {
+    "kicad/ppg_pcb_v08.kicad_pcb": "e1818c1c868b0c865699eb63ce81bc1743b49348f58d298bcfa953f1c10748e7",
+    "kicad/ppg_pcb_v08.kicad_sch": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+    "kicad/ppg_pcb_v08.kicad_pro": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+    "kicad/ppg_pcb_v08.kicad_dru": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+    "kicad/design_v08.py": "10d006982c8be8e2ac6a4cf3559f0c18a5ef67e3bc9b629726e0e62d836b0cf8",
+    "docs/verification_txp_move_20261005/change_audit.json": "de68fa91d5d1e1a05045fd7f523346e85aaaefe87618810522926f12edabcfa1",
+    "docs/verification_txp_move_20261005/drc.json": "4135b1d8c11a80d5acb38f2709fda6ea54aaa8b98b976f4ea6b104cdae87bc22",
+    "docs/verification_txp_move_20261005/ground_rim.json": "0ef705bbbee26b8e08247671886f805963035eae983636915baf58ff02f6705e",
+    "docs/verification_txp_move_20261005/netcheck.json": "9a392df9ed155ba375afcf5f0016fa07fe3c3fd0e6f958af8a0eef897b88c287"
+  }
+}

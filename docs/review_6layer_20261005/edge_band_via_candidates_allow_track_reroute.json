@@ -1,0 +1,701 @@
+{
+  "scope": "Fixed pads/vias/holes; ignores tracks during search and lists conflicts; minimum copper gap.15/pad-hole.2/radial limit5.74. Candidates evaluated independently, not simultaneously.",
+  "violations": [
+    {
+      "id": "0f71382e-a019-4fb5-bc7b-7fee64d75cfb",
+      "net": "5V_LED",
+      "original_xy_mm": [
+        24.0901,
+        21.2901
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            23.6151,
+            19.4401
+          ],
+          "shift_mm": 1.9100065444914074,
+          "radius_mm": 4.361540555812821,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            23.7401,
+            19.2151
+          ],
+          "shift_mm": 2.104311051151896,
+          "radius_mm": 4.346839773904717,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            23.4651,
+            19.2401
+          ],
+          "shift_mm": 2.14315771701478,
+          "radius_mm": 4.126132089499802,
+          "tracks_requiring_reroute": []
+        }
+      ]
+    },
+    {
+      "id": "5f17de3d-aede-4855-b5be-18ae5acf4a9d",
+      "net": "/SWDIO",
+      "original_xy_mm": [
+        18.9,
+        22.975
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            17.65,
+            20.25
+          ],
+          "shift_mm": 2.9980201800521638,
+          "radius_mm": 4.010610926031096,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            18.1,
+            20.025
+          ],
+          "shift_mm": 3.056550343115584,
+          "radius_mm": 3.5722017020319536,
+          "tracks_requiring_reroute": [
+            {
+              "net": "5V_LED",
+              "id": "1bc9a37a-053a-4c0b-b8c9-a26752848cf1",
+              "layers": [
+                0
+              ],
+              "gap_mm": 0.07123106012293468
+            },
+            {
+              "net": "5V_LED",
+              "id": "7b4b75fa-d9f1-4146-91fa-81fcbe9b73ab",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.0863123307254281
+            },
+            {
+              "net": "5V_LED",
+              "id": "cfcbacca-4c79-40d7-a192-6322e770d407",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.012153872312996528
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            17.85,
+            20.075
+          ],
+          "shift_mm": 3.084234102658226,
+          "radius_mm": 3.7520827549509073,
+          "tracks_requiring_reroute": [
+            {
+              "net": "5V_LED",
+              "id": "7b4b75fa-d9f1-4146-91fa-81fcbe9b73ab",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.12581970363053696
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e176cd8-2052-4529-9700-3129214e3ec2",
+      "net": "3V3",
+      "original_xy_mm": [
+        23.0,
+        22.4
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            21.35,
+            20.75
+          ],
+          "shift_mm": 2.333452377915605,
+          "radius_mm": 3.985599076675927,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/VREF",
+              "id": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+              "layers": [
+                0
+              ],
+              "gap_mm": -0.08249487258004257
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            21.375,
+            20.5
+          ],
+          "shift_mm": 2.500124996875155,
+          "radius_mm": 3.760402239122831,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/VREF",
+              "id": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+              "layers": [
+                0
+              ],
+              "gap_mm": -0.2715911670308616
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            21.1,
+            20.775
+          ],
+          "shift_mm": 2.500124996875155,
+          "radius_mm": 3.932000127161747,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/VREF",
+              "id": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+              "layers": [
+                0
+              ],
+              "gap_mm": -0.08427042464061485
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9d6d70f-6971-4717-9718-6e4aac90142a",
+      "net": "3V3",
+      "original_xy_mm": [
+        25.875,
+        15.45
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            24.45,
+            13.975
+          ],
+          "shift_mm": 2.0509144301993687,
+          "radius_mm": 5.380810812507721,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/TXN_DRV",
+              "id": "4c07be81-2120-41bf-9434-fd72285c2e6e",
+              "layers": [
+                6
+              ],
+              "gap_mm": 0.016642463987380507
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "e3bc939a-dc58-4963-9572-c817b1c8d104",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.012843936160144065
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            24.0,
+            14.1
+          ],
+          "shift_mm": 2.3104382701124044,
+          "radius_mm": 4.94064773081425,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/TXP_DRV",
+              "id": "09866bac-635d-4c9f-9f5f-fe90b7a86f7d",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.024479617995718073
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "11e831bb-4af2-4641-80dc-dd28becb6643",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.12136865853045259
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "ccfbef11-de07-4db4-bcd2-db220d1a2bba",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.1301162633521325
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "4c07be81-2120-41bf-9434-fd72285c2e6e",
+              "layers": [
+                6
+              ],
+              "gap_mm": 0.0823708278621686
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "e3bc939a-dc58-4963-9572-c817b1c8d104",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.18056966465759178
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            23.775,
+            14.275
+          ],
+          "shift_mm": 2.4063717501666297,
+          "radius_mm": 4.655775982583354,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/TXP_DRV",
+              "id": "09866bac-635d-4c9f-9f5f-fe90b7a86f7d",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.059834957055045934
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "11e831bb-4af2-4641-80dc-dd28becb6643",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.1553131714684597
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "ccfbef11-de07-4db4-bcd2-db220d1a2bba",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.15422620262886788
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "e3bc939a-dc58-4963-9572-c817b1c8d104",
+              "layers": [
+                6
+              ],
+              "gap_mm": 0.10227304781702873
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ef8e3fa7-4485-4c80-b99a-5568254184cd",
+      "net": "3V3",
+      "original_xy_mm": [
+        25.05,
+        13.55
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            24.525,
+            13.775
+          ],
+          "shift_mm": 0.5711829829397918,
+          "radius_mm": 5.5566401719024405,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            24.35,
+            13.975
+          ],
+          "shift_mm": 0.8189169677079597,
+          "radius_mm": 5.298407779701371,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/TXP_DRV",
+              "id": "09866bac-635d-4c9f-9f5f-fe90b7a86f7d",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.13597722286464475
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "4c07be81-2120-41bf-9434-fd72285c2e6e",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.002472774355018359
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "e3bc939a-dc58-4963-9572-c817b1c8d104",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.08355461427879712
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            24.0,
+            14.1
+          ],
+          "shift_mm": 1.185326959112971,
+          "radius_mm": 4.94064773081425,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/TXP_DRV",
+              "id": "09866bac-635d-4c9f-9f5f-fe90b7a86f7d",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.024479617995718073
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "11e831bb-4af2-4641-80dc-dd28becb6643",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.12136865853045259
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "ccfbef11-de07-4db4-bcd2-db220d1a2bba",
+              "layers": [
+                2
+              ],
+              "gap_mm": 0.1301162633521325
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "4c07be81-2120-41bf-9434-fd72285c2e6e",
+              "layers": [
+                6
+              ],
+              "gap_mm": 0.0823708278621686
+            },
+            {
+              "net": "/TXN_DRV",
+              "id": "e3bc939a-dc58-4963-9572-c817b1c8d104",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.18056966465759178
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4cf3233c-7349-4255-b2e9-479cf0f44345",
+      "net": "/RXN",
+      "original_xy_mm": [
+        14.325,
+        19.05
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            15.725,
+            19.825
+          ],
+          "shift_mm": 1.6001953005805274,
+          "radius_mm": 5.1240852842239075,
+          "tracks_requiring_reroute": [
+            {
+              "net": "12V",
+              "id": "4535318e-1883-4a70-9d5c-d4eb095a55e1",
+              "layers": [
+                8
+              ],
+              "gap_mm": -0.20554563517369917
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            15.45,
+            20.3
+          ],
+          "shift_mm": 1.6817030058842137,
+          "radius_mm": 5.620720594372221,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            15.925,
+            19.975
+          ],
+          "shift_mm": 1.8481409578276236,
+          "radius_mm": 5.045418714041482,
+          "tracks_requiring_reroute": [
+            {
+              "net": "12V",
+              "id": "4535318e-1883-4a70-9d5c-d4eb095a55e1",
+              "layers": [
+                8
+              ],
+              "gap_mm": -0.24090097423302578
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8d55cc7-e473-47ab-98fa-35d239b150ea",
+      "net": "/RXN",
+      "original_xy_mm": [
+        14.15,
+        16.925
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            16.225,
+            16.75
+          ],
+          "shift_mm": 2.082366442295881,
+          "radius_mm": 3.783269089028692,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            16.525,
+            18.35
+          ],
+          "shift_mm": 2.7697021500515167,
+          "radius_mm": 3.7280189108962434,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/NRST",
+              "id": "41e4ef32-8e6b-428d-ac6a-adb6789f70fd",
+              "layers": [
+                0
+              ],
+              "gap_mm": 0.11449560942522752
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            16.7,
+            18.15
+          ],
+          "shift_mm": 2.828979497981563,
+          "radius_mm": 3.4946387510013106,
+          "tracks_requiring_reroute": [
+            {
+              "net": "/NRST",
+              "id": "41e4ef32-8e6b-428d-ac6a-adb6789f70fd",
+              "layers": [
+                0
+              ],
+              "gap_mm": -0.019392608962463753
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b398e2f8-c7d2-4f5e-b2a1-d7898cf59c9e",
+      "net": "/UART_TX",
+      "original_xy_mm": [
+        26.075,
+        16.55
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            25.725,
+            16.85
+          ],
+          "shift_mm": 0.4609772228646432,
+          "radius_mm": 5.726964728370519,
+          "tracks_requiring_reroute": [
+            {
+              "net": "3V3",
+              "id": "ba17ff70-7cc8-4aa4-b774-761939f77413",
+              "layers": [
+                8
+              ],
+              "gap_mm": -0.06881817124501166
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "37cb2208-4fcd-40ae-996e-eaf62d2486a6",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.10554563517370041
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "da2f0193-2559-48c3-a1ce-b7fd91aa4d17",
+              "layers": [
+                2
+              ],
+              "gap_mm": -0.06951138856767974
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            24.1,
+            18.5
+          ],
+          "shift_mm": 2.7754504138968152,
+          "radius_mm": 4.365775990588616,
+          "tracks_requiring_reroute": [
+            {
+              "net": "3V3",
+              "id": "ba17ff70-7cc8-4aa4-b774-761939f77413",
+              "layers": [
+                8
+              ],
+              "gap_mm": 0.1094436234137876
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "4cad91a9-34af-41ce-a0c5-8e8a20263844",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.19999999999999857
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "77af104f-8235-4580-bed1-864124247a55",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.11799725276798617
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "9a7f77fa-ae85-485f-a35a-16ef284f1b27",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.19722597604452569
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            24.075,
+            18.75
+          ],
+          "shift_mm": 2.9732137494637003,
+          "radius_mm": 4.4348759847373405,
+          "tracks_requiring_reroute": [
+            {
+              "net": "3V3",
+              "id": "ba17ff70-7cc8-4aa4-b774-761939f77413",
+              "layers": [
+                8
+              ],
+              "gap_mm": 0.04489243609681415
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "4cad91a9-34af-41ce-a0c5-8e8a20263844",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.1500000000000014
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "77af104f-8235-4580-bed1-864124247a55",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.05000000000000143
+            },
+            {
+              "net": "/TXP_DRV",
+              "id": "9a7f77fa-ae85-485f-a35a-16ef284f1b27",
+              "layers": [
+                6
+              ],
+              "gap_mm": -0.1500000000000014
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0a586513-a19a-41a3-9fb4-a63efdb30cf0",
+      "net": "/RXP_RCV",
+      "original_xy_mm": [
+        14.375,
+        15.425
+      ],
+      "candidates": [
+        {
+          "xy_mm": [
+            16.225,
+            16.725
+          ],
+          "shift_mm": 2.261083810919004,
+          "radius_mm": 3.785003302508465,
+          "tracks_requiring_reroute": []
+        },
+        {
+          "xy_mm": [
+            17.35,
+            15.275
+          ],
+          "shift_mm": 2.9787791123210208,
+          "radius_mm": 3.1619811827397064,
+          "tracks_requiring_reroute": [
+            {
+              "net": "12V",
+              "id": "a22c5675-0008-43cf-aacb-30490f6d5459",
+              "layers": [
+                8
+              ],
+              "gap_mm": -0.22318400789387638
+            }
+          ]
+        },
+        {
+          "xy_mm": [
+            17.425,
+            15.025
+          ],
+          "shift_mm": 3.0761176830544055,
+          "radius_mm": 3.2451887464367917,
+          "tracks_requiring_reroute": [
+            {
+              "net": "12V",
+              "id": "a22c5675-0008-43cf-aacb-30490f6d5459",
+              "layers": [
+                8
+              ],
+              "gap_mm": -0.016662929113922614
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

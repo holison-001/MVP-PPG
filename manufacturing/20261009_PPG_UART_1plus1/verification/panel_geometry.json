@@ -1,0 +1,452 @@
+{
+  "review_date": "2026-10-09",
+  "review_type": "Read-only mechanical panelization review of current canonical PCBs",
+  "source_boards": [
+    {
+      "name": "PPG",
+      "path": "kicad/ppg_pcb_v08.kicad_pcb",
+      "sha256": "d8ab57b499b6bec9f0e7d4ffc6dcf7341c4ac6b95dc3e1944c301da4cf5201eb",
+      "thickness_mm": 0.8,
+      "copper_layers": 6,
+      "footprint_count": 42,
+      "source_outline_tessellated_bounds_mm": [
+        13.252477,
+        10.247522,
+        26.75,
+        23.752479
+      ],
+      "source_outline_nominal": {
+        "shape": "circle",
+        "center_mm": [
+          20,
+          17
+        ],
+        "diameter_mm": 13.5
+      },
+      "via_drill_counts": {
+        "0.25": 64
+      },
+      "gnd_zone_to_finished_edge_mm": [
+        {
+          "layer": "F.Cu",
+          "min_gap_mm": 0.19814
+        },
+        {
+          "layer": "B.Cu",
+          "min_gap_mm": 0.29814
+        },
+        {
+          "layer": "In1.Cu",
+          "min_gap_mm": 0.29814
+        },
+        {
+          "layer": "In2.Cu",
+          "min_gap_mm": 0.29814
+        },
+        {
+          "layer": "In3.Cu",
+          "min_gap_mm": 0.29814
+        },
+        {
+          "layer": "In4.Cu",
+          "min_gap_mm": 0.29814
+        }
+      ],
+      "edge_probe_definition": "3 mm tangent centered at nominal perimeter point; nearest copper and component courtyard distances are geometric, not depaneling stress approval.",
+      "edge_probes": [
+        {
+          "source_angle_deg_y_down": 0,
+          "source_edge_point_mm": [
+            26.75,
+            17.0
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "R5",
+              "gap_mm": 0.725
+            },
+            {
+              "ref": "C16",
+              "gap_mm": 1.755
+            },
+            {
+              "ref": "U3",
+              "gap_mm": 2.038
+            }
+          ],
+          "nearest_pad": {
+            "ref": "J3.1",
+            "gap_mm": 0.6551
+          }
+        },
+        {
+          "source_angle_deg_y_down": 30,
+          "source_edge_point_mm": [
+            25.84567,
+            20.375
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "U5",
+              "gap_mm": 0.2631
+            },
+            {
+              "ref": "C14",
+              "gap_mm": 0.7289
+            },
+            {
+              "ref": "R5",
+              "gap_mm": 1.4298
+            }
+          ],
+          "nearest_pad": {
+            "ref": "J4.1",
+            "gap_mm": 0.8953
+          }
+        },
+        {
+          "source_angle_deg_y_down": 45,
+          "source_edge_point_mm": [
+            24.77297,
+            21.77297
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "U5",
+              "gap_mm": 0.1121
+            },
+            {
+              "ref": "C14",
+              "gap_mm": 0.8931
+            },
+            {
+              "ref": "D7",
+              "gap_mm": 2.2476
+            }
+          ],
+          "nearest_pad": {
+            "ref": "U5.9",
+            "gap_mm": 0.7571
+          }
+        },
+        {
+          "source_angle_deg_y_down": 90,
+          "source_edge_point_mm": [
+            20.0,
+            23.75
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "U4",
+              "gap_mm": 0.2611
+            },
+            {
+              "ref": "U5",
+              "gap_mm": 1.1327
+            },
+            {
+              "ref": "C13",
+              "gap_mm": 2.1895
+            }
+          ],
+          "nearest_pad": {
+            "ref": "J2.1",
+            "gap_mm": 0.4441
+          }
+        },
+        {
+          "source_angle_deg_y_down": 135,
+          "source_edge_point_mm": [
+            15.22703,
+            21.77297
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "C13",
+              "gap_mm": 0.4143
+            },
+            {
+              "ref": "FB1",
+              "gap_mm": 0.4746
+            },
+            {
+              "ref": "U4",
+              "gap_mm": 0.813
+            }
+          ],
+          "nearest_pad": {
+            "ref": "FB1.2",
+            "gap_mm": 0.6682
+          }
+        },
+        {
+          "source_angle_deg_y_down": 180,
+          "source_edge_point_mm": [
+            13.25,
+            17.0
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "R3",
+              "gap_mm": 0.485
+            },
+            {
+              "ref": "R8",
+              "gap_mm": 1.425
+            },
+            {
+              "ref": "R7",
+              "gap_mm": 1.425
+            }
+          ],
+          "nearest_pad": {
+            "ref": "J5.1",
+            "gap_mm": 0.5551
+          }
+        },
+        {
+          "source_angle_deg_y_down": 225,
+          "source_edge_point_mm": [
+            15.22703,
+            12.22703
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "U6",
+              "gap_mm": 0.3764
+            },
+            {
+              "ref": "C12",
+              "gap_mm": 0.8221
+            },
+            {
+              "ref": "R3",
+              "gap_mm": 2.5873
+            }
+          ],
+          "nearest_pad": {
+            "ref": "J6.1",
+            "gap_mm": 0.509
+          }
+        },
+        {
+          "source_angle_deg_y_down": 270,
+          "source_edge_point_mm": [
+            20.0,
+            10.25
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "D1",
+              "gap_mm": 0.455
+            },
+            {
+              "ref": "C12",
+              "gap_mm": 1.005
+            },
+            {
+              "ref": "C7",
+              "gap_mm": 1.385
+            }
+          ],
+          "nearest_pad": {
+            "ref": "J1.1",
+            "gap_mm": 0.3641
+          }
+        },
+        {
+          "source_angle_deg_y_down": 315,
+          "source_edge_point_mm": [
+            24.77297,
+            12.22703
+          ],
+          "nearest_courtyards": [
+            {
+              "ref": "U3",
+              "gap_mm": 0.5916
+            },
+            {
+              "ref": "D1",
+              "gap_mm": 1.9673
+            },
+            {
+              "ref": "C6",
+              "gap_mm": 2.7536
+            }
+          ],
+          "nearest_pad": {
+            "ref": "U3.4",
+            "gap_mm": 0.8366
+          }
+        }
+      ]
+    },
+    {
+      "name": "UART",
+      "path": "kicad/ppg_uart_adapter/ppg_uart_adapter_v01.kicad_pcb",
+      "sha256": "dc9846308f960d4a7d07a931229f7b5ec0d9006f6d22199e07f73a14362606c7",
+      "thickness_mm": 0.8,
+      "copper_layers": 6,
+      "footprint_count": 32,
+      "source_outline_tessellated_bounds_mm": [
+        88.0,
+        98.5,
+        140.0,
+        123.5
+      ],
+      "source_outline_nominal": {
+        "shape": "rectangle",
+        "bounds_mm": [
+          88,
+          98.5,
+          140,
+          123.5
+        ],
+        "size_mm": [
+          52,
+          25
+        ]
+      },
+      "via_drill_counts": {
+        "0.25": 100
+      },
+      "gnd_zone_to_finished_edge_mm": [
+        {
+          "layer": "F.Cu",
+          "min_gap_mm": 0.3005
+        },
+        {
+          "layer": "B.Cu",
+          "min_gap_mm": 0.3005
+        },
+        {
+          "layer": "In1.Cu",
+          "min_gap_mm": 0.3005
+        },
+        {
+          "layer": "In2.Cu",
+          "min_gap_mm": 0.3005
+        },
+        {
+          "layer": "In3.Cu",
+          "min_gap_mm": 0.3005
+        },
+        {
+          "layer": "In4.Cu",
+          "min_gap_mm": 0.3005
+        }
+      ],
+      "external_pad_edge_exclusions": [
+        {
+          "ref": "J1",
+          "edge": "top, source y=98.5",
+          "footprint_bbox_x_mm": [
+            101.625,
+            105.175
+          ]
+        },
+        {
+          "ref": "J2",
+          "edge": "bottom, source y=123.5",
+          "footprint_bbox_x_mm": [
+            100.625,
+            111.375
+          ]
+        },
+        {
+          "ref": "J3",
+          "edge": "bottom, source y=123.5",
+          "footprint_bbox_x_mm": [
+            120.225,
+            127.375
+          ]
+        }
+      ],
+      "possible_manufacturer_tab_review_points_source_mm": [
+        [
+          88,
+          111
+        ],
+        [
+          140,
+          111
+        ],
+        [
+          114,
+          98.5
+        ],
+        [
+          121,
+          98.5
+        ],
+        [
+          117,
+          123.5
+        ]
+      ],
+      "tab_point_note": "CAM review candidates only. Copper extends to the edge-clearance strip; no mouse-bite holes or rails have been approved or generated."
+    }
+  ],
+  "array_geometry": {
+    "coordinates": "Common Gerber top view, +Y up; no board mirror or side swap",
+    "uart_bounds_mm": [
+      5,
+      5,
+      57,
+      30
+    ],
+    "ppg_center_mm": [
+      66.75,
+      17.5
+    ],
+    "ppg_radius_mm": 6.75,
+    "finished_board_to_board_gap_mm": 3,
+    "finished_array_bounds_mm": [
+      5,
+      5,
+      73.5,
+      30
+    ],
+    "finished_array_size_mm": [
+      68.5,
+      25
+    ],
+    "guide_rail_candidate_only_width_mm": 5,
+    "guide_rail_candidate_outer_bounds_mm": [
+      0,
+      0,
+      78.5,
+      35
+    ],
+    "transforms_from_kicad_coordinates": {
+      "UART": {
+        "x": "x - 83",
+        "y": "128.5 - y"
+      },
+      "PPG": {
+        "x": "x + 46.75",
+        "y": "34.5 - y"
+      }
+    }
+  },
+  "manufacturing_disposition": {
+    "chosen_output": "PPG 1 + UART 1 combined Gerber/Excellon array with separate, closed finished-board outlines",
+    "self_supporting_smt_panel": false,
+    "actual_rail_copper_or_outline_in_fabrication_gerber": false,
+    "actual_tabs_or_mousebites_in_fabrication_files": false,
+    "warnings": [
+      "PPG F.Cu GND extends to approximately 0.20 mm from finished edge and other copper layers to approximately 0.30 mm. A 0.50 mm diameter mouse-bite drill centered on the finished edge cuts the top GND copper; do not apply such bites without redesign and approval.",
+      "PPG component courtyards are close to the perimeter, including approximately 0.11 mm at the lower-right 45-degree tangent near U5. No sampled sector constitutes an approved depaneling stress margin.",
+      "UART exterior wire-pad edges must remain accessible; avoid tabs and support features over J1 top or J2/J3 bottom pad bands.",
+      "The 5 mm rail shown in the assembly/array guide is conceptual only. The actual fabrication plots retain the individual finished outlines.",
+      "Manufacturer CAM must determine holding tabs, routing order, frame and separation method before producing a physically connected SMT panel, preserving the provided board geometry, coordinates, copper, vias and mounting clearances.",
+      "The round PPG outline requires routed profiling; do not replace its finished contour with straight V-scoring."
+    ],
+    "source_boards_modified": false,
+    "ground_clearance_modified": false
+  },
+  "geometry_diagnostics": {
+    "invalid_input_contours_repaired": 15
+  },
+  "measurement_note": "Circular outlines and copper arcs are polygonized by KiCad/Shapely for this review. PPG reported minimum distances can differ by a few micrometres from configured 0.20 / 0.30 mm clearances; these values do not replace the native KiCad DRC."
+}

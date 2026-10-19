@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-06",
+  "scope": "L4/In3.Cu 3V3 routing optimization and GND refill only. No fabrication export.",
+  "canonical_board": "kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "3978af66433edf39972056465ec87a712339e6beff50f82e82f3de54fd9c657c",
+  "user_input_board_sha256": "8cb336d7a7fefc73eb97e130ee7feebc319e2fb725e82339e77b1554be7872d1",
+  "schematic_sha256": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+  "DRC": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "preserved_source_files": {
+    "kicad/ppg_pcb_v08.kicad_sch": true,
+    "kicad/ppg_pcb_v08.kicad_pro": true,
+    "kicad/ppg_pcb_v08.kicad_dru": true,
+    "kicad/design_v08.py": true,
+    "docs/OUTPUT_APPROVAL.md": true
+  },
+  "manufacturing_and_bom_files_unchanged": 55,
+  "L4_power_comparison": [
+    {
+      "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\l4_power_opt_20261006\\routing\\baseline_refilled.kicad_pcb",
+      "sha256": "f0bce017ab19cdcf975eb11a2e4e15a641be8e6a118eecfae990d183c041a113",
+      "L4_3V3_length_mm": 30.013704058989646,
+      "L4_3V3_segments": 37,
+      "L4_GND_area_mm2": 70.285052984423
+    },
+    {
+      "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\l4_power_opt_20261006\\routing\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "3978af66433edf39972056465ec87a712339e6beff50f82e82f3de54fd9c657c",
+      "L4_3V3_length_mm": 28.224137283982042,
+      "L4_3V3_segments": 27,
+      "L4_GND_area_mm2": 70.6488502349905
+    }
+  ],
+  "reports": {
+    "all_ground_connectivity.json": "2b8af71a5418f84ba246035962e8ddc15d2cba8b4c95a8ebc65e8dd1dbb8ddb9",
+    "changed_tracks.json": "5ccddb4d20b976921f1dbadadbff1008ef1c1bb4b90982f70ebd13c462085938",
+    "drc_canonical.json": "a9677c7895132eb857f845821b7fbb9af6a50f28d28b2415e3249b65148f32f6",
+    "drc_independent.json": "e800869c1b19e6c999b01599e9ce2121394c8dade88fa5bb5b27ac292053217d",
+    "independent_audit.json": "7ecb3ad37d8cfb0e9c5f88c858e082128b85c4441b6c33b449280ae9ef4099fe",
+    "netcheck_canonical.json": "148545de45e0ff38ddeec9da3105c65c1e0dec5745b77799232ae948066783b3",
+    "routing_changes.json": "a0981cabc1750b037ba1e7e0c781d972ed0c07e67da80d572f4bc43b033f5e96"
+  },
+  "git_commit_created": false,
+  "git_head": "b9a4a25"
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-06",
+  "scope": "Collinear cleanup and native arc fillets; no fabrication output.",
+  "canonical_board": "kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "9a20272bce551736dd36ffd91ece1cbf10b4da316c59067ebb4d4ec9ea205e0e",
+  "before_board_sha256": "3978af66433edf39972056465ec87a712339e6beff50f82e82f3de54fd9c657c",
+  "schematic_sha256": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+  "DRC": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "counts": {
+    "references": 41,
+    "physical_pads": 151,
+    "numbered_pins": 123,
+    "straight_tracks": 313,
+    "arcs": 56,
+    "vias": 70,
+    "zones": 6
+  },
+  "preserved_sources": {
+    "kicad/ppg_pcb_v08.kicad_sch": true,
+    "kicad/ppg_pcb_v08.kicad_pro": true,
+    "kicad/ppg_pcb_v08.kicad_dru": true,
+    "kicad/design_v08.py": true,
+    "docs/OUTPUT_APPROVAL.md": true
+  },
+  "manufacturing_and_bom_files_unchanged": 55,
+  "reports": {
+    "all_ground_connectivity.json": "b484f3271ca8f68f859ebff5204c90c942dcc7cecd2b0a0d17ae5afda1b1b4d1",
+    "arc_geometry_compatibility.json": "68b4e32147a35b84af56ec195cbaaf8ad64459e25919e8a2f93a1e68caa132e0",
+    "curve_changes.json": "5547b7399d1b7356bb0561535852989ea199fd58be8647ed466bdd736a4bfef5",
+    "curve_geometry_audit.json": "89603b59f18ecdbcba30efe9c66841bab3dc6e9b3434f3fbba1d590f63491910",
+    "drc_canonical.json": "e72489a92c293404f6d9035f45b49c773d1150eba7490c28a9989eec507f0633",
+    "drc_independent.json": "244e69848fa505c5523b0cca90624f3ccc6d171fc61abadcc2bd4f16c1a0ac03",
+    "independent_audit.json": "2796bb9940cb77b7d9a0c6866ada1551beceda3cb61f09b64fd64c0f95c796ce",
+    "netcheck_canonical.json": "0d6a13ca59f2630392d4589d786f158a20e6a37002003ea3fc0b25621936e59e"
+  },
+  "review_images": {
+    "curve_before_after.png": "acc84c8f6cf3312ddd20b25032b8e3f238f69e04e6d07b1caa25d2f81039ad93",
+    "layers/six_layers.png": "eebfd61c3781c0cfe40b8e7b79f714f67806c72462cbc66c269b25aba7a6fa3d"
+  },
+  "git_commit_created": false,
+  "git_head": "b9a4a25"
+}

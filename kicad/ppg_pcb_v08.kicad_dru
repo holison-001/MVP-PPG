@@ -4,3 +4,20 @@
 (rule "F GND pour to board edge 0.20 mm"
   (condition "A.Type == 'Zone' && A.Layer == 'F.Cu' && A.NetName == 'GND'")
   (constraint edge_clearance (min 0.20mm)))
+
+# L2 is a dedicated GND plane. L5 may carry selected short detours.
+(rule "L2 GND plane no tracks"
+  (layer "In1.Cu")
+  (constraint disallow track))
+
+# Default drill is 0.25 mm for every net. No approved 0.20 mm exceptions exist.
+# 0.20 mm may be used only after explicit user approval, scoped to the approved vias.
+# Keep the existing 0.50 mm lands and select the preferred size in the router.
+(rule "Signal and GND vias 0.50 by 0.25 mm"
+  (condition "A.Type == 'Via' && !(A.NetName == '3V3' || A.NetName == '/3V3' || A.NetName == '5V_LED' || A.NetName == '/5V_LED' || A.NetName == '12V' || A.NetName == '/12V' || A.NetName == '12V_IN' || A.NetName == '/12V_IN' || A.NetName == 'VLDO' || A.NetName == '/VLDO' || A.NetName == 'VREF' || A.NetName == '/VREF')")
+  (constraint via_diameter (min 0.50mm) (opt 0.50mm) (max 0.50mm))
+  (constraint hole_size (min 0.25mm) (opt 0.25mm) (max 0.25mm)))
+(rule "Power and reference vias 0.50 by 0.25 mm"
+  (condition "A.Type == 'Via' && (A.NetName == '3V3' || A.NetName == '/3V3' || A.NetName == '5V_LED' || A.NetName == '/5V_LED' || A.NetName == '12V' || A.NetName == '/12V' || A.NetName == '12V_IN' || A.NetName == '/12V_IN' || A.NetName == 'VLDO' || A.NetName == '/VLDO' || A.NetName == 'VREF' || A.NetName == '/VREF')")
+  (constraint via_diameter (min 0.50mm) (opt 0.50mm) (max 0.50mm))
+  (constraint hole_size (min 0.25mm) (opt 0.25mm) (max 0.25mm)))

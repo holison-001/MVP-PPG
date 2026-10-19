@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-06",
+  "scope": "Routing, all-layer GND refill, verification and review images only. Gerber output awaits user review and a later instruction.",
+  "canonical_board": "kicad/ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "5058f421e6e8d56442d0f3bb0674544cc2cda25106a297b010cab9f6ea7ee266",
+  "schematic_sha256": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+  "DRC": {
+    "errors": 0,
+    "warnings": 5,
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "counts": {
+    "references": 41,
+    "physical_pads": 151,
+    "numbered_pins": 123,
+    "tracks": 330,
+    "vias": 71,
+    "zones": 6
+  },
+  "source_unchanged": {
+    "kicad/ppg_pcb_v08.kicad_sch": true,
+    "kicad/ppg_pcb_v08.kicad_pro": true,
+    "kicad/ppg_pcb_v08.kicad_dru": true,
+    "kicad/design_v08.py": true,
+    "docs/review_top_esd_caps_20261005/ppg_pcb_v08.kicad_pcb": true
+  },
+  "manufacturing_and_bom_files_unchanged": 55,
+  "manufacturing_exports_created": false,
+  "git_commit_created": false,
+  "reports": {
+    "all_ground_connectivity.json": "c1e99289def8d8585f037a510794600e1ec95e4b496d4946c48d26b502643c59",
+    "drc_canonical.json": "d52e7a9e62012f9b061277be6cca71f47e347fb0aeab6f4d26586a33e47c2385",
+    "drc_independent.json": "3711a5276d2b86d4ea7bc03178a0024b95d56fd509747535c0304066ef1cc31b",
+    "independent_audit.json": "1e19cded48856cbaa9c5fe9bac814194c16ce600807e774bb4877712fb295526",
+    "netcheck_canonical.json": "7aacf9c0354012b2513459741e0b899d9dad124873ace15b21b3b8e6e02be281",
+    "route_manifest.json": "b8e650a26252e9dd0b7f0f0436720533f588d895e2e9717debb690c08e06068c",
+    "routing_changes.json": "0cfc6a59f6f25a8dd4cc4d597ad7968a3d7c21df667c41f3b15e7ed45efc311c"
+  },
+  "review_images": {
+    "six_layers.png": "491446d5f078b999c801f5d29b22332fc7b6c85c827391e7d32c2c4cde814d71",
+    "top_esd_and_caps.png": "8ff2e20408ca21e59274d4ef782b734e820ea32519456fc4573ecec6146a523b"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source_sha256": "fb2e0a3c41e7050155f3245b070b9358fb537c0a5b9aac6a84605806943493de",
+  "canonical_source_files_unchanged": true,
+  "read_only": true,
+  "drc_errors": 0,
+  "drc_warnings": 5,
+  "same_warning_signatures": true,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "schematic_pin_nets_match": true,
+  "all_multi_pin_nets_connected": true,
+  "native_copper_net_assignments_stable": true,
+  "raw_netcheck_ok": false,
+  "raw_netcheck_errors": [
+    "[ESD_TVS_PAD_BYPASS] J9.1 reaches U2.4 without D8.1 copper"
+  ],
+  "GND_connectivity": {
+    "anchor": "J2.1",
+    "anchor_found": true,
+    "copper_component_nodes": 11,
+    "reachable_nodes": 11,
+    "contact_tolerance_mm": 2e-05,
+    "method": "Same-net filled zones, tracks/arcs, pad copper and via annuli are unioned on each layer; plated item identities bridge layers. Reachability starts at the named GND pad. This geometric graph does not replace KiCad connectivity/DRC or physical testing."
+  },
+  "ground_rim_pass": true,
+  "mechanical_audit_pass": true,
+  "review_findings": {
+    "5V_LED": "F.Cu and L4 parallel path still present; cleanup candidate, not a short.",
+    "D8": "Pad-object-only check false positive; routes meet inside pad, pad-area cut disconnects J9 from U2.",
+    "D1": "Centerline flow through TVS landing improved. Track width 0.35 mm versus pad width 0.325 mm leaves 0.0125 mm side copper in strict area-cut test; distinguish from previous branch topology."
+  }
+}

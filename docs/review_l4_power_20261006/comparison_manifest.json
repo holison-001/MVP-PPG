@@ -1,0 +1,20 @@
+{
+  "boards": [
+    {
+      "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\l4_power_opt_20261006\\routing\\baseline_refilled.kicad_pcb",
+      "sha256": "f0bce017ab19cdcf975eb11a2e4e15a641be8e6a118eecfae990d183c041a113",
+      "L4_3V3_length_mm": 30.013704058989646,
+      "L4_3V3_segments": 37,
+      "L4_GND_area_mm2": 70.285052984423
+    },
+    {
+      "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\l4_power_opt_20261006\\routing\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "3978af66433edf39972056465ec87a712339e6beff50f82e82f3de54fd9c657c",
+      "L4_3V3_length_mm": 28.224137283982042,
+      "L4_3V3_segments": 27,
+      "L4_GND_area_mm2": 70.6488502349905
+    }
+  ],
+  "svg_sha256": "35738bf46a696be66fd8b6be343ba688bfdd5f9097384ca1bacfb97406870c3c",
+  "png_sha256": "7e6f5c104750383fba11e46408cd086a22bffdb31bf06014b8d21e5eb40039a6"
+}

@@ -1,0 +1,338 @@
+{
+  "review_only": true,
+  "source_sha256": "3739f17a4788d6f88375153e60bc42b3ab0be13ad075f4ffe46204a2b9a13e98",
+  "board_center_mm": [
+    20,
+    17
+  ],
+  "radius_mm": 6.75,
+  "pad_diameter_mm": 0.8,
+  "pitch_mm": 1.27,
+  "adjacent_pad_copper_gap_mm": 0.47,
+  "ordering_left_to_right": [
+    "NRST",
+    "SWDIO",
+    "GND",
+    "SWCLK",
+    "VTref / 3V3"
+  ],
+  "pads": [
+    {
+      "ref": "J9",
+      "label": "NRST",
+      "net": "/NRST",
+      "xy_mm": [
+        17.46,
+        21.85
+      ],
+      "relative_to_center_mm": [
+        -2.539999999999999,
+        4.850000000000001
+      ],
+      "diameter_mm": 0.8,
+      "layer": "F.Cu",
+      "optional": false,
+      "edge_clearance_mm": 0.8751392711777578,
+      "U1_courtyard_vertical_gap_mm": 1.9750000000000014,
+      "existing_foreign_F_copper_clearance_mm": 0.7384312910619671,
+      "nearest_foreign_F_copper": {
+        "id": "979f39e1-888b-4392-b7e6-022d360e07fc",
+        "net": "12V",
+        "a": [
+          16.7087,
+          20.6824
+        ],
+        "z": [
+          16.7087,
+          20.6824
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      },
+      "existing_hole_to_pad_clearance_mm": 0.8634312910619671,
+      "nearest_hole": {
+        "id": "979f39e1-888b-4392-b7e6-022d360e07fc",
+        "net": "12V",
+        "a": [
+          16.7087,
+          20.6824
+        ],
+        "z": [
+          16.7087,
+          20.6824
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "ref": "J7",
+      "label": "SWDIO",
+      "net": "/SWDIO",
+      "xy_mm": [
+        18.73,
+        21.85
+      ],
+      "relative_to_center_mm": [
+        -1.2699999999999996,
+        4.850000000000001
+      ],
+      "diameter_mm": 0.8,
+      "layer": "F.Cu",
+      "optional": false,
+      "edge_clearance_mm": 1.336478283681219,
+      "U1_courtyard_vertical_gap_mm": 1.9750000000000014,
+      "existing_foreign_F_copper_clearance_mm": 0.4076034228386348,
+      "nearest_foreign_F_copper": {
+        "id": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "net": "GND",
+        "a": [
+          19.5,
+          22.575
+        ],
+        "z": [
+          19.5,
+          22.575
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      },
+      "existing_hole_to_pad_clearance_mm": 0.5326034228386348,
+      "nearest_hole": {
+        "id": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "net": "GND",
+        "a": [
+          19.5,
+          22.575
+        ],
+        "z": [
+          19.5,
+          22.575
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "ref": "TP_GND",
+      "label": "GND",
+      "net": "GND",
+      "xy_mm": [
+        20.0,
+        21.85
+      ],
+      "relative_to_center_mm": [
+        0.0,
+        4.850000000000001
+      ],
+      "diameter_mm": 0.8,
+      "layer": "F.Cu",
+      "optional": false,
+      "edge_clearance_mm": 1.4999999999999987,
+      "U1_courtyard_vertical_gap_mm": 1.9750000000000014,
+      "existing_foreign_F_copper_clearance_mm": 0.8638683343470931,
+      "nearest_foreign_F_copper": {
+        "id": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+        "net": "/VREF",
+        "a": [
+          21.875,
+          20.475
+        ],
+        "z": [
+          20.475,
+          20.625
+        ],
+        "via": false,
+        "width": 0.1,
+        "drill": null,
+        "layers": [
+          0
+        ]
+      },
+      "existing_hole_to_pad_clearance_mm": 0.3556957476904251,
+      "nearest_hole": {
+        "id": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+        "net": "GND",
+        "a": [
+          19.5,
+          22.575
+        ],
+        "z": [
+          19.5,
+          22.575
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "ref": "J8",
+      "label": "SWCLK",
+      "net": "/SWCLK",
+      "xy_mm": [
+        21.27,
+        21.85
+      ],
+      "relative_to_center_mm": [
+        1.2699999999999996,
+        4.850000000000001
+      ],
+      "diameter_mm": 0.8,
+      "layer": "F.Cu",
+      "optional": false,
+      "edge_clearance_mm": 1.336478283681219,
+      "U1_courtyard_vertical_gap_mm": 1.9750000000000014,
+      "existing_foreign_F_copper_clearance_mm": 0.24925111064707572,
+      "nearest_foreign_F_copper": {
+        "id": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+        "net": "GND",
+        "a": [
+          20.625,
+          21.2234
+        ],
+        "z": [
+          20.625,
+          21.2234
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      },
+      "existing_hole_to_pad_clearance_mm": 0.3742511106470757,
+      "nearest_hole": {
+        "id": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+        "net": "GND",
+        "a": [
+          20.625,
+          21.2234
+        ],
+        "z": [
+          20.625,
+          21.2234
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      }
+    },
+    {
+      "ref": "TP_VTREF",
+      "label": "VTref / 3V3",
+      "net": "3V3",
+      "xy_mm": [
+        22.54,
+        21.85
+      ],
+      "relative_to_center_mm": [
+        2.539999999999999,
+        4.850000000000001
+      ],
+      "diameter_mm": 0.8,
+      "layer": "F.Cu",
+      "optional": true,
+      "edge_clearance_mm": 0.8751392711777578,
+      "U1_courtyard_vertical_gap_mm": 1.9750000000000014,
+      "existing_foreign_F_copper_clearance_mm": 0.9981195405673717,
+      "nearest_foreign_F_copper": {
+        "id": "0f71382e-a019-4fb5-bc7b-7fee64d75cfb",
+        "net": "5V_LED",
+        "a": [
+          24.0901,
+          21.2901
+        ],
+        "z": [
+          24.0901,
+          21.2901
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      },
+      "existing_hole_to_pad_clearance_mm": 0.19200767080973247,
+      "nearest_hole": {
+        "id": "2e176cd8-2052-4529-9700-3129214e3ec2",
+        "net": "3V3",
+        "a": [
+          23.0,
+          22.4
+        ],
+        "z": [
+          23.0,
+          22.4
+        ],
+        "via": true,
+        "width": 0.5,
+        "drill": 0.25,
+        "layers": [
+          0,
+          4,
+          6,
+          2
+        ]
+      }
+    }
+  ],
+  "minimum_foreign_copper_gap_mm": 0.24925111064707572,
+  "minimum_edge_gap_mm": 0.8751392711777578,
+  "minimum_existing_hole_to_new_pad_gap_mm": 0.19200767080973247,
+  "notes": [
+    "Existing F.Cu GND zone intentionally not treated as fixed foreign copper: it must be refilled to clear new signal pads.",
+    "J2 cable ground remains B.Cu at (20.6976, 22.711) mm. New TP_GND is a dedicated test pad.",
+    "Four mandatory pads occupy the first four slots; optional VTref uses fifth slot.",
+    "Coordinates are a clearance-screened placement proposal only. No pad moves, routing, ESD remap, zone refill, or DRC acceptance has been performed.",
+    "Recommend F.Cu/F.Mask only, no F.Paste on test contacts; 0.8 mm pads require a compatible pogo fixture."
+  ]
+}

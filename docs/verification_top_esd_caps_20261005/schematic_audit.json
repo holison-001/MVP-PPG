@@ -1,0 +1,170 @@
+{
+  "baseline_sha256": "9b26c6231a0c7881724fdad3df7252eac6c7b80a784d3bb981aeb7dae59dcc6e",
+  "candidate_sha256": "22710326102d073aed07db366af5cdf9c524c24e60d454332f31763870915f17",
+  "component_counts": [
+    39,
+    41
+  ],
+  "added_refs": [
+    "C15",
+    "C16"
+  ],
+  "removed_refs": [],
+  "net_counts": [
+    48,
+    48
+  ],
+  "net_names_unchanged": true,
+  "pin_counts": [
+    119,
+    123
+  ],
+  "old_pin_net_changes": [],
+  "added_pins": [
+    {
+      "ref": "C15",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "net": "GND"
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "net": "3V3"
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "net": "GND"
+    }
+  ],
+  "schematic_root_uuid_unchanged": true,
+  "existing_symbol_or_pin_uuid_changes": [],
+  "existing_symbol_position_changes": {
+    "J5": {
+      "old": [
+        187.96,
+        238.76,
+        0.0
+      ],
+      "new": [
+        187.96,
+        226.06,
+        0.0
+      ]
+    },
+    "J6": {
+      "old": [
+        264.16,
+        238.76,
+        0.0
+      ],
+      "new": [
+        264.16,
+        226.06,
+        0.0
+      ]
+    }
+  },
+  "new_symbol_paths": {
+    "C15": "/49500282-0369-4cac-b640-45971f28f30c/ae0afc15-2f79-4cd3-902b-412e7b955c70",
+    "C16": "/49500282-0369-4cac-b640-45971f28f30c/9cc0a41d-951e-43be-bdd3-6c1991228b01"
+  },
+  "erc_violations": 0,
+  "protected_file_sha256": {
+    "kicad\\ppg_pcb_v08.kicad_pro": {
+      "expected": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+      "actual": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+      "unchanged": true
+    },
+    "kicad\\ppg_pcb_v08.kicad_dru": {
+      "expected": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+      "actual": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+      "unchanged": true
+    },
+    "docs\\review_top_esd_caps_20261005\\ppg_pcb_v08.kicad_pro": {
+      "expected": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+      "actual": "0c840de8086cfc689c4330462db8527195c44a5b6ea29619f89f5ded7e77329b",
+      "unchanged": true
+    },
+    "docs\\review_top_esd_caps_20261005\\ppg_pcb_v08.kicad_dru": {
+      "expected": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+      "actual": "1533247a665b376ba08a84b660a91b8e634a45420d39866a2e3af569229fcf1c",
+      "unchanged": true
+    }
+  },
+  "source_line_endings": {
+    "design_v08.py": {
+      "crlf_count": 0
+    },
+    "build_sch_v08.py": {
+      "crlf_count": 0
+    },
+    "layout_schematic_v08.py": {
+      "crlf_count": 0
+    },
+    "netcheck_v08.py": {
+      "crlf_count": 0
+    },
+    "schematic_metadata.py": {
+      "crlf_count": 0
+    }
+  },
+  "new_capacitor_metadata": {
+    "C15": {
+      "value": "100nF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0201_0603Metric"
+    },
+    "C16": {
+      "value": "100nF 16V X7R",
+      "footprint": "Capacitor_SMD:C_0201_0603Metric"
+    }
+  },
+  "source_placements": {
+    "D6": {
+      "side": "F",
+      "pos": [
+        -0.35,
+        4.1
+      ],
+      "rot": 0,
+      "lib": "custom",
+      "fp": "TI_DPY0002A_1x0.6"
+    },
+    "D7": {
+      "side": "F",
+      "pos": [
+        1.3,
+        4.0
+      ],
+      "rot": 180,
+      "lib": "custom",
+      "fp": "TI_DPY0002A_1x0.6"
+    },
+    "C15": {
+      "side": "B",
+      "pos": [
+        0.8545,
+        2.4786
+      ],
+      "rot": 0,
+      "lib": "Capacitor_SMD",
+      "fp": "C_0201_0603Metric"
+    },
+    "C16": {
+      "side": "B",
+      "pos": [
+        3.5284,
+        -1.1382
+      ],
+      "rot": 225,
+      "lib": "Capacitor_SMD",
+      "fp": "C_0201_0603Metric"
+    }
+  },
+  "passed": true
+}

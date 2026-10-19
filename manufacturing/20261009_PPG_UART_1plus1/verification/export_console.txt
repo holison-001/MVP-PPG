@@ -1,0 +1,43 @@
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\apertures.py:459: UserWarning: Aperture definition using macro RoundRect has more parameters than the macro uses.
+  warnings.warn(f'Aperture definition using macro {self.macro.name} has more parameters than the macro uses.')
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-PTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-PTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-NPTH.drl:10 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\.git\all_ground_gerber_20261005\pydeps\gerbonara\excellon.py:573: SyntaxWarning: C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-NPTH.drl:12 "G90": G90 header statement found after end of header
+  warnings.warn(f'{self.filename}:{self.lineno} "{self.line}": {msg}', SyntaxWarning)
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-F_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-In1_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-In2_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-In3_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-In4_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-B_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-F_Paste.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-B_Paste.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-F_Silkscreen.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-B_Silkscreen.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-F_Mask.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-B_Mask.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-Edge_Cuts.gbr'에 플롯됨.
+생성된 파일 'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-PTH.drl'
+생성된 파일 'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\PPG\PPG-NPTH.drl'
+완료.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-F_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-In1_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-In2_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-In3_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-In4_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-B_Cu.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-F_Paste.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-B_Paste.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-F_Silkscreen.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-B_Silkscreen.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-F_Mask.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-B_Mask.gbr'에 플롯됨.
+'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-Edge_Cuts.gbr'에 플롯됨.
+생성된 파일 'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-PTH.drl'
+생성된 파일 'C:\WORK\모두의창업\2라운드\귀장착부\2차_260914\PPG_PCB_v0.8\manufacturing\20261009_PPG_UART_1plus1\units\UART\UART-NPTH.drl'
+완료.
+{"complete": true, "array_files": 15, "sources_unchanged": true}

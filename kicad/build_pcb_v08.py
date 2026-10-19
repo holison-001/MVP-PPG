@@ -14,6 +14,8 @@ _removed_graphics = []
 from pcbnew import VECTOR2I_MM as MM, FromMM
 import design_v08 as D
 from schematic_metadata import sync_schematic_metadata, validate_placement
+from layer_policy_v08 import GND_POUR_LAYERS
+from via_policy_v08 import VIA_DIAMETER_MM, via_drill_mm
 from board_coordinates_v08 import place_in_sheet, set_saved_sheet_size
 
 _fp_candidates = [os.environ.get("KICAD10_FOOTPRINT_DIR", ""),
@@ -40,6 +42,10 @@ if ses_path:
     if not ok:
         raise RuntimeError("Specctra SES import failed; PCB was not saved")
     print("schematic metadata:", sync_schematic_metadata(board, expected_refs=D.COMPONENTS))
+    for item in board.GetTracks():
+        if item.GetClass() == 'PCB_VIA':
+            item.SetWidth(FromMM(VIA_DIAMETER_MM))
+            item.SetDrill(FromMM(via_drill_mm(item.GetNetname())))
     pcbnew.ZONE_FILLER(board).Fill(board.Zones())
     pcbnew.SaveBoard(out_path, board)
     set_saved_sheet_size(out_path)
@@ -50,7 +56,7 @@ board = pcbnew.BOARD()
 ds = board.GetDesignSettings()
 ds.SetCopperLayerCount(D.LAYERS)
 ds.SetBoardThickness(FromMM(D.THICKNESS))
-ds.m_MinClearance = FromMM(D.RULES["clearance"]); ds.m_TrackMinWidth = FromMM(0.1)
+ds.m_MinClearance = FromMM(D.RULES["clearance"]); ds.m_TrackMinWidth = FromMM(D.RULES["track_min"])
 ds.m_ViasMinSize = FromMM(D.RULES["via_dia"]); ds.m_MinThroughDrill = FromMM(D.RULES["via_drill"])
 ds.m_CopperEdgeClearance = FromMM(D.RULES["edge_clearance"]); ds.m_HoleClearance = FromMM(0.2)
 ds.m_SolderMaskMinWidth = FromMM(0.1)
@@ -187,15 +193,17 @@ def zone(layer, net, prio, clearance=0.2):
     z.SetLocalClearance(FromMM(clearance)); z.SetMinThickness(FromMM(0.15))
     z.SetPadConnection(pcbnew.ZONE_CONNECTION_THERMAL); z.SetThermalReliefGap(FromMM(0.2)); z.SetThermalReliefSpokeWidth(FromMM(0.25))
     z.SetIslandRemovalMode(pcbnew.ISLAND_REMOVAL_MODE_ALWAYS)
-    if layer == pcbnew.F_Cu:
+    if layer in (pcbnew.F_Cu, pcbnew.B_Cu):
         z.SetPadConnection(pcbnew.ZONE_CONNECTION_FULL)
     for i in range(64):
         a = 2 * math.pi * i / 64; z.AppendCorner(MM(D.BOARD_R * math.cos(a), D.BOARD_R * math.sin(a)), -1)
     board.Add(z); return z
 
-zone(pcbnew.F_Cu, "GND", 0, clearance=0.15)
-zone(pcbnew.In1_Cu, "GND", 0)
-# In2.Cu carries broad 3V3 traces and signal routing, not a power pour.
+for pour_layer in GND_POUR_LAYERS:
+    zone(pour_layer, "GND", 0,
+         clearance=0.15 if pour_layer in (pcbnew.F_Cu, pcbnew.B_Cu) else 0.20)
+# Full-board GND on all layers. L2 has no tracks; L5 allows short detours.
+# L3/In2 carries signals; L4/In3 carries broad 3V3 traces and selected signals.
 
 t = pcbnew.PCB_TEXT(board); t.SetText("SleepBud PPG v0.8"); t.SetPosition(MM(0, 6.6)); t.SetLayer(pcbnew.B_Fab); t.SetMirrored(True)
 t.SetTextSize(MM(0.5, 0.5)); t.SetTextThickness(FromMM(0.08)); board.Add(t)

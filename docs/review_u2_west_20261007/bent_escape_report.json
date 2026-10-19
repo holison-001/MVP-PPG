@@ -1,0 +1,284 @@
+{
+  "scope": "Only four previously unresolved ports; 2.0 mm search radius, 0.10 mm grid, four single-bend path forms per via. Individual local feasibility, not full or simultaneous routing. No board saved.",
+  "source_sha256": "0da609da2e2eee4095139caf95ead762451f6d70d5f01b1e1f1456f5240ec3d0",
+  "excluded_affected_copper_count": 278,
+  "results": {
+    "U2.19@0.15": {
+      "net": "/SDA",
+      "legal_via_count": 93,
+      "direct_count_within_2mm": 28,
+      "tested_bends_per_via": 4,
+      "legal_bent_path_count": 128,
+      "best": [
+        {
+          "via_xy": [
+            18.2419,
+            17.7749
+          ],
+          "route_points": [
+            [
+              19.6419,
+              17.7749
+            ],
+            [
+              18.2419,
+              17.7749
+            ],
+            [
+              18.2419,
+              17.7749
+            ]
+          ],
+          "route_type": "HV",
+          "length_mm": 1.3999999999999986,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.27499999999999786,
+          "all_layer_via_foreign_gap_mm": 0.20000000000000284,
+          "drill_to_pad_gap_mm": 0.35000000000000286
+        },
+        {
+          "via_xy": [
+            18.2419,
+            17.7749
+          ],
+          "route_points": [
+            [
+              19.6419,
+              17.7749
+            ],
+            [
+              19.6419,
+              17.7749
+            ],
+            [
+              18.2419,
+              17.7749
+            ]
+          ],
+          "route_type": "VH",
+          "length_mm": 1.3999999999999986,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.27499999999999786,
+          "all_layer_via_foreign_gap_mm": 0.20000000000000284,
+          "drill_to_pad_gap_mm": 0.35000000000000286
+        },
+        {
+          "via_xy": [
+            18.2419,
+            17.7749
+          ],
+          "route_points": [
+            [
+              19.6419,
+              17.7749
+            ],
+            [
+              19.6419,
+              17.7749
+            ],
+            [
+              18.2419,
+              17.7749
+            ]
+          ],
+          "route_type": "45_first",
+          "length_mm": 1.3999999999999986,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.27499999999999786,
+          "all_layer_via_foreign_gap_mm": 0.20000000000000284,
+          "drill_to_pad_gap_mm": 0.35000000000000286
+        }
+      ]
+    },
+    "U2.17@0.15": {
+      "net": "/SWCLK",
+      "legal_via_count": 59,
+      "direct_count_within_2mm": 28,
+      "tested_bends_per_via": 4,
+      "legal_bent_path_count": 128,
+      "best": [
+        {
+          "via_xy": [
+            18.2419,
+            16.7749
+          ],
+          "route_points": [
+            [
+              19.6419,
+              16.7749
+            ],
+            [
+              18.2419,
+              16.7749
+            ],
+            [
+              18.2419,
+              16.7749
+            ]
+          ],
+          "route_type": "HV",
+          "length_mm": 1.3999999999999986,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.27499999999999786,
+          "all_layer_via_foreign_gap_mm": 0.19999999999999934,
+          "drill_to_pad_gap_mm": 0.3499999999999993
+        },
+        {
+          "via_xy": [
+            18.2419,
+            16.7749
+          ],
+          "route_points": [
+            [
+              19.6419,
+              16.7749
+            ],
+            [
+              19.6419,
+              16.7749
+            ],
+            [
+              18.2419,
+              16.7749
+            ]
+          ],
+          "route_type": "VH",
+          "length_mm": 1.3999999999999986,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.27499999999999786,
+          "all_layer_via_foreign_gap_mm": 0.19999999999999934,
+          "drill_to_pad_gap_mm": 0.3499999999999993
+        },
+        {
+          "via_xy": [
+            18.2419,
+            16.7749
+          ],
+          "route_points": [
+            [
+              19.6419,
+              16.7749
+            ],
+            [
+              19.6419,
+              16.7749
+            ],
+            [
+              18.2419,
+              16.7749
+            ]
+          ],
+          "route_type": "45_first",
+          "length_mm": 1.3999999999999986,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.27499999999999786,
+          "all_layer_via_foreign_gap_mm": 0.19999999999999934,
+          "drill_to_pad_gap_mm": 0.3499999999999993
+        }
+      ]
+    },
+    "U2.14@0.15": {
+      "net": "/UART_TX",
+      "legal_via_count": 73,
+      "direct_count_within_2mm": 0,
+      "tested_bends_per_via": 4,
+      "legal_bent_path_count": 96,
+      "best": [
+        {
+          "via_xy": [
+            18.2419,
+            16.9749
+          ],
+          "route_points": [
+            [
+              18.8419,
+              15.9749
+            ],
+            [
+              18.8419,
+              16.374900000000004
+            ],
+            [
+              18.2419,
+              16.9749
+            ]
+          ],
+          "route_type": "45_last",
+          "length_mm": 1.248528137423858,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.2078427124746205,
+          "all_layer_via_foreign_gap_mm": 0.2280999999999977,
+          "drill_to_pad_gap_mm": 0.37809999999999766
+        },
+        {
+          "via_xy": [
+            18.2419,
+            17.0749
+          ],
+          "route_points": [
+            [
+              18.8419,
+              15.9749
+            ],
+            [
+              18.8419,
+              16.4749
+            ],
+            [
+              18.2419,
+              17.0749
+            ]
+          ],
+          "route_type": "45_last",
+          "length_mm": 1.3485281374238558,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.2749999999999978,
+          "all_layer_via_foreign_gap_mm": 0.2280999999999977,
+          "drill_to_pad_gap_mm": 0.37809999999999766
+        },
+        {
+          "via_xy": [
+            18.1419,
+            17.0749
+          ],
+          "route_points": [
+            [
+              18.8419,
+              15.9749
+            ],
+            [
+              18.8419,
+              16.3749
+            ],
+            [
+              18.1419,
+              17.0749
+            ]
+          ],
+          "route_type": "45_last",
+          "length_mm": 1.3899494936611658,
+          "trace_width_mm": 0.15,
+          "local_trace_foreign_gap_mm": 0.20784271247461794,
+          "all_layer_via_foreign_gap_mm": 0.32809999999999917,
+          "drill_to_pad_gap_mm": 0.4780999999999992
+        }
+      ]
+    },
+    "C4.1@0.15": {
+      "net": "/VLDO",
+      "legal_via_count": 56,
+      "direct_count_within_2mm": 0,
+      "tested_bends_per_via": 4,
+      "legal_bent_path_count": 0,
+      "best": []
+    },
+    "C4.1@0.3": {
+      "net": "/VLDO",
+      "legal_via_count": 56,
+      "direct_count_within_2mm": 0,
+      "tested_bends_per_via": 4,
+      "legal_bent_path_count": 0,
+      "best": []
+    }
+  }
+}

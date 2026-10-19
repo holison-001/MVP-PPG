@@ -1,0 +1,11 @@
+{
+  "saved_at": "2026-10-06T07:43:29.706762+00:00",
+  "input_sha256": "9caf20e4383d00f97e604291ab7e9c29394bed81c2da8c6ed2c2addbab580384",
+  "canonical_sha256": "5c4c9d1eabbfb2f3db410d5fa80927defbf1545fe8b773ff937ddca9fa6ac063",
+  "canonical": "kicad/ppg_pcb_v08.kicad_pcb",
+  "tested_candidate_identical_to_canonical": true,
+  "all_placements_preserved": true,
+  "unrelated_routing_preserved": true,
+  "gerber_generated": false,
+  "git_published": false
+}

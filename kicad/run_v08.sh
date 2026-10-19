@@ -135,14 +135,14 @@ work_schematic="$stage/input/ppg_pcb_v08.kicad_sch"
 reports="$stage/output/docs/verification_v08"
 if ((rebuild)); then
     "$KICAD_PYTHON" "$script_dir/build_pcb_v08.py" "$work_board"
-    # Both inner layers allow routing. In1 retains its GND zone after refill.
+    # Keep automatic routing off L2/L5; short L5 detours require separate review.
     "${router[@]}" --gui.enabled=false -da --user_data_path="$stage/router-data" \
-        --router.layers.routable=true,true,true,true --router.fanout.enabled=false \
+        --router.layers.routable=true,false,true,true,false,true --router.fanout.enabled=false \
         -de "$stage/input/ppg_pcb_v08.dsn" -do "$stage/input/ppg_pcb_v08.ses" \
         -mp "${ROUTE_PASSES:-80}" -mt "${ROUTE_THREADS:-4}" -l en
     [[ -s "$stage/input/ppg_pcb_v08.ses" ]] || { printf 'Router produced no session.\n' >&2; exit 1; }
     "$KICAD_PYTHON" "$script_dir/build_pcb_v08.py" "$work_board" --ses "$stage/input/ppg_pcb_v08.ses"
-    # Rebuild candidates must follow the reviewed broad In2 power topology.
+    # Rebuild candidates must follow the reviewed broad L4/In3 power topology.
     # This touches only the temporary candidate, then all normal checks run.
     "$KICAD_PYTHON" "$script_dir/route_in2_power_v08.py" "$work_board" "$work_board"
 fi
@@ -150,8 +150,8 @@ fi
 "$KICAD_PYTHON" - "$work_board" <<'PY'
 import pcbnew, sys
 board = pcbnew.LoadBoard(sys.argv[1])
-if any(zone.GetLayer() == pcbnew.In2_Cu for zone in board.Zones()):
-    raise SystemExit('In2.Cu must use broad 3V3 traces, without a pour')
+if any(zone.GetNetname() != 'GND' for zone in board.Zones()):
+    raise SystemExit('Only the reviewed GND planes and perimeter rings are allowed')
 pcbnew.ZONE_FILLER(board).Fill(board.Zones())
 pcbnew.SaveBoard(sys.argv[1], board)
 PY
@@ -186,13 +186,13 @@ fi
 docs="$stage/output/docs"
 gerber="$stage/output/gerber"
 "$KICAD_CLI" pcb export gerbers \
-    --layers 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts,F.Fab,B.Fab' \
+    --layers 'F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts,F.Fab,B.Fab' \
     --subtract-soldermask --use-drill-file-origin -o "$gerber/" "$work_board"
 "$KICAD_CLI" pcb export drill --format excellon --excellon-units mm --drill-origin plot \
     --excellon-separate-th --generate-map --map-format pdf -o "$gerber/" "$work_board"
 "$KICAD_CLI" pcb export pos --format csv --units mm --side both --exclude-dnp \
     --use-drill-file-origin -o "$docs/ppg_pcb_v08_positions.csv" "$work_board"
-"$KICAD_CLI" pcb export pdf --layers 'F.Cu,B.Cu,In1.Cu,In2.Cu,Edge.Cuts,F.Fab,B.Fab' \
+"$KICAD_CLI" pcb export pdf --layers 'F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu,Edge.Cuts,F.Fab,B.Fab' \
     --mode-multipage -o "$docs/ppg_pcb_v08_layers.pdf" "$work_board"
 "$KICAD_CLI" pcb export svg --layers 'F.Cu,F.Fab,Edge.Cuts' --page-size-mode 2 --mode-single \
     -o "$docs/layout_front.svg" "$work_board"

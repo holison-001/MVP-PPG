@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-09T18:40:21.657525+09:00",
+  "scope": "Mounting-hole surrounding assembly clearance changed to diameter 11 mm and schematic mechanical note updated to PCB 52 x 25 mm, hole pitch 39 x 12 mm. Actual drill remains diameter 3 mm NPTH. Existing electrical components, schematic positions, wires and UUIDs unchanged. PCB and preview verification is owned by parent agent.",
+  "backup": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\backups\\adapter_before_mounting11_20261009_183719\\ppg_uart_adapter",
+  "checks": {
+    "only_H1_H4_footprint_description_and_mechanical_note_changed": {
+      "pass": true
+    },
+    "existing_symbols_positions_wires_UUIDs_and_library_unchanged": {
+      "pass": true
+    },
+    "native_pin_net_map_unchanged": {
+      "pass": true,
+      "pins": 73,
+      "nets": 17
+    },
+    "schematic_BOM_manifest_generator_consistent": {
+      "pass": true,
+      "total_components": 32,
+      "electrical_components": 28,
+      "mounting_holes": 4,
+      "whole_generator_not_run": true
+    },
+    "actual_new_footprint_NPTH_3mm_and_11mm_both_side_courtyards": {
+      "pass": true,
+      "courtyards": [
+        {
+          "layer": "F.Courtyard",
+          "diameter_mm": 11.0
+        },
+        {
+          "layer": "B.Courtyard",
+          "diameter_mm": 11.0
+        }
+      ]
+    },
+    "ERC": {
+      "pass": true,
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "previous_verification_sha256": "ed80ac24f00e32a9fd10caf880487a294deb746548feffd78f3de13ce2c41a2c",
+  "files": {
+    "build_adapter.py": {
+      "sha256": "fa444eaf730d62d6810b250af1f75c952754182a5656d2740630962bb0071c79"
+    },
+    "ppg_uart_adapter_v01.kicad_sch": {
+      "sha256": "5166ab8cfb01c2cb5119467bc23d7fe946adb6fd6bcc954a0fbad439f2f65fd5"
+    },
+    "Adapter.kicad_sym": {
+      "sha256": "48b459e5b2518baf1830bb6ecbb1af46e0768ae39f189fc920d22605512ab2fc"
+    },
+    "design_manifest.json": {
+      "sha256": "7f40dd896cef951bb24102cadfa91c809c4962cd91053ec0174c81fa078acd3d"
+    },
+    "BOM.csv": {
+      "sha256": "62aab6ad700a56a1fbd40cd337e489b981059cb731bf82885fb1673f3fd1c184"
+    },
+    "netlist.xml": {
+      "sha256": "2585eca4d2791a793c999ff5e6fa052432a0ff56e0399a036d485fa2ea337b81"
+    },
+    "erc.json": {
+      "sha256": "a2fa6f7494072ea53a56064a46f7725cb1202d75cd867b68b1ac16a09e4703fb"
+    }
+  }
+}

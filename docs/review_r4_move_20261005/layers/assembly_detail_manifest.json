@@ -1,0 +1,7 @@
+{
+  "board_sha256": "42bf5059d9635a8967bbfbb1281c3d1b2446fac0ca8a0384739d25c2a11f268b",
+  "svg_sha256": "2912515478786782cc565c804bd67f1841d6fcde49e619a9b82336ee6b9e4503",
+  "png_sha256": "d59645b8cbc45828cbabaca9c0f2b69ef3cacfb2a1661d3c85a635e0ace00fc6",
+  "view": "B.Cu assembly detail viewed from top",
+  "scope": "Read-only CAD geometry review; no manufacturing outputs"
+}

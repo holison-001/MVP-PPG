@@ -1,0 +1,13 @@
+{
+  "boards": [
+    {
+      "file": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\12v_review_20261006\\before\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "406c47557a7cdbaed965abffe909b3ef12006a095b65219df3d50c84987cfc1e"
+    },
+    {
+      "file": "C:\\WORK\\\ubaa8\ub450\uc758\ucc3d\uc5c5\\2\ub77c\uc6b4\ub4dc\\\uadc0\uc7a5\ucc29\ubd80\\2\ucc28_260914\\PPG_PCB_v0.8\\.git\\12v_review_20261006\\candidate\\ppg_pcb_v08.kicad_pcb",
+      "sha256": "ecc27ca995882323892a9174220057f0bb3c4c0506fa5a665ca1b3465c214634"
+    }
+  ],
+  "method": "Actual native KiCad copper polygons; proposed local B.Cu 12V input routing only; canonical file not changed."
+}

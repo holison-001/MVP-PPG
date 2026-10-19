@@ -8,3 +8,6 @@ _autosave-*
 .DS_Store
 Thumbs.db
 kicad/esd_1005_work/
+backups/
+*.xlsx.inspect.ndjson
+~$*

@@ -1,0 +1,2070 @@
+{
+  "created_at_utc": "2026-10-05T10:12:08.675218+00:00",
+  "scope": "Read-only comparison of upper and lower front SWD rows against the unmodified baseline; no board or schematic changes made by this review.",
+  "baseline": {
+    "relative_path": ".git/swd_top_impl_20261005/baseline.kicad_pcb",
+    "absolute_path": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\swd_top_impl_20261005\\baseline.kicad_pcb",
+    "sha256": "3739f17a4788d6f88375153e60bc42b3ab0be13ad075f4ffe46204a2b9a13e98",
+    "size_bytes": 296229,
+    "F_Cu_trace_count": 27,
+    "through_via_count": 60,
+    "F_Cu_component_references": [
+      "U1"
+    ]
+  },
+  "geometry": {
+    "board_center_mm": [
+      20,
+      17
+    ],
+    "board_radius_mm": 6.75,
+    "row_order_left_to_right": [
+      "J9",
+      "J7",
+      "J10",
+      "J8",
+      "J11"
+    ],
+    "signal_order_left_to_right": [
+      "NRST",
+      "SWDIO",
+      "GND",
+      "SWCLK",
+      "3V3_VTREF"
+    ],
+    "pad_diameter_mm": 0.8,
+    "pitch_mm": 1.27,
+    "pad_copper_gap_mm": 0.47,
+    "row_bounding_size_mm": [
+      5.88,
+      0.8
+    ],
+    "pad_layers": [
+      "F.Cu",
+      "F.Mask"
+    ],
+    "solder_paste": false,
+    "u1_courtyard_centerline_bounds_mm": [
+      18.25,
+      14.55,
+      21.75,
+      19.45
+    ],
+    "u1_courtyard_stroke_width_mm": 0.05
+  },
+  "measurement_method": {
+    "foreign_copper": "Euclidean shortest distance from proposed pad center to an existing F.Cu line segment or through-via center, minus the 0.4 mm proposed pad radius and existing copper half-width/radius. Existing same-net copper is excluded. Negative distance means copper overlap.",
+    "drill": "Euclidean distance to each via center minus 0.4 mm pad radius and half drill diameter. Same-net drills are included; negative distance means the drill overlaps the contact pad.",
+    "courtyard": "Distance from proposed circular pad copper edge to U1 rectangular courtyard centerline. A second metric subtracts 0.025 mm (half of the actual 0.05 mm F.CrtYd stroke), giving clearance to its visible outer stroke. Thus the symmetric rows have 2.000 mm centerline clearance and 1.975 mm visible-stroke clearance; these are the same geometry, not contradictory measurements.",
+    "edge": "6.75 mm board radius minus pad-center distance from (20,17), minus 0.4 mm pad radius.",
+    "clearance_rule_mm": 0.15,
+    "edge_clearance_rule_mm": 0.3,
+    "excluded_refillable_zone": "The baseline F.Cu GND pour is not treated as an immutable obstacle. Any implemented pads/traces require zone refill and full DRC; this comparison alone is not a DRC result.",
+    "pogo_access": "Both symmetric rows have the same board-edge and U1 courtyard space. Pads need no paste and have 0.47 mm inter-pad copper gap. Only U1 is mounted on the baseline front. Fixture/probe body diameter, tolerance, enclosure clearance, stroke and opposite-side support geometry are not specified, so mechanical mating is not certified."
+  },
+  "upper_proposed": {
+    "row_y_absolute_mm": 12.15,
+    "row_y_relative_mm": -4.85,
+    "pads": [
+      {
+        "ref": "J9",
+        "net": "/NRST",
+        "position_absolute_mm": [
+          17.46,
+          12.15
+        ],
+        "position_relative_mm": [
+          -2.54,
+          -4.85
+        ],
+        "edge_copper_clearance_mm": 0.875139,
+        "u1_courtyard_centerline_clearance_mm": 2.126678,
+        "u1_courtyard_visible_stroke_clearance_mm": 2.101678,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.059119,
+          "object": {
+            "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              17.125,
+              11.525
+            ],
+            "end_mm": [
+              17.125,
+              11.525
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 3.000232,
+          "object": {
+            "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+            "kind": "PCB_TRACK",
+            "net": "/SDA",
+            "start_mm": [
+              18.75,
+              15.35
+            ],
+            "end_mm": [
+              18.025,
+              16.025
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.184119,
+          "object": {
+            "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              17.125,
+              11.525
+            ],
+            "end_mm": [
+              17.125,
+              11.525
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": [
+          {
+            "pad": "J9",
+            "clearance_mm": 0.059119,
+            "shortfall_to_0_15_mm": 0.090881,
+            "object": {
+              "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                17.125,
+                11.525
+              ],
+              "end_mm": [
+                17.125,
+                11.525
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "ref": "J7",
+        "net": "/SWDIO",
+        "position_absolute_mm": [
+          18.73,
+          12.15
+        ],
+        "position_relative_mm": [
+          -1.27,
+          -4.85
+        ],
+        "edge_copper_clearance_mm": 1.336478,
+        "u1_courtyard_centerline_clearance_mm": 2.0,
+        "u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.561103,
+          "object": {
+            "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+            "kind": "PCB_VIA",
+            "net": "3V3",
+            "start_mm": [
+              19.8489,
+              12.6135
+            ],
+            "end_mm": [
+              19.8489,
+              12.6135
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 2.750062,
+          "object": {
+            "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+            "kind": "PCB_TRACK",
+            "net": "/SDA",
+            "start_mm": [
+              18.75,
+              15.35
+            ],
+            "end_mm": [
+              18.025,
+              16.025
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.686103,
+          "object": {
+            "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+            "kind": "PCB_VIA",
+            "net": "3V3",
+            "start_mm": [
+              19.8489,
+              12.6135
+            ],
+            "end_mm": [
+              19.8489,
+              12.6135
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      },
+      {
+        "ref": "J10",
+        "net": "GND",
+        "position_absolute_mm": [
+          20,
+          12.15
+        ],
+        "position_relative_mm": [
+          0,
+          -4.85
+        ],
+        "edge_copper_clearance_mm": 1.5,
+        "u1_courtyard_centerline_clearance_mm": 2.0,
+        "u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "nearest_foreign_copper": {
+          "clearance_mm": -0.162493,
+          "object": {
+            "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+            "kind": "PCB_VIA",
+            "net": "3V3",
+            "start_mm": [
+              19.8489,
+              12.6135
+            ],
+            "end_mm": [
+              19.8489,
+              12.6135
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 2.620391,
+          "object": {
+            "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+            "kind": "PCB_TRACK",
+            "net": "/SCL",
+            "start_mm": [
+              19.8148,
+              15.2148
+            ],
+            "end_mm": [
+              19.2296,
+              15.8
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": -0.037493,
+          "object": {
+            "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+            "kind": "PCB_VIA",
+            "net": "3V3",
+            "start_mm": [
+              19.8489,
+              12.6135
+            ],
+            "end_mm": [
+              19.8489,
+              12.6135
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": [
+          {
+            "pad": "J10",
+            "clearance_mm": -0.162493,
+            "shortfall_to_0_15_mm": 0.312493,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          }
+        ]
+      },
+      {
+        "ref": "J8",
+        "net": "/SWCLK",
+        "position_absolute_mm": [
+          21.27,
+          12.15
+        ],
+        "position_relative_mm": [
+          1.27,
+          -4.85
+        ],
+        "edge_copper_clearance_mm": 1.336478,
+        "u1_courtyard_centerline_clearance_mm": 2.0,
+        "u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.173119,
+          "object": {
+            "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              20.525,
+              11.8
+            ],
+            "end_mm": [
+              20.525,
+              11.8
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 2.942728,
+          "object": {
+            "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+            "kind": "PCB_TRACK",
+            "net": "/SCL",
+            "start_mm": [
+              19.8148,
+              15.2148
+            ],
+            "end_mm": [
+              19.2296,
+              15.8
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.298119,
+          "object": {
+            "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              20.525,
+              11.8
+            ],
+            "end_mm": [
+              20.525,
+              11.8
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      },
+      {
+        "ref": "J11",
+        "net": "3V3",
+        "position_absolute_mm": [
+          22.54,
+          12.15
+        ],
+        "position_relative_mm": [
+          2.54,
+          -4.85
+        ],
+        "edge_copper_clearance_mm": 0.875139,
+        "u1_courtyard_centerline_clearance_mm": 2.126678,
+        "u1_courtyard_visible_stroke_clearance_mm": 2.101678,
+        "nearest_foreign_copper": {
+          "clearance_mm": -0.389256,
+          "object": {
+            "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+            "kind": "PCB_VIA",
+            "net": "/TXN_DRV",
+            "start_mm": [
+              22.4701,
+              12.4012
+            ],
+            "end_mm": [
+              22.4701,
+              12.4012
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 3.651184,
+          "object": {
+            "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+            "kind": "PCB_TRACK",
+            "net": "/SCL",
+            "start_mm": [
+              19.8148,
+              15.2148
+            ],
+            "end_mm": [
+              19.2296,
+              15.8
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": -0.264256,
+          "object": {
+            "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+            "kind": "PCB_VIA",
+            "net": "/TXN_DRV",
+            "start_mm": [
+              22.4701,
+              12.4012
+            ],
+            "end_mm": [
+              22.4701,
+              12.4012
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": [
+          {
+            "pad": "J11",
+            "clearance_mm": -0.389256,
+            "shortfall_to_0_15_mm": 0.539256,
+            "object": {
+              "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+              "kind": "PCB_VIA",
+              "net": "/TXN_DRV",
+              "start_mm": [
+                22.4701,
+                12.4012
+              ],
+              "end_mm": [
+                22.4701,
+                12.4012
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "min_edge_copper_clearance_mm": 0.875139,
+      "min_u1_courtyard_centerline_clearance_mm": 2.0,
+      "min_u1_courtyard_visible_stroke_clearance_mm": 1.975,
+      "min_foreign_copper_clearance_mm": -0.389256,
+      "min_foreign_F_Cu_trace_clearance_mm": 2.620391,
+      "min_drill_clearance_mm": -0.264256,
+      "foreign_copper_violation_count": 3,
+      "pads_with_foreign_copper_violations": [
+        "J9",
+        "J10",
+        "J11"
+      ]
+    }
+  },
+  "lower_original": {
+    "row_y_absolute_mm": 21.85,
+    "row_y_relative_mm": 4.85,
+    "pads": [
+      {
+        "ref": "J9",
+        "net": "/NRST",
+        "position_absolute_mm": [
+          17.46,
+          21.85
+        ],
+        "position_relative_mm": [
+          -2.54,
+          4.85
+        ],
+        "edge_copper_clearance_mm": 0.875139,
+        "u1_courtyard_centerline_clearance_mm": 2.126678,
+        "u1_courtyard_visible_stroke_clearance_mm": 2.101678,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.738431,
+          "object": {
+            "uuid": "979f39e1-888b-4392-b7e6-022d360e07fc",
+            "kind": "PCB_VIA",
+            "net": "12V",
+            "start_mm": [
+              16.7087,
+              20.6824
+            ],
+            "end_mm": [
+              16.7087,
+              20.6824
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 1.712199,
+          "object": {
+            "uuid": "1bc9a37a-053a-4c0b-b8c9-a26752848cf1",
+            "kind": "PCB_TRACK",
+            "net": "5V_LED",
+            "start_mm": [
+              18.6348,
+              20.0348
+            ],
+            "end_mm": [
+              17.7498,
+              19.1498
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.863431,
+          "object": {
+            "uuid": "979f39e1-888b-4392-b7e6-022d360e07fc",
+            "kind": "PCB_VIA",
+            "net": "12V",
+            "start_mm": [
+              16.7087,
+              20.6824
+            ],
+            "end_mm": [
+              16.7087,
+              20.6824
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      },
+      {
+        "ref": "J7",
+        "net": "/SWDIO",
+        "position_absolute_mm": [
+          18.73,
+          21.85
+        ],
+        "position_relative_mm": [
+          -1.27,
+          4.85
+        ],
+        "edge_copper_clearance_mm": 1.336478,
+        "u1_courtyard_centerline_clearance_mm": 2.0,
+        "u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.407603,
+          "object": {
+            "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              19.5,
+              22.575
+            ],
+            "end_mm": [
+              19.5,
+              22.575
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 1.367695,
+          "object": {
+            "uuid": "1bc9a37a-053a-4c0b-b8c9-a26752848cf1",
+            "kind": "PCB_TRACK",
+            "net": "5V_LED",
+            "start_mm": [
+              18.6348,
+              20.0348
+            ],
+            "end_mm": [
+              17.7498,
+              19.1498
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.532603,
+          "object": {
+            "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              19.5,
+              22.575
+            ],
+            "end_mm": [
+              19.5,
+              22.575
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      },
+      {
+        "ref": "J10",
+        "net": "GND",
+        "position_absolute_mm": [
+          20,
+          21.85
+        ],
+        "position_relative_mm": [
+          0,
+          4.85
+        ],
+        "edge_copper_clearance_mm": 1.5,
+        "u1_courtyard_centerline_clearance_mm": 2.0,
+        "u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.863868,
+          "object": {
+            "uuid": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "kind": "PCB_TRACK",
+            "net": "/VREF",
+            "start_mm": [
+              21.875,
+              20.475
+            ],
+            "end_mm": [
+              20.475,
+              20.625
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 0.863868,
+          "object": {
+            "uuid": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "kind": "PCB_TRACK",
+            "net": "/VREF",
+            "start_mm": [
+              21.875,
+              20.475
+            ],
+            "end_mm": [
+              20.475,
+              20.625
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.355696,
+          "object": {
+            "uuid": "3a55d84d-1984-4b74-85b7-d48c14e08ef4",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              19.5,
+              22.575
+            ],
+            "end_mm": [
+              19.5,
+              22.575
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      },
+      {
+        "ref": "J8",
+        "net": "/SWCLK",
+        "position_absolute_mm": [
+          21.27,
+          21.85
+        ],
+        "position_relative_mm": [
+          1.27,
+          4.85
+        ],
+        "edge_copper_clearance_mm": 1.336478,
+        "u1_courtyard_centerline_clearance_mm": 2.0,
+        "u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.249251,
+          "object": {
+            "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              20.625,
+              21.2234
+            ],
+            "end_mm": [
+              20.625,
+              21.2234
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 0.852723,
+          "object": {
+            "uuid": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "kind": "PCB_TRACK",
+            "net": "/VREF",
+            "start_mm": [
+              21.875,
+              20.475
+            ],
+            "end_mm": [
+              20.475,
+              20.625
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.374251,
+          "object": {
+            "uuid": "933322a0-110d-46f4-adfa-bc4f5c5b6eed",
+            "kind": "PCB_VIA",
+            "net": "GND",
+            "start_mm": [
+              20.625,
+              21.2234
+            ],
+            "end_mm": [
+              20.625,
+              21.2234
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      },
+      {
+        "ref": "J11",
+        "net": "3V3",
+        "position_absolute_mm": [
+          22.54,
+          21.85
+        ],
+        "position_relative_mm": [
+          2.54,
+          4.85
+        ],
+        "edge_copper_clearance_mm": 0.875139,
+        "u1_courtyard_centerline_clearance_mm": 2.126678,
+        "u1_courtyard_visible_stroke_clearance_mm": 2.101678,
+        "nearest_foreign_copper": {
+          "clearance_mm": 0.99812,
+          "object": {
+            "uuid": "0f71382e-a019-4fb5-bc7b-7fee64d75cfb",
+            "kind": "PCB_VIA",
+            "net": "5V_LED",
+            "start_mm": [
+              24.0901,
+              21.2901
+            ],
+            "end_mm": [
+              24.0901,
+              21.2901
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "nearest_foreign_F_Cu_trace": {
+          "clearance_mm": 1.077367,
+          "object": {
+            "uuid": "0a076ca7-2db2-4384-ad84-3fe8bd77b5e8",
+            "kind": "PCB_TRACK",
+            "net": "/VREF",
+            "start_mm": [
+              21.875,
+              20.475
+            ],
+            "end_mm": [
+              20.475,
+              20.625
+            ],
+            "copper_width_mm": 0.1
+          }
+        },
+        "nearest_drill": {
+          "clearance_mm": 0.192008,
+          "object": {
+            "uuid": "2e176cd8-2052-4529-9700-3129214e3ec2",
+            "kind": "PCB_VIA",
+            "net": "3V3",
+            "start_mm": [
+              23.0,
+              22.4
+            ],
+            "end_mm": [
+              23.0,
+              22.4
+            ],
+            "copper_width_mm": 0.5,
+            "drill_mm": 0.25
+          }
+        },
+        "foreign_copper_violations": []
+      }
+    ],
+    "summary": {
+      "min_edge_copper_clearance_mm": 0.875139,
+      "min_u1_courtyard_centerline_clearance_mm": 2.0,
+      "min_u1_courtyard_visible_stroke_clearance_mm": 1.975,
+      "min_foreign_copper_clearance_mm": 0.249251,
+      "min_foreign_F_Cu_trace_clearance_mm": 0.852723,
+      "min_drill_clearance_mm": 0.192008,
+      "foreign_copper_violation_count": 0,
+      "pads_with_foreign_copper_violations": []
+    }
+  },
+  "nearby_upper_candidates": [
+    {
+      "row_y_absolute_mm": 11.9,
+      "row_y_relative_mm": -5.1,
+      "pads": [
+        {
+          "ref": "J9",
+          "net": "/NRST",
+          "position_absolute_mm": [
+            17.46,
+            11.9
+          ],
+          "position_relative_mm": [
+            -2.54,
+            -5.1
+          ],
+          "edge_copper_clearance_mm": 0.652492,
+          "u1_courtyard_centerline_clearance_mm": 2.365249,
+          "u1_courtyard_visible_stroke_clearance_mm": 2.340249,
+          "nearest_foreign_copper": {
+            "clearance_mm": -0.147158,
+            "object": {
+              "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                17.125,
+                11.525
+              ],
+              "end_mm": [
+                17.125,
+                11.525
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 3.233287,
+            "object": {
+              "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+              "kind": "PCB_TRACK",
+              "net": "/SDA",
+              "start_mm": [
+                18.75,
+                15.35
+              ],
+              "end_mm": [
+                18.025,
+                16.025
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": -0.022158,
+            "object": {
+              "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                17.125,
+                11.525
+              ],
+              "end_mm": [
+                17.125,
+                11.525
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": [
+            {
+              "pad": "J9",
+              "clearance_mm": -0.147158,
+              "shortfall_to_0_15_mm": 0.297158,
+              "object": {
+                "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+                "kind": "PCB_VIA",
+                "net": "GND",
+                "start_mm": [
+                  17.125,
+                  11.525
+                ],
+                "end_mm": [
+                  17.125,
+                  11.525
+                ],
+                "copper_width_mm": 0.5,
+                "drill_mm": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "ref": "J7",
+          "net": "/SWDIO",
+          "position_absolute_mm": [
+            18.73,
+            11.9
+          ],
+          "position_relative_mm": [
+            -1.27,
+            -5.1
+          ],
+          "edge_copper_clearance_mm": 1.094251,
+          "u1_courtyard_centerline_clearance_mm": 2.25,
+          "u1_courtyard_visible_stroke_clearance_mm": 2.225,
+          "nearest_foreign_copper": {
+            "clearance_mm": 0.677034,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 3.000058,
+            "object": {
+              "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+              "kind": "PCB_TRACK",
+              "net": "/SDA",
+              "start_mm": [
+                18.75,
+                15.35
+              ],
+              "end_mm": [
+                18.025,
+                16.025
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": 0.802034,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": []
+        },
+        {
+          "ref": "J10",
+          "net": "GND",
+          "position_absolute_mm": [
+            20,
+            11.9
+          ],
+          "position_relative_mm": [
+            0,
+            -5.1
+          ],
+          "edge_copper_clearance_mm": 1.25,
+          "u1_courtyard_centerline_clearance_mm": 2.25,
+          "u1_courtyard_visible_stroke_clearance_mm": 2.225,
+          "nearest_foreign_copper": {
+            "clearance_mm": 0.079324,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 2.86997,
+            "object": {
+              "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+              "kind": "PCB_TRACK",
+              "net": "/SCL",
+              "start_mm": [
+                19.8148,
+                15.2148
+              ],
+              "end_mm": [
+                19.2296,
+                15.8
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": 0.009439,
+            "object": {
+              "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                20.525,
+                11.8
+              ],
+              "end_mm": [
+                20.525,
+                11.8
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": [
+            {
+              "pad": "J10",
+              "clearance_mm": 0.079324,
+              "shortfall_to_0_15_mm": 0.070676,
+              "object": {
+                "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+                "kind": "PCB_VIA",
+                "net": "3V3",
+                "start_mm": [
+                  19.8489,
+                  12.6135
+                ],
+                "end_mm": [
+                  19.8489,
+                  12.6135
+                ],
+                "copper_width_mm": 0.5,
+                "drill_mm": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "ref": "J8",
+          "net": "/SWCLK",
+          "position_absolute_mm": [
+            21.27,
+            11.9
+          ],
+          "position_relative_mm": [
+            1.27,
+            -5.1
+          ],
+          "edge_copper_clearance_mm": 1.094251,
+          "u1_courtyard_centerline_clearance_mm": 2.25,
+          "u1_courtyard_visible_stroke_clearance_mm": 2.225,
+          "nearest_foreign_copper": {
+            "clearance_mm": 0.101681,
+            "object": {
+              "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                20.525,
+                11.8
+              ],
+              "end_mm": [
+                20.525,
+                11.8
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 3.170153,
+            "object": {
+              "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+              "kind": "PCB_TRACK",
+              "net": "/SCL",
+              "start_mm": [
+                19.8148,
+                15.2148
+              ],
+              "end_mm": [
+                19.2296,
+                15.8
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": 0.226681,
+            "object": {
+              "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                20.525,
+                11.8
+              ],
+              "end_mm": [
+                20.525,
+                11.8
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": [
+            {
+              "pad": "J8",
+              "clearance_mm": 0.101681,
+              "shortfall_to_0_15_mm": 0.048319,
+              "object": {
+                "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+                "kind": "PCB_VIA",
+                "net": "GND",
+                "start_mm": [
+                  20.525,
+                  11.8
+                ],
+                "end_mm": [
+                  20.525,
+                  11.8
+                ],
+                "copper_width_mm": 0.5,
+                "drill_mm": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "ref": "J11",
+          "net": "3V3",
+          "position_absolute_mm": [
+            22.54,
+            11.9
+          ],
+          "position_relative_mm": [
+            2.54,
+            -5.1
+          ],
+          "edge_copper_clearance_mm": 0.652492,
+          "u1_courtyard_centerline_clearance_mm": 2.365249,
+          "u1_courtyard_visible_stroke_clearance_mm": 2.340249,
+          "nearest_foreign_copper": {
+            "clearance_mm": -0.143949,
+            "object": {
+              "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+              "kind": "PCB_VIA",
+              "net": "/TXN_DRV",
+              "start_mm": [
+                22.4701,
+                12.4012
+              ],
+              "end_mm": [
+                22.4701,
+                12.4012
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 3.841225,
+            "object": {
+              "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+              "kind": "PCB_TRACK",
+              "net": "/SCL",
+              "start_mm": [
+                19.8148,
+                15.2148
+              ],
+              "end_mm": [
+                19.2296,
+                15.8
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": -0.018949,
+            "object": {
+              "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+              "kind": "PCB_VIA",
+              "net": "/TXN_DRV",
+              "start_mm": [
+                22.4701,
+                12.4012
+              ],
+              "end_mm": [
+                22.4701,
+                12.4012
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": [
+            {
+              "pad": "J11",
+              "clearance_mm": -0.143949,
+              "shortfall_to_0_15_mm": 0.293949,
+              "object": {
+                "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+                "kind": "PCB_VIA",
+                "net": "/TXN_DRV",
+                "start_mm": [
+                  22.4701,
+                  12.4012
+                ],
+                "end_mm": [
+                  22.4701,
+                  12.4012
+                ],
+                "copper_width_mm": 0.5,
+                "drill_mm": 0.25
+              }
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "min_edge_copper_clearance_mm": 0.652492,
+        "min_u1_courtyard_centerline_clearance_mm": 2.25,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.225,
+        "min_foreign_copper_clearance_mm": -0.147158,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.86997,
+        "min_drill_clearance_mm": -0.022158,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      }
+    },
+    {
+      "row_y_absolute_mm": 12.4,
+      "row_y_relative_mm": -4.6,
+      "pads": [
+        {
+          "ref": "J9",
+          "net": "/NRST",
+          "position_absolute_mm": [
+            17.46,
+            12.4
+          ],
+          "position_relative_mm": [
+            -2.54,
+            -4.6
+          ],
+          "edge_copper_clearance_mm": 1.095326,
+          "u1_courtyard_centerline_clearance_mm": 1.890546,
+          "u1_courtyard_visible_stroke_clearance_mm": 1.865546,
+          "nearest_foreign_copper": {
+            "clearance_mm": 0.286936,
+            "object": {
+              "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                17.125,
+                11.525
+              ],
+              "end_mm": [
+                17.125,
+                11.525
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 2.76972,
+            "object": {
+              "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+              "kind": "PCB_TRACK",
+              "net": "/SDA",
+              "start_mm": [
+                18.75,
+                15.35
+              ],
+              "end_mm": [
+                18.025,
+                16.025
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": 0.411936,
+            "object": {
+              "uuid": "c23e0c08-835f-4c3b-b611-0f1491f0dd53",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                17.125,
+                11.525
+              ],
+              "end_mm": [
+                17.125,
+                11.525
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": []
+        },
+        {
+          "ref": "J7",
+          "net": "/SWDIO",
+          "position_absolute_mm": [
+            18.73,
+            12.4
+          ],
+          "position_relative_mm": [
+            -1.27,
+            -4.6
+          ],
+          "edge_copper_clearance_mm": 1.577904,
+          "u1_courtyard_centerline_clearance_mm": 1.75,
+          "u1_courtyard_visible_stroke_clearance_mm": 1.725,
+          "nearest_foreign_copper": {
+            "clearance_mm": 0.489087,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 2.500068,
+            "object": {
+              "uuid": "f45c37ba-a401-4e82-9bae-5005d6a5dba3",
+              "kind": "PCB_TRACK",
+              "net": "/SDA",
+              "start_mm": [
+                18.75,
+                15.35
+              ],
+              "end_mm": [
+                18.025,
+                16.025
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": 0.614087,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": []
+        },
+        {
+          "ref": "J10",
+          "net": "GND",
+          "position_absolute_mm": [
+            20,
+            12.4
+          ],
+          "position_relative_mm": [
+            0,
+            -4.6
+          ],
+          "edge_copper_clearance_mm": 1.75,
+          "u1_courtyard_centerline_clearance_mm": 1.75,
+          "u1_courtyard_visible_stroke_clearance_mm": 1.725,
+          "nearest_foreign_copper": {
+            "clearance_mm": -0.38844,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 2.370886,
+            "object": {
+              "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+              "kind": "PCB_TRACK",
+              "net": "/SCL",
+              "start_mm": [
+                19.8148,
+                15.2148
+              ],
+              "end_mm": [
+                19.2296,
+                15.8
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": -0.26344,
+            "object": {
+              "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+              "kind": "PCB_VIA",
+              "net": "3V3",
+              "start_mm": [
+                19.8489,
+                12.6135
+              ],
+              "end_mm": [
+                19.8489,
+                12.6135
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": [
+            {
+              "pad": "J10",
+              "clearance_mm": -0.38844,
+              "shortfall_to_0_15_mm": 0.53844,
+              "object": {
+                "uuid": "aec724d7-910d-4476-8596-faf5ed9c4c91",
+                "kind": "PCB_VIA",
+                "net": "3V3",
+                "start_mm": [
+                  19.8489,
+                  12.6135
+                ],
+                "end_mm": [
+                  19.8489,
+                  12.6135
+                ],
+                "copper_width_mm": 0.5,
+                "drill_mm": 0.25
+              }
+            }
+          ]
+        },
+        {
+          "ref": "J8",
+          "net": "/SWCLK",
+          "position_absolute_mm": [
+            21.27,
+            12.4
+          ],
+          "position_relative_mm": [
+            1.27,
+            -4.6
+          ],
+          "edge_copper_clearance_mm": 1.577904,
+          "u1_courtyard_centerline_clearance_mm": 1.75,
+          "u1_courtyard_visible_stroke_clearance_mm": 1.725,
+          "nearest_foreign_copper": {
+            "clearance_mm": 0.306569,
+            "object": {
+              "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                20.525,
+                11.8
+              ],
+              "end_mm": [
+                20.525,
+                11.8
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 2.718707,
+            "object": {
+              "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+              "kind": "PCB_TRACK",
+              "net": "/SCL",
+              "start_mm": [
+                19.8148,
+                15.2148
+              ],
+              "end_mm": [
+                19.2296,
+                15.8
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": 0.431569,
+            "object": {
+              "uuid": "40c4b1e1-7756-4ce1-bda3-bca238572adb",
+              "kind": "PCB_VIA",
+              "net": "GND",
+              "start_mm": [
+                20.525,
+                11.8
+              ],
+              "end_mm": [
+                20.525,
+                11.8
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": []
+        },
+        {
+          "ref": "J11",
+          "net": "3V3",
+          "position_absolute_mm": [
+            22.54,
+            12.4
+          ],
+          "position_relative_mm": [
+            2.54,
+            -4.6
+          ],
+          "edge_copper_clearance_mm": 1.095326,
+          "u1_courtyard_centerline_clearance_mm": 1.890546,
+          "u1_courtyard_visible_stroke_clearance_mm": 1.865546,
+          "nearest_foreign_copper": {
+            "clearance_mm": -0.58009,
+            "object": {
+              "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+              "kind": "PCB_VIA",
+              "net": "/TXN_DRV",
+              "start_mm": [
+                22.4701,
+                12.4012
+              ],
+              "end_mm": [
+                22.4701,
+                12.4012
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "nearest_foreign_F_Cu_trace": {
+            "clearance_mm": 3.467884,
+            "object": {
+              "uuid": "8d9215ff-57d2-4cfe-b265-9d1383123ef5",
+              "kind": "PCB_TRACK",
+              "net": "/SCL",
+              "start_mm": [
+                19.8148,
+                15.2148
+              ],
+              "end_mm": [
+                19.2296,
+                15.8
+              ],
+              "copper_width_mm": 0.1
+            }
+          },
+          "nearest_drill": {
+            "clearance_mm": -0.45509,
+            "object": {
+              "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+              "kind": "PCB_VIA",
+              "net": "/TXN_DRV",
+              "start_mm": [
+                22.4701,
+                12.4012
+              ],
+              "end_mm": [
+                22.4701,
+                12.4012
+              ],
+              "copper_width_mm": 0.5,
+              "drill_mm": 0.25
+            }
+          },
+          "foreign_copper_violations": [
+            {
+              "pad": "J11",
+              "clearance_mm": -0.58009,
+              "shortfall_to_0_15_mm": 0.73009,
+              "object": {
+                "uuid": "c9109969-bc38-4a0a-b416-470be8273456",
+                "kind": "PCB_VIA",
+                "net": "/TXN_DRV",
+                "start_mm": [
+                  22.4701,
+                  12.4012
+                ],
+                "end_mm": [
+                  22.4701,
+                  12.4012
+                ],
+                "copper_width_mm": 0.5,
+                "drill_mm": 0.25
+              }
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "min_edge_copper_clearance_mm": 1.095326,
+        "min_u1_courtyard_centerline_clearance_mm": 1.75,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.725,
+        "min_foreign_copper_clearance_mm": -0.58009,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.370886,
+        "min_drill_clearance_mm": -0.45509,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      }
+    }
+  ],
+  "upper_y_scan": {
+    "absolute_range_mm": [
+      11.9,
+      12.4
+    ],
+    "relative_range_mm": [
+      -5.1,
+      -4.6
+    ],
+    "step_mm": 0.025,
+    "results": [
+      {
+        "row_y_absolute_mm": 11.9,
+        "row_y_relative_mm": -5.1,
+        "min_edge_copper_clearance_mm": 0.652492,
+        "min_u1_courtyard_centerline_clearance_mm": 2.25,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.225,
+        "min_foreign_copper_clearance_mm": -0.147158,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.86997,
+        "min_drill_clearance_mm": -0.022158,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 11.925,
+        "row_y_relative_mm": -5.075,
+        "min_edge_copper_clearance_mm": 0.674859,
+        "min_u1_courtyard_centerline_clearance_mm": 2.225,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.2,
+        "min_foreign_copper_clearance_mm": -0.168697,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.845009,
+        "min_drill_clearance_mm": -0.043697,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 11.95,
+        "row_y_relative_mm": -5.05,
+        "min_edge_copper_clearance_mm": 0.697204,
+        "min_u1_courtyard_centerline_clearance_mm": 2.2,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.175,
+        "min_foreign_copper_clearance_mm": -0.193418,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.820049,
+        "min_drill_clearance_mm": -0.068418,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 11.975,
+        "row_y_relative_mm": -5.025,
+        "min_edge_copper_clearance_mm": 0.719527,
+        "min_u1_courtyard_centerline_clearance_mm": 2.175,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.15,
+        "min_foreign_copper_clearance_mm": -0.218106,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.795089,
+        "min_drill_clearance_mm": -0.093106,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.0,
+        "row_y_relative_mm": -5.0,
+        "min_edge_copper_clearance_mm": 0.741827,
+        "min_u1_courtyard_centerline_clearance_mm": 2.15,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.125,
+        "min_foreign_copper_clearance_mm": -0.242756,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.77013,
+        "min_drill_clearance_mm": -0.117756,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.025,
+        "row_y_relative_mm": -4.975,
+        "min_edge_copper_clearance_mm": 0.764105,
+        "min_u1_courtyard_centerline_clearance_mm": 2.125,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.1,
+        "min_foreign_copper_clearance_mm": -0.267361,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.745172,
+        "min_drill_clearance_mm": -0.142361,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.05,
+        "row_y_relative_mm": -4.95,
+        "min_edge_copper_clearance_mm": 0.786359,
+        "min_u1_courtyard_centerline_clearance_mm": 2.1,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.075,
+        "min_foreign_copper_clearance_mm": -0.291911,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.720214,
+        "min_drill_clearance_mm": -0.166911,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.075,
+        "row_y_relative_mm": -4.925,
+        "min_edge_copper_clearance_mm": 0.80859,
+        "min_u1_courtyard_centerline_clearance_mm": 2.075,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.05,
+        "min_foreign_copper_clearance_mm": -0.316395,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.695257,
+        "min_drill_clearance_mm": -0.191395,
+        "foreign_copper_violation_count": 4,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J8",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.1,
+        "row_y_relative_mm": -4.9,
+        "min_edge_copper_clearance_mm": 0.830797,
+        "min_u1_courtyard_centerline_clearance_mm": 2.05,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.025,
+        "min_foreign_copper_clearance_mm": -0.340795,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.670301,
+        "min_drill_clearance_mm": -0.215795,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.125,
+        "row_y_relative_mm": -4.875,
+        "min_edge_copper_clearance_mm": 0.85298,
+        "min_u1_courtyard_centerline_clearance_mm": 2.025,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 2.0,
+        "min_foreign_copper_clearance_mm": -0.365092,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.645345,
+        "min_drill_clearance_mm": -0.240092,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.15,
+        "row_y_relative_mm": -4.85,
+        "min_edge_copper_clearance_mm": 0.875139,
+        "min_u1_courtyard_centerline_clearance_mm": 2.0,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.975,
+        "min_foreign_copper_clearance_mm": -0.389256,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.620391,
+        "min_drill_clearance_mm": -0.264256,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.175,
+        "row_y_relative_mm": -4.825,
+        "min_edge_copper_clearance_mm": 0.897274,
+        "min_u1_courtyard_centerline_clearance_mm": 1.975,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.95,
+        "min_foreign_copper_clearance_mm": -0.413246,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.595436,
+        "min_drill_clearance_mm": -0.288246,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.2,
+        "row_y_relative_mm": -4.8,
+        "min_edge_copper_clearance_mm": 0.919383,
+        "min_u1_courtyard_centerline_clearance_mm": 1.95,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.925,
+        "min_foreign_copper_clearance_mm": -0.437004,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.570483,
+        "min_drill_clearance_mm": -0.312004,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.225,
+        "row_y_relative_mm": -4.775,
+        "min_edge_copper_clearance_mm": 0.941467,
+        "min_u1_courtyard_centerline_clearance_mm": 1.925,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.9,
+        "min_foreign_copper_clearance_mm": -0.460441,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.545531,
+        "min_drill_clearance_mm": -0.335441,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.25,
+        "row_y_relative_mm": -4.75,
+        "min_edge_copper_clearance_mm": 0.963526,
+        "min_u1_courtyard_centerline_clearance_mm": 1.9,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.875,
+        "min_foreign_copper_clearance_mm": -0.483424,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.520579,
+        "min_drill_clearance_mm": -0.358424,
+        "foreign_copper_violation_count": 3,
+        "pads_with_foreign_copper_violations": [
+          "J9",
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.275,
+        "row_y_relative_mm": -4.725,
+        "min_edge_copper_clearance_mm": 0.985559,
+        "min_u1_courtyard_centerline_clearance_mm": 1.875,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.85,
+        "min_foreign_copper_clearance_mm": -0.505735,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.495628,
+        "min_drill_clearance_mm": -0.380735,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.3,
+        "row_y_relative_mm": -4.7,
+        "min_edge_copper_clearance_mm": 1.007566,
+        "min_u1_courtyard_centerline_clearance_mm": 1.85,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.825,
+        "min_foreign_copper_clearance_mm": -0.527006,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.470678,
+        "min_drill_clearance_mm": -0.402006,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.325,
+        "row_y_relative_mm": -4.675,
+        "min_edge_copper_clearance_mm": 1.029547,
+        "min_u1_courtyard_centerline_clearance_mm": 1.825,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.8,
+        "min_foreign_copper_clearance_mm": -0.546596,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.445728,
+        "min_drill_clearance_mm": -0.421596,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.35,
+        "row_y_relative_mm": -4.65,
+        "min_edge_copper_clearance_mm": 1.0515,
+        "min_u1_courtyard_centerline_clearance_mm": 1.8,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.775,
+        "min_foreign_copper_clearance_mm": -0.563354,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.42078,
+        "min_drill_clearance_mm": -0.438354,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.375,
+        "row_y_relative_mm": -4.625,
+        "min_edge_copper_clearance_mm": 1.073427,
+        "min_u1_courtyard_centerline_clearance_mm": 1.775,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.75,
+        "min_foreign_copper_clearance_mm": -0.575351,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.395833,
+        "min_drill_clearance_mm": -0.450351,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      },
+      {
+        "row_y_absolute_mm": 12.4,
+        "row_y_relative_mm": -4.6,
+        "min_edge_copper_clearance_mm": 1.095326,
+        "min_u1_courtyard_centerline_clearance_mm": 1.75,
+        "min_u1_courtyard_visible_stroke_clearance_mm": 1.725,
+        "min_foreign_copper_clearance_mm": -0.58009,
+        "min_foreign_F_Cu_trace_clearance_mm": 2.370886,
+        "min_drill_clearance_mm": -0.45509,
+        "foreign_copper_violation_count": 2,
+        "pads_with_foreign_copper_violations": [
+          "J10",
+          "J11"
+        ]
+      }
+    ]
+  },
+  "conclusion": {
+    "selected": "Keep the original lower row at absolute y=21.85 (relative y=+4.85).",
+    "reason": "The lower row has no baseline foreign-copper violations (minimum 0.249251 mm). The upper proposed row has three: J9/GND clearance 0.059119 mm, J10/3V3 overlap 0.162493 mm, J11/TXN_DRV overlap 0.389256 mm. J10 and J11 also overlap existing drill geometry.",
+    "upper_adjustment": "A simple vertical move within relative y=-5.1 to -4.6 cannot eliminate the J11/TXN_DRV via conflict. Moving to y=12.4 clears the J9/GND problem but worsens the J10 and J11 overlaps; an upper layout therefore requires at least those two via locations and their connected routing to be redesigned, followed by refill and DRC.",
+    "files_modified_by_review": [
+      "docs/verification_swd_top_20261005/placement_comparison.json"
+    ]
+  }
+}

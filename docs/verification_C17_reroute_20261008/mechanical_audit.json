@@ -1,0 +1,191 @@
+{
+  "source": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\c17_reroute_20261008\\before\\ppg_pcb_v08.kicad_pcb",
+  "source_sha256": "a341f6f1e0e259c67a1eb5f3b38d15f205dbd09641d4371187e50dfa52584754",
+  "candidate": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\c17_reroute_20261008\\integrated\\ppg_pcb_v08.kicad_pcb",
+  "candidate_sha256": "eae91e981d70ecab493e7879cb164b4153b4c0e78430ac3255dfbea034b25f30",
+  "passed": true,
+  "checks": {
+    "source_candidate_hashes_stable": true,
+    "no_footprints_added_or_removed": true,
+    "all_original_footprints_and_physical_pad_geometry_unchanged": true,
+    "all_original_pad_nets_unchanged": true,
+    "all_top_fixed": true,
+    "C17_bottom": true,
+    "C17_latest_user_position_and_angle": true,
+    "C17_value_and_library_match_schematic": true,
+    "C17_pin_nets_match_schematic": true,
+    "C17_standard_footprint_geometry_preserved": true,
+    "no_new_same_side_overlap": true,
+    "C17_body_inside_board": true,
+    "C17_copper_edge_at_least_0_30_mm": true,
+    "C17_via_hole_pad_margin_at_least_0_025_mm": true,
+    "C17_othernet_B_Cu_clearance_at_least_0_15_mm": true,
+    "C17_4_physical_and_2_numbered_pads": true
+  },
+  "footprint_counts": {
+    "before": 42,
+    "after": 42
+  },
+  "physical_pad_counts": {
+    "before": 155,
+    "after": 155
+  },
+  "numbered_pad_count_after": 125,
+  "changed_original_refs": [],
+  "C17": {
+    "position": [
+      20.5,
+      19.9
+    ],
+    "angle": 90.0,
+    "library_id": "Capacitor_SMD:C_0201_0603Metric",
+    "value": "100nF",
+    "pads": [
+      {
+        "number": "",
+        "position": [
+          20.5,
+          20.245
+        ],
+        "net": "",
+        "on_B_Cu": false,
+        "on_B_Paste": true,
+        "size": [
+          0.318,
+          0.36
+        ]
+      },
+      {
+        "number": "",
+        "position": [
+          20.5,
+          19.555
+        ],
+        "net": "",
+        "on_B_Cu": false,
+        "on_B_Paste": true,
+        "size": [
+          0.318,
+          0.36
+        ]
+      },
+      {
+        "number": "1",
+        "position": [
+          20.5,
+          20.22
+        ],
+        "net": "5V_LED",
+        "on_B_Cu": true,
+        "on_B_Paste": false,
+        "size": [
+          0.46,
+          0.4
+        ]
+      },
+      {
+        "number": "2",
+        "position": [
+          20.5,
+          19.58
+        ],
+        "net": "GND",
+        "on_B_Cu": true,
+        "on_B_Paste": false,
+        "size": [
+          0.46,
+          0.4
+        ]
+      }
+    ],
+    "edge_clearance_mm": {
+      "court": 3.0570269429631645,
+      "body": 3.4846516265488616,
+      "pads": 3.248214741021375
+    },
+    "schematic_path": "/49500282-0369-4cac-b640-45971f28f30c/9bb0a9f8-3eaa-4bac-855d-f4684c3d88de",
+    "pin_nets": {
+      "1": "5V_LED",
+      "2": "GND"
+    }
+  },
+  "C17_close_pairs": [
+    {
+      "refs": [
+        "C17",
+        "U5"
+      ],
+      "court_gap_mm": 0.008342445804440598,
+      "court_overlap_mm2": 0.0,
+      "body_gap_mm": 0.6705351470588629,
+      "body_overlap_mm2": 0.0,
+      "pads_gap_mm": 1.1137825514379558,
+      "pads_overlap_mm2": 0.0
+    },
+    {
+      "refs": [
+        "C17",
+        "U4"
+      ],
+      "court_gap_mm": 0.023900000000001143,
+      "court_overlap_mm2": 0.0,
+      "body_gap_mm": 0.8279961956434359,
+      "body_overlap_mm2": 0.0,
+      "pads_gap_mm": 0.5250443734712374,
+      "pads_overlap_mm2": 0.0
+    },
+    {
+      "refs": [
+        "C15",
+        "C17"
+      ],
+      "court_gap_mm": 0.060000000000002274,
+      "court_overlap_mm2": 0.0,
+      "body_gap_mm": 0.651920240520267,
+      "body_overlap_mm2": 0.0,
+      "pads_gap_mm": 0.3500000000000014,
+      "pads_overlap_mm2": 0.0
+    },
+    {
+      "refs": [
+        "C17",
+        "U2"
+      ],
+      "court_gap_mm": 0.19722986589256608,
+      "court_overlap_mm2": 0.0,
+      "body_gap_mm": 1.6498215418644564,
+      "body_overlap_mm2": 0.0,
+      "pads_gap_mm": 0.9499428736339866,
+      "pads_overlap_mm2": 0.0
+    },
+    {
+      "refs": [
+        "C1",
+        "C17"
+      ],
+      "court_gap_mm": 0.25,
+      "court_overlap_mm2": 0.0,
+      "body_gap_mm": 0.8500000000000014,
+      "body_overlap_mm2": 0.0,
+      "pads_gap_mm": 0.5400000000000027,
+      "pads_overlap_mm2": 0.0
+    },
+    {
+      "refs": [
+        "C17",
+        "R1"
+      ],
+      "court_gap_mm": 1.259999999999998,
+      "court_overlap_mm2": 0.0,
+      "body_gap_mm": 1.8668154702594484,
+      "body_overlap_mm2": 0.0,
+      "pads_gap_mm": 1.5572411502397443,
+      "pads_overlap_mm2": 0.0
+    }
+  ],
+  "new_same_side_overlaps": [],
+  "remaining_same_side_overlaps": [],
+  "C17_hole_pad_conflicts": [],
+  "C17_othernet_copper_pad_conflicts": [],
+  "method": "Native footprint courtyard/Fab polygons and exact circular board edge. Copper/hole analysis explicitly filters pad.IsOnLayer(B_Cu); paste-only unnumbered apertures are excluded from electrical clearance checks."
+}

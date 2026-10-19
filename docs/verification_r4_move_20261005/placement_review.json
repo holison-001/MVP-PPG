@@ -1,0 +1,400 @@
+{
+  "board_snapshot": "C:\\WORK\\모두의창업\\2라운드\\귀장착부\\2차_260914\\PPG_PCB_v0.8\\.git\\r4_move_20261005\\source_before\\kicad\\ppg_pcb_v08.kicad_pcb",
+  "board_sha256": "b155d6261735d3d23ba6ff1f02000b67d323d9c18ffc712be76f86a0421aa80d",
+  "read_only": true,
+  "CAD_modified": false,
+  "decision": "Preserve user placement and complete R4 routing; report the three remaining courtyard overlaps. No proposed location has been applied.",
+  "measurement_method": {
+    "courtyard": "Drawn B.Courtyard centerline polygons, before KiCad cached courtyard 0.005 mm inset. Graphic line width is excluded.",
+    "body": "Nominal closed B.Fab outline geometry; this is a footprint body representation, not measured package tolerance or a mechanical assembly certification.",
+    "pad": "KiCad effective B.Cu pad polygons, transformed to global coordinates.",
+    "units": "mm and mm^2"
+  },
+  "footprints": [
+    {
+      "reference": "R4",
+      "xy_mm": [
+        20.7,
+        12.1
+      ],
+      "rotation_deg": 90.0,
+      "courtyard_bounds_mm": [
+        20.35,
+        11.400001,
+        21.05,
+        12.799999
+      ],
+      "B_Fab_body_bounds_mm": [
+        20.55,
+        11.8,
+        20.85,
+        12.4
+      ],
+      "copper_pads": [
+        {
+          "number": "1",
+          "net": "/UART_TX",
+          "xy_mm": [
+            20.7,
+            12.42
+          ]
+        },
+        {
+          "number": "2",
+          "net": "3V3",
+          "xy_mm": [
+            20.7,
+            11.78
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "U3",
+      "xy_mm": [
+        22.5563,
+        13.3675
+      ],
+      "rotation_deg": 45.0,
+      "courtyard_bounds_mm": [
+        20.010716,
+        10.821916,
+        25.101884,
+        15.913084
+      ],
+      "B_Fab_body_bounds_mm": [
+        20.96531,
+        11.77651,
+        24.14729,
+        14.675648
+      ],
+      "copper_pads": [
+        {
+          "number": "1",
+          "net": "/UART_TX",
+          "xy_mm": [
+            22.379523,
+            14.88778
+          ]
+        },
+        {
+          "number": "2",
+          "net": "3V3",
+          "xy_mm": [
+            21.707772,
+            14.216028
+          ]
+        },
+        {
+          "number": "3",
+          "net": "3V3",
+          "xy_mm": [
+            21.03602,
+            13.544277
+          ]
+        },
+        {
+          "number": "4",
+          "net": "/TXN_DRV",
+          "xy_mm": [
+            22.733077,
+            11.84722
+          ]
+        },
+        {
+          "number": "5",
+          "net": "GND",
+          "xy_mm": [
+            23.404828,
+            12.518972
+          ]
+        },
+        {
+          "number": "6",
+          "net": "/TXP_DRV",
+          "xy_mm": [
+            24.07658,
+            13.190723
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "FB1",
+      "xy_mm": [
+        20.9197,
+        11.0681
+      ],
+      "rotation_deg": 0.0,
+      "courtyard_bounds_mm": [
+        19.9897,
+        10.5981,
+        21.8497,
+        11.5381
+      ],
+      "B_Fab_body_bounds_mm": [
+        20.4197,
+        10.8181,
+        21.4197,
+        11.3181
+      ],
+      "copper_pads": [
+        {
+          "number": "1",
+          "net": "/12V_IN",
+          "xy_mm": [
+            20.4347,
+            11.0681
+          ]
+        },
+        {
+          "number": "2",
+          "net": "12V",
+          "xy_mm": [
+            21.4047,
+            11.0681
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "C7",
+      "xy_mm": [
+        20.0,
+        12.33
+      ],
+      "rotation_deg": 90.0,
+      "courtyard_bounds_mm": [
+        19.65,
+        11.63,
+        20.35,
+        13.03
+      ],
+      "B_Fab_body_bounds_mm": [
+        19.85,
+        12.03,
+        20.15,
+        12.63
+      ],
+      "copper_pads": [
+        {
+          "number": "1",
+          "net": "3V3",
+          "xy_mm": [
+            20.0,
+            12.65
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy_mm": [
+            20.0,
+            12.01
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "U6",
+      "xy_mm": [
+        17.81,
+        13.7663
+      ],
+      "rotation_deg": 180.0,
+      "courtyard_bounds_mm": [
+        15.96,
+        12.0163,
+        19.66,
+        15.5163
+      ],
+      "B_Fab_body_bounds_mm": [
+        17.01,
+        12.3163,
+        18.61,
+        15.2163
+      ],
+      "copper_pads": [
+        {
+          "number": "1",
+          "net": "3V3",
+          "xy_mm": [
+            19.01,
+            12.8163
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "xy_mm": [
+            19.01,
+            13.7663
+          ]
+        },
+        {
+          "number": "3",
+          "net": "/UART_RX",
+          "xy_mm": [
+            19.01,
+            14.7163
+          ]
+        },
+        {
+          "number": "4",
+          "net": "/RXN_RCV",
+          "xy_mm": [
+            16.61,
+            14.7163
+          ]
+        },
+        {
+          "number": "5",
+          "net": "GND",
+          "xy_mm": [
+            16.61,
+            13.7663
+          ]
+        },
+        {
+          "number": "6",
+          "net": "/RXP_RCV",
+          "xy_mm": [
+            16.61,
+            12.8163
+          ]
+        }
+      ]
+    }
+  ],
+  "current_overlap_pairs": [
+    {
+      "pair": [
+        "R4",
+        "U3"
+      ],
+      "drawn_courtyard_overlap_area_mm2": 0.08042937459200004,
+      "drawn_courtyard_overlap_bounds_mm": [
+        20.648928,
+        12.398926999999999,
+        21.05,
+        12.799999
+      ],
+      "drawn_courtyard_overlap_bbox_size_mm": [
+        0.4010719999999992,
+        0.401072000000001
+      ],
+      "nominal_B_Fab_body_gap_mm": 0.4406625820744236,
+      "nominal_B_Fab_body_overlap_area_mm2": 0.0,
+      "minimum_copper_pad_gap_mm": 0.47281047746427923,
+      "closest_pad_numbers": [
+        "1",
+        "3"
+      ],
+      "classification": "courtyard overlap only; no nominal B.Fab body or copper pad overlap"
+    },
+    {
+      "pair": [
+        "R4",
+        "FB1"
+      ],
+      "drawn_courtyard_overlap_area_mm2": 0.0966693000000002,
+      "drawn_courtyard_overlap_bounds_mm": [
+        20.35,
+        11.400001,
+        21.05,
+        11.5381
+      ],
+      "drawn_courtyard_overlap_bbox_size_mm": [
+        0.6999999999999993,
+        0.13809900000000042
+      ],
+      "nominal_B_Fab_body_gap_mm": 0.4819000000000013,
+      "nominal_B_Fab_body_overlap_area_mm2": 0.0,
+      "minimum_copper_pad_gap_mm": 0.16287556600055264,
+      "closest_pad_numbers": [
+        "2",
+        "1"
+      ],
+      "classification": "courtyard overlap only; no nominal B.Fab body or copper pad overlap"
+    },
+    {
+      "pair": [
+        "C7",
+        "U6"
+      ],
+      "drawn_courtyard_overlap_area_mm2": 0.010137000000001586,
+      "drawn_courtyard_overlap_bounds_mm": [
+        19.65,
+        12.0163,
+        19.66,
+        13.03
+      ],
+      "drawn_courtyard_overlap_bbox_size_mm": [
+        0.010000000000001563,
+        1.0137
+      ],
+      "nominal_B_Fab_body_gap_mm": 1.242999473048965,
+      "nominal_B_Fab_body_overlap_area_mm2": 0.0,
+      "minimum_copper_pad_gap_mm": 0.39000000000000057,
+      "closest_pad_numbers": [
+        "1",
+        "1"
+      ],
+      "classification": "courtyard overlap only; no nominal B.Fab body or copper pad overlap"
+    }
+  ],
+  "R4_C7_current_drawn_courtyards": {
+    "overlap_area_mm2": 0.0,
+    "gap_mm": 0.0,
+    "note": "Boundaries touch; KiCad cached courtyards have approximately 0.01 mm separation and this is not one of the three reported DRC courtyard overlaps."
+  },
+  "unapplied_offset_check": {
+    "C7_only_x_plus_0_02_mm": {
+      "candidate_xy_mm": [
+        20.02,
+        12.33
+      ],
+      "orientation_deg": 90,
+      "applied": false,
+      "U6_courtyard_gap_mm": 0.00999999999999801,
+      "R4_new_courtyard_overlap_area_mm2": 0.02339997999999948,
+      "note": "Resolves C7-U6 but creates C7-R4 courtyard overlap, so not a complete placement fix."
+    }
+  },
+  "bounded_position_search": {
+    "applied": false,
+    "C7_assumed_xy_mm": [
+      20.02,
+      12.33
+    ],
+    "R4_orientations_deg": [
+      90,
+      0,
+      180,
+      270
+    ],
+    "grid_step_mm": 0.01,
+    "center_range_x_mm": [
+      17.5,
+      23.9
+    ],
+    "center_range_y_mm": [
+      10,
+      15.3
+    ],
+    "constraints": {
+      "minimum_courtyard_gap_mm": 0.005,
+      "minimum_pad_to_other_component_pad_mm": 0.15,
+      "minimum_pad_to_existing_via_copper_mm": 0.15,
+      "minimum_pad_to_board_edge_mm": 0.3
+    },
+    "candidates_satisfying_all_constraints": 0,
+    "note": "Conservative search applied 0.15 mm even to same-net pads/vias. No close alternative was verified; this finite grid search does not prove that no feasible continuous or differently routed solution exists. Track routing was not changed or included as an obstacle for this position search."
+  },
+  "scope_limits": [
+    "No footprint, pad, via, track or CAD file was altered.",
+    "Other user-position changes were preserved.",
+    "No full DRC pass is asserted while the three courtyard overlaps remain.",
+    "No expansion of manufacturer rules or fabrication approval is included."
+  ]
+}

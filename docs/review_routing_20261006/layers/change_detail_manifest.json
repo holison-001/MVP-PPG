@@ -1,0 +1,51 @@
+{
+  "board_sha256": "5058f421e6e8d56442d0f3bb0674544cc2cda25106a297b010cab9f6ea7ee266",
+  "components": [
+    {
+      "reference": "D6",
+      "layer": "F.Cu",
+      "center_mm": [
+        19.65,
+        21.1
+      ],
+      "rotation_deg": 0.0,
+      "value": "ESD351DPYR",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    {
+      "reference": "D7",
+      "layer": "F.Cu",
+      "center_mm": [
+        21.3,
+        21.0
+      ],
+      "rotation_deg": 180.0,
+      "value": "ESD351DPYR",
+      "footprint": "TI_DPY0002A_1x0.6"
+    },
+    {
+      "reference": "C15",
+      "layer": "B.Cu",
+      "center_mm": [
+        20.8545,
+        19.4786
+      ],
+      "rotation_deg": 0.0,
+      "value": "100nF 16V X7R",
+      "footprint": "C_0201_0603Metric"
+    },
+    {
+      "reference": "C16",
+      "layer": "B.Cu",
+      "center_mm": [
+        23.3884,
+        16.0718
+      ],
+      "rotation_deg": -90.0,
+      "value": "100nF 16V X7R",
+      "footprint": "C_0201_0603Metric"
+    }
+  ],
+  "svg_sha256": "8e5733b0da8ab3d8ee8dbcf19691b7a65801174cd6bbea00fc6192a3d9cd69b6",
+  "png_sha256": "8ff2e20408ca21e59274d4ef782b734e820ea32519456fc4573ecec6146a523b"
+}
