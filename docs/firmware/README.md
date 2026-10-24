@@ -19,6 +19,30 @@
 
 명령 번호와 필드 및 처리 시간은 구현할 초안입니다. 프로파일별 LED 전류와 ADC 허용 범위, 실제 SRAM 사용량과 최대 부하 통신은 구현·실물 시험으로 확정해야 합니다.
 
+## 보레이트와 전송률 계산
+
+USART1 입력 클럭이 명목 48 MHz이고 USART 프리스케일러 1, 오버샘플링 16배(`OVER8=0`), `BRR=192=0x00C0`이면 `48,000,000 ÷ 1 ÷ 192 = 250,000 bps`로 **명목 분주 오차는 0%**입니다. 실제 발진기 오차와 온도 드리프트 및 PC USB-UART 어댑터의 250000 baud 지원은 별도로 검증합니다. [ST 공식 USART 드라이버](https://github.com/STMicroelectronics/stm32c0xx-hal-driver/blob/main/Inc/stm32c0xx_ll_usart.h)
+
+센서 샘플률 오차 +2%와 초당 200개 DATA 프레임을 반영한 169,004.8 bps에 최대 62바이트 제어 응답을 초당 5개 보내는 3,100 bps를 합하면 **172,104.8 bps**입니다. `172,104.8 ÷ 250,000 × 100 = 68.84192%`이므로 소수 둘째 자리 사용률은 **68.84%**입니다. 복구 이벤트가 없는 정상 상태 기준이며 지연 후 FIFO 배출과 복구 이벤트 부하는 별도 시험합니다.
+
+## PC 명령행 프로그램 제안
+
+PC에서 사용할 실행 파일 이름을 `ppg`로 제안합니다. 아래는 인터페이스 제안이며 아직 구현된 명령은 아닙니다.
+
+```text
+ppg ports
+ppg info --port COM5
+ppg status --port COM5
+ppg config show --port COM5
+ppg config apply --port COM5 --file settings.json
+ppg capture --port COM5 --config settings.json --duration 600 --out run01
+ppg stop --port COM5
+ppg stats clear --port COM5
+ppg validate --in run01
+```
+
+`capture`가 포트와 수집 파일을 소유하며, 기간 만료 또는 Ctrl+C 한 번으로 같은 연결에서 STOP과 종료 통계를 확인합니다. 기존 측정이 실행 중이면 임의 재시작하지 않습니다. 별도 `stop`은 포트가 해제된 뒤 장치에 남은 측정을 정지하는 복구용입니다. `rx.bin`에 받은 UART 바이트를 그대로, `session.json`에 설정과 세션 정보를, `summary.json`에 오류·손실과 정지 확인 결과를 보관합니다. COM5는 예시이며 LED 전류와 ADC 설정은 실물 검증 후 입력합니다.
+
 ## 이전 초안
 
 - [v0.2 개발계획](MVP-PPG_펌웨어_개발계획_초안_v0.2_20261019.docx): 수집·DMA·FIFO와 오류 복구 계획
